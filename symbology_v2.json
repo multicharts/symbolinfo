@@ -2920,6 +2920,54 @@
         }
       },
       {
+        "id": "istanbul_futures",
+        "kinds": {
+          "rt": {
+            "priority": 57,
+            "prefix": "BIST",
+            "prefix_alias": [
+              "IST"
+            ],
+            "prefix_no_perm": [
+              "BIST_DLY"
+            ],
+            "perm": "bist"
+          }
+        }
+      },
+      {
+        "id": "istanbul_forwards",
+        "kinds": {
+          "rt": {
+            "priority": 57,
+            "prefix": "BIST",
+            "prefix_alias": [
+              "IST"
+            ],
+            "prefix_no_perm": [
+              "BIST_DLY"
+            ],
+            "perm": "bist"
+          }
+        }
+      },
+      {
+        "id": "istanbul_continuous",
+        "kinds": {
+          "rt": {
+            "priority": 57,
+            "prefix": "BIST",
+            "prefix_alias": [
+              "IST"
+            ],
+            "prefix_no_perm": [
+              "BIST_DLY"
+            ],
+            "perm": "bist"
+          }
+        }
+      },
+      {
         "id": "toronto_venture_stocks_delayed",
         "kinds": {
           "rt": {
@@ -2939,6 +2987,33 @@
             "prefix": "SSE_DLY",
             "priority": 58,
             "perm": "sf_dly"
+          }
+        }
+      },
+      {
+        "id": "istanbul_futures_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 58,
+            "prefix": "BIST_DLY"
+          }
+        }
+      },
+      {
+        "id": "istanbul_forwards_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 58,
+            "prefix": "BIST_DLY"
+          }
+        }
+      },
+      {
+        "id": "istanbul_continuous_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 58,
+            "prefix": "BIST_DLY"
           }
         }
       },
