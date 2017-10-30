@@ -2538,6 +2538,24 @@
         ]
       },
       {
+        "priority": 80,
+        "prefix": "MYX",
+        "prefix_no_perm": [
+          "MYX_DLY"
+        ],
+        "groups": [
+          {
+            "group": "malaysia_stocks"
+          },
+          {
+            "group": "malaysia_futures"
+          },
+          {
+            "group": "malaysia_continuous"
+          }
+        ]
+      },
+      {
         "prefix": "EGX_DLY",
         "groups": [
           {
@@ -2612,6 +2630,21 @@
           {
             "group": "dubai_stocks_delayed",
             "priority": 86
+          }
+        ]
+      },
+      {
+        "priority": 81,
+        "prefix": "MYX_DLY",
+        "groups": [
+          {
+            "group": "malaysia_stocks_delayed"
+          },
+          {
+            "group": "malaysia_futures_delayed"
+          },
+          {
+            "group": "malaysia_continuous_delayed"
           }
         ]
       },
@@ -5709,6 +5742,24 @@
         ]
       },
       {
+        "priority": 80,
+        "prefix": "MYX",
+        "prefix_no_perm": [
+          "MYX_DLY"
+        ],
+        "groups": [
+          {
+            "group": "malaysia_stocks"
+          },
+          {
+            "group": "malaysia_futures"
+          },
+          {
+            "group": "malaysia_continuous"
+          }
+        ]
+      },
+      {
         "prefix": "EGX_DLY",
         "groups": [
           {
@@ -5783,6 +5834,21 @@
           {
             "group": "dubai_stocks_delayed",
             "priority": 86
+          }
+        ]
+      },
+      {
+        "priority": 81,
+        "prefix": "MYX_DLY",
+        "groups": [
+          {
+            "group": "malaysia_stocks_delayed"
+          },
+          {
+            "group": "malaysia_futures_delayed"
+          },
+          {
+            "group": "malaysia_continuous_delayed"
           }
         ]
       },
