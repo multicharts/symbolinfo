@@ -3956,6 +3956,30 @@
         }
       },
       {
+        "id": "malaysia_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 80,
+            "prefix": "MYX",
+            "prefix_no_perm": [
+              "MYX_DLY"
+            ]
+          }
+        }
+      },
+      {
+        "id": "malaysia_futures",
+        "kinds": {
+          "rt": {
+            "priority": 80,
+            "prefix": "MYX",
+            "prefix_no_perm": [
+              "MYX_DLY"
+            ]
+          }
+        }
+      },
+      {
         "id": "egyptian_indices_delayed",
         "kinds": {
           "rt": {
@@ -3970,6 +3994,18 @@
           "rt": {
             "priority": 80,
             "prefix": "NSENG_DLY"
+          }
+        }
+      },
+      {
+        "id": "malaysia_continuous",
+        "kinds": {
+          "rt": {
+            "priority": 80,
+            "prefix": "MYX",
+            "prefix_no_perm": [
+              "MYX_DLY"
+            ]
           }
         }
       },
@@ -4024,6 +4060,33 @@
           "rt": {
             "priority": 81,
             "prefix": "NSENG_DLY"
+          }
+        }
+      },
+      {
+        "id": "malaysia_stocks_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 81,
+            "prefix": "MYX_DLY"
+          }
+        }
+      },
+      {
+        "id": "malaysia_futures_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 81,
+            "prefix": "MYX_DLY"
+          }
+        }
+      },
+      {
+        "id": "malaysia_continuous_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 81,
+            "prefix": "MYX_DLY"
           }
         }
       },
