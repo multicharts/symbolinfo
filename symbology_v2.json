@@ -3429,7 +3429,7 @@
           "rt": {
             "prefix": "VIE",
             "priority": 70,
-            "perm": "wb",
+            "perm": "vie",
             "prefix_no_perm": [
               "VIE_DLY"
             ],
@@ -3579,7 +3579,7 @@
           "rt": {
             "prefix": "VIE",
             "priority": 75,
-            "perm": "wb",
+            "perm": "vie",
             "prefix_no_perm": [
               "VIE_DLY"
             ],
