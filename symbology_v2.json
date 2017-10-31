@@ -2573,7 +2573,7 @@
         "kinds": {
           "rt": {
             "priority": 53,
-            "prefix": "BSC_DLY",
+            "prefix": "BCS_DLY",
             "perm": "sf_dly"
           }
         }
@@ -2796,7 +2796,7 @@
         "kinds": {
           "rt": {
             "priority": 55,
-            "prefix": "BSC_DLY",
+            "prefix": "BCS_DLY",
             "perm": "sf_dly"
           }
         }
