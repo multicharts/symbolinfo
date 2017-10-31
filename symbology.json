@@ -1467,7 +1467,7 @@
           {
             "group": "vienna_indices",
             "priority": 70,
-            "perm": "wb",
+            "perm": "vie",
             "prefix_no_perm": [
               "VIE_DLY"
             ],
@@ -1478,7 +1478,7 @@
           {
             "group": "vienna_stocks",
             "priority": 75,
-            "perm": "wb",
+            "perm": "vie",
             "prefix_no_perm": [
               "VIE_DLY"
             ],
@@ -4422,7 +4422,7 @@
           {
             "group": "vienna_indices",
             "priority": 70,
-            "perm": "wb",
+            "perm": "vie",
             "prefix_no_perm": [
               "VIE_DLY"
             ],
@@ -4433,7 +4433,7 @@
           {
             "group": "vienna_stocks",
             "priority": 75,
-            "perm": "wb",
+            "perm": "vie",
             "prefix_no_perm": [
               "VIE_DLY"
             ],
