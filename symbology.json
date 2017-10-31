@@ -1853,7 +1853,7 @@
         ]
       },
       {
-        "prefix": "BSC_DLY",
+        "prefix": "BCS_DLY",
         "perm": "sf_dly",
         "groups": [
           {
@@ -4808,7 +4808,7 @@
         ]
       },
       {
-        "prefix": "BSC_DLY",
+        "prefix": "BCS_DLY",
         "perm": "sf_dly",
         "groups": [
           {
