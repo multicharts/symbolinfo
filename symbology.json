@@ -297,9 +297,10 @@
       {
         "priority": 15,
         "prefix": "BITMEX",
+        "skip_in_search": false,
         "groups": [
           {
-            "group": "BITMEX"
+            "group": "bitmex2"
           }
         ]
       },
@@ -1138,19 +1139,6 @@
             ]
           },
           {
-            "group": "chix_europe_vienna",
-            "exchange_for_display": "CHXEUR_VIE",
-            "prefix_alias": [
-              "CHXEUR_VIE"
-            ],
-            "exchange_aliases": [
-              "VIE"
-            ],
-            "group_alias": [
-              "vienna"
-            ]
-          },
-          {
             "group": "chix_europe_lse_in",
             "exchange_for_display": "CHXEUR_LSIN",
             "prefix_alias": [
@@ -1204,6 +1192,13 @@
             "exchange_for_display": "CHXEUR_FRA",
             "prefix_alias": [
               "CHXEUR_FRA"
+            ]
+          },
+          {
+            "group": "chix_europe_vienna",
+            "exchange_for_display": "CHXEUR_VIE",
+            "prefix_alias": [
+              "CHXEUR_VIE"
             ]
           }
         ]
@@ -1453,42 +1448,6 @@
         ]
       },
       {
-        "prefix": "VIE",
-        "groups": [
-          {
-            "group": "vienna",
-            "priority": 50,
-            "perm": "permission_denied",
-            "prefix_no_perm": [
-              "CHXEUR"
-            ],
-            "skip_in_search": true
-          },
-          {
-            "group": "vienna_indices",
-            "priority": 70,
-            "perm": "vie",
-            "prefix_no_perm": [
-              "VIE_DLY"
-            ],
-            "prefix_alias": [
-              "WB"
-            ]
-          },
-          {
-            "group": "vienna_stocks",
-            "priority": 75,
-            "perm": "vie",
-            "prefix_no_perm": [
-              "VIE_DLY"
-            ],
-            "prefix_alias": [
-              "WB"
-            ]
-          }
-        ]
-      },
-      {
         "prefix": "BMV",
         "perm": "bmv",
         "prefix_no_perm": [
@@ -1674,6 +1633,23 @@
         ]
       },
       {
+        "prefix": "BCS",
+        "perm": "bcs",
+        "prefix_no_perm": [
+          "BCS_DLY"
+        ],
+        "groups": [
+          {
+            "group": "santiago_indices",
+            "priority": 52
+          },
+          {
+            "group": "santiago_stocks",
+            "priority": 54
+          }
+        ]
+      },
+      {
         "priority": 52,
         "search_boost": 0.6,
         "prefix": "BSE",
@@ -1779,23 +1755,6 @@
         ]
       },
       {
-        "prefix": "BCS",
-        "perm": "bcs",
-        "prefix_no_perm": [
-          "BCS_DLY"
-        ],
-        "groups": [
-          {
-            "group": "santiago_indices",
-            "priority": 52
-          },
-          {
-            "group": "santiago_stocks",
-            "priority": 54
-          }
-        ]
-      },
-      {
         "prefix": "BCBA",
         "groups": [
           {
@@ -1813,6 +1772,20 @@
             "prefix_no_perm": [
               "BCBA_DLY"
             ]
+          }
+        ]
+      },
+      {
+        "prefix": "BCS_DLY",
+        "perm": "sf_dly",
+        "groups": [
+          {
+            "group": "santiago_indices_delayed",
+            "priority": 53
+          },
+          {
+            "group": "santiago_stocks_delayed",
+            "priority": 55
           }
         ]
       },
@@ -1849,20 +1822,6 @@
           {
             "group": "taiwan_stocks_delayed",
             "priority": 57
-          }
-        ]
-      },
-      {
-        "prefix": "BCS_DLY",
-        "perm": "sf_dly",
-        "groups": [
-          {
-            "group": "santiago_indices_delayed",
-            "priority": 53
-          },
-          {
-            "group": "santiago_stocks_delayed",
-            "priority": 55
           }
         ]
       },
@@ -2168,6 +2127,26 @@
         ]
       },
       {
+        "prefix": "VIE",
+        "perm": "vie",
+        "prefix_no_perm": [
+          "VIE_DLY"
+        ],
+        "prefix_alias": [
+          "WB"
+        ],
+        "groups": [
+          {
+            "group": "vienna_indices",
+            "priority": 70
+          },
+          {
+            "group": "vienna_stocks",
+            "priority": 75
+          }
+        ]
+      },
+      {
         "prefix": "GPW",
         "perm": "gpw",
         "prefix_no_perm": [
@@ -2240,6 +2219,23 @@
         ]
       },
       {
+        "prefix": "VIE_DLY",
+        "perm": "sf_dly",
+        "prefix_alias": [
+          "WB_DLY"
+        ],
+        "groups": [
+          {
+            "group": "vienna_indices_delayed",
+            "priority": 71
+          },
+          {
+            "group": "vienna_stocks_delayed",
+            "priority": 76
+          }
+        ]
+      },
+      {
         "prefix": "GPW_DLY",
         "perm": "sf_dly",
         "groups": [
@@ -2279,23 +2275,6 @@
           },
           {
             "group": "telaviv_continuous_delayed",
-            "priority": 76
-          }
-        ]
-      },
-      {
-        "prefix": "VIE_DLY",
-        "perm": "sf_dly",
-        "prefix_alias": [
-          "WB_DLY"
-        ],
-        "groups": [
-          {
-            "group": "vienna_indices_delayed",
-            "priority": 71
-          },
-          {
-            "group": "vienna_stocks_delayed",
             "priority": 76
           }
         ]
@@ -3252,9 +3231,10 @@
       {
         "priority": 15,
         "prefix": "BITMEX",
+        "skip_in_search": false,
         "groups": [
           {
-            "group": "BITMEX"
+            "group": "bitmex2"
           }
         ]
       },
@@ -4093,19 +4073,6 @@
             ]
           },
           {
-            "group": "chix_europe_vienna",
-            "exchange_for_display": "CHXEUR_VIE",
-            "prefix_alias": [
-              "CHXEUR_VIE"
-            ],
-            "exchange_aliases": [
-              "VIE"
-            ],
-            "group_alias": [
-              "vienna"
-            ]
-          },
-          {
             "group": "chix_europe_lse_in",
             "exchange_for_display": "CHXEUR_LSIN",
             "prefix_alias": [
@@ -4159,6 +4126,13 @@
             "exchange_for_display": "CHXEUR_FRA",
             "prefix_alias": [
               "CHXEUR_FRA"
+            ]
+          },
+          {
+            "group": "chix_europe_vienna",
+            "exchange_for_display": "CHXEUR_VIE",
+            "prefix_alias": [
+              "CHXEUR_VIE"
             ]
           }
         ]
@@ -4408,42 +4382,6 @@
         ]
       },
       {
-        "prefix": "VIE",
-        "groups": [
-          {
-            "group": "vienna",
-            "priority": 50,
-            "perm": "permission_denied",
-            "prefix_no_perm": [
-              "CHXEUR"
-            ],
-            "skip_in_search": true
-          },
-          {
-            "group": "vienna_indices",
-            "priority": 70,
-            "perm": "vie",
-            "prefix_no_perm": [
-              "VIE_DLY"
-            ],
-            "prefix_alias": [
-              "WB"
-            ]
-          },
-          {
-            "group": "vienna_stocks",
-            "priority": 75,
-            "perm": "vie",
-            "prefix_no_perm": [
-              "VIE_DLY"
-            ],
-            "prefix_alias": [
-              "WB"
-            ]
-          }
-        ]
-      },
-      {
         "prefix": "BMV",
         "perm": "bmv",
         "prefix_no_perm": [
@@ -4629,6 +4567,23 @@
         ]
       },
       {
+        "prefix": "BCS",
+        "perm": "bcs",
+        "prefix_no_perm": [
+          "BCS_DLY"
+        ],
+        "groups": [
+          {
+            "group": "santiago_indices",
+            "priority": 52
+          },
+          {
+            "group": "santiago_stocks",
+            "priority": 54
+          }
+        ]
+      },
+      {
         "priority": 52,
         "search_boost": 0.6,
         "prefix": "BSE",
@@ -4734,23 +4689,6 @@
         ]
       },
       {
-        "prefix": "BCS",
-        "perm": "bcs",
-        "prefix_no_perm": [
-          "BCS_DLY"
-        ],
-        "groups": [
-          {
-            "group": "santiago_indices",
-            "priority": 52
-          },
-          {
-            "group": "santiago_stocks",
-            "priority": 54
-          }
-        ]
-      },
-      {
         "prefix": "BCBA",
         "groups": [
           {
@@ -4768,6 +4706,20 @@
             "prefix_no_perm": [
               "BCBA_DLY"
             ]
+          }
+        ]
+      },
+      {
+        "prefix": "BCS_DLY",
+        "perm": "sf_dly",
+        "groups": [
+          {
+            "group": "santiago_indices_delayed",
+            "priority": 53
+          },
+          {
+            "group": "santiago_stocks_delayed",
+            "priority": 55
           }
         ]
       },
@@ -4804,20 +4756,6 @@
           {
             "group": "taiwan_stocks_delayed",
             "priority": 57
-          }
-        ]
-      },
-      {
-        "prefix": "BCS_DLY",
-        "perm": "sf_dly",
-        "groups": [
-          {
-            "group": "santiago_indices_delayed",
-            "priority": 53
-          },
-          {
-            "group": "santiago_stocks_delayed",
-            "priority": 55
           }
         ]
       },
@@ -5123,6 +5061,26 @@
         ]
       },
       {
+        "prefix": "VIE",
+        "perm": "vie",
+        "prefix_no_perm": [
+          "VIE_DLY"
+        ],
+        "prefix_alias": [
+          "WB"
+        ],
+        "groups": [
+          {
+            "group": "vienna_indices",
+            "priority": 70
+          },
+          {
+            "group": "vienna_stocks",
+            "priority": 75
+          }
+        ]
+      },
+      {
         "prefix": "GPW",
         "perm": "gpw",
         "prefix_no_perm": [
@@ -5195,6 +5153,23 @@
         ]
       },
       {
+        "prefix": "VIE_DLY",
+        "perm": "sf_dly",
+        "prefix_alias": [
+          "WB_DLY"
+        ],
+        "groups": [
+          {
+            "group": "vienna_indices_delayed",
+            "priority": 71
+          },
+          {
+            "group": "vienna_stocks_delayed",
+            "priority": 76
+          }
+        ]
+      },
+      {
         "prefix": "GPW_DLY",
         "perm": "sf_dly",
         "groups": [
@@ -5234,23 +5209,6 @@
           },
           {
             "group": "telaviv_continuous_delayed",
-            "priority": 76
-          }
-        ]
-      },
-      {
-        "prefix": "VIE_DLY",
-        "perm": "sf_dly",
-        "prefix_alias": [
-          "WB_DLY"
-        ],
-        "groups": [
-          {
-            "group": "vienna_indices_delayed",
-            "priority": 71
-          },
-          {
-            "group": "vienna_stocks_delayed",
             "priority": 76
           }
         ]
