@@ -1293,30 +1293,6 @@
         }
       },
       {
-        "id": "chix_europe_vienna",
-        "kinds": {
-          "rt": {
-            "priority": 48,
-            "prefix": "CHXEUR",
-            "exchange_for_display": "CHXEUR_VIE",
-            "exchange_aliases": [
-              "VIE"
-            ],
-            "skip_in_search": false,
-            "prefix_no_perm": [
-              "CHXEUR_EOD"
-            ],
-            "prefix_alias": [
-              "CHXEUR_VIE"
-            ],
-            "group_alias": [
-              "vienna"
-            ],
-            "perm": "chxeur"
-          }
-        }
-      },
-      {
         "id": "chix_europe_lse_in",
         "kinds": {
           "rt": {
@@ -1461,15 +1437,20 @@
         }
       },
       {
-        "id": "toronto_stocks_delayed",
+        "id": "chix_europe_vienna",
         "kinds": {
           "rt": {
-            "prefix": "TSX_DLY",
             "priority": 48,
-            "perm": "tsx_dly",
+            "prefix": "CHXEUR",
+            "exchange_for_display": "CHXEUR_VIE",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "CHXEUR_VIE"
+            ],
             "prefix_no_perm": [
-              "TSX_EOD"
-            ]
+              "CHXEUR_EOD"
+            ],
+            "perm": "chxeur"
           }
         }
       },
@@ -1482,6 +1463,19 @@
             "perm": "szse",
             "prefix_no_perm": [
               "SZSE_DLY"
+            ]
+          }
+        }
+      },
+      {
+        "id": "toronto_stocks_delayed",
+        "kinds": {
+          "rt": {
+            "prefix": "TSX_DLY",
+            "priority": 48,
+            "perm": "tsx_dly",
+            "prefix_no_perm": [
+              "TSX_EOD"
             ]
           }
         }
@@ -1731,6 +1725,19 @@
               "HKEX_DLY"
             ],
             "perm": "hkex"
+          }
+        }
+      },
+      {
+        "id": "shenzhen_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 50,
+            "prefix": "SZSE",
+            "perm": "szse",
+            "prefix_no_perm": [
+              "SZSE_DLY"
+            ]
           }
         }
       },
@@ -1994,33 +2001,6 @@
         }
       },
       {
-        "id": "vienna",
-        "kinds": {
-          "rt": {
-            "priority": 50,
-            "prefix": "VIE",
-            "perm": "permission_denied",
-            "prefix_no_perm": [
-              "CHXEUR"
-            ],
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "shenzhen_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 50,
-            "prefix": "SZSE",
-            "perm": "szse",
-            "prefix_no_perm": [
-              "SZSE_DLY"
-            ]
-          }
-        }
-      },
-      {
         "id": "mexico_indices",
         "kinds": {
           "rt": {
@@ -2098,6 +2078,16 @@
         }
       },
       {
+        "id": "shenzhen_stocks_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 51,
+            "prefix": "SZSE_DLY",
+            "perm": "sf_dly"
+          }
+        }
+      },
+      {
         "id": "istanbul_indices_delayed",
         "kinds": {
           "rt": {
@@ -2126,16 +2116,6 @@
             "priority": 51,
             "prefix": "MOEX_DLY",
             "perm": "moex"
-          }
-        }
-      },
-      {
-        "id": "shenzhen_stocks_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 51,
-            "prefix": "SZSE_DLY",
-            "perm": "sf_dly"
           }
         }
       },
@@ -3018,6 +2998,19 @@
         }
       },
       {
+        "id": "santiago_indices",
+        "kinds": {
+          "rt": {
+            "priority": 59,
+            "prefix": "BCS",
+            "prefix_no_perm": [
+              "BCS_DLY"
+            ],
+            "perm": "bcs"
+          }
+        }
+      },
+      {
         "id": "euronext_futures",
         "kinds": {
           "rt": {
@@ -3054,14 +3047,15 @@
         }
       },
       {
-        "id": "santiago_indices",
+        "id": "santiago_stocks",
         "kinds": {
           "rt": {
-            "priority": 59,
+            "priority": 60,
             "prefix": "BCS",
             "prefix_no_perm": [
               "BCS_DLY"
-            ]
+            ],
+            "perm": "bcs"
           }
         }
       },
@@ -3101,6 +3095,16 @@
             "prefix_no_perm": [
               "TOCOM_DLY"
             ]
+          }
+        }
+      },
+      {
+        "id": "santiago_indices_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 60,
+            "prefix": "BSC_DLY",
+            "perm": "sf_dly"
           }
         }
       },
@@ -3224,18 +3228,6 @@
         }
       },
       {
-        "id": "santiago_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 60,
-            "prefix": "BCS",
-            "prefix_no_perm": [
-              "BCS_DLY"
-            ]
-          }
-        }
-      },
-      {
         "id": "lima_indices",
         "kinds": {
           "rt": {
@@ -3248,11 +3240,12 @@
         }
       },
       {
-        "id": "santiago_indices_delayed",
+        "id": "santiago_stocks_delayed",
         "kinds": {
           "rt": {
-            "priority": 60,
-            "prefix": "BSC_DLY"
+            "priority": 61,
+            "prefix": "BSC_DLY",
+            "perm": "sf_dly"
           }
         }
       },
@@ -3335,15 +3328,6 @@
             "prefix_no_perm": [
               "BVL_DLY"
             ]
-          }
-        }
-      },
-      {
-        "id": "santiago_stocks_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 61,
-            "prefix": "BSC_DLY"
           }
         }
       },
@@ -3505,6 +3489,22 @@
         }
       },
       {
+        "id": "vienna_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "VIE",
+            "priority": 70,
+            "perm": "wb",
+            "prefix_no_perm": [
+              "VIE_DLY"
+            ],
+            "prefix_alias": [
+              "WB"
+            ]
+          }
+        }
+      },
+      {
         "id": "warsaw_indices",
         "kinds": {
           "rt": {
@@ -3583,22 +3583,6 @@
         }
       },
       {
-        "id": "vienna_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "VIE",
-            "priority": 70,
-            "perm": "wb",
-            "prefix_no_perm": [
-              "VIE_DLY"
-            ],
-            "prefix_alias": [
-              "WB"
-            ]
-          }
-        }
-      },
-      {
         "id": "luxembourg_stocks",
         "kinds": {
           "rt": {
@@ -3629,6 +3613,19 @@
         }
       },
       {
+        "id": "vienna_indices_delayed",
+        "kinds": {
+          "rt": {
+            "prefix": "VIE_DLY",
+            "priority": 71,
+            "prefix_alias": [
+              "WB_DLY"
+            ],
+            "perm": "sf_dly"
+          }
+        }
+      },
+      {
         "id": "warsaw_indices_delayed",
         "kinds": {
           "rt": {
@@ -3654,19 +3651,6 @@
           "rt": {
             "priority": 71,
             "prefix": "BVC_DLY"
-          }
-        }
-      },
-      {
-        "id": "vienna_indices_delayed",
-        "kinds": {
-          "rt": {
-            "prefix": "VIE_DLY",
-            "priority": 71,
-            "prefix_alias": [
-              "WB_DLY"
-            ],
-            "perm": "sf_dly"
           }
         }
       },
@@ -3712,6 +3696,22 @@
             "prefix": "TASE_DLY",
             "priority": 74,
             "perm": "sf_dly"
+          }
+        }
+      },
+      {
+        "id": "vienna_stocks",
+        "kinds": {
+          "rt": {
+            "prefix": "VIE",
+            "priority": 75,
+            "perm": "wb",
+            "prefix_no_perm": [
+              "VIE_DLY"
+            ],
+            "prefix_alias": [
+              "WB"
+            ]
           }
         }
       },
@@ -3781,18 +3781,15 @@
         }
       },
       {
-        "id": "vienna_stocks",
+        "id": "vienna_stocks_delayed",
         "kinds": {
           "rt": {
-            "prefix": "VIE",
-            "priority": 75,
-            "perm": "wb",
-            "prefix_no_perm": [
-              "VIE_DLY"
-            ],
+            "prefix": "VIE_DLY",
+            "priority": 76,
             "prefix_alias": [
-              "WB"
-            ]
+              "WB_DLY"
+            ],
+            "perm": "sf_dly"
           }
         }
       },
@@ -3842,19 +3839,6 @@
           "rt": {
             "prefix": "TASE_DLY",
             "priority": 76,
-            "perm": "sf_dly"
-          }
-        }
-      },
-      {
-        "id": "vienna_stocks_delayed",
-        "kinds": {
-          "rt": {
-            "prefix": "VIE_DLY",
-            "priority": 76,
-            "prefix_alias": [
-              "WB_DLY"
-            ],
             "perm": "sf_dly"
           }
         }
@@ -4756,15 +4740,6 @@
         }
       },
       {
-        "id": "BITMEX",
-        "kinds": {
-          "rt": {
-            "prefix": "BITMEX",
-            "priority": 112
-          }
-        }
-      },
-      {
         "id": "BITSO",
         "kinds": {
           "rt": {
@@ -4850,6 +4825,15 @@
         "kinds": {
           "rt": {
             "prefix": "WEX",
+            "priority": 112
+          }
+        }
+      },
+      {
+        "id": "BITMEX",
+        "kinds": {
+          "rt": {
+            "prefix": "BITMEX",
             "priority": 112
           }
         }
