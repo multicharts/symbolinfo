@@ -1370,6 +1370,16 @@
           {
             "group": "istanbul_stocks",
             "priority": 55
+          },
+          {
+            "group": "istanbul_futures",
+            "priority": 57,
+            "perm": "bist_futures"
+          },
+          {
+            "group": "istanbul_continuous",
+            "priority": 57,
+            "perm": "bist_futures"
           }
         ]
       },
@@ -1543,6 +1553,14 @@
           {
             "group": "istanbul_stocks_delayed",
             "priority": 56
+          },
+          {
+            "group": "istanbul_futures_delayed",
+            "priority": 58
+          },
+          {
+            "group": "istanbul_continuous_delayed",
+            "priority": 58
           }
         ]
       },
@@ -4304,6 +4322,16 @@
           {
             "group": "istanbul_stocks",
             "priority": 55
+          },
+          {
+            "group": "istanbul_futures",
+            "priority": 57,
+            "perm": "bist_futures"
+          },
+          {
+            "group": "istanbul_continuous",
+            "priority": 57,
+            "perm": "bist_futures"
           }
         ]
       },
@@ -4477,6 +4505,14 @@
           {
             "group": "istanbul_stocks_delayed",
             "priority": 56
+          },
+          {
+            "group": "istanbul_futures_delayed",
+            "priority": 58
+          },
+          {
+            "group": "istanbul_continuous_delayed",
+            "priority": 58
           }
         ]
       },
