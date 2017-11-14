@@ -2900,6 +2900,18 @@
         }
       },
       {
+        "id": "osaka_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE",
+            "priority": 57,
+            "prefix_no_perm": [
+              "OSE_DLY"
+            ]
+          }
+        }
+      },
+      {
         "id": "istanbul_futures",
         "kinds": {
           "rt": {
@@ -2928,6 +2940,18 @@
               "BIST_DLY"
             ],
             "perm": "bist"
+          }
+        }
+      },
+      {
+        "id": "osaka_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE",
+            "priority": 57,
+            "prefix_no_perm": [
+              "OSE_DLY"
+            ]
           }
         }
       },
@@ -2971,6 +2995,18 @@
         }
       },
       {
+        "id": "osaka_day_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE_DAY",
+            "priority": 58,
+            "prefix_no_perm": [
+              "OSE_DAY_DLY"
+            ]
+          }
+        }
+      },
+      {
         "id": "istanbul_futures_delayed",
         "kinds": {
           "rt": {
@@ -2985,6 +3021,18 @@
           "rt": {
             "priority": 58,
             "prefix": "BIST_DLY"
+          }
+        }
+      },
+      {
+        "id": "osaka_day_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE_DAY",
+            "priority": 58,
+            "prefix_no_perm": [
+              "OSE_DAY_DLY"
+            ]
           }
         }
       },
@@ -3043,6 +3091,48 @@
             "prefix_no_perm": [
               "EURONEXT_DLY"
             ]
+          }
+        }
+      },
+      {
+        "id": "osaka_night_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE_NIGHT",
+            "priority": 59,
+            "prefix_no_perm": [
+              "OSE_NIGHT_DLY"
+            ]
+          }
+        }
+      },
+      {
+        "id": "osaka_futures_delayed",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE_DLY",
+            "priority": 59
+          }
+        }
+      },
+      {
+        "id": "osaka_night_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE_NIGHT",
+            "priority": 59,
+            "prefix_no_perm": [
+              "OSE_NIGHT_DLY"
+            ]
+          }
+        }
+      },
+      {
+        "id": "osaka_continuous_delayed",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE_DLY",
+            "priority": 59
           }
         }
       },
@@ -3240,6 +3330,24 @@
         }
       },
       {
+        "id": "osaka_day_futures_delayed",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE_DAY_DLY",
+            "priority": 60
+          }
+        }
+      },
+      {
+        "id": "osaka_day_continuous_delayed",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE_DAY_DLY",
+            "priority": 60
+          }
+        }
+      },
+      {
         "id": "santiago_stocks_delayed",
         "kinds": {
           "rt": {
@@ -3328,6 +3436,24 @@
             "prefix_no_perm": [
               "BVL_DLY"
             ]
+          }
+        }
+      },
+      {
+        "id": "osaka_night_futures_delayed",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE_NIGHT_DLY",
+            "priority": 61
+          }
+        }
+      },
+      {
+        "id": "osaka_night_continuous_delayed",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE_NIGHT_DLY",
+            "priority": 61
           }
         }
       },
