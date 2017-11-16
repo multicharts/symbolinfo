@@ -414,14 +414,6 @@
             ]
           },
           {
-            "group": "euronext_indices",
-            "priority": 39,
-            "perm": "euronext_indices",
-            "prefix_no_perm": [
-              "EURONEXT_DLY"
-            ]
-          },
-          {
             "group": "euronext_stocks",
             "priority": 55,
             "perm": "euronext_stocks",
@@ -519,6 +511,34 @@
         ]
       },
       {
+        "priority": 40,
+        "prefix": "EURONEXT_DLY",
+        "perm": "euronext_dly",
+        "groups": [
+          {
+            "group": "euronext_non_primary_indices",
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ]
+          },
+          {
+            "group": "euronext_non_primary_indices_delayed"
+          },
+          {
+            "group": "euronext_stocks_delayed",
+            "priority": 56
+          },
+          {
+            "group": "euronext_futures_delayed",
+            "priority": 60
+          },
+          {
+            "group": "euronext_continuous_delayed",
+            "priority": 60
+          }
+        ]
+      },
+      {
         "prefix": "SIX",
         "perm": "six",
         "prefix_no_perm": [
@@ -535,35 +555,6 @@
           {
             "group": "swiss_stocks",
             "priority": 56
-          }
-        ]
-      },
-      {
-        "priority": 40,
-        "prefix": "EURONEXT_DLY",
-        "groups": [
-          {
-            "group": "euronext_indices_delayed",
-            "perm": "sf_dly"
-          },
-          {
-            "group": "euronext_non_primary_indices",
-            "perm": "euronext_dly"
-          },
-          {
-            "group": "euronext_stocks_delayed",
-            "priority": 56,
-            "perm": "euronext_dly"
-          },
-          {
-            "group": "euronext_futures_delayed",
-            "priority": 60,
-            "perm": "euronext_dly"
-          },
-          {
-            "group": "euronext_continuous_delayed",
-            "priority": 60,
-            "perm": "euronext_dly"
           }
         ]
       },
@@ -3679,14 +3670,6 @@
             ]
           },
           {
-            "group": "euronext_indices",
-            "priority": 39,
-            "perm": "euronext_indices",
-            "prefix_no_perm": [
-              "EURONEXT_DLY"
-            ]
-          },
-          {
             "group": "euronext_stocks",
             "priority": 55,
             "perm": "euronext_stocks",
@@ -3784,6 +3767,34 @@
         ]
       },
       {
+        "priority": 40,
+        "prefix": "EURONEXT_DLY",
+        "perm": "euronext_dly",
+        "groups": [
+          {
+            "group": "euronext_non_primary_indices",
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ]
+          },
+          {
+            "group": "euronext_non_primary_indices_delayed"
+          },
+          {
+            "group": "euronext_stocks_delayed",
+            "priority": 56
+          },
+          {
+            "group": "euronext_futures_delayed",
+            "priority": 60
+          },
+          {
+            "group": "euronext_continuous_delayed",
+            "priority": 60
+          }
+        ]
+      },
+      {
         "prefix": "SIX",
         "perm": "six",
         "prefix_no_perm": [
@@ -3800,35 +3811,6 @@
           {
             "group": "swiss_stocks",
             "priority": 56
-          }
-        ]
-      },
-      {
-        "priority": 40,
-        "prefix": "EURONEXT_DLY",
-        "groups": [
-          {
-            "group": "euronext_indices_delayed",
-            "perm": "sf_dly"
-          },
-          {
-            "group": "euronext_non_primary_indices",
-            "perm": "euronext_dly"
-          },
-          {
-            "group": "euronext_stocks_delayed",
-            "priority": 56,
-            "perm": "euronext_dly"
-          },
-          {
-            "group": "euronext_futures_delayed",
-            "priority": 60,
-            "perm": "euronext_dly"
-          },
-          {
-            "group": "euronext_continuous_delayed",
-            "priority": 60,
-            "perm": "euronext_dly"
           }
         ]
       },
