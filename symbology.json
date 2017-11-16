@@ -388,14 +388,6 @@
             ]
           },
           {
-            "group": "euronext_indices",
-            "priority": 39,
-            "perm": "euronext_indices",
-            "prefix_no_perm": [
-              "EURONEXT_DLY"
-            ]
-          },
-          {
             "group": "euronext_non_primary_indices",
             "priority": 39,
             "perm": "euronext_indices",
@@ -521,31 +513,24 @@
         ]
       },
       {
-        "priority": 40,
         "prefix": "EURONEXT_DLY",
+        "perm": "euronext_dly",
         "groups": [
           {
-            "group": "euronext_indices_delayed",
-            "perm": "sf_dly"
-          },
-          {
             "group": "euronext_non_primary_indices_delayed",
-            "perm": "euronext_dly"
+            "priority": 40
           },
           {
             "group": "euronext_stocks_delayed",
-            "priority": 56,
-            "perm": "euronext_dly"
+            "priority": 56
           },
           {
             "group": "euronext_futures_delayed",
-            "priority": 60,
-            "perm": "euronext_dly"
+            "priority": 60
           },
           {
             "group": "euronext_continuous_delayed",
-            "priority": 60,
-            "perm": "euronext_dly"
+            "priority": 60
           }
         ]
       },
@@ -3340,14 +3325,6 @@
             ]
           },
           {
-            "group": "euronext_indices",
-            "priority": 39,
-            "perm": "euronext_indices",
-            "prefix_no_perm": [
-              "EURONEXT_DLY"
-            ]
-          },
-          {
             "group": "euronext_non_primary_indices",
             "priority": 39,
             "perm": "euronext_indices",
@@ -3473,31 +3450,24 @@
         ]
       },
       {
-        "priority": 40,
         "prefix": "EURONEXT_DLY",
+        "perm": "euronext_dly",
         "groups": [
           {
-            "group": "euronext_indices_delayed",
-            "perm": "sf_dly"
-          },
-          {
             "group": "euronext_non_primary_indices_delayed",
-            "perm": "euronext_dly"
+            "priority": 40
           },
           {
             "group": "euronext_stocks_delayed",
-            "priority": 56,
-            "perm": "euronext_dly"
+            "priority": 56
           },
           {
             "group": "euronext_futures_delayed",
-            "priority": 60,
-            "perm": "euronext_dly"
+            "priority": 60
           },
           {
             "group": "euronext_continuous_delayed",
-            "priority": 60,
-            "perm": "euronext_dly"
+            "priority": 60
           }
         ]
       },
