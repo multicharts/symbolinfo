@@ -1,0 +1,1525 @@
+[
+  {
+    "id": "tv",
+    "mapping": [
+      {
+        "prefix": "OTC",
+        "perm": "otc",
+        "groups": [
+          {
+            "group": "otc_qb"
+          },
+          {
+            "group": "otc_qx"
+          },
+          {
+            "group": "otc_pink"
+          }
+        ]
+      },
+      {
+        "prefix": "NASDAQ",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "nasdaq_indices_eod"
+          }
+        ]
+      },
+      {
+        "prefix": "NYSE",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "nyse_gif_indices_eod"
+          },
+          {
+            "group": "nyse_indices_eod"
+          }
+        ]
+      },
+      {
+        "prefix": "RUSSEL",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "russel_indices_eod"
+          }
+        ]
+      },
+      {
+        "prefix": "QUANDL",
+        "resolve_mask": "QUANDL:*",
+        "groups": [
+          {
+            "group": "quandl"
+          }
+        ]
+      },
+      {
+        "prefix": "EDGR",
+        "resolve_mask": "EDGR:*",
+        "groups": [
+          {
+            "group": "edgar_fundamentals"
+          }
+        ]
+      },
+      {
+        "prefix": "FX",
+        "exchange_for_display": "FXCM",
+        "groups": [
+          {
+            "group": "fxcm",
+            "priority": 10
+          },
+          {
+            "group": "fxcm_cfd",
+            "priority": 11,
+            "perm": "fxcm_cfd"
+          }
+        ]
+      },
+      {
+        "priority": 11,
+        "prefix": "BITSTAMP",
+        "groups": [
+          {
+            "group": "bitstamp"
+          }
+        ]
+      },
+      {
+        "priority": 11,
+        "prefix": "BTCCHINA",
+        "prefix_alias": [
+          "BTCC"
+        ],
+        "groups": [
+          {
+            "group": "btcchina"
+          }
+        ]
+      },
+      {
+        "priority": 12,
+        "prefix": "COINBASE",
+        "groups": [
+          {
+            "group": "coinbase"
+          }
+        ]
+      },
+      {
+        "priority": 12,
+        "prefix": "OANDA",
+        "groups": [
+          {
+            "group": "oanda"
+          }
+        ]
+      },
+      {
+        "priority": 12,
+        "prefix": "HUOBI",
+        "groups": [
+          {
+            "group": "huobi"
+          }
+        ]
+      },
+      {
+        "priority": 12,
+        "prefix": "BITFINEX",
+        "groups": [
+          {
+            "group": "bitfinex"
+          }
+        ]
+      },
+      {
+        "priority": 12,
+        "prefix": "MERCADO",
+        "groups": [
+          {
+            "group": "mercado"
+          }
+        ]
+      },
+      {
+        "priority": 12,
+        "prefix": "POLONIEX",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "poloniex"
+          },
+          {
+            "group": "poloniex_spreads"
+          }
+        ]
+      },
+      {
+        "priority": 12,
+        "prefix": "BITFLYER",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "bitflyer"
+          },
+          {
+            "group": "bitflyer_spreads"
+          }
+        ]
+      },
+      {
+        "priority": 12,
+        "prefix": "FRBNY",
+        "groups": [
+          {
+            "group": "frbny"
+          }
+        ]
+      },
+      {
+        "priority": 13,
+        "prefix": "FOREXCOM",
+        "exchange_for_display": "FOREX.com",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "gain"
+          }
+        ]
+      },
+      {
+        "priority": 14,
+        "prefix": "BITTREX",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "bittrex"
+          },
+          {
+            "group": "bittrex_spreads"
+          }
+        ]
+      },
+      {
+        "priority": 15,
+        "prefix": "BITMEX",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "bitmex2"
+          }
+        ]
+      },
+      {
+        "prefix": "KRAKEN",
+        "groups": [
+          {
+            "group": "kraken",
+            "priority": 19
+          },
+          {
+            "group": "kraken_spreads",
+            "priority": 112,
+            "skip_in_search": false
+          }
+        ]
+      },
+      {
+        "priority": 47,
+        "prefix": "INDEX",
+        "groups": [
+          {
+            "group": "dxy",
+            "search_boost": 2.0
+          },
+          {
+            "group": "ind"
+          },
+          {
+            "group": "spec"
+          },
+          {
+            "group": "russli"
+          },
+          {
+            "group": "nasdi"
+          },
+          {
+            "group": "nysei"
+          }
+        ]
+      },
+      {
+        "priority": 47,
+        "prefix": "CRAINS",
+        "groups": [
+          {
+            "group": "crains_indices"
+          }
+        ]
+      },
+      {
+        "priority": 47,
+        "prefix": "CRAINS_INTERNAL",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "crains_indices_internal"
+          }
+        ]
+      },
+      {
+        "priority": 50,
+        "prefix": "OMX",
+        "perm": "permission_denied",
+        "prefix_no_perm": [
+          "CHXEUR"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "omx"
+          }
+        ]
+      },
+      {
+        "priority": 50,
+        "prefix": "DUB",
+        "perm": "permission_denied",
+        "prefix_no_perm": [
+          "CHXEUR"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "dublin"
+          }
+        ]
+      },
+      {
+        "priority": 50,
+        "prefix": "OSL",
+        "perm": "permission_denied",
+        "prefix_no_perm": [
+          "CHXEUR"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "oslo"
+          }
+        ]
+      },
+      {
+        "priority": 100,
+        "prefix": "OKCOIN",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "okcoin2"
+          }
+        ]
+      },
+      {
+        "priority": 100,
+        "prefix": "BNC",
+        "groups": [
+          {
+            "group": "bnc"
+          }
+        ]
+      },
+      {
+        "priority": 100,
+        "prefix": "FRED",
+        "groups": [
+          {
+            "group": "fred"
+          }
+        ]
+      },
+      {
+        "priority": 100,
+        "prefix": "ISM",
+        "groups": [
+          {
+            "group": "ism"
+          }
+        ]
+      },
+      {
+        "priority": 100,
+        "prefix": "ADP",
+        "groups": [
+          {
+            "group": "adp"
+          }
+        ]
+      },
+      {
+        "priority": 100,
+        "prefix": "WORLDBANK",
+        "groups": [
+          {
+            "group": "worldbank"
+          }
+        ]
+      },
+      {
+        "priority": 100,
+        "prefix": "FRBP",
+        "groups": [
+          {
+            "group": "frbp"
+          }
+        ]
+      },
+      {
+        "priority": 100,
+        "prefix": "FRKC",
+        "groups": [
+          {
+            "group": "frkc"
+          }
+        ]
+      },
+      {
+        "priority": 100,
+        "prefix": "ECRI",
+        "groups": [
+          {
+            "group": "ecri"
+          }
+        ]
+      },
+      {
+        "priority": 112,
+        "prefix": "BTCE",
+        "groups": [
+          {
+            "group": "btce"
+          }
+        ]
+      },
+      {
+        "priority": 112,
+        "prefix": "BITSO",
+        "groups": [
+          {
+            "group": "bitso_spreads",
+            "skip_in_search": false
+          },
+          {
+            "group": "BITSO"
+          }
+        ]
+      },
+      {
+        "priority": 112,
+        "prefix": "CEXIO",
+        "groups": [
+          {
+            "group": "cexio_spreads",
+            "skip_in_search": false
+          },
+          {
+            "group": "CEXIO"
+          }
+        ]
+      },
+      {
+        "priority": 112,
+        "prefix": "HITBTC",
+        "groups": [
+          {
+            "group": "hitbtc_spreads",
+            "skip_in_search": false
+          },
+          {
+            "group": "HITBTC"
+          }
+        ]
+      },
+      {
+        "priority": 112,
+        "prefix": "THEROCKTRADING",
+        "groups": [
+          {
+            "group": "therocktrading_spreads",
+            "skip_in_search": false
+          },
+          {
+            "group": "THEROCKTRADING"
+          }
+        ]
+      },
+      {
+        "priority": 112,
+        "prefix": "COINFLOOR",
+        "groups": [
+          {
+            "group": "COINFLOOR"
+          }
+        ]
+      },
+      {
+        "priority": 112,
+        "prefix": "KORBIT",
+        "groups": [
+          {
+            "group": "KORBIT"
+          }
+        ]
+      },
+      {
+        "priority": 112,
+        "prefix": "796",
+        "groups": [
+          {
+            "group": "G796"
+          }
+        ]
+      },
+      {
+        "priority": 112,
+        "prefix": "ITBIT",
+        "groups": [
+          {
+            "group": "ITBIT"
+          }
+        ]
+      },
+      {
+        "priority": 112,
+        "prefix": "FOXBIT",
+        "groups": [
+          {
+            "group": "FOXBIT"
+          }
+        ]
+      },
+      {
+        "priority": 112,
+        "prefix": "XCOIN",
+        "groups": [
+          {
+            "group": "XCOIN"
+          }
+        ]
+      },
+      {
+        "priority": 112,
+        "prefix": "BITVC",
+        "groups": [
+          {
+            "group": "BITVC"
+          }
+        ]
+      },
+      {
+        "priority": 112,
+        "prefix": "BTCYOU",
+        "groups": [
+          {
+            "group": "BTCYOU"
+          }
+        ]
+      },
+      {
+        "priority": 112,
+        "prefix": "BXTH",
+        "groups": [
+          {
+            "group": "BXTH"
+          }
+        ]
+      },
+      {
+        "priority": 113,
+        "prefix": "MTGOX",
+        "groups": [
+          {
+            "group": "MTGOX"
+          }
+        ]
+      },
+      {
+        "priority": 120,
+        "prefix": "GOCIO",
+        "groups": [
+          {
+            "group": "gocio_spreads",
+            "skip_in_search": false
+          },
+          {
+            "group": "GOCIO"
+          }
+        ]
+      },
+      {
+        "prefix": "CBOE",
+        "groups": [
+          {
+            "group": "cfe",
+            "priority": 130
+          },
+          {
+            "group": "cfe_continuous_2",
+            "priority": 131
+          },
+          {
+            "group": "cfe_continuous",
+            "priority": 131
+          }
+        ]
+      },
+      {
+        "prefix": "KCBT",
+        "groups": [
+          {
+            "group": "kcbt",
+            "priority": 180
+          },
+          {
+            "group": "kcbt_continuous_2",
+            "priority": 181
+          },
+          {
+            "group": "kcbt_continuous",
+            "priority": 181
+          }
+        ]
+      },
+      {
+        "prefix": "ICEUSA",
+        "groups": [
+          {
+            "group": "iceus",
+            "priority": 200
+          },
+          {
+            "group": "iceus_continuous_2",
+            "priority": 201
+          },
+          {
+            "group": "iceus_continuous",
+            "priority": 201
+          }
+        ]
+      },
+      {
+        "prefix": "ICEEUR",
+        "groups": [
+          {
+            "group": "ice",
+            "priority": 210
+          },
+          {
+            "group": "ice_continuous_2",
+            "priority": 211
+          },
+          {
+            "group": "ice_continuous",
+            "priority": 211
+          }
+        ]
+      },
+      {
+        "prefix": "MGEX",
+        "groups": [
+          {
+            "group": "mgex",
+            "priority": 220
+          },
+          {
+            "group": "mgex_continuous_2",
+            "priority": 221
+          },
+          {
+            "group": "mgex_continuous",
+            "priority": 221
+          }
+        ]
+      },
+      {
+        "prefix": "EUREX",
+        "groups": [
+          {
+            "group": "eurex",
+            "priority": 240
+          },
+          {
+            "group": "eurex_continuous_2",
+            "priority": 241
+          },
+          {
+            "group": "eurex_continuous",
+            "priority": 241
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tvbs",
+    "mapping": [
+      {
+        "prefix": "OTC",
+        "perm": "otc",
+        "groups": [
+          {
+            "group": "otc_qb"
+          },
+          {
+            "group": "otc_qx"
+          },
+          {
+            "group": "otc_pink"
+          }
+        ]
+      },
+      {
+        "prefix": "NASDAQ",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "nasdaq_indices_eod"
+          }
+        ]
+      },
+      {
+        "prefix": "NYSE",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "nyse_gif_indices_eod"
+          },
+          {
+            "group": "nyse_indices_eod"
+          }
+        ]
+      },
+      {
+        "prefix": "RUSSEL",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "russel_indices_eod"
+          }
+        ]
+      },
+      {
+        "prefix": "QUANDL",
+        "resolve_mask": "QUANDL:*",
+        "groups": [
+          {
+            "group": "quandl"
+          }
+        ]
+      },
+      {
+        "prefix": "EDGR",
+        "resolve_mask": "EDGR:*",
+        "groups": [
+          {
+            "group": "edgar_fundamentals"
+          }
+        ]
+      },
+      {
+        "prefix": "FX",
+        "exchange_for_display": "FXCM",
+        "groups": [
+          {
+            "group": "fxcm",
+            "priority": 10
+          },
+          {
+            "group": "fxcm_cfd",
+            "priority": 11,
+            "perm": "fxcm_cfd"
+          }
+        ]
+      },
+      {
+        "priority": 11,
+        "prefix": "BITSTAMP",
+        "groups": [
+          {
+            "group": "bitstamp"
+          }
+        ]
+      },
+      {
+        "priority": 11,
+        "prefix": "BTCCHINA",
+        "prefix_alias": [
+          "BTCC"
+        ],
+        "groups": [
+          {
+            "group": "btcchina"
+          }
+        ]
+      },
+      {
+        "priority": 12,
+        "prefix": "COINBASE",
+        "groups": [
+          {
+            "group": "coinbase"
+          }
+        ]
+      },
+      {
+        "priority": 12,
+        "prefix": "OANDA",
+        "groups": [
+          {
+            "group": "oanda"
+          }
+        ]
+      },
+      {
+        "priority": 12,
+        "prefix": "HUOBI",
+        "groups": [
+          {
+            "group": "huobi"
+          }
+        ]
+      },
+      {
+        "priority": 12,
+        "prefix": "BITFINEX",
+        "groups": [
+          {
+            "group": "bitfinex"
+          }
+        ]
+      },
+      {
+        "priority": 12,
+        "prefix": "MERCADO",
+        "groups": [
+          {
+            "group": "mercado"
+          }
+        ]
+      },
+      {
+        "priority": 12,
+        "prefix": "POLONIEX",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "poloniex"
+          },
+          {
+            "group": "poloniex_spreads"
+          }
+        ]
+      },
+      {
+        "priority": 12,
+        "prefix": "BITFLYER",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "bitflyer"
+          },
+          {
+            "group": "bitflyer_spreads"
+          }
+        ]
+      },
+      {
+        "priority": 12,
+        "prefix": "FRBNY",
+        "groups": [
+          {
+            "group": "frbny"
+          }
+        ]
+      },
+      {
+        "priority": 13,
+        "prefix": "FOREXCOM",
+        "exchange_for_display": "FOREX.com",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "gain"
+          }
+        ]
+      },
+      {
+        "priority": 14,
+        "prefix": "BITTREX",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "bittrex"
+          },
+          {
+            "group": "bittrex_spreads"
+          }
+        ]
+      },
+      {
+        "priority": 15,
+        "prefix": "BITMEX",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "bitmex2"
+          }
+        ]
+      },
+      {
+        "prefix": "KRAKEN",
+        "groups": [
+          {
+            "group": "kraken",
+            "priority": 19
+          },
+          {
+            "group": "kraken_spreads",
+            "priority": 112,
+            "skip_in_search": false
+          }
+        ]
+      },
+      {
+        "priority": 47,
+        "prefix": "INDEX",
+        "groups": [
+          {
+            "group": "dxy",
+            "search_boost": 2.0
+          },
+          {
+            "group": "ind"
+          },
+          {
+            "group": "spec"
+          },
+          {
+            "group": "russli"
+          },
+          {
+            "group": "nasdi"
+          },
+          {
+            "group": "nysei"
+          }
+        ]
+      },
+      {
+        "priority": 47,
+        "prefix": "CRAINS",
+        "groups": [
+          {
+            "group": "crains_indices"
+          }
+        ]
+      },
+      {
+        "priority": 47,
+        "prefix": "CRAINS_INTERNAL",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "crains_indices_internal"
+          }
+        ]
+      },
+      {
+        "priority": 50,
+        "prefix": "OMX",
+        "perm": "permission_denied",
+        "prefix_no_perm": [
+          "CHXEUR"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "omx"
+          }
+        ]
+      },
+      {
+        "priority": 50,
+        "prefix": "DUB",
+        "perm": "permission_denied",
+        "prefix_no_perm": [
+          "CHXEUR"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "dublin"
+          }
+        ]
+      },
+      {
+        "priority": 50,
+        "prefix": "OSL",
+        "perm": "permission_denied",
+        "prefix_no_perm": [
+          "CHXEUR"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "oslo"
+          }
+        ]
+      },
+      {
+        "priority": 100,
+        "prefix": "OKCOIN",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "okcoin2"
+          }
+        ]
+      },
+      {
+        "priority": 100,
+        "prefix": "BNC",
+        "groups": [
+          {
+            "group": "bnc"
+          }
+        ]
+      },
+      {
+        "priority": 100,
+        "prefix": "FRED",
+        "groups": [
+          {
+            "group": "fred"
+          }
+        ]
+      },
+      {
+        "priority": 100,
+        "prefix": "ISM",
+        "groups": [
+          {
+            "group": "ism"
+          }
+        ]
+      },
+      {
+        "priority": 100,
+        "prefix": "ADP",
+        "groups": [
+          {
+            "group": "adp"
+          }
+        ]
+      },
+      {
+        "priority": 100,
+        "prefix": "WORLDBANK",
+        "groups": [
+          {
+            "group": "worldbank"
+          }
+        ]
+      },
+      {
+        "priority": 100,
+        "prefix": "FRBP",
+        "groups": [
+          {
+            "group": "frbp"
+          }
+        ]
+      },
+      {
+        "priority": 100,
+        "prefix": "FRKC",
+        "groups": [
+          {
+            "group": "frkc"
+          }
+        ]
+      },
+      {
+        "priority": 100,
+        "prefix": "ECRI",
+        "groups": [
+          {
+            "group": "ecri"
+          }
+        ]
+      },
+      {
+        "priority": 112,
+        "prefix": "BTCE",
+        "groups": [
+          {
+            "group": "btce"
+          }
+        ]
+      },
+      {
+        "priority": 112,
+        "prefix": "BITSO",
+        "groups": [
+          {
+            "group": "bitso_spreads",
+            "skip_in_search": false
+          },
+          {
+            "group": "BITSO"
+          }
+        ]
+      },
+      {
+        "priority": 112,
+        "prefix": "CEXIO",
+        "groups": [
+          {
+            "group": "cexio_spreads",
+            "skip_in_search": false
+          },
+          {
+            "group": "CEXIO"
+          }
+        ]
+      },
+      {
+        "priority": 112,
+        "prefix": "HITBTC",
+        "groups": [
+          {
+            "group": "hitbtc_spreads",
+            "skip_in_search": false
+          },
+          {
+            "group": "HITBTC"
+          }
+        ]
+      },
+      {
+        "priority": 112,
+        "prefix": "THEROCKTRADING",
+        "groups": [
+          {
+            "group": "therocktrading_spreads",
+            "skip_in_search": false
+          },
+          {
+            "group": "THEROCKTRADING"
+          }
+        ]
+      },
+      {
+        "priority": 112,
+        "prefix": "COINFLOOR",
+        "groups": [
+          {
+            "group": "COINFLOOR"
+          }
+        ]
+      },
+      {
+        "priority": 112,
+        "prefix": "KORBIT",
+        "groups": [
+          {
+            "group": "KORBIT"
+          }
+        ]
+      },
+      {
+        "priority": 112,
+        "prefix": "796",
+        "groups": [
+          {
+            "group": "G796"
+          }
+        ]
+      },
+      {
+        "priority": 112,
+        "prefix": "ITBIT",
+        "groups": [
+          {
+            "group": "ITBIT"
+          }
+        ]
+      },
+      {
+        "priority": 112,
+        "prefix": "FOXBIT",
+        "groups": [
+          {
+            "group": "FOXBIT"
+          }
+        ]
+      },
+      {
+        "priority": 112,
+        "prefix": "XCOIN",
+        "groups": [
+          {
+            "group": "XCOIN"
+          }
+        ]
+      },
+      {
+        "priority": 112,
+        "prefix": "BITVC",
+        "groups": [
+          {
+            "group": "BITVC"
+          }
+        ]
+      },
+      {
+        "priority": 112,
+        "prefix": "BTCYOU",
+        "groups": [
+          {
+            "group": "BTCYOU"
+          }
+        ]
+      },
+      {
+        "priority": 112,
+        "prefix": "BXTH",
+        "groups": [
+          {
+            "group": "BXTH"
+          }
+        ]
+      },
+      {
+        "priority": 113,
+        "prefix": "MTGOX",
+        "groups": [
+          {
+            "group": "MTGOX"
+          }
+        ]
+      },
+      {
+        "priority": 120,
+        "prefix": "GOCIO",
+        "groups": [
+          {
+            "group": "gocio_spreads",
+            "skip_in_search": false
+          },
+          {
+            "group": "GOCIO"
+          }
+        ]
+      },
+      {
+        "prefix": "CBOE",
+        "groups": [
+          {
+            "group": "cfe",
+            "priority": 130
+          },
+          {
+            "group": "cfe_continuous_2",
+            "priority": 131
+          },
+          {
+            "group": "cfe_continuous",
+            "priority": 131
+          }
+        ]
+      },
+      {
+        "prefix": "KCBT",
+        "groups": [
+          {
+            "group": "kcbt",
+            "priority": 180
+          },
+          {
+            "group": "kcbt_continuous_2",
+            "priority": 181
+          },
+          {
+            "group": "kcbt_continuous",
+            "priority": 181
+          }
+        ]
+      },
+      {
+        "prefix": "ICEUSA",
+        "groups": [
+          {
+            "group": "iceus",
+            "priority": 200
+          },
+          {
+            "group": "iceus_continuous_2",
+            "priority": 201
+          },
+          {
+            "group": "iceus_continuous",
+            "priority": 201
+          }
+        ]
+      },
+      {
+        "prefix": "ICEEUR",
+        "groups": [
+          {
+            "group": "ice",
+            "priority": 210
+          },
+          {
+            "group": "ice_continuous_2",
+            "priority": 211
+          },
+          {
+            "group": "ice_continuous",
+            "priority": 211
+          }
+        ]
+      },
+      {
+        "prefix": "MGEX",
+        "groups": [
+          {
+            "group": "mgex",
+            "priority": 220
+          },
+          {
+            "group": "mgex_continuous_2",
+            "priority": 221
+          },
+          {
+            "group": "mgex_continuous",
+            "priority": 221
+          }
+        ]
+      },
+      {
+        "prefix": "EUREX",
+        "groups": [
+          {
+            "group": "eurex",
+            "priority": 240
+          },
+          {
+            "group": "eurex_continuous_2",
+            "priority": 241
+          },
+          {
+            "group": "eurex_continuous",
+            "priority": 241
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cme",
+    "mapping": [
+      {
+        "priority": 50,
+        "prefix": "CME_GBX",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "cme_globex_delayed"
+          }
+        ]
+      },
+      {
+        "priority": 51,
+        "prefix": "CME_PIT",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "cme_pit_delayed"
+          }
+        ]
+      },
+      {
+        "priority": 52,
+        "prefix": "CBOT",
+        "skip_in_search": false,
+        "prefix_alias": [
+          "CBOT_GBX",
+          "CBOT_PIT"
+        ],
+        "groups": [
+          {
+            "group": "cbot_delayed"
+          }
+        ]
+      },
+      {
+        "priority": 52,
+        "prefix": "CBOT_MINI",
+        "skip_in_search": false,
+        "prefix_alias": [
+          "CBOT_MINI_GBX",
+          "CBOT_MINI_PIT",
+          "CBOT",
+          "CBOT_GBX",
+          "CBOT_PIT"
+        ],
+        "groups": [
+          {
+            "group": "cbot_mini_delayed"
+          }
+        ]
+      },
+      {
+        "priority": 52,
+        "prefix": "CME",
+        "skip_in_search": false,
+        "prefix_alias": [
+          "CME_GBX",
+          "CME_PIT"
+        ],
+        "groups": [
+          {
+            "group": "cme_delayed"
+          }
+        ]
+      },
+      {
+        "priority": 52,
+        "prefix": "CME_MINI",
+        "skip_in_search": false,
+        "prefix_alias": [
+          "CME_MINI_GBX",
+          "CME_MINI_PIT",
+          "CME",
+          "CME_GBX",
+          "CME_PIT"
+        ],
+        "groups": [
+          {
+            "group": "cme_mini_delayed"
+          }
+        ]
+      },
+      {
+        "priority": 52,
+        "prefix": "COMEX",
+        "skip_in_search": false,
+        "prefix_alias": [
+          "COMEX_GBX",
+          "COMEX_PIT"
+        ],
+        "groups": [
+          {
+            "group": "comex_delayed"
+          }
+        ]
+      },
+      {
+        "priority": 52,
+        "prefix": "COMEX_MINI",
+        "skip_in_search": false,
+        "prefix_alias": [
+          "COMEX_MINI_GBX",
+          "COMEX_MINI_PIT",
+          "COMEX",
+          "COMEX_GBX",
+          "COMEX_PIT"
+        ],
+        "groups": [
+          {
+            "group": "comex_mini_delayed"
+          }
+        ]
+      },
+      {
+        "priority": 52,
+        "prefix": "NYMEX",
+        "skip_in_search": false,
+        "prefix_alias": [
+          "NYMEX_GBX",
+          "NYMEX_PIT"
+        ],
+        "groups": [
+          {
+            "group": "nymex_delayed"
+          }
+        ]
+      },
+      {
+        "priority": 52,
+        "prefix": "NYMEX_MINI",
+        "skip_in_search": false,
+        "prefix_alias": [
+          "NYMEX_MINI_GBX",
+          "NYMEX_MINI_PIT",
+          "NYMEX",
+          "NYMEX_GBX",
+          "NYMEX_PIT"
+        ],
+        "groups": [
+          {
+            "group": "nymex_mini_delayed"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bovespa",
+    "mapping": [
+      {
+        "priority": 52,
+        "prefix": "BMFBOVESPA",
+        "perm": "permission_denied",
+        "prefix_no_perm": [
+          "BMFBOVESPA_DLY"
+        ],
+        "groups": [
+          {
+            "group": "bovespa_stocks"
+          },
+          {
+            "group": "bovespa_soma_stocks"
+          },
+          {
+            "group": "bovespa_futures"
+          },
+          {
+            "group": "bovespa_indices"
+          }
+        ]
+      },
+      {
+        "priority": 52,
+        "prefix": "BMFBOVESPA_DLY",
+        "groups": [
+          {
+            "group": "bovespa_futures_delayed"
+          },
+          {
+            "group": "bovespa_stocks_delayed"
+          },
+          {
+            "group": "bovespa_soma_stocks_delayed"
+          }
+        ]
+      }
+    ]
+  }
+]
