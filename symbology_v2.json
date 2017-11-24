@@ -400,6 +400,9 @@
             "perm": "nasdaq",
             "prefix_no_perm": [
               "BATS"
+            ],
+            "prefix_alias": [
+              "US"
             ]
           }
         }
@@ -449,6 +452,9 @@
             "perm": "amex",
             "prefix_no_perm": [
               "BATS"
+            ],
+            "prefix_alias": [
+              "US"
             ]
           }
         }
@@ -463,6 +469,9 @@
             "perm": "nyse",
             "prefix_no_perm": [
               "BATS"
+            ],
+            "prefix_alias": [
+              "US"
             ]
           }
         }
@@ -4199,6 +4208,9 @@
             "perm": "otc",
             "prefix_no_perm": [
               "OTC_DLY"
+            ],
+            "prefix_alias": [
+              "US"
             ]
           }
         }
@@ -4212,6 +4224,9 @@
             "perm": "otc",
             "prefix_no_perm": [
               "OTC_DLY"
+            ],
+            "prefix_alias": [
+              "US"
             ]
           }
         }
@@ -4225,6 +4240,9 @@
             "perm": "otc",
             "prefix_no_perm": [
               "OTC_DLY"
+            ],
+            "prefix_alias": [
+              "US"
             ]
           }
         }
