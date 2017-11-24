@@ -1914,22 +1914,6 @@
         ]
       },
       {
-        "priority": 57,
-        "prefix": "OSE",
-        "perm": "ose",
-        "prefix_no_perm": [
-          "OSE_DLY"
-        ],
-        "groups": [
-          {
-            "group": "osaka_futures"
-          },
-          {
-            "group": "osaka_continuous"
-          }
-        ]
-      },
-      {
         "priority": 58,
         "prefix": "TSXV_DLY",
         "perm": "tsxv_dly",
@@ -1953,57 +1937,12 @@
         ]
       },
       {
-        "priority": 58,
-        "prefix": "OSE_DAY",
-        "perm": "ose",
-        "prefix_no_perm": [
-          "OSE_DAY_DLY"
-        ],
-        "groups": [
-          {
-            "group": "osaka_day_futures"
-          },
-          {
-            "group": "osaka_day_continuous"
-          }
-        ]
-      },
-      {
         "priority": 59,
         "prefix": "FSE_DLY",
         "perm": "sf_dly",
         "groups": [
           {
             "group": "fukuoka_stocks_delayed"
-          }
-        ]
-      },
-      {
-        "priority": 59,
-        "prefix": "OSE_NIGHT",
-        "perm": "ose",
-        "prefix_no_perm": [
-          "OSE_NIGHT_DLY"
-        ],
-        "groups": [
-          {
-            "group": "osaka_night_futures"
-          },
-          {
-            "group": "osaka_night_continuous"
-          }
-        ]
-      },
-      {
-        "priority": 59,
-        "prefix": "OSE_DLY",
-        "perm": "sf_dly",
-        "groups": [
-          {
-            "group": "osaka_futures_delayed"
-          },
-          {
-            "group": "osaka_continuous_delayed"
           }
         ]
       },
@@ -2082,36 +2021,6 @@
         ]
       },
       {
-        "prefix": "BVL",
-        "perm": "bvl",
-        "prefix_no_perm": [
-          "BVL_DLY"
-        ],
-        "groups": [
-          {
-            "group": "lima_indices",
-            "priority": 60
-          },
-          {
-            "group": "lima_stocks",
-            "priority": 61
-          }
-        ]
-      },
-      {
-        "priority": 60,
-        "prefix": "OSE_DAY_DLY",
-        "perm": "sf_dly",
-        "groups": [
-          {
-            "group": "osaka_day_futures_delayed"
-          },
-          {
-            "group": "osaka_day_continuous_delayed"
-          }
-        ]
-      },
-      {
         "priority": 61,
         "prefix": "TFX_DLY",
         "perm": "sf_dly",
@@ -2153,33 +2062,6 @@
           },
           {
             "group": "milan_stocks_eod",
-            "priority": 63
-          }
-        ]
-      },
-      {
-        "priority": 61,
-        "prefix": "OSE_NIGHT_DLY",
-        "perm": "sf_dly",
-        "groups": [
-          {
-            "group": "osaka_night_futures_delayed"
-          },
-          {
-            "group": "osaka_night_continuous_delayed"
-          }
-        ]
-      },
-      {
-        "prefix": "BVL_DLY",
-        "perm": "sf_dly",
-        "groups": [
-          {
-            "group": "lima_stocks_delayed",
-            "priority": 62
-          },
-          {
-            "group": "lima_indices_delayed",
             "priority": 63
           }
         ]
@@ -2244,39 +2126,6 @@
           },
           {
             "group": "singapore_continuous_delayed"
-          }
-        ]
-      },
-      {
-        "prefix": "BVC",
-        "perm": "bvc",
-        "prefix_no_perm": [
-          "BVC_DLY"
-        ],
-        "groups": [
-          {
-            "group": "colombia_indices",
-            "priority": 69
-          },
-          {
-            "group": "colombia_stocks",
-            "priority": 70
-          }
-        ]
-      },
-      {
-        "prefix": "LUXSE",
-        "prefix_no_perm": [
-          "LUXSE_DLY"
-        ],
-        "groups": [
-          {
-            "group": "luxembourg_indices",
-            "priority": 69
-          },
-          {
-            "group": "luxembourg_stocks",
-            "priority": 70
           }
         ]
       },
@@ -2373,34 +2222,6 @@
         ]
       },
       {
-        "prefix": "BVC_DLY",
-        "perm": "sf_dly",
-        "groups": [
-          {
-            "group": "colombia_indices_delayed",
-            "priority": 70
-          },
-          {
-            "group": "colombia_stocks_delayed",
-            "priority": 71
-          }
-        ]
-      },
-      {
-        "prefix": "LUXSE_DLY",
-        "groups": [
-          {
-            "group": "luxembourg_indices_delayed",
-            "priority": 70,
-            "perm": "sf_dly"
-          },
-          {
-            "group": "luxembourg_stocks_delayed",
-            "priority": 71
-          }
-        ]
-      },
-      {
         "prefix": "VIE_DLY",
         "perm": "sf_dly",
         "prefix_alias": [
@@ -2442,6 +2263,7 @@
       {
         "prefix": "TASE_DLY",
         "perm": "sf_dly",
+        "skip_in_search": true,
         "groups": [
           {
             "group": "telaviv_indices_delayed",
@@ -2475,108 +2297,6 @@
         ]
       },
       {
-        "prefix": "EGX",
-        "perm": "egx",
-        "prefix_no_perm": [
-          "EGX_DLY"
-        ],
-        "groups": [
-          {
-            "group": "egyptian_indices",
-            "priority": 79
-          },
-          {
-            "group": "egyptian_stocks",
-            "priority": 80
-          }
-        ]
-      },
-      {
-        "prefix": "NSENG",
-        "perm": "nseng",
-        "prefix_no_perm": [
-          "NSENG_DLY"
-        ],
-        "groups": [
-          {
-            "group": "nigerian_indices",
-            "priority": 79
-          },
-          {
-            "group": "nigerian_stocks",
-            "priority": 80
-          }
-        ]
-      },
-      {
-        "prefix": "TADAWUL",
-        "perm": "tadawul",
-        "prefix_no_perm": [
-          "TADAWUL_DLY"
-        ],
-        "groups": [
-          {
-            "group": "saudi_indices",
-            "priority": 80
-          },
-          {
-            "group": "saudi_stocks",
-            "priority": 85
-          }
-        ]
-      },
-      {
-        "prefix": "BAHRAIN",
-        "perm": "bahrain",
-        "prefix_no_perm": [
-          "BAHRAIN_DLY"
-        ],
-        "groups": [
-          {
-            "group": "bahrain_indices",
-            "priority": 80
-          },
-          {
-            "group": "bahrain_stocks",
-            "priority": 85
-          }
-        ]
-      },
-      {
-        "prefix": "DFM",
-        "perm": "dfm",
-        "prefix_no_perm": [
-          "DFM_DLY"
-        ],
-        "groups": [
-          {
-            "group": "dubai_indices",
-            "priority": 80
-          },
-          {
-            "group": "dubai_stocks",
-            "priority": 85
-          }
-        ]
-      },
-      {
-        "prefix": "QSE",
-        "perm": "qse",
-        "prefix_no_perm": [
-          "QSE_DLY"
-        ],
-        "groups": [
-          {
-            "group": "qatar_indices",
-            "priority": 80
-          },
-          {
-            "group": "qatar_stocks",
-            "priority": 85
-          }
-        ]
-      },
-      {
         "priority": 80,
         "prefix": "MYX",
         "perm": "myx",
@@ -2596,99 +2316,18 @@
         ]
       },
       {
-        "prefix": "EGX_DLY",
-        "perm": "sf_dly",
-        "groups": [
-          {
-            "group": "egyptian_indices_delayed",
-            "priority": 80
-          },
-          {
-            "group": "egyptian_stocks_delayed",
-            "priority": 81
-          }
-        ]
-      },
-      {
-        "prefix": "NSENG_DLY",
-        "perm": "sf_dly",
-        "groups": [
-          {
-            "group": "nigerian_indices_delayed",
-            "priority": 80
-          },
-          {
-            "group": "nigerian_stocks_delayed",
-            "priority": 81
-          }
-        ]
-      },
-      {
-        "prefix": "TADAWUL_DLY",
-        "perm": "sf_dly",
-        "groups": [
-          {
-            "group": "saudi_indices_delayed",
-            "priority": 81
-          },
-          {
-            "group": "saudi_stocks_delayed",
-            "priority": 86
-          }
-        ]
-      },
-      {
-        "prefix": "BAHRAIN_DLY",
-        "perm": "sf_dly",
-        "groups": [
-          {
-            "group": "bahrain_indices_delayed",
-            "priority": 81
-          },
-          {
-            "group": "bahrain_stocks_delayed",
-            "priority": 86
-          }
-        ]
-      },
-      {
-        "prefix": "DFM_DLY",
-        "perm": "sf_dly",
-        "groups": [
-          {
-            "group": "dubai_indices_delayed",
-            "priority": 81
-          },
-          {
-            "group": "dubai_stocks_delayed",
-            "priority": 86
-          }
-        ]
-      },
-      {
-        "prefix": "QSE_DLY",
-        "perm": "sf_dly",
-        "groups": [
-          {
-            "group": "qatar_indices_delayed",
-            "priority": 81
-          },
-          {
-            "group": "qatar_stocks_delayed",
-            "priority": 86
-          }
-        ]
-      },
-      {
         "priority": 81,
         "prefix": "MYX_DLY",
-        "perm": "sf_dly",
+        "perm": "nse_free",
         "groups": [
           {
             "group": "malaysia_stocks_delayed"
           },
           {
             "group": "malaysia_futures_delayed"
+          },
+          {
+            "group": "malaysia_continuous_delayed"
           }
         ]
       },
@@ -2730,23 +2369,6 @@
         ]
       },
       {
-        "prefix": "BELEX",
-        "perm": "belex",
-        "prefix_no_perm": [
-          "BELEX_DLY"
-        ],
-        "groups": [
-          {
-            "group": "belgrade_indices",
-            "priority": 89
-          },
-          {
-            "group": "belgrade_stocks",
-            "priority": 90
-          }
-        ]
-      },
-      {
         "priority": 90,
         "prefix": "NASDAQ_UNADJ",
         "skip_in_search": true,
@@ -2783,20 +2405,6 @@
         "groups": [
           {
             "group": "otc_unadjusted"
-          }
-        ]
-      },
-      {
-        "prefix": "BELEX_DLY",
-        "perm": "sf_dly",
-        "groups": [
-          {
-            "group": "belgrade_indices_delayed",
-            "priority": 90
-          },
-          {
-            "group": "belgrade_stocks_delayed",
-            "priority": 91
           }
         ]
       },
@@ -3235,6 +2843,429 @@
           {
             "group": "eurex_continuous",
             "priority": 241
+          }
+        ]
+      },
+      {
+        "priority": 257,
+        "prefix": "OSE",
+        "perm": "ose",
+        "prefix_no_perm": [
+          "OSE_DLY"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "osaka_futures"
+          },
+          {
+            "group": "osaka_continuous"
+          }
+        ]
+      },
+      {
+        "priority": 258,
+        "prefix": "OSE_DAY",
+        "perm": "ose",
+        "prefix_no_perm": [
+          "OSE_DAY_DLY"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "osaka_day_futures"
+          },
+          {
+            "group": "osaka_day_continuous"
+          }
+        ]
+      },
+      {
+        "priority": 259,
+        "prefix": "OSE_NIGHT",
+        "perm": "ose",
+        "prefix_no_perm": [
+          "OSE_NIGHT_DLY"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "osaka_night_futures"
+          },
+          {
+            "group": "osaka_night_continuous"
+          }
+        ]
+      },
+      {
+        "priority": 259,
+        "prefix": "OSE_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "osaka_futures_delayed"
+          },
+          {
+            "group": "osaka_continuous_delayed"
+          }
+        ]
+      },
+      {
+        "prefix": "BVL",
+        "perm": "bvl",
+        "prefix_no_perm": [
+          "BVL_DLY"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "lima_indices",
+            "priority": 260
+          },
+          {
+            "group": "lima_stocks",
+            "priority": 261
+          }
+        ]
+      },
+      {
+        "priority": 260,
+        "prefix": "OSE_DAY_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "osaka_day_futures_delayed"
+          },
+          {
+            "group": "osaka_day_continuous_delayed"
+          }
+        ]
+      },
+      {
+        "priority": 261,
+        "prefix": "OSE_NIGHT_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "osaka_night_futures_delayed"
+          },
+          {
+            "group": "osaka_night_continuous_delayed"
+          }
+        ]
+      },
+      {
+        "prefix": "BVL_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "lima_stocks_delayed",
+            "priority": 262
+          },
+          {
+            "group": "lima_indices_delayed",
+            "priority": 263
+          }
+        ]
+      },
+      {
+        "prefix": "BVC",
+        "perm": "bvc",
+        "prefix_no_perm": [
+          "BVC_DLY"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "colombia_indices",
+            "priority": 269
+          },
+          {
+            "group": "colombia_stocks",
+            "priority": 270
+          }
+        ]
+      },
+      {
+        "prefix": "LUXSE",
+        "perm": "luxse",
+        "prefix_no_perm": [
+          "LUXSE_DLY"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "luxembourg_indices",
+            "priority": 269
+          },
+          {
+            "group": "luxembourg_stocks",
+            "priority": 270
+          }
+        ]
+      },
+      {
+        "prefix": "BVC_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "colombia_indices_delayed",
+            "priority": 270
+          },
+          {
+            "group": "colombia_stocks_delayed",
+            "priority": 271
+          }
+        ]
+      },
+      {
+        "prefix": "LUXSE_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "luxembourg_indices_delayed",
+            "priority": 270
+          },
+          {
+            "group": "luxembourg_stocks_delayed",
+            "priority": 271
+          }
+        ]
+      },
+      {
+        "prefix": "EGX",
+        "perm": "egx",
+        "prefix_no_perm": [
+          "EGX_DLY"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "egyptian_indices",
+            "priority": 279
+          },
+          {
+            "group": "egyptian_stocks",
+            "priority": 280
+          }
+        ]
+      },
+      {
+        "prefix": "NSENG",
+        "perm": "nseng",
+        "prefix_no_perm": [
+          "NSENG_DLY"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "nigerian_indices",
+            "priority": 279
+          },
+          {
+            "group": "nigerian_stocks",
+            "priority": 280
+          }
+        ]
+      },
+      {
+        "prefix": "TADAWUL",
+        "perm": "tadawul",
+        "prefix_no_perm": [
+          "TADAWUL_DLY"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "saudi_indices",
+            "priority": 280
+          },
+          {
+            "group": "saudi_stocks",
+            "priority": 285
+          }
+        ]
+      },
+      {
+        "prefix": "BAHRAIN",
+        "perm": "bahrain",
+        "prefix_no_perm": [
+          "BAHRAIN_DLY"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "bahrain_indices",
+            "priority": 280
+          },
+          {
+            "group": "bahrain_stocks",
+            "priority": 285
+          }
+        ]
+      },
+      {
+        "prefix": "DFM",
+        "perm": "dfm",
+        "prefix_no_perm": [
+          "DFM_DLY"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "dubai_indices",
+            "priority": 280
+          },
+          {
+            "group": "dubai_stocks",
+            "priority": 285
+          }
+        ]
+      },
+      {
+        "prefix": "QSE",
+        "perm": "qse",
+        "prefix_no_perm": [
+          "QSE_DLY"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "qatar_indices",
+            "priority": 280
+          },
+          {
+            "group": "qatar_stocks",
+            "priority": 285
+          }
+        ]
+      },
+      {
+        "prefix": "EGX_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "egyptian_indices_delayed",
+            "priority": 280
+          },
+          {
+            "group": "egyptian_stocks_delayed",
+            "priority": 281
+          }
+        ]
+      },
+      {
+        "prefix": "NSENG_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "nigerian_indices_delayed",
+            "priority": 280
+          },
+          {
+            "group": "nigerian_stocks_delayed",
+            "priority": 281
+          }
+        ]
+      },
+      {
+        "prefix": "TADAWUL_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "saudi_indices_delayed",
+            "priority": 281
+          },
+          {
+            "group": "saudi_stocks_delayed",
+            "priority": 286
+          }
+        ]
+      },
+      {
+        "prefix": "BAHRAIN_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "bahrain_indices_delayed",
+            "priority": 281
+          },
+          {
+            "group": "bahrain_stocks_delayed",
+            "priority": 286
+          }
+        ]
+      },
+      {
+        "prefix": "DFM_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "dubai_indices_delayed",
+            "priority": 281
+          },
+          {
+            "group": "dubai_stocks_delayed",
+            "priority": 286
+          }
+        ]
+      },
+      {
+        "prefix": "QSE_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "qatar_indices_delayed",
+            "priority": 281
+          },
+          {
+            "group": "qatar_stocks_delayed",
+            "priority": 286
+          }
+        ]
+      },
+      {
+        "prefix": "BELEX",
+        "perm": "belex",
+        "prefix_no_perm": [
+          "BELEX_DLY"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "belgrade_indices",
+            "priority": 289
+          },
+          {
+            "group": "belgrade_stocks",
+            "priority": 290
+          }
+        ]
+      },
+      {
+        "prefix": "BELEX_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "belgrade_indices_delayed",
+            "priority": 290
+          },
+          {
+            "group": "belgrade_stocks_delayed",
+            "priority": 291
           }
         ]
       }
@@ -5155,22 +5186,6 @@
         ]
       },
       {
-        "priority": 57,
-        "prefix": "OSE",
-        "perm": "ose",
-        "prefix_no_perm": [
-          "OSE_DLY"
-        ],
-        "groups": [
-          {
-            "group": "osaka_futures"
-          },
-          {
-            "group": "osaka_continuous"
-          }
-        ]
-      },
-      {
         "priority": 58,
         "prefix": "TSXV_DLY",
         "perm": "tsxv_dly",
@@ -5194,57 +5209,12 @@
         ]
       },
       {
-        "priority": 58,
-        "prefix": "OSE_DAY",
-        "perm": "ose",
-        "prefix_no_perm": [
-          "OSE_DAY_DLY"
-        ],
-        "groups": [
-          {
-            "group": "osaka_day_futures"
-          },
-          {
-            "group": "osaka_day_continuous"
-          }
-        ]
-      },
-      {
         "priority": 59,
         "prefix": "FSE_DLY",
         "perm": "sf_dly",
         "groups": [
           {
             "group": "fukuoka_stocks_delayed"
-          }
-        ]
-      },
-      {
-        "priority": 59,
-        "prefix": "OSE_NIGHT",
-        "perm": "ose",
-        "prefix_no_perm": [
-          "OSE_NIGHT_DLY"
-        ],
-        "groups": [
-          {
-            "group": "osaka_night_futures"
-          },
-          {
-            "group": "osaka_night_continuous"
-          }
-        ]
-      },
-      {
-        "priority": 59,
-        "prefix": "OSE_DLY",
-        "perm": "sf_dly",
-        "groups": [
-          {
-            "group": "osaka_futures_delayed"
-          },
-          {
-            "group": "osaka_continuous_delayed"
           }
         ]
       },
@@ -5323,36 +5293,6 @@
         ]
       },
       {
-        "prefix": "BVL",
-        "perm": "bvl",
-        "prefix_no_perm": [
-          "BVL_DLY"
-        ],
-        "groups": [
-          {
-            "group": "lima_indices",
-            "priority": 60
-          },
-          {
-            "group": "lima_stocks",
-            "priority": 61
-          }
-        ]
-      },
-      {
-        "priority": 60,
-        "prefix": "OSE_DAY_DLY",
-        "perm": "sf_dly",
-        "groups": [
-          {
-            "group": "osaka_day_futures_delayed"
-          },
-          {
-            "group": "osaka_day_continuous_delayed"
-          }
-        ]
-      },
-      {
         "priority": 61,
         "prefix": "TFX_DLY",
         "perm": "sf_dly",
@@ -5394,33 +5334,6 @@
           },
           {
             "group": "milan_stocks_eod",
-            "priority": 63
-          }
-        ]
-      },
-      {
-        "priority": 61,
-        "prefix": "OSE_NIGHT_DLY",
-        "perm": "sf_dly",
-        "groups": [
-          {
-            "group": "osaka_night_futures_delayed"
-          },
-          {
-            "group": "osaka_night_continuous_delayed"
-          }
-        ]
-      },
-      {
-        "prefix": "BVL_DLY",
-        "perm": "sf_dly",
-        "groups": [
-          {
-            "group": "lima_stocks_delayed",
-            "priority": 62
-          },
-          {
-            "group": "lima_indices_delayed",
             "priority": 63
           }
         ]
@@ -5485,39 +5398,6 @@
           },
           {
             "group": "singapore_continuous_delayed"
-          }
-        ]
-      },
-      {
-        "prefix": "BVC",
-        "perm": "bvc",
-        "prefix_no_perm": [
-          "BVC_DLY"
-        ],
-        "groups": [
-          {
-            "group": "colombia_indices",
-            "priority": 69
-          },
-          {
-            "group": "colombia_stocks",
-            "priority": 70
-          }
-        ]
-      },
-      {
-        "prefix": "LUXSE",
-        "prefix_no_perm": [
-          "LUXSE_DLY"
-        ],
-        "groups": [
-          {
-            "group": "luxembourg_indices",
-            "priority": 69
-          },
-          {
-            "group": "luxembourg_stocks",
-            "priority": 70
           }
         ]
       },
@@ -5614,34 +5494,6 @@
         ]
       },
       {
-        "prefix": "BVC_DLY",
-        "perm": "sf_dly",
-        "groups": [
-          {
-            "group": "colombia_indices_delayed",
-            "priority": 70
-          },
-          {
-            "group": "colombia_stocks_delayed",
-            "priority": 71
-          }
-        ]
-      },
-      {
-        "prefix": "LUXSE_DLY",
-        "groups": [
-          {
-            "group": "luxembourg_indices_delayed",
-            "priority": 70,
-            "perm": "sf_dly"
-          },
-          {
-            "group": "luxembourg_stocks_delayed",
-            "priority": 71
-          }
-        ]
-      },
-      {
         "prefix": "VIE_DLY",
         "perm": "sf_dly",
         "prefix_alias": [
@@ -5683,6 +5535,7 @@
       {
         "prefix": "TASE_DLY",
         "perm": "sf_dly",
+        "skip_in_search": true,
         "groups": [
           {
             "group": "telaviv_indices_delayed",
@@ -5716,108 +5569,6 @@
         ]
       },
       {
-        "prefix": "EGX",
-        "perm": "egx",
-        "prefix_no_perm": [
-          "EGX_DLY"
-        ],
-        "groups": [
-          {
-            "group": "egyptian_indices",
-            "priority": 79
-          },
-          {
-            "group": "egyptian_stocks",
-            "priority": 80
-          }
-        ]
-      },
-      {
-        "prefix": "NSENG",
-        "perm": "nseng",
-        "prefix_no_perm": [
-          "NSENG_DLY"
-        ],
-        "groups": [
-          {
-            "group": "nigerian_indices",
-            "priority": 79
-          },
-          {
-            "group": "nigerian_stocks",
-            "priority": 80
-          }
-        ]
-      },
-      {
-        "prefix": "TADAWUL",
-        "perm": "tadawul",
-        "prefix_no_perm": [
-          "TADAWUL_DLY"
-        ],
-        "groups": [
-          {
-            "group": "saudi_indices",
-            "priority": 80
-          },
-          {
-            "group": "saudi_stocks",
-            "priority": 85
-          }
-        ]
-      },
-      {
-        "prefix": "BAHRAIN",
-        "perm": "bahrain",
-        "prefix_no_perm": [
-          "BAHRAIN_DLY"
-        ],
-        "groups": [
-          {
-            "group": "bahrain_indices",
-            "priority": 80
-          },
-          {
-            "group": "bahrain_stocks",
-            "priority": 85
-          }
-        ]
-      },
-      {
-        "prefix": "DFM",
-        "perm": "dfm",
-        "prefix_no_perm": [
-          "DFM_DLY"
-        ],
-        "groups": [
-          {
-            "group": "dubai_indices",
-            "priority": 80
-          },
-          {
-            "group": "dubai_stocks",
-            "priority": 85
-          }
-        ]
-      },
-      {
-        "prefix": "QSE",
-        "perm": "qse",
-        "prefix_no_perm": [
-          "QSE_DLY"
-        ],
-        "groups": [
-          {
-            "group": "qatar_indices",
-            "priority": 80
-          },
-          {
-            "group": "qatar_stocks",
-            "priority": 85
-          }
-        ]
-      },
-      {
         "priority": 80,
         "prefix": "MYX",
         "perm": "myx",
@@ -5837,99 +5588,18 @@
         ]
       },
       {
-        "prefix": "EGX_DLY",
-        "perm": "sf_dly",
-        "groups": [
-          {
-            "group": "egyptian_indices_delayed",
-            "priority": 80
-          },
-          {
-            "group": "egyptian_stocks_delayed",
-            "priority": 81
-          }
-        ]
-      },
-      {
-        "prefix": "NSENG_DLY",
-        "perm": "sf_dly",
-        "groups": [
-          {
-            "group": "nigerian_indices_delayed",
-            "priority": 80
-          },
-          {
-            "group": "nigerian_stocks_delayed",
-            "priority": 81
-          }
-        ]
-      },
-      {
-        "prefix": "TADAWUL_DLY",
-        "perm": "sf_dly",
-        "groups": [
-          {
-            "group": "saudi_indices_delayed",
-            "priority": 81
-          },
-          {
-            "group": "saudi_stocks_delayed",
-            "priority": 86
-          }
-        ]
-      },
-      {
-        "prefix": "BAHRAIN_DLY",
-        "perm": "sf_dly",
-        "groups": [
-          {
-            "group": "bahrain_indices_delayed",
-            "priority": 81
-          },
-          {
-            "group": "bahrain_stocks_delayed",
-            "priority": 86
-          }
-        ]
-      },
-      {
-        "prefix": "DFM_DLY",
-        "perm": "sf_dly",
-        "groups": [
-          {
-            "group": "dubai_indices_delayed",
-            "priority": 81
-          },
-          {
-            "group": "dubai_stocks_delayed",
-            "priority": 86
-          }
-        ]
-      },
-      {
-        "prefix": "QSE_DLY",
-        "perm": "sf_dly",
-        "groups": [
-          {
-            "group": "qatar_indices_delayed",
-            "priority": 81
-          },
-          {
-            "group": "qatar_stocks_delayed",
-            "priority": 86
-          }
-        ]
-      },
-      {
         "priority": 81,
         "prefix": "MYX_DLY",
-        "perm": "sf_dly",
+        "perm": "nse_free",
         "groups": [
           {
             "group": "malaysia_stocks_delayed"
           },
           {
             "group": "malaysia_futures_delayed"
+          },
+          {
+            "group": "malaysia_continuous_delayed"
           }
         ]
       },
@@ -5971,23 +5641,6 @@
         ]
       },
       {
-        "prefix": "BELEX",
-        "perm": "belex",
-        "prefix_no_perm": [
-          "BELEX_DLY"
-        ],
-        "groups": [
-          {
-            "group": "belgrade_indices",
-            "priority": 89
-          },
-          {
-            "group": "belgrade_stocks",
-            "priority": 90
-          }
-        ]
-      },
-      {
         "priority": 90,
         "prefix": "NASDAQ_UNADJ",
         "skip_in_search": true,
@@ -6024,20 +5677,6 @@
         "groups": [
           {
             "group": "otc_unadjusted"
-          }
-        ]
-      },
-      {
-        "prefix": "BELEX_DLY",
-        "perm": "sf_dly",
-        "groups": [
-          {
-            "group": "belgrade_indices_delayed",
-            "priority": 90
-          },
-          {
-            "group": "belgrade_stocks_delayed",
-            "priority": 91
           }
         ]
       },
@@ -6476,6 +6115,429 @@
           {
             "group": "eurex_continuous",
             "priority": 241
+          }
+        ]
+      },
+      {
+        "priority": 257,
+        "prefix": "OSE",
+        "perm": "ose",
+        "prefix_no_perm": [
+          "OSE_DLY"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "osaka_futures"
+          },
+          {
+            "group": "osaka_continuous"
+          }
+        ]
+      },
+      {
+        "priority": 258,
+        "prefix": "OSE_DAY",
+        "perm": "ose",
+        "prefix_no_perm": [
+          "OSE_DAY_DLY"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "osaka_day_futures"
+          },
+          {
+            "group": "osaka_day_continuous"
+          }
+        ]
+      },
+      {
+        "priority": 259,
+        "prefix": "OSE_NIGHT",
+        "perm": "ose",
+        "prefix_no_perm": [
+          "OSE_NIGHT_DLY"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "osaka_night_futures"
+          },
+          {
+            "group": "osaka_night_continuous"
+          }
+        ]
+      },
+      {
+        "priority": 259,
+        "prefix": "OSE_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "osaka_futures_delayed"
+          },
+          {
+            "group": "osaka_continuous_delayed"
+          }
+        ]
+      },
+      {
+        "prefix": "BVL",
+        "perm": "bvl",
+        "prefix_no_perm": [
+          "BVL_DLY"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "lima_indices",
+            "priority": 260
+          },
+          {
+            "group": "lima_stocks",
+            "priority": 261
+          }
+        ]
+      },
+      {
+        "priority": 260,
+        "prefix": "OSE_DAY_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "osaka_day_futures_delayed"
+          },
+          {
+            "group": "osaka_day_continuous_delayed"
+          }
+        ]
+      },
+      {
+        "priority": 261,
+        "prefix": "OSE_NIGHT_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "osaka_night_futures_delayed"
+          },
+          {
+            "group": "osaka_night_continuous_delayed"
+          }
+        ]
+      },
+      {
+        "prefix": "BVL_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "lima_stocks_delayed",
+            "priority": 262
+          },
+          {
+            "group": "lima_indices_delayed",
+            "priority": 263
+          }
+        ]
+      },
+      {
+        "prefix": "BVC",
+        "perm": "bvc",
+        "prefix_no_perm": [
+          "BVC_DLY"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "colombia_indices",
+            "priority": 269
+          },
+          {
+            "group": "colombia_stocks",
+            "priority": 270
+          }
+        ]
+      },
+      {
+        "prefix": "LUXSE",
+        "perm": "luxse",
+        "prefix_no_perm": [
+          "LUXSE_DLY"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "luxembourg_indices",
+            "priority": 269
+          },
+          {
+            "group": "luxembourg_stocks",
+            "priority": 270
+          }
+        ]
+      },
+      {
+        "prefix": "BVC_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "colombia_indices_delayed",
+            "priority": 270
+          },
+          {
+            "group": "colombia_stocks_delayed",
+            "priority": 271
+          }
+        ]
+      },
+      {
+        "prefix": "LUXSE_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "luxembourg_indices_delayed",
+            "priority": 270
+          },
+          {
+            "group": "luxembourg_stocks_delayed",
+            "priority": 271
+          }
+        ]
+      },
+      {
+        "prefix": "EGX",
+        "perm": "egx",
+        "prefix_no_perm": [
+          "EGX_DLY"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "egyptian_indices",
+            "priority": 279
+          },
+          {
+            "group": "egyptian_stocks",
+            "priority": 280
+          }
+        ]
+      },
+      {
+        "prefix": "NSENG",
+        "perm": "nseng",
+        "prefix_no_perm": [
+          "NSENG_DLY"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "nigerian_indices",
+            "priority": 279
+          },
+          {
+            "group": "nigerian_stocks",
+            "priority": 280
+          }
+        ]
+      },
+      {
+        "prefix": "TADAWUL",
+        "perm": "tadawul",
+        "prefix_no_perm": [
+          "TADAWUL_DLY"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "saudi_indices",
+            "priority": 280
+          },
+          {
+            "group": "saudi_stocks",
+            "priority": 285
+          }
+        ]
+      },
+      {
+        "prefix": "BAHRAIN",
+        "perm": "bahrain",
+        "prefix_no_perm": [
+          "BAHRAIN_DLY"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "bahrain_indices",
+            "priority": 280
+          },
+          {
+            "group": "bahrain_stocks",
+            "priority": 285
+          }
+        ]
+      },
+      {
+        "prefix": "DFM",
+        "perm": "dfm",
+        "prefix_no_perm": [
+          "DFM_DLY"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "dubai_indices",
+            "priority": 280
+          },
+          {
+            "group": "dubai_stocks",
+            "priority": 285
+          }
+        ]
+      },
+      {
+        "prefix": "QSE",
+        "perm": "qse",
+        "prefix_no_perm": [
+          "QSE_DLY"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "qatar_indices",
+            "priority": 280
+          },
+          {
+            "group": "qatar_stocks",
+            "priority": 285
+          }
+        ]
+      },
+      {
+        "prefix": "EGX_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "egyptian_indices_delayed",
+            "priority": 280
+          },
+          {
+            "group": "egyptian_stocks_delayed",
+            "priority": 281
+          }
+        ]
+      },
+      {
+        "prefix": "NSENG_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "nigerian_indices_delayed",
+            "priority": 280
+          },
+          {
+            "group": "nigerian_stocks_delayed",
+            "priority": 281
+          }
+        ]
+      },
+      {
+        "prefix": "TADAWUL_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "saudi_indices_delayed",
+            "priority": 281
+          },
+          {
+            "group": "saudi_stocks_delayed",
+            "priority": 286
+          }
+        ]
+      },
+      {
+        "prefix": "BAHRAIN_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "bahrain_indices_delayed",
+            "priority": 281
+          },
+          {
+            "group": "bahrain_stocks_delayed",
+            "priority": 286
+          }
+        ]
+      },
+      {
+        "prefix": "DFM_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "dubai_indices_delayed",
+            "priority": 281
+          },
+          {
+            "group": "dubai_stocks_delayed",
+            "priority": 286
+          }
+        ]
+      },
+      {
+        "prefix": "QSE_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "qatar_indices_delayed",
+            "priority": 281
+          },
+          {
+            "group": "qatar_stocks_delayed",
+            "priority": 286
+          }
+        ]
+      },
+      {
+        "prefix": "BELEX",
+        "perm": "belex",
+        "prefix_no_perm": [
+          "BELEX_DLY"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "belgrade_indices",
+            "priority": 289
+          },
+          {
+            "group": "belgrade_stocks",
+            "priority": 290
+          }
+        ]
+      },
+      {
+        "prefix": "BELEX_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "belgrade_indices_delayed",
+            "priority": 290
+          },
+          {
+            "group": "belgrade_stocks_delayed",
+            "priority": 291
           }
         ]
       }
