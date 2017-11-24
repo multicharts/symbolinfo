@@ -354,6 +354,9 @@
             "perm": "nasdaq",
             "prefix_no_perm": [
               "BATS"
+            ],
+            "prefix_alias": [
+              "US"
             ]
           },
           {
@@ -372,6 +375,9 @@
           "BATS"
         ],
         "exchange_for_display": "NYSE ARCA & MKT",
+        "prefix_alias": [
+          "US"
+        ],
         "groups": [
           {
             "group": "amex_idc"
@@ -388,6 +394,9 @@
             "perm": "nyse",
             "prefix_no_perm": [
               "BATS"
+            ],
+            "prefix_alias": [
+              "US"
             ]
           },
           {
@@ -2706,6 +2715,9 @@
         "perm": "otc",
         "prefix_no_perm": [
           "OTC_DLY"
+        ],
+        "prefix_alias": [
+          "US"
         ],
         "groups": [
           {
@@ -3610,6 +3622,9 @@
             "perm": "nasdaq",
             "prefix_no_perm": [
               "BATS"
+            ],
+            "prefix_alias": [
+              "US"
             ]
           },
           {
@@ -3628,6 +3643,9 @@
           "BATS"
         ],
         "exchange_for_display": "NYSE ARCA & MKT",
+        "prefix_alias": [
+          "US"
+        ],
         "groups": [
           {
             "group": "amex_idc"
@@ -3644,6 +3662,9 @@
             "perm": "nyse",
             "prefix_no_perm": [
               "BATS"
+            ],
+            "prefix_alias": [
+              "US"
             ]
           },
           {
@@ -5962,6 +5983,9 @@
         "perm": "otc",
         "prefix_no_perm": [
           "OTC_DLY"
+        ],
+        "prefix_alias": [
+          "US"
         ],
         "groups": [
           {
