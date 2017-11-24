@@ -2914,6 +2914,19 @@
         }
       },
       {
+        "id": "osaka_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE",
+            "priority": 57,
+            "perm": "ose",
+            "prefix_no_perm": [
+              "OSE_DLY"
+            ]
+          }
+        }
+      },
+      {
         "id": "istanbul_futures",
         "kinds": {
           "rt": {
@@ -2926,6 +2939,19 @@
               "BIST_DLY"
             ],
             "perm": "bist_futures"
+          }
+        }
+      },
+      {
+        "id": "osaka_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE",
+            "priority": 57,
+            "perm": "ose",
+            "prefix_no_perm": [
+              "OSE_DLY"
+            ]
           }
         }
       },
@@ -2969,11 +2995,37 @@
         }
       },
       {
+        "id": "osaka_day_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE_DAY",
+            "priority": 58,
+            "perm": "ose",
+            "prefix_no_perm": [
+              "OSE_DAY_DLY"
+            ]
+          }
+        }
+      },
+      {
         "id": "istanbul_futures_delayed",
         "kinds": {
           "rt": {
             "priority": 58,
             "prefix": "BIST_DLY"
+          }
+        }
+      },
+      {
+        "id": "osaka_day_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE_DAY",
+            "priority": 58,
+            "perm": "ose",
+            "prefix_no_perm": [
+              "OSE_DAY_DLY"
+            ]
           }
         }
       },
@@ -3019,6 +3071,52 @@
             "prefix_no_perm": [
               "EURONEXT_DLY"
             ]
+          }
+        }
+      },
+      {
+        "id": "osaka_night_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE_NIGHT",
+            "priority": 59,
+            "perm": "ose",
+            "prefix_no_perm": [
+              "OSE_NIGHT_DLY"
+            ]
+          }
+        }
+      },
+      {
+        "id": "osaka_futures_delayed",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE_DLY",
+            "priority": 59,
+            "perm": "sf_dly"
+          }
+        }
+      },
+      {
+        "id": "osaka_night_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE_NIGHT",
+            "priority": 59,
+            "perm": "ose",
+            "prefix_no_perm": [
+              "OSE_NIGHT_DLY"
+            ]
+          }
+        }
+      },
+      {
+        "id": "osaka_continuous_delayed",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE_DLY",
+            "priority": 59,
+            "perm": "sf_dly"
           }
         }
       },
@@ -3181,6 +3279,39 @@
         }
       },
       {
+        "id": "lima_indices",
+        "kinds": {
+          "rt": {
+            "priority": 60,
+            "prefix": "BVL",
+            "prefix_no_perm": [
+              "BVL_DLY"
+            ],
+            "perm": "bvl"
+          }
+        }
+      },
+      {
+        "id": "osaka_day_futures_delayed",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE_DAY_DLY",
+            "priority": 60,
+            "perm": "sf_dly"
+          }
+        }
+      },
+      {
+        "id": "osaka_day_continuous_delayed",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE_DAY_DLY",
+            "priority": 60,
+            "perm": "sf_dly"
+          }
+        }
+      },
+      {
         "id": "tfin_futures_delayed",
         "kinds": {
           "rt": {
@@ -3251,12 +3382,65 @@
         }
       },
       {
+        "id": "lima_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 61,
+            "prefix": "BVL",
+            "prefix_no_perm": [
+              "BVL_DLY"
+            ],
+            "perm": "bvl"
+          }
+        }
+      },
+      {
+        "id": "osaka_night_futures_delayed",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE_NIGHT_DLY",
+            "priority": 61,
+            "perm": "sf_dly"
+          }
+        }
+      },
+      {
+        "id": "osaka_night_continuous_delayed",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE_NIGHT_DLY",
+            "priority": 61,
+            "perm": "sf_dly"
+          }
+        }
+      },
+      {
+        "id": "lima_stocks_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 62,
+            "prefix": "BVL_DLY",
+            "perm": "sf_dly"
+          }
+        }
+      },
+      {
         "id": "milan_stocks_eod",
         "kinds": {
           "rt": {
             "priority": 63,
             "prefix": "MIL_EOD",
             "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "lima_indices_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 63,
+            "prefix": "BVL_DLY",
+            "perm": "sf_dly"
           }
         }
       },
@@ -3366,6 +3550,31 @@
         }
       },
       {
+        "id": "colombia_indices",
+        "kinds": {
+          "rt": {
+            "priority": 69,
+            "prefix": "BVC",
+            "prefix_no_perm": [
+              "BVC_DLY"
+            ],
+            "perm": "bvc"
+          }
+        }
+      },
+      {
+        "id": "luxembourg_indices",
+        "kinds": {
+          "rt": {
+            "priority": 69,
+            "prefix": "LUXSE",
+            "prefix_no_perm": [
+              "LUXSE_DLY"
+            ]
+          }
+        }
+      },
+      {
         "id": "vienna_indices",
         "kinds": {
           "rt": {
@@ -3448,6 +3657,51 @@
         }
       },
       {
+        "id": "colombia_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 70,
+            "prefix": "BVC",
+            "prefix_no_perm": [
+              "BVC_DLY"
+            ],
+            "perm": "bvc"
+          }
+        }
+      },
+      {
+        "id": "luxembourg_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 70,
+            "prefix": "LUXSE",
+            "prefix_no_perm": [
+              "LUXSE_DLY"
+            ]
+          }
+        }
+      },
+      {
+        "id": "colombia_indices_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 70,
+            "prefix": "BVC_DLY",
+            "perm": "sf_dly"
+          }
+        }
+      },
+      {
+        "id": "luxembourg_indices_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 70,
+            "prefix": "LUXSE_DLY",
+            "perm": "sf_dly"
+          }
+        }
+      },
+      {
         "id": "vienna_indices_delayed",
         "kinds": {
           "rt": {
@@ -3477,6 +3731,25 @@
             "prefix": "TASE_DLY",
             "priority": 71,
             "perm": "sf_dly"
+          }
+        }
+      },
+      {
+        "id": "colombia_stocks_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 71,
+            "prefix": "BVC_DLY",
+            "perm": "sf_dly"
+          }
+        }
+      },
+      {
+        "id": "luxembourg_stocks_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 71,
+            "prefix": "LUXSE_DLY"
           }
         }
       },
@@ -3674,6 +3947,19 @@
         }
       },
       {
+        "id": "nigerian_indices",
+        "kinds": {
+          "rt": {
+            "priority": 79,
+            "prefix": "NSENG",
+            "prefix_no_perm": [
+              "NSENG_DLY"
+            ],
+            "perm": "nseng"
+          }
+        }
+      },
+      {
         "id": "saudi_indices",
         "kinds": {
           "rt": {
@@ -3713,12 +3999,100 @@
         }
       },
       {
+        "id": "dubai_indices",
+        "kinds": {
+          "rt": {
+            "priority": 80,
+            "prefix": "DFM",
+            "perm": "dfm",
+            "prefix_no_perm": [
+              "DFM_DLY"
+            ]
+          }
+        }
+      },
+      {
+        "id": "qatar_indices",
+        "kinds": {
+          "rt": {
+            "priority": 80,
+            "prefix": "QSE",
+            "perm": "qse",
+            "prefix_no_perm": [
+              "QSE_DLY"
+            ]
+          }
+        }
+      },
+      {
+        "id": "nigerian_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 80,
+            "prefix": "NSENG",
+            "prefix_no_perm": [
+              "NSENG_DLY"
+            ],
+            "perm": "nseng"
+          }
+        }
+      },
+      {
+        "id": "malaysia_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 80,
+            "prefix": "MYX",
+            "prefix_no_perm": [
+              "MYX_DLY"
+            ],
+            "perm": "myx"
+          }
+        }
+      },
+      {
+        "id": "malaysia_futures",
+        "kinds": {
+          "rt": {
+            "priority": 80,
+            "prefix": "MYX",
+            "prefix_no_perm": [
+              "MYX_DLY"
+            ],
+            "perm": "myx"
+          }
+        }
+      },
+      {
         "id": "egyptian_indices_delayed",
         "kinds": {
           "rt": {
             "priority": 80,
             "prefix": "EGX_DLY",
             "perm": "sf_dly"
+          }
+        }
+      },
+      {
+        "id": "nigerian_indices_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 80,
+            "prefix": "NSENG_DLY",
+            "perm": "sf_dly"
+          }
+        }
+      },
+      {
+        "id": "malaysia_continuous",
+        "kinds": {
+          "rt": {
+            "priority": 80,
+            "prefix": "MYX",
+            "prefix_no_perm": [
+              "MYX_DLY"
+            ],
+            "perm": "myx"
           }
         }
       },
@@ -3748,6 +4122,56 @@
           "rt": {
             "priority": 81,
             "prefix": "EGX_DLY",
+            "perm": "sf_dly"
+          }
+        }
+      },
+      {
+        "id": "dubai_indices_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 81,
+            "prefix": "DFM_DLY",
+            "perm": "sf_dly"
+          }
+        }
+      },
+      {
+        "id": "qatar_indices_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 81,
+            "prefix": "QSE_DLY",
+            "perm": "sf_dly"
+          }
+        }
+      },
+      {
+        "id": "nigerian_stocks_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 81,
+            "prefix": "NSENG_DLY",
+            "perm": "sf_dly"
+          }
+        }
+      },
+      {
+        "id": "malaysia_stocks_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 81,
+            "prefix": "MYX_DLY",
+            "perm": "sf_dly"
+          }
+        }
+      },
+      {
+        "id": "malaysia_futures_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 81,
+            "prefix": "MYX_DLY",
             "perm": "sf_dly"
           }
         }
@@ -3854,6 +4278,32 @@
         }
       },
       {
+        "id": "dubai_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 85,
+            "prefix": "DFM",
+            "perm": "dfm",
+            "prefix_no_perm": [
+              "DFM_DLY"
+            ]
+          }
+        }
+      },
+      {
+        "id": "qatar_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 85,
+            "prefix": "QSE",
+            "perm": "qse",
+            "prefix_no_perm": [
+              "QSE_DLY"
+            ]
+          }
+        }
+      },
+      {
         "id": "saudi_stocks_delayed",
         "kinds": {
           "rt": {
@@ -3869,6 +4319,26 @@
           "rt": {
             "priority": 86,
             "prefix": "BAHRAIN_DLY",
+            "perm": "sf_dly"
+          }
+        }
+      },
+      {
+        "id": "dubai_stocks_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 86,
+            "prefix": "DFM_DLY",
+            "perm": "sf_dly"
+          }
+        }
+      },
+      {
+        "id": "qatar_stocks_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 86,
+            "prefix": "QSE_DLY",
             "perm": "sf_dly"
           }
         }
