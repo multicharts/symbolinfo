@@ -2119,6 +2119,20 @@
         }
       },
       {
+        "id": "nse_emerge_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 51,
+            "search_boost": 0.6,
+            "prefix": "NSEE",
+            "prefix_no_perm": [
+              "NSEE_DLY"
+            ],
+            "perm": "nse"
+          }
+        }
+      },
+      {
         "id": "moex",
         "kinds": {
           "rt": {
@@ -2440,6 +2454,19 @@
             "priority": 52,
             "prefix": "BMFBOVESPA_DLY",
             "perm": "bovespa"
+          }
+        }
+      },
+      {
+        "id": "nse_emerge_stocks_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 52,
+            "prefix": "NSEE_DLY",
+            "prefix_no_perm": [
+              "NSEE_EOD"
+            ],
+            "perm": "nse_free"
           }
         }
       },
@@ -4704,7 +4731,7 @@
         "id": "nse_stocks_eod",
         "kinds": {
           "rt": {
-            "prefix": "NSE_EOD",
+            "prefix": "NSEE_EOD",
             "priority": 101,
             "skip_in_search": true
           }
