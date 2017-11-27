@@ -365,6 +365,48 @@
         ]
       },
       {
+        "prefix": "EURONEXT",
+        "groups": [
+          {
+            "group": "euronext_primary_indices",
+            "priority": 38,
+            "perm": "euronext_dly"
+          },
+          {
+            "group": "euronext_non_primary_indices",
+            "priority": 39,
+            "perm": "euronext_indices",
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ]
+          },
+          {
+            "group": "euronext_stocks",
+            "priority": 55,
+            "perm": "euronext_stocks",
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ]
+          },
+          {
+            "group": "euronext_futures",
+            "priority": 59,
+            "perm": "euronext_futures",
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ]
+          },
+          {
+            "group": "euronext_continuous",
+            "priority": 59,
+            "perm": "euronext_futures",
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ]
+          }
+        ]
+      },
+      {
         "search_boost": 0.6,
         "prefix": "BME",
         "perm": "bme",
@@ -379,34 +421,6 @@
           {
             "group": "bme_stocks",
             "priority": 40
-          }
-        ]
-      },
-      {
-        "prefix": "EURONEXT",
-        "prefix_no_perm": [
-          "EURONEXT_DLY"
-        ],
-        "groups": [
-          {
-            "group": "euronext_indices",
-            "priority": 39,
-            "perm": "euronext_indices"
-          },
-          {
-            "group": "euronext_stocks",
-            "priority": 55,
-            "perm": "euronext_stocks"
-          },
-          {
-            "group": "euronext_futures",
-            "priority": 59,
-            "perm": "euronext_futures"
-          },
-          {
-            "group": "euronext_continuous",
-            "priority": 59,
-            "perm": "euronext_futures"
           }
         ]
       },
@@ -481,10 +495,10 @@
       },
       {
         "prefix": "EURONEXT_DLY",
-        "perm": "sf_dly",
+        "perm": "euronext_dly",
         "groups": [
           {
-            "group": "euronext_indices_delayed",
+            "group": "euronext_non_primary_indices_delayed",
             "priority": 40
           },
           {
@@ -657,7 +671,6 @@
         ]
       },
       {
-        "priority": 40,
         "prefix": "CME_MINI",
         "perm": "cme_mini",
         "prefix_no_perm": [
@@ -665,17 +678,11 @@
         ],
         "groups": [
           {
-            "group": "cme_migration_mini_continuous"
-          },
-          {
-            "group": "cme_migration_mini_by_migration_continuous"
+            "group": "cme_migration_mini_continuous",
+            "priority": 40
           },
           {
             "group": "cme_migration_mini",
-            "priority": 50
-          },
-          {
-            "group": "cme_migration_mini_by_migration",
             "priority": 50
           }
         ]
@@ -807,21 +814,14 @@
         ]
       },
       {
-        "priority": 40,
         "prefix": "CME_MINI_DL",
         "groups": [
           {
-            "group": "cme_migration_mini_continuous_delayed"
-          },
-          {
-            "group": "cme_migration_mini_by_migration_continuous_delayed"
+            "group": "cme_migration_mini_continuous_delayed",
+            "priority": 40
           },
           {
             "group": "cme_migration_mini_delayed",
-            "priority": 50
-          },
-          {
-            "group": "cme_migration_mini_by_migration_delayed",
             "priority": 50
           }
         ]
@@ -3135,6 +3135,48 @@
         ]
       },
       {
+        "prefix": "EURONEXT",
+        "groups": [
+          {
+            "group": "euronext_primary_indices",
+            "priority": 38,
+            "perm": "euronext_dly"
+          },
+          {
+            "group": "euronext_non_primary_indices",
+            "priority": 39,
+            "perm": "euronext_indices",
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ]
+          },
+          {
+            "group": "euronext_stocks",
+            "priority": 55,
+            "perm": "euronext_stocks",
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ]
+          },
+          {
+            "group": "euronext_futures",
+            "priority": 59,
+            "perm": "euronext_futures",
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ]
+          },
+          {
+            "group": "euronext_continuous",
+            "priority": 59,
+            "perm": "euronext_futures",
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ]
+          }
+        ]
+      },
+      {
         "search_boost": 0.6,
         "prefix": "BME",
         "perm": "bme",
@@ -3149,34 +3191,6 @@
           {
             "group": "bme_stocks",
             "priority": 40
-          }
-        ]
-      },
-      {
-        "prefix": "EURONEXT",
-        "prefix_no_perm": [
-          "EURONEXT_DLY"
-        ],
-        "groups": [
-          {
-            "group": "euronext_indices",
-            "priority": 39,
-            "perm": "euronext_indices"
-          },
-          {
-            "group": "euronext_stocks",
-            "priority": 55,
-            "perm": "euronext_stocks"
-          },
-          {
-            "group": "euronext_futures",
-            "priority": 59,
-            "perm": "euronext_futures"
-          },
-          {
-            "group": "euronext_continuous",
-            "priority": 59,
-            "perm": "euronext_futures"
           }
         ]
       },
@@ -3251,10 +3265,10 @@
       },
       {
         "prefix": "EURONEXT_DLY",
-        "perm": "sf_dly",
+        "perm": "euronext_dly",
         "groups": [
           {
-            "group": "euronext_indices_delayed",
+            "group": "euronext_non_primary_indices_delayed",
             "priority": 40
           },
           {
@@ -3427,7 +3441,6 @@
         ]
       },
       {
-        "priority": 40,
         "prefix": "CME_MINI",
         "perm": "cme_mini",
         "prefix_no_perm": [
@@ -3435,17 +3448,11 @@
         ],
         "groups": [
           {
-            "group": "cme_migration_mini_continuous"
-          },
-          {
-            "group": "cme_migration_mini_by_migration_continuous"
+            "group": "cme_migration_mini_continuous",
+            "priority": 40
           },
           {
             "group": "cme_migration_mini",
-            "priority": 50
-          },
-          {
-            "group": "cme_migration_mini_by_migration",
             "priority": 50
           }
         ]
@@ -3577,21 +3584,14 @@
         ]
       },
       {
-        "priority": 40,
         "prefix": "CME_MINI_DL",
         "groups": [
           {
-            "group": "cme_migration_mini_continuous_delayed"
-          },
-          {
-            "group": "cme_migration_mini_by_migration_continuous_delayed"
+            "group": "cme_migration_mini_continuous_delayed",
+            "priority": 40
           },
           {
             "group": "cme_migration_mini_delayed",
-            "priority": 50
-          },
-          {
-            "group": "cme_migration_mini_by_migration_delayed",
             "priority": 50
           }
         ]
