@@ -1648,6 +1648,20 @@
         ]
       },
       {
+        "priority": 51,
+        "search_boost": 0.6,
+        "prefix": "NSEE",
+        "perm": "nse",
+        "prefix_no_perm": [
+          "NSEE_DLY"
+        ],
+        "groups": [
+          {
+            "group": "nse_emerge_stocks"
+          }
+        ]
+      },
+      {
         "priority": 52,
         "prefix": "BMFBOVESPA",
         "perm": "bovespa_stocks",
@@ -1776,6 +1790,19 @@
           },
           {
             "group": "nse_indices_delayed"
+          }
+        ]
+      },
+      {
+        "priority": 52,
+        "prefix": "NSEE_DLY",
+        "perm": "nse_free",
+        "prefix_no_perm": [
+          "NSEE_EOD"
+        ],
+        "groups": [
+          {
+            "group": "nse_emerge_stocks_delayed"
           }
         ]
       },
@@ -2968,12 +2995,19 @@
       },
       {
         "priority": 101,
-        "prefix": "NSE_EOD",
+        "prefix": "NSEE_EOD",
         "skip_in_search": true,
         "groups": [
           {
             "group": "nse_stocks_eod"
-          },
+          }
+        ]
+      },
+      {
+        "priority": 101,
+        "prefix": "NSE_EOD",
+        "skip_in_search": true,
+        "groups": [
           {
             "group": "nse_indices_eod"
           }
@@ -4916,6 +4950,20 @@
         ]
       },
       {
+        "priority": 51,
+        "search_boost": 0.6,
+        "prefix": "NSEE",
+        "perm": "nse",
+        "prefix_no_perm": [
+          "NSEE_DLY"
+        ],
+        "groups": [
+          {
+            "group": "nse_emerge_stocks"
+          }
+        ]
+      },
+      {
         "priority": 52,
         "prefix": "BMFBOVESPA",
         "perm": "bovespa_stocks",
@@ -5044,6 +5092,19 @@
           },
           {
             "group": "nse_indices_delayed"
+          }
+        ]
+      },
+      {
+        "priority": 52,
+        "prefix": "NSEE_DLY",
+        "perm": "nse_free",
+        "prefix_no_perm": [
+          "NSEE_EOD"
+        ],
+        "groups": [
+          {
+            "group": "nse_emerge_stocks_delayed"
           }
         ]
       },
@@ -6236,12 +6297,19 @@
       },
       {
         "priority": 101,
-        "prefix": "NSE_EOD",
+        "prefix": "NSEE_EOD",
         "skip_in_search": true,
         "groups": [
           {
             "group": "nse_stocks_eod"
-          },
+          }
+        ]
+      },
+      {
+        "priority": 101,
+        "prefix": "NSE_EOD",
+        "skip_in_search": true,
+        "groups": [
           {
             "group": "nse_indices_eod"
           }
