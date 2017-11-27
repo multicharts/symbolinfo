@@ -2889,7 +2889,7 @@
           "rt": {
             "prefix": "ASX_DLY",
             "priority": 57,
-            "perm": "sf_dly"
+            "perm": "nse_free"
           }
         }
       },
@@ -3077,7 +3077,7 @@
           "rt": {
             "prefix": "ASX_DLY",
             "priority": 60,
-            "perm": "sf_dly"
+            "perm": "nse_free"
           }
         }
       },
