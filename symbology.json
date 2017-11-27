@@ -1936,7 +1936,7 @@
       },
       {
         "prefix": "ASX_DLY",
-        "perm": "sf_dly",
+        "perm": "nse_free",
         "groups": [
           {
             "group": "asx_indices_delayed",
@@ -5238,7 +5238,7 @@
       },
       {
         "prefix": "ASX_DLY",
-        "perm": "sf_dly",
+        "perm": "nse_free",
         "groups": [
           {
             "group": "asx_indices_delayed",
