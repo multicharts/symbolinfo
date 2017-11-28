@@ -82,9 +82,14 @@
         "priority": 10,
         "prefix": "SP",
         "perm": "spindices",
+        "prefix_no_perm": [
+          "SP_EOD"
+        ],
         "exchange_for_display": "S&P",
         "prefix_alias": [
-          "SP_DLY"
+          "SP_DLY",
+          "INDEX",
+          "TVC"
         ],
         "groups": [
           {
@@ -96,10 +101,14 @@
         "priority": 10,
         "prefix": "DJ",
         "perm": "djindices_dly",
+        "prefix_no_perm": [
+          "DJ_EOD"
+        ],
         "exchange_for_display": "Dow Jones",
         "skip_in_search": false,
         "prefix_alias": [
-          "DJ_DLY"
+          "DJ_DLY",
+          "INDEX"
         ],
         "groups": [
           {
@@ -114,9 +123,13 @@
             "group": "cboe_indices_delayed",
             "priority": 10,
             "perm": "cboe_dly",
+            "prefix_no_perm": [
+              "CBOE_EOD"
+            ],
             "skip_in_search": false,
             "prefix_alias": [
-              "CBOE_DLY"
+              "CBOE_DLY",
+              "INDEX"
             ]
           },
           {
@@ -970,6 +983,36 @@
       },
       {
         "priority": 47,
+        "prefix": "CBOE_EOD",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "cboe_indices_eod"
+          }
+        ]
+      },
+      {
+        "priority": 47,
+        "prefix": "DJ_EOD",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "dj_indices_eod"
+          }
+        ]
+      },
+      {
+        "priority": 47,
+        "prefix": "SP_EOD",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "sp_indices_eod"
+          }
+        ]
+      },
+      {
+        "priority": 47,
         "prefix": "INDEX",
         "groups": [
           {
@@ -977,19 +1020,10 @@
             "search_boost": 2.0
           },
           {
-            "group": "cfei"
-          },
-          {
             "group": "ind"
           },
           {
-            "group": "dowi2"
-          },
-          {
             "group": "spec"
-          },
-          {
-            "group": "snpi"
           },
           {
             "group": "russli"
@@ -1300,6 +1334,16 @@
           {
             "group": "istanbul_stocks",
             "priority": 55
+          },
+          {
+            "group": "istanbul_futures",
+            "priority": 57,
+            "perm": "bist_futures"
+          },
+          {
+            "group": "istanbul_continuous",
+            "priority": 57,
+            "perm": "bist_futures"
           }
         ]
       },
@@ -1473,6 +1517,14 @@
           {
             "group": "istanbul_stocks_delayed",
             "priority": 56
+          },
+          {
+            "group": "istanbul_futures_delayed",
+            "priority": 58
+          },
+          {
+            "group": "istanbul_continuous_delayed",
+            "priority": 58
           }
         ]
       },
@@ -1828,7 +1880,7 @@
       },
       {
         "prefix": "ASX_DLY",
-        "perm": "sf_dly",
+        "perm": "nse_free",
         "groups": [
           {
             "group": "asx_indices_delayed",
@@ -2314,41 +2366,11 @@
       },
       {
         "priority": 100,
-        "prefix": "CBOE_EOD",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "cboe_indices_eod"
-          }
-        ]
-      },
-      {
-        "priority": 100,
-        "prefix": "DJ_EOD",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "dj_indices_eod"
-          }
-        ]
-      },
-      {
-        "priority": 100,
         "prefix": "RUSSEL",
         "skip_in_search": true,
         "groups": [
           {
             "group": "russel_indices_eod"
-          }
-        ]
-      },
-      {
-        "priority": 100,
-        "prefix": "SP_EOD",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "sp_indices_eod"
           }
         ]
       },
@@ -2852,9 +2874,14 @@
         "priority": 10,
         "prefix": "SP",
         "perm": "spindices",
+        "prefix_no_perm": [
+          "SP_EOD"
+        ],
         "exchange_for_display": "S&P",
         "prefix_alias": [
-          "SP_DLY"
+          "SP_DLY",
+          "INDEX",
+          "TVC"
         ],
         "groups": [
           {
@@ -2866,10 +2893,14 @@
         "priority": 10,
         "prefix": "DJ",
         "perm": "djindices_dly",
+        "prefix_no_perm": [
+          "DJ_EOD"
+        ],
         "exchange_for_display": "Dow Jones",
         "skip_in_search": false,
         "prefix_alias": [
-          "DJ_DLY"
+          "DJ_DLY",
+          "INDEX"
         ],
         "groups": [
           {
@@ -2884,9 +2915,13 @@
             "group": "cboe_indices_delayed",
             "priority": 10,
             "perm": "cboe_dly",
+            "prefix_no_perm": [
+              "CBOE_EOD"
+            ],
             "skip_in_search": false,
             "prefix_alias": [
-              "CBOE_DLY"
+              "CBOE_DLY",
+              "INDEX"
             ]
           },
           {
@@ -3740,6 +3775,36 @@
       },
       {
         "priority": 47,
+        "prefix": "CBOE_EOD",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "cboe_indices_eod"
+          }
+        ]
+      },
+      {
+        "priority": 47,
+        "prefix": "DJ_EOD",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "dj_indices_eod"
+          }
+        ]
+      },
+      {
+        "priority": 47,
+        "prefix": "SP_EOD",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "sp_indices_eod"
+          }
+        ]
+      },
+      {
+        "priority": 47,
         "prefix": "INDEX",
         "groups": [
           {
@@ -3747,19 +3812,10 @@
             "search_boost": 2.0
           },
           {
-            "group": "cfei"
-          },
-          {
             "group": "ind"
           },
           {
-            "group": "dowi2"
-          },
-          {
             "group": "spec"
-          },
-          {
-            "group": "snpi"
           },
           {
             "group": "russli"
@@ -4070,6 +4126,16 @@
           {
             "group": "istanbul_stocks",
             "priority": 55
+          },
+          {
+            "group": "istanbul_futures",
+            "priority": 57,
+            "perm": "bist_futures"
+          },
+          {
+            "group": "istanbul_continuous",
+            "priority": 57,
+            "perm": "bist_futures"
           }
         ]
       },
@@ -4243,6 +4309,14 @@
           {
             "group": "istanbul_stocks_delayed",
             "priority": 56
+          },
+          {
+            "group": "istanbul_futures_delayed",
+            "priority": 58
+          },
+          {
+            "group": "istanbul_continuous_delayed",
+            "priority": 58
           }
         ]
       },
@@ -4598,7 +4672,7 @@
       },
       {
         "prefix": "ASX_DLY",
-        "perm": "sf_dly",
+        "perm": "nse_free",
         "groups": [
           {
             "group": "asx_indices_delayed",
@@ -5084,41 +5158,11 @@
       },
       {
         "priority": 100,
-        "prefix": "CBOE_EOD",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "cboe_indices_eod"
-          }
-        ]
-      },
-      {
-        "priority": 100,
-        "prefix": "DJ_EOD",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "dj_indices_eod"
-          }
-        ]
-      },
-      {
-        "priority": 100,
         "prefix": "RUSSEL",
         "skip_in_search": true,
         "groups": [
           {
             "group": "russel_indices_eod"
-          }
-        ]
-      },
-      {
-        "priority": 100,
-        "prefix": "SP_EOD",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "sp_indices_eod"
           }
         ]
       },
