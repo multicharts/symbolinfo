@@ -2313,7 +2313,7 @@
       {
         "priority": 81,
         "prefix": "MYX_DLY",
-        "perm": "nse_free",
+        "perm": "permission_denied",
         "groups": [
           {
             "group": "malaysia_stocks_delayed"
@@ -3020,7 +3020,7 @@
       },
       {
         "prefix": "LUXSE_DLY",
-        "perm": "sf_dly",
+        "perm": "permission_denied",
         "skip_in_search": true,
         "groups": [
           {
@@ -3143,7 +3143,7 @@
       },
       {
         "prefix": "EGX_DLY",
-        "perm": "sf_dly",
+        "perm": "permission_denied",
         "skip_in_search": true,
         "groups": [
           {
@@ -3158,7 +3158,7 @@
       },
       {
         "prefix": "NSENG_DLY",
-        "perm": "sf_dly",
+        "perm": "permission_denied",
         "skip_in_search": true,
         "groups": [
           {
@@ -3173,7 +3173,7 @@
       },
       {
         "prefix": "TADAWUL_DLY",
-        "perm": "sf_dly",
+        "perm": "permission_denied",
         "skip_in_search": true,
         "groups": [
           {
@@ -3188,7 +3188,7 @@
       },
       {
         "prefix": "BAHRAIN_DLY",
-        "perm": "sf_dly",
+        "perm": "permission_denied",
         "skip_in_search": true,
         "groups": [
           {
@@ -3203,7 +3203,7 @@
       },
       {
         "prefix": "DFM_DLY",
-        "perm": "sf_dly",
+        "perm": "permission_denied",
         "skip_in_search": true,
         "groups": [
           {
@@ -3218,7 +3218,7 @@
       },
       {
         "prefix": "QSE_DLY",
-        "perm": "sf_dly",
+        "perm": "permission_denied",
         "skip_in_search": true,
         "groups": [
           {
@@ -3251,7 +3251,7 @@
       },
       {
         "prefix": "BELEX_DLY",
-        "perm": "sf_dly",
+        "perm": "permission_denied",
         "skip_in_search": true,
         "groups": [
           {
@@ -5580,7 +5580,7 @@
       {
         "priority": 81,
         "prefix": "MYX_DLY",
-        "perm": "nse_free",
+        "perm": "permission_denied",
         "groups": [
           {
             "group": "malaysia_stocks_delayed"
@@ -6287,7 +6287,7 @@
       },
       {
         "prefix": "LUXSE_DLY",
-        "perm": "sf_dly",
+        "perm": "permission_denied",
         "skip_in_search": true,
         "groups": [
           {
@@ -6410,7 +6410,7 @@
       },
       {
         "prefix": "EGX_DLY",
-        "perm": "sf_dly",
+        "perm": "permission_denied",
         "skip_in_search": true,
         "groups": [
           {
@@ -6425,7 +6425,7 @@
       },
       {
         "prefix": "NSENG_DLY",
-        "perm": "sf_dly",
+        "perm": "permission_denied",
         "skip_in_search": true,
         "groups": [
           {
@@ -6440,7 +6440,7 @@
       },
       {
         "prefix": "TADAWUL_DLY",
-        "perm": "sf_dly",
+        "perm": "permission_denied",
         "skip_in_search": true,
         "groups": [
           {
@@ -6455,7 +6455,7 @@
       },
       {
         "prefix": "BAHRAIN_DLY",
-        "perm": "sf_dly",
+        "perm": "permission_denied",
         "skip_in_search": true,
         "groups": [
           {
@@ -6470,7 +6470,7 @@
       },
       {
         "prefix": "DFM_DLY",
-        "perm": "sf_dly",
+        "perm": "permission_denied",
         "skip_in_search": true,
         "groups": [
           {
@@ -6485,7 +6485,7 @@
       },
       {
         "prefix": "QSE_DLY",
-        "perm": "sf_dly",
+        "perm": "permission_denied",
         "skip_in_search": true,
         "groups": [
           {
@@ -6518,7 +6518,7 @@
       },
       {
         "prefix": "BELEX_DLY",
-        "perm": "sf_dly",
+        "perm": "permission_denied",
         "skip_in_search": true,
         "groups": [
           {
