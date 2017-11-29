@@ -3706,7 +3706,7 @@
           "rt": {
             "priority": 81,
             "prefix": "MYX_DLY",
-            "perm": "permission_denied"
+            "perm": "myx"
           }
         }
       },
@@ -3716,7 +3716,7 @@
           "rt": {
             "priority": 81,
             "prefix": "MYX_DLY",
-            "perm": "permission_denied"
+            "perm": "myx"
           }
         }
       },
@@ -3726,7 +3726,7 @@
           "rt": {
             "priority": 81,
             "prefix": "MYX_DLY",
-            "perm": "permission_denied"
+            "perm": "myx"
           }
         }
       },
