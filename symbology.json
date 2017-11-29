@@ -2644,6 +2644,19 @@
         ]
       },
       {
+        "priority": 80,
+        "prefix": "IDX",
+        "perm": "idx",
+        "prefix_no_perm": [
+          "IDX_DLY"
+        ],
+        "groups": [
+          {
+            "group": "indonesia_indices"
+          }
+        ]
+      },
+      {
         "prefix": "EGX_DLY",
         "groups": [
           {
@@ -2666,6 +2679,19 @@
           {
             "group": "nigerian_stocks_delayed",
             "priority": 81
+          }
+        ]
+      },
+      {
+        "priority": 81,
+        "prefix": "IDX_DLY",
+        "perm": "sf_dly",
+        "groups": [
+          {
+            "group": "indonesia_stocks"
+          },
+          {
+            "group": "indonesia_indices_delayed"
           }
         ]
       },
@@ -5946,6 +5972,19 @@
         ]
       },
       {
+        "priority": 80,
+        "prefix": "IDX",
+        "perm": "idx",
+        "prefix_no_perm": [
+          "IDX_DLY"
+        ],
+        "groups": [
+          {
+            "group": "indonesia_indices"
+          }
+        ]
+      },
+      {
         "prefix": "EGX_DLY",
         "groups": [
           {
@@ -5968,6 +6007,19 @@
           {
             "group": "nigerian_stocks_delayed",
             "priority": 81
+          }
+        ]
+      },
+      {
+        "priority": 81,
+        "prefix": "IDX_DLY",
+        "perm": "sf_dly",
+        "groups": [
+          {
+            "group": "indonesia_stocks"
+          },
+          {
+            "group": "indonesia_indices_delayed"
           }
         ]
       },
