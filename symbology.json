@@ -424,22 +424,18 @@
       {
         "search_boost": 0.6,
         "prefix": "BME",
+        "perm": "bme",
         "prefix_no_perm": [
           "BME_DLY"
         ],
         "groups": [
           {
             "group": "bme_indices",
-            "priority": 39,
-            "perm": "bme_dly",
-            "prefix_alias": [
-              "BME_DLY"
-            ]
+            "priority": 39
           },
           {
             "group": "bme_stocks",
-            "priority": 40,
-            "perm": "bme"
+            "priority": 40
           }
         ]
       },
@@ -1207,16 +1203,15 @@
       },
       {
         "prefix": "BME_DLY",
+        "perm": "nse_free",
         "groups": [
           {
             "group": "bme_indices_delayed",
-            "priority": 49,
-            "perm": "sf_dly"
+            "priority": 49
           },
           {
             "group": "bme_stocks_delayed",
-            "priority": 50,
-            "perm": "bme_dly"
+            "priority": 50
           }
         ]
       },
@@ -3696,22 +3691,18 @@
       {
         "search_boost": 0.6,
         "prefix": "BME",
+        "perm": "bme",
         "prefix_no_perm": [
           "BME_DLY"
         ],
         "groups": [
           {
             "group": "bme_indices",
-            "priority": 39,
-            "perm": "bme_dly",
-            "prefix_alias": [
-              "BME_DLY"
-            ]
+            "priority": 39
           },
           {
             "group": "bme_stocks",
-            "priority": 40,
-            "perm": "bme"
+            "priority": 40
           }
         ]
       },
@@ -4479,16 +4470,15 @@
       },
       {
         "prefix": "BME_DLY",
+        "perm": "nse_free",
         "groups": [
           {
             "group": "bme_indices_delayed",
-            "priority": 49,
-            "perm": "sf_dly"
+            "priority": 49
           },
           {
             "group": "bme_stocks_delayed",
-            "priority": 50,
-            "perm": "bme_dly"
+            "priority": 50
           }
         ]
       },
