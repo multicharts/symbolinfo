@@ -4116,6 +4116,19 @@
         }
       },
       {
+        "id": "indonesia_indices",
+        "kinds": {
+          "rt": {
+            "priority": 80,
+            "prefix": "IDX",
+            "prefix_no_perm": [
+              "IDX_DLY"
+            ],
+            "perm": "idx"
+          }
+        }
+      },
+      {
         "id": "egyptian_indices_delayed",
         "kinds": {
           "rt": {
@@ -4142,6 +4155,16 @@
             "prefix_no_perm": [
               "MYX_DLY"
             ]
+          }
+        }
+      },
+      {
+        "id": "indonesia_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 81,
+            "prefix": "IDX_DLY",
+            "perm": "sf_dly"
           }
         }
       },
@@ -4214,6 +4237,16 @@
           "rt": {
             "priority": 81,
             "prefix": "MYX_DLY"
+          }
+        }
+      },
+      {
+        "id": "indonesia_indices_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 81,
+            "prefix": "IDX_DLY",
+            "perm": "sf_dly"
           }
         }
       },
