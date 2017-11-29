@@ -465,11 +465,8 @@
             "priority": 39,
             "search_boost": 0.6,
             "prefix": "BME",
-            "perm": "bme_dly",
+            "perm": "bme",
             "prefix_no_perm": [
-              "BME_DLY"
-            ],
-            "prefix_alias": [
               "BME_DLY"
             ]
           }
@@ -1454,7 +1451,7 @@
           "rt": {
             "priority": 49,
             "prefix": "BME_DLY",
-            "perm": "sf_dly"
+            "perm": "nse_free"
           }
         }
       },
@@ -1900,7 +1897,7 @@
           "rt": {
             "priority": 50,
             "prefix": "BME_DLY",
-            "perm": "bme_dly"
+            "perm": "nse_free"
           }
         }
       },
