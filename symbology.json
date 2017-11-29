@@ -2895,7 +2895,7 @@
       {
         "priority": 259,
         "prefix": "OSE_DLY",
-        "perm": "sf_dly",
+        "perm": "permission_denied",
         "skip_in_search": true,
         "groups": [
           {
@@ -2927,7 +2927,7 @@
       {
         "priority": 260,
         "prefix": "OSE_DAY_DLY",
-        "perm": "sf_dly",
+        "perm": "permission_denied",
         "skip_in_search": true,
         "groups": [
           {
@@ -2941,7 +2941,7 @@
       {
         "priority": 261,
         "prefix": "OSE_NIGHT_DLY",
-        "perm": "sf_dly",
+        "perm": "permission_denied",
         "skip_in_search": true,
         "groups": [
           {
@@ -2954,7 +2954,7 @@
       },
       {
         "prefix": "BVL_DLY",
-        "perm": "sf_dly",
+        "perm": "permission_denied",
         "skip_in_search": true,
         "groups": [
           {
@@ -3005,7 +3005,7 @@
       },
       {
         "prefix": "BVC_DLY",
-        "perm": "sf_dly",
+        "perm": "permission_denied",
         "skip_in_search": true,
         "groups": [
           {
@@ -6162,7 +6162,7 @@
       {
         "priority": 259,
         "prefix": "OSE_DLY",
-        "perm": "sf_dly",
+        "perm": "permission_denied",
         "skip_in_search": true,
         "groups": [
           {
@@ -6194,7 +6194,7 @@
       {
         "priority": 260,
         "prefix": "OSE_DAY_DLY",
-        "perm": "sf_dly",
+        "perm": "permission_denied",
         "skip_in_search": true,
         "groups": [
           {
@@ -6208,7 +6208,7 @@
       {
         "priority": 261,
         "prefix": "OSE_NIGHT_DLY",
-        "perm": "sf_dly",
+        "perm": "permission_denied",
         "skip_in_search": true,
         "groups": [
           {
@@ -6221,7 +6221,7 @@
       },
       {
         "prefix": "BVL_DLY",
-        "perm": "sf_dly",
+        "perm": "permission_denied",
         "skip_in_search": true,
         "groups": [
           {
@@ -6272,7 +6272,7 @@
       },
       {
         "prefix": "BVC_DLY",
-        "perm": "sf_dly",
+        "perm": "permission_denied",
         "skip_in_search": true,
         "groups": [
           {
