@@ -3688,6 +3688,19 @@
         }
       },
       {
+        "id": "indonesia_indices",
+        "kinds": {
+          "rt": {
+            "priority": 80,
+            "prefix": "IDX",
+            "prefix_no_perm": [
+              "IDX_DLY"
+            ],
+            "perm": "idx"
+          }
+        }
+      },
+      {
         "id": "malaysia_continuous",
         "kinds": {
           "rt": {
@@ -3701,12 +3714,22 @@
         }
       },
       {
+        "id": "indonesia_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 81,
+            "prefix": "IDX_DLY",
+            "perm": "sf_dly"
+          }
+        }
+      },
+      {
         "id": "malaysia_stocks_delayed",
         "kinds": {
           "rt": {
             "priority": 81,
             "prefix": "MYX_DLY",
-            "perm": "myx"
+            "perm": "nse_free"
           }
         }
       },
@@ -3716,7 +3739,17 @@
           "rt": {
             "priority": 81,
             "prefix": "MYX_DLY",
-            "perm": "myx"
+            "perm": "nse_free"
+          }
+        }
+      },
+      {
+        "id": "indonesia_indices_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 81,
+            "prefix": "IDX_DLY",
+            "perm": "sf_dly"
           }
         }
       },
@@ -3726,7 +3759,7 @@
           "rt": {
             "priority": 81,
             "prefix": "MYX_DLY",
-            "perm": "myx"
+            "perm": "nse_free"
           }
         }
       },
@@ -4616,7 +4649,7 @@
           "rt": {
             "prefix": "OSE_DLY",
             "priority": 259,
-            "perm": "permission_denied",
+            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -4641,7 +4674,7 @@
           "rt": {
             "prefix": "OSE_DLY",
             "priority": 259,
-            "perm": "permission_denied",
+            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -4666,7 +4699,7 @@
           "rt": {
             "prefix": "OSE_DAY_DLY",
             "priority": 260,
-            "perm": "permission_denied",
+            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -4677,7 +4710,7 @@
           "rt": {
             "prefix": "OSE_DAY_DLY",
             "priority": 260,
-            "perm": "permission_denied",
+            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -4702,7 +4735,7 @@
           "rt": {
             "prefix": "OSE_NIGHT_DLY",
             "priority": 261,
-            "perm": "permission_denied",
+            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -4713,7 +4746,7 @@
           "rt": {
             "prefix": "OSE_NIGHT_DLY",
             "priority": 261,
-            "perm": "permission_denied",
+            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -4724,7 +4757,7 @@
           "rt": {
             "priority": 262,
             "prefix": "BVL_DLY",
-            "perm": "permission_denied",
+            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -4735,7 +4768,7 @@
           "rt": {
             "priority": 263,
             "prefix": "BVL_DLY",
-            "perm": "permission_denied",
+            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -4802,7 +4835,7 @@
           "rt": {
             "priority": 270,
             "prefix": "BVC_DLY",
-            "perm": "permission_denied",
+            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -4813,7 +4846,7 @@
           "rt": {
             "priority": 270,
             "prefix": "LUXSE_DLY",
-            "perm": "permission_denied",
+            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -4824,7 +4857,7 @@
           "rt": {
             "priority": 271,
             "prefix": "BVC_DLY",
-            "perm": "permission_denied",
+            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -4835,7 +4868,7 @@
           "rt": {
             "priority": 271,
             "prefix": "LUXSE_DLY",
-            "perm": "permission_denied",
+            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -4958,7 +4991,7 @@
           "rt": {
             "priority": 280,
             "prefix": "EGX_DLY",
-            "perm": "permission_denied",
+            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -4969,7 +5002,7 @@
           "rt": {
             "priority": 280,
             "prefix": "NSENG_DLY",
-            "perm": "permission_denied",
+            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -4980,7 +5013,7 @@
           "rt": {
             "priority": 281,
             "prefix": "TADAWUL_DLY",
-            "perm": "permission_denied",
+            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -4991,7 +5024,7 @@
           "rt": {
             "priority": 281,
             "prefix": "BAHRAIN_DLY",
-            "perm": "permission_denied",
+            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -5002,7 +5035,7 @@
           "rt": {
             "priority": 281,
             "prefix": "EGX_DLY",
-            "perm": "permission_denied",
+            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -5013,7 +5046,7 @@
           "rt": {
             "priority": 281,
             "prefix": "DFM_DLY",
-            "perm": "permission_denied",
+            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -5024,7 +5057,7 @@
           "rt": {
             "priority": 281,
             "prefix": "QSE_DLY",
-            "perm": "permission_denied",
+            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -5035,7 +5068,7 @@
           "rt": {
             "priority": 281,
             "prefix": "NSENG_DLY",
-            "perm": "permission_denied",
+            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -5102,7 +5135,7 @@
           "rt": {
             "priority": 286,
             "prefix": "TADAWUL_DLY",
-            "perm": "permission_denied",
+            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -5113,7 +5146,7 @@
           "rt": {
             "priority": 286,
             "prefix": "BAHRAIN_DLY",
-            "perm": "permission_denied",
+            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -5124,7 +5157,7 @@
           "rt": {
             "priority": 286,
             "prefix": "DFM_DLY",
-            "perm": "permission_denied",
+            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -5135,7 +5168,7 @@
           "rt": {
             "priority": 286,
             "prefix": "QSE_DLY",
-            "perm": "permission_denied",
+            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -5174,7 +5207,7 @@
           "rt": {
             "priority": 290,
             "prefix": "BELEX_DLY",
-            "perm": "permission_denied",
+            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -5185,7 +5218,7 @@
           "rt": {
             "priority": 291,
             "prefix": "BELEX_DLY",
-            "perm": "permission_denied",
+            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
