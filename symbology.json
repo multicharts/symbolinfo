@@ -331,6 +331,16 @@
         ]
       },
       {
+        "priority": 15,
+        "prefix": "BITHUMB",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "bithumb"
+          }
+        ]
+      },
+      {
         "prefix": "KRAKEN",
         "groups": [
           {
@@ -3665,6 +3675,16 @@
           {
             "group": "BITMEX",
             "priority": 112
+          }
+        ]
+      },
+      {
+        "priority": 15,
+        "prefix": "BITHUMB",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "bithumb"
           }
         ]
       },
