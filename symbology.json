@@ -3228,6 +3228,16 @@
         ]
       },
       {
+        "priority": 114,
+        "prefix": "BINANCE",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "binance"
+          }
+        ]
+      },
+      {
         "priority": 120,
         "prefix": "GOCIO",
         "groups": [
@@ -6552,6 +6562,16 @@
         "groups": [
           {
             "group": "MTGOX"
+          }
+        ]
+      },
+      {
+        "priority": 114,
+        "prefix": "BINANCE",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "binance"
           }
         ]
       },
