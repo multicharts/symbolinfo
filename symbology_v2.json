@@ -5042,6 +5042,16 @@
         }
       },
       {
+        "id": "binance",
+        "kinds": {
+          "rt": {
+            "prefix": "BINANCE",
+            "priority": 114,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "gocio_spreads",
         "kinds": {
           "rt": {
