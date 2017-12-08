@@ -2292,7 +2292,6 @@
         "prefix_no_perm": [
           "MYX_DLY"
         ],
-        "skip_in_search": true,
         "groups": [
           {
             "group": "malaysia_stocks"
@@ -2334,7 +2333,7 @@
       {
         "priority": 81,
         "prefix": "MYX_DLY",
-        "perm": "myx",
+        "perm": "nse_free",
         "groups": [
           {
             "group": "malaysia_stocks_delayed"
@@ -5580,7 +5579,6 @@
         "prefix_no_perm": [
           "MYX_DLY"
         ],
-        "skip_in_search": true,
         "groups": [
           {
             "group": "malaysia_stocks"
@@ -5622,7 +5620,7 @@
       {
         "priority": 81,
         "prefix": "MYX_DLY",
-        "perm": "myx",
+        "perm": "nse_free",
         "groups": [
           {
             "group": "malaysia_stocks_delayed"
