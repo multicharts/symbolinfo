@@ -1452,6 +1452,9 @@
             "priority": 48,
             "prefix": "CHXEUR",
             "exchange_for_display": "CHXEUR_VIE",
+            "exchange_aliases": [
+              "VIE"
+            ],
             "skip_in_search": false,
             "prefix_alias": [
               "CHXEUR_VIE"
@@ -1459,7 +1462,10 @@
             "prefix_no_perm": [
               "CHXEUR_EOD"
             ],
-            "perm": "chxeur"
+            "perm": "chxeur",
+            "group_alias": [
+              "vienna"
+            ]
           }
         }
       },
@@ -2006,6 +2012,20 @@
           "rt": {
             "priority": 50,
             "prefix": "CME_MINI_DL"
+          }
+        }
+      },
+      {
+        "id": "vienna",
+        "kinds": {
+          "rt": {
+            "priority": 50,
+            "prefix": "VIE",
+            "perm": "permission_denied",
+            "prefix_no_perm": [
+              "CHXEUR"
+            ],
+            "skip_in_search": true
           }
         }
       },
@@ -3656,7 +3676,7 @@
           "rt": {
             "prefix": "VIE",
             "priority": 70,
-            "perm": "wb",
+            "perm": "vie",
             "prefix_no_perm": [
               "VIE_DLY"
             ],
@@ -3867,7 +3887,7 @@
           "rt": {
             "prefix": "VIE",
             "priority": 75,
-            "perm": "wb",
+            "perm": "vie",
             "prefix_no_perm": [
               "VIE_DLY"
             ],
