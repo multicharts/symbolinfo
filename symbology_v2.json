@@ -3676,7 +3676,7 @@
           "rt": {
             "prefix": "VIE",
             "priority": 70,
-            "perm": "vie",
+            "perm": "wb",
             "prefix_no_perm": [
               "VIE_DLY"
             ],
@@ -3887,7 +3887,7 @@
           "rt": {
             "prefix": "VIE",
             "priority": 75,
-            "perm": "vie",
+            "perm": "wb",
             "prefix_no_perm": [
               "VIE_DLY"
             ],
