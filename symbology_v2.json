@@ -3626,6 +3626,58 @@
         }
       },
       {
+        "id": "egyptian_indices",
+        "kinds": {
+          "rt": {
+            "priority": 79,
+            "prefix": "EGX",
+            "prefix_no_perm": [
+              "EGX_DLY"
+            ],
+            "perm": "egx"
+          }
+        }
+      },
+      {
+        "id": "saudi_indices",
+        "kinds": {
+          "rt": {
+            "priority": 80,
+            "prefix": "TADAWUL",
+            "perm": "tadawul",
+            "prefix_no_perm": [
+              "TADAWUL_DLY"
+            ]
+          }
+        }
+      },
+      {
+        "id": "bahrain_indices",
+        "kinds": {
+          "rt": {
+            "priority": 80,
+            "prefix": "BAHRAIN",
+            "perm": "bahrain",
+            "prefix_no_perm": [
+              "BAHRAIN_DLY"
+            ]
+          }
+        }
+      },
+      {
+        "id": "egyptian_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 80,
+            "prefix": "EGX",
+            "prefix_no_perm": [
+              "EGX_DLY"
+            ],
+            "perm": "egx"
+          }
+        }
+      },
+      {
         "id": "malaysia_stocks",
         "kinds": {
           "rt": {
@@ -3665,6 +3717,17 @@
         }
       },
       {
+        "id": "egyptian_indices_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 80,
+            "prefix": "EGX_DLY",
+            "perm": "sf_dly",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "malaysia_continuous",
         "kinds": {
           "rt": {
@@ -3684,6 +3747,39 @@
             "priority": 81,
             "prefix": "IDX_DLY",
             "perm": "idx"
+          }
+        }
+      },
+      {
+        "id": "saudi_indices_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 81,
+            "prefix": "TADAWUL_DLY",
+            "perm": "sf_dly",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "bahrain_indices_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 81,
+            "prefix": "BAHRAIN_DLY",
+            "perm": "sf_dly",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "egyptian_stocks_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 81,
+            "prefix": "EGX_DLY",
+            "perm": "sf_dly",
+            "skip_in_search": true
           }
         }
       },
@@ -3803,6 +3899,91 @@
         }
       },
       {
+        "id": "saudi_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 85,
+            "prefix": "TADAWUL",
+            "perm": "tadawul",
+            "prefix_no_perm": [
+              "TADAWUL_DLY"
+            ]
+          }
+        }
+      },
+      {
+        "id": "bahrain_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 85,
+            "prefix": "BAHRAIN",
+            "perm": "bahrain",
+            "prefix_no_perm": [
+              "BAHRAIN_DLY"
+            ]
+          }
+        }
+      },
+      {
+        "id": "saudi_stocks_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 86,
+            "prefix": "TADAWUL_DLY",
+            "perm": "sf_dly",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "bahrain_stocks_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 86,
+            "prefix": "BAHRAIN_DLY",
+            "perm": "sf_dly",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "belgrade_indices",
+        "kinds": {
+          "rt": {
+            "priority": 89,
+            "prefix": "BELEX",
+            "prefix_no_perm": [
+              "BELEX_DLY"
+            ],
+            "perm": "belex"
+          }
+        }
+      },
+      {
+        "id": "belgrade_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 90,
+            "prefix": "BELEX",
+            "prefix_no_perm": [
+              "BELEX_DLY"
+            ],
+            "perm": "belex"
+          }
+        }
+      },
+      {
+        "id": "belgrade_indices_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 90,
+            "prefix": "BELEX_DLY",
+            "perm": "sf_dly",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "nasdaq_unadjusted",
         "kinds": {
           "rt": {
@@ -3838,6 +4019,17 @@
           "rt": {
             "prefix": "OTC_UNADJ",
             "priority": 90,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "belgrade_stocks_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 91,
+            "prefix": "BELEX_DLY",
+            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -4838,20 +5030,6 @@
         }
       },
       {
-        "id": "egyptian_indices",
-        "kinds": {
-          "rt": {
-            "priority": 279,
-            "prefix": "EGX",
-            "prefix_no_perm": [
-              "EGX_DLY"
-            ],
-            "perm": "egx",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
         "id": "nigerian_indices",
         "kinds": {
           "rt": {
@@ -4861,48 +5039,6 @@
               "NSENG_DLY"
             ],
             "perm": "nseng",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "saudi_indices",
-        "kinds": {
-          "rt": {
-            "priority": 280,
-            "prefix": "TADAWUL",
-            "perm": "tadawul",
-            "prefix_no_perm": [
-              "TADAWUL_DLY"
-            ],
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "bahrain_indices",
-        "kinds": {
-          "rt": {
-            "priority": 280,
-            "prefix": "BAHRAIN",
-            "perm": "bahrain",
-            "prefix_no_perm": [
-              "BAHRAIN_DLY"
-            ],
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "egyptian_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 280,
-            "prefix": "EGX",
-            "prefix_no_perm": [
-              "EGX_DLY"
-            ],
-            "perm": "egx",
             "skip_in_search": true
           }
         }
@@ -4950,56 +5086,12 @@
         }
       },
       {
-        "id": "egyptian_indices_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 280,
-            "prefix": "EGX_DLY",
-            "perm": "egx",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
         "id": "nigerian_indices_delayed",
         "kinds": {
           "rt": {
             "priority": 280,
             "prefix": "NSENG_DLY",
             "perm": "nseng",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "saudi_indices_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 281,
-            "prefix": "TADAWUL_DLY",
-            "perm": "tadawul",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "bahrain_indices_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 281,
-            "prefix": "BAHRAIN_DLY",
-            "perm": "bahrain",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "egyptian_stocks_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 281,
-            "prefix": "EGX_DLY",
-            "perm": "egx",
             "skip_in_search": true
           }
         }
@@ -5038,34 +5130,6 @@
         }
       },
       {
-        "id": "saudi_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 285,
-            "prefix": "TADAWUL",
-            "perm": "tadawul",
-            "prefix_no_perm": [
-              "TADAWUL_DLY"
-            ],
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "bahrain_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 285,
-            "prefix": "BAHRAIN",
-            "perm": "bahrain",
-            "prefix_no_perm": [
-              "BAHRAIN_DLY"
-            ],
-            "skip_in_search": true
-          }
-        }
-      },
-      {
         "id": "dubai_stocks",
         "kinds": {
           "rt": {
@@ -5094,28 +5158,6 @@
         }
       },
       {
-        "id": "saudi_stocks_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 286,
-            "prefix": "TADAWUL_DLY",
-            "perm": "tadawul",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "bahrain_stocks_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 286,
-            "prefix": "BAHRAIN_DLY",
-            "perm": "bahrain",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
         "id": "dubai_stocks_delayed",
         "kinds": {
           "rt": {
@@ -5133,56 +5175,6 @@
             "priority": 286,
             "prefix": "QSE_DLY",
             "perm": "qse",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "belgrade_indices",
-        "kinds": {
-          "rt": {
-            "priority": 289,
-            "prefix": "BELEX",
-            "prefix_no_perm": [
-              "BELEX_DLY"
-            ],
-            "perm": "belex",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "belgrade_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 290,
-            "prefix": "BELEX",
-            "prefix_no_perm": [
-              "BELEX_DLY"
-            ],
-            "perm": "belex",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "belgrade_indices_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 290,
-            "prefix": "BELEX_DLY",
-            "perm": "belex",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "belgrade_stocks_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 291,
-            "prefix": "BELEX_DLY",
-            "perm": "belex",
             "skip_in_search": true
           }
         }
