@@ -2286,6 +2286,57 @@
         ]
       },
       {
+        "prefix": "EGX",
+        "perm": "egx",
+        "prefix_no_perm": [
+          "EGX_DLY"
+        ],
+        "groups": [
+          {
+            "group": "egyptian_indices",
+            "priority": 79
+          },
+          {
+            "group": "egyptian_stocks",
+            "priority": 80
+          }
+        ]
+      },
+      {
+        "prefix": "TADAWUL",
+        "perm": "tadawul",
+        "prefix_no_perm": [
+          "TADAWUL_DLY"
+        ],
+        "groups": [
+          {
+            "group": "saudi_indices",
+            "priority": 80
+          },
+          {
+            "group": "saudi_stocks",
+            "priority": 85
+          }
+        ]
+      },
+      {
+        "prefix": "BAHRAIN",
+        "perm": "bahrain",
+        "prefix_no_perm": [
+          "BAHRAIN_DLY"
+        ],
+        "groups": [
+          {
+            "group": "bahrain_indices",
+            "priority": 80
+          },
+          {
+            "group": "bahrain_stocks",
+            "priority": 85
+          }
+        ]
+      },
+      {
         "priority": 80,
         "prefix": "MYX",
         "perm": "myx",
@@ -2318,6 +2369,21 @@
         ]
       },
       {
+        "prefix": "EGX_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "egyptian_indices_delayed",
+            "priority": 80
+          },
+          {
+            "group": "egyptian_stocks_delayed",
+            "priority": 81
+          }
+        ]
+      },
+      {
         "priority": 81,
         "prefix": "IDX_DLY",
         "perm": "idx",
@@ -2327,6 +2393,36 @@
           },
           {
             "group": "indonesia_indices_delayed"
+          }
+        ]
+      },
+      {
+        "prefix": "TADAWUL_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "saudi_indices_delayed",
+            "priority": 81
+          },
+          {
+            "group": "saudi_stocks_delayed",
+            "priority": 86
+          }
+        ]
+      },
+      {
+        "prefix": "BAHRAIN_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "bahrain_indices_delayed",
+            "priority": 81
+          },
+          {
+            "group": "bahrain_stocks_delayed",
+            "priority": 86
           }
         ]
       },
@@ -2380,6 +2476,38 @@
           },
           {
             "group": "otc_pink_delayed"
+          }
+        ]
+      },
+      {
+        "prefix": "BELEX",
+        "perm": "belex",
+        "prefix_no_perm": [
+          "BELEX_DLY"
+        ],
+        "groups": [
+          {
+            "group": "belgrade_indices",
+            "priority": 89
+          },
+          {
+            "group": "belgrade_stocks",
+            "priority": 90
+          }
+        ]
+      },
+      {
+        "prefix": "BELEX_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "belgrade_indices_delayed",
+            "priority": 90
+          },
+          {
+            "group": "belgrade_stocks_delayed",
+            "priority": 91
           }
         ]
       },
@@ -3054,24 +3182,6 @@
         ]
       },
       {
-        "prefix": "EGX",
-        "perm": "egx",
-        "prefix_no_perm": [
-          "EGX_DLY"
-        ],
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "egyptian_indices",
-            "priority": 279
-          },
-          {
-            "group": "egyptian_stocks",
-            "priority": 280
-          }
-        ]
-      },
-      {
         "prefix": "NSENG",
         "perm": "nseng",
         "prefix_no_perm": [
@@ -3086,42 +3196,6 @@
           {
             "group": "nigerian_stocks",
             "priority": 280
-          }
-        ]
-      },
-      {
-        "prefix": "TADAWUL",
-        "perm": "tadawul",
-        "prefix_no_perm": [
-          "TADAWUL_DLY"
-        ],
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "saudi_indices",
-            "priority": 280
-          },
-          {
-            "group": "saudi_stocks",
-            "priority": 285
-          }
-        ]
-      },
-      {
-        "prefix": "BAHRAIN",
-        "perm": "bahrain",
-        "prefix_no_perm": [
-          "BAHRAIN_DLY"
-        ],
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "bahrain_indices",
-            "priority": 280
-          },
-          {
-            "group": "bahrain_stocks",
-            "priority": 285
           }
         ]
       },
@@ -3162,21 +3236,6 @@
         ]
       },
       {
-        "prefix": "EGX_DLY",
-        "perm": "egx",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "egyptian_indices_delayed",
-            "priority": 280
-          },
-          {
-            "group": "egyptian_stocks_delayed",
-            "priority": 281
-          }
-        ]
-      },
-      {
         "prefix": "NSENG_DLY",
         "perm": "nseng",
         "skip_in_search": true,
@@ -3188,36 +3247,6 @@
           {
             "group": "nigerian_stocks_delayed",
             "priority": 281
-          }
-        ]
-      },
-      {
-        "prefix": "TADAWUL_DLY",
-        "perm": "tadawul",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "saudi_indices_delayed",
-            "priority": 281
-          },
-          {
-            "group": "saudi_stocks_delayed",
-            "priority": 286
-          }
-        ]
-      },
-      {
-        "prefix": "BAHRAIN_DLY",
-        "perm": "bahrain",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "bahrain_indices_delayed",
-            "priority": 281
-          },
-          {
-            "group": "bahrain_stocks_delayed",
-            "priority": 286
           }
         ]
       },
@@ -3248,39 +3277,6 @@
           {
             "group": "qatar_stocks_delayed",
             "priority": 286
-          }
-        ]
-      },
-      {
-        "prefix": "BELEX",
-        "perm": "belex",
-        "prefix_no_perm": [
-          "BELEX_DLY"
-        ],
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "belgrade_indices",
-            "priority": 289
-          },
-          {
-            "group": "belgrade_stocks",
-            "priority": 290
-          }
-        ]
-      },
-      {
-        "prefix": "BELEX_DLY",
-        "perm": "belex",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "belgrade_indices_delayed",
-            "priority": 290
-          },
-          {
-            "group": "belgrade_stocks_delayed",
-            "priority": 291
           }
         ]
       }
@@ -5573,6 +5569,57 @@
         ]
       },
       {
+        "prefix": "EGX",
+        "perm": "egx",
+        "prefix_no_perm": [
+          "EGX_DLY"
+        ],
+        "groups": [
+          {
+            "group": "egyptian_indices",
+            "priority": 79
+          },
+          {
+            "group": "egyptian_stocks",
+            "priority": 80
+          }
+        ]
+      },
+      {
+        "prefix": "TADAWUL",
+        "perm": "tadawul",
+        "prefix_no_perm": [
+          "TADAWUL_DLY"
+        ],
+        "groups": [
+          {
+            "group": "saudi_indices",
+            "priority": 80
+          },
+          {
+            "group": "saudi_stocks",
+            "priority": 85
+          }
+        ]
+      },
+      {
+        "prefix": "BAHRAIN",
+        "perm": "bahrain",
+        "prefix_no_perm": [
+          "BAHRAIN_DLY"
+        ],
+        "groups": [
+          {
+            "group": "bahrain_indices",
+            "priority": 80
+          },
+          {
+            "group": "bahrain_stocks",
+            "priority": 85
+          }
+        ]
+      },
+      {
         "priority": 80,
         "prefix": "MYX",
         "perm": "myx",
@@ -5605,6 +5652,21 @@
         ]
       },
       {
+        "prefix": "EGX_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "egyptian_indices_delayed",
+            "priority": 80
+          },
+          {
+            "group": "egyptian_stocks_delayed",
+            "priority": 81
+          }
+        ]
+      },
+      {
         "priority": 81,
         "prefix": "IDX_DLY",
         "perm": "idx",
@@ -5614,6 +5676,36 @@
           },
           {
             "group": "indonesia_indices_delayed"
+          }
+        ]
+      },
+      {
+        "prefix": "TADAWUL_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "saudi_indices_delayed",
+            "priority": 81
+          },
+          {
+            "group": "saudi_stocks_delayed",
+            "priority": 86
+          }
+        ]
+      },
+      {
+        "prefix": "BAHRAIN_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "bahrain_indices_delayed",
+            "priority": 81
+          },
+          {
+            "group": "bahrain_stocks_delayed",
+            "priority": 86
           }
         ]
       },
@@ -5667,6 +5759,38 @@
           },
           {
             "group": "otc_pink_delayed"
+          }
+        ]
+      },
+      {
+        "prefix": "BELEX",
+        "perm": "belex",
+        "prefix_no_perm": [
+          "BELEX_DLY"
+        ],
+        "groups": [
+          {
+            "group": "belgrade_indices",
+            "priority": 89
+          },
+          {
+            "group": "belgrade_stocks",
+            "priority": 90
+          }
+        ]
+      },
+      {
+        "prefix": "BELEX_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "belgrade_indices_delayed",
+            "priority": 90
+          },
+          {
+            "group": "belgrade_stocks_delayed",
+            "priority": 91
           }
         ]
       },
@@ -6341,24 +6465,6 @@
         ]
       },
       {
-        "prefix": "EGX",
-        "perm": "egx",
-        "prefix_no_perm": [
-          "EGX_DLY"
-        ],
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "egyptian_indices",
-            "priority": 279
-          },
-          {
-            "group": "egyptian_stocks",
-            "priority": 280
-          }
-        ]
-      },
-      {
         "prefix": "NSENG",
         "perm": "nseng",
         "prefix_no_perm": [
@@ -6373,42 +6479,6 @@
           {
             "group": "nigerian_stocks",
             "priority": 280
-          }
-        ]
-      },
-      {
-        "prefix": "TADAWUL",
-        "perm": "tadawul",
-        "prefix_no_perm": [
-          "TADAWUL_DLY"
-        ],
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "saudi_indices",
-            "priority": 280
-          },
-          {
-            "group": "saudi_stocks",
-            "priority": 285
-          }
-        ]
-      },
-      {
-        "prefix": "BAHRAIN",
-        "perm": "bahrain",
-        "prefix_no_perm": [
-          "BAHRAIN_DLY"
-        ],
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "bahrain_indices",
-            "priority": 280
-          },
-          {
-            "group": "bahrain_stocks",
-            "priority": 285
           }
         ]
       },
@@ -6449,21 +6519,6 @@
         ]
       },
       {
-        "prefix": "EGX_DLY",
-        "perm": "egx",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "egyptian_indices_delayed",
-            "priority": 280
-          },
-          {
-            "group": "egyptian_stocks_delayed",
-            "priority": 281
-          }
-        ]
-      },
-      {
         "prefix": "NSENG_DLY",
         "perm": "nseng",
         "skip_in_search": true,
@@ -6475,36 +6530,6 @@
           {
             "group": "nigerian_stocks_delayed",
             "priority": 281
-          }
-        ]
-      },
-      {
-        "prefix": "TADAWUL_DLY",
-        "perm": "tadawul",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "saudi_indices_delayed",
-            "priority": 281
-          },
-          {
-            "group": "saudi_stocks_delayed",
-            "priority": 286
-          }
-        ]
-      },
-      {
-        "prefix": "BAHRAIN_DLY",
-        "perm": "bahrain",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "bahrain_indices_delayed",
-            "priority": 281
-          },
-          {
-            "group": "bahrain_stocks_delayed",
-            "priority": 286
           }
         ]
       },
@@ -6535,39 +6560,6 @@
           {
             "group": "qatar_stocks_delayed",
             "priority": 286
-          }
-        ]
-      },
-      {
-        "prefix": "BELEX",
-        "perm": "belex",
-        "prefix_no_perm": [
-          "BELEX_DLY"
-        ],
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "belgrade_indices",
-            "priority": 289
-          },
-          {
-            "group": "belgrade_stocks",
-            "priority": 290
-          }
-        ]
-      },
-      {
-        "prefix": "BELEX_DLY",
-        "perm": "belex",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "belgrade_indices_delayed",
-            "priority": 290
-          },
-          {
-            "group": "belgrade_stocks_delayed",
-            "priority": 291
           }
         ]
       }
