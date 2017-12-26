@@ -197,6 +197,39 @@
         }
       },
       {
+        "id": "korean_tvc_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 10,
+            "search_boost": 2.0,
+            "perm": "tvc_cfd"
+          }
+        }
+      },
+      {
+        "id": "nzx_tvc_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 10,
+            "search_boost": 2.0,
+            "perm": "tvc_cfd"
+          }
+        }
+      },
+      {
+        "id": "singapore_tvc_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 10,
+            "search_boost": 2.0,
+            "perm": "tvc_cfd"
+          }
+        }
+      },
+      {
         "id": "bitstamp",
         "kinds": {
           "rt": {
@@ -448,6 +481,16 @@
             "search_boost": 2.0,
             "perm": "tvc_cfd",
             "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "binance",
+        "kinds": {
+          "rt": {
+            "prefix": "BINANCE",
+            "priority": 20,
+            "skip_in_search": false
           }
         }
       },
@@ -5068,16 +5111,6 @@
           "rt": {
             "prefix": "MTGOX",
             "priority": 113
-          }
-        }
-      },
-      {
-        "id": "binance",
-        "kinds": {
-          "rt": {
-            "prefix": "BINANCE",
-            "priority": 114,
-            "skip_in_search": false
           }
         }
       },
