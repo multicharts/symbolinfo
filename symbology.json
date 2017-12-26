@@ -73,6 +73,18 @@
             "perm": "tvc_cfd"
           },
           {
+            "group": "korean_tvc_indices",
+            "perm": "tvc_cfd"
+          },
+          {
+            "group": "nzx_tvc_indices",
+            "perm": "tvc_cfd"
+          },
+          {
+            "group": "singapore_tvc_indices",
+            "perm": "tvc_cfd"
+          },
+          {
             "group": "government_bonds",
             "priority": 20,
             "perm": "tvc_cfd"
@@ -373,6 +385,16 @@
             "group": "nasdaq_indices_eod",
             "priority": 100,
             "skip_in_search": true
+          }
+        ]
+      },
+      {
+        "priority": 20,
+        "prefix": "BINANCE",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "binance"
           }
         ]
       },
@@ -3256,16 +3278,6 @@
         "groups": [
           {
             "group": "MTGOX"
-          }
-        ]
-      },
-      {
-        "priority": 114,
-        "prefix": "BINANCE",
-        "skip_in_search": false,
-        "groups": [
-          {
-            "group": "binance"
           }
         ]
       },
@@ -3443,6 +3455,18 @@
             "perm": "tvc_cfd"
           },
           {
+            "group": "korean_tvc_indices",
+            "perm": "tvc_cfd"
+          },
+          {
+            "group": "nzx_tvc_indices",
+            "perm": "tvc_cfd"
+          },
+          {
+            "group": "singapore_tvc_indices",
+            "perm": "tvc_cfd"
+          },
+          {
             "group": "government_bonds",
             "priority": 20,
             "perm": "tvc_cfd"
@@ -3743,6 +3767,16 @@
             "group": "nasdaq_indices_eod",
             "priority": 100,
             "skip_in_search": true
+          }
+        ]
+      },
+      {
+        "priority": 20,
+        "prefix": "BINANCE",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "binance"
           }
         ]
       },
@@ -6626,16 +6660,6 @@
         "groups": [
           {
             "group": "MTGOX"
-          }
-        ]
-      },
-      {
-        "priority": 114,
-        "prefix": "BINANCE",
-        "skip_in_search": false,
-        "groups": [
-          {
-            "group": "binance"
           }
         ]
       },
