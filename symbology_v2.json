@@ -490,7 +490,7 @@
           "rt": {
             "prefix": "BINANCE",
             "priority": 20,
-            "skip_in_search": true
+            "skip_in_search": false
           }
         }
       },
@@ -4921,6 +4921,15 @@
         }
       },
       {
+        "id": "wex",
+        "kinds": {
+          "rt": {
+            "prefix": "WEX",
+            "priority": 112
+          }
+        }
+      },
+      {
         "id": "bitso_spreads",
         "kinds": {
           "rt": {
@@ -5083,15 +5092,6 @@
         "kinds": {
           "rt": {
             "prefix": "BXTH",
-            "priority": 112
-          }
-        }
-      },
-      {
-        "id": "wex",
-        "kinds": {
-          "rt": {
-            "prefix": "WEX",
             "priority": 112
           }
         }
