@@ -422,7 +422,7 @@
           "rt": {
             "prefix": "BINANCE",
             "priority": 20,
-            "skip_in_search": false
+            "skip_in_search": true
           }
         }
       },
