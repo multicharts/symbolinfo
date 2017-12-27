@@ -3132,6 +3132,15 @@
       },
       {
         "priority": 112,
+        "prefix": "WEX",
+        "groups": [
+          {
+            "group": "wex"
+          }
+        ]
+      },
+      {
+        "priority": 112,
         "prefix": "BITSO",
         "groups": [
           {
@@ -3260,15 +3269,6 @@
         "groups": [
           {
             "group": "BXTH"
-          }
-        ]
-      },
-      {
-        "priority": 112,
-        "prefix": "WEX",
-        "groups": [
-          {
-            "group": "wex"
           }
         ]
       },
@@ -6514,6 +6514,15 @@
       },
       {
         "priority": 112,
+        "prefix": "WEX",
+        "groups": [
+          {
+            "group": "wex"
+          }
+        ]
+      },
+      {
+        "priority": 112,
         "prefix": "BITSO",
         "groups": [
           {
@@ -6642,15 +6651,6 @@
         "groups": [
           {
             "group": "BXTH"
-          }
-        ]
-      },
-      {
-        "priority": 112,
-        "prefix": "WEX",
-        "groups": [
-          {
-            "group": "wex"
           }
         ]
       },
