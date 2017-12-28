@@ -428,6 +428,16 @@
         }
       },
       {
+        "id": "binance",
+        "kinds": {
+          "rt": {
+            "prefix": "BINANCE",
+            "priority": 20,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "amex_idc",
         "kinds": {
           "rt": {
@@ -1244,6 +1254,30 @@
         }
       },
       {
+        "id": "chix_europe_vienna",
+        "kinds": {
+          "rt": {
+            "priority": 48,
+            "prefix": "CHXEUR",
+            "exchange_for_display": "CHXEUR_VIE",
+            "exchange_aliases": [
+              "VIE"
+            ],
+            "skip_in_search": false,
+            "prefix_no_perm": [
+              "CHXEUR_EOD"
+            ],
+            "prefix_alias": [
+              "CHXEUR_VIE"
+            ],
+            "group_alias": [
+              "vienna"
+            ],
+            "perm": "chxeur"
+          }
+        }
+      },
+      {
         "id": "chix_europe_lse_in",
         "kinds": {
           "rt": {
@@ -1379,24 +1413,6 @@
             "skip_in_search": false,
             "prefix_alias": [
               "CHXEUR_FRA"
-            ],
-            "prefix_no_perm": [
-              "CHXEUR_EOD"
-            ],
-            "perm": "chxeur"
-          }
-        }
-      },
-      {
-        "id": "chix_europe_vienna",
-        "kinds": {
-          "rt": {
-            "priority": 48,
-            "prefix": "CHXEUR",
-            "exchange_for_display": "CHXEUR_VIE",
-            "skip_in_search": false,
-            "prefix_alias": [
-              "CHXEUR_VIE"
             ],
             "prefix_no_perm": [
               "CHXEUR_EOD"
@@ -1921,6 +1937,20 @@
           "rt": {
             "priority": 50,
             "prefix": "OSL",
+            "perm": "permission_denied",
+            "prefix_no_perm": [
+              "CHXEUR"
+            ],
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "vienna",
+        "kinds": {
+          "rt": {
+            "priority": 50,
+            "prefix": "VIE",
             "perm": "permission_denied",
             "prefix_no_perm": [
               "CHXEUR"
@@ -3712,7 +3742,8 @@
             "prefix_no_perm": [
               "IDX_DLY"
             ],
-            "perm": "idx"
+            "perm": "idx",
+            "skip_in_search": true
           }
         }
       },
@@ -3746,7 +3777,8 @@
           "rt": {
             "priority": 81,
             "prefix": "IDX_DLY",
-            "perm": "idx"
+            "perm": "idx",
+            "skip_in_search": true
           }
         }
       },
@@ -3809,7 +3841,8 @@
           "rt": {
             "priority": 81,
             "prefix": "IDX_DLY",
-            "perm": "idx"
+            "perm": "idx",
+            "skip_in_search": true
           }
         }
       },
