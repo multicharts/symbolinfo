@@ -340,7 +340,7 @@
       {
         "priority": 20,
         "prefix": "BINANCE",
-        "skip_in_search": true,
+        "skip_in_search": false,
         "groups": [
           {
             "group": "binance"
@@ -3632,7 +3632,7 @@
       {
         "priority": 20,
         "prefix": "BINANCE",
-        "skip_in_search": true,
+        "skip_in_search": false,
         "groups": [
           {
             "group": "binance"
