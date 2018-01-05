@@ -207,6 +207,16 @@
         }
       },
       {
+        "id": "wex",
+        "kinds": {
+          "rt": {
+            "prefix": "WEX",
+            "priority": 16,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "kraken",
         "kinds": {
           "rt": {
@@ -1057,6 +1067,20 @@
           "rt": {
             "priority": 50,
             "prefix": "OSL",
+            "perm": "permission_denied",
+            "prefix_no_perm": [
+              "CHXEUR"
+            ],
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "vienna",
+        "kinds": {
+          "rt": {
+            "priority": 50,
+            "prefix": "VIE",
             "perm": "permission_denied",
             "prefix_no_perm": [
               "CHXEUR"
@@ -3019,15 +3043,6 @@
         "kinds": {
           "rt": {
             "prefix": "BTCE",
-            "priority": 112
-          }
-        }
-      },
-      {
-        "id": "wex",
-        "kinds": {
-          "rt": {
-            "prefix": "WEX",
             "priority": 112
           }
         }
