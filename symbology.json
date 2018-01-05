@@ -88,7 +88,8 @@
         "exchange_for_display": "S&P",
         "prefix_alias": [
           "SP_DLY",
-          "INDEX"
+          "INDEX",
+          "TVC"
         ],
         "groups": [
           {
@@ -301,6 +302,16 @@
         "groups": [
           {
             "group": "bitmex2"
+          }
+        ]
+      },
+      {
+        "priority": 16,
+        "prefix": "WEX",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "wex"
           }
         ]
       },
@@ -1130,6 +1141,19 @@
             ]
           },
           {
+            "group": "chix_europe_vienna",
+            "exchange_for_display": "CHXEUR_VIE",
+            "prefix_alias": [
+              "CHXEUR_VIE"
+            ],
+            "exchange_aliases": [
+              "VIE"
+            ],
+            "group_alias": [
+              "vienna"
+            ]
+          },
+          {
             "group": "chix_europe_lse_in",
             "exchange_for_display": "CHXEUR_LSIN",
             "prefix_alias": [
@@ -1183,13 +1207,6 @@
             "exchange_for_display": "CHXEUR_FRA",
             "prefix_alias": [
               "CHXEUR_FRA"
-            ]
-          },
-          {
-            "group": "chix_europe_vienna",
-            "exchange_for_display": "CHXEUR_VIE",
-            "prefix_alias": [
-              "CHXEUR_VIE"
             ]
           }
         ]
@@ -1444,6 +1461,42 @@
         "groups": [
           {
             "group": "oslo"
+          }
+        ]
+      },
+      {
+        "prefix": "VIE",
+        "groups": [
+          {
+            "group": "vienna",
+            "priority": 50,
+            "perm": "permission_denied",
+            "prefix_no_perm": [
+              "CHXEUR"
+            ],
+            "skip_in_search": true
+          },
+          {
+            "group": "vienna_indices",
+            "priority": 70,
+            "perm": "vie",
+            "prefix_no_perm": [
+              "VIE_DLY"
+            ],
+            "prefix_alias": [
+              "WB"
+            ]
+          },
+          {
+            "group": "vienna_stocks",
+            "priority": 75,
+            "perm": "vie",
+            "prefix_no_perm": [
+              "VIE_DLY"
+            ],
+            "prefix_alias": [
+              "WB"
+            ]
           }
         ]
       },
@@ -1990,6 +2043,24 @@
         ]
       },
       {
+        "prefix": "BVL",
+        "perm": "bvl",
+        "prefix_no_perm": [
+          "BVL_DLY"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "lima_indices",
+            "priority": 60
+          },
+          {
+            "group": "lima_stocks",
+            "priority": 61
+          }
+        ]
+      },
+      {
         "priority": 60,
         "prefix": "NAG_DLY",
         "perm": "sf_dly",
@@ -2022,23 +2093,6 @@
           },
           {
             "group": "lse_in_eur_eod"
-          }
-        ]
-      },
-      {
-        "prefix": "BVL",
-        "perm": "bvl",
-        "prefix_no_perm": [
-          "BVL_DLY"
-        ],
-        "groups": [
-          {
-            "group": "lima_indices",
-            "priority": 60
-          },
-          {
-            "group": "lima_stocks",
-            "priority": 61
           }
         ]
       },
@@ -2091,6 +2145,7 @@
       {
         "prefix": "BVL_DLY",
         "perm": "sf_dly",
+        "skip_in_search": true,
         "groups": [
           {
             "group": "lima_stocks_delayed",
@@ -2166,28 +2221,12 @@
         ]
       },
       {
-        "prefix": "BVC",
-        "perm": "bvc",
-        "prefix_no_perm": [
-          "BVC_DLY"
-        ],
-        "groups": [
-          {
-            "group": "colombia_indices",
-            "priority": 69
-          },
-          {
-            "group": "colombia_stocks",
-            "priority": 70
-          }
-        ]
-      },
-      {
         "prefix": "LUXSE",
         "perm": "luxse",
         "prefix_no_perm": [
           "LUXSE_DLY"
         ],
+        "skip_in_search": true,
         "groups": [
           {
             "group": "luxembourg_indices",
@@ -2200,22 +2239,20 @@
         ]
       },
       {
-        "prefix": "VIE",
-        "perm": "vie",
+        "prefix": "BVC",
+        "perm": "bvc",
         "prefix_no_perm": [
-          "VIE_DLY"
+          "BVC_DLY"
         ],
-        "prefix_alias": [
-          "WB"
-        ],
+        "skip_in_search": true,
         "groups": [
           {
-            "group": "vienna_indices",
-            "priority": 70
+            "group": "colombia_indices",
+            "priority": 69
           },
           {
-            "group": "vienna_stocks",
-            "priority": 75
+            "group": "colombia_stocks",
+            "priority": 70
           }
         ]
       },
@@ -2294,6 +2331,7 @@
       {
         "prefix": "LUXSE_DLY",
         "perm": "sf_dly",
+        "skip_in_search": true,
         "groups": [
           {
             "group": "luxembourg_indices_delayed",
@@ -2347,6 +2385,7 @@
       {
         "prefix": "TASE_DLY",
         "perm": "sf_dly",
+        "skip_in_search": true,
         "groups": [
           {
             "group": "telaviv_indices_delayed",
@@ -2402,6 +2441,7 @@
         "prefix_no_perm": [
           "NSENG_DLY"
         ],
+        "skip_in_search": true,
         "groups": [
           {
             "group": "nigerian_indices",
@@ -2453,6 +2493,7 @@
         "prefix_no_perm": [
           "DFM_DLY"
         ],
+        "skip_in_search": true,
         "groups": [
           {
             "group": "dubai_indices",
@@ -2470,6 +2511,7 @@
         "prefix_no_perm": [
           "QSE_DLY"
         ],
+        "skip_in_search": true,
         "groups": [
           {
             "group": "qatar_indices",
@@ -2507,6 +2549,7 @@
         "prefix_no_perm": [
           "IDX_DLY"
         ],
+        "skip_in_search": true,
         "groups": [
           {
             "group": "indonesia_indices"
@@ -2516,6 +2559,7 @@
       {
         "prefix": "EGX_DLY",
         "perm": "sf_dly",
+        "skip_in_search": true,
         "groups": [
           {
             "group": "egyptian_indices_delayed",
@@ -2530,6 +2574,7 @@
       {
         "prefix": "NSENG_DLY",
         "perm": "sf_dly",
+        "skip_in_search": true,
         "groups": [
           {
             "group": "nigerian_indices_delayed",
@@ -2545,6 +2590,7 @@
         "priority": 81,
         "prefix": "IDX_DLY",
         "perm": "sf_dly",
+        "skip_in_search": true,
         "groups": [
           {
             "group": "indonesia_stocks"
@@ -2557,6 +2603,7 @@
       {
         "prefix": "TADAWUL_DLY",
         "perm": "sf_dly",
+        "skip_in_search": true,
         "groups": [
           {
             "group": "saudi_indices_delayed",
@@ -2571,6 +2618,7 @@
       {
         "prefix": "BAHRAIN_DLY",
         "perm": "sf_dly",
+        "skip_in_search": true,
         "groups": [
           {
             "group": "bahrain_indices_delayed",
@@ -2585,6 +2633,7 @@
       {
         "prefix": "DFM_DLY",
         "perm": "sf_dly",
+        "skip_in_search": true,
         "groups": [
           {
             "group": "dubai_indices_delayed",
@@ -2599,6 +2648,7 @@
       {
         "prefix": "QSE_DLY",
         "perm": "sf_dly",
+        "skip_in_search": true,
         "groups": [
           {
             "group": "qatar_indices_delayed",
@@ -2681,6 +2731,21 @@
         ]
       },
       {
+        "prefix": "BELEX_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "belgrade_indices_delayed",
+            "priority": 90
+          },
+          {
+            "group": "belgrade_stocks_delayed",
+            "priority": 91
+          }
+        ]
+      },
+      {
         "priority": 90,
         "prefix": "NASDAQ_UNADJ",
         "skip_in_search": true,
@@ -2717,20 +2782,6 @@
         "groups": [
           {
             "group": "otc_unadjusted"
-          }
-        ]
-      },
-      {
-        "prefix": "BELEX_DLY",
-        "perm": "sf_dly",
-        "groups": [
-          {
-            "group": "belgrade_indices_delayed",
-            "priority": 90
-          },
-          {
-            "group": "belgrade_stocks_delayed",
-            "priority": 91
           }
         ]
       },
@@ -2929,15 +2980,6 @@
         "groups": [
           {
             "group": "btce"
-          }
-        ]
-      },
-      {
-        "priority": 112,
-        "prefix": "WEX",
-        "groups": [
-          {
-            "group": "wex"
           }
         ]
       },
@@ -3380,7 +3422,8 @@
         "exchange_for_display": "S&P",
         "prefix_alias": [
           "SP_DLY",
-          "INDEX"
+          "INDEX",
+          "TVC"
         ],
         "groups": [
           {
@@ -3593,6 +3636,16 @@
         "groups": [
           {
             "group": "bitmex2"
+          }
+        ]
+      },
+      {
+        "priority": 16,
+        "prefix": "WEX",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "wex"
           }
         ]
       },
@@ -4422,6 +4475,19 @@
             ]
           },
           {
+            "group": "chix_europe_vienna",
+            "exchange_for_display": "CHXEUR_VIE",
+            "prefix_alias": [
+              "CHXEUR_VIE"
+            ],
+            "exchange_aliases": [
+              "VIE"
+            ],
+            "group_alias": [
+              "vienna"
+            ]
+          },
+          {
             "group": "chix_europe_lse_in",
             "exchange_for_display": "CHXEUR_LSIN",
             "prefix_alias": [
@@ -4475,13 +4541,6 @@
             "exchange_for_display": "CHXEUR_FRA",
             "prefix_alias": [
               "CHXEUR_FRA"
-            ]
-          },
-          {
-            "group": "chix_europe_vienna",
-            "exchange_for_display": "CHXEUR_VIE",
-            "prefix_alias": [
-              "CHXEUR_VIE"
             ]
           }
         ]
@@ -4736,6 +4795,42 @@
         "groups": [
           {
             "group": "oslo"
+          }
+        ]
+      },
+      {
+        "prefix": "VIE",
+        "groups": [
+          {
+            "group": "vienna",
+            "priority": 50,
+            "perm": "permission_denied",
+            "prefix_no_perm": [
+              "CHXEUR"
+            ],
+            "skip_in_search": true
+          },
+          {
+            "group": "vienna_indices",
+            "priority": 70,
+            "perm": "vie",
+            "prefix_no_perm": [
+              "VIE_DLY"
+            ],
+            "prefix_alias": [
+              "WB"
+            ]
+          },
+          {
+            "group": "vienna_stocks",
+            "priority": 75,
+            "perm": "vie",
+            "prefix_no_perm": [
+              "VIE_DLY"
+            ],
+            "prefix_alias": [
+              "WB"
+            ]
           }
         ]
       },
@@ -5282,6 +5377,24 @@
         ]
       },
       {
+        "prefix": "BVL",
+        "perm": "bvl",
+        "prefix_no_perm": [
+          "BVL_DLY"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "lima_indices",
+            "priority": 60
+          },
+          {
+            "group": "lima_stocks",
+            "priority": 61
+          }
+        ]
+      },
+      {
         "priority": 60,
         "prefix": "NAG_DLY",
         "perm": "sf_dly",
@@ -5314,23 +5427,6 @@
           },
           {
             "group": "lse_in_eur_eod"
-          }
-        ]
-      },
-      {
-        "prefix": "BVL",
-        "perm": "bvl",
-        "prefix_no_perm": [
-          "BVL_DLY"
-        ],
-        "groups": [
-          {
-            "group": "lima_indices",
-            "priority": 60
-          },
-          {
-            "group": "lima_stocks",
-            "priority": 61
           }
         ]
       },
@@ -5383,6 +5479,7 @@
       {
         "prefix": "BVL_DLY",
         "perm": "sf_dly",
+        "skip_in_search": true,
         "groups": [
           {
             "group": "lima_stocks_delayed",
@@ -5458,28 +5555,12 @@
         ]
       },
       {
-        "prefix": "BVC",
-        "perm": "bvc",
-        "prefix_no_perm": [
-          "BVC_DLY"
-        ],
-        "groups": [
-          {
-            "group": "colombia_indices",
-            "priority": 69
-          },
-          {
-            "group": "colombia_stocks",
-            "priority": 70
-          }
-        ]
-      },
-      {
         "prefix": "LUXSE",
         "perm": "luxse",
         "prefix_no_perm": [
           "LUXSE_DLY"
         ],
+        "skip_in_search": true,
         "groups": [
           {
             "group": "luxembourg_indices",
@@ -5492,22 +5573,20 @@
         ]
       },
       {
-        "prefix": "VIE",
-        "perm": "vie",
+        "prefix": "BVC",
+        "perm": "bvc",
         "prefix_no_perm": [
-          "VIE_DLY"
+          "BVC_DLY"
         ],
-        "prefix_alias": [
-          "WB"
-        ],
+        "skip_in_search": true,
         "groups": [
           {
-            "group": "vienna_indices",
-            "priority": 70
+            "group": "colombia_indices",
+            "priority": 69
           },
           {
-            "group": "vienna_stocks",
-            "priority": 75
+            "group": "colombia_stocks",
+            "priority": 70
           }
         ]
       },
@@ -5586,6 +5665,7 @@
       {
         "prefix": "LUXSE_DLY",
         "perm": "sf_dly",
+        "skip_in_search": true,
         "groups": [
           {
             "group": "luxembourg_indices_delayed",
@@ -5639,6 +5719,7 @@
       {
         "prefix": "TASE_DLY",
         "perm": "sf_dly",
+        "skip_in_search": true,
         "groups": [
           {
             "group": "telaviv_indices_delayed",
@@ -5694,6 +5775,7 @@
         "prefix_no_perm": [
           "NSENG_DLY"
         ],
+        "skip_in_search": true,
         "groups": [
           {
             "group": "nigerian_indices",
@@ -5745,6 +5827,7 @@
         "prefix_no_perm": [
           "DFM_DLY"
         ],
+        "skip_in_search": true,
         "groups": [
           {
             "group": "dubai_indices",
@@ -5762,6 +5845,7 @@
         "prefix_no_perm": [
           "QSE_DLY"
         ],
+        "skip_in_search": true,
         "groups": [
           {
             "group": "qatar_indices",
@@ -5799,6 +5883,7 @@
         "prefix_no_perm": [
           "IDX_DLY"
         ],
+        "skip_in_search": true,
         "groups": [
           {
             "group": "indonesia_indices"
@@ -5808,6 +5893,7 @@
       {
         "prefix": "EGX_DLY",
         "perm": "sf_dly",
+        "skip_in_search": true,
         "groups": [
           {
             "group": "egyptian_indices_delayed",
@@ -5822,6 +5908,7 @@
       {
         "prefix": "NSENG_DLY",
         "perm": "sf_dly",
+        "skip_in_search": true,
         "groups": [
           {
             "group": "nigerian_indices_delayed",
@@ -5837,6 +5924,7 @@
         "priority": 81,
         "prefix": "IDX_DLY",
         "perm": "sf_dly",
+        "skip_in_search": true,
         "groups": [
           {
             "group": "indonesia_stocks"
@@ -5849,6 +5937,7 @@
       {
         "prefix": "TADAWUL_DLY",
         "perm": "sf_dly",
+        "skip_in_search": true,
         "groups": [
           {
             "group": "saudi_indices_delayed",
@@ -5863,6 +5952,7 @@
       {
         "prefix": "BAHRAIN_DLY",
         "perm": "sf_dly",
+        "skip_in_search": true,
         "groups": [
           {
             "group": "bahrain_indices_delayed",
@@ -5877,6 +5967,7 @@
       {
         "prefix": "DFM_DLY",
         "perm": "sf_dly",
+        "skip_in_search": true,
         "groups": [
           {
             "group": "dubai_indices_delayed",
@@ -5891,6 +5982,7 @@
       {
         "prefix": "QSE_DLY",
         "perm": "sf_dly",
+        "skip_in_search": true,
         "groups": [
           {
             "group": "qatar_indices_delayed",
@@ -5973,6 +6065,21 @@
         ]
       },
       {
+        "prefix": "BELEX_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "belgrade_indices_delayed",
+            "priority": 90
+          },
+          {
+            "group": "belgrade_stocks_delayed",
+            "priority": 91
+          }
+        ]
+      },
+      {
         "priority": 90,
         "prefix": "NASDAQ_UNADJ",
         "skip_in_search": true,
@@ -6009,20 +6116,6 @@
         "groups": [
           {
             "group": "otc_unadjusted"
-          }
-        ]
-      },
-      {
-        "prefix": "BELEX_DLY",
-        "perm": "sf_dly",
-        "groups": [
-          {
-            "group": "belgrade_indices_delayed",
-            "priority": 90
-          },
-          {
-            "group": "belgrade_stocks_delayed",
-            "priority": 91
           }
         ]
       },
@@ -6221,15 +6314,6 @@
         "groups": [
           {
             "group": "btce"
-          }
-        ]
-      },
-      {
-        "priority": 112,
-        "prefix": "WEX",
-        "groups": [
-          {
-            "group": "wex"
           }
         ]
       },
