@@ -30,7 +30,7 @@
           },
           {
             "group": "dxy_idc2",
-            "perm": "tvc_cfd"
+            "perm": "dxy"
           },
           {
             "group": "us_chicago_indices",
@@ -3364,7 +3364,7 @@
           },
           {
             "group": "dxy_idc2",
-            "perm": "tvc_cfd"
+            "perm": "dxy"
           },
           {
             "group": "us_chicago_indices",
