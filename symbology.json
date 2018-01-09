@@ -2484,22 +2484,19 @@
       {
         "priority": 70,
         "prefix": "NZX_DLY",
+        "perm": "sf_dly",
         "groups": [
           {
-            "group": "nzx_stocks_delayed",
-            "perm": "sf_dly"
+            "group": "nzx_stocks_delayed"
           },
           {
-            "group": "nzx_indices_delayed",
-            "perm": "nzx_dly"
+            "group": "nzx_indices_delayed"
           },
           {
-            "group": "nzx_futures_delayed",
-            "perm": "sf_dly"
+            "group": "nzx_futures_delayed"
           },
           {
-            "group": "nzx_continuous_delayed",
-            "perm": "sf_dly"
+            "group": "nzx_continuous_delayed"
           }
         ]
       },
@@ -2779,7 +2776,7 @@
       {
         "priority": 81,
         "prefix": "IDX_DLY",
-        "perm": "sf_dly",
+        "perm": "idx",
         "skip_in_search": true,
         "groups": [
           {
@@ -5920,22 +5917,19 @@
       {
         "priority": 70,
         "prefix": "NZX_DLY",
+        "perm": "sf_dly",
         "groups": [
           {
-            "group": "nzx_stocks_delayed",
-            "perm": "sf_dly"
+            "group": "nzx_stocks_delayed"
           },
           {
-            "group": "nzx_indices_delayed",
-            "perm": "nzx_dly"
+            "group": "nzx_indices_delayed"
           },
           {
-            "group": "nzx_futures_delayed",
-            "perm": "sf_dly"
+            "group": "nzx_futures_delayed"
           },
           {
-            "group": "nzx_continuous_delayed",
-            "perm": "sf_dly"
+            "group": "nzx_continuous_delayed"
           }
         ]
       },
@@ -6215,7 +6209,7 @@
       {
         "priority": 81,
         "prefix": "IDX_DLY",
-        "perm": "sf_dly",
+        "perm": "idx",
         "skip_in_search": true,
         "groups": [
           {
