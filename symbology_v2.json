@@ -3835,7 +3835,7 @@
           "rt": {
             "prefix": "NZX_DLY",
             "priority": 70,
-            "perm": "nzx_dly"
+            "perm": "sf_dly"
           }
         }
       },
@@ -4309,7 +4309,7 @@
           "rt": {
             "priority": 81,
             "prefix": "IDX_DLY",
-            "perm": "sf_dly",
+            "perm": "idx",
             "skip_in_search": true
           }
         }
@@ -4395,7 +4395,7 @@
           "rt": {
             "priority": 81,
             "prefix": "IDX_DLY",
-            "perm": "sf_dly",
+            "perm": "idx",
             "skip_in_search": true
           }
         }
