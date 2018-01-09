@@ -3556,7 +3556,7 @@
           "rt": {
             "prefix": "NZX_DLY",
             "priority": 70,
-            "perm": "nzx_dly"
+            "perm": "sf_dly"
           }
         }
       },
