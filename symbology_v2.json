@@ -4180,6 +4180,7 @@
             "prefix": "OTC_DLY",
             "priority": 84,
             "prefix_alias": [
+              "OANDA",
               "OTC_EOD"
             ]
           }
@@ -4192,6 +4193,7 @@
             "prefix": "OTC_DLY",
             "priority": 84,
             "prefix_alias": [
+              "OANDA",
               "OTC_EOD"
             ]
           }
@@ -4204,6 +4206,7 @@
             "prefix": "OTC_DLY",
             "priority": 84,
             "prefix_alias": [
+              "OANDA",
               "OTC_EOD"
             ]
           }
