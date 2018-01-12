@@ -2739,6 +2739,9 @@
         "skip_in_search": false,
         "groups": [
           {
+            "group": "indonesia_stocks"
+          },
+          {
             "group": "indonesia_indices"
           }
         ]
@@ -2770,20 +2773,6 @@
           {
             "group": "nigerian_stocks_delayed",
             "priority": 81
-          }
-        ]
-      },
-      {
-        "priority": 81,
-        "prefix": "IDX_DLY",
-        "perm": "idx",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "indonesia_stocks"
-          },
-          {
-            "group": "indonesia_indices_delayed"
           }
         ]
       },
@@ -2860,6 +2849,20 @@
           },
           {
             "group": "malaysia_continuous_delayed"
+          }
+        ]
+      },
+      {
+        "priority": 81,
+        "prefix": "IDX_DLY",
+        "perm": "idx",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "indonesia_stocks_delayed"
+          },
+          {
+            "group": "indonesia_indices_delayed"
           }
         ]
       },
@@ -6172,6 +6175,9 @@
         "skip_in_search": false,
         "groups": [
           {
+            "group": "indonesia_stocks"
+          },
+          {
             "group": "indonesia_indices"
           }
         ]
@@ -6203,20 +6209,6 @@
           {
             "group": "nigerian_stocks_delayed",
             "priority": 81
-          }
-        ]
-      },
-      {
-        "priority": 81,
-        "prefix": "IDX_DLY",
-        "perm": "idx",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "indonesia_stocks"
-          },
-          {
-            "group": "indonesia_indices_delayed"
           }
         ]
       },
@@ -6293,6 +6285,20 @@
           },
           {
             "group": "malaysia_continuous_delayed"
+          }
+        ]
+      },
+      {
+        "priority": 81,
+        "prefix": "IDX_DLY",
+        "perm": "idx",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "indonesia_stocks_delayed"
+          },
+          {
+            "group": "indonesia_indices_delayed"
           }
         ]
       },
