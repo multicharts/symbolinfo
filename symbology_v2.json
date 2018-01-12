@@ -2968,7 +2968,7 @@
             "prefix_no_perm": [
               "OSE_DLY"
             ],
-            "skip_in_search": true
+            "skip_in_search": false
           }
         }
       },
@@ -3038,7 +3038,7 @@
             "prefix_no_perm": [
               "OSE_DLY"
             ],
-            "skip_in_search": true
+            "skip_in_search": false
           }
         }
       },
@@ -3084,7 +3084,7 @@
             "prefix_no_perm": [
               "OSE_DAY_DLY"
             ],
-            "skip_in_search": true
+            "skip_in_search": false
           }
         }
       },
@@ -3130,7 +3130,7 @@
             "prefix_no_perm": [
               "OSE_DAY_DLY"
             ],
-            "skip_in_search": true
+            "skip_in_search": false
           }
         }
       },
@@ -3188,7 +3188,7 @@
             "prefix_no_perm": [
               "OSE_NIGHT_DLY"
             ],
-            "skip_in_search": true
+            "skip_in_search": false
           }
         }
       },
@@ -3223,7 +3223,7 @@
             "prefix_no_perm": [
               "OSE_NIGHT_DLY"
             ],
-            "skip_in_search": true
+            "skip_in_search": false
           }
         }
       },
@@ -3313,7 +3313,7 @@
               "BVL_DLY"
             ],
             "perm": "bvl",
-            "skip_in_search": true
+            "skip_in_search": false
           }
         }
       },
@@ -3478,7 +3478,7 @@
               "BVL_DLY"
             ],
             "perm": "bvl",
-            "skip_in_search": true
+            "skip_in_search": false
           }
         }
       },
@@ -3731,7 +3731,7 @@
               "LUXSE_DLY"
             ],
             "perm": "luxse",
-            "skip_in_search": true
+            "skip_in_search": false
           }
         }
       },
@@ -3745,7 +3745,7 @@
               "BVC_DLY"
             ],
             "perm": "bvc",
-            "skip_in_search": true
+            "skip_in_search": false
           }
         }
       },
@@ -3801,7 +3801,7 @@
               "LUXSE_DLY"
             ],
             "perm": "luxse",
-            "skip_in_search": true
+            "skip_in_search": false
           }
         }
       },
@@ -3815,7 +3815,7 @@
               "BVC_DLY"
             ],
             "perm": "bvc",
-            "skip_in_search": true
+            "skip_in_search": false
           }
         }
       },
@@ -4143,7 +4143,7 @@
               "NSENG_DLY"
             ],
             "perm": "nseng",
-            "skip_in_search": true
+            "skip_in_search": false
           }
         }
       },
@@ -4196,7 +4196,7 @@
             "prefix_no_perm": [
               "DFM_DLY"
             ],
-            "skip_in_search": true
+            "skip_in_search": false
           }
         }
       },
@@ -4210,7 +4210,7 @@
             "prefix_no_perm": [
               "QSE_DLY"
             ],
-            "skip_in_search": true
+            "skip_in_search": false
           }
         }
       },
@@ -4250,7 +4250,7 @@
               "IDX_DLY"
             ],
             "perm": "idx",
-            "skip_in_search": true
+            "skip_in_search": false
           }
         }
       },
@@ -4264,7 +4264,7 @@
               "NSENG_DLY"
             ],
             "perm": "nseng",
-            "skip_in_search": true
+            "skip_in_search": false
           }
         }
       },
@@ -4541,7 +4541,7 @@
             "prefix_no_perm": [
               "DFM_DLY"
             ],
-            "skip_in_search": true
+            "skip_in_search": false
           }
         }
       },
@@ -4555,7 +4555,7 @@
             "prefix_no_perm": [
               "QSE_DLY"
             ],
-            "skip_in_search": true
+            "skip_in_search": false
           }
         }
       },
