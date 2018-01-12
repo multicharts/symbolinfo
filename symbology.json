@@ -99,6 +99,11 @@
             "priority": 20,
             "perm": "tvc_cfd",
             "skip_in_search": true
+          },
+          {
+            "group": "canadian_bonds",
+            "priority": 20,
+            "perm": "tvc_cfd"
           }
         ]
       },
@@ -1996,6 +2001,22 @@
         ]
       },
       {
+        "priority": 56,
+        "prefix": "HKEX_DAY",
+        "perm": "hkex_futures",
+        "prefix_no_perm": [
+          "HKEX_DLY"
+        ],
+        "groups": [
+          {
+            "group": "hongkong_day_futures"
+          },
+          {
+            "group": "hongkong_day_continuous"
+          }
+        ]
+      },
+      {
         "priority": 57,
         "prefix": "TSXV",
         "perm": "tsxv",
@@ -2040,6 +2061,32 @@
         ]
       },
       {
+        "priority": 57,
+        "prefix": "HKEX_DAY_DLY",
+        "perm": "sf_dly",
+        "groups": [
+          {
+            "group": "hongkong_day_futures_delayed"
+          },
+          {
+            "group": "hongkong_day_continuous_delayed"
+          }
+        ]
+      },
+      {
+        "priority": 57,
+        "prefix": "HKEX_NIGHT",
+        "perm": "hkex_futures",
+        "prefix_no_perm": [
+          "HKEX_DLY"
+        ],
+        "groups": [
+          {
+            "group": "hongkong_night_continuous"
+          }
+        ]
+      },
+      {
         "priority": 58,
         "prefix": "OSE_DAY",
         "perm": "ose",
@@ -2076,6 +2123,19 @@
         "groups": [
           {
             "group": "sapporo_stocks_delayed"
+          }
+        ]
+      },
+      {
+        "priority": 58,
+        "prefix": "HKEX_NIGHT_DLY",
+        "perm": "sf_dly",
+        "groups": [
+          {
+            "group": "hongkong_night_futures"
+          },
+          {
+            "group": "hongkong_night_continuous_delayed"
           }
         ]
       },
@@ -3536,6 +3596,11 @@
             "priority": 20,
             "perm": "tvc_cfd",
             "skip_in_search": true
+          },
+          {
+            "group": "canadian_bonds",
+            "priority": 20,
+            "perm": "tvc_cfd"
           }
         ]
       },
@@ -5433,6 +5498,22 @@
         ]
       },
       {
+        "priority": 56,
+        "prefix": "HKEX_DAY",
+        "perm": "hkex_futures",
+        "prefix_no_perm": [
+          "HKEX_DLY"
+        ],
+        "groups": [
+          {
+            "group": "hongkong_day_futures"
+          },
+          {
+            "group": "hongkong_day_continuous"
+          }
+        ]
+      },
+      {
         "priority": 57,
         "prefix": "TSXV",
         "perm": "tsxv",
@@ -5477,6 +5558,32 @@
         ]
       },
       {
+        "priority": 57,
+        "prefix": "HKEX_DAY_DLY",
+        "perm": "sf_dly",
+        "groups": [
+          {
+            "group": "hongkong_day_futures_delayed"
+          },
+          {
+            "group": "hongkong_day_continuous_delayed"
+          }
+        ]
+      },
+      {
+        "priority": 57,
+        "prefix": "HKEX_NIGHT",
+        "perm": "hkex_futures",
+        "prefix_no_perm": [
+          "HKEX_DLY"
+        ],
+        "groups": [
+          {
+            "group": "hongkong_night_continuous"
+          }
+        ]
+      },
+      {
         "priority": 58,
         "prefix": "OSE_DAY",
         "perm": "ose",
@@ -5513,6 +5620,19 @@
         "groups": [
           {
             "group": "sapporo_stocks_delayed"
+          }
+        ]
+      },
+      {
+        "priority": 58,
+        "prefix": "HKEX_NIGHT_DLY",
+        "perm": "sf_dly",
+        "groups": [
+          {
+            "group": "hongkong_night_futures"
+          },
+          {
+            "group": "hongkong_night_continuous_delayed"
           }
         ]
       },
