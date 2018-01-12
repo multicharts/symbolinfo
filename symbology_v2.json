@@ -485,6 +485,17 @@
         }
       },
       {
+        "id": "canadian_bonds",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 20,
+            "search_boost": 2.0,
+            "perm": "tvc_cfd"
+          }
+        }
+      },
+      {
         "id": "binance",
         "kinds": {
           "rt": {
@@ -2946,6 +2957,32 @@
         }
       },
       {
+        "id": "hongkong_day_futures",
+        "kinds": {
+          "rt": {
+            "priority": 56,
+            "prefix": "HKEX_DAY",
+            "prefix_no_perm": [
+              "HKEX_DLY"
+            ],
+            "perm": "hkex_futures"
+          }
+        }
+      },
+      {
+        "id": "hongkong_day_continuous",
+        "kinds": {
+          "rt": {
+            "priority": 56,
+            "prefix": "HKEX_DAY",
+            "prefix_no_perm": [
+              "HKEX_DLY"
+            ],
+            "perm": "hkex_futures"
+          }
+        }
+      },
+      {
         "id": "toronto_venture_stocks",
         "kinds": {
           "rt": {
@@ -3075,6 +3112,39 @@
         }
       },
       {
+        "id": "hongkong_day_futures_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 57,
+            "prefix": "HKEX_DAY_DLY",
+            "perm": "sf_dly"
+          }
+        }
+      },
+      {
+        "id": "hongkong_night_continuous",
+        "kinds": {
+          "rt": {
+            "priority": 57,
+            "prefix": "HKEX_NIGHT",
+            "prefix_no_perm": [
+              "HKEX_DLY"
+            ],
+            "perm": "hkex_futures"
+          }
+        }
+      },
+      {
+        "id": "hongkong_day_continuous_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 57,
+            "prefix": "HKEX_DAY_DLY",
+            "perm": "sf_dly"
+          }
+        }
+      },
+      {
         "id": "osaka_day_futures",
         "kinds": {
           "rt": {
@@ -3144,11 +3214,31 @@
         }
       },
       {
+        "id": "hongkong_night_futures",
+        "kinds": {
+          "rt": {
+            "priority": 58,
+            "prefix": "HKEX_NIGHT_DLY",
+            "perm": "sf_dly"
+          }
+        }
+      },
+      {
         "id": "istanbul_forwards_delayed",
         "kinds": {
           "rt": {
             "priority": 58,
             "prefix": "BIST_DLY"
+          }
+        }
+      },
+      {
+        "id": "hongkong_night_continuous_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 58,
+            "prefix": "HKEX_NIGHT_DLY",
+            "perm": "sf_dly"
           }
         }
       },
