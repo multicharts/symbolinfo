@@ -75,6 +75,11 @@
             "priority": 20,
             "perm": "tvc_cfd",
             "skip_in_search": true
+          },
+          {
+            "group": "canadian_bonds",
+            "priority": 20,
+            "perm": "tvc_cfd"
           }
         ]
       },
@@ -3415,6 +3420,11 @@
             "priority": 20,
             "perm": "tvc_cfd",
             "skip_in_search": true
+          },
+          {
+            "group": "canadian_bonds",
+            "priority": 20,
+            "perm": "tvc_cfd"
           }
         ]
       },
