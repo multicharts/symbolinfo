@@ -4008,6 +4008,9 @@
           "rt": {
             "priority": 81,
             "prefix": "IDX_DLY",
+            "prefix_no_perm": [
+              "IDX_DLY"
+            ],
             "perm": "sf_dly",
             "skip_in_search": true
           }
@@ -4085,6 +4088,17 @@
             "priority": 81,
             "prefix": "MYX_DLY",
             "perm": "nse_free"
+          }
+        }
+      },
+      {
+        "id": "indonesia_stocks_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 81,
+            "prefix": "IDX_DLY",
+            "perm": "idx",
+            "skip_in_search": true
           }
         }
       },
