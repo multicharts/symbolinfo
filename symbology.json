@@ -2015,7 +2015,7 @@
         "prefix_no_perm": [
           "OSE_DLY"
         ],
-        "skip_in_search": true,
+        "skip_in_search": false,
         "groups": [
           {
             "group": "osaka_futures"
@@ -2046,7 +2046,7 @@
         "prefix_no_perm": [
           "OSE_DAY_DLY"
         ],
-        "skip_in_search": true,
+        "skip_in_search": false,
         "groups": [
           {
             "group": "osaka_day_futures"
@@ -2103,7 +2103,7 @@
         "prefix_no_perm": [
           "OSE_NIGHT_DLY"
         ],
-        "skip_in_search": true,
+        "skip_in_search": false,
         "groups": [
           {
             "group": "osaka_night_futures"
@@ -2181,7 +2181,7 @@
         "prefix_no_perm": [
           "BVL_DLY"
         ],
-        "skip_in_search": true,
+        "skip_in_search": false,
         "groups": [
           {
             "group": "lima_indices",
@@ -2401,7 +2401,7 @@
         "prefix_no_perm": [
           "LUXSE_DLY"
         ],
-        "skip_in_search": true,
+        "skip_in_search": false,
         "groups": [
           {
             "group": "luxembourg_indices",
@@ -2419,7 +2419,7 @@
         "prefix_no_perm": [
           "BVC_DLY"
         ],
-        "skip_in_search": true,
+        "skip_in_search": false,
         "groups": [
           {
             "group": "colombia_indices",
@@ -2628,7 +2628,7 @@
         "prefix_no_perm": [
           "NSENG_DLY"
         ],
-        "skip_in_search": true,
+        "skip_in_search": false,
         "groups": [
           {
             "group": "nigerian_indices",
@@ -2680,7 +2680,7 @@
         "prefix_no_perm": [
           "DFM_DLY"
         ],
-        "skip_in_search": true,
+        "skip_in_search": false,
         "groups": [
           {
             "group": "dubai_indices",
@@ -2698,7 +2698,7 @@
         "prefix_no_perm": [
           "QSE_DLY"
         ],
-        "skip_in_search": true,
+        "skip_in_search": false,
         "groups": [
           {
             "group": "qatar_indices",
@@ -2736,7 +2736,7 @@
         "prefix_no_perm": [
           "IDX_DLY"
         ],
-        "skip_in_search": true,
+        "skip_in_search": false,
         "groups": [
           {
             "group": "indonesia_indices"
@@ -5448,7 +5448,7 @@
         "prefix_no_perm": [
           "OSE_DLY"
         ],
-        "skip_in_search": true,
+        "skip_in_search": false,
         "groups": [
           {
             "group": "osaka_futures"
@@ -5479,7 +5479,7 @@
         "prefix_no_perm": [
           "OSE_DAY_DLY"
         ],
-        "skip_in_search": true,
+        "skip_in_search": false,
         "groups": [
           {
             "group": "osaka_day_futures"
@@ -5536,7 +5536,7 @@
         "prefix_no_perm": [
           "OSE_NIGHT_DLY"
         ],
-        "skip_in_search": true,
+        "skip_in_search": false,
         "groups": [
           {
             "group": "osaka_night_futures"
@@ -5614,7 +5614,7 @@
         "prefix_no_perm": [
           "BVL_DLY"
         ],
-        "skip_in_search": true,
+        "skip_in_search": false,
         "groups": [
           {
             "group": "lima_indices",
@@ -5834,7 +5834,7 @@
         "prefix_no_perm": [
           "LUXSE_DLY"
         ],
-        "skip_in_search": true,
+        "skip_in_search": false,
         "groups": [
           {
             "group": "luxembourg_indices",
@@ -5852,7 +5852,7 @@
         "prefix_no_perm": [
           "BVC_DLY"
         ],
-        "skip_in_search": true,
+        "skip_in_search": false,
         "groups": [
           {
             "group": "colombia_indices",
@@ -6061,7 +6061,7 @@
         "prefix_no_perm": [
           "NSENG_DLY"
         ],
-        "skip_in_search": true,
+        "skip_in_search": false,
         "groups": [
           {
             "group": "nigerian_indices",
@@ -6113,7 +6113,7 @@
         "prefix_no_perm": [
           "DFM_DLY"
         ],
-        "skip_in_search": true,
+        "skip_in_search": false,
         "groups": [
           {
             "group": "dubai_indices",
@@ -6131,7 +6131,7 @@
         "prefix_no_perm": [
           "QSE_DLY"
         ],
-        "skip_in_search": true,
+        "skip_in_search": false,
         "groups": [
           {
             "group": "qatar_indices",
@@ -6169,7 +6169,7 @@
         "prefix_no_perm": [
           "IDX_DLY"
         ],
-        "skip_in_search": true,
+        "skip_in_search": false,
         "groups": [
           {
             "group": "indonesia_indices"
