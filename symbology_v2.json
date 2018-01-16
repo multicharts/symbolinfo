@@ -2563,7 +2563,10 @@
             "prefix_alias": [
               "BCBA_DLY"
             ],
-            "perm": "bcba_dly"
+            "perm": "bcba",
+            "prefix_no_perm": [
+              "BCBA_DLY"
+            ]
           }
         }
       },
@@ -2674,6 +2677,16 @@
           "rt": {
             "priority": 54,
             "prefix": "BMV_DLY",
+            "perm": "sf_dly"
+          }
+        }
+      },
+      {
+        "id": "buenosaires_indices_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 54,
+            "prefix": "BCBA_DLY",
             "perm": "sf_dly"
           }
         }
