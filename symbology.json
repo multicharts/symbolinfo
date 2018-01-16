@@ -1887,22 +1887,21 @@
       },
       {
         "prefix": "BCBA",
+        "perm": "bcba",
+        "prefix_no_perm": [
+          "BCBA_DLY"
+        ],
         "groups": [
           {
             "group": "buenosaires_indices",
             "priority": 53,
-            "perm": "bcba_dly",
             "prefix_alias": [
               "BCBA_DLY"
             ]
           },
           {
             "group": "buenosaires_stocks",
-            "priority": 54,
-            "perm": "bcba",
-            "prefix_no_perm": [
-              "BCBA_DLY"
-            ]
+            "priority": 54
           }
         ]
       },
@@ -1939,6 +1938,20 @@
           {
             "group": "taiwan_stocks_delayed",
             "priority": 57
+          }
+        ]
+      },
+      {
+        "prefix": "BCBA_DLY",
+        "perm": "sf_dly",
+        "groups": [
+          {
+            "group": "buenosaires_indices_delayed",
+            "priority": 54
+          },
+          {
+            "group": "buenosaires_stocks_delayed",
+            "priority": 56
           }
         ]
       },
@@ -1987,16 +2000,6 @@
         "groups": [
           {
             "group": "frankfurt_stocks_delayed"
-          }
-        ]
-      },
-      {
-        "priority": 56,
-        "prefix": "BCBA_DLY",
-        "perm": "sf_dly",
-        "groups": [
-          {
-            "group": "buenosaires_stocks_delayed"
           }
         ]
       },
@@ -5384,22 +5387,21 @@
       },
       {
         "prefix": "BCBA",
+        "perm": "bcba",
+        "prefix_no_perm": [
+          "BCBA_DLY"
+        ],
         "groups": [
           {
             "group": "buenosaires_indices",
             "priority": 53,
-            "perm": "bcba_dly",
             "prefix_alias": [
               "BCBA_DLY"
             ]
           },
           {
             "group": "buenosaires_stocks",
-            "priority": 54,
-            "perm": "bcba",
-            "prefix_no_perm": [
-              "BCBA_DLY"
-            ]
+            "priority": 54
           }
         ]
       },
@@ -5436,6 +5438,20 @@
           {
             "group": "taiwan_stocks_delayed",
             "priority": 57
+          }
+        ]
+      },
+      {
+        "prefix": "BCBA_DLY",
+        "perm": "sf_dly",
+        "groups": [
+          {
+            "group": "buenosaires_indices_delayed",
+            "priority": 54
+          },
+          {
+            "group": "buenosaires_stocks_delayed",
+            "priority": 56
           }
         ]
       },
@@ -5484,16 +5500,6 @@
         "groups": [
           {
             "group": "frankfurt_stocks_delayed"
-          }
-        ]
-      },
-      {
-        "priority": 56,
-        "prefix": "BCBA_DLY",
-        "perm": "sf_dly",
-        "groups": [
-          {
-            "group": "buenosaires_stocks_delayed"
           }
         ]
       },
