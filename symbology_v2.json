@@ -2075,6 +2075,19 @@
         }
       },
       {
+        "id": "hangseng_indices",
+        "kinds": {
+          "rt": {
+            "priority": 50,
+            "prefix": "HSI",
+            "prefix_no_perm": [
+              "HSI_DLY"
+            ],
+            "perm": "hsi"
+          }
+        }
+      },
+      {
         "id": "cme_migration_mini_by_migration_delayed",
         "kinds": {
           "rt": {
@@ -2213,6 +2226,16 @@
               "NSEE_DLY"
             ],
             "perm": "nse"
+          }
+        }
+      },
+      {
+        "id": "hangseng_indices_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 51,
+            "prefix": "HSI_DLY",
+            "perm": "sf_dly"
           }
         }
       },
