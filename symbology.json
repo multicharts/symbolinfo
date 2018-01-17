@@ -1006,11 +1006,7 @@
           },
           {
             "group": "tokyo_stocks",
-            "priority": 47,
-            "prefix_alias": [
-              "CHXJPY",
-              "CHXJPY_DLY"
-            ]
+            "priority": 47
           }
         ]
       },
@@ -1341,10 +1337,6 @@
         "perm": "nag",
         "prefix_no_perm": [
           "NAG_DLY"
-        ],
-        "prefix_alias": [
-          "CHXJPY",
-          "CHXJPY_DLY"
         ],
         "groups": [
           {
@@ -2699,7 +2691,12 @@
       {
         "priority": 72,
         "prefix": "CHXJPY",
-        "skip_in_search": false,
+        "perm": "permission_denied",
+        "prefix_no_perm": [
+          "TSE",
+          "NAG"
+        ],
+        "skip_in_search": true,
         "prefix_alias": [
           "CHXJPY_DLY"
         ],
@@ -4547,11 +4544,7 @@
           },
           {
             "group": "tokyo_stocks",
-            "priority": 47,
-            "prefix_alias": [
-              "CHXJPY",
-              "CHXJPY_DLY"
-            ]
+            "priority": 47
           }
         ]
       },
@@ -4882,10 +4875,6 @@
         "perm": "nag",
         "prefix_no_perm": [
           "NAG_DLY"
-        ],
-        "prefix_alias": [
-          "CHXJPY",
-          "CHXJPY_DLY"
         ],
         "groups": [
           {
@@ -6240,7 +6229,12 @@
       {
         "priority": 72,
         "prefix": "CHXJPY",
-        "skip_in_search": false,
+        "perm": "permission_denied",
+        "prefix_no_perm": [
+          "TSE",
+          "NAG"
+        ],
+        "skip_in_search": true,
         "prefix_alias": [
           "CHXJPY_DLY"
         ],
