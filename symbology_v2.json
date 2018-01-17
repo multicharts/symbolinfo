@@ -464,6 +464,16 @@
         }
       },
       {
+        "id": "gemini",
+        "kinds": {
+          "rt": {
+            "prefix": "GEMINI",
+            "priority": 21,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "nyse_idc",
         "kinds": {
           "rt": {
