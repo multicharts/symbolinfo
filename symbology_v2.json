@@ -1176,10 +1176,6 @@
             "perm": "tse",
             "prefix_no_perm": [
               "TSE_DLY"
-            ],
-            "prefix_alias": [
-              "CHXJPY",
-              "CHXJPY_DLY"
             ]
           }
         }
@@ -1781,10 +1777,6 @@
             "perm": "nag",
             "prefix_no_perm": [
               "NAG_DLY"
-            ],
-            "prefix_alias": [
-              "CHXJPY",
-              "CHXJPY_DLY"
             ]
           }
         }
@@ -4103,7 +4095,12 @@
             "prefix_alias": [
               "CHXJPY_DLY"
             ],
-            "skip_in_search": false
+            "skip_in_search": true,
+            "perm": "permission_denied",
+            "prefix_no_perm": [
+              "TSE",
+              "NAG"
+            ]
           }
         }
       },
