@@ -524,6 +524,16 @@
         }
       },
       {
+        "id": "gemini",
+        "kinds": {
+          "rt": {
+            "prefix": "GEMINI",
+            "priority": 21,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "nyse_idc",
         "kinds": {
           "rt": {
@@ -1166,6 +1176,10 @@
             "perm": "tse",
             "prefix_no_perm": [
               "TSE_DLY"
+            ],
+            "prefix_alias": [
+              "CHXJPY",
+              "CHXJPY_DLY"
             ]
           }
         }
@@ -1767,6 +1781,10 @@
             "perm": "nag",
             "prefix_no_perm": [
               "NAG_DLY"
+            ],
+            "prefix_alias": [
+              "CHXJPY",
+              "CHXJPY_DLY"
             ]
           }
         }
