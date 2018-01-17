@@ -1557,6 +1557,19 @@
         ]
       },
       {
+        "priority": 50,
+        "prefix": "HSI",
+        "perm": "hsi",
+        "prefix_no_perm": [
+          "HSI_DLY"
+        ],
+        "groups": [
+          {
+            "group": "hangseng_indices"
+          }
+        ]
+      },
+      {
         "prefix": "BMV",
         "perm": "bmv",
         "prefix_no_perm": [
@@ -1737,6 +1750,16 @@
         "groups": [
           {
             "group": "nse_emerge_stocks"
+          }
+        ]
+      },
+      {
+        "priority": 51,
+        "prefix": "HSI_DLY",
+        "perm": "sf_dly",
+        "groups": [
+          {
+            "group": "hangseng_indices_delayed"
           }
         ]
       },
@@ -5057,6 +5080,19 @@
         ]
       },
       {
+        "priority": 50,
+        "prefix": "HSI",
+        "perm": "hsi",
+        "prefix_no_perm": [
+          "HSI_DLY"
+        ],
+        "groups": [
+          {
+            "group": "hangseng_indices"
+          }
+        ]
+      },
+      {
         "prefix": "BMV",
         "perm": "bmv",
         "prefix_no_perm": [
@@ -5237,6 +5273,16 @@
         "groups": [
           {
             "group": "nse_emerge_stocks"
+          }
+        ]
+      },
+      {
+        "priority": 51,
+        "prefix": "HSI_DLY",
+        "perm": "sf_dly",
+        "groups": [
+          {
+            "group": "hangseng_indices_delayed"
           }
         ]
       },
