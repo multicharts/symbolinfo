@@ -379,6 +379,16 @@
         ]
       },
       {
+        "priority": 21,
+        "prefix": "GEMINI",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "gemini"
+          }
+        ]
+      },
+      {
         "prefix": "NYSE",
         "groups": [
           {
@@ -3723,6 +3733,16 @@
         "groups": [
           {
             "group": "amex_idc"
+          }
+        ]
+      },
+      {
+        "priority": 21,
+        "prefix": "GEMINI",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "gemini"
           }
         ]
       },
