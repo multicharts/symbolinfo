@@ -93,7 +93,7 @@
             "prefix": "TVC",
             "priority": 10,
             "search_boost": 2.0,
-            "perm": "tvc_cfd"
+            "perm": "dxy"
           }
         }
       },
@@ -3414,7 +3414,7 @@
           "rt": {
             "prefix": "NZX_DLY",
             "priority": 70,
-            "perm": "nzx_dly"
+            "perm": "sf_dly"
           }
         }
       },
@@ -3734,6 +3734,20 @@
         }
       },
       {
+        "id": "indonesia_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 80,
+            "prefix": "IDX",
+            "prefix_no_perm": [
+              "IDX_DLY"
+            ],
+            "perm": "idx",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "indonesia_indices",
         "kinds": {
           "rt": {
@@ -3768,17 +3782,6 @@
               "MYX_DLY"
             ],
             "perm": "myx"
-          }
-        }
-      },
-      {
-        "id": "indonesia_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 81,
-            "prefix": "IDX_DLY",
-            "perm": "idx",
-            "skip_in_search": true
           }
         }
       },
@@ -3832,6 +3835,17 @@
             "priority": 81,
             "prefix": "MYX_DLY",
             "perm": "nse_free"
+          }
+        }
+      },
+      {
+        "id": "indonesia_stocks_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 81,
+            "prefix": "IDX_DLY",
+            "perm": "idx",
+            "skip_in_search": true
           }
         }
       },
