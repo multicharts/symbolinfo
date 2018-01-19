@@ -2993,7 +2993,7 @@
         "priority": 84,
         "prefix": "OTC_DLY",
         "prefix_alias": [
-          "OANDA",
+          "FOREXCOM",
           "OTC_EOD"
         ],
         "groups": [
@@ -6531,7 +6531,7 @@
         "priority": 84,
         "prefix": "OTC_DLY",
         "prefix_alias": [
-          "OANDA",
+          "FOREXCOM",
           "OTC_EOD"
         ],
         "groups": [
