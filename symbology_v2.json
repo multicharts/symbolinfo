@@ -4214,7 +4214,7 @@
             "prefix": "OTC_DLY",
             "priority": 84,
             "prefix_alias": [
-              "OANDA",
+              "FOREXCOM",
               "OTC_EOD"
             ]
           }
@@ -4227,7 +4227,7 @@
             "prefix": "OTC_DLY",
             "priority": 84,
             "prefix_alias": [
-              "OANDA",
+              "FOREXCOM",
               "OTC_EOD"
             ]
           }
@@ -4240,7 +4240,7 @@
             "prefix": "OTC_DLY",
             "priority": 84,
             "prefix_alias": [
-              "OANDA",
+              "FOREXCOM",
               "OTC_EOD"
             ]
           }
