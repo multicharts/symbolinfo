@@ -185,23 +185,11 @@
         }
       },
       {
-        "id": "bitstamp",
+        "id": "bitfinex",
         "kinds": {
           "rt": {
-            "prefix": "BITSTAMP",
+            "prefix": "BITFINEX",
             "priority": 11
-          }
-        }
-      },
-      {
-        "id": "btcchina",
-        "kinds": {
-          "rt": {
-            "prefix": "BTCCHINA",
-            "priority": 11,
-            "prefix_alias": [
-              "BTCC"
-            ]
           }
         }
       },
@@ -235,19 +223,10 @@
         }
       },
       {
-        "id": "huobi",
+        "id": "bitstamp",
         "kinds": {
           "rt": {
-            "prefix": "HUOBI",
-            "priority": 12
-          }
-        }
-      },
-      {
-        "id": "bitfinex",
-        "kinds": {
-          "rt": {
-            "prefix": "BITFINEX",
+            "prefix": "BITSTAMP",
             "priority": 12
           }
         }
@@ -4943,6 +4922,27 @@
           "rt": {
             "prefix": "MTGOX",
             "priority": 113
+          }
+        }
+      },
+      {
+        "id": "btcchina",
+        "kinds": {
+          "rt": {
+            "prefix": "BTCCHINA",
+            "priority": 114,
+            "prefix_alias": [
+              "BTCC"
+            ]
+          }
+        }
+      },
+      {
+        "id": "huobi",
+        "kinds": {
+          "rt": {
+            "prefix": "HUOBI",
+            "priority": 115
           }
         }
       },
