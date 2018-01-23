@@ -162,23 +162,16 @@
         ]
       },
       {
-        "priority": 11,
-        "prefix": "BITSTAMP",
+        "prefix": "BITFINEX",
         "groups": [
           {
-            "group": "bitstamp"
-          }
-        ]
-      },
-      {
-        "priority": 11,
-        "prefix": "BTCCHINA",
-        "prefix_alias": [
-          "BTCC"
-        ],
-        "groups": [
+            "group": "bitfinex",
+            "priority": 11
+          },
           {
-            "group": "btcchina"
+            "group": "btcbtc_spreads",
+            "priority": 112,
+            "skip_in_search": true
           }
         ]
       },
@@ -202,19 +195,10 @@
       },
       {
         "priority": 12,
-        "prefix": "HUOBI",
+        "prefix": "BITSTAMP",
         "groups": [
           {
-            "group": "huobi"
-          }
-        ]
-      },
-      {
-        "priority": 12,
-        "prefix": "BITFINEX",
-        "groups": [
-          {
-            "group": "bitfinex"
+            "group": "bitstamp"
           }
         ]
       },
@@ -2922,6 +2906,27 @@
         "groups": [
           {
             "group": "MTGOX"
+          }
+        ]
+      },
+      {
+        "priority": 114,
+        "prefix": "BTCCHINA",
+        "prefix_alias": [
+          "BTCC"
+        ],
+        "groups": [
+          {
+            "group": "btcchina"
+          }
+        ]
+      },
+      {
+        "priority": 115,
+        "prefix": "HUOBI",
+        "groups": [
+          {
+            "group": "huobi"
           }
         ]
       },
@@ -3479,23 +3484,16 @@
         ]
       },
       {
-        "priority": 11,
-        "prefix": "BITSTAMP",
+        "prefix": "BITFINEX",
         "groups": [
           {
-            "group": "bitstamp"
-          }
-        ]
-      },
-      {
-        "priority": 11,
-        "prefix": "BTCCHINA",
-        "prefix_alias": [
-          "BTCC"
-        ],
-        "groups": [
+            "group": "bitfinex",
+            "priority": 11
+          },
           {
-            "group": "btcchina"
+            "group": "btcbtc_spreads",
+            "priority": 112,
+            "skip_in_search": true
           }
         ]
       },
@@ -3519,19 +3517,10 @@
       },
       {
         "priority": 12,
-        "prefix": "HUOBI",
+        "prefix": "BITSTAMP",
         "groups": [
           {
-            "group": "huobi"
-          }
-        ]
-      },
-      {
-        "priority": 12,
-        "prefix": "BITFINEX",
-        "groups": [
-          {
-            "group": "bitfinex"
+            "group": "bitstamp"
           }
         ]
       },
@@ -6239,6 +6228,27 @@
         "groups": [
           {
             "group": "MTGOX"
+          }
+        ]
+      },
+      {
+        "priority": 114,
+        "prefix": "BTCCHINA",
+        "prefix_alias": [
+          "BTCC"
+        ],
+        "groups": [
+          {
+            "group": "btcchina"
+          }
+        ]
+      },
+      {
+        "priority": 115,
+        "prefix": "HUOBI",
+        "groups": [
+          {
+            "group": "huobi"
           }
         ]
       },
