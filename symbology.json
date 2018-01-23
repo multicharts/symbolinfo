@@ -1553,7 +1553,6 @@
       {
         "priority": 50,
         "prefix": "HSI",
-        "perm": "hsi",
         "prefix_no_perm": [
           "HSI_DLY"
         ],
@@ -1750,7 +1749,6 @@
       {
         "priority": 51,
         "prefix": "HSI_DLY",
-        "perm": "sf_dly",
         "groups": [
           {
             "group": "hangseng_indices_delayed"
@@ -5096,7 +5094,6 @@
       {
         "priority": 50,
         "prefix": "HSI",
-        "perm": "hsi",
         "prefix_no_perm": [
           "HSI_DLY"
         ],
@@ -5293,7 +5290,6 @@
       {
         "priority": 51,
         "prefix": "HSI_DLY",
-        "perm": "sf_dly",
         "groups": [
           {
             "group": "hangseng_indices_delayed"
