@@ -2071,8 +2071,7 @@
             "prefix": "HSI",
             "prefix_no_perm": [
               "HSI_DLY"
-            ],
-            "perm": "hsi"
+            ]
           }
         }
       },
@@ -2223,8 +2222,7 @@
         "kinds": {
           "rt": {
             "priority": 51,
-            "prefix": "HSI_DLY",
-            "perm": "sf_dly"
+            "prefix": "HSI_DLY"
           }
         }
       },
