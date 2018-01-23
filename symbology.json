@@ -167,11 +167,16 @@
         ]
       },
       {
-        "priority": 11,
         "prefix": "BITFINEX",
         "groups": [
           {
-            "group": "bitfinex"
+            "group": "bitfinex",
+            "priority": 11
+          },
+          {
+            "group": "btcbtc_spreads",
+            "priority": 112,
+            "skip_in_search": true
           }
         ]
       },
@@ -3525,11 +3530,16 @@
         ]
       },
       {
-        "priority": 11,
         "prefix": "BITFINEX",
         "groups": [
           {
-            "group": "bitfinex"
+            "group": "bitfinex",
+            "priority": 11
+          },
+          {
+            "group": "btcbtc_spreads",
+            "priority": 112,
+            "skip_in_search": true
           }
         ]
       },
