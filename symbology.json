@@ -2452,7 +2452,7 @@
       {
         "priority": 66,
         "prefix": "SWB_DLY",
-        "perm": "sf_dly",
+        "perm": "nse_free",
         "groups": [
           {
             "group": "stuttgart_stocks_delayed"
@@ -5995,7 +5995,7 @@
       {
         "priority": 66,
         "prefix": "SWB_DLY",
-        "perm": "sf_dly",
+        "perm": "nse_free",
         "groups": [
           {
             "group": "stuttgart_stocks_delayed"
