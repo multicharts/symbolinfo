@@ -433,12 +433,18 @@
           {
             "group": "nyse_gif_indices_eod",
             "priority": 100,
-            "skip_in_search": true
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX"
+            ]
           },
           {
             "group": "nyse_indices_eod",
             "priority": 100,
-            "skip_in_search": true
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX"
+            ]
           }
         ]
       },
@@ -3974,12 +3980,18 @@
           {
             "group": "nyse_gif_indices_eod",
             "priority": 100,
-            "skip_in_search": true
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX"
+            ]
           },
           {
             "group": "nyse_indices_eod",
             "priority": 100,
-            "skip_in_search": true
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX"
+            ]
           }
         ]
       },
