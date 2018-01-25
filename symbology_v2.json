@@ -4851,7 +4851,10 @@
           "rt": {
             "prefix": "NYSE",
             "priority": 100,
-            "skip_in_search": true
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX"
+            ]
           }
         }
       },
@@ -4861,7 +4864,10 @@
           "rt": {
             "prefix": "NYSE",
             "priority": 100,
-            "skip_in_search": true
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX"
+            ]
           }
         }
       },
