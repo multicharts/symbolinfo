@@ -3421,7 +3421,7 @@
           "rt": {
             "prefix": "SWB_DLY",
             "priority": 66,
-            "perm": "nse_free"
+            "perm": "sf_dly"
           }
         }
       },
