@@ -197,6 +197,24 @@
         }
       },
       {
+        "id": "nasdaq_indices_delayed",
+        "kinds": {
+          "rt": {
+            "prefix": "NASDAQ",
+            "priority": 10,
+            "exchange_for_display": "NASDAQ Global Indices",
+            "prefix_alias": [
+              "NASDAQ_DLY",
+              "INDEX"
+            ],
+            "skip_in_search": false,
+            "prefix_no_perm": [
+              "NASDAQ_EOD"
+            ]
+          }
+        }
+      },
+      {
         "id": "korean_tvc_indices",
         "kinds": {
           "rt": {
