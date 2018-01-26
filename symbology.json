@@ -2815,6 +2815,12 @@
           },
           {
             "group": "malaysia_continuous"
+          },
+          {
+            "group": "malaysia_indices"
+          },
+          {
+            "group": "malaysia_ftse_indices"
           }
         ]
       },
@@ -2938,6 +2944,12 @@
           },
           {
             "group": "malaysia_continuous_delayed"
+          },
+          {
+            "group": "malaysia_indices_delayed"
+          },
+          {
+            "group": "malaysia_ftse_indices_delayed"
           }
         ]
       },
@@ -6362,6 +6374,12 @@
           },
           {
             "group": "malaysia_continuous"
+          },
+          {
+            "group": "malaysia_indices"
+          },
+          {
+            "group": "malaysia_ftse_indices"
           }
         ]
       },
@@ -6485,6 +6503,12 @@
           },
           {
             "group": "malaysia_continuous_delayed"
+          },
+          {
+            "group": "malaysia_indices_delayed"
+          },
+          {
+            "group": "malaysia_ftse_indices_delayed"
           }
         ]
       },
