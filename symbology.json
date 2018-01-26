@@ -191,6 +191,41 @@
         ]
       },
       {
+        "prefix": "NASDAQ",
+        "groups": [
+          {
+            "group": "nasdaq_indices_delayed",
+            "priority": 10,
+            "prefix_no_perm": [
+              "NASDAQ_EOD"
+            ],
+            "exchange_for_display": "NASDAQ Global Indices",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "NASDAQ_DLY",
+              "INDEX"
+            ]
+          },
+          {
+            "group": "nasdaq_idc",
+            "priority": 20,
+            "search_boost": 1.8,
+            "perm": "nasdaq",
+            "prefix_no_perm": [
+              "BATS"
+            ],
+            "prefix_alias": [
+              "US"
+            ]
+          },
+          {
+            "group": "nasdaq_indices_eod",
+            "priority": 100,
+            "skip_in_search": true
+          }
+        ]
+      },
+      {
         "prefix": "BITFINEX",
         "groups": [
           {
@@ -352,28 +387,6 @@
             "group": "kraken_spreads",
             "priority": 112,
             "skip_in_search": false
-          }
-        ]
-      },
-      {
-        "prefix": "NASDAQ",
-        "groups": [
-          {
-            "group": "nasdaq_idc",
-            "priority": 20,
-            "search_boost": 1.8,
-            "perm": "nasdaq",
-            "prefix_no_perm": [
-              "BATS"
-            ],
-            "prefix_alias": [
-              "US"
-            ]
-          },
-          {
-            "group": "nasdaq_indices_eod",
-            "priority": 100,
-            "skip_in_search": true
           }
         ]
       },
@@ -3750,6 +3763,41 @@
         ]
       },
       {
+        "prefix": "NASDAQ",
+        "groups": [
+          {
+            "group": "nasdaq_indices_delayed",
+            "priority": 10,
+            "prefix_no_perm": [
+              "NASDAQ_EOD"
+            ],
+            "exchange_for_display": "NASDAQ Global Indices",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "NASDAQ_DLY",
+              "INDEX"
+            ]
+          },
+          {
+            "group": "nasdaq_idc",
+            "priority": 20,
+            "search_boost": 1.8,
+            "perm": "nasdaq",
+            "prefix_no_perm": [
+              "BATS"
+            ],
+            "prefix_alias": [
+              "US"
+            ]
+          },
+          {
+            "group": "nasdaq_indices_eod",
+            "priority": 100,
+            "skip_in_search": true
+          }
+        ]
+      },
+      {
         "prefix": "BITFINEX",
         "groups": [
           {
@@ -3911,28 +3959,6 @@
             "group": "kraken_spreads",
             "priority": 112,
             "skip_in_search": false
-          }
-        ]
-      },
-      {
-        "prefix": "NASDAQ",
-        "groups": [
-          {
-            "group": "nasdaq_idc",
-            "priority": 20,
-            "search_boost": 1.8,
-            "perm": "nasdaq",
-            "prefix_no_perm": [
-              "BATS"
-            ],
-            "prefix_alias": [
-              "US"
-            ]
-          },
-          {
-            "group": "nasdaq_indices_eod",
-            "priority": 100,
-            "skip_in_search": true
           }
         ]
       },
