@@ -462,6 +462,16 @@
         ]
       },
       {
+        "priority": 25,
+        "prefix": "KUCOIN",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "kucoin"
+          }
+        ]
+      },
+      {
         "prefix": "EURONEXT",
         "groups": [
           {
@@ -4030,6 +4040,16 @@
             "prefix_alias": [
               "INDEX"
             ]
+          }
+        ]
+      },
+      {
+        "priority": 25,
+        "prefix": "KUCOIN",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "kucoin"
           }
         ]
       },
