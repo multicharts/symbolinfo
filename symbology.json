@@ -391,12 +391,16 @@
         ]
       },
       {
-        "priority": 20,
         "prefix": "BINANCE",
         "skip_in_search": false,
         "groups": [
           {
-            "group": "binance"
+            "group": "binance",
+            "priority": 20
+          },
+          {
+            "group": "binance_spreads",
+            "priority": 112
           }
         ]
       },
@@ -3973,12 +3977,16 @@
         ]
       },
       {
-        "priority": 20,
         "prefix": "BINANCE",
         "skip_in_search": false,
         "groups": [
           {
-            "group": "binance"
+            "group": "binance",
+            "priority": 20
+          },
+          {
+            "group": "binance_spreads",
+            "priority": 112
           }
         ]
       },
