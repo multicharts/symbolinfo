@@ -548,6 +548,16 @@
         }
       },
       {
+        "id": "kucoin",
+        "kinds": {
+          "rt": {
+            "prefix": "KUCOIN",
+            "priority": 25,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "euronext_primary_indices",
         "kinds": {
           "rt": {
