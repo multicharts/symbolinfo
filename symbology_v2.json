@@ -503,6 +503,98 @@
         }
       },
       {
+        "id": "cboe_tvc",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 20,
+            "search_boost": 2.0,
+            "perm": "tvc_cfd"
+          }
+        }
+      },
+      {
+        "id": "cboe_tvc_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 20,
+            "search_boost": 2.0,
+            "perm": "tvc_cfd",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "cme_tvc",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 20,
+            "search_boost": 2.0,
+            "perm": "tvc_cfd"
+          }
+        }
+      },
+      {
+        "id": "cme_tvc_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 20,
+            "search_boost": 2.0,
+            "perm": "tvc_cfd",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "comex_tvc",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 20,
+            "search_boost": 2.0,
+            "perm": "tvc_cfd"
+          }
+        }
+      },
+      {
+        "id": "comex_tvc_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 20,
+            "search_boost": 2.0,
+            "perm": "tvc_cfd",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "nymex_tvc",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 20,
+            "search_boost": 2.0,
+            "perm": "tvc_cfd"
+          }
+        }
+      },
+      {
+        "id": "nymex_tvc_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 20,
+            "search_boost": 2.0,
+            "perm": "tvc_cfd",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "amex_idc",
         "kinds": {
           "rt": {
@@ -3013,8 +3105,9 @@
           "rt": {
             "priority": 56,
             "prefix": "HKEX_DAY",
+            "exchange_for_display": "HKEX",
             "prefix_no_perm": [
-              "HKEX_DLY"
+              "HKEX_DAY_DLY"
             ],
             "perm": "hkex_futures"
           }
@@ -3026,8 +3119,9 @@
           "rt": {
             "priority": 56,
             "prefix": "HKEX_DAY",
+            "exchange_for_display": "HKEX",
             "prefix_no_perm": [
-              "HKEX_DLY"
+              "HKEX_DAY_DLY"
             ],
             "perm": "hkex_futures"
           }
@@ -3178,8 +3272,9 @@
           "rt": {
             "priority": 57,
             "prefix": "HKEX_NIGHT",
+            "exchange_for_display": "HKEX",
             "prefix_no_perm": [
-              "HKEX_DLY"
+              "HKEX_NIGHT_DLY"
             ],
             "perm": "hkex_futures"
           }
