@@ -104,6 +104,50 @@
             "group": "canadian_bonds",
             "priority": 20,
             "perm": "tvc_cfd"
+          },
+          {
+            "group": "cboe_tvc",
+            "priority": 20,
+            "perm": "tvc_cfd"
+          },
+          {
+            "group": "cboe_tvc_futures",
+            "priority": 20,
+            "perm": "tvc_cfd",
+            "skip_in_search": true
+          },
+          {
+            "group": "cme_tvc",
+            "priority": 20,
+            "perm": "tvc_cfd"
+          },
+          {
+            "group": "cme_tvc_futures",
+            "priority": 20,
+            "perm": "tvc_cfd",
+            "skip_in_search": true
+          },
+          {
+            "group": "comex_tvc",
+            "priority": 20,
+            "perm": "tvc_cfd"
+          },
+          {
+            "group": "comex_tvc_futures",
+            "priority": 20,
+            "perm": "tvc_cfd",
+            "skip_in_search": true
+          },
+          {
+            "group": "nymex_tvc",
+            "priority": 20,
+            "perm": "tvc_cfd"
+          },
+          {
+            "group": "nymex_tvc_futures",
+            "priority": 20,
+            "perm": "tvc_cfd",
+            "skip_in_search": true
           }
         ]
       },
@@ -2056,8 +2100,9 @@
         "prefix": "HKEX_DAY",
         "perm": "hkex_futures",
         "prefix_no_perm": [
-          "HKEX_DLY"
+          "HKEX_DAY_DLY"
         ],
+        "exchange_for_display": "HKEX",
         "groups": [
           {
             "group": "hongkong_day_futures"
@@ -2129,8 +2174,9 @@
         "prefix": "HKEX_NIGHT",
         "perm": "hkex_futures",
         "prefix_no_perm": [
-          "HKEX_DLY"
+          "HKEX_NIGHT_DLY"
         ],
+        "exchange_for_display": "HKEX",
         "groups": [
           {
             "group": "hongkong_night_continuous"
@@ -3690,6 +3736,50 @@
             "group": "canadian_bonds",
             "priority": 20,
             "perm": "tvc_cfd"
+          },
+          {
+            "group": "cboe_tvc",
+            "priority": 20,
+            "perm": "tvc_cfd"
+          },
+          {
+            "group": "cboe_tvc_futures",
+            "priority": 20,
+            "perm": "tvc_cfd",
+            "skip_in_search": true
+          },
+          {
+            "group": "cme_tvc",
+            "priority": 20,
+            "perm": "tvc_cfd"
+          },
+          {
+            "group": "cme_tvc_futures",
+            "priority": 20,
+            "perm": "tvc_cfd",
+            "skip_in_search": true
+          },
+          {
+            "group": "comex_tvc",
+            "priority": 20,
+            "perm": "tvc_cfd"
+          },
+          {
+            "group": "comex_tvc_futures",
+            "priority": 20,
+            "perm": "tvc_cfd",
+            "skip_in_search": true
+          },
+          {
+            "group": "nymex_tvc",
+            "priority": 20,
+            "perm": "tvc_cfd"
+          },
+          {
+            "group": "nymex_tvc_futures",
+            "priority": 20,
+            "perm": "tvc_cfd",
+            "skip_in_search": true
           }
         ]
       },
@@ -5642,8 +5732,9 @@
         "prefix": "HKEX_DAY",
         "perm": "hkex_futures",
         "prefix_no_perm": [
-          "HKEX_DLY"
+          "HKEX_DAY_DLY"
         ],
+        "exchange_for_display": "HKEX",
         "groups": [
           {
             "group": "hongkong_day_futures"
@@ -5715,8 +5806,9 @@
         "prefix": "HKEX_NIGHT",
         "perm": "hkex_futures",
         "prefix_no_perm": [
-          "HKEX_DLY"
+          "HKEX_NIGHT_DLY"
         ],
+        "exchange_for_display": "HKEX",
         "groups": [
           {
             "group": "hongkong_night_continuous"
