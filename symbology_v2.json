@@ -5004,7 +5004,7 @@
         "id": "nasdaq_indices_eod",
         "kinds": {
           "rt": {
-            "prefix": "NASDAQ",
+            "prefix": "NASDAQ_EOD",
             "priority": 100,
             "skip_in_search": true
           }
@@ -5031,7 +5031,8 @@
             "priority": 100,
             "skip_in_search": false,
             "prefix_alias": [
-              "INDEX"
+              "INDEX",
+              "NYSE_EOD"
             ]
           }
         }
