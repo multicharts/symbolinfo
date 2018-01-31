@@ -261,11 +261,6 @@
             "prefix_alias": [
               "US"
             ]
-          },
-          {
-            "group": "nasdaq_indices_eod",
-            "priority": 100,
-            "skip_in_search": true
           }
         ]
       },
@@ -504,7 +499,8 @@
             "priority": 100,
             "skip_in_search": false,
             "prefix_alias": [
-              "INDEX"
+              "INDEX",
+              "NYSE_EOD"
             ]
           }
         ]
@@ -3163,6 +3159,16 @@
           {
             "group": "toronto_stocks_eod",
             "priority": 105
+          }
+        ]
+      },
+      {
+        "priority": 100,
+        "prefix": "NASDAQ_EOD",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "nasdaq_indices_eod"
           }
         ]
       },
@@ -3893,11 +3899,6 @@
             "prefix_alias": [
               "US"
             ]
-          },
-          {
-            "group": "nasdaq_indices_eod",
-            "priority": 100,
-            "skip_in_search": true
           }
         ]
       },
@@ -4136,7 +4137,8 @@
             "priority": 100,
             "skip_in_search": false,
             "prefix_alias": [
-              "INDEX"
+              "INDEX",
+              "NYSE_EOD"
             ]
           }
         ]
@@ -6795,6 +6797,16 @@
           {
             "group": "toronto_stocks_eod",
             "priority": 105
+          }
+        ]
+      },
+      {
+        "priority": 100,
+        "prefix": "NASDAQ_EOD",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "nasdaq_indices_eod"
           }
         ]
       },
