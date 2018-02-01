@@ -3551,6 +3551,16 @@
         ]
       },
       {
+        "priority": 160,
+        "prefix": "NASDAQETF_EOD",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "nasdaq_gids_etf_delayed"
+          }
+        ]
+      },
+      {
         "prefix": "KCBT",
         "groups": [
           {
@@ -7185,6 +7195,16 @@
           },
           {
             "group": "GOCIO"
+          }
+        ]
+      },
+      {
+        "priority": 160,
+        "prefix": "NASDAQETF_EOD",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "nasdaq_gids_etf_delayed"
           }
         ]
       },
