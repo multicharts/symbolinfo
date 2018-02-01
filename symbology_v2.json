@@ -5619,6 +5619,16 @@
         }
       },
       {
+        "id": "nasdaq_gids_etf_delayed",
+        "kinds": {
+          "rt": {
+            "prefix": "NASDAQETF_EOD",
+            "priority": 160,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "kcbt",
         "kinds": {
           "rt": {
