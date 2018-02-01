@@ -1784,22 +1784,18 @@
       },
       {
         "prefix": "BCBA",
+        "perm": "bcba",
+        "prefix_no_perm": [
+          "BCBA_DLY"
+        ],
         "groups": [
           {
             "group": "buenosaires_indices",
-            "priority": 53,
-            "perm": "bcba_dly",
-            "prefix_alias": [
-              "BCBA_DLY"
-            ]
+            "priority": 53
           },
           {
             "group": "buenosaires_stocks",
-            "priority": 54,
-            "perm": "bcba",
-            "prefix_no_perm": [
-              "BCBA_DLY"
-            ]
+            "priority": 54
           }
         ]
       },
@@ -1890,6 +1886,20 @@
         ]
       },
       {
+        "prefix": "BCBA_DLY",
+        "perm": "sf_dly",
+        "groups": [
+          {
+            "group": "buenosaires_indices_delayed",
+            "priority": 55
+          },
+          {
+            "group": "buenosaires_stocks_delayed",
+            "priority": 56
+          }
+        ]
+      },
+      {
         "priority": 55,
         "prefix": "FWB_DLY",
         "prefix_alias": [
@@ -1898,16 +1908,6 @@
         "groups": [
           {
             "group": "frankfurt_stocks_delayed"
-          }
-        ]
-      },
-      {
-        "priority": 56,
-        "prefix": "BCBA_DLY",
-        "perm": "sf_dly",
-        "groups": [
-          {
-            "group": "buenosaires_stocks_delayed"
           }
         ]
       },
@@ -2131,7 +2131,6 @@
       {
         "priority": 66,
         "prefix": "SWB_DLY",
-        "perm": "sf_dly",
         "groups": [
           {
             "group": "stuttgart_stocks_delayed"
@@ -2288,7 +2287,12 @@
       {
         "priority": 72,
         "prefix": "CHXJPY",
-        "skip_in_search": false,
+        "perm": "permission_denied",
+        "prefix_no_perm": [
+          "TSE",
+          "NAG"
+        ],
+        "skip_in_search": true,
         "prefix_alias": [
           "CHXJPY_DLY"
         ],
@@ -5106,22 +5110,18 @@
       },
       {
         "prefix": "BCBA",
+        "perm": "bcba",
+        "prefix_no_perm": [
+          "BCBA_DLY"
+        ],
         "groups": [
           {
             "group": "buenosaires_indices",
-            "priority": 53,
-            "perm": "bcba_dly",
-            "prefix_alias": [
-              "BCBA_DLY"
-            ]
+            "priority": 53
           },
           {
             "group": "buenosaires_stocks",
-            "priority": 54,
-            "perm": "bcba",
-            "prefix_no_perm": [
-              "BCBA_DLY"
-            ]
+            "priority": 54
           }
         ]
       },
@@ -5212,6 +5212,20 @@
         ]
       },
       {
+        "prefix": "BCBA_DLY",
+        "perm": "sf_dly",
+        "groups": [
+          {
+            "group": "buenosaires_indices_delayed",
+            "priority": 55
+          },
+          {
+            "group": "buenosaires_stocks_delayed",
+            "priority": 56
+          }
+        ]
+      },
+      {
         "priority": 55,
         "prefix": "FWB_DLY",
         "prefix_alias": [
@@ -5220,16 +5234,6 @@
         "groups": [
           {
             "group": "frankfurt_stocks_delayed"
-          }
-        ]
-      },
-      {
-        "priority": 56,
-        "prefix": "BCBA_DLY",
-        "perm": "sf_dly",
-        "groups": [
-          {
-            "group": "buenosaires_stocks_delayed"
           }
         ]
       },
@@ -5453,7 +5457,6 @@
       {
         "priority": 66,
         "prefix": "SWB_DLY",
-        "perm": "sf_dly",
         "groups": [
           {
             "group": "stuttgart_stocks_delayed"
@@ -5610,7 +5613,12 @@
       {
         "priority": 72,
         "prefix": "CHXJPY",
-        "skip_in_search": false,
+        "perm": "permission_denied",
+        "prefix_no_perm": [
+          "TSE",
+          "NAG"
+        ],
+        "skip_in_search": true,
         "prefix_alias": [
           "CHXJPY_DLY"
         ],
