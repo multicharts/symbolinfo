@@ -1065,10 +1065,16 @@
             "group": "russli"
           },
           {
-            "group": "nasdi"
+            "group": "nasdi",
+            "priority": 300,
+            "perm": "permission_denied",
+            "skip_in_search": true
           },
           {
-            "group": "nysei"
+            "group": "nysei",
+            "priority": 300,
+            "perm": "permission_denied",
+            "skip_in_search": true
           }
         ]
       },
@@ -4428,10 +4434,16 @@
             "group": "russli"
           },
           {
-            "group": "nasdi"
+            "group": "nasdi",
+            "priority": 300,
+            "perm": "permission_denied",
+            "skip_in_search": true
           },
           {
-            "group": "nysei"
+            "group": "nysei",
+            "priority": 300,
+            "perm": "permission_denied",
+            "skip_in_search": true
           }
         ]
       },
