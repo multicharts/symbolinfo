@@ -2509,7 +2509,7 @@
           "delay": {
             "priority": 81,
             "prefix": "DFM_DLY",
-            "perm": "dfm"
+            "perm": "sf_dly"
           }
         }
       },
@@ -2695,7 +2695,7 @@
           "delay": {
             "priority": 86,
             "prefix": "DFM_DLY",
-            "perm": "dfm"
+            "perm": "sf_dly"
           }
         }
       },
