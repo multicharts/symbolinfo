@@ -3103,8 +3103,7 @@
             "prefix_no_perm": [
               "BVL_DLY"
             ],
-            "perm": "bvl",
-            "skip_in_search": true
+            "perm": "bvl"
           }
         }
       },
@@ -3236,8 +3235,7 @@
             "prefix_no_perm": [
               "BVL_DLY"
             ],
-            "perm": "bvl",
-            "skip_in_search": true
+            "perm": "bvl"
           }
         }
       },
@@ -3317,8 +3315,17 @@
           "rt": {
             "priority": 62,
             "prefix": "BVL_DLY",
-            "perm": "sf_dly",
-            "skip_in_search": true
+            "perm": "sf_dly"
+          }
+        }
+      },
+      {
+        "id": "lima_indices_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 63,
+            "prefix": "BVL_DLY",
+            "perm": "sf_dly"
           }
         }
       },
@@ -3460,8 +3467,7 @@
             "prefix_no_perm": [
               "BVC_DLY"
             ],
-            "perm": "bvc",
-            "skip_in_search": true
+            "perm": "bvc"
           }
         }
       },
@@ -3530,8 +3536,7 @@
             "prefix_no_perm": [
               "BVC_DLY"
             ],
-            "perm": "bvc",
-            "skip_in_search": true
+            "perm": "bvc"
           }
         }
       },
@@ -3573,6 +3578,16 @@
             "prefix": "LUXSE_DLY",
             "perm": "sf_dly",
             "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "colombia_indices_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 70,
+            "prefix": "BVC_DLY",
+            "perm": "sf_dly"
           }
         }
       },
@@ -3628,6 +3643,16 @@
             "prefix": "LUXSE_DLY",
             "perm": "sf_dly",
             "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "colombia_stocks_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 71,
+            "prefix": "BVC_DLY",
+            "perm": "sf_dly"
           }
         }
       },
@@ -3836,8 +3861,7 @@
             "prefix_no_perm": [
               "NSENG_DLY"
             ],
-            "perm": "nseng",
-            "skip_in_search": true
+            "perm": "nseng"
           }
         }
       },
@@ -3957,8 +3981,7 @@
             "prefix_no_perm": [
               "NSENG_DLY"
             ],
-            "perm": "nseng",
-            "skip_in_search": true
+            "perm": "nseng"
           }
         }
       },
@@ -3979,8 +4002,7 @@
           "rt": {
             "priority": 80,
             "prefix": "NSENG_DLY",
-            "perm": "sf_dly",
-            "skip_in_search": true
+            "perm": "sf_dly"
           }
         }
       },
@@ -4114,8 +4136,7 @@
           "rt": {
             "priority": 81,
             "prefix": "NSENG_DLY",
-            "perm": "sf_dly",
-            "skip_in_search": true
+            "perm": "sf_dly"
           }
         }
       },
@@ -5264,39 +5285,6 @@
           "rt": {
             "prefix": "OSE_NIGHT_DLY",
             "priority": 261,
-            "perm": "sf_dly",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "lima_indices_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 263,
-            "prefix": "BVL_DLY",
-            "perm": "sf_dly",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "colombia_indices_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 270,
-            "prefix": "BVC_DLY",
-            "perm": "sf_dly",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "colombia_stocks_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 271,
-            "prefix": "BVC_DLY",
             "perm": "sf_dly",
             "skip_in_search": true
           }
