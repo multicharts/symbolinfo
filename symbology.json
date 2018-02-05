@@ -3197,7 +3197,10 @@
       {
         "priority": 100,
         "prefix": "RUSSEL",
-        "skip_in_search": true,
+        "skip_in_search": false,
+        "prefix_alias": [
+          "INDEX"
+        ],
         "groups": [
           {
             "group": "russel_indices_eod"
@@ -6867,7 +6870,10 @@
       {
         "priority": 100,
         "prefix": "RUSSEL",
-        "skip_in_search": true,
+        "skip_in_search": false,
+        "prefix_alias": [
+          "INDEX"
+        ],
         "groups": [
           {
             "group": "russel_indices_eod"
