@@ -2495,7 +2495,6 @@
       {
         "prefix": "BVL_DLY",
         "perm": "bvl",
-        "skip_in_search": true,
         "groups": [
           {
             "group": "lima_stocks_delayed",
@@ -2693,7 +2692,6 @@
       {
         "prefix": "BVC_DLY",
         "perm": "bvc",
-        "skip_in_search": true,
         "groups": [
           {
             "group": "colombia_indices_delayed",
@@ -2950,7 +2948,6 @@
       {
         "prefix": "NSENG_DLY",
         "perm": "nseng",
-        "skip_in_search": true,
         "groups": [
           {
             "group": "nigerian_indices_delayed",
@@ -6168,7 +6165,6 @@
       {
         "prefix": "BVL_DLY",
         "perm": "bvl",
-        "skip_in_search": true,
         "groups": [
           {
             "group": "lima_stocks_delayed",
@@ -6366,7 +6362,6 @@
       {
         "prefix": "BVC_DLY",
         "perm": "bvc",
-        "skip_in_search": true,
         "groups": [
           {
             "group": "colombia_indices_delayed",
@@ -6623,7 +6618,6 @@
       {
         "prefix": "NSENG_DLY",
         "perm": "nseng",
-        "skip_in_search": true,
         "groups": [
           {
             "group": "nigerian_indices_delayed",
