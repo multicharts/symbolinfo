@@ -1065,6 +1065,9 @@
             "group": "russli"
           },
           {
+            "group": "enterpreneur_indices"
+          },
+          {
             "group": "nasdi",
             "priority": 300,
             "perm": "permission_denied",
@@ -4425,6 +4428,9 @@
           },
           {
             "group": "russli"
+          },
+          {
+            "group": "enterpreneur_indices"
           },
           {
             "group": "nasdi",
