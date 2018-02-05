@@ -686,6 +686,15 @@
         }
       },
       {
+        "id": "enterpreneur_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "INDEX",
+            "priority": 47
+          }
+        }
+      },
+      {
         "id": "bme_indices",
         "kinds": {
           "rt": {
