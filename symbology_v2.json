@@ -1375,6 +1375,15 @@
         }
       },
       {
+        "id": "enterpreneur_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "INDEX",
+            "priority": 47
+          }
+        }
+      },
+      {
         "id": "chix_europe_dublin",
         "kinds": {
           "rt": {
