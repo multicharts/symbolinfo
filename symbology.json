@@ -2056,7 +2056,6 @@
         "prefix_no_perm": [
           "BVL_DLY"
         ],
-        "skip_in_search": true,
         "groups": [
           {
             "group": "lima_indices",
@@ -2153,7 +2152,6 @@
       {
         "prefix": "BVL_DLY",
         "perm": "sf_dly",
-        "skip_in_search": true,
         "groups": [
           {
             "group": "lima_stocks_delayed",
@@ -2161,7 +2159,7 @@
           },
           {
             "group": "lima_indices_delayed",
-            "priority": 263
+            "priority": 63
           }
         ]
       },
@@ -2252,7 +2250,6 @@
         "prefix_no_perm": [
           "BVC_DLY"
         ],
-        "skip_in_search": true,
         "groups": [
           {
             "group": "colombia_indices",
@@ -2344,6 +2341,20 @@
           },
           {
             "group": "luxembourg_stocks_delayed",
+            "priority": 71
+          }
+        ]
+      },
+      {
+        "prefix": "BVC_DLY",
+        "perm": "sf_dly",
+        "groups": [
+          {
+            "group": "colombia_indices_delayed",
+            "priority": 70
+          },
+          {
+            "group": "colombia_stocks_delayed",
             "priority": 71
           }
         ]
@@ -2446,7 +2457,6 @@
         "prefix_no_perm": [
           "NSENG_DLY"
         ],
-        "skip_in_search": true,
         "groups": [
           {
             "group": "nigerian_indices",
@@ -2579,7 +2589,6 @@
       {
         "prefix": "NSENG_DLY",
         "perm": "sf_dly",
-        "skip_in_search": true,
         "groups": [
           {
             "group": "nigerian_indices_delayed",
@@ -3348,21 +3357,6 @@
           },
           {
             "group": "osaka_night_continuous_delayed"
-          }
-        ]
-      },
-      {
-        "prefix": "BVC_DLY",
-        "perm": "sf_dly",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "colombia_indices_delayed",
-            "priority": 270
-          },
-          {
-            "group": "colombia_stocks_delayed",
-            "priority": 271
           }
         ]
       }
@@ -5425,7 +5419,6 @@
         "prefix_no_perm": [
           "BVL_DLY"
         ],
-        "skip_in_search": true,
         "groups": [
           {
             "group": "lima_indices",
@@ -5522,7 +5515,6 @@
       {
         "prefix": "BVL_DLY",
         "perm": "sf_dly",
-        "skip_in_search": true,
         "groups": [
           {
             "group": "lima_stocks_delayed",
@@ -5530,7 +5522,7 @@
           },
           {
             "group": "lima_indices_delayed",
-            "priority": 263
+            "priority": 63
           }
         ]
       },
@@ -5621,7 +5613,6 @@
         "prefix_no_perm": [
           "BVC_DLY"
         ],
-        "skip_in_search": true,
         "groups": [
           {
             "group": "colombia_indices",
@@ -5713,6 +5704,20 @@
           },
           {
             "group": "luxembourg_stocks_delayed",
+            "priority": 71
+          }
+        ]
+      },
+      {
+        "prefix": "BVC_DLY",
+        "perm": "sf_dly",
+        "groups": [
+          {
+            "group": "colombia_indices_delayed",
+            "priority": 70
+          },
+          {
+            "group": "colombia_stocks_delayed",
             "priority": 71
           }
         ]
@@ -5815,7 +5820,6 @@
         "prefix_no_perm": [
           "NSENG_DLY"
         ],
-        "skip_in_search": true,
         "groups": [
           {
             "group": "nigerian_indices",
@@ -5948,7 +5952,6 @@
       {
         "prefix": "NSENG_DLY",
         "perm": "sf_dly",
-        "skip_in_search": true,
         "groups": [
           {
             "group": "nigerian_indices_delayed",
@@ -6717,21 +6720,6 @@
           },
           {
             "group": "osaka_night_continuous_delayed"
-          }
-        ]
-      },
-      {
-        "prefix": "BVC_DLY",
-        "perm": "sf_dly",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "colombia_indices_delayed",
-            "priority": 270
-          },
-          {
-            "group": "colombia_stocks_delayed",
-            "priority": 271
           }
         ]
       }
