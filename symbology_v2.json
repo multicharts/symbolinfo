@@ -3824,8 +3824,7 @@
           "rt": {
             "priority": 62,
             "prefix": "BVL_DLY",
-            "perm": "bvl",
-            "skip_in_search": true
+            "perm": "bvl"
           }
         }
       },
@@ -3835,8 +3834,7 @@
           "rt": {
             "priority": 63,
             "prefix": "BVL_DLY",
-            "perm": "bvl",
-            "skip_in_search": true
+            "perm": "bvl"
           }
         }
       },
@@ -4100,8 +4098,7 @@
           "rt": {
             "priority": 70,
             "prefix": "BVC_DLY",
-            "perm": "bvc",
-            "skip_in_search": true
+            "perm": "bvc"
           }
         }
       },
@@ -4166,8 +4163,7 @@
           "rt": {
             "priority": 71,
             "prefix": "BVC_DLY",
-            "perm": "bvc",
-            "skip_in_search": true
+            "perm": "bvc"
           }
         }
       },
@@ -4538,8 +4534,7 @@
           "rt": {
             "priority": 80,
             "prefix": "NSENG_DLY",
-            "perm": "nseng",
-            "skip_in_search": true
+            "perm": "nseng"
           }
         }
       },
@@ -4683,8 +4678,7 @@
           "rt": {
             "priority": 81,
             "prefix": "NSENG_DLY",
-            "perm": "nseng",
-            "skip_in_search": true
+            "perm": "nseng"
           }
         }
       },
