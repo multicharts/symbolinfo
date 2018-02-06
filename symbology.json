@@ -2207,19 +2207,6 @@
       },
       {
         "priority": 57,
-        "prefix": "HKEX_DAY_DLY",
-        "perm": "sf_dly",
-        "groups": [
-          {
-            "group": "hongkong_day_futures_delayed"
-          },
-          {
-            "group": "hongkong_day_continuous_delayed"
-          }
-        ]
-      },
-      {
-        "priority": 57,
         "prefix": "HKEX_NIGHT",
         "perm": "hkex_futures",
         "prefix_no_perm": [
@@ -2228,7 +2215,23 @@
         "exchange_for_display": "HKEX",
         "groups": [
           {
+            "group": "hongkong_night_futures"
+          },
+          {
             "group": "hongkong_night_continuous"
+          }
+        ]
+      },
+      {
+        "priority": 57,
+        "prefix": "HKEX_DAY_DLY",
+        "perm": "sf_dly",
+        "groups": [
+          {
+            "group": "hongkong_day_futures_delayed"
+          },
+          {
+            "group": "hongkong_day_continuous_delayed"
           }
         ]
       },
@@ -2278,7 +2281,7 @@
         "perm": "sf_dly",
         "groups": [
           {
-            "group": "hongkong_night_futures"
+            "group": "hongkong_night_futures_delayed"
           },
           {
             "group": "hongkong_night_continuous_delayed"
@@ -5939,19 +5942,6 @@
       },
       {
         "priority": 57,
-        "prefix": "HKEX_DAY_DLY",
-        "perm": "sf_dly",
-        "groups": [
-          {
-            "group": "hongkong_day_futures_delayed"
-          },
-          {
-            "group": "hongkong_day_continuous_delayed"
-          }
-        ]
-      },
-      {
-        "priority": 57,
         "prefix": "HKEX_NIGHT",
         "perm": "hkex_futures",
         "prefix_no_perm": [
@@ -5960,7 +5950,23 @@
         "exchange_for_display": "HKEX",
         "groups": [
           {
+            "group": "hongkong_night_futures"
+          },
+          {
             "group": "hongkong_night_continuous"
+          }
+        ]
+      },
+      {
+        "priority": 57,
+        "prefix": "HKEX_DAY_DLY",
+        "perm": "sf_dly",
+        "groups": [
+          {
+            "group": "hongkong_day_futures_delayed"
+          },
+          {
+            "group": "hongkong_day_continuous_delayed"
           }
         ]
       },
@@ -6010,7 +6016,7 @@
         "perm": "sf_dly",
         "groups": [
           {
-            "group": "hongkong_night_futures"
+            "group": "hongkong_night_futures_delayed"
           },
           {
             "group": "hongkong_night_continuous_delayed"
