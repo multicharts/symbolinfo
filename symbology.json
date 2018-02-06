@@ -3046,7 +3046,7 @@
       {
         "priority": 81,
         "prefix": "IDX_DLY",
-        "perm": "idx",
+        "perm": "sf_dly",
         "skip_in_search": true,
         "groups": [
           {
@@ -6727,7 +6727,7 @@
       {
         "priority": 81,
         "prefix": "IDX_DLY",
-        "perm": "idx",
+        "perm": "sf_dly",
         "skip_in_search": true,
         "groups": [
           {
