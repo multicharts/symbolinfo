@@ -2566,8 +2566,10 @@
         "prefix_no_perm": [
           "IDX_DLY"
         ],
-        "skip_in_search": true,
         "groups": [
+          {
+            "group": "indonesia_stocks"
+          },
           {
             "group": "indonesia_indices"
           }
@@ -2599,28 +2601,6 @@
           {
             "group": "nigerian_stocks_delayed",
             "priority": 81
-          }
-        ]
-      },
-      {
-        "priority": 81,
-        "prefix": "IDX_DLY",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "indonesia_stocks",
-            "perm": "sf_dly",
-            "prefix_no_perm": [
-              "IDX_DLY"
-            ]
-          },
-          {
-            "group": "indonesia_stocks_delayed",
-            "perm": "idx"
-          },
-          {
-            "group": "indonesia_indices_delayed",
-            "perm": "sf_dly"
           }
         ]
       },
@@ -2697,6 +2677,20 @@
           },
           {
             "group": "malaysia_continuous_delayed"
+          }
+        ]
+      },
+      {
+        "priority": 81,
+        "prefix": "IDX_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "indonesia_stocks_delayed"
+          },
+          {
+            "group": "indonesia_indices_delayed"
           }
         ]
       },
@@ -5931,8 +5925,10 @@
         "prefix_no_perm": [
           "IDX_DLY"
         ],
-        "skip_in_search": true,
         "groups": [
+          {
+            "group": "indonesia_stocks"
+          },
           {
             "group": "indonesia_indices"
           }
@@ -5964,28 +5960,6 @@
           {
             "group": "nigerian_stocks_delayed",
             "priority": 81
-          }
-        ]
-      },
-      {
-        "priority": 81,
-        "prefix": "IDX_DLY",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "indonesia_stocks",
-            "perm": "sf_dly",
-            "prefix_no_perm": [
-              "IDX_DLY"
-            ]
-          },
-          {
-            "group": "indonesia_stocks_delayed",
-            "perm": "idx"
-          },
-          {
-            "group": "indonesia_indices_delayed",
-            "perm": "sf_dly"
           }
         ]
       },
@@ -6062,6 +6036,20 @@
           },
           {
             "group": "malaysia_continuous_delayed"
+          }
+        ]
+      },
+      {
+        "priority": 81,
+        "prefix": "IDX_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "indonesia_stocks_delayed"
+          },
+          {
+            "group": "indonesia_indices_delayed"
           }
         ]
       },
