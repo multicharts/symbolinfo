@@ -105,11 +105,7 @@
             "prefix": "TVC",
             "priority": 10,
             "search_boost": 2.0,
-            "perm": "tvc_cfd",
-            "skip_in_search": false,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "perm": "tvc_cfd"
           }
         }
       },
@@ -120,11 +116,7 @@
             "prefix": "TVC",
             "priority": 10,
             "search_boost": 2.0,
-            "perm": "tvc_cfd",
-            "skip_in_search": false,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "perm": "tvc_cfd"
           }
         }
       },
@@ -135,11 +127,7 @@
             "prefix": "TVC",
             "priority": 10,
             "search_boost": 2.0,
-            "perm": "tvc_cfd",
-            "skip_in_search": false,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "perm": "tvc_cfd"
           }
         }
       },
@@ -150,11 +138,7 @@
             "prefix": "TVC",
             "priority": 10,
             "search_boost": 2.0,
-            "perm": "tvc_cfd",
-            "skip_in_search": false,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "perm": "tvc_cfd"
           }
         }
       },
@@ -165,11 +149,7 @@
             "prefix": "TVC",
             "priority": 10,
             "search_boost": 2.0,
-            "perm": "tvc_cfd",
-            "skip_in_search": false,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "perm": "tvc_cfd"
           }
         }
       },
@@ -180,11 +160,7 @@
             "prefix": "TVC",
             "priority": 10,
             "search_boost": 2.0,
-            "perm": "tvc_cfd",
-            "skip_in_search": false,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "perm": "tvc_cfd"
           }
         }
       },
@@ -195,11 +171,7 @@
             "prefix": "TVC",
             "priority": 10,
             "search_boost": 2.0,
-            "perm": "tvc_cfd",
-            "skip_in_search": false,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "perm": "tvc_cfd"
           }
         }
       },
@@ -210,11 +182,7 @@
             "prefix": "TVC",
             "priority": 10,
             "search_boost": 2.0,
-            "perm": "tvc_cfd",
-            "skip_in_search": false,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "perm": "tvc_cfd"
           }
         }
       },
@@ -253,11 +221,7 @@
             "prefix": "TVC",
             "priority": 10,
             "search_boost": 2.0,
-            "perm": "tvc_cfd",
-            "skip_in_search": false,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "perm": "tvc_cfd"
           }
         }
       },
@@ -268,11 +232,7 @@
             "prefix": "TVC",
             "priority": 10,
             "search_boost": 2.0,
-            "perm": "tvc_cfd",
-            "skip_in_search": false,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "perm": "tvc_cfd"
           }
         }
       },
@@ -283,11 +243,7 @@
             "prefix": "TVC",
             "priority": 10,
             "search_boost": 2.0,
-            "perm": "tvc_cfd",
-            "skip_in_search": false,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "perm": "tvc_cfd"
           }
         }
       },
@@ -4703,7 +4659,7 @@
           "rt": {
             "priority": 81,
             "prefix": "IDX_DLY",
-            "perm": "idx",
+            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -4714,7 +4670,7 @@
           "rt": {
             "priority": 81,
             "prefix": "IDX_DLY",
-            "perm": "idx",
+            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -5288,6 +5244,19 @@
           "rt": {
             "prefix": "ECRI",
             "priority": 100
+          }
+        }
+      },
+      {
+        "id": "international_indices_eod",
+        "kinds": {
+          "rt": {
+            "prefix": "INDEX",
+            "priority": 100,
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX_EOD"
+            ]
           }
         }
       },
