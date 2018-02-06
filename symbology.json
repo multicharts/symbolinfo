@@ -42,47 +42,91 @@
           },
           {
             "group": "dxy_idc2",
-            "perm": "tvc_cfd"
+            "perm": "tvc_cfd",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX"
+            ]
           },
           {
             "group": "us_chicago_indices",
-            "perm": "tvc_cfd"
+            "perm": "tvc_cfd",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX"
+            ]
           },
           {
             "group": "us_ny_indices",
-            "perm": "tvc_cfd"
+            "perm": "tvc_cfd",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX"
+            ]
           },
           {
             "group": "japan_indices",
-            "perm": "tvc_cfd"
+            "perm": "tvc_cfd",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX"
+            ]
           },
           {
             "group": "china_indices",
-            "perm": "tvc_cfd"
+            "perm": "tvc_cfd",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX"
+            ]
           },
           {
             "group": "european_indices",
-            "perm": "tvc_cfd"
+            "perm": "tvc_cfd",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX"
+            ]
           },
           {
             "group": "british_indices",
-            "perm": "tvc_cfd"
+            "perm": "tvc_cfd",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX"
+            ]
           },
           {
             "group": "spanish_indices",
-            "perm": "tvc_cfd"
+            "perm": "tvc_cfd",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX"
+            ]
           },
           {
             "group": "korean_tvc_indices",
-            "perm": "tvc_cfd"
+            "perm": "tvc_cfd",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX"
+            ]
           },
           {
             "group": "nzx_tvc_indices",
-            "perm": "tvc_cfd"
+            "perm": "tvc_cfd",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX"
+            ]
           },
           {
             "group": "singapore_tvc_indices",
-            "perm": "tvc_cfd"
+            "perm": "tvc_cfd",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX"
+            ]
           },
           {
             "group": "government_bonds",
@@ -3730,47 +3774,91 @@
           },
           {
             "group": "dxy_idc2",
-            "perm": "tvc_cfd"
+            "perm": "tvc_cfd",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX"
+            ]
           },
           {
             "group": "us_chicago_indices",
-            "perm": "tvc_cfd"
+            "perm": "tvc_cfd",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX"
+            ]
           },
           {
             "group": "us_ny_indices",
-            "perm": "tvc_cfd"
+            "perm": "tvc_cfd",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX"
+            ]
           },
           {
             "group": "japan_indices",
-            "perm": "tvc_cfd"
+            "perm": "tvc_cfd",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX"
+            ]
           },
           {
             "group": "china_indices",
-            "perm": "tvc_cfd"
+            "perm": "tvc_cfd",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX"
+            ]
           },
           {
             "group": "european_indices",
-            "perm": "tvc_cfd"
+            "perm": "tvc_cfd",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX"
+            ]
           },
           {
             "group": "british_indices",
-            "perm": "tvc_cfd"
+            "perm": "tvc_cfd",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX"
+            ]
           },
           {
             "group": "spanish_indices",
-            "perm": "tvc_cfd"
+            "perm": "tvc_cfd",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX"
+            ]
           },
           {
             "group": "korean_tvc_indices",
-            "perm": "tvc_cfd"
+            "perm": "tvc_cfd",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX"
+            ]
           },
           {
             "group": "nzx_tvc_indices",
-            "perm": "tvc_cfd"
+            "perm": "tvc_cfd",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX"
+            ]
           },
           {
             "group": "singapore_tvc_indices",
-            "perm": "tvc_cfd"
+            "perm": "tvc_cfd",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX"
+            ]
           },
           {
             "group": "government_bonds",
