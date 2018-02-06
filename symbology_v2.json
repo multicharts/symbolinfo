@@ -3967,6 +3967,19 @@
         }
       },
       {
+        "id": "indonesia_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 80,
+            "prefix": "IDX",
+            "prefix_no_perm": [
+              "IDX_DLY"
+            ],
+            "perm": "idx"
+          }
+        }
+      },
+      {
         "id": "indonesia_indices",
         "kinds": {
           "rt": {
@@ -3975,8 +3988,7 @@
             "prefix_no_perm": [
               "IDX_DLY"
             ],
-            "perm": "idx",
-            "skip_in_search": true
+            "perm": "idx"
           }
         }
       },
@@ -4024,20 +4036,6 @@
               "MYX_DLY"
             ],
             "perm": "myx"
-          }
-        }
-      },
-      {
-        "id": "indonesia_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 81,
-            "prefix": "IDX_DLY",
-            "prefix_no_perm": [
-              "IDX_DLY"
-            ],
-            "perm": "sf_dly",
-            "skip_in_search": true
           }
         }
       },
@@ -4122,7 +4120,7 @@
           "rt": {
             "priority": 81,
             "prefix": "IDX_DLY",
-            "perm": "idx",
+            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
