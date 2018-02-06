@@ -3754,22 +3754,6 @@
         }
       },
       {
-        "id": "nasdaq_gids_etf_delayed",
-        "kinds": {
-          "rt": {
-            "prefix": "NASDAQETF",
-            "priority": 60,
-            "prefix_alias": [
-              "NASDAQETF_DLY"
-            ],
-            "skip_in_search": false,
-            "prefix_no_perm": [
-              "NASDAQETF_EOD"
-            ]
-          }
-        }
-      },
-      {
         "id": "lima_stocks",
         "kinds": {
           "rt": {
