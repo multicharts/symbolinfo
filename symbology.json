@@ -2151,7 +2151,6 @@
         "prefix_no_perm": [
           "HKEX_DAY_DLY"
         ],
-        "exchange_for_display": "HKEX",
         "groups": [
           {
             "group": "hongkong_day_futures"
@@ -2212,7 +2211,6 @@
         "prefix_no_perm": [
           "HKEX_NIGHT_DLY"
         ],
-        "exchange_for_display": "HKEX",
         "groups": [
           {
             "group": "hongkong_night_futures"
@@ -5870,7 +5868,6 @@
         "prefix_no_perm": [
           "HKEX_DAY_DLY"
         ],
-        "exchange_for_display": "HKEX",
         "groups": [
           {
             "group": "hongkong_day_futures"
@@ -5931,7 +5928,6 @@
         "prefix_no_perm": [
           "HKEX_NIGHT_DLY"
         ],
-        "exchange_for_display": "HKEX",
         "groups": [
           {
             "group": "hongkong_night_futures"
