@@ -42,91 +42,47 @@
           },
           {
             "group": "dxy_idc2",
-            "perm": "tvc_cfd",
-            "skip_in_search": false,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "perm": "tvc_cfd"
           },
           {
             "group": "us_chicago_indices",
-            "perm": "tvc_cfd",
-            "skip_in_search": false,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "perm": "tvc_cfd"
           },
           {
             "group": "us_ny_indices",
-            "perm": "tvc_cfd",
-            "skip_in_search": false,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "perm": "tvc_cfd"
           },
           {
             "group": "japan_indices",
-            "perm": "tvc_cfd",
-            "skip_in_search": false,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "perm": "tvc_cfd"
           },
           {
             "group": "china_indices",
-            "perm": "tvc_cfd",
-            "skip_in_search": false,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "perm": "tvc_cfd"
           },
           {
             "group": "european_indices",
-            "perm": "tvc_cfd",
-            "skip_in_search": false,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "perm": "tvc_cfd"
           },
           {
             "group": "british_indices",
-            "perm": "tvc_cfd",
-            "skip_in_search": false,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "perm": "tvc_cfd"
           },
           {
             "group": "spanish_indices",
-            "perm": "tvc_cfd",
-            "skip_in_search": false,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "perm": "tvc_cfd"
           },
           {
             "group": "korean_tvc_indices",
-            "perm": "tvc_cfd",
-            "skip_in_search": false,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "perm": "tvc_cfd"
           },
           {
             "group": "nzx_tvc_indices",
-            "perm": "tvc_cfd",
-            "skip_in_search": false,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "perm": "tvc_cfd"
           },
           {
             "group": "singapore_tvc_indices",
-            "perm": "tvc_cfd",
-            "skip_in_search": false,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "perm": "tvc_cfd"
           },
           {
             "group": "government_bonds",
@@ -1231,6 +1187,14 @@
           },
           {
             "group": "enterpreneur_indices"
+          },
+          {
+            "group": "international_indices_eod",
+            "priority": 100,
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX_EOD"
+            ]
           },
           {
             "group": "nasdi",
@@ -3759,91 +3723,47 @@
           },
           {
             "group": "dxy_idc2",
-            "perm": "tvc_cfd",
-            "skip_in_search": false,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "perm": "tvc_cfd"
           },
           {
             "group": "us_chicago_indices",
-            "perm": "tvc_cfd",
-            "skip_in_search": false,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "perm": "tvc_cfd"
           },
           {
             "group": "us_ny_indices",
-            "perm": "tvc_cfd",
-            "skip_in_search": false,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "perm": "tvc_cfd"
           },
           {
             "group": "japan_indices",
-            "perm": "tvc_cfd",
-            "skip_in_search": false,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "perm": "tvc_cfd"
           },
           {
             "group": "china_indices",
-            "perm": "tvc_cfd",
-            "skip_in_search": false,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "perm": "tvc_cfd"
           },
           {
             "group": "european_indices",
-            "perm": "tvc_cfd",
-            "skip_in_search": false,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "perm": "tvc_cfd"
           },
           {
             "group": "british_indices",
-            "perm": "tvc_cfd",
-            "skip_in_search": false,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "perm": "tvc_cfd"
           },
           {
             "group": "spanish_indices",
-            "perm": "tvc_cfd",
-            "skip_in_search": false,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "perm": "tvc_cfd"
           },
           {
             "group": "korean_tvc_indices",
-            "perm": "tvc_cfd",
-            "skip_in_search": false,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "perm": "tvc_cfd"
           },
           {
             "group": "nzx_tvc_indices",
-            "perm": "tvc_cfd",
-            "skip_in_search": false,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "perm": "tvc_cfd"
           },
           {
             "group": "singapore_tvc_indices",
-            "perm": "tvc_cfd",
-            "skip_in_search": false,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "perm": "tvc_cfd"
           },
           {
             "group": "government_bonds",
@@ -4948,6 +4868,14 @@
           },
           {
             "group": "enterpreneur_indices"
+          },
+          {
+            "group": "international_indices_eod",
+            "priority": 100,
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX_EOD"
+            ]
           },
           {
             "group": "nasdi",
