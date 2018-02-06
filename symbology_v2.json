@@ -3140,7 +3140,6 @@
           "rt": {
             "priority": 56,
             "prefix": "HKEX_DAY",
-            "exchange_for_display": "HKEX",
             "prefix_no_perm": [
               "HKEX_DAY_DLY"
             ],
@@ -3154,7 +3153,6 @@
           "rt": {
             "priority": 56,
             "prefix": "HKEX_DAY",
-            "exchange_for_display": "HKEX",
             "prefix_no_perm": [
               "HKEX_DAY_DLY"
             ],
@@ -3281,7 +3279,6 @@
           "rt": {
             "priority": 57,
             "prefix": "HKEX_NIGHT",
-            "exchange_for_display": "HKEX",
             "prefix_no_perm": [
               "HKEX_NIGHT_DLY"
             ],
@@ -3321,7 +3318,6 @@
           "rt": {
             "priority": 57,
             "prefix": "HKEX_NIGHT",
-            "exchange_for_display": "HKEX",
             "prefix_no_perm": [
               "HKEX_NIGHT_DLY"
             ],
