@@ -4577,9 +4577,9 @@
         "kinds": {
           "rt": {
             "priority": 80,
-            "prefix": "MYX",
+            "prefix": "FTSEMYX",
             "prefix_no_perm": [
-              "MYX_DLY"
+              "FTSEMYX_DLY"
             ]
           }
         }
@@ -4715,7 +4715,7 @@
         "kinds": {
           "rt": {
             "priority": 81,
-            "prefix": "MYX_DLY"
+            "prefix": "FTSEMYX_DLY"
           }
         }
       },
