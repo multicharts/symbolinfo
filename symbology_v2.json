@@ -3276,6 +3276,20 @@
         }
       },
       {
+        "id": "hongkong_night_futures",
+        "kinds": {
+          "rt": {
+            "priority": 57,
+            "prefix": "HKEX_NIGHT",
+            "exchange_for_display": "HKEX",
+            "prefix_no_perm": [
+              "HKEX_NIGHT_DLY"
+            ],
+            "perm": "hkex_futures"
+          }
+        }
+      },
+      {
         "id": "istanbul_forwards",
         "kinds": {
           "rt": {
@@ -3395,7 +3409,7 @@
         }
       },
       {
-        "id": "hongkong_night_futures",
+        "id": "hongkong_night_futures_delayed",
         "kinds": {
           "rt": {
             "priority": 58,
