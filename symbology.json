@@ -2467,22 +2467,6 @@
         ]
       },
       {
-        "priority": 60,
-        "prefix": "NASDAQETF",
-        "prefix_no_perm": [
-          "NASDAQETF_EOD"
-        ],
-        "skip_in_search": false,
-        "prefix_alias": [
-          "NASDAQETF_DLY"
-        ],
-        "groups": [
-          {
-            "group": "nasdaq_gids_etf_delayed"
-          }
-        ]
-      },
-      {
         "priority": 61,
         "prefix": "OSE_NIGHT_DLY",
         "perm": "ose",
@@ -6198,22 +6182,6 @@
           },
           {
             "group": "lse_in_eur_eod"
-          }
-        ]
-      },
-      {
-        "priority": 60,
-        "prefix": "NASDAQETF",
-        "prefix_no_perm": [
-          "NASDAQETF_EOD"
-        ],
-        "skip_in_search": false,
-        "prefix_alias": [
-          "NASDAQETF_DLY"
-        ],
-        "groups": [
-          {
-            "group": "nasdaq_gids_etf_delayed"
           }
         ]
       },
