@@ -105,7 +105,11 @@
             "prefix": "TVC",
             "priority": 10,
             "search_boost": 2.0,
-            "perm": "tvc_cfd"
+            "perm": "tvc_cfd",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX"
+            ]
           }
         }
       },
@@ -116,7 +120,11 @@
             "prefix": "TVC",
             "priority": 10,
             "search_boost": 2.0,
-            "perm": "tvc_cfd"
+            "perm": "tvc_cfd",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX"
+            ]
           }
         }
       },
@@ -127,7 +135,11 @@
             "prefix": "TVC",
             "priority": 10,
             "search_boost": 2.0,
-            "perm": "tvc_cfd"
+            "perm": "tvc_cfd",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX"
+            ]
           }
         }
       },
@@ -138,7 +150,11 @@
             "prefix": "TVC",
             "priority": 10,
             "search_boost": 2.0,
-            "perm": "tvc_cfd"
+            "perm": "tvc_cfd",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX"
+            ]
           }
         }
       },
@@ -149,7 +165,11 @@
             "prefix": "TVC",
             "priority": 10,
             "search_boost": 2.0,
-            "perm": "tvc_cfd"
+            "perm": "tvc_cfd",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX"
+            ]
           }
         }
       },
@@ -160,7 +180,11 @@
             "prefix": "TVC",
             "priority": 10,
             "search_boost": 2.0,
-            "perm": "tvc_cfd"
+            "perm": "tvc_cfd",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX"
+            ]
           }
         }
       },
@@ -171,7 +195,11 @@
             "prefix": "TVC",
             "priority": 10,
             "search_boost": 2.0,
-            "perm": "tvc_cfd"
+            "perm": "tvc_cfd",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX"
+            ]
           }
         }
       },
@@ -182,7 +210,11 @@
             "prefix": "TVC",
             "priority": 10,
             "search_boost": 2.0,
-            "perm": "tvc_cfd"
+            "perm": "tvc_cfd",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX"
+            ]
           }
         }
       },
@@ -221,7 +253,11 @@
             "prefix": "TVC",
             "priority": 10,
             "search_boost": 2.0,
-            "perm": "tvc_cfd"
+            "perm": "tvc_cfd",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX"
+            ]
           }
         }
       },
@@ -232,7 +268,11 @@
             "prefix": "TVC",
             "priority": 10,
             "search_boost": 2.0,
-            "perm": "tvc_cfd"
+            "perm": "tvc_cfd",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX"
+            ]
           }
         }
       },
@@ -243,7 +283,11 @@
             "prefix": "TVC",
             "priority": 10,
             "search_boost": 2.0,
-            "perm": "tvc_cfd"
+            "perm": "tvc_cfd",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX"
+            ]
           }
         }
       },
