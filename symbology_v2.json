@@ -2440,10 +2440,7 @@
             "prefix_no_perm": [
               "BMFBOVESPA_DLY"
             ],
-            "perm": "bovespa_stocks",
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "perm": "bovespa_stocks"
           }
         }
       },
@@ -3612,10 +3609,7 @@
           "rt": {
             "prefix": "ASX_DLY",
             "priority": 60,
-            "perm": "nse_free",
-            "prefix_no_perm": [
-              "ASX_EOD"
-            ]
+            "perm": "nse_free"
           }
         }
       },
@@ -5002,19 +4996,6 @@
         }
       },
       {
-        "id": "nzx_indices_delayed",
-        "kinds": {
-          "rt": {
-            "prefix": "NZX_EOD",
-            "priority": 100,
-            "perm": "sf_dly",
-            "prefix_alias": [
-              "INDEX"
-            ]
-          }
-        }
-      },
-      {
         "id": "toronto_indices_eod",
         "kinds": {
           "rt": {
@@ -5282,117 +5263,6 @@
             "prefix": "INDEX",
             "priority": 100,
             "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "euronext_primary_indices_eod",
-        "kinds": {
-          "rt": {
-            "prefix": "EURONEXT_EOD",
-            "priority": 100
-          }
-        }
-      },
-      {
-        "id": "telaviv_indices_eod",
-        "kinds": {
-          "rt": {
-            "prefix": "TASE_EOD",
-            "priority": 100,
-            "prefix_alias": [
-              "INDEX"
-            ]
-          }
-        }
-      },
-      {
-        "id": "asx_indices_eod",
-        "kinds": {
-          "rt": {
-            "prefix": "ASX_EOD",
-            "priority": 100
-          }
-        }
-      },
-      {
-        "id": "mexico_indices_eod",
-        "kinds": {
-          "rt": {
-            "priority": 100,
-            "prefix": "BMV_EOD",
-            "prefix_alias": [
-              "INDEX"
-            ]
-          }
-        }
-      },
-      {
-        "id": "taiwan_indices_eod",
-        "kinds": {
-          "rt": {
-            "priority": 100,
-            "prefix": "TWSE_EOD",
-            "prefix_alias": [
-              "INDEX"
-            ]
-          }
-        }
-      },
-      {
-        "id": "indonesia_indices_eod",
-        "kinds": {
-          "rt": {
-            "priority": 100,
-            "prefix": "IDX_EOD"
-          }
-        }
-      },
-      {
-        "id": "swiss_indices_eod",
-        "kinds": {
-          "rt": {
-            "priority": 100,
-            "prefix": "SIX_EOD",
-            "prefix_alias": [
-              "INDEX"
-            ]
-          }
-        }
-      },
-      {
-        "id": "buenosaires_indices_eod",
-        "kinds": {
-          "rt": {
-            "priority": 100,
-            "prefix": "BCBA_EOD",
-            "prefix_alias": [
-              "INDEX"
-            ]
-          }
-        }
-      },
-      {
-        "id": "singapore_indices_eod",
-        "kinds": {
-          "rt": {
-            "priority": 100,
-            "prefix": "SGX_EOD",
-            "prefix_alias": [
-              "INDEX"
-            ]
-          }
-        }
-      },
-      {
-        "id": "santiago_indices_eod",
-        "kinds": {
-          "rt": {
-            "priority": 100,
-            "prefix": "BSC_EOD",
-            "prefix_alias": [
-              "INDEX"
-            ]
           }
         }
       },
@@ -5766,6 +5636,108 @@
         }
       },
       {
+        "id": "euronext_primary_indices_eod",
+        "kinds": {
+          "rt": {
+            "prefix": "EURONEXT_EOD",
+            "priority": 138
+          }
+        }
+      },
+      {
+        "id": "swiss_indices_eod",
+        "kinds": {
+          "rt": {
+            "priority": 141,
+            "prefix": "SIX_EOD",
+            "prefix_alias": [
+              "INDEX"
+            ]
+          }
+        }
+      },
+      {
+        "id": "singapore_indices_eod",
+        "kinds": {
+          "rt": {
+            "priority": 150,
+            "prefix": "SGX_EOD",
+            "prefix_alias": [
+              "INDEX"
+            ]
+          }
+        }
+      },
+      {
+        "id": "mexico_indices_eod",
+        "kinds": {
+          "rt": {
+            "priority": 152,
+            "prefix": "BMV_EOD",
+            "prefix_alias": [
+              "INDEX"
+            ]
+          }
+        }
+      },
+      {
+        "id": "taiwan_indices_eod",
+        "kinds": {
+          "rt": {
+            "priority": 152,
+            "prefix": "TWSE_EOD",
+            "prefix_alias": [
+              "INDEX"
+            ]
+          }
+        }
+      },
+      {
+        "id": "bovespa_indices_eod",
+        "kinds": {
+          "rt": {
+            "priority": 152,
+            "prefix": "BMFBOVESPA_EOD",
+            "prefix_alias": [
+              "INDEX"
+            ]
+          }
+        }
+      },
+      {
+        "id": "buenosaires_indices_eod",
+        "kinds": {
+          "rt": {
+            "priority": 153,
+            "prefix": "BCBA_EOD",
+            "prefix_alias": [
+              "INDEX"
+            ]
+          }
+        }
+      },
+      {
+        "id": "santiago_indices_eod",
+        "kinds": {
+          "rt": {
+            "priority": 153,
+            "prefix": "BSC_EOD",
+            "prefix_alias": [
+              "INDEX"
+            ]
+          }
+        }
+      },
+      {
+        "id": "asx_indices_eod",
+        "kinds": {
+          "rt": {
+            "prefix": "ASX_EOD",
+            "priority": 155
+          }
+        }
+      },
+      {
         "id": "nasdaq_gids_etf_eod",
         "kinds": {
           "rt": {
@@ -5776,11 +5748,48 @@
         }
       },
       {
+        "id": "nzx_indices_delayed",
+        "kinds": {
+          "rt": {
+            "prefix": "NZX_EOD",
+            "priority": 165,
+            "perm": "sf_dly",
+            "prefix_alias": [
+              "INDEX"
+            ]
+          }
+        }
+      },
+      {
+        "id": "telaviv_indices_eod",
+        "kinds": {
+          "rt": {
+            "prefix": "TASE_EOD",
+            "priority": 170,
+            "prefix_alias": [
+              "INDEX"
+            ]
+          }
+        }
+      },
+      {
         "id": "kcbt",
         "kinds": {
           "rt": {
             "prefix": "KCBT",
             "priority": 180
+          }
+        }
+      },
+      {
+        "id": "indonesia_indices_eod",
+        "kinds": {
+          "rt": {
+            "priority": 180,
+            "prefix": "IDX_EOD",
+            "prefix_alias": [
+              "INDEX"
+            ]
           }
         }
       },
