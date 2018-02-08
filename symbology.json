@@ -3217,19 +3217,6 @@
       },
       {
         "priority": 100,
-        "prefix": "RUSSEL",
-        "skip_in_search": false,
-        "prefix_alias": [
-          "INDEX"
-        ],
-        "groups": [
-          {
-            "group": "russel_indices_eod"
-          }
-        ]
-      },
-      {
-        "priority": 100,
         "prefix": "CHXEUR_EOD",
         "skip_in_search": true,
         "groups": [
@@ -3350,6 +3337,20 @@
         "groups": [
           {
             "group": "ecri"
+          }
+        ]
+      },
+      {
+        "priority": 100,
+        "prefix": "RUSSELL",
+        "skip_in_search": false,
+        "prefix_alias": [
+          "INDEX",
+          "RUSSELL_EOD"
+        ],
+        "groups": [
+          {
+            "group": "russell_indices_eod"
           }
         ]
       },
@@ -3759,6 +3760,16 @@
         "groups": [
           {
             "group": "indonesia_indices_eod"
+          }
+        ]
+      },
+      {
+        "priority": 200,
+        "prefix": "RUSSEL",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "russel_indices_eod"
           }
         ]
       },
@@ -7050,19 +7061,6 @@
       },
       {
         "priority": 100,
-        "prefix": "RUSSEL",
-        "skip_in_search": false,
-        "prefix_alias": [
-          "INDEX"
-        ],
-        "groups": [
-          {
-            "group": "russel_indices_eod"
-          }
-        ]
-      },
-      {
-        "priority": 100,
         "prefix": "CHXEUR_EOD",
         "skip_in_search": true,
         "groups": [
@@ -7183,6 +7181,20 @@
         "groups": [
           {
             "group": "ecri"
+          }
+        ]
+      },
+      {
+        "priority": 100,
+        "prefix": "RUSSELL",
+        "skip_in_search": false,
+        "prefix_alias": [
+          "INDEX",
+          "RUSSELL_EOD"
+        ],
+        "groups": [
+          {
+            "group": "russell_indices_eod"
           }
         ]
       },
@@ -7592,6 +7604,16 @@
         "groups": [
           {
             "group": "indonesia_indices_eod"
+          }
+        ]
+      },
+      {
+        "priority": 200,
+        "prefix": "RUSSEL",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "russel_indices_eod"
           }
         ]
       },
