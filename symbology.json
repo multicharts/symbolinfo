@@ -1265,6 +1265,19 @@
         ]
       },
       {
+        "priority": 49,
+        "prefix": "HSI",
+        "perm": "hsi",
+        "prefix_no_perm": [
+          "HSI_DLY"
+        ],
+        "groups": [
+          {
+            "group": "hangseng_indices"
+          }
+        ]
+      },
+      {
         "priority": 50,
         "search_boost": 2.0,
         "prefix": "FX_IDC",
@@ -1505,6 +1518,16 @@
             "prefix_alias": [
               "WB"
             ]
+          }
+        ]
+      },
+      {
+        "priority": 50,
+        "prefix": "HSI_DLY",
+        "perm": "sf_dly",
+        "groups": [
+          {
+            "group": "hangseng_indices_delayed"
           }
         ]
       },
@@ -4624,6 +4647,19 @@
         ]
       },
       {
+        "priority": 49,
+        "prefix": "HSI",
+        "perm": "hsi",
+        "prefix_no_perm": [
+          "HSI_DLY"
+        ],
+        "groups": [
+          {
+            "group": "hangseng_indices"
+          }
+        ]
+      },
+      {
         "priority": 50,
         "search_boost": 2.0,
         "prefix": "FX_IDC",
@@ -4864,6 +4900,16 @@
             "prefix_alias": [
               "WB"
             ]
+          }
+        ]
+      },
+      {
+        "priority": 50,
+        "prefix": "HSI_DLY",
+        "perm": "sf_dly",
+        "groups": [
+          {
+            "group": "hangseng_indices_delayed"
           }
         ]
       },
