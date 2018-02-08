@@ -5042,19 +5042,6 @@
         }
       },
       {
-        "id": "russel_indices_eod",
-        "kinds": {
-          "rt": {
-            "prefix": "RUSSEL",
-            "priority": 100,
-            "skip_in_search": false,
-            "prefix_alias": [
-              "INDEX"
-            ]
-          }
-        }
-      },
-      {
         "id": "chix_europe_dublin_eod",
         "kinds": {
           "rt": {
@@ -5253,6 +5240,20 @@
           "rt": {
             "prefix": "ECRI",
             "priority": 100
+          }
+        }
+      },
+      {
+        "id": "russell_indices_eod",
+        "kinds": {
+          "rt": {
+            "prefix": "RUSSELL",
+            "priority": 100,
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX",
+              "RUSSELL_EOD"
+            ]
           }
         }
       },
@@ -5808,6 +5809,16 @@
           "rt": {
             "prefix": "KCBT",
             "priority": 181
+          }
+        }
+      },
+      {
+        "id": "russel_indices_eod",
+        "kinds": {
+          "rt": {
+            "prefix": "RUSSEL",
+            "priority": 200,
+            "skip_in_search": true
           }
         }
       },
