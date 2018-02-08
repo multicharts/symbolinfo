@@ -1493,6 +1493,19 @@
         }
       },
       {
+        "id": "hangseng_indices",
+        "kinds": {
+          "rt": {
+            "priority": 49,
+            "prefix": "HSI",
+            "prefix_no_perm": [
+              "HSI_DLY"
+            ],
+            "perm": "hsi"
+          }
+        }
+      },
+      {
         "id": "forex",
         "kinds": {
           "rt": {
@@ -1994,6 +2007,16 @@
           "rt": {
             "priority": 50,
             "prefix": "CME_MINI_DL"
+          }
+        }
+      },
+      {
+        "id": "hangseng_indices_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 50,
+            "prefix": "HSI_DLY",
+            "perm": "sf_dly"
           }
         }
       },
