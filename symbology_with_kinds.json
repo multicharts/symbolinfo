@@ -186,6 +186,16 @@
         }
       },
       {
+        "id": "bithumb",
+        "kinds": {
+          "rt": {
+            "prefix": "BITHUMB",
+            "priority": 15,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "wex",
         "kinds": {
           "rt": {
