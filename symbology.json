@@ -290,6 +290,16 @@
         ]
       },
       {
+        "priority": 15,
+        "prefix": "BITHUMB",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "bithumb"
+          }
+        ]
+      },
+      {
         "priority": 16,
         "prefix": "WEX",
         "skip_in_search": false,
@@ -3604,6 +3614,16 @@
         "groups": [
           {
             "group": "bitmex2"
+          }
+        ]
+      },
+      {
+        "priority": 15,
+        "prefix": "BITHUMB",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "bithumb"
           }
         ]
       },
