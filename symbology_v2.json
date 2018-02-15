@@ -3958,8 +3958,7 @@
             "perm": "qse",
             "prefix_no_perm": [
               "QSE_DLY"
-            ],
-            "skip_in_search": true
+            ]
           }
         }
       },
@@ -4101,8 +4100,7 @@
           "rt": {
             "priority": 81,
             "prefix": "DFM_DLY",
-            "perm": "sf_dly",
-            "skip_in_search": true
+            "perm": "sf_dly"
           }
         }
       },
@@ -4112,8 +4110,7 @@
           "rt": {
             "priority": 81,
             "prefix": "QSE_DLY",
-            "perm": "sf_dly",
-            "skip_in_search": true
+            "perm": "sf_dly"
           }
         }
       },
@@ -4305,8 +4302,7 @@
             "perm": "qse",
             "prefix_no_perm": [
               "QSE_DLY"
-            ],
-            "skip_in_search": true
+            ]
           }
         }
       },
@@ -4338,8 +4334,7 @@
           "rt": {
             "priority": 86,
             "prefix": "DFM_DLY",
-            "perm": "sf_dly",
-            "skip_in_search": true
+            "perm": "sf_dly"
           }
         }
       },
@@ -4349,8 +4344,7 @@
           "rt": {
             "priority": 86,
             "prefix": "QSE_DLY",
-            "perm": "sf_dly",
-            "skip_in_search": true
+            "perm": "sf_dly"
           }
         }
       },
