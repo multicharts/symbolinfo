@@ -2551,7 +2551,6 @@
         "prefix_no_perm": [
           "QSE_DLY"
         ],
-        "skip_in_search": true,
         "groups": [
           {
             "group": "qatar_indices",
@@ -2660,7 +2659,6 @@
       {
         "prefix": "DFM_DLY",
         "perm": "sf_dly",
-        "skip_in_search": true,
         "groups": [
           {
             "group": "dubai_indices_delayed",
@@ -2675,7 +2673,6 @@
       {
         "prefix": "QSE_DLY",
         "perm": "sf_dly",
-        "skip_in_search": true,
         "groups": [
           {
             "group": "qatar_indices_delayed",
@@ -5933,7 +5930,6 @@
         "prefix_no_perm": [
           "QSE_DLY"
         ],
-        "skip_in_search": true,
         "groups": [
           {
             "group": "qatar_indices",
@@ -6042,7 +6038,6 @@
       {
         "prefix": "DFM_DLY",
         "perm": "sf_dly",
-        "skip_in_search": true,
         "groups": [
           {
             "group": "dubai_indices_delayed",
@@ -6057,7 +6052,6 @@
       {
         "prefix": "QSE_DLY",
         "perm": "sf_dly",
-        "skip_in_search": true,
         "groups": [
           {
             "group": "qatar_indices_delayed",
