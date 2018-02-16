@@ -516,6 +516,16 @@
         ]
       },
       {
+        "priority": 25,
+        "prefix": "COINONE",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "coinone"
+          }
+        ]
+      },
+      {
         "prefix": "EURONEXT",
         "groups": [
           {
@@ -4354,6 +4364,16 @@
         "groups": [
           {
             "group": "kucoin"
+          }
+        ]
+      },
+      {
+        "priority": 25,
+        "prefix": "COINONE",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "coinone"
           }
         ]
       },
