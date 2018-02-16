@@ -650,6 +650,16 @@
         }
       },
       {
+        "id": "coinone",
+        "kinds": {
+          "rt": {
+            "prefix": "COINONE",
+            "priority": 25,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "euronext_primary_indices",
         "kinds": {
           "rt": {
