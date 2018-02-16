@@ -3465,6 +3465,10 @@
           },
           {
             "group": "HITBTC"
+          },
+          {
+            "group": "hitbtc2",
+            "skip_in_search": false
           }
         ]
       },
@@ -7317,6 +7321,10 @@
           },
           {
             "group": "HITBTC"
+          },
+          {
+            "group": "hitbtc2",
+            "skip_in_search": false
           }
         ]
       },
