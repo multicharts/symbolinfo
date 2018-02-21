@@ -330,6 +330,9 @@
         "kinds": {
           "rt": {
             "prefix": "COMEX_MINI",
+            "exchange_aliases": [
+              "COMEX"
+            ],
             "perm": "comex_mini",
             "prefix_no_perm": [
               "COMEX_MINI_DL"
@@ -381,6 +384,9 @@
         "kinds": {
           "rt": {
             "prefix": "CBOT_MINI",
+            "exchange_aliases": [
+              "CBOT"
+            ],
             "perm": "cbot_mini",
             "prefix_no_perm": [
               "CBOT_MINI_DL"
@@ -415,6 +421,9 @@
         "kinds": {
           "rt": {
             "prefix": "NYMEX_MINI",
+            "exchange_aliases": [
+              "NYMEX"
+            ],
             "perm": "nymex_mini",
             "prefix_no_perm": [
               "NYMEX_MINI_DL"
@@ -432,6 +441,9 @@
         "kinds": {
           "rt": {
             "prefix": "NYMEX_MINI",
+            "exchange_aliases": [
+              "NYMEX"
+            ],
             "perm": "nymex_mini",
             "prefix_no_perm": [
               "NYMEX_MINI_DL"
@@ -500,6 +512,9 @@
         "kinds": {
           "rt": {
             "prefix": "CME_MINI",
+            "exchange_aliases": [
+              "CME"
+            ],
             "perm": "cme_mini",
             "prefix_no_perm": [
               "CME_MINI_DL"
@@ -517,6 +532,9 @@
         "kinds": {
           "rt": {
             "prefix": "CME_MINI",
+            "exchange_aliases": [
+              "CME"
+            ],
             "perm": "cme_mini",
             "prefix_no_perm": [
               "CME_MINI_DL"
@@ -789,6 +807,9 @@
         "kinds": {
           "rt": {
             "prefix": "COMEX_MINI",
+            "exchange_aliases": [
+              "COMEX"
+            ],
             "perm": "comex_mini",
             "prefix_no_perm": [
               "COMEX_MINI_DL"
@@ -840,6 +861,9 @@
         "kinds": {
           "rt": {
             "prefix": "CBOT_MINI",
+            "exchange_aliases": [
+              "CBOT"
+            ],
             "perm": "cbot_mini",
             "prefix_no_perm": [
               "CBOT_MINI_DL"
@@ -874,6 +898,9 @@
         "kinds": {
           "rt": {
             "prefix": "NYMEX_MINI",
+            "exchange_aliases": [
+              "NYMEX"
+            ],
             "perm": "nymex_mini",
             "prefix_no_perm": [
               "NYMEX_MINI_DL"
@@ -891,6 +918,9 @@
         "kinds": {
           "rt": {
             "prefix": "NYMEX_MINI",
+            "exchange_aliases": [
+              "NYMEX"
+            ],
             "perm": "nymex",
             "prefix_no_perm": [
               "NYMEX_MINI_DL"
@@ -959,6 +989,9 @@
         "kinds": {
           "rt": {
             "prefix": "CME_MINI",
+            "exchange_aliases": [
+              "CME"
+            ],
             "perm": "cme_mini",
             "prefix_no_perm": [
               "CME_MINI_DL"
@@ -976,6 +1009,9 @@
         "kinds": {
           "rt": {
             "prefix": "CME_MINI",
+            "exchange_aliases": [
+              "CME"
+            ],
             "perm": "cme_mini",
             "prefix_no_perm": [
               "CME_MINI_DL"
@@ -1021,6 +1057,26 @@
             "priority": 50,
             "prefix": "BME_DLY",
             "perm": "nse_free"
+          }
+        }
+      },
+      {
+        "id": "hangseng_indices",
+        "kinds": {
+          "rt": {
+            "priority": 49,
+            "prefix": "HSI",
+            "prefix_no_perm": [
+              "HSI_DLY"
+            ],
+            "perm": "hsi",
+            "skip_in_search": true
+          },
+          "delay": {
+            "priority": 50,
+            "prefix": "HSI_DLY",
+            "perm": "sf_dly",
+            "skip_in_search": true
           }
         }
       },
@@ -1266,7 +1322,7 @@
         }
       },
       {
-        "id": "bovespa",
+        "id": "bovespa_stocks",
         "kinds": {
           "rt": {
             "priority": 52,
@@ -3483,6 +3539,16 @@
           "rt": {
             "prefix": "BTCE",
             "priority": 112
+          }
+        }
+      },
+      {
+        "id": "binance_spreads",
+        "kinds": {
+          "rt": {
+            "prefix": "BINANCE",
+            "priority": 112,
+            "skip_in_search": false
           }
         }
       },
