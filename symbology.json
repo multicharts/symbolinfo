@@ -343,12 +343,16 @@
         ]
       },
       {
-        "priority": 20,
         "prefix": "BINANCE",
         "skip_in_search": false,
         "groups": [
           {
-            "group": "binance"
+            "group": "binance",
+            "priority": 20
+          },
+          {
+            "group": "binance_spreads",
+            "priority": 112
           }
         ]
       },
@@ -575,6 +579,9 @@
         "prefix_no_perm": [
           "COMEX_MINI_DL"
         ],
+        "exchange_aliases": [
+          "COMEX"
+        ],
         "groups": [
           {
             "group": "comex_migration_mini_continuous",
@@ -615,6 +622,9 @@
         "perm": "cbot_mini",
         "prefix_no_perm": [
           "CBOT_MINI_DL"
+        ],
+        "exchange_aliases": [
+          "CBOT"
         ],
         "groups": [
           {
@@ -665,6 +675,9 @@
         "prefix_no_perm": [
           "NYMEX_MINI_DL"
         ],
+        "exchange_aliases": [
+          "NYMEX"
+        ],
         "groups": [
           {
             "group": "nymex_migration_mini_continuous"
@@ -712,6 +725,9 @@
         "perm": "cme_mini",
         "prefix_no_perm": [
           "CME_MINI_DL"
+        ],
+        "exchange_aliases": [
+          "CME"
         ],
         "groups": [
           {
@@ -1216,6 +1232,20 @@
         ]
       },
       {
+        "priority": 49,
+        "prefix": "HSI",
+        "perm": "hsi",
+        "prefix_no_perm": [
+          "HSI_DLY"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "hangseng_indices"
+          }
+        ]
+      },
+      {
         "prefix": "BME_DLY",
         "perm": "nse_free",
         "groups": [
@@ -1406,6 +1436,17 @@
           },
           {
             "group": "lse_in_eur_delayed"
+          }
+        ]
+      },
+      {
+        "priority": 50,
+        "prefix": "HSI_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "hangseng_indices_delayed"
           }
         ]
       },
@@ -3681,12 +3722,16 @@
         ]
       },
       {
-        "priority": 20,
         "prefix": "BINANCE",
         "skip_in_search": false,
         "groups": [
           {
-            "group": "binance"
+            "group": "binance",
+            "priority": 20
+          },
+          {
+            "group": "binance_spreads",
+            "priority": 112
           }
         ]
       },
@@ -3913,6 +3958,9 @@
         "prefix_no_perm": [
           "COMEX_MINI_DL"
         ],
+        "exchange_aliases": [
+          "COMEX"
+        ],
         "groups": [
           {
             "group": "comex_migration_mini_continuous",
@@ -3953,6 +4001,9 @@
         "perm": "cbot_mini",
         "prefix_no_perm": [
           "CBOT_MINI_DL"
+        ],
+        "exchange_aliases": [
+          "CBOT"
         ],
         "groups": [
           {
@@ -4003,6 +4054,9 @@
         "prefix_no_perm": [
           "NYMEX_MINI_DL"
         ],
+        "exchange_aliases": [
+          "NYMEX"
+        ],
         "groups": [
           {
             "group": "nymex_migration_mini_continuous"
@@ -4050,6 +4104,9 @@
         "perm": "cme_mini",
         "prefix_no_perm": [
           "CME_MINI_DL"
+        ],
+        "exchange_aliases": [
+          "CME"
         ],
         "groups": [
           {
@@ -4554,6 +4611,20 @@
         ]
       },
       {
+        "priority": 49,
+        "prefix": "HSI",
+        "perm": "hsi",
+        "prefix_no_perm": [
+          "HSI_DLY"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "hangseng_indices"
+          }
+        ]
+      },
+      {
         "prefix": "BME_DLY",
         "perm": "nse_free",
         "groups": [
@@ -4744,6 +4815,17 @@
           },
           {
             "group": "lse_in_eur_delayed"
+          }
+        ]
+      },
+      {
+        "priority": 50,
+        "prefix": "HSI_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "hangseng_indices_delayed"
           }
         ]
       },
