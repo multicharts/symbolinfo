@@ -1862,6 +1862,7 @@
         "prefix_no_perm": [
           "NSEE_DLY"
         ],
+        "exchange_for_display": "NSE",
         "groups": [
           {
             "group": "nse_emerge_stocks"
@@ -2033,6 +2034,7 @@
         "prefix_no_perm": [
           "NSEE_EOD"
         ],
+        "exchange_for_display": "NSE_DLY",
         "groups": [
           {
             "group": "nse_emerge_stocks_delayed"
@@ -5727,6 +5729,7 @@
         "prefix_no_perm": [
           "NSEE_DLY"
         ],
+        "exchange_for_display": "NSE",
         "groups": [
           {
             "group": "nse_emerge_stocks"
@@ -5898,6 +5901,7 @@
         "prefix_no_perm": [
           "NSEE_EOD"
         ],
+        "exchange_for_display": "NSE_DLY",
         "groups": [
           {
             "group": "nse_emerge_stocks_delayed"
