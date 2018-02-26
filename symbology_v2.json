@@ -1395,10 +1395,19 @@
         }
       },
       {
-        "id": "enterpreneur_indices",
+        "id": "custom_indices",
         "kinds": {
           "rt": {
             "prefix": "INDEX",
+            "priority": 47
+          }
+        }
+      },
+      {
+        "id": "custom_indices_internal",
+        "kinds": {
+          "rt": {
+            "prefix": "INDEX_INTERNAL",
             "priority": 47
           }
         }
@@ -2344,6 +2353,7 @@
             "priority": 51,
             "search_boost": 0.6,
             "prefix": "NSEE",
+            "exchange_for_display": "NSE",
             "prefix_no_perm": [
               "NSEE_DLY"
             ],
@@ -2707,6 +2717,7 @@
           "rt": {
             "priority": 52,
             "prefix": "NSEE_DLY",
+            "exchange_for_display": "NSE_DLY",
             "prefix_no_perm": [
               "NSEE_EOD"
             ],
