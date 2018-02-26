@@ -1077,7 +1077,7 @@
             "group": "russli"
           },
           {
-            "group": "enterpreneur_indices"
+            "group": "custom_indices"
           },
           {
             "group": "nasdi",
@@ -1109,6 +1109,15 @@
         "groups": [
           {
             "group": "crains_indices_internal"
+          }
+        ]
+      },
+      {
+        "priority": 47,
+        "prefix": "INDEX_INTERNAL",
+        "groups": [
+          {
+            "group": "custom_indices_internal"
           }
         ]
       },
@@ -4468,7 +4477,7 @@
             "group": "russli"
           },
           {
-            "group": "enterpreneur_indices"
+            "group": "custom_indices"
           },
           {
             "group": "nasdi",
@@ -4500,6 +4509,15 @@
         "groups": [
           {
             "group": "crains_indices_internal"
+          }
+        ]
+      },
+      {
+        "priority": 47,
+        "prefix": "INDEX_INTERNAL",
+        "groups": [
+          {
+            "group": "custom_indices_internal"
           }
         ]
       },
