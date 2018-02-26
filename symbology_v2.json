@@ -1222,10 +1222,19 @@
         }
       },
       {
-        "id": "enterpreneur_indices",
+        "id": "custom_indices",
         "kinds": {
           "rt": {
             "prefix": "INDEX",
+            "priority": 47
+          }
+        }
+      },
+      {
+        "id": "custom_indices_internal",
+        "kinds": {
+          "rt": {
+            "prefix": "INDEX_INTERNAL",
             "priority": 47
           }
         }
