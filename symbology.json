@@ -61,6 +61,18 @@
             "perm": "tvc_cfd"
           },
           {
+            "group": "korean_tvc_indices",
+            "perm": "tvc_cfd"
+          },
+          {
+            "group": "nzx_tvc_indices",
+            "perm": "tvc_cfd"
+          },
+          {
+            "group": "singapore_tvc_indices",
+            "perm": "tvc_cfd"
+          },
+          {
             "group": "government_bonds",
             "priority": 20,
             "perm": "tvc_cfd"
@@ -3437,6 +3449,18 @@
           },
           {
             "group": "spanish_indices",
+            "perm": "tvc_cfd"
+          },
+          {
+            "group": "korean_tvc_indices",
+            "perm": "tvc_cfd"
+          },
+          {
+            "group": "nzx_tvc_indices",
+            "perm": "tvc_cfd"
+          },
+          {
+            "group": "singapore_tvc_indices",
             "perm": "tvc_cfd"
           },
           {
