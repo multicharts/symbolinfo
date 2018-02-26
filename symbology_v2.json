@@ -187,34 +187,6 @@
         }
       },
       {
-        "id": "fxcm",
-        "kinds": {
-          "rt": {
-            "prefix": "FX",
-            "priority": 10,
-            "exchange_for_display": "FXCM"
-          }
-        }
-      },
-      {
-        "id": "nasdaq_indices_delayed",
-        "kinds": {
-          "rt": {
-            "prefix": "NASDAQ",
-            "priority": 10,
-            "exchange_for_display": "NASDAQ Global Indices",
-            "prefix_alias": [
-              "NASDAQ_DLY",
-              "INDEX"
-            ],
-            "skip_in_search": false,
-            "prefix_no_perm": [
-              "NASDAQ_EOD"
-            ]
-          }
-        }
-      },
-      {
         "id": "korean_tvc_indices",
         "kinds": {
           "rt": {
@@ -244,6 +216,34 @@
             "priority": 10,
             "search_boost": 2.0,
             "perm": "tvc_cfd"
+          }
+        }
+      },
+      {
+        "id": "fxcm",
+        "kinds": {
+          "rt": {
+            "prefix": "FX",
+            "priority": 10,
+            "exchange_for_display": "FXCM"
+          }
+        }
+      },
+      {
+        "id": "nasdaq_indices_delayed",
+        "kinds": {
+          "rt": {
+            "prefix": "NASDAQ",
+            "priority": 10,
+            "exchange_for_display": "NASDAQ Global Indices",
+            "prefix_alias": [
+              "NASDAQ_DLY",
+              "INDEX"
+            ],
+            "skip_in_search": false,
+            "prefix_no_perm": [
+              "NASDAQ_EOD"
+            ]
           }
         }
       },
