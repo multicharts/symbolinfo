@@ -2352,12 +2352,10 @@
           "rt": {
             "priority": 51,
             "search_boost": 0.6,
-            "prefix": "NSEE",
-            "exchange_for_display": "NSE",
+            "prefix": "NSE",
             "prefix_no_perm": [
-              "NSEE_DLY"
-            ],
-            "perm": "nse"
+              "NSE_DLY"
+            ]
           }
         }
       },
@@ -2708,20 +2706,6 @@
             "priority": 52,
             "prefix": "BMFBOVESPA_DLY",
             "perm": "bovespa"
-          }
-        }
-      },
-      {
-        "id": "nse_emerge_stocks_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 52,
-            "prefix": "NSEE_DLY",
-            "exchange_for_display": "NSE_DLY",
-            "prefix_no_perm": [
-              "NSEE_EOD"
-            ],
-            "perm": "nse_free"
           }
         }
       },
@@ -5288,7 +5272,7 @@
         "id": "nse_stocks_eod",
         "kinds": {
           "rt": {
-            "prefix": "NSEE_EOD",
+            "prefix": "NSE_EOD",
             "priority": 101,
             "skip_in_search": true
           }
@@ -5296,6 +5280,16 @@
       },
       {
         "id": "nse_indices_eod",
+        "kinds": {
+          "rt": {
+            "prefix": "NSE_EOD",
+            "priority": 101,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "nse_emerge_stocks_delayed",
         "kinds": {
           "rt": {
             "prefix": "NSE_EOD",
