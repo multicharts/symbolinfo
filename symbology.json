@@ -1193,17 +1193,7 @@
         "prefix": "INDEX",
         "groups": [
           {
-            "group": "dxy",
-            "search_boost": 2.0
-          },
-          {
             "group": "ind"
-          },
-          {
-            "group": "spec"
-          },
-          {
-            "group": "russli"
           },
           {
             "group": "custom_indices"
@@ -1212,6 +1202,25 @@
             "group": "international_indices_eod",
             "priority": 100,
             "skip_in_search": false
+          },
+          {
+            "group": "dxy",
+            "priority": 300,
+            "search_boost": 2.0,
+            "perm": "permission_denied",
+            "skip_in_search": true
+          },
+          {
+            "group": "spec",
+            "priority": 300,
+            "perm": "permission_denied",
+            "skip_in_search": true
+          },
+          {
+            "group": "russli",
+            "priority": 300,
+            "perm": "permission_denied",
+            "skip_in_search": true
           },
           {
             "group": "nasdi",
@@ -5030,17 +5039,7 @@
         "prefix": "INDEX",
         "groups": [
           {
-            "group": "dxy",
-            "search_boost": 2.0
-          },
-          {
             "group": "ind"
-          },
-          {
-            "group": "spec"
-          },
-          {
-            "group": "russli"
           },
           {
             "group": "custom_indices"
@@ -5049,6 +5048,25 @@
             "group": "international_indices_eod",
             "priority": 100,
             "skip_in_search": false
+          },
+          {
+            "group": "dxy",
+            "priority": 300,
+            "search_boost": 2.0,
+            "perm": "permission_denied",
+            "skip_in_search": true
+          },
+          {
+            "group": "spec",
+            "priority": 300,
+            "perm": "permission_denied",
+            "skip_in_search": true
+          },
+          {
+            "group": "russli",
+            "priority": 300,
+            "perm": "permission_denied",
+            "skip_in_search": true
           },
           {
             "group": "nasdi",
