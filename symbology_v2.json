@@ -2355,7 +2355,8 @@
             "prefix": "NSE",
             "prefix_no_perm": [
               "NSE_DLY"
-            ]
+            ],
+            "perm": "nse"
           }
         }
       },
