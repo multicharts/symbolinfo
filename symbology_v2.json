@@ -175,6 +175,39 @@
         }
       },
       {
+        "id": "korean_tvc_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 10,
+            "search_boost": 2.0,
+            "perm": "tvc_cfd"
+          }
+        }
+      },
+      {
+        "id": "nzx_tvc_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 10,
+            "search_boost": 2.0,
+            "perm": "tvc_cfd"
+          }
+        }
+      },
+      {
+        "id": "singapore_tvc_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 10,
+            "search_boost": 2.0,
+            "perm": "tvc_cfd"
+          }
+        }
+      },
+      {
         "id": "fxcm",
         "kinds": {
           "rt": {
@@ -413,6 +446,17 @@
             "search_boost": 2.0,
             "perm": "tvc_cfd",
             "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "canadian_bonds",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 20,
+            "search_boost": 2.0,
+            "perm": "tvc_cfd"
           }
         }
       },
@@ -1470,8 +1514,7 @@
             "prefix_no_perm": [
               "HSI_DLY"
             ],
-            "perm": "hsi",
-            "skip_in_search": true
+            "perm": "hsi"
           }
         }
       },
@@ -1952,8 +1995,7 @@
           "rt": {
             "priority": 50,
             "prefix": "HSI_DLY",
-            "perm": "sf_dly",
-            "skip_in_search": true
+            "perm": "sf_dly"
           }
         }
       },
@@ -3894,6 +3936,19 @@
         }
       },
       {
+        "id": "qatar_indices",
+        "kinds": {
+          "rt": {
+            "priority": 80,
+            "prefix": "QSE",
+            "perm": "qse",
+            "prefix_no_perm": [
+              "QSE_DLY"
+            ]
+          }
+        }
+      },
+      {
         "id": "malaysia_stocks",
         "kinds": {
           "rt": {
@@ -3928,8 +3983,7 @@
             "prefix_no_perm": [
               "IDX_DLY"
             ],
-            "perm": "idx",
-            "skip_in_search": true
+            "perm": "idx"
           }
         }
       },
@@ -3942,8 +3996,7 @@
             "prefix_no_perm": [
               "IDX_DLY"
             ],
-            "perm": "idx",
-            "skip_in_search": true
+            "perm": "idx"
           }
         }
       },
@@ -4038,6 +4091,16 @@
         }
       },
       {
+        "id": "qatar_indices_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 81,
+            "prefix": "QSE_DLY",
+            "perm": "sf_dly"
+          }
+        }
+      },
+      {
         "id": "malaysia_stocks_delayed",
         "kinds": {
           "rt": {
@@ -4063,8 +4126,7 @@
           "rt": {
             "priority": 81,
             "prefix": "IDX_DLY",
-            "perm": "idx",
-            "skip_in_search": true
+            "perm": "sf_dly"
           }
         }
       },
@@ -4074,8 +4136,7 @@
           "rt": {
             "priority": 81,
             "prefix": "IDX_DLY",
-            "perm": "idx",
-            "skip_in_search": true
+            "perm": "sf_dly"
           }
         }
       },
@@ -4214,6 +4275,19 @@
         }
       },
       {
+        "id": "qatar_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 85,
+            "prefix": "QSE",
+            "perm": "qse",
+            "prefix_no_perm": [
+              "QSE_DLY"
+            ]
+          }
+        }
+      },
+      {
         "id": "saudi_stocks_delayed",
         "kinds": {
           "rt": {
@@ -4241,6 +4315,16 @@
           "rt": {
             "priority": 86,
             "prefix": "DFM_DLY",
+            "perm": "sf_dly"
+          }
+        }
+      },
+      {
+        "id": "qatar_stocks_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 86,
+            "prefix": "QSE_DLY",
             "perm": "sf_dly"
           }
         }
@@ -5265,56 +5349,6 @@
             "priority": 271,
             "prefix": "LUXSE_DLY",
             "perm": "luxse",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "qatar_indices",
-        "kinds": {
-          "rt": {
-            "priority": 280,
-            "prefix": "QSE",
-            "perm": "qse",
-            "prefix_no_perm": [
-              "QSE_DLY"
-            ],
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "qatar_indices_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 281,
-            "prefix": "QSE_DLY",
-            "perm": "qse",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "qatar_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 285,
-            "prefix": "QSE",
-            "perm": "qse",
-            "prefix_no_perm": [
-              "QSE_DLY"
-            ],
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "qatar_stocks_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 286,
-            "prefix": "QSE_DLY",
-            "perm": "qse",
             "skip_in_search": true
           }
         }
