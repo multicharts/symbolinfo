@@ -61,6 +61,18 @@
             "perm": "tvc_cfd"
           },
           {
+            "group": "korean_tvc_indices",
+            "perm": "tvc_cfd"
+          },
+          {
+            "group": "nzx_tvc_indices",
+            "perm": "tvc_cfd"
+          },
+          {
+            "group": "singapore_tvc_indices",
+            "perm": "tvc_cfd"
+          },
+          {
             "group": "government_bonds",
             "priority": 20,
             "perm": "tvc_cfd"
@@ -75,6 +87,11 @@
             "priority": 20,
             "perm": "tvc_cfd",
             "skip_in_search": true
+          },
+          {
+            "group": "canadian_bonds",
+            "priority": 20,
+            "perm": "tvc_cfd"
           }
         ]
       },
@@ -1238,7 +1255,6 @@
         "prefix_no_perm": [
           "HSI_DLY"
         ],
-        "skip_in_search": true,
         "groups": [
           {
             "group": "hangseng_indices"
@@ -1443,7 +1459,6 @@
         "priority": 50,
         "prefix": "HSI_DLY",
         "perm": "sf_dly",
-        "skip_in_search": true,
         "groups": [
           {
             "group": "hangseng_indices_delayed"
@@ -2511,6 +2526,23 @@
         ]
       },
       {
+        "prefix": "QSE",
+        "perm": "qse",
+        "prefix_no_perm": [
+          "QSE_DLY"
+        ],
+        "groups": [
+          {
+            "group": "qatar_indices",
+            "priority": 80
+          },
+          {
+            "group": "qatar_stocks",
+            "priority": 85
+          }
+        ]
+      },
+      {
         "priority": 80,
         "prefix": "MYX",
         "perm": "myx",
@@ -2536,7 +2568,6 @@
         "prefix_no_perm": [
           "IDX_DLY"
         ],
-        "skip_in_search": true,
         "groups": [
           {
             "group": "indonesia_stocks"
@@ -2620,6 +2651,20 @@
         ]
       },
       {
+        "prefix": "QSE_DLY",
+        "perm": "sf_dly",
+        "groups": [
+          {
+            "group": "qatar_indices_delayed",
+            "priority": 81
+          },
+          {
+            "group": "qatar_stocks_delayed",
+            "priority": 86
+          }
+        ]
+      },
+      {
         "priority": 81,
         "prefix": "MYX_DLY",
         "perm": "nse_free",
@@ -2638,8 +2683,7 @@
       {
         "priority": 81,
         "prefix": "IDX_DLY",
-        "perm": "idx",
-        "skip_in_search": true,
+        "perm": "sf_dly",
         "groups": [
           {
             "group": "indonesia_stocks_delayed"
@@ -3340,39 +3384,6 @@
           {
             "group": "luxembourg_stocks_delayed",
             "priority": 271
-          }
-        ]
-      },
-      {
-        "prefix": "QSE",
-        "perm": "qse",
-        "prefix_no_perm": [
-          "QSE_DLY"
-        ],
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "qatar_indices",
-            "priority": 280
-          },
-          {
-            "group": "qatar_stocks",
-            "priority": 285
-          }
-        ]
-      },
-      {
-        "prefix": "QSE_DLY",
-        "perm": "qse",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "qatar_indices_delayed",
-            "priority": 281
-          },
-          {
-            "group": "qatar_stocks_delayed",
-            "priority": 286
           }
         ]
       }
@@ -3440,6 +3451,18 @@
             "perm": "tvc_cfd"
           },
           {
+            "group": "korean_tvc_indices",
+            "perm": "tvc_cfd"
+          },
+          {
+            "group": "nzx_tvc_indices",
+            "perm": "tvc_cfd"
+          },
+          {
+            "group": "singapore_tvc_indices",
+            "perm": "tvc_cfd"
+          },
+          {
             "group": "government_bonds",
             "priority": 20,
             "perm": "tvc_cfd"
@@ -3454,6 +3477,11 @@
             "priority": 20,
             "perm": "tvc_cfd",
             "skip_in_search": true
+          },
+          {
+            "group": "canadian_bonds",
+            "priority": 20,
+            "perm": "tvc_cfd"
           }
         ]
       },
@@ -4617,7 +4645,6 @@
         "prefix_no_perm": [
           "HSI_DLY"
         ],
-        "skip_in_search": true,
         "groups": [
           {
             "group": "hangseng_indices"
@@ -4822,7 +4849,6 @@
         "priority": 50,
         "prefix": "HSI_DLY",
         "perm": "sf_dly",
-        "skip_in_search": true,
         "groups": [
           {
             "group": "hangseng_indices_delayed"
@@ -5890,6 +5916,23 @@
         ]
       },
       {
+        "prefix": "QSE",
+        "perm": "qse",
+        "prefix_no_perm": [
+          "QSE_DLY"
+        ],
+        "groups": [
+          {
+            "group": "qatar_indices",
+            "priority": 80
+          },
+          {
+            "group": "qatar_stocks",
+            "priority": 85
+          }
+        ]
+      },
+      {
         "priority": 80,
         "prefix": "MYX",
         "perm": "myx",
@@ -5915,7 +5958,6 @@
         "prefix_no_perm": [
           "IDX_DLY"
         ],
-        "skip_in_search": true,
         "groups": [
           {
             "group": "indonesia_stocks"
@@ -5999,6 +6041,20 @@
         ]
       },
       {
+        "prefix": "QSE_DLY",
+        "perm": "sf_dly",
+        "groups": [
+          {
+            "group": "qatar_indices_delayed",
+            "priority": 81
+          },
+          {
+            "group": "qatar_stocks_delayed",
+            "priority": 86
+          }
+        ]
+      },
+      {
         "priority": 81,
         "prefix": "MYX_DLY",
         "perm": "nse_free",
@@ -6017,8 +6073,7 @@
       {
         "priority": 81,
         "prefix": "IDX_DLY",
-        "perm": "idx",
-        "skip_in_search": true,
+        "perm": "sf_dly",
         "groups": [
           {
             "group": "indonesia_stocks_delayed"
@@ -6719,39 +6774,6 @@
           {
             "group": "luxembourg_stocks_delayed",
             "priority": 271
-          }
-        ]
-      },
-      {
-        "prefix": "QSE",
-        "perm": "qse",
-        "prefix_no_perm": [
-          "QSE_DLY"
-        ],
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "qatar_indices",
-            "priority": 280
-          },
-          {
-            "group": "qatar_stocks",
-            "priority": 285
-          }
-        ]
-      },
-      {
-        "prefix": "QSE_DLY",
-        "perm": "qse",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "qatar_indices_delayed",
-            "priority": 281
-          },
-          {
-            "group": "qatar_stocks_delayed",
-            "priority": 286
           }
         ]
       }
