@@ -2514,6 +2514,24 @@
         }
       },
       {
+        "id": "malaysia_indices",
+        "kinds": {
+          "rt": {
+            "priority": 79,
+            "prefix": "MYX",
+            "prefix_no_perm": [
+              "bars"
+            ],
+            "perm": "nse_free"
+          },
+          "delay": {
+            "priority": 80,
+            "prefix": "MYX_DLY",
+            "perm": "nse_free"
+          }
+        }
+      },
+      {
         "id": "dubai_indices",
         "kinds": {
           "rt": {
@@ -2556,7 +2574,7 @@
             "priority": 80,
             "prefix": "MYX",
             "prefix_no_perm": [
-              "MYX_DLY"
+              "bars"
             ],
             "perm": "myx"
           },
@@ -2574,7 +2592,7 @@
             "priority": 80,
             "prefix": "MYX",
             "prefix_no_perm": [
-              "MYX_DLY"
+              "bars"
             ],
             "perm": "myx"
           },
@@ -2628,7 +2646,7 @@
             "priority": 80,
             "prefix": "MYX",
             "prefix_no_perm": [
-              "MYX_DLY"
+              "bars"
             ],
             "perm": "myx"
           },
@@ -2714,6 +2732,24 @@
             "priority": 86,
             "prefix": "DFM_DLY",
             "perm": "sf_dly"
+          }
+        }
+      },
+      {
+        "id": "malaysia_ftse_indices",
+        "kinds": {
+          "rt": {
+            "priority": 78,
+            "prefix": "MYX",
+            "prefix_no_perm": [
+              "bars"
+            ],
+            "perm": "nse_free"
+          },
+          "delay": {
+            "priority": 89,
+            "prefix": "MYX_DLY",
+            "perm": "nse_free"
           }
         }
       },
