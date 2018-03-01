@@ -2522,12 +2522,12 @@
             "prefix_no_perm": [
               "MYX_DLY"
             ],
-            "perm": null
+            "perm": "nse_free"
           },
           "delay": {
             "priority": 80,
             "prefix": "MYX_DLY",
-            "perm": null
+            "perm": "nse_free"
           }
         }
       },
@@ -2740,16 +2740,16 @@
         "kinds": {
           "rt": {
             "priority": 78,
-            "prefix": "MYX",
+            "prefix": "FTSEMYX",
             "prefix_no_perm": [
-              "MYX_DLY"
+              "FTSEMYX_DLY"
             ],
-            "perm": null
+            "perm": "nse_free"
           },
           "delay": {
             "priority": 89,
-            "prefix": "MYX_DLY",
-            "perm": null
+            "prefix": "FTSEMYX_DLY",
+            "perm": "nse_free"
           }
         }
       },
