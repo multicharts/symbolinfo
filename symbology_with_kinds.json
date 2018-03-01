@@ -2520,7 +2520,7 @@
             "priority": 79,
             "prefix": "MYX",
             "prefix_no_perm": [
-              "bars"
+              "MYX_DLY"
             ],
             "perm": "nse_free"
           },
@@ -2574,7 +2574,7 @@
             "priority": 80,
             "prefix": "MYX",
             "prefix_no_perm": [
-              "bars"
+              "MYX_DLY"
             ],
             "perm": "myx"
           },
@@ -2592,7 +2592,7 @@
             "priority": 80,
             "prefix": "MYX",
             "prefix_no_perm": [
-              "bars"
+              "MYX_DLY"
             ],
             "perm": "myx"
           },
@@ -2646,7 +2646,7 @@
             "priority": 80,
             "prefix": "MYX",
             "prefix_no_perm": [
-              "bars"
+              "MYX_DLY"
             ],
             "perm": "myx"
           },
@@ -2740,15 +2740,15 @@
         "kinds": {
           "rt": {
             "priority": 78,
-            "prefix": "MYX",
+            "prefix": "FTSEMYX",
             "prefix_no_perm": [
-              "bars"
+              "FTSEMYX_DLY"
             ],
             "perm": "nse_free"
           },
           "delay": {
             "priority": 89,
-            "prefix": "MYX_DLY",
+            "prefix": "FTSEMYX_DLY",
             "perm": "nse_free"
           }
         }
