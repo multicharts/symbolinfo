@@ -2825,6 +2825,28 @@
         }
       },
       {
+        "id": "nasdaq_indices",
+        "kinds": {
+          "delay": {
+            "prefix": "NASDAQ",
+            "priority": 10,
+            "prefix_alias": [
+              "NASDAQ_DLY",
+              "INDEX"
+            ],
+            "skip_in_search": false,
+            "prefix_no_perm": [
+              "NASDAQ_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "NASDAQ_EOD",
+            "priority": 100,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "toronto_indices",
         "kinds": {
           "rt": {
@@ -3148,16 +3170,6 @@
           "eod": {
             "priority": 100,
             "prefix": "CHXEUR_EOD",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "nasdaq_indices_eod",
-        "kinds": {
-          "eod": {
-            "priority": 100,
-            "prefix": "NASDAQ",
             "skip_in_search": true
           }
         }
