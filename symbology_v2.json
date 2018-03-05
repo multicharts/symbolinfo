@@ -5733,16 +5733,6 @@
         }
       },
       {
-        "id": "nasdaq_gids_etf_eod",
-        "kinds": {
-          "rt": {
-            "prefix": "NASDAQETF_EOD",
-            "priority": 160,
-            "skip_in_search": true
-          }
-        }
-      },
-      {
         "id": "nzx_indices_delayed",
         "kinds": {
           "rt": {
