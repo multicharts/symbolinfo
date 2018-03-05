@@ -3702,16 +3702,6 @@
         ]
       },
       {
-        "priority": 160,
-        "prefix": "NASDAQETF_EOD",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "nasdaq_gids_etf_eod"
-          }
-        ]
-      },
-      {
         "priority": 165,
         "prefix": "NZX_EOD",
         "perm": "sf_dly",
@@ -7544,16 +7534,6 @@
         "groups": [
           {
             "group": "asx_indices_eod"
-          }
-        ]
-      },
-      {
-        "priority": 160,
-        "prefix": "NASDAQETF_EOD",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "nasdaq_gids_etf_eod"
           }
         ]
       },
