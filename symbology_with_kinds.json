@@ -3175,32 +3175,53 @@
         }
       },
       {
-        "id": "nyse_gif_indices_eod",
+        "id": "nyse_gif_indices",
         "kinds": {
           "eod": {
             "priority": 100,
+            "prefix_alias": [
+              "INDEX"
+            ],
             "prefix": "NYSE",
-            "skip_in_search": true
+            "skip_in_search": false
           }
         }
       },
       {
-        "id": "nyse_indices_eod",
+        "id": "nyse_indices",
         "kinds": {
           "eod": {
             "priority": 100,
+            "prefix_alias": [
+              "INDEX",
+              "NYSE_EOD"
+            ],
             "prefix": "NYSE",
-            "skip_in_search": true
+            "skip_in_search": false
           }
         }
       },
       {
-        "id": "russel_indices_eod",
+        "id": "russell_indices",
         "kinds": {
           "eod": {
             "priority": 100,
-            "prefix": "RUSSEL",
-            "skip_in_search": true
+            "prefix_alias": [
+              "INDEX",
+              "RUSSELL_EOD"
+            ],
+            "prefix": "RUSSELL",
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "international_indices",
+        "kinds": {
+          "eod": {
+            "priority": 100,
+            "prefix": "INDEX",
+            "skip_in_search": false
           }
         }
       },
@@ -3811,6 +3832,16 @@
           "rt": {
             "prefix": "KCBT",
             "priority": 181
+          }
+        }
+      },
+      {
+        "id": "russel_indices",
+        "kinds": {
+          "eod": {
+            "priority": 200,
+            "prefix": "RUSSEL",
+            "skip_in_search": true
           }
         }
       },
