@@ -1166,6 +1166,132 @@
         }
       },
       {
+        "id": "copenhagen_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 50,
+            "prefix": "OMXCOP",
+            "prefix_no_perm": [
+              "OMXCOP_DLY"
+            ],
+            "perm": "omxcop"
+          },
+          "delay": {
+            "priority": 51,
+            "prefix": "OMXCOP_DLY",
+            "perm": "omxcop"
+          }
+        }
+      },
+      {
+        "id": "helsinki_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 50,
+            "prefix": "OMXHEX",
+            "prefix_no_perm": [
+              "OMXHEX_DLY"
+            ],
+            "perm": "omxhex"
+          },
+          "delay": {
+            "priority": 51,
+            "prefix": "OMXHEX_DLY",
+            "perm": "omxhex"
+          }
+        }
+      },
+      {
+        "id": "iceland_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 50,
+            "prefix": "OMXICE",
+            "prefix_no_perm": [
+              "OMXICE_DLY"
+            ],
+            "perm": "omxice"
+          },
+          "delay": {
+            "priority": 51,
+            "prefix": "OMXICE_DLY",
+            "perm": "omxice"
+          }
+        }
+      },
+      {
+        "id": "stockholm_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 50,
+            "prefix": "OMXSTO",
+            "prefix_no_perm": [
+              "OMXSTO_DLY"
+            ],
+            "perm": "omxsto"
+          },
+          "delay": {
+            "priority": 51,
+            "prefix": "OMXSTO_DLY",
+            "perm": "omxsto"
+          }
+        }
+      },
+      {
+        "id": "riga_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 50,
+            "prefix": "OMXRSE",
+            "prefix_no_perm": [
+              "OMXRSE_DLY"
+            ],
+            "perm": "omxrse"
+          },
+          "delay": {
+            "priority": 51,
+            "prefix": "OMXRSE_DLY",
+            "perm": "omxrse"
+          }
+        }
+      },
+      {
+        "id": "tallinn_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 50,
+            "prefix": "OMXTSE",
+            "prefix_no_perm": [
+              "OMXTSE_DLY"
+            ],
+            "perm": "omxtse"
+          },
+          "delay": {
+            "priority": 51,
+            "prefix": "OMXTSE_DLY",
+            "perm": "omxtse"
+          }
+        }
+      },
+      {
+        "id": "vilnius_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 50,
+            "prefix": "OMXVSE",
+            "prefix_no_perm": [
+              "OMXVSE_DLY"
+            ],
+            "perm": "omxvse"
+          },
+          "delay": {
+            "priority": 51,
+            "prefix": "OMXVSE_DLY",
+            "perm": "omxvse"
+          }
+        }
+      },
+      {
         "id": "moex_continuous",
         "kinds": {
           "rt": {
@@ -1991,6 +2117,168 @@
             "prefix": "TOCOM_DLY",
             "priority": 61,
             "perm": "sf_dly"
+          }
+        }
+      },
+      {
+        "id": "copenhagen_indices",
+        "kinds": {
+          "rt": {
+            "priority": 60,
+            "prefix": "OMXCOP",
+            "prefix_no_perm": [
+              "OMXCOP_DLY"
+            ],
+            "perm": "omxcop"
+          },
+          "delay": {
+            "priority": 61,
+            "prefix": "OMXCOP_DLY",
+            "perm": "omxcop"
+          }
+        }
+      },
+      {
+        "id": "helsini_indices",
+        "kinds": {
+          "rt": {
+            "priority": 60,
+            "prefix": "OMXHEX",
+            "prefix_no_perm": [
+              "OMXHEX_DLY"
+            ],
+            "perm": "omxhex"
+          },
+          "delay": {
+            "priority": 61,
+            "prefix": "OMXHEX_DLY",
+            "perm": "omxhex"
+          }
+        }
+      },
+      {
+        "id": "iceland_indices",
+        "kinds": {
+          "rt": {
+            "priority": 60,
+            "prefix": "OMXICE",
+            "prefix_no_perm": [
+              "OMXICE_DLY"
+            ],
+            "perm": "omxice"
+          },
+          "delay": {
+            "priority": 61,
+            "prefix": "OMXICE_DLY",
+            "perm": "omxice"
+          }
+        }
+      },
+      {
+        "id": "stockholm_indices",
+        "kinds": {
+          "rt": {
+            "priority": 60,
+            "prefix": "OMXSTO",
+            "prefix_no_perm": [
+              "OMXSTO_DLY"
+            ],
+            "perm": "omxsto"
+          },
+          "delay": {
+            "priority": 61,
+            "prefix": "OMXSTO_DLY",
+            "perm": "omxsto"
+          }
+        }
+      },
+      {
+        "id": "nordic_indices",
+        "kinds": {
+          "rt": {
+            "priority": 60,
+            "prefix": "OMXNORDIC",
+            "prefix_no_perm": [
+              "OMXNORDIC_DLY"
+            ],
+            "perm": "omxnordic"
+          },
+          "delay": {
+            "priority": 61,
+            "prefix": "OMXNORDIC_DLY",
+            "perm": "omxnordic"
+          }
+        }
+      },
+      {
+        "id": "riga_indices",
+        "kinds": {
+          "rt": {
+            "priority": 60,
+            "prefix": "OMXRSE",
+            "prefix_no_perm": [
+              "OMXRSE_DLY"
+            ],
+            "perm": "omxrse"
+          },
+          "delay": {
+            "priority": 61,
+            "prefix": "OMXRSE_DLY",
+            "perm": "omxrse"
+          }
+        }
+      },
+      {
+        "id": "tallinn_indices",
+        "kinds": {
+          "rt": {
+            "priority": 60,
+            "prefix": "OMXTSE",
+            "prefix_no_perm": [
+              "OMXTSE_DLY"
+            ],
+            "perm": "omxtse"
+          },
+          "delay": {
+            "priority": 61,
+            "prefix": "OMXTSE_DLY",
+            "perm": "omxtse"
+          }
+        }
+      },
+      {
+        "id": "vilnius_indices",
+        "kinds": {
+          "rt": {
+            "priority": 60,
+            "prefix": "OMXVSE",
+            "prefix_no_perm": [
+              "OMXVSE_DLY"
+            ],
+            "perm": "omxvse"
+          },
+          "delay": {
+            "priority": 61,
+            "prefix": "OMXVSE_DLY",
+            "perm": "omxvse"
+          }
+        }
+      },
+      {
+        "id": "baltic_indices",
+        "kinds": {
+          "rt": {
+            "priority": 60,
+            "prefix": "OMXBALTIC",
+            "prefix_no_perm": [
+              "OMXBALTIC_DLY"
+            ],
+            "perm": "omxbaltic"
+          },
+          "delay": {
+            "priority": 61,
+            "prefix": "OMXBALTIC_DLY",
+            "perm": "omxbaltic"
           }
         }
       },
