@@ -268,19 +268,6 @@
         }
       },
       {
-        "id": "euronext_primary_indices",
-        "kinds": {
-          "rt": {
-            "priority": 38,
-            "prefix": "EURONEXT",
-            "perm": "euronext_dly",
-            "prefix_no_perm": [
-              "EURONEXT_DLY"
-            ]
-          }
-        }
-      },
-      {
         "id": "euronext_non_primary_indices",
         "kinds": {
           "rt": {
@@ -543,7 +530,7 @@
             "priority": 40,
             "prefix": "SIX",
             "prefix_alias": [
-              "SWX"
+              "INDEX"
             ],
             "perm": "six",
             "prefix_no_perm": [
@@ -553,7 +540,14 @@
           "delay": {
             "priority": 41,
             "prefix": "SIX_DLY",
-            "perm": "sf_dly"
+            "perm": "sf_dly",
+            "prefix_no_perm": [
+              "SIX_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "SIX_EOD",
+            "priority": 45
           }
         }
       },
@@ -621,6 +615,9 @@
             "perm": "dbg",
             "prefix_no_perm": [
               "XETR_DLY"
+            ],
+            "prefix_alias": [
+              "INDEX"
             ]
           },
           "delay": {
@@ -1015,45 +1012,6 @@
         }
       },
       {
-        "id": "singapore_indices",
-        "kinds": {
-          "rt": {
-            "priority": 50,
-            "prefix": "SGX",
-            "prefix_alias": [
-              "SGX_DLY"
-            ],
-            "perm": "sf_rt"
-          }
-        }
-      },
-      {
-        "id": "singapore_fx_futures",
-        "kinds": {
-          "rt": {
-            "priority": 50,
-            "prefix": "SGX",
-            "prefix_alias": [
-              "SGX_DLY"
-            ],
-            "perm": "sf_rt"
-          }
-        }
-      },
-      {
-        "id": "singapore_fx_continuous",
-        "kinds": {
-          "rt": {
-            "priority": 50,
-            "prefix": "SGX",
-            "prefix_alias": [
-              "SGX_DLY"
-            ],
-            "perm": "sf_rt"
-          }
-        }
-      },
-      {
         "id": "omx",
         "kinds": {
           "rt": {
@@ -1152,7 +1110,7 @@
             "priority": 50,
             "prefix": "BIST",
             "prefix_alias": [
-              "IST"
+              "INDEX"
             ],
             "prefix_no_perm": [
               "BIST_DLY"
@@ -1317,16 +1275,19 @@
         "id": "moex_indices",
         "kinds": {
           "rt": {
-            "prefix": "MOEX",
-            "perm": "moex_stocks",
-            "prefix_no_perm": [
-              "MOEX_DLY"
+            "prefix_alias": [
+              "INDEX"
             ],
             "priority": 52
           },
           "delay": {
-            "prefix": "MOEX_DLY",
-            "perm": "moex",
+            "prefix_no_perm": [
+              "MOEX_EOD"
+            ],
+            "priority": 52
+          },
+          "eod": {
+            "prefix": "MOEX_EOD",
             "priority": 52
           }
         }
@@ -1368,7 +1329,7 @@
         }
       },
       {
-        "id": "bovespa",
+        "id": "bovespa_stocks",
         "kinds": {
           "rt": {
             "priority": 52,
@@ -1404,24 +1365,6 @@
         }
       },
       {
-        "id": "bovespa_indices",
-        "kinds": {
-          "rt": {
-            "priority": 52,
-            "prefix": "BMFBOVESPA",
-            "prefix_no_perm": [
-              "BMFBOVESPA_DLY"
-            ],
-            "perm": "bovespa_stocks"
-          },
-          "delay": {
-            "priority": 52,
-            "prefix": "BMFBOVESPA_DLY",
-            "perm": "bovespa"
-          }
-        }
-      },
-      {
         "id": "bovespa_futures",
         "kinds": {
           "rt": {
@@ -1436,24 +1379,6 @@
             "priority": 52,
             "prefix": "BMFBOVESPA_DLY",
             "perm": "bovespa"
-          }
-        }
-      },
-      {
-        "id": "mexico_indices",
-        "kinds": {
-          "rt": {
-            "priority": 51,
-            "prefix": "BMV",
-            "prefix_no_perm": [
-              "BMV_DLY"
-            ],
-            "perm": "bmv"
-          },
-          "delay": {
-            "priority": 52,
-            "prefix": "BMV_DLY",
-            "perm": "sf_dly"
           }
         }
       },
@@ -1476,55 +1401,6 @@
         }
       },
       {
-        "id": "buenosaires_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "BCBA",
-            "priority": 53,
-            "prefix_alias": [
-              "BCBA_DLY"
-            ],
-            "perm": "bcba_dly"
-          }
-        }
-      },
-      {
-        "id": "taiwan_indices",
-        "kinds": {
-          "rt": {
-            "priority": 52,
-            "prefix": "TWSE",
-            "prefix_no_perm": [
-              "TWSE_DLY"
-            ],
-            "perm": "twse"
-          },
-          "delay": {
-            "priority": 53,
-            "prefix": "TWSE_DLY",
-            "perm": "sf_dly"
-          }
-        }
-      },
-      {
-        "id": "santiago_indices",
-        "kinds": {
-          "rt": {
-            "priority": 52,
-            "prefix": "BCS",
-            "prefix_no_perm": [
-              "BCS_DLY"
-            ],
-            "perm": "bcs"
-          },
-          "delay": {
-            "priority": 53,
-            "prefix": "BCS_DLY",
-            "perm": "sf_dly"
-          }
-        }
-      },
-      {
         "id": "mexico_stocks",
         "kinds": {
           "rt": {
@@ -1539,6 +1415,25 @@
             "priority": 54,
             "prefix": "BMV_DLY",
             "perm": "sf_dly"
+          }
+        }
+      },
+      {
+        "id": "bovespa_indices",
+        "kinds": {
+          "rt": {
+            "prefix_alias": [
+              "INDEX"
+            ]
+          },
+          "delay": {
+            "prefix_no_perm": [
+              "BMFBOVESPA_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "BMFBOVESPA_EOD",
+            "priority": 55
           }
         }
       },
@@ -1715,30 +1610,6 @@
         }
       },
       {
-        "id": "asx_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "ASX",
-            "priority": 55,
-            "perm": "asx",
-            "prefix_no_perm": [
-              "ASX_DLY"
-            ],
-            "prefix_alias": [
-              "INDEX"
-            ]
-          },
-          "delay": {
-            "prefix": "ASX_DLY",
-            "priority": 57,
-            "perm": "nse_free",
-            "prefix_alias": [
-              "INDEX"
-            ]
-          }
-        }
-      },
-      {
         "id": "tokyo_stocks",
         "kinds": {
           "rt": {
@@ -1847,6 +1718,56 @@
             "prefix": "FSE_DLY",
             "priority": 59,
             "perm": "sf_dly"
+          }
+        }
+      },
+      {
+        "id": "buenosaires_indices",
+        "kinds": {
+          "rt": {
+            "priority": 53,
+            "prefix": "BCBA",
+            "prefix_no_perm": [
+              "BCBA_DLY"
+            ],
+            "perm": "bcba"
+          },
+          "delay": {
+            "priority": 55,
+            "prefix": "BCBA_DLY",
+            "perm": "sf_dly"
+          },
+          "eod": {
+            "prefix": "BCBA_EOD",
+            "priority": 60,
+            "prefix_alias": [
+              "INDEX"
+            ]
+          }
+        }
+      },
+      {
+        "id": "mexico_indices",
+        "kinds": {
+          "rt": {
+            "priority": 51,
+            "prefix": "BMV",
+            "prefix_no_perm": [
+              "BMV_DLY"
+            ],
+            "perm": "bmv"
+          },
+          "delay": {
+            "priority": 52,
+            "prefix": "BMV_DLY",
+            "perm": "sf_dly"
+          },
+          "eod": {
+            "priority": 60,
+            "prefix": "BMV_EOD",
+            "prefix_alias": [
+              "INDEX"
+            ]
           }
         }
       },
@@ -2009,6 +1930,121 @@
         }
       },
       {
+        "id": "hangseng_indices",
+        "kinds": {
+          "rt": {
+            "priority": 49,
+            "prefix": "HSI",
+            "prefix_no_perm": [
+              "HSI_DLY"
+            ],
+            "perm": "hsi"
+          },
+          "delay": {
+            "priority": 50,
+            "prefix": "HSI_DLY",
+            "perm": "sf_dly"
+          },
+          "eod": {
+            "priority": 60,
+            "prefix": "HSI_EOD",
+            "prefix_alias": [
+              "INDEX"
+            ]
+          }
+        }
+      },
+      {
+        "id": "taiwan_indices",
+        "kinds": {
+          "rt": {
+            "priority": 52,
+            "prefix": "TWSE",
+            "prefix_no_perm": [
+              "TWSE_DLY"
+            ],
+            "perm": "twse"
+          },
+          "delay": {
+            "priority": 53,
+            "prefix": "TWSE_DLY",
+            "perm": "sf_dly"
+          },
+          "eod": {
+            "priority": 60,
+            "prefix": "TWSE_EOD",
+            "prefix_alias": [
+              "INDEX"
+            ]
+          }
+        }
+      },
+      {
+        "id": "singapore_indices",
+        "kinds": {
+          "rt": {
+            "priority": 50,
+            "prefix": "SGX",
+            "prefix_alias": [
+              "SGX_DLY"
+            ],
+            "perm": "sf_rt"
+          },
+          "eod": {
+            "priority": 60,
+            "prefix": "SGX_EOD",
+            "prefix_alias": [
+              "INDEX"
+            ]
+          }
+        }
+      },
+      {
+        "id": "singapore_fx_futures",
+        "kinds": {
+          "rt": {
+            "priority": 50,
+            "prefix": "SGX",
+            "prefix_alias": [
+              "SGX_DLY"
+            ],
+            "perm": "sf_rt"
+          },
+          "eod": {
+            "priority": 60,
+            "prefix": "SGX_EOD",
+            "prefix_alias": [
+              "INDEX"
+            ]
+          }
+        }
+      },
+      {
+        "id": "santiago_indices",
+        "kinds": {
+          "rt": {
+            "priority": 52,
+            "prefix": "BCS",
+            "prefix_no_perm": [
+              "BCS_DLY"
+            ],
+            "perm": "bcs"
+          },
+          "delay": {
+            "priority": 53,
+            "prefix": "BCS_DLY",
+            "perm": "sf_dly"
+          },
+          "eod": {
+            "priority": 60,
+            "prefix": "BCS_EOD",
+            "prefix_alias": [
+              "INDEX"
+            ]
+          }
+        }
+      },
+      {
         "id": "euronext_continuous",
         "kinds": {
           "rt": {
@@ -2027,6 +2063,26 @@
         }
       },
       {
+        "id": "singapore_fx_continuous",
+        "kinds": {
+          "rt": {
+            "priority": 50,
+            "prefix": "SGX",
+            "prefix_alias": [
+              "SGX_DLY"
+            ],
+            "perm": "sf_rt"
+          },
+          "eod": {
+            "priority": 60,
+            "prefix": "SGX_EOD",
+            "prefix_alias": [
+              "INDEX"
+            ]
+          }
+        }
+      },
+      {
         "id": "milan_indices",
         "kinds": {
           "rt": {
@@ -2035,6 +2091,9 @@
             "perm": "mil",
             "prefix_no_perm": [
               "MIL_DLY"
+            ],
+            "prefix_alias": [
+              "INDEX"
             ]
           },
           "delay": {
@@ -2367,6 +2426,34 @@
         }
       },
       {
+        "id": "asx_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "ASX",
+            "priority": 55,
+            "perm": "asx",
+            "prefix_no_perm": [
+              "ASX_DLY"
+            ],
+            "prefix_alias": [
+              "INDEX"
+            ]
+          },
+          "delay": {
+            "prefix": "ASX_DLY",
+            "priority": 57,
+            "perm": "nse_free",
+            "prefix_no_perm": [
+              "ASX_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "ASX_EOD",
+            "priority": 65
+          }
+        }
+      },
+      {
         "id": "stuttgart_stocks",
         "kinds": {
           "rt": {
@@ -2440,24 +2527,6 @@
       },
       {
         "id": "nzx_stocks",
-        "kinds": {
-          "rt": {
-            "prefix": "NZX",
-            "priority": 65,
-            "perm": "nzx",
-            "prefix_no_perm": [
-              "NZX_DLY"
-            ]
-          },
-          "delay": {
-            "prefix": "NZX_DLY",
-            "priority": 70,
-            "perm": "sf_dly"
-          }
-        }
-      },
-      {
-        "id": "nzx_indices",
         "kinds": {
           "rt": {
             "prefix": "NZX",
@@ -2566,24 +2635,6 @@
           "delay": {
             "priority": 71,
             "prefix": "GPW_DLY",
-            "perm": "sf_dly"
-          }
-        }
-      },
-      {
-        "id": "telaviv_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "TASE",
-            "priority": 70,
-            "perm": "tase",
-            "prefix_no_perm": [
-              "TASE_DLY"
-            ]
-          },
-          "delay": {
-            "prefix": "TASE_DLY",
-            "priority": 71,
             "perm": "sf_dly"
           }
         }
@@ -2752,6 +2803,56 @@
         }
       },
       {
+        "id": "telaviv_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "TASE",
+            "priority": 70,
+            "perm": "tase",
+            "prefix_no_perm": [
+              "TASE_DLY"
+            ]
+          },
+          "delay": {
+            "prefix": "TASE_DLY",
+            "priority": 71,
+            "perm": "sf_dly"
+          },
+          "eod": {
+            "prefix": "TASE_EOD",
+            "priority": 77,
+            "prefix_alias": [
+              "INDEX"
+            ]
+          }
+        }
+      },
+      {
+        "id": "nzx_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "NZX",
+            "priority": 65,
+            "perm": "nzx",
+            "prefix_no_perm": [
+              "NZX_DLY"
+            ]
+          },
+          "delay": {
+            "prefix": "NZX_DLY",
+            "priority": 70,
+            "perm": "sf_dly"
+          },
+          "eod": {
+            "prefix": "NZX_EOD",
+            "priority": 80,
+            "prefix_alias": [
+              "INDEX"
+            ]
+          }
+        }
+      },
+      {
         "id": "nigerian_indices",
         "kinds": {
           "rt": {
@@ -2878,24 +2979,6 @@
         }
       },
       {
-        "id": "indonesia_indices",
-        "kinds": {
-          "rt": {
-            "priority": 80,
-            "prefix": "IDX",
-            "prefix_no_perm": [
-              "IDX_DLY"
-            ],
-            "perm": "idx"
-          },
-          "delay": {
-            "priority": 81,
-            "prefix": "IDX_DLY",
-            "perm": "idx"
-          }
-        }
-      },
-      {
         "id": "malaysia_continuous",
         "kinds": {
           "rt": {
@@ -2970,6 +3053,25 @@
             "prefix_alias": [
               "OTC_EOD"
             ]
+          }
+        }
+      },
+      {
+        "id": "indonesia_indices",
+        "kinds": {
+          "rt": {
+            "prefix_alias": [
+              "INDEX"
+            ]
+          },
+          "delay": {
+            "prefix_no_perm": [
+              "IDX_EOD"
+            ]
+          },
+          "eod": {
+            "priority": 85,
+            "prefix": "IDX_EOD"
           }
         }
       },
@@ -4061,6 +4163,26 @@
           "rt": {
             "prefix": "CBOE",
             "priority": 131
+          }
+        }
+      },
+      {
+        "id": "euronext_primary_indices",
+        "kinds": {
+          "rt": {
+            "priority": 38,
+            "prefix": "EURONEXT",
+            "perm": "euronext_dly",
+            "prefix_no_perm": [
+              "EURONEXT_EOD"
+            ],
+            "prefix_alias": [
+              "INDEX"
+            ]
+          },
+          "eod": {
+            "priority": 138,
+            "prefix": "EURONEXT_EOD"
           }
         }
       },
