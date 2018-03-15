@@ -2864,7 +2864,10 @@
           "delay": {
             "prefix": "TASE_DLY",
             "priority": 71,
-            "perm": "sf_dly"
+            "perm": "sf_dly",
+            "prefix_no_perm": [
+              "TASE_EOD"
+            ]
           },
           "eod": {
             "prefix": "TASE_EOD",
