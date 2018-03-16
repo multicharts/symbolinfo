@@ -5210,10 +5210,10 @@
           "rt": {
             "prefix": "OSE",
             "priority": 257,
-            "perm": "ose",
             "prefix_no_perm": [
               "OSE_DLY"
             ],
+            "perm": "ose",
             "skip_in_search": true
           }
         }
@@ -5224,10 +5224,10 @@
           "rt": {
             "prefix": "OSE",
             "priority": 257,
-            "perm": "ose",
             "prefix_no_perm": [
               "OSE_DLY"
             ],
+            "perm": "ose",
             "skip_in_search": true
           }
         }
@@ -5238,10 +5238,10 @@
           "rt": {
             "prefix": "OSE_DAY",
             "priority": 258,
-            "perm": "ose",
             "prefix_no_perm": [
               "OSE_DAY_DLY"
             ],
+            "perm": "ose",
             "skip_in_search": true
           }
         }
@@ -5252,10 +5252,10 @@
           "rt": {
             "prefix": "OSE_DAY",
             "priority": 258,
-            "perm": "ose",
             "prefix_no_perm": [
               "OSE_DAY_DLY"
             ],
+            "perm": "ose",
             "skip_in_search": true
           }
         }
@@ -5266,10 +5266,10 @@
           "rt": {
             "prefix": "OSE_NIGHT",
             "priority": 259,
-            "perm": "ose",
             "prefix_no_perm": [
               "OSE_NIGHT_DLY"
             ],
+            "perm": "ose",
             "skip_in_search": true
           }
         }
@@ -5280,8 +5280,8 @@
           "rt": {
             "prefix": "OSE_DLY",
             "priority": 259,
-            "perm": "sf_dly",
-            "skip_in_search": true
+            "skip_in_search": true,
+            "perm": "sf_dly"
           }
         }
       },
@@ -5291,10 +5291,10 @@
           "rt": {
             "prefix": "OSE_NIGHT",
             "priority": 259,
-            "perm": "ose",
             "prefix_no_perm": [
               "OSE_NIGHT_DLY"
             ],
+            "perm": "ose",
             "skip_in_search": true
           }
         }
@@ -5305,8 +5305,8 @@
           "rt": {
             "prefix": "OSE_DLY",
             "priority": 259,
-            "perm": "sf_dly",
-            "skip_in_search": true
+            "skip_in_search": true,
+            "perm": "sf_dly"
           }
         }
       },
@@ -5316,8 +5316,8 @@
           "rt": {
             "prefix": "OSE_DAY_DLY",
             "priority": 260,
-            "perm": "sf_dly",
-            "skip_in_search": true
+            "skip_in_search": true,
+            "perm": "sf_dly"
           }
         }
       },
@@ -5327,8 +5327,8 @@
           "rt": {
             "prefix": "OSE_DAY_DLY",
             "priority": 260,
-            "perm": "sf_dly",
-            "skip_in_search": true
+            "skip_in_search": true,
+            "perm": "sf_dly"
           }
         }
       },
@@ -5338,8 +5338,8 @@
           "rt": {
             "prefix": "OSE_NIGHT_DLY",
             "priority": 261,
-            "perm": "sf_dly",
-            "skip_in_search": true
+            "skip_in_search": true,
+            "perm": "sf_dly"
           }
         }
       },
@@ -5349,8 +5349,8 @@
           "rt": {
             "prefix": "OSE_NIGHT_DLY",
             "priority": 261,
-            "perm": "sf_dly",
-            "skip_in_search": true
+            "skip_in_search": true,
+            "perm": "sf_dly"
           }
         }
       },
