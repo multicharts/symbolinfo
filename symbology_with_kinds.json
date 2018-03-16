@@ -1310,11 +1310,20 @@
         "id": "bovespa_indices",
         "kinds": {
           "rt": {
+            "priority": 52,
+            "prefix": "BMFBOVESPA",
+            "prefix_no_perm": [
+              "BMFBOVESPA_DLY"
+            ],
+            "perm": "bovespa_stocks",
             "prefix_alias": [
               "INDEX"
             ]
           },
           "delay": {
+            "priority": 52,
+            "prefix": "BMFBOVESPA_DLY",
+            "perm": "bovespa",
             "prefix_no_perm": [
               "BMFBOVESPA_EOD"
             ]
@@ -2879,6 +2888,23 @@
         }
       },
       {
+        "id": "osaka_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE",
+            "priority": 77,
+            "prefix_no_perm": [
+              "OSE_DLY"
+            ]
+          },
+          "delay": {
+            "prefix": "OSE_DLY",
+            "priority": 78,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "nzx_indices",
         "kinds": {
           "rt": {
@@ -2900,6 +2926,23 @@
             "prefix_alias": [
               "INDEX"
             ]
+          }
+        }
+      },
+      {
+        "id": "osaka_day_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE_DAY",
+            "priority": 78,
+            "prefix_no_perm": [
+              "OSE_DAY_DLY"
+            ]
+          },
+          "delay": {
+            "prefix": "OSE_DAY_DLY",
+            "priority": 80,
+            "skip_in_search": true
           }
         }
       },
@@ -2936,6 +2979,23 @@
             "priority": 80,
             "prefix": "MYX_DLY",
             "perm": "nse_free"
+          }
+        }
+      },
+      {
+        "id": "osaka_night_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE_NIGHT",
+            "priority": 79,
+            "prefix_no_perm": [
+              "OSE_NIGHT_DLY"
+            ]
+          },
+          "delay": {
+            "prefix": "OSE_NIGHT_DLY",
+            "priority": 81,
+            "skip_in_search": true
           }
         }
       },
@@ -4388,11 +4448,9 @@
           "rt": {
             "prefix": "OSE",
             "priority": 257,
-            "perm": "ose",
             "prefix_no_perm": [
               "OSE_DLY"
-            ],
-            "skip_in_search": true
+            ]
           }
         }
       },
@@ -4402,31 +4460,9 @@
           "rt": {
             "prefix": "OSE_DAY",
             "priority": 258,
-            "perm": "ose",
             "prefix_no_perm": [
               "OSE_DAY_DLY"
-            ],
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "osaka_futures",
-        "kinds": {
-          "rt": {
-            "prefix": "OSE",
-            "priority": 257,
-            "perm": "ose",
-            "prefix_no_perm": [
-              "OSE_DLY"
-            ],
-            "skip_in_search": true
-          },
-          "delay": {
-            "prefix": "OSE_DLY",
-            "priority": 259,
-            "perm": "ose",
-            "skip_in_search": true
+            ]
           }
         }
       },
@@ -4436,51 +4472,9 @@
           "rt": {
             "prefix": "OSE_NIGHT",
             "priority": 259,
-            "perm": "ose",
             "prefix_no_perm": [
               "OSE_NIGHT_DLY"
-            ],
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "osaka_day_futures",
-        "kinds": {
-          "rt": {
-            "prefix": "OSE_DAY",
-            "priority": 258,
-            "perm": "ose",
-            "prefix_no_perm": [
-              "OSE_DAY_DLY"
-            ],
-            "skip_in_search": true
-          },
-          "delay": {
-            "prefix": "OSE_DAY_DLY",
-            "priority": 260,
-            "perm": "ose",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "osaka_night_futures",
-        "kinds": {
-          "rt": {
-            "prefix": "OSE_NIGHT",
-            "priority": 259,
-            "perm": "ose",
-            "prefix_no_perm": [
-              "OSE_NIGHT_DLY"
-            ],
-            "skip_in_search": true
-          },
-          "delay": {
-            "prefix": "OSE_NIGHT_DLY",
-            "priority": 261,
-            "perm": "ose",
-            "skip_in_search": true
+            ]
           }
         }
       },
