@@ -5238,10 +5238,10 @@
           "rt": {
             "prefix": "OSE_DAY",
             "priority": 258,
+            "perm": "ose",
             "prefix_no_perm": [
               "OSE_DAY_DLY"
             ],
-            "perm": "ose",
             "skip_in_search": true
           }
         }
@@ -5252,24 +5252,10 @@
           "rt": {
             "prefix": "OSE_DAY",
             "priority": 258,
+            "perm": "ose",
             "prefix_no_perm": [
               "OSE_DAY_DLY"
             ],
-            "perm": "ose",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "osaka_night_futures",
-        "kinds": {
-          "rt": {
-            "prefix": "OSE_NIGHT",
-            "priority": 259,
-            "prefix_no_perm": [
-              "OSE_NIGHT_DLY"
-            ],
-            "perm": "ose",
             "skip_in_search": true
           }
         }
@@ -5286,20 +5272,6 @@
         }
       },
       {
-        "id": "osaka_night_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "OSE_NIGHT",
-            "priority": 259,
-            "prefix_no_perm": [
-              "OSE_NIGHT_DLY"
-            ],
-            "perm": "ose",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
         "id": "osaka_continuous_delayed",
         "kinds": {
           "rt": {
@@ -5311,13 +5283,41 @@
         }
       },
       {
+        "id": "osaka_night_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE_NIGHT",
+            "priority": 259,
+            "perm": "ose",
+            "prefix_no_perm": [
+              "OSE_NIGHT_DLY"
+            ],
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "osaka_night_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE_NIGHT",
+            "priority": 259,
+            "perm": "ose",
+            "prefix_no_perm": [
+              "OSE_NIGHT_DLY"
+            ],
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "osaka_day_futures_delayed",
         "kinds": {
           "rt": {
             "prefix": "OSE_DAY_DLY",
             "priority": 260,
-            "skip_in_search": true,
-            "perm": "sf_dly"
+            "perm": "sf_dly",
+            "skip_in_search": true
           }
         }
       },
@@ -5327,8 +5327,8 @@
           "rt": {
             "prefix": "OSE_DAY_DLY",
             "priority": 260,
-            "skip_in_search": true,
-            "perm": "sf_dly"
+            "perm": "sf_dly",
+            "skip_in_search": true
           }
         }
       },
@@ -5338,8 +5338,8 @@
           "rt": {
             "prefix": "OSE_NIGHT_DLY",
             "priority": 261,
-            "skip_in_search": true,
-            "perm": "sf_dly"
+            "perm": "sf_dly",
+            "skip_in_search": true
           }
         }
       },
@@ -5349,8 +5349,8 @@
           "rt": {
             "prefix": "OSE_NIGHT_DLY",
             "priority": 261,
-            "skip_in_search": true,
-            "perm": "sf_dly"
+            "perm": "sf_dly",
+            "skip_in_search": true
           }
         }
       },
