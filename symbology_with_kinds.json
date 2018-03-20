@@ -1163,12 +1163,19 @@
         "id": "moex_indices",
         "kinds": {
           "rt": {
+            "prefix": "MOEX",
+            "perm": "moex_stocks",
+            "prefix_no_perm": [
+              "MOEX_DLY"
+            ],
             "prefix_alias": [
               "INDEX"
             ],
             "priority": 52
           },
           "delay": {
+            "prefix": "MOEX_DLY",
+            "perm": "moex",
             "prefix_no_perm": [
               "MOEX_EOD"
             ],
@@ -2899,8 +2906,7 @@
           },
           "delay": {
             "prefix": "OSE_DLY",
-            "priority": 78,
-            "skip_in_search": true
+            "priority": 78
           }
         }
       },
@@ -2926,23 +2932,6 @@
             "prefix_alias": [
               "INDEX"
             ]
-          }
-        }
-      },
-      {
-        "id": "osaka_day_futures",
-        "kinds": {
-          "rt": {
-            "prefix": "OSE_DAY",
-            "priority": 78,
-            "prefix_no_perm": [
-              "OSE_DAY_DLY"
-            ]
-          },
-          "delay": {
-            "prefix": "OSE_DAY_DLY",
-            "priority": 80,
-            "skip_in_search": true
           }
         }
       },
@@ -2979,23 +2968,6 @@
             "priority": 80,
             "prefix": "MYX_DLY",
             "perm": "nse_free"
-          }
-        }
-      },
-      {
-        "id": "osaka_night_futures",
-        "kinds": {
-          "rt": {
-            "prefix": "OSE_NIGHT",
-            "priority": 79,
-            "prefix_no_perm": [
-              "OSE_NIGHT_DLY"
-            ]
-          },
-          "delay": {
-            "prefix": "OSE_NIGHT_DLY",
-            "priority": 81,
-            "skip_in_search": true
           }
         }
       },
@@ -3171,11 +3143,20 @@
         "id": "indonesia_indices",
         "kinds": {
           "rt": {
+            "priority": 80,
+            "prefix": "IDX",
+            "prefix_no_perm": [
+              "IDX_DLY"
+            ],
+            "perm": "idx",
             "prefix_alias": [
               "INDEX"
             ]
           },
           "delay": {
+            "priority": 81,
+            "prefix": "IDX_DLY",
+            "perm": "idx",
             "prefix_no_perm": [
               "IDX_EOD"
             ]
@@ -4450,30 +4431,6 @@
             "priority": 257,
             "prefix_no_perm": [
               "OSE_DLY"
-            ]
-          }
-        }
-      },
-      {
-        "id": "osaka_day_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "OSE_DAY",
-            "priority": 258,
-            "prefix_no_perm": [
-              "OSE_DAY_DLY"
-            ]
-          }
-        }
-      },
-      {
-        "id": "osaka_night_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "OSE_NIGHT",
-            "priority": 259,
-            "prefix_no_perm": [
-              "OSE_NIGHT_DLY"
             ]
           }
         }
