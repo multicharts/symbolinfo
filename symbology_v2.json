@@ -3333,19 +3333,6 @@
         }
       },
       {
-        "id": "osaka_day_futures",
-        "kinds": {
-          "rt": {
-            "prefix": "OSE_DAY",
-            "priority": 58,
-            "prefix_no_perm": [
-              "OSE_DAY_DLY"
-            ],
-            "skip_in_search": false
-          }
-        }
-      },
-      {
         "id": "toronto_venture_stocks_delayed",
         "kinds": {
           "rt": {
@@ -3378,7 +3365,16 @@
         }
       },
       {
-        "id": "osaka_day_continuous",
+        "id": "istanbul_continuous_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 58,
+            "prefix": "BIST_DLY"
+          }
+        }
+      },
+      {
+        "id": "osaka_day_futures",
         "kinds": {
           "rt": {
             "prefix": "OSE_DAY",
@@ -3387,15 +3383,6 @@
               "OSE_DAY_DLY"
             ],
             "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "istanbul_continuous_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 58,
-            "prefix": "BIST_DLY"
           }
         }
       },
@@ -3415,6 +3402,19 @@
           "rt": {
             "priority": 58,
             "prefix": "BIST_DLY"
+          }
+        }
+      },
+      {
+        "id": "osaka_day_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE_DAY",
+            "priority": 58,
+            "prefix_no_perm": [
+              "OSE_DAY_DLY"
+            ],
+            "skip_in_search": false
           }
         }
       },
@@ -3442,19 +3442,6 @@
         }
       },
       {
-        "id": "osaka_night_futures",
-        "kinds": {
-          "rt": {
-            "prefix": "OSE_NIGHT",
-            "priority": 59,
-            "prefix_no_perm": [
-              "OSE_NIGHT_DLY"
-            ],
-            "skip_in_search": false
-          }
-        }
-      },
-      {
         "id": "fukuoka_stocks_delayed",
         "kinds": {
           "rt": {
@@ -3471,19 +3458,6 @@
             "prefix": "OSE_DLY",
             "priority": 59,
             "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "osaka_night_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "OSE_NIGHT",
-            "priority": 59,
-            "prefix_no_perm": [
-              "OSE_NIGHT_DLY"
-            ],
-            "skip_in_search": false
           }
         }
       },
@@ -3507,6 +3481,32 @@
             "prefix": "OSE_DLY",
             "priority": 59,
             "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "osaka_night_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE_NIGHT",
+            "priority": 59,
+            "prefix_no_perm": [
+              "OSE_NIGHT_DLY"
+            ],
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "osaka_night_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE_NIGHT",
+            "priority": 59,
+            "prefix_no_perm": [
+              "OSE_NIGHT_DLY"
+            ],
+            "skip_in_search": false
           }
         }
       },
@@ -3594,16 +3594,6 @@
         }
       },
       {
-        "id": "osaka_day_futures_delayed",
-        "kinds": {
-          "rt": {
-            "prefix": "OSE_DAY_DLY",
-            "priority": 60,
-            "skip_in_search": true
-          }
-        }
-      },
-      {
         "id": "tfin_continuous",
         "kinds": {
           "rt": {
@@ -3639,16 +3629,6 @@
             "prefix_no_perm": [
               "TOCOM_DLY"
             ]
-          }
-        }
-      },
-      {
-        "id": "osaka_day_continuous_delayed",
-        "kinds": {
-          "rt": {
-            "prefix": "OSE_DAY_DLY",
-            "priority": 60,
-            "skip_in_search": true
           }
         }
       },
@@ -3703,6 +3683,24 @@
         }
       },
       {
+        "id": "osaka_day_futures_delayed",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE_DAY_DLY",
+            "priority": 60
+          }
+        }
+      },
+      {
+        "id": "osaka_day_continuous_delayed",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE_DAY_DLY",
+            "priority": 60
+          }
+        }
+      },
+      {
         "id": "lima_stocks",
         "kinds": {
           "rt": {
@@ -3713,16 +3711,6 @@
             ],
             "perm": "bvl",
             "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "osaka_night_futures_delayed",
-        "kinds": {
-          "rt": {
-            "prefix": "OSE_NIGHT_DLY",
-            "priority": 61,
-            "skip_in_search": true
           }
         }
       },
@@ -3787,22 +3775,30 @@
         }
       },
       {
-        "id": "osaka_night_continuous_delayed",
-        "kinds": {
-          "rt": {
-            "prefix": "OSE_NIGHT_DLY",
-            "priority": 61,
-            "skip_in_search": true
-          }
-        }
-      },
-      {
         "id": "milan_indices_eod",
         "kinds": {
           "rt": {
             "priority": 61,
             "prefix": "MIL_EOD",
             "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "osaka_night_futures_delayed",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE_NIGHT_DLY",
+            "priority": 61
+          }
+        }
+      },
+      {
+        "id": "osaka_night_continuous_delayed",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE_NIGHT_DLY",
+            "priority": 61
           }
         }
       },
