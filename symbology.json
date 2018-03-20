@@ -3340,6 +3340,20 @@
       },
       {
         "priority": 259,
+        "prefix": "OSE_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "osaka_futures_delayed"
+          },
+          {
+            "group": "osaka_continuous_delayed"
+          }
+        ]
+      },
+      {
+        "priority": 259,
         "prefix": "OSE_NIGHT",
         "perm": "ose",
         "prefix_no_perm": [
@@ -3352,20 +3366,6 @@
           },
           {
             "group": "osaka_night_continuous"
-          }
-        ]
-      },
-      {
-        "priority": 259,
-        "prefix": "OSE_DLY",
-        "perm": "sf_dly",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "osaka_futures_delayed"
-          },
-          {
-            "group": "osaka_continuous_delayed"
           }
         ]
       },
@@ -6740,6 +6740,20 @@
       },
       {
         "priority": 259,
+        "prefix": "OSE_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "osaka_futures_delayed"
+          },
+          {
+            "group": "osaka_continuous_delayed"
+          }
+        ]
+      },
+      {
+        "priority": 259,
         "prefix": "OSE_NIGHT",
         "perm": "ose",
         "prefix_no_perm": [
@@ -6752,20 +6766,6 @@
           },
           {
             "group": "osaka_night_continuous"
-          }
-        ]
-      },
-      {
-        "priority": 259,
-        "prefix": "OSE_DLY",
-        "perm": "sf_dly",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "osaka_futures_delayed"
-          },
-          {
-            "group": "osaka_continuous_delayed"
           }
         ]
       },
