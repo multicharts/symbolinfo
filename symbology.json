@@ -2249,22 +2249,6 @@
       },
       {
         "priority": 58,
-        "prefix": "OSE_DAY",
-        "prefix_no_perm": [
-          "OSE_DAY_DLY"
-        ],
-        "skip_in_search": false,
-        "groups": [
-          {
-            "group": "osaka_day_futures"
-          },
-          {
-            "group": "osaka_day_continuous"
-          }
-        ]
-      },
-      {
-        "priority": 58,
         "prefix": "TSXV_DLY",
         "perm": "tsxv_dly",
         "prefix_no_perm": [
@@ -2288,6 +2272,22 @@
       },
       {
         "priority": 58,
+        "prefix": "OSE_DAY",
+        "prefix_no_perm": [
+          "OSE_DAY_DLY"
+        ],
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "osaka_day_futures"
+          },
+          {
+            "group": "osaka_day_continuous"
+          }
+        ]
+      },
+      {
+        "priority": 58,
         "prefix": "HKEX_NIGHT_DLY",
         "perm": "sf_dly",
         "groups": [
@@ -2296,22 +2296,6 @@
           },
           {
             "group": "hongkong_night_continuous_delayed"
-          }
-        ]
-      },
-      {
-        "priority": 59,
-        "prefix": "OSE_NIGHT",
-        "prefix_no_perm": [
-          "OSE_NIGHT_DLY"
-        ],
-        "skip_in_search": false,
-        "groups": [
-          {
-            "group": "osaka_night_futures"
-          },
-          {
-            "group": "osaka_night_continuous"
           }
         ]
       },
@@ -2335,6 +2319,22 @@
           },
           {
             "group": "osaka_continuous_delayed"
+          }
+        ]
+      },
+      {
+        "priority": 59,
+        "prefix": "OSE_NIGHT",
+        "prefix_no_perm": [
+          "OSE_NIGHT_DLY"
+        ],
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "osaka_night_futures"
+          },
+          {
+            "group": "osaka_night_continuous"
           }
         ]
       },
@@ -2406,19 +2406,6 @@
       },
       {
         "priority": 60,
-        "prefix": "OSE_DAY_DLY",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "osaka_day_futures_delayed"
-          },
-          {
-            "group": "osaka_day_continuous_delayed"
-          }
-        ]
-      },
-      {
-        "priority": 60,
         "prefix": "LSE_EOD",
         "skip_in_search": true,
         "groups": [
@@ -2444,15 +2431,14 @@
         ]
       },
       {
-        "priority": 61,
-        "prefix": "OSE_NIGHT_DLY",
-        "skip_in_search": true,
+        "priority": 60,
+        "prefix": "OSE_DAY_DLY",
         "groups": [
           {
-            "group": "osaka_night_futures_delayed"
+            "group": "osaka_day_futures_delayed"
           },
           {
-            "group": "osaka_night_continuous_delayed"
+            "group": "osaka_day_continuous_delayed"
           }
         ]
       },
@@ -2499,6 +2485,18 @@
           {
             "group": "milan_stocks_eod",
             "priority": 63
+          }
+        ]
+      },
+      {
+        "priority": 61,
+        "prefix": "OSE_NIGHT_DLY",
+        "groups": [
+          {
+            "group": "osaka_night_futures_delayed"
+          },
+          {
+            "group": "osaka_night_continuous_delayed"
           }
         ]
       },
@@ -6079,22 +6077,6 @@
       },
       {
         "priority": 58,
-        "prefix": "OSE_DAY",
-        "prefix_no_perm": [
-          "OSE_DAY_DLY"
-        ],
-        "skip_in_search": false,
-        "groups": [
-          {
-            "group": "osaka_day_futures"
-          },
-          {
-            "group": "osaka_day_continuous"
-          }
-        ]
-      },
-      {
-        "priority": 58,
         "prefix": "TSXV_DLY",
         "perm": "tsxv_dly",
         "prefix_no_perm": [
@@ -6118,6 +6100,22 @@
       },
       {
         "priority": 58,
+        "prefix": "OSE_DAY",
+        "prefix_no_perm": [
+          "OSE_DAY_DLY"
+        ],
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "osaka_day_futures"
+          },
+          {
+            "group": "osaka_day_continuous"
+          }
+        ]
+      },
+      {
+        "priority": 58,
         "prefix": "HKEX_NIGHT_DLY",
         "perm": "sf_dly",
         "groups": [
@@ -6126,22 +6124,6 @@
           },
           {
             "group": "hongkong_night_continuous_delayed"
-          }
-        ]
-      },
-      {
-        "priority": 59,
-        "prefix": "OSE_NIGHT",
-        "prefix_no_perm": [
-          "OSE_NIGHT_DLY"
-        ],
-        "skip_in_search": false,
-        "groups": [
-          {
-            "group": "osaka_night_futures"
-          },
-          {
-            "group": "osaka_night_continuous"
           }
         ]
       },
@@ -6165,6 +6147,22 @@
           },
           {
             "group": "osaka_continuous_delayed"
+          }
+        ]
+      },
+      {
+        "priority": 59,
+        "prefix": "OSE_NIGHT",
+        "prefix_no_perm": [
+          "OSE_NIGHT_DLY"
+        ],
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "osaka_night_futures"
+          },
+          {
+            "group": "osaka_night_continuous"
           }
         ]
       },
@@ -6236,19 +6234,6 @@
       },
       {
         "priority": 60,
-        "prefix": "OSE_DAY_DLY",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "osaka_day_futures_delayed"
-          },
-          {
-            "group": "osaka_day_continuous_delayed"
-          }
-        ]
-      },
-      {
-        "priority": 60,
         "prefix": "LSE_EOD",
         "skip_in_search": true,
         "groups": [
@@ -6274,15 +6259,14 @@
         ]
       },
       {
-        "priority": 61,
-        "prefix": "OSE_NIGHT_DLY",
-        "skip_in_search": true,
+        "priority": 60,
+        "prefix": "OSE_DAY_DLY",
         "groups": [
           {
-            "group": "osaka_night_futures_delayed"
+            "group": "osaka_day_futures_delayed"
           },
           {
-            "group": "osaka_night_continuous_delayed"
+            "group": "osaka_day_continuous_delayed"
           }
         ]
       },
@@ -6329,6 +6313,18 @@
           {
             "group": "milan_stocks_eod",
             "priority": 63
+          }
+        ]
+      },
+      {
+        "priority": 61,
+        "prefix": "OSE_NIGHT_DLY",
+        "groups": [
+          {
+            "group": "osaka_night_futures_delayed"
+          },
+          {
+            "group": "osaka_night_continuous_delayed"
           }
         ]
       },
