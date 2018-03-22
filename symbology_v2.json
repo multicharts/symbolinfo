@@ -3914,6 +3914,19 @@
         }
       },
       {
+        "id": "malaysia_ftse_indices",
+        "kinds": {
+          "rt": {
+            "priority": 78,
+            "prefix": "FTSEMYX",
+            "prefix_no_perm": [
+              "FTSEMYX_DLY"
+            ],
+            "perm": "ftsemyx"
+          }
+        }
+      },
+      {
         "id": "egyptian_indices",
         "kinds": {
           "rt": {
@@ -3923,6 +3936,19 @@
               "EGX_DLY"
             ],
             "perm": "egx"
+          }
+        }
+      },
+      {
+        "id": "malaysia_indices",
+        "kinds": {
+          "rt": {
+            "priority": 79,
+            "prefix": "MYX",
+            "prefix_no_perm": [
+              "MYX_DLY"
+            ],
+            "perm": "myx"
           }
         }
       },
@@ -4077,6 +4103,26 @@
             "prefix": "EGX_DLY",
             "perm": "sf_dly",
             "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "malaysia_indices_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 80,
+            "prefix": "MYX_DLY",
+            "perm": "nse_free"
+          }
+        }
+      },
+      {
+        "id": "malaysia_ftse_indices_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 80,
+            "prefix": "FTSEMYX_DLY",
+            "perm": "nse_free"
           }
         }
       },
