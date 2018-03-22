@@ -2789,6 +2789,19 @@
         ]
       },
       {
+        "priority": 78,
+        "prefix": "FTSEMYX",
+        "perm": "ftsemyx",
+        "prefix_no_perm": [
+          "FTSEMYX_DLY"
+        ],
+        "groups": [
+          {
+            "group": "malaysia_ftse_indices"
+          }
+        ]
+      },
+      {
         "prefix": "EGX",
         "perm": "egx",
         "prefix_no_perm": [
@@ -2801,6 +2814,31 @@
           },
           {
             "group": "egyptian_stocks",
+            "priority": 80
+          }
+        ]
+      },
+      {
+        "prefix": "MYX",
+        "perm": "myx",
+        "prefix_no_perm": [
+          "MYX_DLY"
+        ],
+        "groups": [
+          {
+            "group": "malaysia_indices",
+            "priority": 79
+          },
+          {
+            "group": "malaysia_stocks",
+            "priority": 80
+          },
+          {
+            "group": "malaysia_futures",
+            "priority": 80
+          },
+          {
+            "group": "malaysia_continuous",
             "priority": 80
           }
         ]
@@ -2895,28 +2933,6 @@
       },
       {
         "priority": 80,
-        "prefix": "MYX",
-        "perm": "myx",
-        "prefix_no_perm": [
-          "MYX_DLY"
-        ],
-        "groups": [
-          {
-            "group": "malaysia_stocks"
-          },
-          {
-            "group": "malaysia_futures"
-          },
-          {
-            "group": "malaysia_continuous"
-          },
-          {
-            "group": "malaysia_indices"
-          }
-        ]
-      },
-      {
-        "priority": 80,
         "prefix": "IDX",
         "perm": "idx",
         "prefix_no_perm": [
@@ -2948,6 +2964,38 @@
         ]
       },
       {
+        "prefix": "MYX_DLY",
+        "perm": "nse_free",
+        "groups": [
+          {
+            "group": "malaysia_indices_delayed",
+            "priority": 80
+          },
+          {
+            "group": "malaysia_stocks_delayed",
+            "priority": 81
+          },
+          {
+            "group": "malaysia_futures_delayed",
+            "priority": 81
+          },
+          {
+            "group": "malaysia_continuous_delayed",
+            "priority": 81
+          }
+        ]
+      },
+      {
+        "priority": 80,
+        "prefix": "FTSEMYX_DLY",
+        "perm": "nse_free",
+        "groups": [
+          {
+            "group": "malaysia_ftse_indices_delayed"
+          }
+        ]
+      },
+      {
         "prefix": "NSENG_DLY",
         "perm": "nseng",
         "groups": [
@@ -2958,18 +3006,6 @@
           {
             "group": "nigerian_stocks_delayed",
             "priority": 81
-          }
-        ]
-      },
-      {
-        "priority": 80,
-        "prefix": "FTSEMYX",
-        "prefix_no_perm": [
-          "FTSEMYX_DLY"
-        ],
-        "groups": [
-          {
-            "group": "malaysia_ftse_indices"
           }
         ]
       },
@@ -3033,25 +3069,6 @@
       },
       {
         "priority": 81,
-        "prefix": "MYX_DLY",
-        "perm": "nse_free",
-        "groups": [
-          {
-            "group": "malaysia_stocks_delayed"
-          },
-          {
-            "group": "malaysia_futures_delayed"
-          },
-          {
-            "group": "malaysia_continuous_delayed"
-          },
-          {
-            "group": "malaysia_indices_delayed"
-          }
-        ]
-      },
-      {
-        "priority": 81,
         "prefix": "IDX_DLY",
         "perm": "sf_dly",
         "skip_in_search": true,
@@ -3061,15 +3078,6 @@
           },
           {
             "group": "indonesia_indices_delayed"
-          }
-        ]
-      },
-      {
-        "priority": 81,
-        "prefix": "FTSEMYX_DLY",
-        "groups": [
-          {
-            "group": "malaysia_ftse_indices_delayed"
           }
         ]
       },
@@ -6617,6 +6625,19 @@
         ]
       },
       {
+        "priority": 78,
+        "prefix": "FTSEMYX",
+        "perm": "ftsemyx",
+        "prefix_no_perm": [
+          "FTSEMYX_DLY"
+        ],
+        "groups": [
+          {
+            "group": "malaysia_ftse_indices"
+          }
+        ]
+      },
+      {
         "prefix": "EGX",
         "perm": "egx",
         "prefix_no_perm": [
@@ -6629,6 +6650,31 @@
           },
           {
             "group": "egyptian_stocks",
+            "priority": 80
+          }
+        ]
+      },
+      {
+        "prefix": "MYX",
+        "perm": "myx",
+        "prefix_no_perm": [
+          "MYX_DLY"
+        ],
+        "groups": [
+          {
+            "group": "malaysia_indices",
+            "priority": 79
+          },
+          {
+            "group": "malaysia_stocks",
+            "priority": 80
+          },
+          {
+            "group": "malaysia_futures",
+            "priority": 80
+          },
+          {
+            "group": "malaysia_continuous",
             "priority": 80
           }
         ]
@@ -6723,28 +6769,6 @@
       },
       {
         "priority": 80,
-        "prefix": "MYX",
-        "perm": "myx",
-        "prefix_no_perm": [
-          "MYX_DLY"
-        ],
-        "groups": [
-          {
-            "group": "malaysia_stocks"
-          },
-          {
-            "group": "malaysia_futures"
-          },
-          {
-            "group": "malaysia_continuous"
-          },
-          {
-            "group": "malaysia_indices"
-          }
-        ]
-      },
-      {
-        "priority": 80,
         "prefix": "IDX",
         "perm": "idx",
         "prefix_no_perm": [
@@ -6776,6 +6800,38 @@
         ]
       },
       {
+        "prefix": "MYX_DLY",
+        "perm": "nse_free",
+        "groups": [
+          {
+            "group": "malaysia_indices_delayed",
+            "priority": 80
+          },
+          {
+            "group": "malaysia_stocks_delayed",
+            "priority": 81
+          },
+          {
+            "group": "malaysia_futures_delayed",
+            "priority": 81
+          },
+          {
+            "group": "malaysia_continuous_delayed",
+            "priority": 81
+          }
+        ]
+      },
+      {
+        "priority": 80,
+        "prefix": "FTSEMYX_DLY",
+        "perm": "nse_free",
+        "groups": [
+          {
+            "group": "malaysia_ftse_indices_delayed"
+          }
+        ]
+      },
+      {
         "prefix": "NSENG_DLY",
         "perm": "nseng",
         "groups": [
@@ -6786,18 +6842,6 @@
           {
             "group": "nigerian_stocks_delayed",
             "priority": 81
-          }
-        ]
-      },
-      {
-        "priority": 80,
-        "prefix": "FTSEMYX",
-        "prefix_no_perm": [
-          "FTSEMYX_DLY"
-        ],
-        "groups": [
-          {
-            "group": "malaysia_ftse_indices"
           }
         ]
       },
@@ -6861,25 +6905,6 @@
       },
       {
         "priority": 81,
-        "prefix": "MYX_DLY",
-        "perm": "nse_free",
-        "groups": [
-          {
-            "group": "malaysia_stocks_delayed"
-          },
-          {
-            "group": "malaysia_futures_delayed"
-          },
-          {
-            "group": "malaysia_continuous_delayed"
-          },
-          {
-            "group": "malaysia_indices_delayed"
-          }
-        ]
-      },
-      {
-        "priority": 81,
         "prefix": "IDX_DLY",
         "perm": "sf_dly",
         "skip_in_search": true,
@@ -6889,15 +6914,6 @@
           },
           {
             "group": "indonesia_indices_delayed"
-          }
-        ]
-      },
-      {
-        "priority": 81,
-        "prefix": "FTSEMYX_DLY",
-        "groups": [
-          {
-            "group": "malaysia_ftse_indices_delayed"
           }
         ]
       },
