@@ -2962,11 +2962,29 @@
             "prefix_no_perm": [
               "MYX_DLY"
             ],
-            "perm": "nse_free"
+            "perm": "myx"
           },
           "delay": {
             "priority": 80,
             "prefix": "MYX_DLY",
+            "perm": "nse_free"
+          }
+        }
+      },
+      {
+        "id": "malaysia_ftse_indices",
+        "kinds": {
+          "rt": {
+            "priority": 78,
+            "prefix": "FTSEMYX",
+            "prefix_no_perm": [
+              "FTSEMYX_DLY"
+            ],
+            "perm": "ftsemyx"
+          },
+          "delay": {
+            "priority": 80,
+            "prefix": "FTSEMYX_DLY",
             "perm": "nse_free"
           }
         }
@@ -3182,24 +3200,6 @@
             "priority": 86,
             "prefix": "DFM_DLY",
             "perm": "sf_dly"
-          }
-        }
-      },
-      {
-        "id": "malaysia_ftse_indices",
-        "kinds": {
-          "rt": {
-            "priority": 78,
-            "prefix": "FTSEMYX",
-            "prefix_no_perm": [
-              "FTSEMYX_DLY"
-            ],
-            "perm": "nse_free"
-          },
-          "delay": {
-            "priority": 89,
-            "prefix": "FTSEMYX_DLY",
-            "perm": "nse_free"
           }
         }
       },
