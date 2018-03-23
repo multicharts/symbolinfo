@@ -5534,15 +5534,6 @@
         }
       },
       {
-        "id": "BITMEX",
-        "kinds": {
-          "rt": {
-            "prefix": "BITMEX",
-            "priority": 112
-          }
-        }
-      },
-      {
         "id": "MTGOX",
         "kinds": {
           "rt": {
