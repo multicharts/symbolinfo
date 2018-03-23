@@ -2900,13 +2900,17 @@
           "rt": {
             "prefix": "OSE",
             "priority": 77,
+            "perm": "ose",
             "prefix_no_perm": [
               "OSE_DLY"
-            ]
+            ],
+            "skip_in_search": false
           },
           "delay": {
             "prefix": "OSE_DLY",
-            "priority": 78
+            "priority": 78,
+            "perm": "sf_dly",
+            "skip_in_search": true
           }
         }
       },
