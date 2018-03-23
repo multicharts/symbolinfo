@@ -392,16 +392,12 @@
         ]
       },
       {
+        "priority": 15,
         "prefix": "BITMEX",
+        "skip_in_search": false,
         "groups": [
           {
-            "group": "bitmex2",
-            "priority": 15,
-            "skip_in_search": false
-          },
-          {
-            "group": "BITMEX",
-            "priority": 112
+            "group": "bitmex2"
           }
         ]
       },
@@ -4228,16 +4224,12 @@
         ]
       },
       {
+        "priority": 15,
         "prefix": "BITMEX",
+        "skip_in_search": false,
         "groups": [
           {
-            "group": "bitmex2",
-            "priority": 15,
-            "skip_in_search": false
-          },
-          {
-            "group": "BITMEX",
-            "priority": 112
+            "group": "bitmex2"
           }
         ]
       },
