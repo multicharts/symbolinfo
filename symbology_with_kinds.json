@@ -2882,7 +2882,7 @@
         }
       },
       {
-        "id": "osaka_continuous",
+        "id": "osaka_futures",
         "kinds": {
           "rt": {
             "prefix": "OSE",
@@ -2890,12 +2890,19 @@
             "perm": "ose",
             "prefix_no_perm": [
               "OSE_DLY"
-            ]
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "prefix": "OSE_DLY",
+            "priority": 78,
+            "perm": "sf_dly",
+            "skip_in_search": true
           }
         }
       },
       {
-        "id": "osaka_futures",
+        "id": "osaka_continuous",
         "kinds": {
           "rt": {
             "prefix": "OSE",
