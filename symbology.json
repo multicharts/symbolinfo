@@ -2184,6 +2184,7 @@
       {
         "priority": 57,
         "prefix": "OSE",
+        "perm": "ose",
         "prefix_no_perm": [
           "OSE_DLY"
         ],
@@ -2308,6 +2309,7 @@
       {
         "priority": 59,
         "prefix": "OSE_DLY",
+        "perm": "sf_dly",
         "skip_in_search": true,
         "groups": [
           {
@@ -6016,6 +6018,7 @@
       {
         "priority": 57,
         "prefix": "OSE",
+        "perm": "ose",
         "prefix_no_perm": [
           "OSE_DLY"
         ],
@@ -6140,6 +6143,7 @@
       {
         "priority": 59,
         "prefix": "OSE_DLY",
+        "perm": "sf_dly",
         "skip_in_search": true,
         "groups": [
           {
