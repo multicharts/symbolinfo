@@ -2722,19 +2722,6 @@
         }
       },
       {
-        "id": "chix_japan",
-        "kinds": {
-          "delay": {
-            "priority": 72,
-            "prefix": "CHXJPY",
-            "prefix_alias": [
-              "CHXJPY_DLY"
-            ],
-            "skip_in_search": false
-          }
-        }
-      },
-      {
         "id": "telaviv_stocks",
         "kinds": {
           "rt": {
@@ -2890,6 +2877,19 @@
             "priority": 77,
             "prefix_alias": [
               "INDEX"
+            ]
+          }
+        }
+      },
+      {
+        "id": "osaka_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE",
+            "priority": 77,
+            "perm": "ose",
+            "prefix_no_perm": [
+              "OSE_DLY"
             ]
           }
         }
@@ -4424,18 +4424,6 @@
           "rt": {
             "prefix": "EUREX",
             "priority": 241
-          }
-        }
-      },
-      {
-        "id": "osaka_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "OSE",
-            "priority": 257,
-            "prefix_no_perm": [
-              "OSE_DLY"
-            ]
           }
         }
       },
