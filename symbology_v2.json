@@ -5256,10 +5256,10 @@
           "rt": {
             "prefix": "OSE",
             "priority": 257,
+            "perm": "ose",
             "prefix_no_perm": [
               "OSE_DLY"
             ],
-            "perm": "ose",
             "skip_in_search": true
           }
         }
@@ -5270,10 +5270,10 @@
           "rt": {
             "prefix": "OSE",
             "priority": 257,
+            "perm": "ose",
             "prefix_no_perm": [
               "OSE_DLY"
             ],
-            "perm": "ose",
             "skip_in_search": true
           }
         }
@@ -5312,8 +5312,8 @@
           "rt": {
             "prefix": "OSE_DLY",
             "priority": 259,
-            "skip_in_search": true,
-            "perm": "sf_dly"
+            "perm": "sf_dly",
+            "skip_in_search": true
           }
         }
       },
@@ -5323,8 +5323,8 @@
           "rt": {
             "prefix": "OSE_DLY",
             "priority": 259,
-            "skip_in_search": true,
-            "perm": "sf_dly"
+            "perm": "sf_dly",
+            "skip_in_search": true
           }
         }
       },
