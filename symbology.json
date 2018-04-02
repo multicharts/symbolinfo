@@ -2423,20 +2423,46 @@
         ]
       },
       {
-        "priority": 72,
-        "prefix": "CHXJPY",
-        "perm": "permission_denied",
+        "priority": 77,
+        "prefix": "OSE",
+        "perm": "ose",
         "prefix_no_perm": [
-          "TSE",
-          "NAG"
+          "OSE_DLY"
         ],
         "skip_in_search": true,
-        "prefix_alias": [
-          "CHXJPY_DLY"
+        "groups": [
+          {
+            "group": "osaka_futures"
+          },
+          {
+            "group": "osaka_continuous"
+          }
+        ]
+      },
+      {
+        "priority": 78,
+        "prefix": "FTSEMYX",
+        "perm": "ftsemyx",
+        "prefix_no_perm": [
+          "FTSEMYX_DLY"
         ],
         "groups": [
           {
-            "group": "chix_japan_delayed"
+            "group": "malaysia_ftse_indices"
+          }
+        ]
+      },
+      {
+        "priority": 78,
+        "prefix": "OSE_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "osaka_futures_delayed"
+          },
+          {
+            "group": "osaka_continuous_delayed"
           }
         ]
       },
@@ -2458,6 +2484,31 @@
         ]
       },
       {
+        "prefix": "MYX",
+        "perm": "myx",
+        "prefix_no_perm": [
+          "MYX_DLY"
+        ],
+        "groups": [
+          {
+            "group": "malaysia_indices",
+            "priority": 79
+          },
+          {
+            "group": "malaysia_stocks",
+            "priority": 80
+          },
+          {
+            "group": "malaysia_futures",
+            "priority": 80
+          },
+          {
+            "group": "malaysia_continuous",
+            "priority": 80
+          }
+        ]
+      },
+      {
         "prefix": "NSENG",
         "perm": "nseng",
         "prefix_no_perm": [
@@ -2471,6 +2522,16 @@
           {
             "group": "nigerian_stocks",
             "priority": 80
+          }
+        ]
+      },
+      {
+        "priority": 79,
+        "prefix": "FTSEMYX_DLY",
+        "perm": "nse_free",
+        "groups": [
+          {
+            "group": "malaysia_ftse_indices_delayed"
           }
         ]
       },
@@ -2544,25 +2605,6 @@
       },
       {
         "priority": 80,
-        "prefix": "MYX",
-        "perm": "myx",
-        "prefix_no_perm": [
-          "MYX_DLY"
-        ],
-        "groups": [
-          {
-            "group": "malaysia_stocks"
-          },
-          {
-            "group": "malaysia_futures"
-          },
-          {
-            "group": "malaysia_continuous"
-          }
-        ]
-      },
-      {
-        "priority": 80,
         "prefix": "IDX",
         "perm": "idx",
         "prefix_no_perm": [
@@ -2588,6 +2630,28 @@
           },
           {
             "group": "egyptian_stocks_delayed",
+            "priority": 81
+          }
+        ]
+      },
+      {
+        "prefix": "MYX_DLY",
+        "perm": "nse_free",
+        "groups": [
+          {
+            "group": "malaysia_indices_delayed",
+            "priority": 80
+          },
+          {
+            "group": "malaysia_stocks_delayed",
+            "priority": 81
+          },
+          {
+            "group": "malaysia_futures_delayed",
+            "priority": 81
+          },
+          {
+            "group": "malaysia_continuous_delayed",
             "priority": 81
           }
         ]
@@ -2661,22 +2725,6 @@
           {
             "group": "qatar_stocks_delayed",
             "priority": 86
-          }
-        ]
-      },
-      {
-        "priority": 81,
-        "prefix": "MYX_DLY",
-        "perm": "nse_free",
-        "groups": [
-          {
-            "group": "malaysia_stocks_delayed"
-          },
-          {
-            "group": "malaysia_futures_delayed"
-          },
-          {
-            "group": "malaysia_continuous_delayed"
           }
         ]
       },
@@ -3258,99 +3306,6 @@
           {
             "group": "eurex_continuous",
             "priority": 241
-          }
-        ]
-      },
-      {
-        "priority": 257,
-        "prefix": "OSE",
-        "perm": "ose",
-        "prefix_no_perm": [
-          "OSE_DLY"
-        ],
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "osaka_futures"
-          },
-          {
-            "group": "osaka_continuous"
-          }
-        ]
-      },
-      {
-        "priority": 258,
-        "prefix": "OSE_DAY",
-        "perm": "ose",
-        "prefix_no_perm": [
-          "OSE_DAY_DLY"
-        ],
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "osaka_day_futures"
-          },
-          {
-            "group": "osaka_day_continuous"
-          }
-        ]
-      },
-      {
-        "priority": 259,
-        "prefix": "OSE_NIGHT",
-        "perm": "ose",
-        "prefix_no_perm": [
-          "OSE_NIGHT_DLY"
-        ],
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "osaka_night_futures"
-          },
-          {
-            "group": "osaka_night_continuous"
-          }
-        ]
-      },
-      {
-        "priority": 259,
-        "prefix": "OSE_DLY",
-        "perm": "ose",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "osaka_futures_delayed"
-          },
-          {
-            "group": "osaka_continuous_delayed"
-          }
-        ]
-      },
-      {
-        "priority": 260,
-        "prefix": "OSE_DAY_DLY",
-        "perm": "ose",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "osaka_day_futures_delayed"
-          },
-          {
-            "group": "osaka_day_continuous_delayed"
-          }
-        ]
-      },
-      {
-        "priority": 261,
-        "prefix": "OSE_NIGHT_DLY",
-        "perm": "ose",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "osaka_night_futures_delayed"
-          },
-          {
-            "group": "osaka_night_continuous_delayed"
           }
         ]
       },
@@ -5813,20 +5768,46 @@
         ]
       },
       {
-        "priority": 72,
-        "prefix": "CHXJPY",
-        "perm": "permission_denied",
+        "priority": 77,
+        "prefix": "OSE",
+        "perm": "ose",
         "prefix_no_perm": [
-          "TSE",
-          "NAG"
+          "OSE_DLY"
         ],
         "skip_in_search": true,
-        "prefix_alias": [
-          "CHXJPY_DLY"
+        "groups": [
+          {
+            "group": "osaka_futures"
+          },
+          {
+            "group": "osaka_continuous"
+          }
+        ]
+      },
+      {
+        "priority": 78,
+        "prefix": "FTSEMYX",
+        "perm": "ftsemyx",
+        "prefix_no_perm": [
+          "FTSEMYX_DLY"
         ],
         "groups": [
           {
-            "group": "chix_japan_delayed"
+            "group": "malaysia_ftse_indices"
+          }
+        ]
+      },
+      {
+        "priority": 78,
+        "prefix": "OSE_DLY",
+        "perm": "sf_dly",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "osaka_futures_delayed"
+          },
+          {
+            "group": "osaka_continuous_delayed"
           }
         ]
       },
@@ -5848,6 +5829,31 @@
         ]
       },
       {
+        "prefix": "MYX",
+        "perm": "myx",
+        "prefix_no_perm": [
+          "MYX_DLY"
+        ],
+        "groups": [
+          {
+            "group": "malaysia_indices",
+            "priority": 79
+          },
+          {
+            "group": "malaysia_stocks",
+            "priority": 80
+          },
+          {
+            "group": "malaysia_futures",
+            "priority": 80
+          },
+          {
+            "group": "malaysia_continuous",
+            "priority": 80
+          }
+        ]
+      },
+      {
         "prefix": "NSENG",
         "perm": "nseng",
         "prefix_no_perm": [
@@ -5861,6 +5867,16 @@
           {
             "group": "nigerian_stocks",
             "priority": 80
+          }
+        ]
+      },
+      {
+        "priority": 79,
+        "prefix": "FTSEMYX_DLY",
+        "perm": "nse_free",
+        "groups": [
+          {
+            "group": "malaysia_ftse_indices_delayed"
           }
         ]
       },
@@ -5934,25 +5950,6 @@
       },
       {
         "priority": 80,
-        "prefix": "MYX",
-        "perm": "myx",
-        "prefix_no_perm": [
-          "MYX_DLY"
-        ],
-        "groups": [
-          {
-            "group": "malaysia_stocks"
-          },
-          {
-            "group": "malaysia_futures"
-          },
-          {
-            "group": "malaysia_continuous"
-          }
-        ]
-      },
-      {
-        "priority": 80,
         "prefix": "IDX",
         "perm": "idx",
         "prefix_no_perm": [
@@ -5978,6 +5975,28 @@
           },
           {
             "group": "egyptian_stocks_delayed",
+            "priority": 81
+          }
+        ]
+      },
+      {
+        "prefix": "MYX_DLY",
+        "perm": "nse_free",
+        "groups": [
+          {
+            "group": "malaysia_indices_delayed",
+            "priority": 80
+          },
+          {
+            "group": "malaysia_stocks_delayed",
+            "priority": 81
+          },
+          {
+            "group": "malaysia_futures_delayed",
+            "priority": 81
+          },
+          {
+            "group": "malaysia_continuous_delayed",
             "priority": 81
           }
         ]
@@ -6051,22 +6070,6 @@
           {
             "group": "qatar_stocks_delayed",
             "priority": 86
-          }
-        ]
-      },
-      {
-        "priority": 81,
-        "prefix": "MYX_DLY",
-        "perm": "nse_free",
-        "groups": [
-          {
-            "group": "malaysia_stocks_delayed"
-          },
-          {
-            "group": "malaysia_futures_delayed"
-          },
-          {
-            "group": "malaysia_continuous_delayed"
           }
         ]
       },
@@ -6648,99 +6651,6 @@
           {
             "group": "eurex_continuous",
             "priority": 241
-          }
-        ]
-      },
-      {
-        "priority": 257,
-        "prefix": "OSE",
-        "perm": "ose",
-        "prefix_no_perm": [
-          "OSE_DLY"
-        ],
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "osaka_futures"
-          },
-          {
-            "group": "osaka_continuous"
-          }
-        ]
-      },
-      {
-        "priority": 258,
-        "prefix": "OSE_DAY",
-        "perm": "ose",
-        "prefix_no_perm": [
-          "OSE_DAY_DLY"
-        ],
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "osaka_day_futures"
-          },
-          {
-            "group": "osaka_day_continuous"
-          }
-        ]
-      },
-      {
-        "priority": 259,
-        "prefix": "OSE_NIGHT",
-        "perm": "ose",
-        "prefix_no_perm": [
-          "OSE_NIGHT_DLY"
-        ],
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "osaka_night_futures"
-          },
-          {
-            "group": "osaka_night_continuous"
-          }
-        ]
-      },
-      {
-        "priority": 259,
-        "prefix": "OSE_DLY",
-        "perm": "ose",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "osaka_futures_delayed"
-          },
-          {
-            "group": "osaka_continuous_delayed"
-          }
-        ]
-      },
-      {
-        "priority": 260,
-        "prefix": "OSE_DAY_DLY",
-        "perm": "ose",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "osaka_day_futures_delayed"
-          },
-          {
-            "group": "osaka_day_continuous_delayed"
-          }
-        ]
-      },
-      {
-        "priority": 261,
-        "prefix": "OSE_NIGHT_DLY",
-        "perm": "ose",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "osaka_night_futures_delayed"
-          },
-          {
-            "group": "osaka_night_continuous_delayed"
           }
         ]
       },
