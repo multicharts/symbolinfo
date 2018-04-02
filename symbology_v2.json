@@ -1194,15 +1194,6 @@
         }
       },
       {
-        "id": "russli",
-        "kinds": {
-          "rt": {
-            "prefix": "INDEX",
-            "priority": 47
-          }
-        }
-      },
-      {
         "id": "crains_indices",
         "kinds": {
           "rt": {
@@ -5397,6 +5388,17 @@
             "priority": 261,
             "perm": "sf_dly",
             "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "russli",
+        "kinds": {
+          "rt": {
+            "prefix": "INDEX",
+            "priority": 300,
+            "skip_in_search": true,
+            "perm": "permission_denied"
           }
         }
       },
