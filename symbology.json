@@ -1074,10 +1074,13 @@
             "group": "spec"
           },
           {
-            "group": "russli"
+            "group": "custom_indices"
           },
           {
-            "group": "custom_indices"
+            "group": "russli",
+            "priority": 300,
+            "perm": "permission_denied",
+            "skip_in_search": true
           },
           {
             "group": "nasdi",
@@ -4509,10 +4512,13 @@
             "group": "spec"
           },
           {
-            "group": "russli"
+            "group": "custom_indices"
           },
           {
-            "group": "custom_indices"
+            "group": "russli",
+            "priority": 300,
+            "perm": "permission_denied",
+            "skip_in_search": true
           },
           {
             "group": "nasdi",
