@@ -655,15 +655,6 @@
         }
       },
       {
-        "id": "russli",
-        "kinds": {
-          "rt": {
-            "prefix": "INDEX",
-            "priority": 47
-          }
-        }
-      },
-      {
         "id": "crains_indices",
         "kinds": {
           "rt": {
@@ -3296,9 +3287,7 @@
               "INDEX"
             ],
             "skip_in_search": false,
-            "prefix_no_perm": [
-              "NASDAQ_EOD"
-            ]
+            "perm": "nse_free"
           },
           "eod": {
             "prefix": "NASDAQ_EOD",
@@ -4671,6 +4660,17 @@
             "prefix": "BELEX_DLY",
             "perm": "sf_dly",
             "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "russli",
+        "kinds": {
+          "rt": {
+            "prefix": "INDEX",
+            "priority": 300,
+            "skip_in_search": true,
+            "perm": "permission_denied"
           }
         }
       },
