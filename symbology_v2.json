@@ -1240,6 +1240,25 @@
         }
       },
       {
+        "id": "custom_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "INDEX",
+            "priority": 47
+          }
+        }
+      },
+      {
+        "id": "custom_indices_internal",
+        "kinds": {
+          "rt": {
+            "prefix": "INDEX_INTERNAL",
+            "priority": 47,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "chix_europe_dublin",
         "kinds": {
           "rt": {
