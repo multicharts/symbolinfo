@@ -1090,6 +1090,9 @@
           },
           {
             "group": "nysei"
+          },
+          {
+            "group": "custom_indices"
           }
         ]
       },
@@ -1109,6 +1112,16 @@
         "groups": [
           {
             "group": "crains_indices_internal"
+          }
+        ]
+      },
+      {
+        "priority": 47,
+        "prefix": "INDEX_INTERNAL",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "custom_indices_internal"
           }
         ]
       },
@@ -4435,6 +4448,9 @@
           },
           {
             "group": "nysei"
+          },
+          {
+            "group": "custom_indices"
           }
         ]
       },
@@ -4454,6 +4470,16 @@
         "groups": [
           {
             "group": "crains_indices_internal"
+          }
+        ]
+      },
+      {
+        "priority": 47,
+        "prefix": "INDEX_INTERNAL",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "custom_indices_internal"
           }
         ]
       },
