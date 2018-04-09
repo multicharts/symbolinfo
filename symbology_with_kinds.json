@@ -1476,11 +1476,13 @@
             ],
             "prefix_no_perm": [
               "OMXCOP_DLY"
-            ]
+            ],
+            "perm": "omx"
           },
           "delay": {
             "priority": 56,
-            "prefix": "OMXCOP_DLY"
+            "prefix": "OMXCOP_DLY",
+            "perm": "nse_free"
           }
         }
       },
@@ -1495,11 +1497,13 @@
             ],
             "prefix_no_perm": [
               "OMXHEX_DLY"
-            ]
+            ],
+            "perm": "omx"
           },
           "delay": {
             "priority": 56,
-            "prefix": "OMXHEX_DLY"
+            "prefix": "OMXHEX_DLY",
+            "perm": "nse_free"
           }
         }
       },
@@ -1514,11 +1518,13 @@
             ],
             "prefix_no_perm": [
               "OMXICE_DLY"
-            ]
+            ],
+            "perm": "omx"
           },
           "delay": {
             "priority": 56,
-            "prefix": "OMXICE_DLY"
+            "prefix": "OMXICE_DLY",
+            "perm": "nse_free"
           }
         }
       },
@@ -1533,11 +1539,13 @@
             ],
             "prefix_no_perm": [
               "OMXSTO_DLY"
-            ]
+            ],
+            "perm": "omx"
           },
           "delay": {
             "priority": 56,
-            "prefix": "OMXSTO_DLY"
+            "prefix": "OMXSTO_DLY",
+            "perm": "nse_free"
           }
         }
       },
@@ -1552,11 +1560,13 @@
             ],
             "prefix_no_perm": [
               "OMXNORDIC_DLY"
-            ]
+            ],
+            "perm": "omx"
           },
           "delay": {
             "priority": 56,
-            "prefix": "OMXNORDIC_DLY"
+            "prefix": "OMXNORDIC_DLY",
+            "perm": "nse_free"
           }
         }
       },
@@ -2166,11 +2176,13 @@
             ],
             "prefix_no_perm": [
               "OMXCOP_DLY"
-            ]
+            ],
+            "perm": "omx"
           },
           "delay": {
             "priority": 61,
-            "prefix": "OMXCOP_DLY"
+            "prefix": "OMXCOP_DLY",
+            "perm": "nse_free"
           }
         }
       },
@@ -2185,11 +2197,13 @@
             ],
             "prefix_no_perm": [
               "OMXHEX_DLY"
-            ]
+            ],
+            "perm": "omx"
           },
           "delay": {
             "priority": 61,
-            "prefix": "OMXHEX_DLY"
+            "prefix": "OMXHEX_DLY",
+            "perm": "nse_free"
           }
         }
       },
@@ -2204,11 +2218,13 @@
             ],
             "prefix_no_perm": [
               "OMXICE_DLY"
-            ]
+            ],
+            "perm": "omx"
           },
           "delay": {
             "priority": 61,
-            "prefix": "OMXICE_DLY"
+            "prefix": "OMXICE_DLY",
+            "perm": "nse_free"
           }
         }
       },
@@ -2223,11 +2239,13 @@
             ],
             "prefix_no_perm": [
               "OMXSTO_DLY"
-            ]
+            ],
+            "perm": "omx"
           },
           "delay": {
             "priority": 61,
-            "prefix": "OMXSTO_DLY"
+            "prefix": "OMXSTO_DLY",
+            "perm": "nse_free"
           }
         }
       },
@@ -2242,11 +2260,13 @@
             ],
             "prefix_no_perm": [
               "OMXRSE_DLY"
-            ]
+            ],
+            "perm": "omx"
           },
           "delay": {
             "priority": 61,
-            "prefix": "OMXRSE_DLY"
+            "prefix": "OMXRSE_DLY",
+            "perm": "nse_free"
           }
         }
       },
@@ -2261,11 +2281,13 @@
             ],
             "prefix_no_perm": [
               "OMXTSE_DLY"
-            ]
+            ],
+            "perm": "omx"
           },
           "delay": {
             "priority": 61,
-            "prefix": "OMXTSE_DLY"
+            "prefix": "OMXTSE_DLY",
+            "perm": "nse_free"
           }
         }
       },
@@ -2280,11 +2302,13 @@
             ],
             "prefix_no_perm": [
               "OMXVSE_DLY"
-            ]
+            ],
+            "perm": "omx"
           },
           "delay": {
             "priority": 61,
-            "prefix": "OMXVSE_DLY"
+            "prefix": "OMXVSE_DLY",
+            "perm": "nse_free"
           }
         }
       },
@@ -2299,11 +2323,13 @@
             ],
             "prefix_no_perm": [
               "OMXBALTIC_DLY"
-            ]
+            ],
+            "perm": "omx"
           },
           "delay": {
             "priority": 61,
-            "prefix": "OMXBALTIC_DLY"
+            "prefix": "OMXBALTIC_DLY",
+            "perm": "nse_free"
           }
         }
       },
@@ -2434,11 +2460,13 @@
             ],
             "prefix_no_perm": [
               "OMXRSE_DLY"
-            ]
+            ],
+            "perm": "omx"
           },
           "delay": {
             "priority": 63,
-            "prefix": "OMXRSE_DLY"
+            "prefix": "OMXRSE_DLY",
+            "perm": "nse_free"
           }
         }
       },
@@ -2453,11 +2481,13 @@
             ],
             "prefix_no_perm": [
               "OMXTSE_DLY"
-            ]
+            ],
+            "perm": "omx"
           },
           "delay": {
             "priority": 63,
-            "prefix": "OMXTSE_DLY"
+            "prefix": "OMXTSE_DLY",
+            "perm": "nse_free"
           }
         }
       },
@@ -2472,11 +2502,13 @@
             ],
             "prefix_no_perm": [
               "OMXVSE_DLY"
-            ]
+            ],
+            "perm": "omx"
           },
           "delay": {
             "priority": 63,
-            "prefix": "OMXVSE_DLY"
+            "prefix": "OMXVSE_DLY",
+            "perm": "nse_free"
           }
         }
       },
