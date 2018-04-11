@@ -540,7 +540,7 @@
           "delay": {
             "priority": 41,
             "prefix": "SIX_DLY",
-            "perm": "sf_dly",
+            "perm": "nse_free",
             "prefix_no_perm": [
               "SIX_EOD"
             ]
@@ -1387,7 +1387,7 @@
           "delay": {
             "priority": 56,
             "prefix": "BCBA_DLY",
-            "perm": "sf_dly"
+            "perm": "nse_free"
           }
         }
       },
@@ -1605,7 +1605,7 @@
           "delay": {
             "priority": 57,
             "prefix": "SIX_DLY",
-            "perm": "sf_dly"
+            "perm": "nse_free"
           }
         }
       },
@@ -1735,7 +1735,7 @@
           "delay": {
             "priority": 55,
             "prefix": "BCBA_DLY",
-            "perm": "sf_dly"
+            "perm": "nse_free"
           },
           "eod": {
             "prefix": "BCBA_EOD",
