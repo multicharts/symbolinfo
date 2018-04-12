@@ -898,7 +898,7 @@
       },
       {
         "prefix": "SIX_DLY",
-        "perm": "sf_dly",
+        "perm": "nse_free",
         "groups": [
           {
             "group": "swiss_indices_delayed",
@@ -1148,19 +1148,6 @@
             ]
           },
           {
-            "group": "chix_europe_omx",
-            "exchange_for_display": "CHXEUR_OMX",
-            "prefix_alias": [
-              "CHXEUR_OMX"
-            ],
-            "exchange_aliases": [
-              "OMX"
-            ],
-            "group_alias": [
-              "omx"
-            ]
-          },
-          {
             "group": "chix_europe_oslo",
             "exchange_for_display": "CHXEUR_OSL",
             "prefix_alias": [
@@ -1240,6 +1227,13 @@
             "exchange_for_display": "CHXEUR_FRA",
             "prefix_alias": [
               "CHXEUR_FRA"
+            ]
+          },
+          {
+            "group": "chix_europe_omx",
+            "exchange_for_display": "CHXEUR_OMX",
+            "prefix_alias": [
+              "CHXEUR_OMX"
             ]
           }
         ]
@@ -1475,20 +1469,6 @@
         "groups": [
           {
             "group": "hangseng_indices_delayed"
-          }
-        ]
-      },
-      {
-        "priority": 50,
-        "prefix": "OMX",
-        "perm": "permission_denied",
-        "prefix_no_perm": [
-          "CHXEUR"
-        ],
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "omx"
           }
         ]
       },
@@ -1955,6 +1935,90 @@
         ]
       },
       {
+        "prefix": "OMXCOP",
+        "perm": "omx",
+        "prefix_no_perm": [
+          "OMXCOP_DLY"
+        ],
+        "prefix_alias": [
+          "OMX"
+        ],
+        "groups": [
+          {
+            "group": "copenhagen_indices",
+            "priority": 55
+          },
+          {
+            "group": "copenhagen_stocks",
+            "priority": 60
+          }
+        ]
+      },
+      {
+        "prefix": "OMXHEX",
+        "perm": "omx",
+        "prefix_no_perm": [
+          "OMXHEX_DLY"
+        ],
+        "prefix_alias": [
+          "OMX"
+        ],
+        "groups": [
+          {
+            "group": "helsinki_indices",
+            "priority": 55
+          },
+          {
+            "group": "helsinki_stocks",
+            "priority": 60
+          }
+        ]
+      },
+      {
+        "prefix": "OMXICE",
+        "perm": "omx",
+        "prefix_no_perm": [
+          "OMXICE_DLY"
+        ],
+        "prefix_alias": [
+          "OMX"
+        ],
+        "groups": [
+          {
+            "group": "iceland_indices",
+            "priority": 55
+          },
+          {
+            "group": "iceland_indices_delayed",
+            "priority": 56
+          },
+          {
+            "group": "iceland_stocks",
+            "priority": 60
+          }
+        ]
+      },
+      {
+        "prefix": "OMXSTO",
+        "perm": "omx",
+        "prefix_no_perm": [
+          "OMXSTO_DLY"
+        ],
+        "prefix_alias": [
+          "OMX"
+        ],
+        "groups": [
+          {
+            "group": "stockholm_indices",
+            "priority": 55
+          },
+          {
+            "group": "stockholm_stocks",
+            "priority": 60
+          }
+        ]
+      },
+      {
         "prefix": "ASX",
         "perm": "asx",
         "prefix_no_perm": [
@@ -1976,7 +2040,7 @@
       },
       {
         "prefix": "BCBA_DLY",
-        "perm": "sf_dly",
+        "perm": "nse_free",
         "groups": [
           {
             "group": "buenosaires_indices_delayed",
@@ -1997,6 +2061,48 @@
         "groups": [
           {
             "group": "frankfurt_stocks_delayed"
+          }
+        ]
+      },
+      {
+        "prefix": "OMXCOP_DLY",
+        "perm": "nse_free",
+        "groups": [
+          {
+            "group": "copenhagen_indices_delayed",
+            "priority": 56
+          },
+          {
+            "group": "copenhagen_stocks_delayed",
+            "priority": 61
+          }
+        ]
+      },
+      {
+        "prefix": "OMXHEX_DLY",
+        "perm": "nse_free",
+        "groups": [
+          {
+            "group": "helsinki_indices_delayed",
+            "priority": 56
+          },
+          {
+            "group": "helsinki_stocks_delayed",
+            "priority": 61
+          }
+        ]
+      },
+      {
+        "prefix": "OMXSTO_DLY",
+        "perm": "nse_free",
+        "groups": [
+          {
+            "group": "stockholm_indices_delayed",
+            "priority": 56
+          },
+          {
+            "group": "stockholm_stocks_delayed",
+            "priority": 61
           }
         ]
       },
@@ -2028,6 +2134,82 @@
         ]
       },
       {
+        "prefix": "OMXRSE",
+        "perm": "omx",
+        "prefix_no_perm": [
+          "OMXRSE_DLY"
+        ],
+        "prefix_alias": [
+          "OMX"
+        ],
+        "groups": [
+          {
+            "group": "riga_indices",
+            "priority": 58
+          },
+          {
+            "group": "riga_stocks",
+            "priority": 62
+          }
+        ]
+      },
+      {
+        "prefix": "OMXTSE",
+        "perm": "omx",
+        "prefix_no_perm": [
+          "OMXTSE_DLY"
+        ],
+        "prefix_alias": [
+          "OMX"
+        ],
+        "groups": [
+          {
+            "group": "tallinn_indices",
+            "priority": 58
+          },
+          {
+            "group": "tallinn_stocks",
+            "priority": 62
+          }
+        ]
+      },
+      {
+        "prefix": "OMXVSE",
+        "perm": "omx",
+        "prefix_no_perm": [
+          "OMXVSE_DLY"
+        ],
+        "prefix_alias": [
+          "OMX"
+        ],
+        "groups": [
+          {
+            "group": "vilnius_indices",
+            "priority": 58
+          },
+          {
+            "group": "vilnius_stocks",
+            "priority": 62
+          }
+        ]
+      },
+      {
+        "priority": 58,
+        "prefix": "OMXBALTIC",
+        "perm": "omx",
+        "prefix_no_perm": [
+          "OMXBALTIC_DLY"
+        ],
+        "prefix_alias": [
+          "OMX"
+        ],
+        "groups": [
+          {
+            "group": "baltic_indices"
+          }
+        ]
+      },
+      {
         "priority": 58,
         "prefix": "TSXV_DLY",
         "perm": "tsxv_dly",
@@ -2051,12 +2233,83 @@
         ]
       },
       {
+        "prefix": "OMXRSE_DLY",
+        "perm": "nse_free",
+        "groups": [
+          {
+            "group": "riga_indices_delayed",
+            "priority": 59
+          },
+          {
+            "group": "riga_stocks_delayed",
+            "priority": 63
+          }
+        ]
+      },
+      {
+        "prefix": "OMXTSE_DLY",
+        "perm": "nse_free",
+        "groups": [
+          {
+            "group": "tallinn_indices_delayed",
+            "priority": 59
+          },
+          {
+            "group": "tallinn_stocks_delayed",
+            "priority": 63
+          }
+        ]
+      },
+      {
+        "prefix": "OMXVSE_DLY",
+        "perm": "nse_free",
+        "groups": [
+          {
+            "group": "vilnius_indices_delayed",
+            "priority": 59
+          },
+          {
+            "group": "vilnius_stocks_delayed",
+            "priority": 63
+          }
+        ]
+      },
+      {
+        "priority": 59,
+        "prefix": "OMXBALTIC_DLY",
+        "perm": "nse_free",
+        "prefix_no_perm": [
+          "OMXBALTIC_DLY"
+        ],
+        "groups": [
+          {
+            "group": "baltic_indices_delayed"
+          }
+        ]
+      },
+      {
         "priority": 59,
         "prefix": "FSE_DLY",
         "perm": "sf_dly",
         "groups": [
           {
             "group": "fukuoka_stocks_delayed"
+          }
+        ]
+      },
+      {
+        "priority": 60,
+        "prefix": "OMXNORDIC",
+        "perm": "omx",
+        "prefix_no_perm": [
+          "OMXNORDIC_DLY"
+        ],
+        "prefix_alias": [
+          "OMX"
+        ],
+        "groups": [
+          {
+            "group": "nordic_indices"
           }
         ]
       },
@@ -2148,6 +2401,26 @@
           },
           {
             "group": "lse_in_eur_eod"
+          }
+        ]
+      },
+      {
+        "priority": 61,
+        "prefix": "OMXICE_DLY",
+        "perm": "nse_free",
+        "groups": [
+          {
+            "group": "iceland_stocks_delayed"
+          }
+        ]
+      },
+      {
+        "priority": 61,
+        "prefix": "OMXNORDIC_DLY",
+        "perm": "nse_free",
+        "groups": [
+          {
+            "group": "nordic_indices_delayed"
           }
         ]
       },
@@ -4256,7 +4529,7 @@
       },
       {
         "prefix": "SIX_DLY",
-        "perm": "sf_dly",
+        "perm": "nse_free",
         "groups": [
           {
             "group": "swiss_indices_delayed",
@@ -4506,19 +4779,6 @@
             ]
           },
           {
-            "group": "chix_europe_omx",
-            "exchange_for_display": "CHXEUR_OMX",
-            "prefix_alias": [
-              "CHXEUR_OMX"
-            ],
-            "exchange_aliases": [
-              "OMX"
-            ],
-            "group_alias": [
-              "omx"
-            ]
-          },
-          {
             "group": "chix_europe_oslo",
             "exchange_for_display": "CHXEUR_OSL",
             "prefix_alias": [
@@ -4598,6 +4858,13 @@
             "exchange_for_display": "CHXEUR_FRA",
             "prefix_alias": [
               "CHXEUR_FRA"
+            ]
+          },
+          {
+            "group": "chix_europe_omx",
+            "exchange_for_display": "CHXEUR_OMX",
+            "prefix_alias": [
+              "CHXEUR_OMX"
             ]
           }
         ]
@@ -4833,20 +5100,6 @@
         "groups": [
           {
             "group": "hangseng_indices_delayed"
-          }
-        ]
-      },
-      {
-        "priority": 50,
-        "prefix": "OMX",
-        "perm": "permission_denied",
-        "prefix_no_perm": [
-          "CHXEUR"
-        ],
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "omx"
           }
         ]
       },
@@ -5313,6 +5566,90 @@
         ]
       },
       {
+        "prefix": "OMXCOP",
+        "perm": "omx",
+        "prefix_no_perm": [
+          "OMXCOP_DLY"
+        ],
+        "prefix_alias": [
+          "OMX"
+        ],
+        "groups": [
+          {
+            "group": "copenhagen_indices",
+            "priority": 55
+          },
+          {
+            "group": "copenhagen_stocks",
+            "priority": 60
+          }
+        ]
+      },
+      {
+        "prefix": "OMXHEX",
+        "perm": "omx",
+        "prefix_no_perm": [
+          "OMXHEX_DLY"
+        ],
+        "prefix_alias": [
+          "OMX"
+        ],
+        "groups": [
+          {
+            "group": "helsinki_indices",
+            "priority": 55
+          },
+          {
+            "group": "helsinki_stocks",
+            "priority": 60
+          }
+        ]
+      },
+      {
+        "prefix": "OMXICE",
+        "perm": "omx",
+        "prefix_no_perm": [
+          "OMXICE_DLY"
+        ],
+        "prefix_alias": [
+          "OMX"
+        ],
+        "groups": [
+          {
+            "group": "iceland_indices",
+            "priority": 55
+          },
+          {
+            "group": "iceland_indices_delayed",
+            "priority": 56
+          },
+          {
+            "group": "iceland_stocks",
+            "priority": 60
+          }
+        ]
+      },
+      {
+        "prefix": "OMXSTO",
+        "perm": "omx",
+        "prefix_no_perm": [
+          "OMXSTO_DLY"
+        ],
+        "prefix_alias": [
+          "OMX"
+        ],
+        "groups": [
+          {
+            "group": "stockholm_indices",
+            "priority": 55
+          },
+          {
+            "group": "stockholm_stocks",
+            "priority": 60
+          }
+        ]
+      },
+      {
         "prefix": "ASX",
         "perm": "asx",
         "prefix_no_perm": [
@@ -5334,7 +5671,7 @@
       },
       {
         "prefix": "BCBA_DLY",
-        "perm": "sf_dly",
+        "perm": "nse_free",
         "groups": [
           {
             "group": "buenosaires_indices_delayed",
@@ -5355,6 +5692,48 @@
         "groups": [
           {
             "group": "frankfurt_stocks_delayed"
+          }
+        ]
+      },
+      {
+        "prefix": "OMXCOP_DLY",
+        "perm": "nse_free",
+        "groups": [
+          {
+            "group": "copenhagen_indices_delayed",
+            "priority": 56
+          },
+          {
+            "group": "copenhagen_stocks_delayed",
+            "priority": 61
+          }
+        ]
+      },
+      {
+        "prefix": "OMXHEX_DLY",
+        "perm": "nse_free",
+        "groups": [
+          {
+            "group": "helsinki_indices_delayed",
+            "priority": 56
+          },
+          {
+            "group": "helsinki_stocks_delayed",
+            "priority": 61
+          }
+        ]
+      },
+      {
+        "prefix": "OMXSTO_DLY",
+        "perm": "nse_free",
+        "groups": [
+          {
+            "group": "stockholm_indices_delayed",
+            "priority": 56
+          },
+          {
+            "group": "stockholm_stocks_delayed",
+            "priority": 61
           }
         ]
       },
@@ -5386,6 +5765,82 @@
         ]
       },
       {
+        "prefix": "OMXRSE",
+        "perm": "omx",
+        "prefix_no_perm": [
+          "OMXRSE_DLY"
+        ],
+        "prefix_alias": [
+          "OMX"
+        ],
+        "groups": [
+          {
+            "group": "riga_indices",
+            "priority": 58
+          },
+          {
+            "group": "riga_stocks",
+            "priority": 62
+          }
+        ]
+      },
+      {
+        "prefix": "OMXTSE",
+        "perm": "omx",
+        "prefix_no_perm": [
+          "OMXTSE_DLY"
+        ],
+        "prefix_alias": [
+          "OMX"
+        ],
+        "groups": [
+          {
+            "group": "tallinn_indices",
+            "priority": 58
+          },
+          {
+            "group": "tallinn_stocks",
+            "priority": 62
+          }
+        ]
+      },
+      {
+        "prefix": "OMXVSE",
+        "perm": "omx",
+        "prefix_no_perm": [
+          "OMXVSE_DLY"
+        ],
+        "prefix_alias": [
+          "OMX"
+        ],
+        "groups": [
+          {
+            "group": "vilnius_indices",
+            "priority": 58
+          },
+          {
+            "group": "vilnius_stocks",
+            "priority": 62
+          }
+        ]
+      },
+      {
+        "priority": 58,
+        "prefix": "OMXBALTIC",
+        "perm": "omx",
+        "prefix_no_perm": [
+          "OMXBALTIC_DLY"
+        ],
+        "prefix_alias": [
+          "OMX"
+        ],
+        "groups": [
+          {
+            "group": "baltic_indices"
+          }
+        ]
+      },
+      {
         "priority": 58,
         "prefix": "TSXV_DLY",
         "perm": "tsxv_dly",
@@ -5409,12 +5864,83 @@
         ]
       },
       {
+        "prefix": "OMXRSE_DLY",
+        "perm": "nse_free",
+        "groups": [
+          {
+            "group": "riga_indices_delayed",
+            "priority": 59
+          },
+          {
+            "group": "riga_stocks_delayed",
+            "priority": 63
+          }
+        ]
+      },
+      {
+        "prefix": "OMXTSE_DLY",
+        "perm": "nse_free",
+        "groups": [
+          {
+            "group": "tallinn_indices_delayed",
+            "priority": 59
+          },
+          {
+            "group": "tallinn_stocks_delayed",
+            "priority": 63
+          }
+        ]
+      },
+      {
+        "prefix": "OMXVSE_DLY",
+        "perm": "nse_free",
+        "groups": [
+          {
+            "group": "vilnius_indices_delayed",
+            "priority": 59
+          },
+          {
+            "group": "vilnius_stocks_delayed",
+            "priority": 63
+          }
+        ]
+      },
+      {
+        "priority": 59,
+        "prefix": "OMXBALTIC_DLY",
+        "perm": "nse_free",
+        "prefix_no_perm": [
+          "OMXBALTIC_DLY"
+        ],
+        "groups": [
+          {
+            "group": "baltic_indices_delayed"
+          }
+        ]
+      },
+      {
         "priority": 59,
         "prefix": "FSE_DLY",
         "perm": "sf_dly",
         "groups": [
           {
             "group": "fukuoka_stocks_delayed"
+          }
+        ]
+      },
+      {
+        "priority": 60,
+        "prefix": "OMXNORDIC",
+        "perm": "omx",
+        "prefix_no_perm": [
+          "OMXNORDIC_DLY"
+        ],
+        "prefix_alias": [
+          "OMX"
+        ],
+        "groups": [
+          {
+            "group": "nordic_indices"
           }
         ]
       },
@@ -5506,6 +6032,26 @@
           },
           {
             "group": "lse_in_eur_eod"
+          }
+        ]
+      },
+      {
+        "priority": 61,
+        "prefix": "OMXICE_DLY",
+        "perm": "nse_free",
+        "groups": [
+          {
+            "group": "iceland_stocks_delayed"
+          }
+        ]
+      },
+      {
+        "priority": 61,
+        "prefix": "OMXNORDIC_DLY",
+        "perm": "nse_free",
+        "groups": [
+          {
+            "group": "nordic_indices_delayed"
           }
         ]
       },
