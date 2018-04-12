@@ -45,8 +45,7 @@
           "rt": {
             "prefix": "FX",
             "priority": 11,
-            "exchange_for_display": "FXCM",
-            "perm": "fxcm_cfd"
+            "exchange_for_display": "FXCM"
           }
         }
       },
@@ -221,7 +220,6 @@
             "prefix": "NASDAQ",
             "priority": 20,
             "search_boost": 1.8,
-            "perm": "nasdaq",
             "prefix_no_perm": [
               "BATS"
             ]
@@ -246,7 +244,6 @@
             "priority": 21,
             "search_boost": 1.8,
             "exchange_for_display": "NYSE ARCA & MKT",
-            "perm": "amex",
             "prefix_no_perm": [
               "BATS"
             ]
@@ -270,7 +267,6 @@
             "prefix": "NYSE",
             "priority": 22,
             "search_boost": 1.8,
-            "perm": "nyse",
             "prefix_no_perm": [
               "BATS"
             ]
@@ -283,15 +279,13 @@
           "rt": {
             "priority": 39,
             "prefix": "EURONEXT",
-            "perm": "euronext_indices",
             "prefix_no_perm": [
               "EURONEXT_DLY"
             ]
           },
           "delay": {
             "priority": 40,
-            "prefix": "EURONEXT_DLY",
-            "perm": "euronext_dly"
+            "prefix": "EURONEXT_DLY"
           }
         }
       },
@@ -300,7 +294,6 @@
         "kinds": {
           "rt": {
             "prefix": "COMEX",
-            "perm": "comex",
             "prefix_no_perm": [
               "COMEX_DL"
             ],
@@ -320,7 +313,6 @@
             "exchange_aliases": [
               "COMEX"
             ],
-            "perm": "comex_mini",
             "prefix_no_perm": [
               "COMEX_MINI_DL"
             ],
@@ -337,7 +329,6 @@
         "kinds": {
           "rt": {
             "prefix": "CBOT",
-            "perm": "cbot",
             "prefix_no_perm": [
               "CBOT_DL"
             ],
@@ -354,7 +345,6 @@
         "kinds": {
           "rt": {
             "prefix": "CBOT",
-            "perm": "cbot",
             "prefix_no_perm": [
               "CBOT_DL"
             ],
@@ -374,7 +364,6 @@
             "exchange_aliases": [
               "CBOT"
             ],
-            "perm": "cbot_mini",
             "prefix_no_perm": [
               "CBOT_MINI_DL"
             ],
@@ -391,7 +380,6 @@
         "kinds": {
           "rt": {
             "prefix": "NYMEX",
-            "perm": "nymex",
             "prefix_no_perm": [
               "NYMEX_DL"
             ],
@@ -411,7 +399,6 @@
             "exchange_aliases": [
               "NYMEX"
             ],
-            "perm": "nymex_mini",
             "prefix_no_perm": [
               "NYMEX_MINI_DL"
             ],
@@ -431,7 +418,6 @@
             "exchange_aliases": [
               "NYMEX"
             ],
-            "perm": "nymex_mini",
             "prefix_no_perm": [
               "NYMEX_MINI_DL"
             ],
@@ -448,7 +434,6 @@
         "kinds": {
           "rt": {
             "prefix": "NYMEX",
-            "perm": "nymex",
             "prefix_no_perm": [
               "NYMEX_DL"
             ],
@@ -465,7 +450,6 @@
         "kinds": {
           "rt": {
             "prefix": "NYMEX",
-            "perm": "nymex",
             "prefix_no_perm": [
               "NYMEX_DL"
             ],
@@ -482,7 +466,6 @@
         "kinds": {
           "rt": {
             "prefix": "CME",
-            "perm": "cme",
             "prefix_no_perm": [
               "CME_DL"
             ],
@@ -502,7 +485,6 @@
             "exchange_aliases": [
               "CME"
             ],
-            "perm": "cme_mini",
             "prefix_no_perm": [
               "CME_MINI_DL"
             ],
@@ -522,7 +504,6 @@
             "exchange_aliases": [
               "CME"
             ],
-            "perm": "cme_mini",
             "prefix_no_perm": [
               "CME_MINI_DL"
             ],
@@ -539,7 +520,6 @@
         "kinds": {
           "rt": {
             "prefix": "CME",
-            "perm": "cme",
             "prefix_no_perm": [
               "CME_DL"
             ],
@@ -560,7 +540,6 @@
             "prefix_alias": [
               "INDEX"
             ],
-            "perm": "six",
             "prefix_no_perm": [
               "SIX_DLY"
             ]
@@ -568,7 +547,6 @@
           "delay": {
             "priority": 41,
             "prefix": "SIX_DLY",
-            "perm": "sf_dly",
             "prefix_no_perm": [
               "SIX_EOD"
             ]
@@ -585,15 +563,13 @@
           "rt": {
             "prefix": "TSE",
             "priority": 45,
-            "perm": "tse",
             "prefix_no_perm": [
               "TSE_DLY"
             ]
           },
           "delay": {
             "prefix": "TSE_DLY",
-            "priority": 46,
-            "perm": "sf_dly"
+            "priority": 46
           }
         }
       },
@@ -603,15 +579,13 @@
           "rt": {
             "prefix": "TSE",
             "priority": 45,
-            "perm": "tse",
             "prefix_no_perm": [
               "TSE_DLY"
             ]
           },
           "delay": {
             "prefix": "TSE_DLY",
-            "priority": 46,
-            "perm": "sf_dly"
+            "priority": 46
           }
         }
       },
@@ -621,7 +595,6 @@
           "rt": {
             "priority": 45,
             "prefix": "BATS",
-            "perm": "bats",
             "prefix_no_perm": [
               "BATS_DLY"
             ],
@@ -640,7 +613,6 @@
           "rt": {
             "prefix": "XETR",
             "priority": 45,
-            "perm": "dbg",
             "prefix_no_perm": [
               "XETR_DLY"
             ],
@@ -717,15 +689,13 @@
             "priority": 39,
             "search_boost": 0.6,
             "prefix": "BME",
-            "perm": "bme",
             "prefix_no_perm": [
               "BME_DLY"
             ]
           },
           "delay": {
             "priority": 49,
-            "prefix": "BME_DLY",
-            "perm": "nse_free"
+            "prefix": "BME_DLY"
           }
         }
       },
@@ -735,7 +705,6 @@
           "rt": {
             "prefix": "XETR",
             "priority": 47,
-            "perm": "dbg",
             "prefix_no_perm": [
               "XETR_DLY"
             ]
@@ -752,15 +721,13 @@
           "rt": {
             "priority": 48,
             "prefix": "SZSE",
-            "perm": "szse",
             "prefix_no_perm": [
               "SZSE_DLY"
             ]
           },
           "delay": {
             "priority": 49,
-            "prefix": "SZSE_DLY",
-            "perm": "sf_dly"
+            "prefix": "SZSE_DLY"
           }
         }
       },
@@ -769,7 +736,6 @@
         "kinds": {
           "rt": {
             "prefix": "COMEX",
-            "perm": "comex",
             "prefix_no_perm": [
               "COMEX_DL"
             ],
@@ -789,7 +755,6 @@
             "exchange_aliases": [
               "COMEX"
             ],
-            "perm": "comex_mini",
             "prefix_no_perm": [
               "COMEX_MINI_DL"
             ],
@@ -806,7 +771,6 @@
         "kinds": {
           "rt": {
             "prefix": "CBOT",
-            "perm": "cbot",
             "prefix_no_perm": [
               "CBOT_DL"
             ],
@@ -823,7 +787,6 @@
         "kinds": {
           "rt": {
             "prefix": "CBOT",
-            "perm": "cbot",
             "prefix_no_perm": [
               "CBOT_DL"
             ],
@@ -843,7 +806,6 @@
             "exchange_aliases": [
               "CBOT"
             ],
-            "perm": "cbot_mini",
             "prefix_no_perm": [
               "CBOT_MINI_DL"
             ],
@@ -860,7 +822,6 @@
         "kinds": {
           "rt": {
             "prefix": "NYMEX",
-            "perm": "nymex",
             "prefix_no_perm": [
               "NYMEX_DL"
             ],
@@ -880,7 +841,6 @@
             "exchange_aliases": [
               "NYMEX"
             ],
-            "perm": "nymex_mini",
             "prefix_no_perm": [
               "NYMEX_MINI_DL"
             ],
@@ -900,7 +860,6 @@
             "exchange_aliases": [
               "NYMEX"
             ],
-            "perm": "nymex",
             "prefix_no_perm": [
               "NYMEX_MINI_DL"
             ],
@@ -917,7 +876,6 @@
         "kinds": {
           "rt": {
             "prefix": "NYMEX",
-            "perm": "nymex",
             "prefix_no_perm": [
               "NYMEX_DL"
             ],
@@ -934,7 +892,6 @@
         "kinds": {
           "rt": {
             "prefix": "NYMEX",
-            "perm": "nymex",
             "prefix_no_perm": [
               "NYMEX_DL"
             ],
@@ -951,7 +908,6 @@
         "kinds": {
           "rt": {
             "prefix": "CME",
-            "perm": "cme",
             "prefix_no_perm": [
               "CME_DL"
             ],
@@ -971,7 +927,6 @@
             "exchange_aliases": [
               "CME"
             ],
-            "perm": "cme_mini",
             "prefix_no_perm": [
               "CME_MINI_DL"
             ],
@@ -991,7 +946,6 @@
             "exchange_aliases": [
               "CME"
             ],
-            "perm": "cme_mini",
             "prefix_no_perm": [
               "CME_MINI_DL"
             ],
@@ -1008,7 +962,6 @@
         "kinds": {
           "rt": {
             "prefix": "CME",
-            "perm": "cme",
             "prefix_no_perm": [
               "CME_DL"
             ],
@@ -1027,29 +980,13 @@
             "priority": 40,
             "search_boost": 0.6,
             "prefix": "BME",
-            "perm": "bme",
             "prefix_no_perm": [
               "BME_DLY"
             ]
           },
           "delay": {
             "priority": 50,
-            "prefix": "BME_DLY",
-            "perm": "nse_free"
-          }
-        }
-      },
-      {
-        "id": "omx",
-        "kinds": {
-          "rt": {
-            "priority": 50,
-            "prefix": "OMX",
-            "perm": "permission_denied",
-            "prefix_no_perm": [
-              "CHXEUR"
-            ],
-            "skip_in_search": true
+            "prefix": "BME_DLY"
           }
         }
       },
@@ -1103,13 +1040,11 @@
             "prefix": "HKEX",
             "prefix_no_perm": [
               "HKEX_DLY"
-            ],
-            "perm": "hkex"
+            ]
           },
           "delay": {
             "priority": 51,
-            "prefix": "HKEX_DLY",
-            "perm": "sf_dly"
+            "prefix": "HKEX_DLY"
           }
         }
       },
@@ -1119,15 +1054,13 @@
           "rt": {
             "priority": 50,
             "prefix": "SZSE",
-            "perm": "szse",
             "prefix_no_perm": [
               "SZSE_DLY"
             ]
           },
           "delay": {
             "priority": 51,
-            "prefix": "SZSE_DLY",
-            "perm": "sf_dly"
+            "prefix": "SZSE_DLY"
           }
         }
       },
@@ -1142,8 +1075,7 @@
             ],
             "prefix_no_perm": [
               "BIST_DLY"
-            ],
-            "perm": "bist"
+            ]
           },
           "delay": {
             "priority": 51,
@@ -1156,7 +1088,6 @@
         "kinds": {
           "rt": {
             "prefix": "MOEX",
-            "perm": "moex_futures",
             "prefix_no_perm": [
               "MOEX_DLY"
             ],
@@ -1164,7 +1095,6 @@
           },
           "delay": {
             "prefix": "MOEX_DLY",
-            "perm": "moex",
             "priority": 51
           }
         }
@@ -1174,7 +1104,6 @@
         "kinds": {
           "rt": {
             "prefix": "MOEX",
-            "perm": "moex_stocks",
             "prefix_no_perm": [
               "MOEX_DLY"
             ],
@@ -1182,7 +1111,6 @@
           },
           "delay": {
             "prefix": "MOEX_DLY",
-            "perm": "moex",
             "priority": 52
           }
         }
@@ -1192,7 +1120,6 @@
         "kinds": {
           "rt": {
             "prefix": "MOEX",
-            "perm": "moex_stocks",
             "prefix_no_perm": [
               "MOEX_DLY"
             ],
@@ -1203,7 +1130,6 @@
           },
           "delay": {
             "prefix": "MOEX_DLY",
-            "perm": "moex",
             "prefix_no_perm": [
               "MOEX_EOD"
             ],
@@ -1220,7 +1146,6 @@
         "kinds": {
           "rt": {
             "prefix": "MOEX",
-            "perm": "moex_futures",
             "prefix_no_perm": [
               "MOEX_DLY"
             ],
@@ -1228,7 +1153,6 @@
           },
           "delay": {
             "prefix": "MOEX_DLY",
-            "perm": "moex",
             "priority": 52
           }
         }
@@ -1238,7 +1162,6 @@
         "kinds": {
           "rt": {
             "prefix": "MOEX",
-            "perm": "moex_currency",
             "prefix_no_perm": [
               "MOEX_DLY"
             ],
@@ -1246,7 +1169,6 @@
           },
           "delay": {
             "prefix": "MOEX_DLY",
-            "perm": "moex",
             "priority": 52
           }
         }
@@ -1259,13 +1181,11 @@
             "prefix": "BMFBOVESPA",
             "prefix_no_perm": [
               "BMFBOVESPA_DLY"
-            ],
-            "perm": "bovespa_stocks"
+            ]
           },
           "delay": {
             "priority": 52,
-            "prefix": "BMFBOVESPA_DLY",
-            "perm": "bovespa"
+            "prefix": "BMFBOVESPA_DLY"
           }
         }
       },
@@ -1277,13 +1197,11 @@
             "prefix": "BMFBOVESPA",
             "prefix_no_perm": [
               "BMFBOVESPA_DLY"
-            ],
-            "perm": "bovespa_stocks"
+            ]
           },
           "delay": {
             "priority": 52,
-            "prefix": "BMFBOVESPA_DLY",
-            "perm": "bovespa"
+            "prefix": "BMFBOVESPA_DLY"
           }
         }
       },
@@ -1295,13 +1213,11 @@
             "prefix": "BMFBOVESPA",
             "prefix_no_perm": [
               "BMFBOVESPA_DLY"
-            ],
-            "perm": "bovespa_futures"
+            ]
           },
           "delay": {
             "priority": 52,
-            "prefix": "BMFBOVESPA_DLY",
-            "perm": "bovespa"
+            "prefix": "BMFBOVESPA_DLY"
           }
         }
       },
@@ -1313,13 +1229,11 @@
             "prefix": "BMFBOVESPA",
             "prefix_no_perm": [
               "BMFBOVESPA_DLY"
-            ],
-            "perm": "bovespa_futures"
+            ]
           },
           "delay": {
             "priority": 52,
-            "prefix": "BMFBOVESPA_DLY",
-            "perm": "bovespa"
+            "prefix": "BMFBOVESPA_DLY"
           }
         }
       },
@@ -1331,13 +1245,11 @@
             "prefix": "BMV",
             "prefix_no_perm": [
               "BMV_DLY"
-            ],
-            "perm": "bmv"
+            ]
           },
           "delay": {
             "priority": 54,
-            "prefix": "BMV_DLY",
-            "perm": "sf_dly"
+            "prefix": "BMV_DLY"
           }
         }
       },
@@ -1350,7 +1262,6 @@
             "prefix_no_perm": [
               "BMFBOVESPA_DLY"
             ],
-            "perm": "bovespa_stocks",
             "prefix_alias": [
               "INDEX"
             ]
@@ -1358,7 +1269,6 @@
           "delay": {
             "priority": 52,
             "prefix": "BMFBOVESPA_DLY",
-            "perm": "bovespa",
             "prefix_no_perm": [
               "BMFBOVESPA_EOD"
             ]
@@ -1378,7 +1288,6 @@
             "prefix_alias": [
               "FRA"
             ],
-            "perm": "dbg",
             "prefix_no_perm": [
               "FWB_DLY"
             ]
@@ -1400,13 +1309,11 @@
             "prefix": "BCS",
             "prefix_no_perm": [
               "BCS_DLY"
-            ],
-            "perm": "bcs"
+            ]
           },
           "delay": {
             "priority": 55,
-            "prefix": "BCS_DLY",
-            "perm": "sf_dly"
+            "prefix": "BCS_DLY"
           }
         }
       },
@@ -1418,13 +1325,11 @@
             "prefix": "BCBA",
             "prefix_no_perm": [
               "BCBA_DLY"
-            ],
-            "perm": "bcba"
+            ]
           },
           "delay": {
             "priority": 56,
-            "prefix": "BCBA_DLY",
-            "perm": "sf_dly"
+            "prefix": "BCBA_DLY"
           }
         }
       },
@@ -1434,15 +1339,108 @@
           "rt": {
             "priority": 55,
             "prefix": "EURONEXT",
-            "perm": "euronext_stocks",
             "prefix_no_perm": [
               "EURONEXT_DLY"
             ]
           },
           "delay": {
             "priority": 56,
-            "prefix": "EURONEXT_DLY",
-            "perm": "euronext_dly"
+            "prefix": "EURONEXT_DLY"
+          }
+        }
+      },
+      {
+        "id": "copenhagen_indices",
+        "kinds": {
+          "rt": {
+            "priority": 55,
+            "prefix": "OMXCOP",
+            "prefix_alias": [
+              "OMX"
+            ],
+            "prefix_no_perm": [
+              "OMXCOP_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 56,
+            "prefix": "OMXCOP_DLY"
+          }
+        }
+      },
+      {
+        "id": "helsinki_indices",
+        "kinds": {
+          "rt": {
+            "priority": 55,
+            "prefix": "OMXHEX",
+            "prefix_alias": [
+              "OMX"
+            ],
+            "prefix_no_perm": [
+              "OMXHEX_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 56,
+            "prefix": "OMXHEX_DLY"
+          }
+        }
+      },
+      {
+        "id": "iceland_indices",
+        "kinds": {
+          "rt": {
+            "priority": 55,
+            "prefix": "OMXICE",
+            "prefix_alias": [
+              "OMX"
+            ],
+            "prefix_no_perm": [
+              "OMXICE_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 56,
+            "prefix": "OMXICE_DLY"
+          }
+        }
+      },
+      {
+        "id": "stockholm_indices",
+        "kinds": {
+          "rt": {
+            "priority": 55,
+            "prefix": "OMXSTO",
+            "prefix_alias": [
+              "OMX"
+            ],
+            "prefix_no_perm": [
+              "OMXSTO_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 56,
+            "prefix": "OMXSTO_DLY"
+          }
+        }
+      },
+      {
+        "id": "nordic_indices",
+        "kinds": {
+          "rt": {
+            "priority": 55,
+            "prefix": "OMXNORDIC",
+            "prefix_alias": [
+              "OMX"
+            ],
+            "prefix_no_perm": [
+              "OMXNORDIC_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 56,
+            "prefix": "OMXNORDIC_DLY"
           }
         }
       },
@@ -1454,13 +1452,11 @@
             "prefix": "HKEX",
             "prefix_no_perm": [
               "HKEX_DLY"
-            ],
-            "perm": "hkex"
+            ]
           },
           "delay": {
             "priority": 56,
-            "prefix": "HKEX_DLY",
-            "perm": "sf_dly"
+            "prefix": "HKEX_DLY"
           }
         }
       },
@@ -1472,13 +1468,11 @@
             "prefix": "HKEX",
             "prefix_no_perm": [
               "HKEX_DLY"
-            ],
-            "perm": "hkex_futures"
+            ]
           },
           "delay": {
             "priority": 56,
-            "prefix": "HKEX_DLY",
-            "perm": "sf_dly"
+            "prefix": "HKEX_DLY"
           }
         }
       },
@@ -1493,8 +1487,7 @@
             ],
             "prefix_no_perm": [
               "BIST_DLY"
-            ],
-            "perm": "bist"
+            ]
           },
           "delay": {
             "priority": 56,
@@ -1510,13 +1503,11 @@
             "prefix": "HKEX",
             "prefix_no_perm": [
               "HKEX_DLY"
-            ],
-            "perm": "hkex_futures"
+            ]
           },
           "delay": {
             "priority": 56,
-            "prefix": "HKEX_DLY",
-            "perm": "sf_dly"
+            "prefix": "HKEX_DLY"
           }
         }
       },
@@ -1529,15 +1520,13 @@
             "prefix_alias": [
               "SWX"
             ],
-            "perm": "six",
             "prefix_no_perm": [
               "SIX_DLY"
             ]
           },
           "delay": {
             "priority": 57,
-            "prefix": "SIX_DLY",
-            "perm": "sf_dly"
+            "prefix": "SIX_DLY"
           }
         }
       },
@@ -1547,15 +1536,13 @@
           "rt": {
             "prefix": "TSE",
             "priority": 47,
-            "perm": "tse",
             "prefix_no_perm": [
               "TSE_DLY"
             ]
           },
           "delay": {
             "prefix": "TSE_DLY",
-            "priority": 57,
-            "perm": "sf_dly"
+            "priority": 57
           }
         }
       },
@@ -1567,13 +1554,11 @@
             "prefix": "TWSE",
             "prefix_no_perm": [
               "TWSE_DLY"
-            ],
-            "perm": "twse"
+            ]
           },
           "delay": {
             "priority": 57,
-            "prefix": "TWSE_DLY",
-            "perm": "sf_dly"
+            "prefix": "TWSE_DLY"
           }
         }
       },
@@ -1583,15 +1568,13 @@
           "rt": {
             "prefix": "SSE",
             "priority": 51,
-            "perm": "tse",
             "prefix_no_perm": [
               "SSE_DLY"
             ]
           },
           "delay": {
             "prefix": "SSE_DLY",
-            "priority": 58,
-            "perm": "sf_dly"
+            "priority": 58
           }
         }
       },
@@ -1606,8 +1589,7 @@
             ],
             "prefix_no_perm": [
               "BIST_DLY"
-            ],
-            "perm": "bist_futures"
+            ]
           },
           "delay": {
             "priority": 58,
@@ -1626,8 +1608,7 @@
             ],
             "prefix_no_perm": [
               "BIST_DLY"
-            ],
-            "perm": "bist_futures"
+            ]
           },
           "delay": {
             "priority": 58,
@@ -1641,15 +1622,13 @@
           "rt": {
             "prefix": "FSE",
             "priority": 52,
-            "perm": "tse",
             "prefix_no_perm": [
               "FSE_DLY"
             ]
           },
           "delay": {
             "prefix": "FSE_DLY",
-            "priority": 59,
-            "perm": "sf_dly"
+            "priority": 59
           }
         }
       },
@@ -1661,13 +1640,11 @@
             "prefix": "BCBA",
             "prefix_no_perm": [
               "BCBA_DLY"
-            ],
-            "perm": "bcba"
+            ]
           },
           "delay": {
             "priority": 55,
-            "prefix": "BCBA_DLY",
-            "perm": "sf_dly"
+            "prefix": "BCBA_DLY"
           },
           "eod": {
             "prefix": "BCBA_EOD",
@@ -1686,13 +1663,11 @@
             "prefix": "BMV",
             "prefix_no_perm": [
               "BMV_DLY"
-            ],
-            "perm": "bmv"
+            ]
           },
           "delay": {
             "priority": 52,
-            "prefix": "BMV_DLY",
-            "perm": "sf_dly"
+            "prefix": "BMV_DLY"
           },
           "eod": {
             "priority": 60,
@@ -1709,7 +1684,6 @@
           "rt": {
             "priority": 40,
             "prefix": "LSE",
-            "perm": "lse",
             "prefix_no_perm": [
               "LSE_DLY"
             ]
@@ -1717,7 +1691,6 @@
           "delay": {
             "priority": 50,
             "prefix": "LSE_DLY",
-            "perm": "lse_dly",
             "prefix_no_perm": [
               "LSE_EOD"
             ]
@@ -1735,7 +1708,6 @@
           "rt": {
             "priority": 40,
             "prefix": "LSE",
-            "perm": "lse",
             "prefix_no_perm": [
               "LSE_DLY"
             ]
@@ -1743,7 +1715,6 @@
           "delay": {
             "priority": 50,
             "prefix": "LSE_DLY",
-            "perm": "lse_dly",
             "prefix_no_perm": [
               "LSE_EOD"
             ]
@@ -1761,7 +1732,6 @@
           "rt": {
             "priority": 40,
             "prefix": "LSIN",
-            "perm": "lsin",
             "prefix_no_perm": [
               "LSIN_DLY"
             ]
@@ -1769,7 +1739,6 @@
           "delay": {
             "priority": 50,
             "prefix": "LSIN_DLY",
-            "perm": "lsin_dly",
             "prefix_no_perm": [
               "LSIN_EOD"
             ]
@@ -1787,7 +1756,6 @@
           "rt": {
             "priority": 40,
             "prefix": "LSIN",
-            "perm": "lsin",
             "prefix_no_perm": [
               "LSIN_DLY"
             ]
@@ -1795,7 +1763,6 @@
           "delay": {
             "priority": 50,
             "prefix": "LSIN_DLY",
-            "perm": "lsin_dly",
             "prefix_no_perm": [
               "LSIN_EOD"
             ]
@@ -1813,15 +1780,13 @@
           "rt": {
             "priority": 59,
             "prefix": "EURONEXT",
-            "perm": "euronext_futures",
             "prefix_no_perm": [
               "EURONEXT_DLY"
             ]
           },
           "delay": {
             "priority": 60,
-            "prefix": "EURONEXT_DLY",
-            "perm": "euronext_dly"
+            "prefix": "EURONEXT_DLY"
           }
         }
       },
@@ -1831,15 +1796,13 @@
           "rt": {
             "prefix": "ASX",
             "priority": 56,
-            "perm": "asx",
             "prefix_no_perm": [
               "ASX_DLY"
             ]
           },
           "delay": {
             "prefix": "ASX_DLY",
-            "priority": 60,
-            "perm": "nse_free"
+            "priority": 60
           }
         }
       },
@@ -1849,15 +1812,13 @@
           "rt": {
             "prefix": "NAG",
             "priority": 50,
-            "perm": "nag",
             "prefix_no_perm": [
               "NAG_DLY"
             ]
           },
           "delay": {
             "prefix": "NAG_DLY",
-            "priority": 60,
-            "perm": "sf_dly"
+            "priority": 60
           }
         }
       },
@@ -1869,13 +1830,11 @@
             "prefix": "HSI",
             "prefix_no_perm": [
               "HSI_DLY"
-            ],
-            "perm": "hsi"
+            ]
           },
           "delay": {
             "priority": 50,
-            "prefix": "HSI_DLY",
-            "perm": "sf_dly"
+            "prefix": "HSI_DLY"
           },
           "eod": {
             "priority": 60,
@@ -1894,13 +1853,11 @@
             "prefix": "TWSE",
             "prefix_no_perm": [
               "TWSE_DLY"
-            ],
-            "perm": "twse"
+            ]
           },
           "delay": {
             "priority": 53,
-            "prefix": "TWSE_DLY",
-            "perm": "sf_dly"
+            "prefix": "TWSE_DLY"
           },
           "eod": {
             "priority": 60,
@@ -1919,8 +1876,7 @@
             "prefix": "SGX",
             "prefix_alias": [
               "SGX_DLY"
-            ],
-            "perm": "sf_rt"
+            ]
           },
           "eod": {
             "priority": 60,
@@ -1939,8 +1895,7 @@
             "prefix": "SGX",
             "prefix_alias": [
               "SGX_DLY"
-            ],
-            "perm": "sf_rt"
+            ]
           },
           "eod": {
             "priority": 60,
@@ -1959,13 +1914,11 @@
             "prefix": "BCS",
             "prefix_no_perm": [
               "BCS_DLY"
-            ],
-            "perm": "bcs"
+            ]
           },
           "delay": {
             "priority": 53,
-            "prefix": "BCS_DLY",
-            "perm": "sf_dly"
+            "prefix": "BCS_DLY"
           },
           "eod": {
             "priority": 60,
@@ -1982,15 +1935,13 @@
           "rt": {
             "priority": 59,
             "prefix": "EURONEXT",
-            "perm": "euronext_futures",
             "prefix_no_perm": [
               "EURONEXT_DLY"
             ]
           },
           "delay": {
             "priority": 60,
-            "prefix": "EURONEXT_DLY",
-            "perm": "euronext_dly"
+            "prefix": "EURONEXT_DLY"
           }
         }
       },
@@ -2002,8 +1953,7 @@
             "prefix": "SGX",
             "prefix_alias": [
               "SGX_DLY"
-            ],
-            "perm": "sf_rt"
+            ]
           },
           "eod": {
             "priority": 60,
@@ -2020,7 +1970,6 @@
           "rt": {
             "priority": 40,
             "prefix": "MIL",
-            "perm": "mil",
             "prefix_no_perm": [
               "MIL_DLY"
             ],
@@ -2031,7 +1980,6 @@
           "delay": {
             "priority": 51,
             "prefix": "MIL_DLY",
-            "perm": "mil_dly",
             "prefix_no_perm": [
               "MIL_EOD"
             ]
@@ -2044,20 +1992,170 @@
         }
       },
       {
+        "id": "copenhagen_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 60,
+            "prefix": "OMXCOP",
+            "prefix_alias": [
+              "OMX"
+            ],
+            "prefix_no_perm": [
+              "OMXCOP_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 61,
+            "prefix": "OMXCOP_DLY"
+          }
+        }
+      },
+      {
+        "id": "helsinki_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 60,
+            "prefix": "OMXHEX",
+            "prefix_alias": [
+              "OMX"
+            ],
+            "prefix_no_perm": [
+              "OMXHEX_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 61,
+            "prefix": "OMXHEX_DLY"
+          }
+        }
+      },
+      {
+        "id": "iceland_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 60,
+            "prefix": "OMXICE",
+            "prefix_alias": [
+              "OMX"
+            ],
+            "prefix_no_perm": [
+              "OMXICE_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 61,
+            "prefix": "OMXICE_DLY"
+          }
+        }
+      },
+      {
+        "id": "stockholm_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 60,
+            "prefix": "OMXSTO",
+            "prefix_alias": [
+              "OMX"
+            ],
+            "prefix_no_perm": [
+              "OMXSTO_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 61,
+            "prefix": "OMXSTO_DLY"
+          }
+        }
+      },
+      {
+        "id": "riga_indices",
+        "kinds": {
+          "rt": {
+            "priority": 58,
+            "prefix": "OMXRSE",
+            "prefix_alias": [
+              "OMX"
+            ],
+            "prefix_no_perm": [
+              "OMXRSE_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 61,
+            "prefix": "OMXRSE_DLY"
+          }
+        }
+      },
+      {
+        "id": "tallinn_indices",
+        "kinds": {
+          "rt": {
+            "priority": 58,
+            "prefix": "OMXTSE",
+            "prefix_alias": [
+              "OMX"
+            ],
+            "prefix_no_perm": [
+              "OMXTSE_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 61,
+            "prefix": "OMXTSE_DLY"
+          }
+        }
+      },
+      {
+        "id": "vilnius_indices",
+        "kinds": {
+          "rt": {
+            "priority": 58,
+            "prefix": "OMXVSE",
+            "prefix_alias": [
+              "OMX"
+            ],
+            "prefix_no_perm": [
+              "OMXVSE_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 61,
+            "prefix": "OMXVSE_DLY"
+          }
+        }
+      },
+      {
+        "id": "baltic_indices",
+        "kinds": {
+          "rt": {
+            "priority": 58,
+            "prefix": "OMXBALTIC",
+            "prefix_alias": [
+              "OMX"
+            ],
+            "prefix_no_perm": [
+              "OMXBALTIC_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 61,
+            "prefix": "OMXBALTIC_DLY"
+          }
+        }
+      },
+      {
         "id": "tfin_futures",
         "kinds": {
           "rt": {
             "prefix": "TFX",
             "priority": 60,
-            "perm": "tfx",
             "prefix_no_perm": [
               "TFX_DLY"
             ]
           },
           "delay": {
             "prefix": "TFX_DLY",
-            "priority": 61,
-            "perm": "sf_dly"
+            "priority": 61
           }
         }
       },
@@ -2067,15 +2165,13 @@
           "rt": {
             "prefix": "TOCOM",
             "priority": 60,
-            "perm": "tocom",
             "prefix_no_perm": [
               "TOCOM_DLY"
             ]
           },
           "delay": {
             "prefix": "TOCOM_DLY",
-            "priority": 61,
-            "perm": "sf_dly"
+            "priority": 61
           }
         }
       },
@@ -2085,15 +2181,13 @@
           "rt": {
             "prefix": "TOCOM",
             "priority": 60,
-            "perm": "tocom",
             "prefix_no_perm": [
               "TOCOM_DLY"
             ]
           },
           "delay": {
             "prefix": "TOCOM_DLY",
-            "priority": 61,
-            "perm": "sf_dly"
+            "priority": 61
           }
         }
       },
@@ -2103,15 +2197,13 @@
           "rt": {
             "prefix": "TFX",
             "priority": 60,
-            "perm": "tfx",
             "prefix_no_perm": [
               "TFX_DLY"
             ]
           },
           "delay": {
             "prefix": "TFX_DLY",
-            "priority": 61,
-            "perm": "sf_dly"
+            "priority": 61
           }
         }
       },
@@ -2121,15 +2213,13 @@
           "rt": {
             "prefix": "TOCOM",
             "priority": 60,
-            "perm": "tocom",
             "prefix_no_perm": [
               "TOCOM_DLY"
             ]
           },
           "delay": {
             "prefix": "TOCOM_DLY",
-            "priority": 61,
-            "perm": "sf_dly"
+            "priority": 61
           }
         }
       },
@@ -2139,15 +2229,13 @@
           "rt": {
             "prefix": "TOCOM",
             "priority": 60,
-            "perm": "tocom",
             "prefix_no_perm": [
               "TOCOM_DLY"
             ]
           },
           "delay": {
             "prefix": "TOCOM_DLY",
-            "priority": 61,
-            "perm": "sf_dly"
+            "priority": 61
           }
         }
       },
@@ -2159,13 +2247,11 @@
             "prefix": "BVL",
             "prefix_no_perm": [
               "BVL_DLY"
-            ],
-            "perm": "bvl"
+            ]
           },
           "delay": {
             "priority": 62,
             "prefix": "BVL_DLY",
-            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -2176,7 +2262,6 @@
           "rt": {
             "priority": 42,
             "prefix": "MIL",
-            "perm": "mil",
             "prefix_no_perm": [
               "MIL_DLY"
             ]
@@ -2184,7 +2269,6 @@
           "delay": {
             "priority": 53,
             "prefix": "MIL_DLY",
-            "perm": "mil_dly",
             "prefix_no_perm": [
               "MIL_EOD"
             ]
@@ -2197,6 +2281,63 @@
         }
       },
       {
+        "id": "riga_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 62,
+            "prefix": "OMXRSE",
+            "prefix_alias": [
+              "OMX"
+            ],
+            "prefix_no_perm": [
+              "OMXRSE_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 63,
+            "prefix": "OMXRSE_DLY"
+          }
+        }
+      },
+      {
+        "id": "tallinn_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 62,
+            "prefix": "OMXTSE",
+            "prefix_alias": [
+              "OMX"
+            ],
+            "prefix_no_perm": [
+              "OMXTSE_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 63,
+            "prefix": "OMXTSE_DLY"
+          }
+        }
+      },
+      {
+        "id": "vilnius_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 62,
+            "prefix": "OMXVSE",
+            "prefix_alias": [
+              "OMX"
+            ],
+            "prefix_no_perm": [
+              "OMXVSE_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 63,
+            "prefix": "OMXVSE_DLY"
+          }
+        }
+      },
+      {
         "id": "lima_indices",
         "kinds": {
           "rt": {
@@ -2204,13 +2345,11 @@
             "prefix": "BVL",
             "prefix_no_perm": [
               "BVL_DLY"
-            ],
-            "perm": "bvl"
+            ]
           },
           "delay": {
             "priority": 63,
             "prefix": "BVL_DLY",
-            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -2221,7 +2360,6 @@
           "rt": {
             "prefix": "ASX",
             "priority": 55,
-            "perm": "asx",
             "prefix_no_perm": [
               "ASX_DLY"
             ],
@@ -2232,7 +2370,6 @@
           "delay": {
             "prefix": "ASX_DLY",
             "priority": 57,
-            "perm": "nse_free",
             "prefix_no_perm": [
               "ASX_EOD"
             ]
@@ -2249,7 +2386,6 @@
           "rt": {
             "prefix": "SWB",
             "priority": 65,
-            "perm": "swb",
             "prefix_no_perm": [
               "SWB_DLY"
             ]
@@ -2268,13 +2404,11 @@
             "prefix": "SGX",
             "prefix_no_perm": [
               "SGX_DLY"
-            ],
-            "perm": "sgx_stocks"
+            ]
           },
           "delay": {
             "priority": 66,
-            "prefix": "SGX_DLY",
-            "perm": "sf_dly"
+            "prefix": "SGX_DLY"
           }
         }
       },
@@ -2286,13 +2420,11 @@
             "prefix": "SGX",
             "prefix_no_perm": [
               "SGX_DLY"
-            ],
-            "perm": "sgx_futures"
+            ]
           },
           "delay": {
             "priority": 66,
-            "prefix": "SGX_DLY",
-            "perm": "sf_dly"
+            "prefix": "SGX_DLY"
           }
         }
       },
@@ -2304,13 +2436,11 @@
             "prefix": "SGX",
             "prefix_no_perm": [
               "SGX_DLY"
-            ],
-            "perm": "sgx_futures"
+            ]
           },
           "delay": {
             "priority": 66,
-            "prefix": "SGX_DLY",
-            "perm": "sf_dly"
+            "prefix": "SGX_DLY"
           }
         }
       },
@@ -2320,15 +2450,13 @@
           "rt": {
             "prefix": "NZX",
             "priority": 65,
-            "perm": "nzx",
             "prefix_no_perm": [
               "NZX_DLY"
             ]
           },
           "delay": {
             "prefix": "NZX_DLY",
-            "priority": 70,
-            "perm": "sf_dly"
+            "priority": 70
           }
         }
       },
@@ -2338,15 +2466,13 @@
           "rt": {
             "prefix": "NZX",
             "priority": 65,
-            "perm": "nzx_futures",
             "prefix_no_perm": [
               "NZX_DLY"
             ]
           },
           "delay": {
             "prefix": "NZX_DLY",
-            "priority": 70,
-            "perm": "sf_dly"
+            "priority": 70
           }
         }
       },
@@ -2358,13 +2484,11 @@
             "prefix": "BVC",
             "prefix_no_perm": [
               "BVC_DLY"
-            ],
-            "perm": "bvc"
+            ]
           },
           "delay": {
             "priority": 70,
             "prefix": "BVC_DLY",
-            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -2375,15 +2499,13 @@
           "rt": {
             "prefix": "NZX",
             "priority": 65,
-            "perm": "nzx_futures",
             "prefix_no_perm": [
               "NZX_DLY"
             ]
           },
           "delay": {
             "prefix": "NZX_DLY",
-            "priority": 70,
-            "perm": "sf_dly"
+            "priority": 70
           }
         }
       },
@@ -2393,7 +2515,6 @@
           "rt": {
             "prefix": "VIE",
             "priority": 70,
-            "perm": "vie",
             "prefix_no_perm": [
               "VIE_DLY"
             ],
@@ -2406,8 +2527,7 @@
             "priority": 71,
             "prefix_alias": [
               "WB_DLY"
-            ],
-            "perm": "sf_dly"
+            ]
           }
         }
       },
@@ -2417,15 +2537,13 @@
           "rt": {
             "priority": 70,
             "prefix": "GPW",
-            "perm": "gpw",
             "prefix_no_perm": [
               "GPW_DLY"
             ]
           },
           "delay": {
             "priority": 71,
-            "prefix": "GPW_DLY",
-            "perm": "sf_dly"
+            "prefix": "GPW_DLY"
           }
         }
       },
@@ -2437,13 +2555,11 @@
             "prefix": "BVC",
             "prefix_no_perm": [
               "BVC_DLY"
-            ],
-            "perm": "bvc"
+            ]
           },
           "delay": {
             "priority": 71,
             "prefix": "BVC_DLY",
-            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -2454,15 +2570,13 @@
           "rt": {
             "prefix": "TASE",
             "priority": 72,
-            "perm": "tase",
             "prefix_no_perm": [
               "TASE_DLY"
             ]
           },
           "delay": {
             "prefix": "TASE_DLY",
-            "priority": 74,
-            "perm": "sf_dly"
+            "priority": 74
           }
         }
       },
@@ -2472,7 +2586,6 @@
           "rt": {
             "prefix": "VIE",
             "priority": 75,
-            "perm": "vie",
             "prefix_no_perm": [
               "VIE_DLY"
             ],
@@ -2485,8 +2598,7 @@
             "priority": 76,
             "prefix_alias": [
               "WB_DLY"
-            ],
-            "perm": "sf_dly"
+            ]
           }
         }
       },
@@ -2496,15 +2608,13 @@
           "rt": {
             "priority": 75,
             "prefix": "GPW",
-            "perm": "gpw",
             "prefix_no_perm": [
               "GPW_DLY"
             ]
           },
           "delay": {
             "priority": 76,
-            "prefix": "GPW_DLY",
-            "perm": "sf_dly"
+            "prefix": "GPW_DLY"
           }
         }
       },
@@ -2514,15 +2624,13 @@
           "rt": {
             "priority": 75,
             "prefix": "GPW",
-            "perm": "gpw",
             "prefix_no_perm": [
               "GPW_DLY"
             ]
           },
           "delay": {
             "priority": 76,
-            "prefix": "GPW_DLY",
-            "perm": "sf_dly"
+            "prefix": "GPW_DLY"
           }
         }
       },
@@ -2532,15 +2640,13 @@
           "rt": {
             "prefix": "TASE",
             "priority": 75,
-            "perm": "tase",
             "prefix_no_perm": [
               "TASE_DLY"
             ]
           },
           "delay": {
             "prefix": "TASE_DLY",
-            "priority": 76,
-            "perm": "sf_dly"
+            "priority": 76
           }
         }
       },
@@ -2550,15 +2656,13 @@
           "rt": {
             "priority": 75,
             "prefix": "GPW",
-            "perm": "gpw",
             "prefix_no_perm": [
               "GPW_DLY"
             ]
           },
           "delay": {
             "priority": 76,
-            "prefix": "GPW_DLY",
-            "perm": "sf_dly"
+            "prefix": "GPW_DLY"
           }
         }
       },
@@ -2568,15 +2672,13 @@
           "rt": {
             "prefix": "TASE",
             "priority": 75,
-            "perm": "tase",
             "prefix_no_perm": [
               "TASE_DLY"
             ]
           },
           "delay": {
             "prefix": "TASE_DLY",
-            "priority": 76,
-            "perm": "sf_dly"
+            "priority": 76
           }
         }
       },
@@ -2586,7 +2688,6 @@
           "rt": {
             "prefix": "TASE",
             "priority": 70,
-            "perm": "tase",
             "prefix_no_perm": [
               "TASE_DLY"
             ]
@@ -2594,7 +2695,6 @@
           "delay": {
             "prefix": "TASE_DLY",
             "priority": 71,
-            "perm": "sf_dly",
             "prefix_no_perm": [
               "TASE_EOD"
             ]
@@ -2614,7 +2714,6 @@
           "rt": {
             "prefix": "OSE",
             "priority": 77,
-            "perm": "ose",
             "prefix_no_perm": [
               "OSE_DLY"
             ],
@@ -2623,7 +2722,6 @@
           "delay": {
             "prefix": "OSE_DLY",
             "priority": 78,
-            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -2634,7 +2732,6 @@
           "rt": {
             "prefix": "OSE",
             "priority": 77,
-            "perm": "ose",
             "prefix_no_perm": [
               "OSE_DLY"
             ],
@@ -2643,7 +2740,6 @@
           "delay": {
             "prefix": "OSE_DLY",
             "priority": 78,
-            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -2654,15 +2750,13 @@
           "rt": {
             "prefix": "NZX",
             "priority": 65,
-            "perm": "nzx",
             "prefix_no_perm": [
               "NZX_DLY"
             ]
           },
           "delay": {
             "prefix": "NZX_DLY",
-            "priority": 70,
-            "perm": "sf_dly"
+            "priority": 70
           },
           "eod": {
             "prefix": "NZX_EOD",
@@ -2681,13 +2775,11 @@
             "prefix": "NSENG",
             "prefix_no_perm": [
               "NSENG_DLY"
-            ],
-            "perm": "nseng"
+            ]
           },
           "delay": {
             "priority": 80,
             "prefix": "NSENG_DLY",
-            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -2700,13 +2792,11 @@
             "prefix": "MYX",
             "prefix_no_perm": [
               "MYX_DLY"
-            ],
-            "perm": "myx"
+            ]
           },
           "delay": {
             "priority": 80,
-            "prefix": "MYX_DLY",
-            "perm": "nse_free"
+            "prefix": "MYX_DLY"
           }
         }
       },
@@ -2718,13 +2808,11 @@
             "prefix": "FTSEMYX",
             "prefix_no_perm": [
               "FTSEMYX_DLY"
-            ],
-            "perm": "ftsemyx"
+            ]
           },
           "delay": {
             "priority": 80,
-            "prefix": "FTSEMYX_DLY",
-            "perm": "nse_free"
+            "prefix": "FTSEMYX_DLY"
           }
         }
       },
@@ -2734,7 +2822,6 @@
           "rt": {
             "priority": 80,
             "prefix": "DFM",
-            "perm": "dfm",
             "prefix_no_perm": [
               "DFM_DLY"
             ]
@@ -2742,7 +2829,6 @@
           "delay": {
             "priority": 81,
             "prefix": "DFM_DLY",
-            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -2753,15 +2839,13 @@
           "rt": {
             "priority": 80,
             "prefix": "QSE",
-            "perm": "qse",
             "prefix_no_perm": [
               "QSE_DLY"
             ]
           },
           "delay": {
             "priority": 81,
-            "prefix": "QSE_DLY",
-            "perm": "sf_dly"
+            "prefix": "QSE_DLY"
           }
         }
       },
@@ -2773,13 +2857,11 @@
             "prefix": "NSENG",
             "prefix_no_perm": [
               "NSENG_DLY"
-            ],
-            "perm": "nseng"
+            ]
           },
           "delay": {
             "priority": 81,
             "prefix": "NSENG_DLY",
-            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -2792,13 +2874,11 @@
             "prefix": "MYX",
             "prefix_no_perm": [
               "MYX_DLY"
-            ],
-            "perm": "myx"
+            ]
           },
           "delay": {
             "priority": 81,
-            "prefix": "MYX_DLY",
-            "perm": "nse_free"
+            "prefix": "MYX_DLY"
           }
         }
       },
@@ -2810,13 +2890,11 @@
             "prefix": "MYX",
             "prefix_no_perm": [
               "MYX_DLY"
-            ],
-            "perm": "myx"
+            ]
           },
           "delay": {
             "priority": 81,
-            "prefix": "MYX_DLY",
-            "perm": "nse_free"
+            "prefix": "MYX_DLY"
           }
         }
       },
@@ -2828,13 +2906,11 @@
             "prefix": "IDX",
             "prefix_no_perm": [
               "IDX_DLY"
-            ],
-            "perm": "idx"
+            ]
           },
           "delay": {
             "priority": 81,
-            "prefix": "IDX_DLY",
-            "perm": "sf_dly"
+            "prefix": "IDX_DLY"
           }
         }
       },
@@ -2846,13 +2922,11 @@
             "prefix": "MYX",
             "prefix_no_perm": [
               "MYX_DLY"
-            ],
-            "perm": "myx"
+            ]
           },
           "delay": {
             "priority": 81,
-            "prefix": "MYX_DLY",
-            "perm": "nse_free"
+            "prefix": "MYX_DLY"
           }
         }
       },
@@ -2864,8 +2938,7 @@
             "priority": 82,
             "prefix_no_perm": [
               "OTC_DLY"
-            ],
-            "perm": "otc"
+            ]
           },
           "delay": {
             "prefix": "OTC_DLY",
@@ -2884,8 +2957,7 @@
             "priority": 82,
             "prefix_no_perm": [
               "OTC_DLY"
-            ],
-            "perm": "otc"
+            ]
           },
           "delay": {
             "prefix": "OTC_DLY",
@@ -2904,8 +2976,7 @@
             "priority": 82,
             "prefix_no_perm": [
               "OTC_DLY"
-            ],
-            "perm": "otc"
+            ]
           },
           "delay": {
             "prefix": "OTC_DLY",
@@ -2925,7 +2996,6 @@
             "prefix_no_perm": [
               "IDX_DLY"
             ],
-            "perm": "idx",
             "prefix_alias": [
               "INDEX"
             ]
@@ -2933,7 +3003,6 @@
           "delay": {
             "priority": 81,
             "prefix": "IDX_DLY",
-            "perm": "sf_dly",
             "prefix_no_perm": [
               "IDX_EOD"
             ]
@@ -2950,7 +3019,6 @@
           "rt": {
             "priority": 85,
             "prefix": "DFM",
-            "perm": "dfm",
             "prefix_no_perm": [
               "DFM_DLY"
             ]
@@ -2958,7 +3026,6 @@
           "delay": {
             "priority": 86,
             "prefix": "DFM_DLY",
-            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -2969,15 +3036,47 @@
           "rt": {
             "priority": 85,
             "prefix": "QSE",
-            "perm": "qse",
             "prefix_no_perm": [
               "QSE_DLY"
             ]
           },
           "delay": {
             "priority": 86,
-            "prefix": "QSE_DLY",
-            "perm": "sf_dly"
+            "prefix": "QSE_DLY"
+          }
+        }
+      },
+      {
+        "id": "belgrade_indices",
+        "kinds": {
+          "rt": {
+            "priority": 89,
+            "prefix": "BELEX",
+            "prefix_no_perm": [
+              "BELEX_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 90,
+            "prefix": "BELEX_DLY",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "belgrade_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 90,
+            "prefix": "BELEX",
+            "prefix_no_perm": [
+              "BELEX_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 91,
+            "prefix": "BELEX_DLY",
+            "skip_in_search": true
           }
         }
       },
@@ -2993,7 +3092,6 @@
               "INDEX",
               "TVC"
             ],
-            "perm": "spindices",
             "prefix_no_perm": [
               "SP_EOD"
             ]
@@ -3017,7 +3115,6 @@
               "INDEX"
             ],
             "skip_in_search": false,
-            "perm": "djindices_dly",
             "prefix_no_perm": [
               "DJ_EOD"
             ]
@@ -3040,7 +3137,6 @@
               "INDEX"
             ],
             "skip_in_search": false,
-            "perm": "cboe_dly",
             "prefix_no_perm": [
               "CBOE_EOD"
             ]
@@ -3062,8 +3158,7 @@
               "NASDAQ_DLY",
               "INDEX"
             ],
-            "skip_in_search": false,
-            "perm": "nse_free"
+            "skip_in_search": false
           },
           "eod": {
             "prefix": "NASDAQ_EOD",
@@ -3081,7 +3176,6 @@
             "prefix_alias": [
               "INDEX"
             ],
-            "perm": "tsx",
             "prefix_no_perm": [
               "TSX_DLY"
             ]
@@ -3089,7 +3183,6 @@
           "delay": {
             "prefix": "TSX_DLY",
             "priority": 46,
-            "perm": "nse_free",
             "prefix_no_perm": [
               "TSX_EOD"
             ]
@@ -3119,37 +3212,7 @@
             ],
             "group_alias": [
               "dublin"
-            ],
-            "perm": "chxeur"
-          },
-          "eod": {
-            "priority": 100,
-            "prefix": "CHXEUR_EOD",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "chix_europe_omx",
-        "kinds": {
-          "rt": {
-            "priority": 48,
-            "prefix": "CHXEUR",
-            "exchange_for_display": "CHXEUR_OMX",
-            "exchange_aliases": [
-              "OMX"
-            ],
-            "skip_in_search": false,
-            "prefix_no_perm": [
-              "CHXEUR_EOD"
-            ],
-            "prefix_alias": [
-              "CHXEUR_OMX"
-            ],
-            "group_alias": [
-              "omx"
-            ],
-            "perm": "chxeur"
+            ]
           },
           "eod": {
             "priority": 100,
@@ -3177,8 +3240,7 @@
             ],
             "group_alias": [
               "oslo"
-            ],
-            "perm": "chxeur"
+            ]
           },
           "eod": {
             "priority": 100,
@@ -3206,8 +3268,7 @@
             ],
             "group_alias": [
               "vienna"
-            ],
-            "perm": "chxeur"
+            ]
           },
           "eod": {
             "priority": 100,
@@ -3229,8 +3290,7 @@
             ],
             "prefix_no_perm": [
               "CHXEUR_EOD"
-            ],
-            "perm": "chxeur"
+            ]
           },
           "eod": {
             "priority": 100,
@@ -3252,8 +3312,7 @@
             ],
             "prefix_no_perm": [
               "CHXEUR_EOD"
-            ],
-            "perm": "chxeur"
+            ]
           },
           "eod": {
             "priority": 100,
@@ -3275,8 +3334,7 @@
             ],
             "prefix_no_perm": [
               "CHXEUR_EOD"
-            ],
-            "perm": "chxeur"
+            ]
           },
           "eod": {
             "priority": 100,
@@ -3298,8 +3356,7 @@
             ],
             "prefix_no_perm": [
               "CHXEUR_EOD"
-            ],
-            "perm": "chxeur"
+            ]
           },
           "eod": {
             "priority": 100,
@@ -3321,8 +3378,7 @@
             ],
             "prefix_no_perm": [
               "CHXEUR_EOD"
-            ],
-            "perm": "chxeur"
+            ]
           },
           "eod": {
             "priority": 100,
@@ -3344,8 +3400,7 @@
             ],
             "prefix_no_perm": [
               "CHXEUR_EOD"
-            ],
-            "perm": "chxeur"
+            ]
           },
           "eod": {
             "priority": 100,
@@ -3367,8 +3422,7 @@
             ],
             "prefix_no_perm": [
               "CHXEUR_EOD"
-            ],
-            "perm": "chxeur"
+            ]
           },
           "eod": {
             "priority": 100,
@@ -3390,8 +3444,29 @@
             ],
             "prefix_no_perm": [
               "CHXEUR_EOD"
+            ]
+          },
+          "eod": {
+            "priority": 100,
+            "prefix": "CHXEUR_EOD",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "chix_europe_omx",
+        "kinds": {
+          "rt": {
+            "priority": 48,
+            "prefix": "CHXEUR",
+            "exchange_for_display": "CHXEUR_OMX",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "CHXEUR_OMX"
             ],
-            "perm": "chxeur"
+            "prefix_no_perm": [
+              "CHXEUR_EOD"
+            ]
           },
           "eod": {
             "priority": 100,
@@ -3542,16 +3617,14 @@
             "prefix": "NSE",
             "prefix_no_perm": [
               "NSE_DLY"
-            ],
-            "perm": "nse"
+            ]
           },
           "delay": {
             "priority": 52,
             "prefix": "NSE_DLY",
             "prefix_no_perm": [
               "NSE_EOD"
-            ],
-            "perm": "nse_free"
+            ]
           },
           "eod": {
             "prefix": "NSE_EOD",
@@ -3569,16 +3642,14 @@
             "prefix": "NSE",
             "prefix_no_perm": [
               "NSE_DLY"
-            ],
-            "perm": "nse"
+            ]
           },
           "delay": {
             "priority": 52,
             "prefix": "NSE_DLY",
             "prefix_no_perm": [
               "NSE_EOD"
-            ],
-            "perm": "nse_free"
+            ]
           },
           "eod": {
             "prefix": "NSE_EOD",
@@ -3596,16 +3667,14 @@
             "prefix": "NSE",
             "prefix_no_perm": [
               "NSE_DLY"
-            ],
-            "perm": "nse"
+            ]
           },
           "delay": {
             "priority": 52,
             "prefix": "NSE_DLY",
             "prefix_no_perm": [
               "NSE_EOD"
-            ],
-            "perm": "nse_free"
+            ]
           },
           "eod": {
             "prefix": "NSE_EOD",
@@ -3623,13 +3692,11 @@
             "prefix": "BSE",
             "prefix_no_perm": [
               "BSE_DLY"
-            ],
-            "perm": "bse"
+            ]
           },
           "delay": {
             "priority": 53,
             "prefix": "BSE_DLY",
-            "perm": "bse_free",
             "prefix_no_perm": [
               "BSE_EOD"
             ]
@@ -3650,13 +3717,11 @@
             "prefix": "BSE",
             "prefix_no_perm": [
               "BSE_DLY"
-            ],
-            "perm": "bse"
+            ]
           },
           "delay": {
             "priority": 53,
             "prefix": "BSE_DLY",
-            "perm": "bse_free",
             "prefix_no_perm": [
               "BSE_EOD"
             ]
@@ -3677,13 +3742,11 @@
             "prefix": "BSE",
             "prefix_no_perm": [
               "BSE_DLY"
-            ],
-            "perm": "bse"
+            ]
           },
           "delay": {
             "priority": 53,
             "prefix": "BSE_DLY",
-            "perm": "bse_free",
             "prefix_no_perm": [
               "BSE_EOD"
             ]
@@ -3704,13 +3767,11 @@
             "prefix": "BSE",
             "prefix_no_perm": [
               "BSE_DLY"
-            ],
-            "perm": "bse"
+            ]
           },
           "delay": {
             "priority": 53,
             "prefix": "BSE_DLY",
-            "perm": "bse_free",
             "prefix_no_perm": [
               "BSE_EOD"
             ]
@@ -3728,7 +3789,6 @@
           "rt": {
             "prefix": "TSX",
             "priority": 47,
-            "perm": "tsx",
             "prefix_no_perm": [
               "TSX_DLY"
             ]
@@ -3736,7 +3796,6 @@
           "delay": {
             "prefix": "TSX_DLY",
             "priority": 48,
-            "perm": "tsx_dly",
             "prefix_no_perm": [
               "TSX_EOD"
             ]
@@ -3753,7 +3812,6 @@
           "rt": {
             "prefix": "TSXV",
             "priority": 57,
-            "perm": "tsxv",
             "prefix_no_perm": [
               "TSXV_DLY"
             ]
@@ -3761,7 +3819,6 @@
           "delay": {
             "prefix": "TSXV_DLY",
             "priority": 58,
-            "perm": "nse_free",
             "prefix_no_perm": [
               "TSXV_EOD"
             ]
@@ -4050,7 +4107,6 @@
           "rt": {
             "priority": 38,
             "prefix": "EURONEXT",
-            "perm": "euronext_dly",
             "prefix_no_perm": [
               "EURONEXT_EOD"
             ],
@@ -4218,13 +4274,11 @@
             "prefix_no_perm": [
               "LUXSE_DLY"
             ],
-            "perm": "luxse",
             "skip_in_search": true
           },
           "delay": {
             "priority": 270,
             "prefix": "LUXSE_DLY",
-            "perm": "luxse",
             "skip_in_search": true
           }
         }
@@ -4238,13 +4292,11 @@
             "prefix_no_perm": [
               "LUXSE_DLY"
             ],
-            "perm": "luxse",
             "skip_in_search": true
           },
           "delay": {
             "priority": 271,
             "prefix": "LUXSE_DLY",
-            "perm": "luxse",
             "skip_in_search": true
           }
         }
@@ -4258,13 +4310,11 @@
             "prefix_no_perm": [
               "EGX_DLY"
             ],
-            "perm": "egx",
             "skip_in_search": true
           },
           "delay": {
             "priority": 280,
             "prefix": "EGX_DLY",
-            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -4275,7 +4325,6 @@
           "rt": {
             "priority": 280,
             "prefix": "TADAWUL",
-            "perm": "tadawul",
             "prefix_no_perm": [
               "TADAWUL_DLY"
             ],
@@ -4284,7 +4333,6 @@
           "delay": {
             "priority": 281,
             "prefix": "TADAWUL_DLY",
-            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -4295,7 +4343,6 @@
           "rt": {
             "priority": 280,
             "prefix": "BAHRAIN",
-            "perm": "bahrain",
             "prefix_no_perm": [
               "BAHRAIN_DLY"
             ],
@@ -4304,7 +4351,6 @@
           "delay": {
             "priority": 281,
             "prefix": "BAHRAIN_DLY",
-            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -4318,13 +4364,11 @@
             "prefix_no_perm": [
               "EGX_DLY"
             ],
-            "perm": "egx",
             "skip_in_search": true
           },
           "delay": {
             "priority": 281,
             "prefix": "EGX_DLY",
-            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -4335,7 +4379,6 @@
           "rt": {
             "priority": 285,
             "prefix": "TADAWUL",
-            "perm": "tadawul",
             "prefix_no_perm": [
               "TADAWUL_DLY"
             ],
@@ -4344,7 +4387,6 @@
           "delay": {
             "priority": 286,
             "prefix": "TADAWUL_DLY",
-            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -4355,7 +4397,6 @@
           "rt": {
             "priority": 285,
             "prefix": "BAHRAIN",
-            "perm": "bahrain",
             "prefix_no_perm": [
               "BAHRAIN_DLY"
             ],
@@ -4364,47 +4405,6 @@
           "delay": {
             "priority": 286,
             "prefix": "BAHRAIN_DLY",
-            "perm": "sf_dly",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "belgrade_indices",
-        "kinds": {
-          "rt": {
-            "priority": 289,
-            "prefix": "BELEX",
-            "prefix_no_perm": [
-              "BELEX_DLY"
-            ],
-            "perm": "belex",
-            "skip_in_search": true
-          },
-          "delay": {
-            "priority": 290,
-            "prefix": "BELEX_DLY",
-            "perm": "sf_dly",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "belgrade_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 290,
-            "prefix": "BELEX",
-            "prefix_no_perm": [
-              "BELEX_DLY"
-            ],
-            "perm": "belex",
-            "skip_in_search": true
-          },
-          "delay": {
-            "priority": 291,
-            "prefix": "BELEX_DLY",
-            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
