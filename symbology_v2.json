@@ -4330,6 +4330,32 @@
         }
       },
       {
+        "id": "osaka_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE",
+            "priority": 77,
+            "perm": "ose",
+            "prefix_no_perm": [
+              "OSE_DLY"
+            ]
+          }
+        }
+      },
+      {
+        "id": "osaka_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE",
+            "priority": 77,
+            "perm": "ose",
+            "prefix_no_perm": [
+              "OSE_DLY"
+            ]
+          }
+        }
+      },
+      {
         "id": "malaysia_ftse_indices",
         "kinds": {
           "rt": {
@@ -4339,6 +4365,34 @@
               "FTSEMYX_DLY"
             ],
             "perm": "ftsemyx"
+          }
+        }
+      },
+      {
+        "id": "osaka_day_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE_DAY",
+            "priority": 78,
+            "perm": "ose",
+            "prefix_no_perm": [
+              "OSE_DAY_DLY"
+            ],
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "osaka_day_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "OSE_DAY",
+            "priority": 78,
+            "perm": "ose",
+            "prefix_no_perm": [
+              "OSE_DAY_DLY"
+            ],
+            "skip_in_search": true
           }
         }
       },
@@ -5667,62 +5721,6 @@
         }
       },
       {
-        "id": "osaka_futures",
-        "kinds": {
-          "rt": {
-            "prefix": "OSE",
-            "priority": 257,
-            "perm": "ose",
-            "prefix_no_perm": [
-              "OSE_DLY"
-            ],
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "osaka_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "OSE",
-            "priority": 257,
-            "perm": "ose",
-            "prefix_no_perm": [
-              "OSE_DLY"
-            ],
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "osaka_day_futures",
-        "kinds": {
-          "rt": {
-            "prefix": "OSE_DAY",
-            "priority": 258,
-            "perm": "ose",
-            "prefix_no_perm": [
-              "OSE_DAY_DLY"
-            ],
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "osaka_day_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "OSE_DAY",
-            "priority": 258,
-            "perm": "ose",
-            "prefix_no_perm": [
-              "OSE_DAY_DLY"
-            ],
-            "skip_in_search": true
-          }
-        }
-      },
-      {
         "id": "osaka_futures_delayed",
         "kinds": {
           "rt": {
@@ -5753,8 +5751,7 @@
             "perm": "ose",
             "prefix_no_perm": [
               "OSE_NIGHT_DLY"
-            ],
-            "skip_in_search": true
+            ]
           }
         }
       },
@@ -5767,8 +5764,7 @@
             "perm": "ose",
             "prefix_no_perm": [
               "OSE_NIGHT_DLY"
-            ],
-            "skip_in_search": true
+            ]
           }
         }
       },
