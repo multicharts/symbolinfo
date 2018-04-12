@@ -2778,6 +2778,22 @@
         ]
       },
       {
+        "priority": 77,
+        "prefix": "OSE",
+        "perm": "ose",
+        "prefix_no_perm": [
+          "OSE_DLY"
+        ],
+        "groups": [
+          {
+            "group": "osaka_futures"
+          },
+          {
+            "group": "osaka_continuous"
+          }
+        ]
+      },
+      {
         "priority": 78,
         "prefix": "FTSEMYX",
         "perm": "ftsemyx",
@@ -2787,6 +2803,23 @@
         "groups": [
           {
             "group": "malaysia_ftse_indices"
+          }
+        ]
+      },
+      {
+        "priority": 78,
+        "prefix": "OSE_DAY",
+        "perm": "ose",
+        "prefix_no_perm": [
+          "OSE_DAY_DLY"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "osaka_day_futures"
+          },
+          {
+            "group": "osaka_day_continuous"
           }
         ]
       },
@@ -3636,40 +3669,6 @@
         ]
       },
       {
-        "priority": 257,
-        "prefix": "OSE",
-        "perm": "ose",
-        "prefix_no_perm": [
-          "OSE_DLY"
-        ],
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "osaka_futures"
-          },
-          {
-            "group": "osaka_continuous"
-          }
-        ]
-      },
-      {
-        "priority": 258,
-        "prefix": "OSE_DAY",
-        "perm": "ose",
-        "prefix_no_perm": [
-          "OSE_DAY_DLY"
-        ],
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "osaka_day_futures"
-          },
-          {
-            "group": "osaka_day_continuous"
-          }
-        ]
-      },
-      {
         "priority": 259,
         "prefix": "OSE_DLY",
         "perm": "sf_dly",
@@ -3690,7 +3689,6 @@
         "prefix_no_perm": [
           "OSE_NIGHT_DLY"
         ],
-        "skip_in_search": true,
         "groups": [
           {
             "group": "osaka_night_futures"
@@ -6509,6 +6507,22 @@
         ]
       },
       {
+        "priority": 77,
+        "prefix": "OSE",
+        "perm": "ose",
+        "prefix_no_perm": [
+          "OSE_DLY"
+        ],
+        "groups": [
+          {
+            "group": "osaka_futures"
+          },
+          {
+            "group": "osaka_continuous"
+          }
+        ]
+      },
+      {
         "priority": 78,
         "prefix": "FTSEMYX",
         "perm": "ftsemyx",
@@ -6518,6 +6532,23 @@
         "groups": [
           {
             "group": "malaysia_ftse_indices"
+          }
+        ]
+      },
+      {
+        "priority": 78,
+        "prefix": "OSE_DAY",
+        "perm": "ose",
+        "prefix_no_perm": [
+          "OSE_DAY_DLY"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "osaka_day_futures"
+          },
+          {
+            "group": "osaka_day_continuous"
           }
         ]
       },
@@ -7367,40 +7398,6 @@
         ]
       },
       {
-        "priority": 257,
-        "prefix": "OSE",
-        "perm": "ose",
-        "prefix_no_perm": [
-          "OSE_DLY"
-        ],
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "osaka_futures"
-          },
-          {
-            "group": "osaka_continuous"
-          }
-        ]
-      },
-      {
-        "priority": 258,
-        "prefix": "OSE_DAY",
-        "perm": "ose",
-        "prefix_no_perm": [
-          "OSE_DAY_DLY"
-        ],
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "osaka_day_futures"
-          },
-          {
-            "group": "osaka_day_continuous"
-          }
-        ]
-      },
-      {
         "priority": 259,
         "prefix": "OSE_DLY",
         "perm": "sf_dly",
@@ -7421,7 +7418,6 @@
         "prefix_no_perm": [
           "OSE_NIGHT_DLY"
         ],
-        "skip_in_search": true,
         "groups": [
           {
             "group": "osaka_night_futures"
