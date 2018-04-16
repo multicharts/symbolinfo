@@ -21,6 +21,16 @@
         }
       },
       {
+        "id": "forex_tvc",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 10,
+            "search_boost": 2.0
+          }
+        }
+      },
+      {
         "id": "fxcm",
         "kinds": {
           "rt": {
@@ -801,6 +811,17 @@
             "priority": 49,
             "prefix": "SZSE_DLY",
             "perm": "sf_dly"
+          }
+        }
+      },
+      {
+        "id": "forex",
+        "kinds": {
+          "rt": {
+            "prefix": "FX_IDC",
+            "priority": 50,
+            "search_boost": 2.0,
+            "exchange_for_display": "IDC"
           }
         }
       },
