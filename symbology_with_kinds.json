@@ -4639,8 +4639,7 @@
             "prefix_no_perm": [
               "EGX_DLY"
             ],
-            "perm": "egx",
-            "skip_in_search": true
+            "perm": "egx"
           },
           "delay": {
             "priority": 280,
@@ -4659,8 +4658,7 @@
             "perm": "tadawul",
             "prefix_no_perm": [
               "TADAWUL_DLY"
-            ],
-            "skip_in_search": true
+            ]
           },
           "delay": {
             "priority": 281,
@@ -4679,8 +4677,7 @@
             "perm": "bahrain",
             "prefix_no_perm": [
               "BAHRAIN_DLY"
-            ],
-            "skip_in_search": true
+            ]
           },
           "delay": {
             "priority": 281,
@@ -4699,8 +4696,7 @@
             "prefix_no_perm": [
               "EGX_DLY"
             ],
-            "perm": "egx",
-            "skip_in_search": true
+            "perm": "egx"
           },
           "delay": {
             "priority": 281,
@@ -4719,8 +4715,7 @@
             "perm": "tadawul",
             "prefix_no_perm": [
               "TADAWUL_DLY"
-            ],
-            "skip_in_search": true
+            ]
           },
           "delay": {
             "priority": 286,
@@ -4739,8 +4734,7 @@
             "perm": "bahrain",
             "prefix_no_perm": [
               "BAHRAIN_DLY"
-            ],
-            "skip_in_search": true
+            ]
           },
           "delay": {
             "priority": 286,
