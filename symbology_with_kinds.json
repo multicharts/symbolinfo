@@ -1715,6 +1715,111 @@
         }
       },
       {
+        "id": "copenhagen_basic_indices",
+        "kinds": {
+          "rt": {
+            "priority": 54,
+            "prefix": "OMXCOP",
+            "prefix_alias": [
+              "OMX"
+            ],
+            "prefix_no_perm": [
+              "OMXCOP_DLY"
+            ],
+            "perm": "omx"
+          },
+          "delay": {
+            "priority": 55,
+            "prefix": "OMXCOP_DLY",
+            "perm": "nse_free"
+          }
+        }
+      },
+      {
+        "id": "helsinki_basic_indices",
+        "kinds": {
+          "rt": {
+            "priority": 54,
+            "prefix": "OMXHEX",
+            "prefix_alias": [
+              "OMX"
+            ],
+            "prefix_no_perm": [
+              "OMXHEX_DLY"
+            ],
+            "perm": "omx"
+          },
+          "delay": {
+            "priority": 55,
+            "prefix": "OMXHEX_DLY",
+            "perm": "nse_free"
+          }
+        }
+      },
+      {
+        "id": "iceland_basic_indices",
+        "kinds": {
+          "rt": {
+            "priority": 54,
+            "prefix": "OMXICE",
+            "prefix_alias": [
+              "OMX"
+            ],
+            "prefix_no_perm": [
+              "OMXICE_DLY"
+            ],
+            "perm": "omx"
+          },
+          "delay": {
+            "priority": 55,
+            "prefix": "OMXICE_DLY",
+            "perm": "nse_free"
+          }
+        }
+      },
+      {
+        "id": "stockholm_basic_indices",
+        "kinds": {
+          "rt": {
+            "priority": 54,
+            "prefix": "OMXSTO",
+            "prefix_alias": [
+              "OMX"
+            ],
+            "prefix_no_perm": [
+              "OMXSTO_DLY"
+            ],
+            "perm": "omx"
+          },
+          "delay": {
+            "priority": 55,
+            "prefix": "OMXSTO_DLY",
+            "perm": "nse_free"
+          }
+        }
+      },
+      {
+        "id": "nordic_basic_indices",
+        "kinds": {
+          "rt": {
+            "priority": 54,
+            "prefix": "OMXNORDIC",
+            "prefix_alias": [
+              "OMX"
+            ],
+            "prefix_no_perm": [
+              "OMXNORDIC_DLY"
+            ],
+            "perm": "omx"
+          },
+          "delay": {
+            "priority": 55,
+            "prefix": "OMXNORDIC_DLY",
+            "perm": "nse_free"
+          }
+        }
+      },
+      {
         "id": "santiago_stocks",
         "kinds": {
           "rt": {
