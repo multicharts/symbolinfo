@@ -164,6 +164,33 @@
         ]
       },
       {
+        "prefix": "NASDAQ",
+        "groups": [
+          {
+            "group": "nasdaq_indices_delayed",
+            "priority": 10,
+            "perm": "nse_free",
+            "prefix_no_perm": [
+              "NASDAQ_EOD"
+            ],
+            "skip_in_search": false,
+            "prefix_alias": [
+              "NASDAQ_DLY",
+              "INDEX"
+            ]
+          },
+          {
+            "group": "nasdaq_idc",
+            "priority": 20,
+            "search_boost": 1.8,
+            "perm": "nasdaq",
+            "prefix_no_perm": [
+              "BATS"
+            ]
+          }
+        ]
+      },
+      {
         "prefix": "FX",
         "exchange_for_display": "FXCM",
         "groups": [
@@ -341,25 +368,6 @@
         ]
       },
       {
-        "prefix": "NASDAQ",
-        "groups": [
-          {
-            "group": "nasdaq_idc",
-            "priority": 20,
-            "search_boost": 1.8,
-            "perm": "nasdaq",
-            "prefix_no_perm": [
-              "BATS"
-            ]
-          },
-          {
-            "group": "nasdaq_indices_eod",
-            "priority": 100,
-            "skip_in_search": true
-          }
-        ]
-      },
-      {
         "prefix": "BINANCE",
         "skip_in_search": false,
         "groups": [
@@ -413,12 +421,20 @@
           {
             "group": "nyse_gif_indices_eod",
             "priority": 100,
-            "skip_in_search": true
+            "skip_in_search": false,
+            "prefix_alias": [
+              "NYSE_EOD",
+              "INDEX"
+            ]
           },
           {
             "group": "nyse_indices_eod",
             "priority": 100,
-            "skip_in_search": true
+            "skip_in_search": false,
+            "prefix_alias": [
+              "NYSE_EOD",
+              "INDEX"
+            ]
           }
         ]
       },
@@ -1060,6 +1076,16 @@
       },
       {
         "priority": 47,
+        "prefix": "NASDAQ_EOD",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "nasdaq_indices_eod"
+          }
+        ]
+      },
+      {
+        "priority": 47,
         "prefix": "SP_EOD",
         "skip_in_search": true,
         "groups": [
@@ -1073,26 +1099,38 @@
         "prefix": "INDEX",
         "groups": [
           {
-            "group": "dxy",
-            "search_boost": 2.0
-          },
-          {
             "group": "ind"
           },
           {
             "group": "spec"
           },
           {
-            "group": "russli"
-          },
-          {
-            "group": "nasdi"
-          },
-          {
-            "group": "nysei"
-          },
-          {
             "group": "custom_indices"
+          },
+          {
+            "group": "international_indices_eod",
+            "priority": 100,
+            "skip_in_search": false
+          },
+          {
+            "group": "dxy",
+            "priority": 300,
+            "skip_in_search": true
+          },
+          {
+            "group": "russli",
+            "priority": 300,
+            "skip_in_search": true
+          },
+          {
+            "group": "nasdi",
+            "priority": 300,
+            "skip_in_search": true
+          },
+          {
+            "group": "nysei",
+            "priority": 300,
+            "skip_in_search": true
           }
         ]
       },
@@ -2215,6 +2253,7 @@
         "prefix_no_perm": [
           "OMXRSE_DLY"
         ],
+        "skip_in_search": true,
         "prefix_alias": [
           "OMX"
         ],
@@ -2235,6 +2274,7 @@
         "prefix_no_perm": [
           "OMXTSE_DLY"
         ],
+        "skip_in_search": true,
         "prefix_alias": [
           "OMX"
         ],
@@ -2255,6 +2295,7 @@
         "prefix_no_perm": [
           "OMXVSE_DLY"
         ],
+        "skip_in_search": true,
         "prefix_alias": [
           "OMX"
         ],
@@ -2276,6 +2317,7 @@
         "prefix_no_perm": [
           "OMXBALTIC_DLY"
         ],
+        "skip_in_search": true,
         "prefix_alias": [
           "OMX"
         ],
@@ -2311,6 +2353,7 @@
       {
         "prefix": "OMXRSE_DLY",
         "perm": "nse_free",
+        "skip_in_search": true,
         "groups": [
           {
             "group": "riga_indices_delayed",
@@ -2325,6 +2368,7 @@
       {
         "prefix": "OMXTSE_DLY",
         "perm": "nse_free",
+        "skip_in_search": true,
         "groups": [
           {
             "group": "tallinn_indices_delayed",
@@ -2339,6 +2383,7 @@
       {
         "prefix": "OMXVSE_DLY",
         "perm": "nse_free",
+        "skip_in_search": true,
         "groups": [
           {
             "group": "vilnius_indices_delayed",
@@ -2357,6 +2402,7 @@
         "prefix_no_perm": [
           "OMXBALTIC_DLY"
         ],
+        "skip_in_search": true,
         "groups": [
           {
             "group": "baltic_indices_delayed"
@@ -2755,7 +2801,7 @@
         "prefix_no_perm": [
           "OSE_DLY"
         ],
-        "skip_in_search": true,
+        "skip_in_search": false,
         "groups": [
           {
             "group": "osaka_futures"
@@ -3193,9 +3239,27 @@
         "priority": 100,
         "prefix": "RUSSEL",
         "skip_in_search": true,
+        "prefix_alias": [
+          "RUSSEL_EOD",
+          "INDEX"
+        ],
         "groups": [
           {
             "group": "russel_indices_eod"
+          }
+        ]
+      },
+      {
+        "priority": 100,
+        "prefix": "RUSSELL",
+        "skip_in_search": false,
+        "prefix_alias": [
+          "RUSSELL_EOD",
+          "INDEX"
+        ],
+        "groups": [
+          {
+            "group": "russell_indices_eod"
           }
         ]
       },
@@ -3835,6 +3899,33 @@
         ]
       },
       {
+        "prefix": "NASDAQ",
+        "groups": [
+          {
+            "group": "nasdaq_indices_delayed",
+            "priority": 10,
+            "perm": "nse_free",
+            "prefix_no_perm": [
+              "NASDAQ_EOD"
+            ],
+            "skip_in_search": false,
+            "prefix_alias": [
+              "NASDAQ_DLY",
+              "INDEX"
+            ]
+          },
+          {
+            "group": "nasdaq_idc",
+            "priority": 20,
+            "search_boost": 1.8,
+            "perm": "nasdaq",
+            "prefix_no_perm": [
+              "BATS"
+            ]
+          }
+        ]
+      },
+      {
         "prefix": "FX",
         "exchange_for_display": "FXCM",
         "groups": [
@@ -4012,25 +4103,6 @@
         ]
       },
       {
-        "prefix": "NASDAQ",
-        "groups": [
-          {
-            "group": "nasdaq_idc",
-            "priority": 20,
-            "search_boost": 1.8,
-            "perm": "nasdaq",
-            "prefix_no_perm": [
-              "BATS"
-            ]
-          },
-          {
-            "group": "nasdaq_indices_eod",
-            "priority": 100,
-            "skip_in_search": true
-          }
-        ]
-      },
-      {
         "prefix": "BINANCE",
         "skip_in_search": false,
         "groups": [
@@ -4084,12 +4156,20 @@
           {
             "group": "nyse_gif_indices_eod",
             "priority": 100,
-            "skip_in_search": true
+            "skip_in_search": false,
+            "prefix_alias": [
+              "NYSE_EOD",
+              "INDEX"
+            ]
           },
           {
             "group": "nyse_indices_eod",
             "priority": 100,
-            "skip_in_search": true
+            "skip_in_search": false,
+            "prefix_alias": [
+              "NYSE_EOD",
+              "INDEX"
+            ]
           }
         ]
       },
@@ -4731,6 +4811,16 @@
       },
       {
         "priority": 47,
+        "prefix": "NASDAQ_EOD",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "nasdaq_indices_eod"
+          }
+        ]
+      },
+      {
+        "priority": 47,
         "prefix": "SP_EOD",
         "skip_in_search": true,
         "groups": [
@@ -4744,26 +4834,38 @@
         "prefix": "INDEX",
         "groups": [
           {
-            "group": "dxy",
-            "search_boost": 2.0
-          },
-          {
             "group": "ind"
           },
           {
             "group": "spec"
           },
           {
-            "group": "russli"
-          },
-          {
-            "group": "nasdi"
-          },
-          {
-            "group": "nysei"
-          },
-          {
             "group": "custom_indices"
+          },
+          {
+            "group": "international_indices_eod",
+            "priority": 100,
+            "skip_in_search": false
+          },
+          {
+            "group": "dxy",
+            "priority": 300,
+            "skip_in_search": true
+          },
+          {
+            "group": "russli",
+            "priority": 300,
+            "skip_in_search": true
+          },
+          {
+            "group": "nasdi",
+            "priority": 300,
+            "skip_in_search": true
+          },
+          {
+            "group": "nysei",
+            "priority": 300,
+            "skip_in_search": true
           }
         ]
       },
@@ -5886,6 +5988,7 @@
         "prefix_no_perm": [
           "OMXRSE_DLY"
         ],
+        "skip_in_search": true,
         "prefix_alias": [
           "OMX"
         ],
@@ -5906,6 +6009,7 @@
         "prefix_no_perm": [
           "OMXTSE_DLY"
         ],
+        "skip_in_search": true,
         "prefix_alias": [
           "OMX"
         ],
@@ -5926,6 +6030,7 @@
         "prefix_no_perm": [
           "OMXVSE_DLY"
         ],
+        "skip_in_search": true,
         "prefix_alias": [
           "OMX"
         ],
@@ -5947,6 +6052,7 @@
         "prefix_no_perm": [
           "OMXBALTIC_DLY"
         ],
+        "skip_in_search": true,
         "prefix_alias": [
           "OMX"
         ],
@@ -5982,6 +6088,7 @@
       {
         "prefix": "OMXRSE_DLY",
         "perm": "nse_free",
+        "skip_in_search": true,
         "groups": [
           {
             "group": "riga_indices_delayed",
@@ -5996,6 +6103,7 @@
       {
         "prefix": "OMXTSE_DLY",
         "perm": "nse_free",
+        "skip_in_search": true,
         "groups": [
           {
             "group": "tallinn_indices_delayed",
@@ -6010,6 +6118,7 @@
       {
         "prefix": "OMXVSE_DLY",
         "perm": "nse_free",
+        "skip_in_search": true,
         "groups": [
           {
             "group": "vilnius_indices_delayed",
@@ -6028,6 +6137,7 @@
         "prefix_no_perm": [
           "OMXBALTIC_DLY"
         ],
+        "skip_in_search": true,
         "groups": [
           {
             "group": "baltic_indices_delayed"
@@ -6426,7 +6536,7 @@
         "prefix_no_perm": [
           "OSE_DLY"
         ],
-        "skip_in_search": true,
+        "skip_in_search": false,
         "groups": [
           {
             "group": "osaka_futures"
@@ -6864,9 +6974,27 @@
         "priority": 100,
         "prefix": "RUSSEL",
         "skip_in_search": true,
+        "prefix_alias": [
+          "RUSSEL_EOD",
+          "INDEX"
+        ],
         "groups": [
           {
             "group": "russel_indices_eod"
+          }
+        ]
+      },
+      {
+        "priority": 100,
+        "prefix": "RUSSELL",
+        "skip_in_search": false,
+        "prefix_alias": [
+          "RUSSELL_EOD",
+          "INDEX"
+        ],
+        "groups": [
+          {
+            "group": "russell_indices_eod"
           }
         ]
       },
