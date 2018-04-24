@@ -170,9 +170,6 @@
             "group": "nasdaq_indices_delayed",
             "priority": 10,
             "perm": "nse_free",
-            "prefix_no_perm": [
-              "NASDAQ_EOD"
-            ],
             "skip_in_search": false,
             "prefix_alias": [
               "NASDAQ_DLY",
@@ -3905,9 +3902,6 @@
             "group": "nasdaq_indices_delayed",
             "priority": 10,
             "perm": "nse_free",
-            "prefix_no_perm": [
-              "NASDAQ_EOD"
-            ],
             "skip_in_search": false,
             "prefix_alias": [
               "NASDAQ_DLY",
