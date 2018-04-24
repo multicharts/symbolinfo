@@ -834,16 +834,6 @@
         }
       },
       {
-        "id": "dxy",
-        "kinds": {
-          "rt": {
-            "prefix": "INDEX",
-            "priority": 47,
-            "search_boost": 2.0
-          }
-        }
-      },
-      {
         "id": "ind",
         "kinds": {
           "rt": {
@@ -854,33 +844,6 @@
       },
       {
         "id": "spec",
-        "kinds": {
-          "rt": {
-            "prefix": "INDEX",
-            "priority": 47
-          }
-        }
-      },
-      {
-        "id": "russli",
-        "kinds": {
-          "rt": {
-            "prefix": "INDEX",
-            "priority": 47
-          }
-        }
-      },
-      {
-        "id": "nasdi",
-        "kinds": {
-          "rt": {
-            "prefix": "INDEX",
-            "priority": 47
-          }
-        }
-      },
-      {
-        "id": "nysei",
         "kinds": {
           "rt": {
             "prefix": "INDEX",
@@ -3633,6 +3596,28 @@
         }
       },
       {
+        "id": "nasdaq_indices",
+        "kinds": {
+          "delay": {
+            "prefix": "NASDAQ",
+            "priority": 10,
+            "prefix_alias": [
+              "NASDAQ_DLY",
+              "INDEX"
+            ],
+            "skip_in_search": false,
+            "prefix_no_perm": [
+              "NASDAQ_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "NASDAQ_EOD",
+            "priority": 100,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "toronto_indices",
         "kinds": {
           "rt": {
@@ -3955,42 +3940,68 @@
         }
       },
       {
-        "id": "nasdaq_indices_eod",
+        "id": "nyse_gif_indices",
         "kinds": {
-          "rt": {
-            "prefix": "NASDAQ",
+          "eod": {
             "priority": 100,
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "nyse_gif_indices_eod",
-        "kinds": {
-          "rt": {
+            "prefix_alias": [
+              "INDEX",
+              "NYSE_EOD"
+            ],
             "prefix": "NYSE",
-            "priority": 100,
-            "skip_in_search": true
+            "skip_in_search": false
           }
         }
       },
       {
-        "id": "nyse_indices_eod",
+        "id": "nyse_indices",
         "kinds": {
-          "rt": {
+          "eod": {
+            "priority": 100,
+            "prefix_alias": [
+              "INDEX",
+              "NYSE_EOD"
+            ],
             "prefix": "NYSE",
-            "priority": 100,
-            "skip_in_search": true
+            "skip_in_search": false
           }
         }
       },
       {
-        "id": "russel_indices_eod",
+        "id": "russel_indices",
         "kinds": {
-          "rt": {
+          "eod": {
+            "priority": 100,
+            "prefix_alias": [
+              "INDEX",
+              "RUSSEL_EOD"
+            ],
             "prefix": "RUSSEL",
-            "priority": 100,
             "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "russell_indices",
+        "kinds": {
+          "eod": {
+            "priority": 100,
+            "prefix_alias": [
+              "INDEX",
+              "RUSSELL_EOD"
+            ],
+            "prefix": "RUSSELL",
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "international_indices",
+        "kinds": {
+          "eod": {
+            "priority": 100,
+            "prefix": "INDEX",
+            "skip_in_search": false
           }
         }
       },
@@ -4744,8 +4755,7 @@
             "prefix_no_perm": [
               "EGX_DLY"
             ],
-            "perm": "egx",
-            "skip_in_search": true
+            "perm": "egx"
           },
           "delay": {
             "priority": 280,
@@ -4764,8 +4774,7 @@
             "perm": "tadawul",
             "prefix_no_perm": [
               "TADAWUL_DLY"
-            ],
-            "skip_in_search": true
+            ]
           },
           "delay": {
             "priority": 281,
@@ -4784,8 +4793,7 @@
             "perm": "bahrain",
             "prefix_no_perm": [
               "BAHRAIN_DLY"
-            ],
-            "skip_in_search": true
+            ]
           },
           "delay": {
             "priority": 281,
@@ -4804,8 +4812,7 @@
             "prefix_no_perm": [
               "EGX_DLY"
             ],
-            "perm": "egx",
-            "skip_in_search": true
+            "perm": "egx"
           },
           "delay": {
             "priority": 281,
@@ -4824,8 +4831,7 @@
             "perm": "tadawul",
             "prefix_no_perm": [
               "TADAWUL_DLY"
-            ],
-            "skip_in_search": true
+            ]
           },
           "delay": {
             "priority": 286,
@@ -4844,13 +4850,52 @@
             "perm": "bahrain",
             "prefix_no_perm": [
               "BAHRAIN_DLY"
-            ],
-            "skip_in_search": true
+            ]
           },
           "delay": {
             "priority": 286,
             "prefix": "BAHRAIN_DLY",
             "perm": "sf_dly",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "dxy",
+        "kinds": {
+          "rt": {
+            "prefix": "INDEX",
+            "priority": 300,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "russli",
+        "kinds": {
+          "rt": {
+            "prefix": "INDEX",
+            "priority": 300,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "nasdi",
+        "kinds": {
+          "rt": {
+            "prefix": "INDEX",
+            "priority": 300,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "nysei",
+        "kinds": {
+          "rt": {
+            "prefix": "INDEX",
+            "priority": 300,
             "skip_in_search": true
           }
         }
