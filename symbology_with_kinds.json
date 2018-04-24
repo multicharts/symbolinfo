@@ -3605,10 +3605,7 @@
               "NASDAQ_DLY",
               "INDEX"
             ],
-            "skip_in_search": false,
-            "prefix_no_perm": [
-              "NASDAQ_EOD"
-            ]
+            "skip_in_search": false
           },
           "eod": {
             "prefix": "NASDAQ_EOD",
