@@ -2250,7 +2250,6 @@
         "prefix_no_perm": [
           "OMXRSE_DLY"
         ],
-        "skip_in_search": true,
         "prefix_alias": [
           "OMX"
         ],
@@ -2271,7 +2270,6 @@
         "prefix_no_perm": [
           "OMXTSE_DLY"
         ],
-        "skip_in_search": true,
         "prefix_alias": [
           "OMX"
         ],
@@ -2292,7 +2290,6 @@
         "prefix_no_perm": [
           "OMXVSE_DLY"
         ],
-        "skip_in_search": true,
         "prefix_alias": [
           "OMX"
         ],
@@ -2314,7 +2311,6 @@
         "prefix_no_perm": [
           "OMXBALTIC_DLY"
         ],
-        "skip_in_search": true,
         "prefix_alias": [
           "OMX"
         ],
@@ -5982,7 +5978,6 @@
         "prefix_no_perm": [
           "OMXRSE_DLY"
         ],
-        "skip_in_search": true,
         "prefix_alias": [
           "OMX"
         ],
@@ -6003,7 +5998,6 @@
         "prefix_no_perm": [
           "OMXTSE_DLY"
         ],
-        "skip_in_search": true,
         "prefix_alias": [
           "OMX"
         ],
@@ -6024,7 +6018,6 @@
         "prefix_no_perm": [
           "OMXVSE_DLY"
         ],
-        "skip_in_search": true,
         "prefix_alias": [
           "OMX"
         ],
@@ -6046,7 +6039,6 @@
         "prefix_no_perm": [
           "OMXBALTIC_DLY"
         ],
-        "skip_in_search": true,
         "prefix_alias": [
           "OMX"
         ],
