@@ -2707,7 +2707,8 @@
             "prefix_no_perm": [
               "OMXRSE_DLY"
             ],
-            "perm": "omx"
+            "perm": "omx",
+            "skip_in_search": true
           },
           "delay": {
             "priority": 63,
@@ -2728,7 +2729,8 @@
             "prefix_no_perm": [
               "OMXTSE_DLY"
             ],
-            "perm": "omx"
+            "perm": "omx",
+            "skip_in_search": true
           },
           "delay": {
             "priority": 63,
@@ -2749,7 +2751,8 @@
             "prefix_no_perm": [
               "OMXVSE_DLY"
             ],
-            "perm": "omx"
+            "perm": "omx",
+            "skip_in_search": true
           },
           "delay": {
             "priority": 63,
