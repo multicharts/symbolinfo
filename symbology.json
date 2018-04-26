@@ -2250,7 +2250,6 @@
         "prefix_no_perm": [
           "OMXRSE_DLY"
         ],
-        "skip_in_search": true,
         "prefix_alias": [
           "OMX"
         ],
@@ -2271,7 +2270,6 @@
         "prefix_no_perm": [
           "OMXTSE_DLY"
         ],
-        "skip_in_search": true,
         "prefix_alias": [
           "OMX"
         ],
@@ -2292,7 +2290,6 @@
         "prefix_no_perm": [
           "OMXVSE_DLY"
         ],
-        "skip_in_search": true,
         "prefix_alias": [
           "OMX"
         ],
@@ -2314,7 +2311,6 @@
         "prefix_no_perm": [
           "OMXBALTIC_DLY"
         ],
-        "skip_in_search": true,
         "prefix_alias": [
           "OMX"
         ],
@@ -2350,7 +2346,6 @@
       {
         "prefix": "OMXRSE_DLY",
         "perm": "nse_free",
-        "skip_in_search": true,
         "groups": [
           {
             "group": "riga_indices_delayed",
@@ -2365,7 +2360,6 @@
       {
         "prefix": "OMXTSE_DLY",
         "perm": "nse_free",
-        "skip_in_search": true,
         "groups": [
           {
             "group": "tallinn_indices_delayed",
@@ -2380,7 +2374,6 @@
       {
         "prefix": "OMXVSE_DLY",
         "perm": "nse_free",
-        "skip_in_search": true,
         "groups": [
           {
             "group": "vilnius_indices_delayed",
@@ -2399,7 +2392,6 @@
         "prefix_no_perm": [
           "OMXBALTIC_DLY"
         ],
-        "skip_in_search": true,
         "groups": [
           {
             "group": "baltic_indices_delayed"
@@ -5982,7 +5974,6 @@
         "prefix_no_perm": [
           "OMXRSE_DLY"
         ],
-        "skip_in_search": true,
         "prefix_alias": [
           "OMX"
         ],
@@ -6003,7 +5994,6 @@
         "prefix_no_perm": [
           "OMXTSE_DLY"
         ],
-        "skip_in_search": true,
         "prefix_alias": [
           "OMX"
         ],
@@ -6024,7 +6014,6 @@
         "prefix_no_perm": [
           "OMXVSE_DLY"
         ],
-        "skip_in_search": true,
         "prefix_alias": [
           "OMX"
         ],
@@ -6046,7 +6035,6 @@
         "prefix_no_perm": [
           "OMXBALTIC_DLY"
         ],
-        "skip_in_search": true,
         "prefix_alias": [
           "OMX"
         ],
@@ -6082,7 +6070,6 @@
       {
         "prefix": "OMXRSE_DLY",
         "perm": "nse_free",
-        "skip_in_search": true,
         "groups": [
           {
             "group": "riga_indices_delayed",
@@ -6097,7 +6084,6 @@
       {
         "prefix": "OMXTSE_DLY",
         "perm": "nse_free",
-        "skip_in_search": true,
         "groups": [
           {
             "group": "tallinn_indices_delayed",
@@ -6112,7 +6098,6 @@
       {
         "prefix": "OMXVSE_DLY",
         "perm": "nse_free",
-        "skip_in_search": true,
         "groups": [
           {
             "group": "vilnius_indices_delayed",
@@ -6131,7 +6116,6 @@
         "prefix_no_perm": [
           "OMXBALTIC_DLY"
         ],
-        "skip_in_search": true,
         "groups": [
           {
             "group": "baltic_indices_delayed"
