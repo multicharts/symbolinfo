@@ -3307,8 +3307,7 @@
             "prefix_no_perm": [
               "OMXRSE_DLY"
             ],
-            "perm": "omx",
-            "skip_in_search": true
+            "perm": "omx"
           }
         }
       },
@@ -3324,8 +3323,7 @@
             "prefix_no_perm": [
               "OMXTSE_DLY"
             ],
-            "perm": "omx",
-            "skip_in_search": true
+            "perm": "omx"
           }
         }
       },
@@ -3341,8 +3339,7 @@
             "prefix_no_perm": [
               "OMXVSE_DLY"
             ],
-            "perm": "omx",
-            "skip_in_search": true
+            "perm": "omx"
           }
         }
       },
@@ -3358,8 +3355,7 @@
             "prefix_no_perm": [
               "OMXBALTIC_DLY"
             ],
-            "perm": "omx",
-            "skip_in_search": true
+            "perm": "omx"
           }
         }
       },
@@ -3857,8 +3853,7 @@
             "prefix_no_perm": [
               "OMXRSE_DLY"
             ],
-            "perm": "omx",
-            "skip_in_search": true
+            "perm": "omx"
           }
         }
       },
@@ -3874,8 +3869,7 @@
             "prefix_no_perm": [
               "OMXTSE_DLY"
             ],
-            "perm": "omx",
-            "skip_in_search": true
+            "perm": "omx"
           }
         }
       },
@@ -3891,8 +3885,7 @@
             "prefix_no_perm": [
               "OMXVSE_DLY"
             ],
-            "perm": "omx",
-            "skip_in_search": true
+            "perm": "omx"
           }
         }
       },
