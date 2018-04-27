@@ -3149,6 +3149,21 @@
         ]
       },
       {
+        "priority": 85,
+        "prefix": "HOSE",
+        "prefix_no_perm": [
+          "HOSE_DLY"
+        ],
+        "groups": [
+          {
+            "group": "vietnam_stocks"
+          },
+          {
+            "group": "vietnam_indices"
+          }
+        ]
+      },
+      {
         "prefix": "BELEX",
         "prefix_no_perm": [
           "BELEX_DLY"
@@ -6880,6 +6895,21 @@
           },
           {
             "group": "otc_pink_delayed"
+          }
+        ]
+      },
+      {
+        "priority": 85,
+        "prefix": "HOSE",
+        "prefix_no_perm": [
+          "HOSE_DLY"
+        ],
+        "groups": [
+          {
+            "group": "vietnam_stocks"
+          },
+          {
+            "group": "vietnam_indices"
           }
         ]
       },
