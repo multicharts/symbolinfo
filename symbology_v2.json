@@ -4885,6 +4885,30 @@
         }
       },
       {
+        "id": "vietnam_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 85,
+            "prefix": "HOSE",
+            "prefix_no_perm": [
+              "HOSE_DLY"
+            ]
+          }
+        }
+      },
+      {
+        "id": "vietnam_indices",
+        "kinds": {
+          "rt": {
+            "priority": 85,
+            "prefix": "HOSE",
+            "prefix_no_perm": [
+              "HOSE_DLY"
+            ]
+          }
+        }
+      },
+      {
         "id": "saudi_stocks_delayed",
         "kinds": {
           "rt": {
