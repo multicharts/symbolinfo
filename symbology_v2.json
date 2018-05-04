@@ -4101,21 +4101,6 @@
         }
       },
       {
-        "id": "vienna_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "VIE",
-            "priority": 70,
-            "prefix_no_perm": [
-              "VIE_DLY"
-            ],
-            "prefix_alias": [
-              "WB"
-            ]
-          }
-        }
-      },
-      {
         "id": "warsaw_indices",
         "kinds": {
           "rt": {
@@ -4197,18 +4182,6 @@
         }
       },
       {
-        "id": "vienna_indices_delayed",
-        "kinds": {
-          "rt": {
-            "prefix": "VIE_DLY",
-            "priority": 71,
-            "prefix_alias": [
-              "WB_DLY"
-            ]
-          }
-        }
-      },
-      {
         "id": "warsaw_indices_delayed",
         "kinds": {
           "rt": {
@@ -4255,21 +4228,6 @@
             "prefix": "TASE_DLY",
             "priority": 74,
             "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "vienna_stocks",
-        "kinds": {
-          "rt": {
-            "prefix": "VIE",
-            "priority": 75,
-            "prefix_no_perm": [
-              "VIE_DLY"
-            ],
-            "prefix_alias": [
-              "WB"
-            ]
           }
         }
       },
@@ -4329,18 +4287,6 @@
             "priority": 75,
             "prefix_no_perm": [
               "TASE_DLY"
-            ]
-          }
-        }
-      },
-      {
-        "id": "vienna_stocks_delayed",
-        "kinds": {
-          "rt": {
-            "prefix": "VIE_DLY",
-            "priority": 76,
-            "prefix_alias": [
-              "WB_DLY"
             ]
           }
         }
@@ -5086,6 +5032,20 @@
             "prefix_alias": [
               "INDEX",
               "RUSSELL_EOD"
+            ]
+          }
+        }
+      },
+      {
+        "id": "cboe_russell_indices_eod",
+        "kinds": {
+          "rt": {
+            "prefix": "CBOE",
+            "priority": 100,
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX",
+              "CBOE_EOD"
             ]
           }
         }
