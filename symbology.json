@@ -118,6 +118,7 @@
       },
       {
         "prefix": "CBOE",
+        "skip_in_search": false,
         "groups": [
           {
             "group": "cboe_indices_delayed",
@@ -125,10 +126,17 @@
             "prefix_no_perm": [
               "CBOE_EOD"
             ],
-            "skip_in_search": false,
             "prefix_alias": [
               "CBOE_DLY",
               "INDEX"
+            ]
+          },
+          {
+            "group": "cboe_russell_indices_eod",
+            "priority": 100,
+            "prefix_alias": [
+              "INDEX",
+              "CBOE_EOD"
             ]
           },
           {
@@ -1621,36 +1629,16 @@
         ]
       },
       {
+        "priority": 50,
         "prefix": "VIE",
+        "perm": "permission_denied",
+        "prefix_no_perm": [
+          "CHXEUR"
+        ],
+        "skip_in_search": true,
         "groups": [
           {
-            "group": "vienna",
-            "priority": 50,
-            "perm": "permission_denied",
-            "prefix_no_perm": [
-              "CHXEUR"
-            ],
-            "skip_in_search": true
-          },
-          {
-            "group": "vienna_indices",
-            "priority": 70,
-            "prefix_no_perm": [
-              "VIE_DLY"
-            ],
-            "prefix_alias": [
-              "WB"
-            ]
-          },
-          {
-            "group": "vienna_stocks",
-            "priority": 75,
-            "prefix_no_perm": [
-              "VIE_DLY"
-            ],
-            "prefix_alias": [
-              "WB"
-            ]
+            "group": "vienna"
           }
         ]
       },
@@ -2749,22 +2737,6 @@
           {
             "group": "colombia_stocks_delayed",
             "priority": 71
-          }
-        ]
-      },
-      {
-        "prefix": "VIE_DLY",
-        "prefix_alias": [
-          "WB_DLY"
-        ],
-        "groups": [
-          {
-            "group": "vienna_indices_delayed",
-            "priority": 71
-          },
-          {
-            "group": "vienna_stocks_delayed",
-            "priority": 76
           }
         ]
       },
@@ -3868,6 +3840,7 @@
       },
       {
         "prefix": "CBOE",
+        "skip_in_search": false,
         "groups": [
           {
             "group": "cboe_indices_delayed",
@@ -3875,10 +3848,17 @@
             "prefix_no_perm": [
               "CBOE_EOD"
             ],
-            "skip_in_search": false,
             "prefix_alias": [
               "CBOE_DLY",
               "INDEX"
+            ]
+          },
+          {
+            "group": "cboe_russell_indices_eod",
+            "priority": 100,
+            "prefix_alias": [
+              "INDEX",
+              "CBOE_EOD"
             ]
           },
           {
@@ -5371,36 +5351,16 @@
         ]
       },
       {
+        "priority": 50,
         "prefix": "VIE",
+        "perm": "permission_denied",
+        "prefix_no_perm": [
+          "CHXEUR"
+        ],
+        "skip_in_search": true,
         "groups": [
           {
-            "group": "vienna",
-            "priority": 50,
-            "perm": "permission_denied",
-            "prefix_no_perm": [
-              "CHXEUR"
-            ],
-            "skip_in_search": true
-          },
-          {
-            "group": "vienna_indices",
-            "priority": 70,
-            "prefix_no_perm": [
-              "VIE_DLY"
-            ],
-            "prefix_alias": [
-              "WB"
-            ]
-          },
-          {
-            "group": "vienna_stocks",
-            "priority": 75,
-            "prefix_no_perm": [
-              "VIE_DLY"
-            ],
-            "prefix_alias": [
-              "WB"
-            ]
+            "group": "vienna"
           }
         ]
       },
@@ -6499,22 +6459,6 @@
           {
             "group": "colombia_stocks_delayed",
             "priority": 71
-          }
-        ]
-      },
-      {
-        "prefix": "VIE_DLY",
-        "prefix_alias": [
-          "WB_DLY"
-        ],
-        "groups": [
-          {
-            "group": "vienna_indices_delayed",
-            "priority": 71
-          },
-          {
-            "group": "vienna_stocks_delayed",
-            "priority": 76
           }
         ]
       },
