@@ -474,7 +474,7 @@
         }
       },
       {
-        "id": "euronext_non_primary_burssels_indices",
+        "id": "euronext_non_primary_brussels_indices",
         "kinds": {
           "rt": {
             "priority": 39,
@@ -2938,28 +2938,6 @@
         }
       },
       {
-        "id": "vienna_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "VIE",
-            "priority": 70,
-            "prefix_no_perm": [
-              "VIE_DLY"
-            ],
-            "prefix_alias": [
-              "WB"
-            ]
-          },
-          "delay": {
-            "prefix": "VIE_DLY",
-            "priority": 71,
-            "prefix_alias": [
-              "WB_DLY"
-            ]
-          }
-        }
-      },
-      {
         "id": "warsaw_indices",
         "kinds": {
           "rt": {
@@ -3005,28 +2983,6 @@
           "delay": {
             "prefix": "TASE_DLY",
             "priority": 74
-          }
-        }
-      },
-      {
-        "id": "vienna_stocks",
-        "kinds": {
-          "rt": {
-            "prefix": "VIE",
-            "priority": 75,
-            "prefix_no_perm": [
-              "VIE_DLY"
-            ],
-            "prefix_alias": [
-              "WB"
-            ]
-          },
-          "delay": {
-            "prefix": "VIE_DLY",
-            "priority": 76,
-            "prefix_alias": [
-              "WB_DLY"
-            ]
           }
         }
       },
@@ -3975,6 +3931,20 @@
               "RUSSELL_EOD"
             ],
             "prefix": "RUSSELL",
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "cboe_russell_indices",
+        "kinds": {
+          "eod": {
+            "priority": 100,
+            "prefix_alias": [
+              "INDEX",
+              "CBOE_EOD"
+            ],
+            "prefix": "CBOE",
             "skip_in_search": false
           }
         }
