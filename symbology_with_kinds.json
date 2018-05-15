@@ -141,6 +141,16 @@
         }
       },
       {
+        "id": "south_africa_tvc_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 10,
+            "search_boost": 2.0
+          }
+        }
+      },
+      {
         "id": "fxcm",
         "kinds": {
           "rt": {
