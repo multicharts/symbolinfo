@@ -62,6 +62,9 @@
             "group": "singapore_tvc_indices"
           },
           {
+            "group": "south_africa_tvc_indices"
+          },
+          {
             "group": "government_bonds",
             "priority": 20
           },
@@ -3782,6 +3785,9 @@
           },
           {
             "group": "singapore_tvc_indices"
+          },
+          {
+            "group": "south_africa_tvc_indices"
           },
           {
             "group": "government_bonds",
