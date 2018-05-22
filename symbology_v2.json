@@ -5165,6 +5165,32 @@
         }
       },
       {
+        "id": "vietnam_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 85,
+            "prefix": "HOSE",
+            "prefix_no_perm": [
+              "HOSE_DLY"
+            ],
+            "perm": "hose"
+          }
+        }
+      },
+      {
+        "id": "vietnam_indices",
+        "kinds": {
+          "rt": {
+            "priority": 85,
+            "prefix": "HOSE",
+            "prefix_no_perm": [
+              "HOSE_DLY"
+            ],
+            "perm": "hose"
+          }
+        }
+      },
+      {
         "id": "saudi_stocks_delayed",
         "kinds": {
           "rt": {
@@ -5203,6 +5229,24 @@
             "priority": 86,
             "prefix": "QSE_DLY",
             "perm": "sf_dly"
+          }
+        }
+      },
+      {
+        "id": "vietnam_stocks_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 86,
+            "prefix": "HOSE_DLY"
+          }
+        }
+      },
+      {
+        "id": "vietnam_indices_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 86,
+            "prefix": "HOSE_DLY"
           }
         }
       },
