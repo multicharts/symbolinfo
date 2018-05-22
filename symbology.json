@@ -3288,6 +3288,34 @@
         ]
       },
       {
+        "priority": 85,
+        "prefix": "HOSE",
+        "perm": "hose",
+        "prefix_no_perm": [
+          "HOSE_DLY"
+        ],
+        "groups": [
+          {
+            "group": "vietnam_stocks"
+          },
+          {
+            "group": "vietnam_indices"
+          }
+        ]
+      },
+      {
+        "priority": 86,
+        "prefix": "HOSE_DLY",
+        "groups": [
+          {
+            "group": "vietnam_stocks_delayed"
+          },
+          {
+            "group": "vietnam_indices_delayed"
+          }
+        ]
+      },
+      {
         "prefix": "BELEX",
         "perm": "belex",
         "prefix_no_perm": [
@@ -7156,6 +7184,34 @@
           },
           {
             "group": "otc_pink_delayed"
+          }
+        ]
+      },
+      {
+        "priority": 85,
+        "prefix": "HOSE",
+        "perm": "hose",
+        "prefix_no_perm": [
+          "HOSE_DLY"
+        ],
+        "groups": [
+          {
+            "group": "vietnam_stocks"
+          },
+          {
+            "group": "vietnam_indices"
+          }
+        ]
+      },
+      {
+        "priority": 86,
+        "prefix": "HOSE_DLY",
+        "groups": [
+          {
+            "group": "vietnam_stocks_delayed"
+          },
+          {
+            "group": "vietnam_indices_delayed"
           }
         ]
       },
