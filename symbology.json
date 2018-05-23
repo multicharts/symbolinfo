@@ -1074,6 +1074,18 @@
         ]
       },
       {
+        "priority": 45,
+        "prefix": "MILSEDEX",
+        "prefix_no_perm": [
+          "MILSEDEX_DLY"
+        ],
+        "groups": [
+          {
+            "group": "milan_sedex"
+          }
+        ]
+      },
+      {
         "prefix": "XETR",
         "prefix_no_perm": [
           "XETR_DLY"
@@ -2165,6 +2177,18 @@
       },
       {
         "priority": 55,
+        "prefix": "MILSEDEX_DLY",
+        "prefix_no_perm": [
+          "MILSEDEX_EOD"
+        ],
+        "groups": [
+          {
+            "group": "milan_sedex_delayed"
+          }
+        ]
+      },
+      {
+        "priority": 55,
         "prefix": "FWB_DLY",
         "prefix_alias": [
           "FRA_DLY"
@@ -2621,6 +2645,16 @@
           },
           {
             "group": "nzx_continuous"
+          }
+        ]
+      },
+      {
+        "priority": 65,
+        "prefix": "MILSEDEX_EOD",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "milan_sedex_eod"
           }
         ]
       },
@@ -4799,6 +4833,18 @@
         ]
       },
       {
+        "priority": 45,
+        "prefix": "MILSEDEX",
+        "prefix_no_perm": [
+          "MILSEDEX_DLY"
+        ],
+        "groups": [
+          {
+            "group": "milan_sedex"
+          }
+        ]
+      },
+      {
         "prefix": "XETR",
         "prefix_no_perm": [
           "XETR_DLY"
@@ -5890,6 +5936,18 @@
       },
       {
         "priority": 55,
+        "prefix": "MILSEDEX_DLY",
+        "prefix_no_perm": [
+          "MILSEDEX_EOD"
+        ],
+        "groups": [
+          {
+            "group": "milan_sedex_delayed"
+          }
+        ]
+      },
+      {
+        "priority": 55,
         "prefix": "FWB_DLY",
         "prefix_alias": [
           "FRA_DLY"
@@ -6346,6 +6404,16 @@
           },
           {
             "group": "nzx_continuous"
+          }
+        ]
+      },
+      {
+        "priority": 65,
+        "prefix": "MILSEDEX_EOD",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "milan_sedex_eod"
           }
         ]
       },
