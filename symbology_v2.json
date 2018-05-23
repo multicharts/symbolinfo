@@ -1155,6 +1155,18 @@
         }
       },
       {
+        "id": "milan_sedex",
+        "kinds": {
+          "rt": {
+            "priority": 45,
+            "prefix": "MILSEDEX",
+            "prefix_no_perm": [
+              "MILSEDEX_DLY"
+            ]
+          }
+        }
+      },
+      {
         "id": "xetra_indices",
         "kinds": {
           "rt": {
@@ -3024,6 +3036,18 @@
         }
       },
       {
+        "id": "milan_sedex_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 55,
+            "prefix": "MILSEDEX_DLY",
+            "prefix_no_perm": [
+              "MILSEDEX_EOD"
+            ]
+          }
+        }
+      },
+      {
         "id": "frankfurt_stocks_delayed",
         "kinds": {
           "rt": {
@@ -4059,6 +4083,16 @@
             "prefix_no_perm": [
               "NZX_DLY"
             ]
+          }
+        }
+      },
+      {
+        "id": "milan_sedex_eod",
+        "kinds": {
+          "rt": {
+            "priority": 65,
+            "prefix": "MILSEDEX_EOD",
+            "skip_in_search": true
           }
         }
       },
