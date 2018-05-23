@@ -2793,6 +2793,30 @@
         }
       },
       {
+        "id": "milan_sedex",
+        "kinds": {
+          "rt": {
+            "priority": 45,
+            "prefix": "MILSEDEX",
+            "prefix_no_perm": [
+              "MILSEDEX_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 55,
+            "prefix": "MILSEDEX_DLY",
+            "prefix_no_perm": [
+              "MILSEDEX_EOD"
+            ]
+          },
+          "eod": {
+            "priority": 65,
+            "prefix": "MILSEDEX_EOD",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "asx_indices",
         "kinds": {
           "rt": {
