@@ -3739,7 +3739,7 @@
             "prefix_no_perm": [
               "HOSE_DLY"
             ],
-            "perm": "hose"
+            "perm": "hose_stocks"
           },
           "delay": {
             "priority": 86,
@@ -3756,7 +3756,7 @@
             "prefix_no_perm": [
               "HOSE_DLY"
             ],
-            "perm": "hose",
+            "perm": "hose_indices",
             "prefix_alias": [
               "INDEX"
             ]
