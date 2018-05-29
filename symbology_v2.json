@@ -5184,7 +5184,7 @@
             "prefix_no_perm": [
               "HOSE_DLY"
             ],
-            "perm": "hose"
+            "perm": "hose_stocks"
           }
         }
       },
@@ -5197,7 +5197,7 @@
             "prefix_no_perm": [
               "HOSE_DLY"
             ],
-            "perm": "hose"
+            "perm": "hose_indices"
           }
         }
       },
