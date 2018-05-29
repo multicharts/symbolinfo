@@ -3294,16 +3294,17 @@
       {
         "priority": 85,
         "prefix": "HOSE",
-        "perm": "hose",
         "prefix_no_perm": [
           "HOSE_DLY"
         ],
         "groups": [
           {
-            "group": "vietnam_stocks"
+            "group": "vietnam_stocks",
+            "perm": "hose_stocks"
           },
           {
-            "group": "vietnam_indices"
+            "group": "vietnam_indices",
+            "perm": "hose_indices"
           }
         ]
       },
@@ -7198,16 +7199,17 @@
       {
         "priority": 85,
         "prefix": "HOSE",
-        "perm": "hose",
         "prefix_no_perm": [
           "HOSE_DLY"
         ],
         "groups": [
           {
-            "group": "vietnam_stocks"
+            "group": "vietnam_stocks",
+            "perm": "hose_stocks"
           },
           {
-            "group": "vietnam_indices"
+            "group": "vietnam_indices",
+            "perm": "hose_indices"
           }
         ]
       },
