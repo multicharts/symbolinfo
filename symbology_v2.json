@@ -431,6 +431,16 @@
         }
       },
       {
+        "id": "ibroker",
+        "kinds": {
+          "rt": {
+            "prefix": "IBROKER",
+            "priority": 20,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "government_bonds",
         "kinds": {
           "rt": {
