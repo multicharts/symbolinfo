@@ -274,7 +274,6 @@
           "rt": {
             "prefix": "FOREXCOM",
             "priority": 12,
-            "hide_in_search": true,
             "exchange_for_display": "FOREX.com",
             "perm": "permission_denied",
             "prefix_no_perm": [
@@ -452,6 +451,7 @@
           "rt": {
             "prefix": "IBROKER",
             "priority": 20,
+            "hide_in_search": true,
             "skip_in_search": false
           }
         }
