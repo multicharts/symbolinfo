@@ -232,6 +232,25 @@
         ]
       },
       {
+        "prefix": "FOREXCOM",
+        "exchange_for_display": "FOREX.com",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "gain_discontinued",
+            "priority": 12,
+            "perm": "permission_denied",
+            "prefix_no_perm": [
+              "OANDA"
+            ]
+          },
+          {
+            "group": "gain",
+            "priority": 13
+          }
+        ]
+      },
+      {
         "priority": 12,
         "prefix": "BITSTAMP",
         "groups": [
@@ -281,17 +300,6 @@
         "groups": [
           {
             "group": "frbny"
-          }
-        ]
-      },
-      {
-        "priority": 13,
-        "prefix": "FOREXCOM",
-        "exchange_for_display": "FOREX.com",
-        "skip_in_search": false,
-        "groups": [
-          {
-            "group": "gain"
           }
         ]
       },
@@ -4001,6 +4009,25 @@
         ]
       },
       {
+        "prefix": "FOREXCOM",
+        "exchange_for_display": "FOREX.com",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "gain_discontinued",
+            "priority": 12,
+            "perm": "permission_denied",
+            "prefix_no_perm": [
+              "OANDA"
+            ]
+          },
+          {
+            "group": "gain",
+            "priority": 13
+          }
+        ]
+      },
+      {
         "priority": 12,
         "prefix": "BITSTAMP",
         "groups": [
@@ -4050,17 +4077,6 @@
         "groups": [
           {
             "group": "frbny"
-          }
-        ]
-      },
-      {
-        "priority": 13,
-        "prefix": "FOREXCOM",
-        "exchange_for_display": "FOREX.com",
-        "skip_in_search": false,
-        "groups": [
-          {
-            "group": "gain"
           }
         ]
       },
