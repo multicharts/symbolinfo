@@ -269,6 +269,21 @@
         }
       },
       {
+        "id": "gain_discontinued",
+        "kinds": {
+          "rt": {
+            "prefix": "FOREXCOM",
+            "priority": 12,
+            "exchange_for_display": "FOREX.com",
+            "perm": "permission_denied",
+            "prefix_no_perm": [
+              "OANDA"
+            ],
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "bitstamp",
         "kinds": {
           "rt": {
