@@ -280,7 +280,7 @@
         }
       },
       {
-        "id": "gain",
+        "id": "gain2",
         "kinds": {
           "rt": {
             "prefix": "FOREXCOM",
