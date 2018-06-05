@@ -275,11 +275,11 @@
             "prefix": "FOREXCOM",
             "priority": 12,
             "exchange_for_display": "FOREX.com",
+            "skip_in_search": false,
             "perm": "permission_denied",
             "prefix_no_perm": [
               "OANDA"
-            ],
-            "skip_in_search": false
+            ]
           }
         }
       },
