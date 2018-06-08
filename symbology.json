@@ -312,17 +312,6 @@
       },
       {
         "priority": 14,
-        "prefix": "FOREXCOM2",
-        "exchange_for_display": "FOREX.com",
-        "skip_in_search": false,
-        "groups": [
-          {
-            "group": "gain2"
-          }
-        ]
-      },
-      {
-        "priority": 14,
         "prefix": "BITTREX",
         "skip_in_search": false,
         "groups": [
@@ -4231,17 +4220,6 @@
             "prefix_no_perm": [
               "OANDA"
             ]
-          }
-        ]
-      },
-      {
-        "priority": 14,
-        "prefix": "FOREXCOM2",
-        "exchange_for_display": "FOREX.com",
-        "skip_in_search": false,
-        "groups": [
-          {
-            "group": "gain2"
           }
         ]
       },
