@@ -21,6 +21,14 @@
         }
       },
       {
+        "id": "xtv_crypto",
+        "kinds": {
+          "rt": {
+            "prefix": "TV_CRYPTO"
+          }
+        }
+      },
+      {
         "id": "forex_tvc",
         "kinds": {
           "rt": {
