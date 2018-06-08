@@ -375,17 +375,6 @@
         }
       },
       {
-        "id": "gain2",
-        "kinds": {
-          "rt": {
-            "prefix": "FOREXCOM2",
-            "priority": 14,
-            "exchange_for_display": "FOREX.com",
-            "skip_in_search": false
-          }
-        }
-      },
-      {
         "id": "bittrex",
         "kinds": {
           "rt": {
