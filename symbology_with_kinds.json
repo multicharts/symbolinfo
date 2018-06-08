@@ -289,6 +289,21 @@
         }
       },
       {
+        "id": "gain_discontinued",
+        "kinds": {
+          "rt": {
+            "prefix": "FOREXCOM",
+            "priority": 14,
+            "exchange_for_display": "FOREX.com",
+            "skip_in_search": false,
+            "perm": "permission_denied",
+            "prefix_no_perm": [
+              "OANDA"
+            ]
+          }
+        }
+      },
+      {
         "id": "bittrex",
         "kinds": {
           "rt": {
