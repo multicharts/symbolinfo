@@ -292,13 +292,21 @@
         ]
       },
       {
-        "priority": 13,
         "prefix": "FOREXCOM",
         "exchange_for_display": "FOREX.com",
         "skip_in_search": false,
         "groups": [
           {
-            "group": "gain"
+            "group": "gain",
+            "priority": 13
+          },
+          {
+            "group": "gain_discontinued",
+            "priority": 14,
+            "perm": "permission_denied",
+            "prefix_no_perm": [
+              "OANDA"
+            ]
           }
         ]
       },
@@ -4024,13 +4032,21 @@
         ]
       },
       {
-        "priority": 13,
         "prefix": "FOREXCOM",
         "exchange_for_display": "FOREX.com",
         "skip_in_search": false,
         "groups": [
           {
-            "group": "gain"
+            "group": "gain",
+            "priority": 13
+          },
+          {
+            "group": "gain_discontinued",
+            "priority": 14,
+            "perm": "permission_denied",
+            "prefix_no_perm": [
+              "OANDA"
+            ]
           }
         ]
       },
