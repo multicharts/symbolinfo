@@ -21,6 +21,14 @@
         ]
       },
       {
+        "prefix": "TV_CRYPTO",
+        "groups": [
+          {
+            "group": "xtv_crypto"
+          }
+        ]
+      },
+      {
         "priority": 10,
         "search_boost": 2.0,
         "prefix": "TVC",
@@ -3930,6 +3938,14 @@
         "groups": [
           {
             "group": "edgar_fundamentals"
+          }
+        ]
+      },
+      {
+        "prefix": "TV_CRYPTO",
+        "groups": [
+          {
+            "group": "xtv_crypto"
           }
         ]
       },
