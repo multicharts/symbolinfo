@@ -5657,7 +5657,7 @@
         "id": "cfe",
         "kinds": {
           "rt": {
-            "prefix": "CBOE",
+            "prefix": "BC_CBOE",
             "priority": 130
           }
         }
@@ -5666,7 +5666,7 @@
         "id": "cfe_continuous_2",
         "kinds": {
           "rt": {
-            "prefix": "CBOE",
+            "prefix": "BC_CBOE",
             "priority": 131
           }
         }
@@ -5675,7 +5675,7 @@
         "id": "cfe_continuous",
         "kinds": {
           "rt": {
-            "prefix": "CBOE",
+            "prefix": "BC_CBOE",
             "priority": 131
           }
         }
@@ -5684,7 +5684,7 @@
         "id": "kcbt",
         "kinds": {
           "rt": {
-            "prefix": "KCBT",
+            "prefix": "BC_KCBT",
             "priority": 180
           }
         }
@@ -5693,7 +5693,7 @@
         "id": "kcbt_continuous_2",
         "kinds": {
           "rt": {
-            "prefix": "KCBT",
+            "prefix": "BC_KCBT",
             "priority": 181
           }
         }
@@ -5702,7 +5702,7 @@
         "id": "kcbt_continuous",
         "kinds": {
           "rt": {
-            "prefix": "KCBT",
+            "prefix": "BC_KCBT",
             "priority": 181
           }
         }
@@ -5721,7 +5721,7 @@
         "id": "iceus",
         "kinds": {
           "rt": {
-            "prefix": "ICEUSA",
+            "prefix": "BC_ICEUSA",
             "priority": 200
           }
         }
@@ -5730,7 +5730,7 @@
         "id": "iceus_continuous_2",
         "kinds": {
           "rt": {
-            "prefix": "ICEUSA",
+            "prefix": "BC_ICEUSA",
             "priority": 201
           }
         }
@@ -5739,7 +5739,7 @@
         "id": "iceus_continuous",
         "kinds": {
           "rt": {
-            "prefix": "ICEUSA",
+            "prefix": "BC_ICEUSA",
             "priority": 201
           }
         }
@@ -5748,7 +5748,7 @@
         "id": "ice",
         "kinds": {
           "rt": {
-            "prefix": "ICEEUR",
+            "prefix": "BC_ICEEUR",
             "priority": 210
           }
         }
@@ -5757,7 +5757,7 @@
         "id": "ice_continuous_2",
         "kinds": {
           "rt": {
-            "prefix": "ICEEUR",
+            "prefix": "BC_ICEEUR",
             "priority": 211
           }
         }
@@ -5766,7 +5766,7 @@
         "id": "ice_continuous",
         "kinds": {
           "rt": {
-            "prefix": "ICEEUR",
+            "prefix": "BC_ICEEUR",
             "priority": 211
           }
         }
@@ -5775,7 +5775,7 @@
         "id": "mgex",
         "kinds": {
           "rt": {
-            "prefix": "MGEX",
+            "prefix": "BC_MGEX",
             "priority": 220
           }
         }
@@ -5784,7 +5784,7 @@
         "id": "mgex_continuous_2",
         "kinds": {
           "rt": {
-            "prefix": "MGEX",
+            "prefix": "BC_MGEX",
             "priority": 221
           }
         }
@@ -5793,7 +5793,7 @@
         "id": "mgex_continuous",
         "kinds": {
           "rt": {
-            "prefix": "MGEX",
+            "prefix": "BC_MGEX",
             "priority": 221
           }
         }
@@ -5802,7 +5802,7 @@
         "id": "eurex",
         "kinds": {
           "rt": {
-            "prefix": "EUREX",
+            "prefix": "BC_EUREX",
             "priority": 240
           }
         }
@@ -5811,7 +5811,7 @@
         "id": "eurex_continuous_2",
         "kinds": {
           "rt": {
-            "prefix": "EUREX",
+            "prefix": "BC_EUREX",
             "priority": 241
           }
         }
@@ -5820,7 +5820,7 @@
         "id": "eurex_continuous",
         "kinds": {
           "rt": {
-            "prefix": "EUREX",
+            "prefix": "BC_EUREX",
             "priority": 241
           }
         }
