@@ -149,6 +149,24 @@
               "INDEX",
               "CBOE_EOD"
             ]
+          },
+          {
+            "group": "cfe_continuous_2",
+            "priority": 300,
+            "perm": "permission_denied",
+            "skip_in_search": true
+          },
+          {
+            "group": "cfe_continuous",
+            "priority": 300,
+            "perm": "permission_denied",
+            "skip_in_search": true
+          },
+          {
+            "group": "cfe",
+            "priority": 300,
+            "perm": "permission_denied",
+            "skip_in_search": true
           }
         ]
       },
@@ -3645,114 +3663,12 @@
         ]
       },
       {
-        "prefix": "BC_CBOE",
-        "groups": [
-          {
-            "group": "cfe",
-            "priority": 130
-          },
-          {
-            "group": "cfe_continuous_2",
-            "priority": 131
-          },
-          {
-            "group": "cfe_continuous",
-            "priority": 131
-          }
-        ]
-      },
-      {
-        "prefix": "BC_KCBT",
-        "groups": [
-          {
-            "group": "kcbt",
-            "priority": 180
-          },
-          {
-            "group": "kcbt_continuous_2",
-            "priority": 181
-          },
-          {
-            "group": "kcbt_continuous",
-            "priority": 181
-          }
-        ]
-      },
-      {
         "priority": 200,
         "prefix": "RUSSEL",
         "skip_in_search": true,
         "groups": [
           {
             "group": "russel_indices_eod"
-          }
-        ]
-      },
-      {
-        "prefix": "BC_ICEUSA",
-        "groups": [
-          {
-            "group": "iceus",
-            "priority": 200
-          },
-          {
-            "group": "iceus_continuous_2",
-            "priority": 201
-          },
-          {
-            "group": "iceus_continuous",
-            "priority": 201
-          }
-        ]
-      },
-      {
-        "prefix": "BC_ICEEUR",
-        "groups": [
-          {
-            "group": "ice",
-            "priority": 210
-          },
-          {
-            "group": "ice_continuous_2",
-            "priority": 211
-          },
-          {
-            "group": "ice_continuous",
-            "priority": 211
-          }
-        ]
-      },
-      {
-        "prefix": "BC_MGEX",
-        "groups": [
-          {
-            "group": "mgex",
-            "priority": 220
-          },
-          {
-            "group": "mgex_continuous_2",
-            "priority": 221
-          },
-          {
-            "group": "mgex_continuous",
-            "priority": 221
-          }
-        ]
-      },
-      {
-        "prefix": "BC_EUREX",
-        "groups": [
-          {
-            "group": "eurex",
-            "priority": 240
-          },
-          {
-            "group": "eurex_continuous_2",
-            "priority": 241
-          },
-          {
-            "group": "eurex_continuous",
-            "priority": 241
           }
         ]
       },
@@ -3784,6 +3700,91 @@
           {
             "group": "luxembourg_stocks_delayed",
             "priority": 271
+          }
+        ]
+      },
+      {
+        "priority": 300,
+        "prefix": "EUREX",
+        "perm": "permission_denied",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "eurex_continuous_2"
+          },
+          {
+            "group": "eurex_continuous"
+          },
+          {
+            "group": "eurex"
+          }
+        ]
+      },
+      {
+        "priority": 300,
+        "prefix": "ICEEUR",
+        "perm": "permission_denied",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "ice_continuous_2"
+          },
+          {
+            "group": "ice_continuous"
+          },
+          {
+            "group": "ice"
+          }
+        ]
+      },
+      {
+        "priority": 300,
+        "prefix": "ICEUSA",
+        "perm": "permission_denied",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "iceus_continuous_2"
+          },
+          {
+            "group": "iceus_continuous"
+          },
+          {
+            "group": "iceus"
+          }
+        ]
+      },
+      {
+        "priority": 300,
+        "prefix": "KCBT",
+        "perm": "permission_denied",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "kcbt_continuous_2"
+          },
+          {
+            "group": "kcbt_continuous"
+          },
+          {
+            "group": "kcbt"
+          }
+        ]
+      },
+      {
+        "priority": 300,
+        "prefix": "MGEX",
+        "perm": "permission_denied",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "mgex_continuous_2"
+          },
+          {
+            "group": "mgex_continuous"
+          },
+          {
+            "group": "mgex"
           }
         ]
       }
@@ -3939,6 +3940,24 @@
               "INDEX",
               "CBOE_EOD"
             ]
+          },
+          {
+            "group": "cfe_continuous_2",
+            "priority": 300,
+            "perm": "permission_denied",
+            "skip_in_search": true
+          },
+          {
+            "group": "cfe_continuous",
+            "priority": 300,
+            "perm": "permission_denied",
+            "skip_in_search": true
+          },
+          {
+            "group": "cfe",
+            "priority": 300,
+            "perm": "permission_denied",
+            "skip_in_search": true
           }
         ]
       },
@@ -7435,114 +7454,12 @@
         ]
       },
       {
-        "prefix": "BC_CBOE",
-        "groups": [
-          {
-            "group": "cfe",
-            "priority": 130
-          },
-          {
-            "group": "cfe_continuous_2",
-            "priority": 131
-          },
-          {
-            "group": "cfe_continuous",
-            "priority": 131
-          }
-        ]
-      },
-      {
-        "prefix": "BC_KCBT",
-        "groups": [
-          {
-            "group": "kcbt",
-            "priority": 180
-          },
-          {
-            "group": "kcbt_continuous_2",
-            "priority": 181
-          },
-          {
-            "group": "kcbt_continuous",
-            "priority": 181
-          }
-        ]
-      },
-      {
         "priority": 200,
         "prefix": "RUSSEL",
         "skip_in_search": true,
         "groups": [
           {
             "group": "russel_indices_eod"
-          }
-        ]
-      },
-      {
-        "prefix": "BC_ICEUSA",
-        "groups": [
-          {
-            "group": "iceus",
-            "priority": 200
-          },
-          {
-            "group": "iceus_continuous_2",
-            "priority": 201
-          },
-          {
-            "group": "iceus_continuous",
-            "priority": 201
-          }
-        ]
-      },
-      {
-        "prefix": "BC_ICEEUR",
-        "groups": [
-          {
-            "group": "ice",
-            "priority": 210
-          },
-          {
-            "group": "ice_continuous_2",
-            "priority": 211
-          },
-          {
-            "group": "ice_continuous",
-            "priority": 211
-          }
-        ]
-      },
-      {
-        "prefix": "BC_MGEX",
-        "groups": [
-          {
-            "group": "mgex",
-            "priority": 220
-          },
-          {
-            "group": "mgex_continuous_2",
-            "priority": 221
-          },
-          {
-            "group": "mgex_continuous",
-            "priority": 221
-          }
-        ]
-      },
-      {
-        "prefix": "BC_EUREX",
-        "groups": [
-          {
-            "group": "eurex",
-            "priority": 240
-          },
-          {
-            "group": "eurex_continuous_2",
-            "priority": 241
-          },
-          {
-            "group": "eurex_continuous",
-            "priority": 241
           }
         ]
       },
@@ -7574,6 +7491,91 @@
           {
             "group": "luxembourg_stocks_delayed",
             "priority": 271
+          }
+        ]
+      },
+      {
+        "priority": 300,
+        "prefix": "EUREX",
+        "perm": "permission_denied",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "eurex_continuous_2"
+          },
+          {
+            "group": "eurex_continuous"
+          },
+          {
+            "group": "eurex"
+          }
+        ]
+      },
+      {
+        "priority": 300,
+        "prefix": "ICEEUR",
+        "perm": "permission_denied",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "ice_continuous_2"
+          },
+          {
+            "group": "ice_continuous"
+          },
+          {
+            "group": "ice"
+          }
+        ]
+      },
+      {
+        "priority": 300,
+        "prefix": "ICEUSA",
+        "perm": "permission_denied",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "iceus_continuous_2"
+          },
+          {
+            "group": "iceus_continuous"
+          },
+          {
+            "group": "iceus"
+          }
+        ]
+      },
+      {
+        "priority": 300,
+        "prefix": "KCBT",
+        "perm": "permission_denied",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "kcbt_continuous_2"
+          },
+          {
+            "group": "kcbt_continuous"
+          },
+          {
+            "group": "kcbt"
+          }
+        ]
+      },
+      {
+        "priority": 300,
+        "prefix": "MGEX",
+        "perm": "permission_denied",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "mgex_continuous_2"
+          },
+          {
+            "group": "mgex_continuous"
+          },
+          {
+            "group": "mgex"
           }
         ]
       }
