@@ -435,6 +435,16 @@
         ]
       },
       {
+        "priority": 21,
+        "prefix": "COINONE",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "coinone"
+          }
+        ]
+      },
+      {
         "prefix": "NYSE",
         "groups": [
           {
@@ -4222,6 +4232,16 @@
         "groups": [
           {
             "group": "gemini"
+          }
+        ]
+      },
+      {
+        "priority": 21,
+        "prefix": "COINONE",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "coinone"
           }
         ]
       },
