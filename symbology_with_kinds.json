@@ -4416,6 +4416,33 @@
         }
       },
       {
+        "id": "nse_emerge_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 51,
+            "search_boost": 0.6,
+            "prefix": "NSE",
+            "prefix_no_perm": [
+              "NSE_DLY"
+            ],
+            "perm": "nse"
+          },
+          "delay": {
+            "priority": 52,
+            "prefix": "NSE_DLY",
+            "prefix_no_perm": [
+              "NSE_EOD"
+            ],
+            "perm": "nse_free"
+          },
+          "eod": {
+            "prefix": "NSE_EOD",
+            "priority": 101,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "nse_indices",
         "kinds": {
           "rt": {
