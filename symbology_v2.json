@@ -5742,17 +5742,6 @@
         }
       },
       {
-        "id": "cfe_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "CBOE",
-            "priority": 300,
-            "skip_in_search": true,
-            "perm": "permission_denied"
-          }
-        }
-      },
-      {
         "id": "cfe",
         "kinds": {
           "rt": {
@@ -5765,17 +5754,6 @@
       },
       {
         "id": "eurex_continuous_2",
-        "kinds": {
-          "rt": {
-            "prefix": "EUREX",
-            "priority": 300,
-            "skip_in_search": true,
-            "perm": "permission_denied"
-          }
-        }
-      },
-      {
-        "id": "eurex_continuous",
         "kinds": {
           "rt": {
             "prefix": "EUREX",
@@ -5841,17 +5819,6 @@
         }
       },
       {
-        "id": "iceus_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "ICEUSA",
-            "priority": 300,
-            "skip_in_search": true,
-            "perm": "permission_denied"
-          }
-        }
-      },
-      {
         "id": "iceus",
         "kinds": {
           "rt": {
@@ -5897,17 +5864,6 @@
       },
       {
         "id": "mgex_continuous_2",
-        "kinds": {
-          "rt": {
-            "prefix": "MGEX",
-            "priority": 300,
-            "skip_in_search": true,
-            "perm": "permission_denied"
-          }
-        }
-      },
-      {
-        "id": "mgex_continuous",
         "kinds": {
           "rt": {
             "prefix": "MGEX",
