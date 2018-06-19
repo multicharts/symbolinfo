@@ -157,12 +157,6 @@
             "skip_in_search": true
           },
           {
-            "group": "cfe_continuous",
-            "priority": 300,
-            "perm": "permission_denied",
-            "skip_in_search": true
-          },
-          {
             "group": "cfe",
             "priority": 300,
             "perm": "permission_denied",
@@ -3723,9 +3717,6 @@
             "group": "eurex_continuous_2"
           },
           {
-            "group": "eurex_continuous"
-          },
-          {
             "group": "eurex"
           }
         ]
@@ -3757,9 +3748,6 @@
             "group": "iceus_continuous_2"
           },
           {
-            "group": "iceus_continuous"
-          },
-          {
             "group": "iceus"
           }
         ]
@@ -3789,9 +3777,6 @@
         "groups": [
           {
             "group": "mgex_continuous_2"
-          },
-          {
-            "group": "mgex_continuous"
           },
           {
             "group": "mgex"
@@ -3958,12 +3943,6 @@
             "skip_in_search": true
           },
           {
-            "group": "cfe_continuous",
-            "priority": 300,
-            "perm": "permission_denied",
-            "skip_in_search": true
-          },
-          {
             "group": "cfe",
             "priority": 300,
             "perm": "permission_denied",
@@ -7524,9 +7503,6 @@
             "group": "eurex_continuous_2"
           },
           {
-            "group": "eurex_continuous"
-          },
-          {
             "group": "eurex"
           }
         ]
@@ -7558,9 +7534,6 @@
             "group": "iceus_continuous_2"
           },
           {
-            "group": "iceus_continuous"
-          },
-          {
             "group": "iceus"
           }
         ]
@@ -7590,9 +7563,6 @@
         "groups": [
           {
             "group": "mgex_continuous_2"
-          },
-          {
-            "group": "mgex_continuous"
           },
           {
             "group": "mgex"
