@@ -4808,6 +4808,19 @@
         }
       },
       {
+        "id": "eurex_continuous",
+        "kinds": {
+          "eod": {
+            "skip_in_search": false,
+            "prefix": "EUREX_EOD",
+            "priority": 241,
+            "prefix_alias": [
+              "EUREX"
+            ]
+          }
+        }
+      },
+      {
         "id": "luxembourg_indices",
         "kinds": {
           "rt": {
@@ -4952,17 +4965,6 @@
         }
       },
       {
-        "id": "eurex_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "EUREX",
-            "priority": 300,
-            "skip_in_search": true,
-            "perm": "permission_denied"
-          }
-        }
-      },
-      {
         "id": "dxy",
         "kinds": {
           "rt": {
@@ -4975,17 +4977,6 @@
       },
       {
         "id": "cfe_continuous_2",
-        "kinds": {
-          "rt": {
-            "prefix": "CBOE",
-            "priority": 300,
-            "skip_in_search": true,
-            "perm": "permission_denied"
-          }
-        }
-      },
-      {
-        "id": "cfe_continuous",
         "kinds": {
           "rt": {
             "prefix": "CBOE",
@@ -5073,17 +5064,6 @@
         }
       },
       {
-        "id": "iceus_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "ICEUSA",
-            "priority": 300,
-            "skip_in_search": true,
-            "perm": "permission_denied"
-          }
-        }
-      },
-      {
         "id": "iceus",
         "kinds": {
           "rt": {
@@ -5129,17 +5109,6 @@
       },
       {
         "id": "mgex_continuous_2",
-        "kinds": {
-          "rt": {
-            "prefix": "MGEX",
-            "priority": 300,
-            "skip_in_search": true,
-            "perm": "permission_denied"
-          }
-        }
-      },
-      {
-        "id": "mgex_continuous",
         "kinds": {
           "rt": {
             "prefix": "MGEX",
