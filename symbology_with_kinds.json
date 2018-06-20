@@ -1594,7 +1594,7 @@
           "delay": {
             "priority": 52,
             "prefix": "BMV_DLY",
-            "perm": "sf_dly"
+            "perm": "nse_free"
           }
         }
       },
@@ -1666,7 +1666,7 @@
           "delay": {
             "priority": 54,
             "prefix": "BMV_DLY",
-            "perm": "sf_dly"
+            "perm": "nse_free"
           }
         }
       },
@@ -3521,6 +3521,43 @@
         }
       },
       {
+        "id": "vietnam_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 85,
+            "prefix": "HOSE",
+            "prefix_no_perm": [
+              "HOSE_DLY"
+            ],
+            "perm": "hose"
+          },
+          "delay": {
+            "priority": 86,
+            "prefix": "HOSE_DLY"
+          }
+        }
+      },
+      {
+        "id": "vietnam_indices",
+        "kinds": {
+          "rt": {
+            "priority": 85,
+            "prefix": "HOSE",
+            "prefix_no_perm": [
+              "HOSE_DLY"
+            ],
+            "perm": "hose",
+            "prefix_alias": [
+              "INDEX"
+            ]
+          },
+          "delay": {
+            "priority": 86,
+            "prefix": "HOSE_DLY"
+          }
+        }
+      },
+      {
         "id": "belgrade_indices",
         "kinds": {
           "rt": {
@@ -3639,7 +3676,8 @@
               "NASDAQ_DLY",
               "INDEX"
             ],
-            "skip_in_search": false
+            "skip_in_search": false,
+            "perm": "nse_free"
           },
           "eod": {
             "prefix": "NASDAQ_EOD",
@@ -4106,6 +4144,33 @@
       },
       {
         "id": "nse_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 51,
+            "search_boost": 0.6,
+            "prefix": "NSE",
+            "prefix_no_perm": [
+              "NSE_DLY"
+            ],
+            "perm": "nse"
+          },
+          "delay": {
+            "priority": 52,
+            "prefix": "NSE_DLY",
+            "prefix_no_perm": [
+              "NSE_EOD"
+            ],
+            "perm": "nse_free"
+          },
+          "eod": {
+            "prefix": "NSE_EOD",
+            "priority": 101,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "nse_emerge_stocks",
         "kinds": {
           "rt": {
             "priority": 51,
