@@ -3209,6 +3209,18 @@
         ]
       },
       {
+        "priority": 86,
+        "prefix": "HOSE_DLY",
+        "groups": [
+          {
+            "group": "vietnam_stocks_delayed"
+          },
+          {
+            "group": "vietnam_indices_delayed"
+          }
+        ]
+      },
+      {
         "prefix": "BELEX",
         "prefix_no_perm": [
           "BELEX_DLY"
@@ -3275,6 +3287,33 @@
         "groups": [
           {
             "group": "otc_unadjusted"
+          }
+        ]
+      },
+      {
+        "priority": 95,
+        "prefix": "JSE",
+        "prefix_no_perm": [
+          "JSE_DLY"
+        ],
+        "groups": [
+          {
+            "group": "johannesburg_stocks"
+          },
+          {
+            "group": "johannesburg_indices"
+          }
+        ]
+      },
+      {
+        "priority": 96,
+        "prefix": "JSE_DLY",
+        "groups": [
+          {
+            "group": "johannesburg_stocks_delayed"
+          },
+          {
+            "group": "johannesburg_indices_delayed"
           }
         ]
       },
@@ -6995,6 +7034,18 @@
         ]
       },
       {
+        "priority": 86,
+        "prefix": "HOSE_DLY",
+        "groups": [
+          {
+            "group": "vietnam_stocks_delayed"
+          },
+          {
+            "group": "vietnam_indices_delayed"
+          }
+        ]
+      },
+      {
         "prefix": "BELEX",
         "prefix_no_perm": [
           "BELEX_DLY"
@@ -7061,6 +7112,33 @@
         "groups": [
           {
             "group": "otc_unadjusted"
+          }
+        ]
+      },
+      {
+        "priority": 95,
+        "prefix": "JSE",
+        "prefix_no_perm": [
+          "JSE_DLY"
+        ],
+        "groups": [
+          {
+            "group": "johannesburg_stocks"
+          },
+          {
+            "group": "johannesburg_indices"
+          }
+        ]
+      },
+      {
+        "priority": 96,
+        "prefix": "JSE_DLY",
+        "groups": [
+          {
+            "group": "johannesburg_stocks_delayed"
+          },
+          {
+            "group": "johannesburg_indices_delayed"
           }
         ]
       },
