@@ -3596,6 +3596,41 @@
         }
       },
       {
+        "id": "johannesburg_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 95,
+            "prefix": "JSE",
+            "prefix_no_perm": [
+              "JSE_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 96,
+            "prefix": "JSE_DLY"
+          }
+        }
+      },
+      {
+        "id": "johannesburg_indices",
+        "kinds": {
+          "rt": {
+            "priority": 95,
+            "prefix": "JSE",
+            "prefix_no_perm": [
+              "JSE_DLY"
+            ],
+            "prefix_alias": [
+              "INDEX"
+            ]
+          },
+          "delay": {
+            "priority": 96,
+            "prefix": "JSE_DLY"
+          }
+        }
+      },
+      {
         "id": "sp_indices",
         "kinds": {
           "rt": {
