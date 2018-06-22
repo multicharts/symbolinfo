@@ -721,33 +721,7 @@
         }
       },
       {
-        "id": "lse_uk_aim",
-        "kinds": {
-          "rt": {
-            "priority": 40,
-            "prefix": "LSE",
-            "perm": "lse",
-            "prefix_no_perm": [
-              "LSE_DLY"
-            ]
-          }
-        }
-      },
-      {
         "id": "lse_in",
-        "kinds": {
-          "rt": {
-            "priority": 40,
-            "prefix": "LSIN",
-            "perm": "lsin",
-            "prefix_no_perm": [
-              "LSIN_DLY"
-            ]
-          }
-        }
-      },
-      {
-        "id": "lse_in_eur",
         "kinds": {
           "rt": {
             "priority": 40,
@@ -2023,33 +1997,7 @@
         }
       },
       {
-        "id": "lse_uk_aim_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 50,
-            "prefix": "LSE_DLY",
-            "perm": "lse_dly",
-            "prefix_no_perm": [
-              "LSE_EOD"
-            ]
-          }
-        }
-      },
-      {
         "id": "lse_in_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 50,
-            "prefix": "LSIN_DLY",
-            "perm": "lsin_dly",
-            "prefix_no_perm": [
-              "LSIN_EOD"
-            ]
-          }
-        }
-      },
-      {
-        "id": "lse_in_eur_delayed",
         "kinds": {
           "rt": {
             "priority": 50,
@@ -3976,27 +3924,7 @@
         }
       },
       {
-        "id": "lse_uk_aim_eod",
-        "kinds": {
-          "rt": {
-            "priority": 60,
-            "prefix": "LSE_EOD",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
         "id": "lse_in_eod",
-        "kinds": {
-          "rt": {
-            "priority": 60,
-            "prefix": "LSIN_EOD",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "lse_in_eur_eod",
         "kinds": {
           "rt": {
             "priority": 60,
@@ -4354,22 +4282,6 @@
         }
       },
       {
-        "id": "vienna_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "VIE",
-            "priority": 70,
-            "perm": "vie",
-            "prefix_no_perm": [
-              "VIE_DLY"
-            ],
-            "prefix_alias": [
-              "WB"
-            ]
-          }
-        }
-      },
-      {
         "id": "warsaw_indices",
         "kinds": {
           "rt": {
@@ -4459,19 +4371,6 @@
         }
       },
       {
-        "id": "vienna_indices_delayed",
-        "kinds": {
-          "rt": {
-            "prefix": "VIE_DLY",
-            "priority": 71,
-            "prefix_alias": [
-              "WB_DLY"
-            ],
-            "perm": "sf_dly"
-          }
-        }
-      },
-      {
         "id": "warsaw_indices_delayed",
         "kinds": {
           "rt": {
@@ -4523,22 +4422,6 @@
             "priority": 74,
             "perm": "sf_dly",
             "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "vienna_stocks",
-        "kinds": {
-          "rt": {
-            "prefix": "VIE",
-            "priority": 75,
-            "perm": "vie",
-            "prefix_no_perm": [
-              "VIE_DLY"
-            ],
-            "prefix_alias": [
-              "WB"
-            ]
           }
         }
       },
@@ -4604,19 +4487,6 @@
             "prefix_no_perm": [
               "TASE_DLY"
             ]
-          }
-        }
-      },
-      {
-        "id": "vienna_stocks_delayed",
-        "kinds": {
-          "rt": {
-            "prefix": "VIE_DLY",
-            "priority": 76,
-            "prefix_alias": [
-              "WB_DLY"
-            ],
-            "perm": "sf_dly"
           }
         }
       },
