@@ -5111,6 +5111,7 @@
             "skip_in_search": false,
             "prefix_alias": [
               "INDEX",
+              "RUSSEL",
               "RUSSELL_EOD"
             ]
           }
@@ -5652,16 +5653,6 @@
           "rt": {
             "prefix": "GOCIO",
             "priority": 120
-          }
-        }
-      },
-      {
-        "id": "russel_indices_eod",
-        "kinds": {
-          "rt": {
-            "prefix": "RUSSEL",
-            "priority": 200,
-            "skip_in_search": true
           }
         }
       },
