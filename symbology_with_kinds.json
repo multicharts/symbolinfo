@@ -2203,55 +2203,7 @@
         }
       },
       {
-        "id": "lse_uk_aim",
-        "kinds": {
-          "rt": {
-            "priority": 40,
-            "prefix": "LSE",
-            "prefix_no_perm": [
-              "LSE_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 50,
-            "prefix": "LSE_DLY",
-            "prefix_no_perm": [
-              "LSE_EOD"
-            ]
-          },
-          "eod": {
-            "priority": 60,
-            "prefix": "LSE_EOD",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
         "id": "lse_in",
-        "kinds": {
-          "rt": {
-            "priority": 40,
-            "prefix": "LSIN",
-            "prefix_no_perm": [
-              "LSIN_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 50,
-            "prefix": "LSIN_DLY",
-            "prefix_no_perm": [
-              "LSIN_EOD"
-            ]
-          },
-          "eod": {
-            "priority": 60,
-            "prefix": "LSIN_EOD",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "lse_in_eur",
         "kinds": {
           "rt": {
             "priority": 40,
