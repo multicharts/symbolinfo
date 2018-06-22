@@ -4747,6 +4747,19 @@
         }
       },
       {
+        "id": "iceus_continuous",
+        "kinds": {
+          "eod": {
+            "skip_in_search": false,
+            "prefix": "ICEUS_EOD",
+            "priority": 201,
+            "prefix_alias": [
+              "ICEUS"
+            ]
+          }
+        }
+      },
+      {
         "id": "iceeur_futures",
         "kinds": {
           "eod": {
@@ -4760,7 +4773,33 @@
         }
       },
       {
+        "id": "iceeur_continuous",
+        "kinds": {
+          "eod": {
+            "skip_in_search": false,
+            "prefix": "ICEEUR_EOD",
+            "priority": 211,
+            "prefix_alias": [
+              "ICEEUR"
+            ]
+          }
+        }
+      },
+      {
         "id": "mgex_futures",
+        "kinds": {
+          "eod": {
+            "skip_in_search": false,
+            "prefix": "MGEX_EOD",
+            "priority": 221,
+            "prefix_alias": [
+              "MGEX"
+            ]
+          }
+        }
+      },
+      {
+        "id": "mgex_continuous",
         "kinds": {
           "eod": {
             "skip_in_search": false,
