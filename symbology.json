@@ -3328,6 +3328,7 @@
         "skip_in_search": false,
         "prefix_alias": [
           "INDEX",
+          "RUSSEL",
           "RUSSELL_EOD"
         ],
         "groups": [
@@ -3684,16 +3685,6 @@
           },
           {
             "group": "GOCIO"
-          }
-        ]
-      },
-      {
-        "priority": 200,
-        "prefix": "RUSSEL",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "russel_indices_eod"
           }
         ]
       },
@@ -7135,6 +7126,7 @@
         "skip_in_search": false,
         "prefix_alias": [
           "INDEX",
+          "RUSSEL",
           "RUSSELL_EOD"
         ],
         "groups": [
@@ -7491,16 +7483,6 @@
           },
           {
             "group": "GOCIO"
-          }
-        ]
-      },
-      {
-        "priority": 200,
-        "prefix": "RUSSEL",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "russel_indices_eod"
           }
         ]
       },
