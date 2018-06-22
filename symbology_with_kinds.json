@@ -4011,6 +4011,7 @@
             "priority": 100,
             "prefix_alias": [
               "INDEX",
+              "RUSSEL",
               "RUSSELL_EOD"
             ],
             "prefix": "RUSSELL",
@@ -4729,16 +4730,6 @@
             "prefix_alias": [
               "EURONEXTPAR_EOD"
             ]
-          }
-        }
-      },
-      {
-        "id": "russel_indices",
-        "kinds": {
-          "eod": {
-            "priority": 200,
-            "prefix": "RUSSEL",
-            "skip_in_search": true
           }
         }
       },
