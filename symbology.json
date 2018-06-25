@@ -399,6 +399,16 @@
         ]
       },
       {
+        "priority": 20,
+        "prefix": "IBROKER",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "ibroker"
+          }
+        ]
+      },
+      {
         "priority": 21,
         "search_boost": 1.8,
         "prefix": "AMEX",
@@ -4143,6 +4153,16 @@
           {
             "group": "binance_spreads",
             "priority": 112
+          }
+        ]
+      },
+      {
+        "priority": 20,
+        "prefix": "IBROKER",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "ibroker"
           }
         ]
       },
