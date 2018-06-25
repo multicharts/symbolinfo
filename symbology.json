@@ -2480,6 +2480,7 @@
       {
         "prefix": "OMXRSE_DLY",
         "perm": "nse_free",
+        "skip_in_search": true,
         "groups": [
           {
             "group": "riga_indices_delayed",
@@ -2494,6 +2495,7 @@
       {
         "prefix": "OMXTSE_DLY",
         "perm": "nse_free",
+        "skip_in_search": true,
         "groups": [
           {
             "group": "tallinn_indices_delayed",
@@ -2508,6 +2510,7 @@
       {
         "prefix": "OMXVSE_DLY",
         "perm": "nse_free",
+        "skip_in_search": true,
         "groups": [
           {
             "group": "vilnius_indices_delayed",
@@ -2526,6 +2529,7 @@
         "prefix_no_perm": [
           "OMXBALTIC_DLY"
         ],
+        "skip_in_search": true,
         "groups": [
           {
             "group": "baltic_indices_delayed"
@@ -3247,35 +3251,6 @@
           },
           {
             "group": "otc_pink_delayed"
-          }
-        ]
-      },
-      {
-        "priority": 85,
-        "prefix": "HOSE",
-        "prefix_no_perm": [
-          "HOSE_DLY"
-        ],
-        "groups": [
-          {
-            "group": "vietnam_stocks",
-            "perm": "hose_stocks"
-          },
-          {
-            "group": "vietnam_indices",
-            "perm": "hose_indices"
-          }
-        ]
-      },
-      {
-        "priority": 86,
-        "prefix": "HOSE_DLY",
-        "groups": [
-          {
-            "group": "vietnam_stocks_delayed"
-          },
-          {
-            "group": "vietnam_indices_delayed"
           }
         ]
       },
@@ -6344,6 +6319,7 @@
       {
         "prefix": "OMXRSE_DLY",
         "perm": "nse_free",
+        "skip_in_search": true,
         "groups": [
           {
             "group": "riga_indices_delayed",
@@ -6358,6 +6334,7 @@
       {
         "prefix": "OMXTSE_DLY",
         "perm": "nse_free",
+        "skip_in_search": true,
         "groups": [
           {
             "group": "tallinn_indices_delayed",
@@ -6372,6 +6349,7 @@
       {
         "prefix": "OMXVSE_DLY",
         "perm": "nse_free",
+        "skip_in_search": true,
         "groups": [
           {
             "group": "vilnius_indices_delayed",
@@ -6390,6 +6368,7 @@
         "prefix_no_perm": [
           "OMXBALTIC_DLY"
         ],
+        "skip_in_search": true,
         "groups": [
           {
             "group": "baltic_indices_delayed"
@@ -7111,35 +7090,6 @@
           },
           {
             "group": "otc_pink_delayed"
-          }
-        ]
-      },
-      {
-        "priority": 85,
-        "prefix": "HOSE",
-        "prefix_no_perm": [
-          "HOSE_DLY"
-        ],
-        "groups": [
-          {
-            "group": "vietnam_stocks",
-            "perm": "hose_stocks"
-          },
-          {
-            "group": "vietnam_indices",
-            "perm": "hose_indices"
-          }
-        ]
-      },
-      {
-        "priority": 86,
-        "prefix": "HOSE_DLY",
-        "groups": [
-          {
-            "group": "vietnam_stocks_delayed"
-          },
-          {
-            "group": "vietnam_indices_delayed"
           }
         ]
       },
