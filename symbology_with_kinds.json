@@ -1746,7 +1746,7 @@
           "delay": {
             "priority": 52,
             "prefix": "BMV_DLY",
-            "perm": "sf_dly"
+            "perm": "nse_free"
           }
         }
       },
@@ -1818,7 +1818,7 @@
           "delay": {
             "priority": 54,
             "prefix": "BMV_DLY",
-            "perm": "sf_dly"
+            "perm": "nse_free"
           }
         }
       },
@@ -2919,8 +2919,7 @@
             "prefix_no_perm": [
               "OMXRSE_DLY"
             ],
-            "perm": "omx",
-            "skip_in_search": true
+            "perm": "omx"
           },
           "delay": {
             "priority": 63,
@@ -2941,8 +2940,7 @@
             "prefix_no_perm": [
               "OMXTSE_DLY"
             ],
-            "perm": "omx",
-            "skip_in_search": true
+            "perm": "omx"
           },
           "delay": {
             "priority": 63,
@@ -2963,8 +2961,7 @@
             "prefix_no_perm": [
               "OMXVSE_DLY"
             ],
-            "perm": "omx",
-            "skip_in_search": true
+            "perm": "omx"
           },
           "delay": {
             "priority": 63,
@@ -3809,7 +3806,8 @@
               "NASDAQ_DLY",
               "INDEX"
             ],
-            "skip_in_search": false
+            "skip_in_search": false,
+            "perm": "nse_free"
           },
           "eod": {
             "prefix": "NASDAQ_EOD",
@@ -4169,29 +4167,31 @@
         }
       },
       {
-        "id": "russel_indices",
-        "kinds": {
-          "eod": {
-            "priority": 100,
-            "prefix_alias": [
-              "INDEX",
-              "RUSSEL_EOD"
-            ],
-            "prefix": "RUSSEL",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
         "id": "russell_indices",
         "kinds": {
           "eod": {
             "priority": 100,
             "prefix_alias": [
               "INDEX",
-              "RUSSELL_EOD"
+              "RUSSELL_EOD",
+              "RUSSEL",
+              "RUSSEL_EOD"
             ],
             "prefix": "RUSSELL",
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "cboe_russell_indices",
+        "kinds": {
+          "eod": {
+            "priority": 100,
+            "prefix_alias": [
+              "INDEX",
+              "CBOE_EOD"
+            ],
+            "prefix": "CBOE",
             "skip_in_search": false
           }
         }
