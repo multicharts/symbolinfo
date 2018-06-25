@@ -3658,7 +3658,8 @@
           "rt": {
             "priority": 59,
             "prefix": "OMXRSE_DLY",
-            "perm": "nse_free"
+            "perm": "nse_free",
+            "skip_in_search": true
           }
         }
       },
@@ -3668,7 +3669,8 @@
           "rt": {
             "priority": 59,
             "prefix": "OMXTSE_DLY",
-            "perm": "nse_free"
+            "perm": "nse_free",
+            "skip_in_search": true
           }
         }
       },
@@ -3678,7 +3680,8 @@
           "rt": {
             "priority": 59,
             "prefix": "OMXVSE_DLY",
-            "perm": "nse_free"
+            "perm": "nse_free",
+            "skip_in_search": true
           }
         }
       },
@@ -3689,6 +3692,7 @@
             "priority": 59,
             "prefix": "OMXBALTIC_DLY",
             "perm": "nse_free",
+            "skip_in_search": true,
             "prefix_no_perm": [
               "OMXBALTIC_DLY"
             ]
@@ -4120,7 +4124,8 @@
           "rt": {
             "priority": 63,
             "prefix": "OMXRSE_DLY",
-            "perm": "nse_free"
+            "perm": "nse_free",
+            "skip_in_search": true
           }
         }
       },
@@ -4130,7 +4135,8 @@
           "rt": {
             "priority": 63,
             "prefix": "OMXTSE_DLY",
-            "perm": "nse_free"
+            "perm": "nse_free",
+            "skip_in_search": true
           }
         }
       },
@@ -4140,7 +4146,8 @@
           "rt": {
             "priority": 63,
             "prefix": "OMXVSE_DLY",
-            "perm": "nse_free"
+            "perm": "nse_free",
+            "skip_in_search": true
           }
         }
       },
@@ -5069,32 +5076,6 @@
         }
       },
       {
-        "id": "vietnam_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 85,
-            "prefix": "HOSE",
-            "prefix_no_perm": [
-              "HOSE_DLY"
-            ],
-            "perm": "hose_stocks"
-          }
-        }
-      },
-      {
-        "id": "vietnam_indices",
-        "kinds": {
-          "rt": {
-            "priority": 85,
-            "prefix": "HOSE",
-            "prefix_no_perm": [
-              "HOSE_DLY"
-            ],
-            "perm": "hose_indices"
-          }
-        }
-      },
-      {
         "id": "saudi_stocks_delayed",
         "kinds": {
           "rt": {
@@ -5133,24 +5114,6 @@
             "priority": 86,
             "prefix": "QSE_DLY",
             "perm": "sf_dly"
-          }
-        }
-      },
-      {
-        "id": "vietnam_stocks_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 86,
-            "prefix": "HOSE_DLY"
-          }
-        }
-      },
-      {
-        "id": "vietnam_indices_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 86,
-            "prefix": "HOSE_DLY"
           }
         }
       },
