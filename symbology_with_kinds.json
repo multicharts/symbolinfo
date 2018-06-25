@@ -3663,7 +3663,8 @@
           },
           "delay": {
             "priority": 86,
-            "prefix": "HOSE_DLY"
+            "prefix": "HOSE_DLY",
+            "perm": "nse_free"
           }
         }
       },
@@ -3683,7 +3684,8 @@
           },
           "delay": {
             "priority": 86,
-            "prefix": "HOSE_DLY"
+            "prefix": "HOSE_DLY",
+            "perm": "nse_free"
           }
         }
       },
