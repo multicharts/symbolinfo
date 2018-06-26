@@ -385,17 +385,6 @@
         ]
       },
       {
-        "priority": 20,
-        "prefix": "IBROKER",
-        "exchange_for_display": "IBROKER",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "ibroker"
-          }
-        ]
-      },
-      {
         "prefix": "BINANCE",
         "skip_in_search": false,
         "groups": [
@@ -3777,6 +3766,17 @@
           {
             "group": "ice_continuous",
             "priority": 211
+          }
+        ]
+      },
+      {
+        "priority": 220,
+        "prefix": "IBROKER",
+        "exchange_for_display": "IBROKER",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "ibroker"
           }
         ]
       },
@@ -4235,17 +4235,6 @@
         ]
       },
       {
-        "priority": 20,
-        "prefix": "IBROKER",
-        "exchange_for_display": "IBROKER",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "ibroker"
-          }
-        ]
-      },
-      {
         "prefix": "BINANCE",
         "skip_in_search": false,
         "groups": [
@@ -7627,6 +7616,17 @@
           {
             "group": "ice_continuous",
             "priority": 211
+          }
+        ]
+      },
+      {
+        "priority": 220,
+        "prefix": "IBROKER",
+        "exchange_for_display": "IBROKER",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "ibroker"
           }
         ]
       },
