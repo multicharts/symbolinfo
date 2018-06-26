@@ -385,6 +385,17 @@
         ]
       },
       {
+        "priority": 20,
+        "prefix": "IBROKER",
+        "exchange_for_display": "IBROKER",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "ibroker"
+          }
+        ]
+      },
+      {
         "prefix": "BINANCE",
         "skip_in_search": false,
         "groups": [
@@ -4220,6 +4231,17 @@
             "group": "kraken_spreads",
             "priority": 112,
             "skip_in_search": false
+          }
+        ]
+      },
+      {
+        "priority": 20,
+        "prefix": "IBROKER",
+        "exchange_for_display": "IBROKER",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "ibroker"
           }
         ]
       },
