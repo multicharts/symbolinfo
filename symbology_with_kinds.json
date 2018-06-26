@@ -482,7 +482,6 @@
             "prefix": "NYSE",
             "priority": 22,
             "search_boost": 1.8,
-            "hide_in_search": true,
             "prefix_no_perm": [
               "BATS"
             ]
