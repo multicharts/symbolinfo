@@ -380,17 +380,6 @@
         }
       },
       {
-        "id": "ibroker",
-        "kinds": {
-          "rt": {
-            "prefix": "IBROKER",
-            "priority": 20,
-            "hide_in_search": true,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
         "id": "government_bonds",
         "kinds": {
           "rt": {
@@ -4781,6 +4770,17 @@
             "prefix_alias": [
               "ICEEUR"
             ]
+          }
+        }
+      },
+      {
+        "id": "ibroker",
+        "kinds": {
+          "rt": {
+            "prefix": "IBROKER",
+            "priority": 220,
+            "hide_in_search": true,
+            "skip_in_search": false
           }
         }
       },
