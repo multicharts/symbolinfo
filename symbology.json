@@ -378,16 +378,6 @@
         ]
       },
       {
-        "priority": 20,
-        "prefix": "IBROKER",
-        "skip_in_search": false,
-        "groups": [
-          {
-            "group": "ibroker"
-          }
-        ]
-      },
-      {
         "prefix": "BINANCE",
         "skip_in_search": false,
         "groups": [
@@ -3685,6 +3675,16 @@
           },
           {
             "group": "GOCIO"
+          }
+        ]
+      },
+      {
+        "priority": 220,
+        "prefix": "IBROKER",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "ibroker"
           }
         ]
       },
@@ -4176,16 +4176,6 @@
         ]
       },
       {
-        "priority": 20,
-        "prefix": "IBROKER",
-        "skip_in_search": false,
-        "groups": [
-          {
-            "group": "ibroker"
-          }
-        ]
-      },
-      {
         "prefix": "BINANCE",
         "skip_in_search": false,
         "groups": [
@@ -7483,6 +7473,16 @@
           },
           {
             "group": "GOCIO"
+          }
+        ]
+      },
+      {
+        "priority": 220,
+        "prefix": "IBROKER",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "ibroker"
           }
         ]
       },
