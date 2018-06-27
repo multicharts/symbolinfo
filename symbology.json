@@ -399,16 +399,6 @@
         ]
       },
       {
-        "priority": 20,
-        "prefix": "IBROKER",
-        "skip_in_search": false,
-        "groups": [
-          {
-            "group": "ibroker"
-          }
-        ]
-      },
-      {
         "priority": 21,
         "search_boost": 1.8,
         "prefix": "AMEX",
@@ -3702,6 +3692,16 @@
           {
             "group": "mgex_continuous",
             "priority": 221
+          }
+        ]
+      },
+      {
+        "priority": 220,
+        "prefix": "IBROKER",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "ibroker"
           }
         ]
       },
@@ -4157,16 +4157,6 @@
         ]
       },
       {
-        "priority": 20,
-        "prefix": "IBROKER",
-        "skip_in_search": false,
-        "groups": [
-          {
-            "group": "ibroker"
-          }
-        ]
-      },
-      {
         "priority": 21,
         "search_boost": 1.8,
         "prefix": "AMEX",
@@ -7460,6 +7450,16 @@
           {
             "group": "mgex_continuous",
             "priority": 221
+          }
+        ]
+      },
+      {
+        "priority": 220,
+        "prefix": "IBROKER",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "ibroker"
           }
         ]
       },
