@@ -2990,6 +2990,32 @@
         }
       },
       {
+        "id": "milan_sedex",
+        "kinds": {
+          "rt": {
+            "priority": 45,
+            "prefix": "MILSEDEX",
+            "perm": "mil",
+            "prefix_no_perm": [
+              "MILSEDEX_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 55,
+            "prefix": "MILSEDEX_DLY",
+            "perm": "mil_dly",
+            "prefix_no_perm": [
+              "MILSEDEX_EOD"
+            ]
+          },
+          "eod": {
+            "priority": 65,
+            "prefix": "MILSEDEX_EOD",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "stuttgart_stocks",
         "kinds": {
           "rt": {
@@ -3225,6 +3251,25 @@
         }
       },
       {
+        "id": "johannesburg_indices",
+        "kinds": {
+          "rt": {
+            "priority": 73,
+            "prefix": "JSE",
+            "prefix_no_perm": [
+              "JSE_DLY"
+            ],
+            "perm": "jse_indices"
+          },
+          "delay": {
+            "priority": 74,
+            "prefix": "JSE_DLY",
+            "perm": "nse_free",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "warsaw_stocks",
         "kinds": {
           "rt": {
@@ -3275,6 +3320,25 @@
             "prefix": "TASE_DLY",
             "priority": 76,
             "perm": "sf_dly"
+          }
+        }
+      },
+      {
+        "id": "johannesburg_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 75,
+            "prefix": "JSE",
+            "prefix_no_perm": [
+              "JSE_DLY"
+            ],
+            "perm": "jse_stocks"
+          },
+          "delay": {
+            "priority": 76,
+            "prefix": "JSE_DLY",
+            "perm": "nse_free",
+            "skip_in_search": true
           }
         }
       },
