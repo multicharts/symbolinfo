@@ -1106,6 +1106,19 @@
         ]
       },
       {
+        "priority": 45,
+        "prefix": "MILSEDEX",
+        "perm": "mil",
+        "prefix_no_perm": [
+          "MILSEDEX_DLY"
+        ],
+        "groups": [
+          {
+            "group": "milan_sedex"
+          }
+        ]
+      },
+      {
         "prefix": "XETR",
         "perm": "dbg",
         "prefix_no_perm": [
@@ -2259,6 +2272,19 @@
       },
       {
         "priority": 55,
+        "prefix": "MILSEDEX_DLY",
+        "perm": "mil_dly",
+        "prefix_no_perm": [
+          "MILSEDEX_EOD"
+        ],
+        "groups": [
+          {
+            "group": "milan_sedex_delayed"
+          }
+        ]
+      },
+      {
+        "priority": 55,
         "prefix": "FWB_DLY",
         "prefix_alias": [
           "FRA_DLY"
@@ -2729,6 +2755,16 @@
         ]
       },
       {
+        "priority": 65,
+        "prefix": "MILSEDEX_EOD",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "milan_sedex_eod"
+          }
+        ]
+      },
+      {
         "priority": 66,
         "prefix": "SWB_DLY",
         "groups": [
@@ -2894,6 +2930,38 @@
           },
           {
             "group": "telaviv_continuous_delayed",
+            "priority": 76
+          }
+        ]
+      },
+      {
+        "prefix": "JSE",
+        "prefix_no_perm": [
+          "JSE_DLY"
+        ],
+        "groups": [
+          {
+            "group": "johannesburg_indices",
+            "priority": 73,
+            "perm": "jse_indices"
+          },
+          {
+            "group": "johannesburg_stocks",
+            "priority": 75,
+            "perm": "jse_stocks"
+          }
+        ]
+      },
+      {
+        "prefix": "JSE_DLY",
+        "perm": "nse_free",
+        "groups": [
+          {
+            "group": "johannesburg_indices_delayed",
+            "priority": 74
+          },
+          {
+            "group": "johannesburg_stocks_delayed",
             "priority": 76
           }
         ]
@@ -4956,6 +5024,19 @@
         ]
       },
       {
+        "priority": 45,
+        "prefix": "MILSEDEX",
+        "perm": "mil",
+        "prefix_no_perm": [
+          "MILSEDEX_DLY"
+        ],
+        "groups": [
+          {
+            "group": "milan_sedex"
+          }
+        ]
+      },
+      {
         "prefix": "XETR",
         "perm": "dbg",
         "prefix_no_perm": [
@@ -6109,6 +6190,19 @@
       },
       {
         "priority": 55,
+        "prefix": "MILSEDEX_DLY",
+        "perm": "mil_dly",
+        "prefix_no_perm": [
+          "MILSEDEX_EOD"
+        ],
+        "groups": [
+          {
+            "group": "milan_sedex_delayed"
+          }
+        ]
+      },
+      {
+        "priority": 55,
         "prefix": "FWB_DLY",
         "prefix_alias": [
           "FRA_DLY"
@@ -6579,6 +6673,16 @@
         ]
       },
       {
+        "priority": 65,
+        "prefix": "MILSEDEX_EOD",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "milan_sedex_eod"
+          }
+        ]
+      },
+      {
         "priority": 66,
         "prefix": "SWB_DLY",
         "groups": [
@@ -6744,6 +6848,38 @@
           },
           {
             "group": "telaviv_continuous_delayed",
+            "priority": 76
+          }
+        ]
+      },
+      {
+        "prefix": "JSE",
+        "prefix_no_perm": [
+          "JSE_DLY"
+        ],
+        "groups": [
+          {
+            "group": "johannesburg_indices",
+            "priority": 73,
+            "perm": "jse_indices"
+          },
+          {
+            "group": "johannesburg_stocks",
+            "priority": 75,
+            "perm": "jse_stocks"
+          }
+        ]
+      },
+      {
+        "prefix": "JSE_DLY",
+        "perm": "nse_free",
+        "groups": [
+          {
+            "group": "johannesburg_indices_delayed",
+            "priority": 74
+          },
+          {
+            "group": "johannesburg_stocks_delayed",
             "priority": 76
           }
         ]
