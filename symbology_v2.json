@@ -4263,16 +4263,6 @@
         }
       },
       {
-        "id": "milan_sedex_eod",
-        "kinds": {
-          "rt": {
-            "priority": 65,
-            "prefix": "MILSEDEX_EOD",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
         "id": "stuttgart_stocks_delayed",
         "kinds": {
           "rt": {
