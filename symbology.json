@@ -2755,16 +2755,6 @@
         ]
       },
       {
-        "priority": 65,
-        "prefix": "MILSEDEX_EOD",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "milan_sedex_eod"
-          }
-        ]
-      },
-      {
         "priority": 66,
         "prefix": "SWB_DLY",
         "groups": [
@@ -6669,16 +6659,6 @@
           {
             "group": "nzx_continuous",
             "perm": "nzx_futures"
-          }
-        ]
-      },
-      {
-        "priority": 65,
-        "prefix": "MILSEDEX_EOD",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "milan_sedex_eod"
           }
         ]
       },
