@@ -3684,7 +3684,12 @@
         "skip_in_search": false,
         "groups": [
           {
-            "group": "ibroker"
+            "group": "ibroker_forex",
+            "perm": "ibroker_forex"
+          },
+          {
+            "group": "ibroker_lmax",
+            "perm": "ibroker_lmax"
           }
         ]
       },
@@ -7482,7 +7487,12 @@
         "skip_in_search": false,
         "groups": [
           {
-            "group": "ibroker"
+            "group": "ibroker_forex",
+            "perm": "ibroker_forex"
+          },
+          {
+            "group": "ibroker_lmax",
+            "perm": "ibroker_lmax"
           }
         ]
       },
