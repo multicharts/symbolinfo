@@ -4798,6 +4798,270 @@
         }
       },
       {
+        "id": "ibroker_cboe",
+        "kinds": {
+          "rt": {
+            "prefix": "IBROKER",
+            "priority": 220,
+            "hide_in_search": true,
+            "skip_in_search": false,
+            "perm": "ibroker_cboe"
+          }
+        }
+      },
+      {
+        "id": "ibroker_cfd_us",
+        "kinds": {
+          "rt": {
+            "prefix": "IBROKER",
+            "priority": 220,
+            "hide_in_search": true,
+            "skip_in_search": false,
+            "perm": "ibroker_cfd_us"
+          }
+        }
+      },
+      {
+        "id": "ibroker_cme_cbt_futurossobrebonos",
+        "kinds": {
+          "rt": {
+            "prefix": "IBROKER",
+            "priority": 220,
+            "hide_in_search": true,
+            "skip_in_search": false,
+            "perm": "ibroker_cme_cbt_futurossobrebonos"
+          }
+        }
+      },
+      {
+        "id": "ibroker_cme_cbt_futurossobreindices",
+        "kinds": {
+          "rt": {
+            "prefix": "IBROKER",
+            "priority": 220,
+            "hide_in_search": true,
+            "skip_in_search": false,
+            "perm": "ibroker_cme_cbt_futurossobreindices"
+          }
+        }
+      },
+      {
+        "id": "ibroker_cme_cbt_futurossobremateriasprimas",
+        "kinds": {
+          "rt": {
+            "prefix": "IBROKER",
+            "priority": 220,
+            "hide_in_search": true,
+            "skip_in_search": false,
+            "perm": "ibroker_cme_cbt_futurossobremateriasprimas"
+          }
+        }
+      },
+      {
+        "id": "ibroker_cme_futurossobredivisas",
+        "kinds": {
+          "rt": {
+            "prefix": "IBROKER",
+            "priority": 220,
+            "hide_in_search": true,
+            "skip_in_search": false,
+            "perm": "ibroker_cme_futurossobredivisas"
+          }
+        }
+      },
+      {
+        "id": "ibroker_cme_futurossobreenergia",
+        "kinds": {
+          "rt": {
+            "prefix": "IBROKER",
+            "priority": 220,
+            "hide_in_search": true,
+            "skip_in_search": false,
+            "perm": "ibroker_cme_futurossobreenergia"
+          }
+        }
+      },
+      {
+        "id": "ibroker_cme_futurossobreindices",
+        "kinds": {
+          "rt": {
+            "prefix": "IBROKER",
+            "priority": 220,
+            "hide_in_search": true,
+            "skip_in_search": false,
+            "perm": "ibroker_cme_futurossobreindices"
+          }
+        }
+      },
+      {
+        "id": "ibroker_cme_futurossobremetales",
+        "kinds": {
+          "rt": {
+            "prefix": "IBROKER",
+            "priority": 220,
+            "hide_in_search": true,
+            "skip_in_search": false,
+            "perm": "ibroker_cme_futurossobremetales"
+          }
+        }
+      },
+      {
+        "id": "ibroker_enxt_par",
+        "kinds": {
+          "rt": {
+            "prefix": "IBROKER",
+            "priority": 220,
+            "hide_in_search": true,
+            "skip_in_search": false,
+            "perm": "ibroker_enxt_par"
+          }
+        }
+      },
+      {
+        "id": "ibroker_eq_mtaa",
+        "kinds": {
+          "rt": {
+            "prefix": "IBROKER",
+            "priority": 220,
+            "hide_in_search": true,
+            "skip_in_search": false,
+            "perm": "ibroker_eq_mtaa"
+          }
+        }
+      },
+      {
+        "id": "ibroker_eq_xams",
+        "kinds": {
+          "rt": {
+            "prefix": "IBROKER",
+            "priority": 220,
+            "hide_in_search": true,
+            "skip_in_search": false,
+            "perm": "ibroker_eq_xams"
+          }
+        }
+      },
+      {
+        "id": "ibroker_eq_xbru",
+        "kinds": {
+          "rt": {
+            "prefix": "IBROKER",
+            "priority": 220,
+            "hide_in_search": true,
+            "skip_in_search": false,
+            "perm": "ibroker_eq_xbru"
+          }
+        }
+      },
+      {
+        "id": "ibroker_eq_xetr",
+        "kinds": {
+          "rt": {
+            "prefix": "IBROKER",
+            "priority": 220,
+            "hide_in_search": true,
+            "skip_in_search": false,
+            "perm": "ibroker_eq_xetr"
+          }
+        }
+      },
+      {
+        "id": "ibroker_eq_xmce",
+        "kinds": {
+          "rt": {
+            "prefix": "IBROKER",
+            "priority": 220,
+            "hide_in_search": true,
+            "skip_in_search": false,
+            "perm": "ibroker_eq_xmce"
+          }
+        }
+      },
+      {
+        "id": "ibroker_eq_xpar",
+        "kinds": {
+          "rt": {
+            "prefix": "IBROKER",
+            "priority": 220,
+            "hide_in_search": true,
+            "skip_in_search": false,
+            "perm": "ibroker_eq_xpar"
+          }
+        }
+      },
+      {
+        "id": "ibroker_eurex",
+        "kinds": {
+          "rt": {
+            "prefix": "IBROKER",
+            "priority": 220,
+            "hide_in_search": true,
+            "skip_in_search": false,
+            "perm": "ibroker_eurex"
+          }
+        }
+      },
+      {
+        "id": "ibroker_ibrcfd",
+        "kinds": {
+          "rt": {
+            "prefix": "IBROKER",
+            "priority": 220,
+            "hide_in_search": true,
+            "skip_in_search": false,
+            "perm": "ibroker_ibrcfd"
+          }
+        }
+      },
+      {
+        "id": "ibroker_ice_us",
+        "kinds": {
+          "rt": {
+            "prefix": "IBROKER",
+            "priority": 220,
+            "hide_in_search": true,
+            "skip_in_search": false,
+            "perm": "ibroker_ice_us"
+          }
+        }
+      },
+      {
+        "id": "ibroker_idem",
+        "kinds": {
+          "rt": {
+            "prefix": "IBROKER",
+            "priority": 220,
+            "hide_in_search": true,
+            "skip_in_search": false,
+            "perm": "ibroker_idem"
+          }
+        }
+      },
+      {
+        "id": "ibroker_liffe",
+        "kinds": {
+          "rt": {
+            "prefix": "IBROKER",
+            "priority": 220,
+            "hide_in_search": true,
+            "skip_in_search": false,
+            "perm": "ibroker_liffe"
+          }
+        }
+      },
+      {
+        "id": "ibroker_meff",
+        "kinds": {
+          "rt": {
+            "prefix": "IBROKER",
+            "priority": 220,
+            "hide_in_search": true,
+            "skip_in_search": false,
+            "perm": "ibroker_meff"
+          }
+        }
+      },
+      {
         "id": "mgex_futures",
         "kinds": {
           "eod": {
