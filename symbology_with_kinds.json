@@ -2974,22 +2974,6 @@
         }
       },
       {
-        "id": "warsaw_indices",
-        "kinds": {
-          "rt": {
-            "priority": 70,
-            "prefix": "GPW",
-            "prefix_no_perm": [
-              "GPW_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 71,
-            "prefix": "GPW_DLY"
-          }
-        }
-      },
-      {
         "id": "colombia_stocks",
         "kinds": {
           "rt": {
@@ -3023,38 +3007,6 @@
         }
       },
       {
-        "id": "warsaw_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 75,
-            "prefix": "GPW",
-            "prefix_no_perm": [
-              "GPW_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 76,
-            "prefix": "GPW_DLY"
-          }
-        }
-      },
-      {
-        "id": "warsaw_futures",
-        "kinds": {
-          "rt": {
-            "priority": 75,
-            "prefix": "GPW",
-            "prefix_no_perm": [
-              "GPW_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 76,
-            "prefix": "GPW_DLY"
-          }
-        }
-      },
-      {
         "id": "telaviv_futures",
         "kinds": {
           "rt": {
@@ -3067,22 +3019,6 @@
           "delay": {
             "prefix": "TASE_DLY",
             "priority": 76
-          }
-        }
-      },
-      {
-        "id": "warsaw_continuous",
-        "kinds": {
-          "rt": {
-            "priority": 75,
-            "prefix": "GPW",
-            "prefix_no_perm": [
-              "GPW_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 76,
-            "prefix": "GPW_DLY"
           }
         }
       },
@@ -4718,6 +4654,106 @@
             "prefix_alias": [
               "EURONEXTPAR_EOD"
             ]
+          }
+        }
+      },
+      {
+        "id": "warsaw_indices",
+        "kinds": {
+          "rt": {
+            "priority": 70,
+            "prefix": "GPW",
+            "prefix_no_perm": [
+              "GPW_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 71,
+            "prefix": "GPW_DLY",
+            "skip_in_search": true,
+            "prefix_no_perm": [
+              "GPW_EOD"
+            ]
+          },
+          "eod": {
+            "priority": 171,
+            "prefix": "GPW_EOD",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "warsaw_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 75,
+            "prefix": "GPW",
+            "prefix_no_perm": [
+              "GPW_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 76,
+            "prefix": "GPW_DLY",
+            "skip_in_search": true,
+            "prefix_no_perm": [
+              "GPW_EOD"
+            ]
+          },
+          "eod": {
+            "priority": 176,
+            "prefix": "GPW_EOD",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "warsaw_futures",
+        "kinds": {
+          "rt": {
+            "priority": 75,
+            "prefix": "GPW",
+            "prefix_no_perm": [
+              "GPW_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 76,
+            "prefix": "GPW_DLY",
+            "skip_in_search": true,
+            "prefix_no_perm": [
+              "GPW_EOD"
+            ]
+          },
+          "eod": {
+            "priority": 176,
+            "prefix": "GPW_EOD",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "warsaw_continuous",
+        "kinds": {
+          "rt": {
+            "priority": 75,
+            "prefix": "GPW",
+            "prefix_no_perm": [
+              "GPW_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 76,
+            "prefix": "GPW_DLY",
+            "skip_in_search": true,
+            "prefix_no_perm": [
+              "GPW_EOD"
+            ]
+          },
+          "eod": {
+            "priority": 176,
+            "prefix": "GPW_EOD",
+            "skip_in_search": true
           }
         }
       },
