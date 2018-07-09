@@ -88,6 +88,10 @@
           {
             "group": "canadian_bonds",
             "priority": 20
+          },
+          {
+            "group": "bond_spreads",
+            "priority": 20
           }
         ]
       },
@@ -208,11 +212,14 @@
         ]
       },
       {
+        "priority": 11,
         "prefix": "BITFINEX",
         "groups": [
           {
-            "group": "bitfinex",
-            "priority": 11
+            "group": "bitfinex"
+          },
+          {
+            "group": "bitfinex_forex_spreads"
           },
           {
             "group": "btcbtc_spreads",
@@ -321,6 +328,9 @@
           },
           {
             "group": "bittrex_spreads"
+          },
+          {
+            "group": "bittrex_forex_spreads"
           }
         ]
       },
@@ -1483,6 +1493,9 @@
         "groups": [
           {
             "group": "forex"
+          },
+          {
+            "group": "forex_spreads"
           }
         ]
       },
@@ -3979,6 +3992,10 @@
           {
             "group": "canadian_bonds",
             "priority": 20
+          },
+          {
+            "group": "bond_spreads",
+            "priority": 20
           }
         ]
       },
@@ -4099,11 +4116,14 @@
         ]
       },
       {
+        "priority": 11,
         "prefix": "BITFINEX",
         "groups": [
           {
-            "group": "bitfinex",
-            "priority": 11
+            "group": "bitfinex"
+          },
+          {
+            "group": "bitfinex_forex_spreads"
           },
           {
             "group": "btcbtc_spreads",
@@ -4212,6 +4232,9 @@
           },
           {
             "group": "bittrex_spreads"
+          },
+          {
+            "group": "bittrex_forex_spreads"
           }
         ]
       },
@@ -5374,6 +5397,9 @@
         "groups": [
           {
             "group": "forex"
+          },
+          {
+            "group": "forex_spreads"
           }
         ]
       },
