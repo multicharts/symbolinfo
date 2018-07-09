@@ -249,6 +249,15 @@
         }
       },
       {
+        "id": "bitfinex_forex_spreads",
+        "kinds": {
+          "rt": {
+            "prefix": "BITFINEX",
+            "priority": 11
+          }
+        }
+      },
+      {
         "id": "fxcm_cfd",
         "kinds": {
           "rt": {
@@ -390,6 +399,16 @@
         }
       },
       {
+        "id": "bittrex_forex_spreads",
+        "kinds": {
+          "rt": {
+            "prefix": "BITTREX",
+            "priority": 14,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "usi",
         "kinds": {
           "rt": {
@@ -486,6 +505,16 @@
       },
       {
         "id": "canadian_bonds",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 20,
+            "search_boost": 2.0
+          }
+        }
+      },
+      {
+        "id": "bond_spreads",
         "kinds": {
           "rt": {
             "prefix": "TVC",
@@ -1685,6 +1714,17 @@
       },
       {
         "id": "forex",
+        "kinds": {
+          "rt": {
+            "prefix": "FX_IDC",
+            "priority": 50,
+            "search_boost": 2.0,
+            "exchange_for_display": "IDC"
+          }
+        }
+      },
+      {
+        "id": "forex_spreads",
         "kinds": {
           "rt": {
             "prefix": "FX_IDC",
