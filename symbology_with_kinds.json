@@ -3577,6 +3577,46 @@
         }
       },
       {
+        "id": "nasdaq_unadjusted",
+        "kinds": {
+          "rt": {
+            "prefix": "NASDAQ_UNADJ",
+            "priority": 90,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "amex_unadjusted",
+        "kinds": {
+          "rt": {
+            "prefix": "AMEX_UNADJ",
+            "priority": 90,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "nyse_unadjusted",
+        "kinds": {
+          "rt": {
+            "prefix": "NYSE_UNADJ",
+            "priority": 90,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "otc_unadjusted",
+        "kinds": {
+          "rt": {
+            "prefix": "OTC_UNADJ",
+            "priority": 90,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "belgrade_stocks",
         "kinds": {
           "rt": {
