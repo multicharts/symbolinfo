@@ -1112,6 +1112,9 @@
         "prefix_no_perm": [
           "MILSEDEX_DLY"
         ],
+        "exchange_aliases": [
+          "MIL"
+        ],
         "groups": [
           {
             "group": "milan_sedex"
@@ -5019,6 +5022,9 @@
         "perm": "mil",
         "prefix_no_perm": [
           "MILSEDEX_DLY"
+        ],
+        "exchange_aliases": [
+          "MIL"
         ],
         "groups": [
           {
