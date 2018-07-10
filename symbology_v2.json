@@ -2617,6 +2617,30 @@
         }
       },
       {
+        "id": "thailand_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 53,
+            "prefix": "SET",
+            "prefix_no_perm": [
+              "SET_DLY"
+            ]
+          }
+        }
+      },
+      {
+        "id": "thailand_indices",
+        "kinds": {
+          "rt": {
+            "priority": 53,
+            "prefix": "SET",
+            "prefix_no_perm": [
+              "SET_DLY"
+            ]
+          }
+        }
+      },
+      {
         "id": "santiago_indices_delayed",
         "kinds": {
           "rt": {
@@ -2799,6 +2823,24 @@
           "rt": {
             "priority": 54,
             "prefix": "BMV_DLY"
+          }
+        }
+      },
+      {
+        "id": "thailand_stocks_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 54,
+            "prefix": "SET_DLY"
+          }
+        }
+      },
+      {
+        "id": "thailand_indices_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 54,
+            "prefix": "SET_DLY"
           }
         }
       },
