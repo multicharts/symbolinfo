@@ -1630,6 +1630,41 @@
         }
       },
       {
+        "id": "thailand_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 53,
+            "prefix": "SET",
+            "prefix_no_perm": [
+              "SET_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 54,
+            "prefix": "SET_DLY"
+          }
+        }
+      },
+      {
+        "id": "thailand_indices",
+        "kinds": {
+          "rt": {
+            "priority": 53,
+            "prefix": "SET",
+            "prefix_no_perm": [
+              "SET_DLY"
+            ],
+            "prefix_alias": [
+              "INDEX"
+            ]
+          },
+          "delay": {
+            "priority": 54,
+            "prefix": "SET_DLY"
+          }
+        }
+      },
+      {
         "id": "bovespa_indices",
         "kinds": {
           "rt": {
