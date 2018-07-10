@@ -1998,6 +1998,21 @@
         ]
       },
       {
+        "priority": 53,
+        "prefix": "SET",
+        "prefix_no_perm": [
+          "SET_DLY"
+        ],
+        "groups": [
+          {
+            "group": "thailand_stocks"
+          },
+          {
+            "group": "thailand_indices"
+          }
+        ]
+      },
+      {
         "prefix": "BCS_DLY",
         "groups": [
           {
@@ -2152,6 +2167,18 @@
           {
             "group": "nordic_indices",
             "priority": 55
+          }
+        ]
+      },
+      {
+        "priority": 54,
+        "prefix": "SET_DLY",
+        "groups": [
+          {
+            "group": "thailand_stocks_delayed"
+          },
+          {
+            "group": "thailand_indices_delayed"
           }
         ]
       },
@@ -5902,6 +5929,21 @@
         ]
       },
       {
+        "priority": 53,
+        "prefix": "SET",
+        "prefix_no_perm": [
+          "SET_DLY"
+        ],
+        "groups": [
+          {
+            "group": "thailand_stocks"
+          },
+          {
+            "group": "thailand_indices"
+          }
+        ]
+      },
+      {
         "prefix": "BCS_DLY",
         "groups": [
           {
@@ -6056,6 +6098,18 @@
           {
             "group": "nordic_indices",
             "priority": 55
+          }
+        ]
+      },
+      {
+        "priority": 54,
+        "prefix": "SET_DLY",
+        "groups": [
+          {
+            "group": "thailand_stocks_delayed"
+          },
+          {
+            "group": "thailand_indices_delayed"
           }
         ]
       },
