@@ -1583,6 +1583,7 @@
         ]
       },
       {
+        "priority": 50,
         "prefix": "BIST",
         "prefix_no_perm": [
           "BIST_DLY"
@@ -1592,8 +1593,10 @@
         ],
         "groups": [
           {
-            "group": "istanbul_indices",
-            "priority": 50
+            "group": "istanbul_indices"
+          },
+          {
+            "group": "istanbul_index_spreads"
           },
           {
             "group": "istanbul_stocks",
@@ -5514,6 +5517,7 @@
         ]
       },
       {
+        "priority": 50,
         "prefix": "BIST",
         "prefix_no_perm": [
           "BIST_DLY"
@@ -5523,8 +5527,10 @@
         ],
         "groups": [
           {
-            "group": "istanbul_indices",
-            "priority": 50
+            "group": "istanbul_indices"
+          },
+          {
+            "group": "istanbul_index_spreads"
           },
           {
             "group": "istanbul_stocks",
