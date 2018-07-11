@@ -1352,6 +1352,21 @@
         }
       },
       {
+        "id": "istanbul_index_spreads",
+        "kinds": {
+          "rt": {
+            "priority": 50,
+            "prefix": "BIST",
+            "prefix_alias": [
+              "INDEX"
+            ],
+            "prefix_no_perm": [
+              "BIST_DLY"
+            ]
+          }
+        }
+      },
+      {
         "id": "dublin",
         "kinds": {
           "rt": {
