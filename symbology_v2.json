@@ -1969,6 +1969,21 @@
         }
       },
       {
+        "id": "istanbul_index_spreads",
+        "kinds": {
+          "rt": {
+            "priority": 50,
+            "prefix": "BIST",
+            "prefix_alias": [
+              "IST"
+            ],
+            "prefix_no_perm": [
+              "BIST_DLY"
+            ]
+          }
+        }
+      },
+      {
         "id": "lse_uk_delayed",
         "kinds": {
           "rt": {
