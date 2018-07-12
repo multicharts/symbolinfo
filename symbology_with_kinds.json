@@ -2233,59 +2233,7 @@
         }
       },
       {
-        "id": "lse_uk_aim",
-        "kinds": {
-          "rt": {
-            "priority": 40,
-            "prefix": "LSE",
-            "perm": "lse",
-            "prefix_no_perm": [
-              "LSE_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 50,
-            "prefix": "LSE_DLY",
-            "perm": "lse_dly",
-            "prefix_no_perm": [
-              "LSE_EOD"
-            ]
-          },
-          "eod": {
-            "priority": 60,
-            "prefix": "LSE_EOD",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
         "id": "lse_in",
-        "kinds": {
-          "rt": {
-            "priority": 40,
-            "prefix": "LSIN",
-            "perm": "lsin",
-            "prefix_no_perm": [
-              "LSIN_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 50,
-            "prefix": "LSIN_DLY",
-            "perm": "lsin_dly",
-            "prefix_no_perm": [
-              "LSIN_EOD"
-            ]
-          },
-          "eod": {
-            "priority": 60,
-            "prefix": "LSIN_EOD",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "lse_in_eur",
         "kinds": {
           "rt": {
             "priority": 40,
@@ -2812,6 +2760,35 @@
         }
       },
       {
+        "id": "milan_sedex",
+        "kinds": {
+          "rt": {
+            "priority": 45,
+            "prefix": "MILSEDEX",
+            "exchange_aliases": [
+              "MIL"
+            ],
+            "perm": "mil",
+            "prefix_no_perm": [
+              "MILSEDEX_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 55,
+            "prefix": "MILSEDEX_DLY",
+            "perm": "mil_dly",
+            "prefix_no_perm": [
+              "MILSEDEX_EOD"
+            ]
+          },
+          "eod": {
+            "priority": 65,
+            "prefix": "MILSEDEX_EOD",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "stuttgart_stocks",
         "kinds": {
           "rt": {
@@ -2974,48 +2951,6 @@
         }
       },
       {
-        "id": "vienna_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "VIE",
-            "priority": 70,
-            "perm": "vie",
-            "prefix_no_perm": [
-              "VIE_DLY"
-            ],
-            "prefix_alias": [
-              "WB"
-            ]
-          },
-          "delay": {
-            "prefix": "VIE_DLY",
-            "priority": 71,
-            "prefix_alias": [
-              "WB_DLY"
-            ],
-            "perm": "sf_dly"
-          }
-        }
-      },
-      {
-        "id": "warsaw_indices",
-        "kinds": {
-          "rt": {
-            "priority": 70,
-            "prefix": "GPW",
-            "perm": "gpw",
-            "prefix_no_perm": [
-              "GPW_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 71,
-            "prefix": "GPW_DLY",
-            "perm": "sf_dly"
-          }
-        }
-      },
-      {
         "id": "telaviv_indices",
         "kinds": {
           "rt": {
@@ -3071,66 +3006,6 @@
         }
       },
       {
-        "id": "vienna_stocks",
-        "kinds": {
-          "rt": {
-            "prefix": "VIE",
-            "priority": 75,
-            "perm": "vie",
-            "prefix_no_perm": [
-              "VIE_DLY"
-            ],
-            "prefix_alias": [
-              "WB"
-            ]
-          },
-          "delay": {
-            "prefix": "VIE_DLY",
-            "priority": 76,
-            "prefix_alias": [
-              "WB_DLY"
-            ],
-            "perm": "sf_dly"
-          }
-        }
-      },
-      {
-        "id": "warsaw_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 75,
-            "prefix": "GPW",
-            "perm": "gpw",
-            "prefix_no_perm": [
-              "GPW_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 76,
-            "prefix": "GPW_DLY",
-            "perm": "sf_dly"
-          }
-        }
-      },
-      {
-        "id": "warsaw_futures",
-        "kinds": {
-          "rt": {
-            "priority": 75,
-            "prefix": "GPW",
-            "perm": "gpw",
-            "prefix_no_perm": [
-              "GPW_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 76,
-            "prefix": "GPW_DLY",
-            "perm": "sf_dly"
-          }
-        }
-      },
-      {
         "id": "telaviv_futures",
         "kinds": {
           "rt": {
@@ -3144,24 +3019,6 @@
           "delay": {
             "prefix": "TASE_DLY",
             "priority": 76,
-            "perm": "sf_dly"
-          }
-        }
-      },
-      {
-        "id": "warsaw_continuous",
-        "kinds": {
-          "rt": {
-            "priority": 75,
-            "prefix": "GPW",
-            "perm": "gpw",
-            "prefix_no_perm": [
-              "GPW_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 76,
-            "prefix": "GPW_DLY",
             "perm": "sf_dly"
           }
         }
@@ -3533,7 +3390,8 @@
           },
           "delay": {
             "priority": 86,
-            "prefix": "HOSE_DLY"
+            "prefix": "HOSE_DLY",
+            "perm": "nse_free"
           }
         }
       },
@@ -3553,7 +3411,8 @@
           },
           "delay": {
             "priority": 86,
-            "prefix": "HOSE_DLY"
+            "prefix": "HOSE_DLY",
+            "perm": "nse_free"
           }
         }
       },
@@ -4704,6 +4563,106 @@
           "rt": {
             "prefix": "CBOE",
             "priority": 131
+          }
+        }
+      },
+      {
+        "id": "warsaw_indices",
+        "kinds": {
+          "rt": {
+            "priority": 70,
+            "prefix": "GPW",
+            "perm": "gpw",
+            "prefix_no_perm": [
+              "GPW_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 71,
+            "prefix": "GPW_DLY",
+            "perm": "nse_free",
+            "prefix_no_perm": [
+              "GPW_EOD"
+            ]
+          },
+          "eod": {
+            "priority": 171,
+            "prefix": "GPW_EOD"
+          }
+        }
+      },
+      {
+        "id": "warsaw_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 75,
+            "prefix": "GPW",
+            "perm": "gpw",
+            "prefix_no_perm": [
+              "GPW_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 76,
+            "prefix": "GPW_DLY",
+            "perm": "nse_free",
+            "prefix_no_perm": [
+              "GPW_EOD"
+            ]
+          },
+          "eod": {
+            "priority": 176,
+            "prefix": "GPW_EOD"
+          }
+        }
+      },
+      {
+        "id": "warsaw_futures",
+        "kinds": {
+          "rt": {
+            "priority": 75,
+            "prefix": "GPW",
+            "perm": "gpw",
+            "prefix_no_perm": [
+              "GPW_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 76,
+            "prefix": "GPW_DLY",
+            "perm": "nse_free",
+            "prefix_no_perm": [
+              "GPW_EOD"
+            ]
+          },
+          "eod": {
+            "priority": 176,
+            "prefix": "GPW_EOD"
+          }
+        }
+      },
+      {
+        "id": "warsaw_continuous",
+        "kinds": {
+          "rt": {
+            "priority": 75,
+            "prefix": "GPW",
+            "perm": "gpw",
+            "prefix_no_perm": [
+              "GPW_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 76,
+            "prefix": "GPW_DLY",
+            "perm": "nse_free",
+            "prefix_no_perm": [
+              "GPW_EOD"
+            ]
+          },
+          "eod": {
+            "priority": 176,
+            "prefix": "GPW_EOD"
           }
         }
       },
