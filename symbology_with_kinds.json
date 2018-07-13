@@ -1528,7 +1528,7 @@
           "delay": {
             "priority": 51,
             "prefix": "HKEX_DLY",
-            "perm": "sf_dly"
+            "perm": "nse_free"
           }
         }
       },
@@ -2219,7 +2219,7 @@
           "delay": {
             "priority": 56,
             "prefix": "HKEX_DLY",
-            "perm": "sf_dly"
+            "perm": "nse_free"
           }
         }
       },
@@ -2237,7 +2237,7 @@
           "delay": {
             "priority": 56,
             "prefix": "HKEX_DLY",
-            "perm": "sf_dly"
+            "perm": "nse_free"
           }
         }
       },
@@ -2275,7 +2275,7 @@
           "delay": {
             "priority": 56,
             "prefix": "HKEX_DLY",
-            "perm": "sf_dly"
+            "perm": "nse_free"
           }
         }
       },
