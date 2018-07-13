@@ -1787,7 +1787,7 @@
       },
       {
         "prefix": "HKEX_DLY",
-        "perm": "sf_dly",
+        "perm": "nse_free",
         "groups": [
           {
             "group": "hongkong_indices_delayed",
@@ -5698,7 +5698,7 @@
       },
       {
         "prefix": "HKEX_DLY",
-        "perm": "sf_dly",
+        "perm": "nse_free",
         "groups": [
           {
             "group": "hongkong_indices_delayed",
