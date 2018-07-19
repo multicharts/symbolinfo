@@ -2097,7 +2097,7 @@
           "rt": {
             "priority": 51,
             "prefix": "HKEX_DLY",
-            "perm": "sf_dly"
+            "perm": "nse_free"
           }
         }
       },
@@ -3159,7 +3159,7 @@
           "rt": {
             "priority": 56,
             "prefix": "HKEX_DLY",
-            "perm": "sf_dly"
+            "perm": "nse_free"
           }
         }
       },
@@ -3169,7 +3169,7 @@
           "rt": {
             "priority": 56,
             "prefix": "HKEX_DLY",
-            "perm": "sf_dly"
+            "perm": "nse_free"
           }
         }
       },
@@ -3188,7 +3188,7 @@
           "rt": {
             "priority": 56,
             "prefix": "HKEX_DLY",
-            "perm": "sf_dly"
+            "perm": "nse_free"
           }
         }
       },
@@ -4165,12 +4165,37 @@
         }
       },
       {
+        "id": "johannesburg_indices",
+        "kinds": {
+          "rt": {
+            "priority": 73,
+            "prefix": "JSE",
+            "prefix_no_perm": [
+              "JSE_DLY"
+            ],
+            "perm": "jse_indices",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "telaviv_stocks_delayed",
         "kinds": {
           "rt": {
             "prefix": "TASE_DLY",
             "priority": 74,
             "perm": "sf_dly",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "johannesburg_indices_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 74,
+            "prefix": "JSE_DLY",
+            "perm": "nse_free",
             "skip_in_search": true
           }
         }
@@ -4211,6 +4236,20 @@
             "prefix_no_perm": [
               "TASE_DLY"
             ]
+          }
+        }
+      },
+      {
+        "id": "johannesburg_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 75,
+            "prefix": "JSE",
+            "prefix_no_perm": [
+              "JSE_DLY"
+            ],
+            "perm": "jse_stocks",
+            "skip_in_search": true
           }
         }
       },
@@ -4267,6 +4306,17 @@
             "prefix": "TASE_DLY",
             "priority": 76,
             "perm": "sf_dly",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "johannesburg_stocks_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 76,
+            "prefix": "JSE_DLY",
+            "perm": "nse_free",
             "skip_in_search": true
           }
         }
