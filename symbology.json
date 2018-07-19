@@ -1623,7 +1623,7 @@
       },
       {
         "prefix": "HKEX_DLY",
-        "perm": "sf_dly",
+        "perm": "nse_free",
         "groups": [
           {
             "group": "hongkong_indices_delayed",
@@ -2746,6 +2746,40 @@
           },
           {
             "group": "telaviv_continuous_delayed",
+            "priority": 76
+          }
+        ]
+      },
+      {
+        "prefix": "JSE",
+        "prefix_no_perm": [
+          "JSE_DLY"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "johannesburg_indices",
+            "priority": 73,
+            "perm": "jse_indices"
+          },
+          {
+            "group": "johannesburg_stocks",
+            "priority": 75,
+            "perm": "jse_stocks"
+          }
+        ]
+      },
+      {
+        "prefix": "JSE_DLY",
+        "perm": "nse_free",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "johannesburg_indices_delayed",
+            "priority": 74
+          },
+          {
+            "group": "johannesburg_stocks_delayed",
             "priority": 76
           }
         ]
@@ -5324,7 +5358,7 @@
       },
       {
         "prefix": "HKEX_DLY",
-        "perm": "sf_dly",
+        "perm": "nse_free",
         "groups": [
           {
             "group": "hongkong_indices_delayed",
@@ -6447,6 +6481,40 @@
           },
           {
             "group": "telaviv_continuous_delayed",
+            "priority": 76
+          }
+        ]
+      },
+      {
+        "prefix": "JSE",
+        "prefix_no_perm": [
+          "JSE_DLY"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "johannesburg_indices",
+            "priority": 73,
+            "perm": "jse_indices"
+          },
+          {
+            "group": "johannesburg_stocks",
+            "priority": 75,
+            "perm": "jse_stocks"
+          }
+        ]
+      },
+      {
+        "prefix": "JSE_DLY",
+        "perm": "nse_free",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "johannesburg_indices_delayed",
+            "priority": 74
+          },
+          {
+            "group": "johannesburg_stocks_delayed",
             "priority": 76
           }
         ]
