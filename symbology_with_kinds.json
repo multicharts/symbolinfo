@@ -1376,7 +1376,7 @@
           "delay": {
             "priority": 51,
             "prefix": "HKEX_DLY",
-            "perm": "sf_dly"
+            "perm": "nse_free"
           }
         }
       },
@@ -1989,7 +1989,7 @@
           "delay": {
             "priority": 56,
             "prefix": "HKEX_DLY",
-            "perm": "sf_dly"
+            "perm": "nse_free"
           }
         }
       },
@@ -2007,7 +2007,7 @@
           "delay": {
             "priority": 56,
             "prefix": "HKEX_DLY",
-            "perm": "sf_dly"
+            "perm": "nse_free"
           }
         }
       },
@@ -2045,7 +2045,7 @@
           "delay": {
             "priority": 56,
             "prefix": "HKEX_DLY",
-            "perm": "sf_dly"
+            "perm": "nse_free"
           }
         }
       },
@@ -3006,6 +3006,26 @@
         }
       },
       {
+        "id": "johannesburg_indices",
+        "kinds": {
+          "rt": {
+            "priority": 73,
+            "prefix": "JSE",
+            "prefix_no_perm": [
+              "JSE_DLY"
+            ],
+            "perm": "jse_indices",
+            "skip_in_search": true
+          },
+          "delay": {
+            "priority": 74,
+            "prefix": "JSE_DLY",
+            "perm": "nse_free",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "telaviv_futures",
         "kinds": {
           "rt": {
@@ -3020,6 +3040,26 @@
             "prefix": "TASE_DLY",
             "priority": 76,
             "perm": "sf_dly"
+          }
+        }
+      },
+      {
+        "id": "johannesburg_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 75,
+            "prefix": "JSE",
+            "prefix_no_perm": [
+              "JSE_DLY"
+            ],
+            "perm": "jse_stocks",
+            "skip_in_search": true
+          },
+          "delay": {
+            "priority": 76,
+            "prefix": "JSE_DLY",
+            "perm": "nse_free",
+            "skip_in_search": true
           }
         }
       },
