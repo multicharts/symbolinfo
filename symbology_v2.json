@@ -15,7 +15,7 @@
         "id": "edgar_fundamentals",
         "kinds": {
           "rt": {
-            "prefix": "EDGR",
+            "prefix": "NOEDGR",
             "resolve_mask": "EDGR:*"
           }
         }
