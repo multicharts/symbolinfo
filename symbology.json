@@ -12,7 +12,7 @@
         ]
       },
       {
-        "prefix": "EDGR",
+        "prefix": "NOEDGR",
         "resolve_mask": "EDGR:*",
         "groups": [
           {
@@ -3747,7 +3747,7 @@
         ]
       },
       {
-        "prefix": "EDGR",
+        "prefix": "NOEDGR",
         "resolve_mask": "EDGR:*",
         "groups": [
           {
