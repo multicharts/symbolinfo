@@ -1147,25 +1147,6 @@
       },
       {
         "priority": 47,
-        "prefix": "CRAINS",
-        "groups": [
-          {
-            "group": "crains_indices"
-          }
-        ]
-      },
-      {
-        "priority": 47,
-        "prefix": "CRAINS_INTERNAL",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "crains_indices_internal"
-          }
-        ]
-      },
-      {
-        "priority": 47,
         "prefix": "INDEX_INTERNAL",
         "skip_in_search": true,
         "groups": [
@@ -4877,25 +4858,6 @@
             "group": "nysei",
             "priority": 300,
             "skip_in_search": true
-          }
-        ]
-      },
-      {
-        "priority": 47,
-        "prefix": "CRAINS",
-        "groups": [
-          {
-            "group": "crains_indices"
-          }
-        ]
-      },
-      {
-        "priority": 47,
-        "prefix": "CRAINS_INTERNAL",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "crains_indices_internal"
           }
         ]
       },
