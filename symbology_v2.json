@@ -5881,114 +5881,6 @@
         }
       },
       {
-        "id": "cfe",
-        "kinds": {
-          "rt": {
-            "prefix": "CBOE",
-            "priority": 130
-          }
-        }
-      },
-      {
-        "id": "cfe_continuous_2",
-        "kinds": {
-          "rt": {
-            "prefix": "CBOE",
-            "priority": 131
-          }
-        }
-      },
-      {
-        "id": "cfe_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "CBOE",
-            "priority": 131
-          }
-        }
-      },
-      {
-        "id": "kcbt",
-        "kinds": {
-          "rt": {
-            "prefix": "KCBT",
-            "priority": 180
-          }
-        }
-      },
-      {
-        "id": "kcbt_continuous_2",
-        "kinds": {
-          "rt": {
-            "prefix": "KCBT",
-            "priority": 181
-          }
-        }
-      },
-      {
-        "id": "kcbt_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "KCBT",
-            "priority": 181
-          }
-        }
-      },
-      {
-        "id": "iceus",
-        "kinds": {
-          "rt": {
-            "prefix": "ICEUSA",
-            "priority": 200
-          }
-        }
-      },
-      {
-        "id": "iceus_continuous_2",
-        "kinds": {
-          "rt": {
-            "prefix": "ICEUSA",
-            "priority": 201
-          }
-        }
-      },
-      {
-        "id": "iceus_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "ICEUSA",
-            "priority": 201
-          }
-        }
-      },
-      {
-        "id": "ice",
-        "kinds": {
-          "rt": {
-            "prefix": "ICEEUR",
-            "priority": 210
-          }
-        }
-      },
-      {
-        "id": "ice_continuous_2",
-        "kinds": {
-          "rt": {
-            "prefix": "ICEEUR",
-            "priority": 211
-          }
-        }
-      },
-      {
-        "id": "ice_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "ICEEUR",
-            "priority": 211
-          }
-        }
-      },
-      {
         "id": "ibroker",
         "kinds": {
           "rt": {
@@ -5996,60 +5888,6 @@
             "priority": 220,
             "exchange_for_display": "IBROKER",
             "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "mgex",
-        "kinds": {
-          "rt": {
-            "prefix": "MGEX",
-            "priority": 220
-          }
-        }
-      },
-      {
-        "id": "mgex_continuous_2",
-        "kinds": {
-          "rt": {
-            "prefix": "MGEX",
-            "priority": 221
-          }
-        }
-      },
-      {
-        "id": "mgex_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "MGEX",
-            "priority": 221
-          }
-        }
-      },
-      {
-        "id": "eurex",
-        "kinds": {
-          "rt": {
-            "prefix": "EUREX",
-            "priority": 240
-          }
-        }
-      },
-      {
-        "id": "eurex_continuous_2",
-        "kinds": {
-          "rt": {
-            "prefix": "EUREX",
-            "priority": 241
-          }
-        }
-      },
-      {
-        "id": "eurex_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "EUREX",
-            "priority": 241
           }
         }
       },
@@ -6109,7 +5947,173 @@
           "rt": {
             "prefix": "INDEX",
             "priority": 300,
-            "skip_in_search": true
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          }
+        }
+      },
+      {
+        "id": "cfe_continuous_2",
+        "kinds": {
+          "rt": {
+            "prefix": "CBOE",
+            "priority": 300,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          }
+        }
+      },
+      {
+        "id": "cfe_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "CBOE",
+            "priority": 300,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          }
+        }
+      },
+      {
+        "id": "cfe",
+        "kinds": {
+          "rt": {
+            "prefix": "CBOE",
+            "priority": 300,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          }
+        }
+      },
+      {
+        "id": "eurex_continuous_2",
+        "kinds": {
+          "rt": {
+            "prefix": "EUREX",
+            "priority": 300,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          }
+        }
+      },
+      {
+        "id": "eurex",
+        "kinds": {
+          "rt": {
+            "prefix": "EUREX",
+            "priority": 300,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          }
+        }
+      },
+      {
+        "id": "ice_continuous_2",
+        "kinds": {
+          "rt": {
+            "prefix": "ICEEUR",
+            "priority": 300,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          }
+        }
+      },
+      {
+        "id": "ice_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "ICEEUR",
+            "priority": 300,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          }
+        }
+      },
+      {
+        "id": "ice",
+        "kinds": {
+          "rt": {
+            "prefix": "ICEEUR",
+            "priority": 300,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          }
+        }
+      },
+      {
+        "id": "iceus_continuous_2",
+        "kinds": {
+          "rt": {
+            "prefix": "ICEUSA",
+            "priority": 300,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          }
+        }
+      },
+      {
+        "id": "iceus",
+        "kinds": {
+          "rt": {
+            "prefix": "ICEUSA",
+            "priority": 300,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          }
+        }
+      },
+      {
+        "id": "kcbt_continuous_2",
+        "kinds": {
+          "rt": {
+            "prefix": "KCBT",
+            "priority": 300,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          }
+        }
+      },
+      {
+        "id": "kcbt_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "KCBT",
+            "priority": 300,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          }
+        }
+      },
+      {
+        "id": "kcbt",
+        "kinds": {
+          "rt": {
+            "prefix": "KCBT",
+            "priority": 300,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          }
+        }
+      },
+      {
+        "id": "mgex_continuous_2",
+        "kinds": {
+          "rt": {
+            "prefix": "MGEX",
+            "priority": 300,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          }
+        }
+      },
+      {
+        "id": "mgex",
+        "kinds": {
+          "rt": {
+            "prefix": "MGEX",
+            "priority": 300,
+            "skip_in_search": true,
+            "perm": "permission_denied"
           }
         }
       },
