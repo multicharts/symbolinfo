@@ -886,25 +886,6 @@
         }
       },
       {
-        "id": "crains_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "CRAINS",
-            "priority": 47
-          }
-        }
-      },
-      {
-        "id": "crains_indices_internal",
-        "kinds": {
-          "rt": {
-            "prefix": "CRAINS_INTERNAL",
-            "priority": 47,
-            "skip_in_search": true
-          }
-        }
-      },
-      {
         "id": "custom_indices",
         "kinds": {
           "rt": {
