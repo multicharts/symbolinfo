@@ -4154,8 +4154,7 @@
             "prefix_no_perm": [
               "JSE_DLY"
             ],
-            "perm": "jse_indices",
-            "skip_in_search": true
+            "perm": "jse_indices"
           }
         }
       },
@@ -4176,8 +4175,7 @@
           "rt": {
             "priority": 74,
             "prefix": "JSE_DLY",
-            "perm": "nse_free",
-            "skip_in_search": true
+            "perm": "nse_free"
           }
         }
       },
@@ -4229,8 +4227,7 @@
             "prefix_no_perm": [
               "JSE_DLY"
             ],
-            "perm": "jse_stocks",
-            "skip_in_search": true
+            "perm": "jse_stocks"
           }
         }
       },
@@ -4297,8 +4294,7 @@
           "rt": {
             "priority": 76,
             "prefix": "JSE_DLY",
-            "perm": "nse_free",
-            "skip_in_search": true
+            "perm": "nse_free"
           }
         }
       },
