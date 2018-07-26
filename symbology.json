@@ -2061,6 +2061,22 @@
         ]
       },
       {
+        "priority": 53,
+        "prefix": "SET",
+        "perm": "set",
+        "prefix_no_perm": [
+          "SET_DLY"
+        ],
+        "groups": [
+          {
+            "group": "thailand_stocks"
+          },
+          {
+            "group": "thailand_indices"
+          }
+        ]
+      },
+      {
         "prefix": "BCS_DLY",
         "perm": "sf_dly",
         "groups": [
@@ -2227,6 +2243,18 @@
           {
             "group": "nordic_indices",
             "priority": 55
+          }
+        ]
+      },
+      {
+        "priority": 54,
+        "prefix": "SET_DLY",
+        "groups": [
+          {
+            "group": "thailand_stocks_delayed"
+          },
+          {
+            "group": "thailand_indices_delayed"
           }
         ]
       },
@@ -2935,38 +2963,6 @@
         ]
       },
       {
-        "prefix": "JSE",
-        "prefix_no_perm": [
-          "JSE_DLY"
-        ],
-        "groups": [
-          {
-            "group": "johannesburg_indices",
-            "priority": 73,
-            "perm": "jse_indices"
-          },
-          {
-            "group": "johannesburg_stocks",
-            "priority": 75,
-            "perm": "jse_stocks"
-          }
-        ]
-      },
-      {
-        "prefix": "JSE_DLY",
-        "perm": "nse_free",
-        "groups": [
-          {
-            "group": "johannesburg_indices_delayed",
-            "priority": 74
-          },
-          {
-            "group": "johannesburg_stocks_delayed",
-            "priority": 76
-          }
-        ]
-      },
-      {
         "priority": 77,
         "prefix": "OSE",
         "perm": "ose",
@@ -3323,6 +3319,33 @@
         ]
       },
       {
+        "priority": 85,
+        "prefix": "HOSE",
+        "prefix_no_perm": [
+          "HOSE_DLY"
+        ],
+        "groups": [
+          {
+            "group": "vietnam_stocks"
+          },
+          {
+            "group": "vietnam_indices"
+          }
+        ]
+      },
+      {
+        "priority": 86,
+        "prefix": "HOSE_DLY",
+        "groups": [
+          {
+            "group": "vietnam_stocks_delayed"
+          },
+          {
+            "group": "vietnam_indices_delayed"
+          }
+        ]
+      },
+      {
         "prefix": "BELEX",
         "perm": "belex",
         "prefix_no_perm": [
@@ -3391,6 +3414,33 @@
         "groups": [
           {
             "group": "otc_unadjusted"
+          }
+        ]
+      },
+      {
+        "priority": 95,
+        "prefix": "JSE",
+        "prefix_no_perm": [
+          "JSE_DLY"
+        ],
+        "groups": [
+          {
+            "group": "johannesburg_stocks"
+          },
+          {
+            "group": "johannesburg_indices"
+          }
+        ]
+      },
+      {
+        "priority": 96,
+        "prefix": "JSE_DLY",
+        "groups": [
+          {
+            "group": "johannesburg_stocks_delayed"
+          },
+          {
+            "group": "johannesburg_indices_delayed"
           }
         ]
       },
@@ -5970,6 +6020,22 @@
         ]
       },
       {
+        "priority": 53,
+        "prefix": "SET",
+        "perm": "set",
+        "prefix_no_perm": [
+          "SET_DLY"
+        ],
+        "groups": [
+          {
+            "group": "thailand_stocks"
+          },
+          {
+            "group": "thailand_indices"
+          }
+        ]
+      },
+      {
         "prefix": "BCS_DLY",
         "perm": "sf_dly",
         "groups": [
@@ -6136,6 +6202,18 @@
           {
             "group": "nordic_indices",
             "priority": 55
+          }
+        ]
+      },
+      {
+        "priority": 54,
+        "prefix": "SET_DLY",
+        "groups": [
+          {
+            "group": "thailand_stocks_delayed"
+          },
+          {
+            "group": "thailand_indices_delayed"
           }
         ]
       },
@@ -6844,38 +6922,6 @@
         ]
       },
       {
-        "prefix": "JSE",
-        "prefix_no_perm": [
-          "JSE_DLY"
-        ],
-        "groups": [
-          {
-            "group": "johannesburg_indices",
-            "priority": 73,
-            "perm": "jse_indices"
-          },
-          {
-            "group": "johannesburg_stocks",
-            "priority": 75,
-            "perm": "jse_stocks"
-          }
-        ]
-      },
-      {
-        "prefix": "JSE_DLY",
-        "perm": "nse_free",
-        "groups": [
-          {
-            "group": "johannesburg_indices_delayed",
-            "priority": 74
-          },
-          {
-            "group": "johannesburg_stocks_delayed",
-            "priority": 76
-          }
-        ]
-      },
-      {
         "priority": 77,
         "prefix": "OSE",
         "perm": "ose",
@@ -7232,6 +7278,33 @@
         ]
       },
       {
+        "priority": 85,
+        "prefix": "HOSE",
+        "prefix_no_perm": [
+          "HOSE_DLY"
+        ],
+        "groups": [
+          {
+            "group": "vietnam_stocks"
+          },
+          {
+            "group": "vietnam_indices"
+          }
+        ]
+      },
+      {
+        "priority": 86,
+        "prefix": "HOSE_DLY",
+        "groups": [
+          {
+            "group": "vietnam_stocks_delayed"
+          },
+          {
+            "group": "vietnam_indices_delayed"
+          }
+        ]
+      },
+      {
         "prefix": "BELEX",
         "perm": "belex",
         "prefix_no_perm": [
@@ -7300,6 +7373,33 @@
         "groups": [
           {
             "group": "otc_unadjusted"
+          }
+        ]
+      },
+      {
+        "priority": 95,
+        "prefix": "JSE",
+        "prefix_no_perm": [
+          "JSE_DLY"
+        ],
+        "groups": [
+          {
+            "group": "johannesburg_stocks"
+          },
+          {
+            "group": "johannesburg_indices"
+          }
+        ]
+      },
+      {
+        "priority": 96,
+        "prefix": "JSE_DLY",
+        "groups": [
+          {
+            "group": "johannesburg_stocks_delayed"
+          },
+          {
+            "group": "johannesburg_indices_delayed"
           }
         ]
       },
