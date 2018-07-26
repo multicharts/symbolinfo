@@ -1841,6 +1841,43 @@
         }
       },
       {
+        "id": "thailand_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 53,
+            "prefix": "SET",
+            "prefix_no_perm": [
+              "SET_DLY"
+            ],
+            "perm": "set"
+          },
+          "delay": {
+            "priority": 54,
+            "prefix": "SET_DLY"
+          }
+        }
+      },
+      {
+        "id": "thailand_indices",
+        "kinds": {
+          "rt": {
+            "priority": 53,
+            "prefix": "SET",
+            "prefix_no_perm": [
+              "SET_DLY"
+            ],
+            "perm": "set",
+            "prefix_alias": [
+              "INDEX"
+            ]
+          },
+          "delay": {
+            "priority": 54,
+            "prefix": "SET_DLY"
+          }
+        }
+      },
+      {
         "id": "buenosaires_indices",
         "kinds": {
           "rt": {
