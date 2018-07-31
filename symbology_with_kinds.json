@@ -1464,6 +1464,7 @@
         "kinds": {
           "rt": {
             "prefix": "MOEX",
+            "perm": "moex_futures",
             "prefix_no_perm": [
               "MOEX_DLY"
             ],
@@ -1471,6 +1472,7 @@
           },
           "delay": {
             "prefix": "MOEX_DLY",
+            "perm": "moex",
             "priority": 51
           }
         }
@@ -1480,6 +1482,7 @@
         "kinds": {
           "rt": {
             "prefix": "MOEX",
+            "perm": "moex_stocks",
             "prefix_no_perm": [
               "MOEX_DLY"
             ],
@@ -1487,32 +1490,37 @@
           },
           "delay": {
             "prefix": "MOEX_DLY",
+            "perm": "moex",
             "priority": 52
           }
         }
       },
       {
-        "id": "moex_indices",
+        "id": "moex_non_primary_indices",
         "kinds": {
           "rt": {
             "prefix": "MOEX",
+            "perm": "moex_stocks",
             "prefix_no_perm": [
               "MOEX_DLY"
-            ],
-            "prefix_alias": [
-              "INDEX"
             ],
             "priority": 52
           },
           "delay": {
             "prefix": "MOEX_DLY",
-            "prefix_no_perm": [
-              "MOEX_EOD"
-            ],
+            "perm": "moex",
             "priority": 52
-          },
-          "eod": {
-            "prefix": "MOEX_EOD",
+          }
+        }
+      },
+      {
+        "id": "moex_primary_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "MOEX",
+            "prefix_alias": [
+              "MOEX_DLY"
+            ],
             "priority": 52
           }
         }
@@ -1522,6 +1530,7 @@
         "kinds": {
           "rt": {
             "prefix": "MOEX",
+            "perm": "moex_futures",
             "prefix_no_perm": [
               "MOEX_DLY"
             ],
@@ -1529,6 +1538,7 @@
           },
           "delay": {
             "prefix": "MOEX_DLY",
+            "perm": "moex",
             "priority": 52
           }
         }
@@ -1538,6 +1548,7 @@
         "kinds": {
           "rt": {
             "prefix": "MOEX",
+            "perm": "moex_currency",
             "prefix_no_perm": [
               "MOEX_DLY"
             ],
@@ -1545,6 +1556,7 @@
           },
           "delay": {
             "prefix": "MOEX_DLY",
+            "perm": "moex",
             "priority": 52
           }
         }
