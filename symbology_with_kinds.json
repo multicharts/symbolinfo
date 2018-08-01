@@ -5021,7 +5021,7 @@
         }
       },
       {
-        "id": "iceus_futures",
+        "id": "iceusa_futures",
         "kinds": {
           "eod": {
             "skip_in_search": false,
@@ -5034,7 +5034,7 @@
         }
       },
       {
-        "id": "iceus_continuous",
+        "id": "iceusa_continuous",
         "kinds": {
           "eod": {
             "skip_in_search": false,
@@ -5084,7 +5084,7 @@
         }
       },
       {
-        "id": "mgex_futures",
+        "id": "minneapolis_grain_futures",
         "kinds": {
           "eod": {
             "skip_in_search": false,
@@ -5097,7 +5097,7 @@
         }
       },
       {
-        "id": "mgex_continuous",
+        "id": "minneapolis_grain_continuous",
         "kinds": {
           "eod": {
             "skip_in_search": false,
@@ -5110,7 +5110,7 @@
         }
       },
       {
-        "id": "eurex_futures",
+        "id": "eur_ex_futures",
         "kinds": {
           "eod": {
             "skip_in_search": false,
@@ -5123,7 +5123,7 @@
         }
       },
       {
-        "id": "eurex_continuous",
+        "id": "eur_ex_continuous",
         "kinds": {
           "eod": {
             "skip_in_search": false,
@@ -5345,6 +5345,17 @@
         }
       },
       {
+        "id": "eurex_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "EUREX",
+            "priority": 300,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          }
+        }
+      },
+      {
         "id": "eurex",
         "kinds": {
           "rt": {
@@ -5400,6 +5411,17 @@
         }
       },
       {
+        "id": "iceus_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "ICEUSA",
+            "priority": 300,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          }
+        }
+      },
+      {
         "id": "iceus",
         "kinds": {
           "rt": {
@@ -5445,6 +5467,17 @@
       },
       {
         "id": "mgex_continuous_2",
+        "kinds": {
+          "rt": {
+            "prefix": "MGEX",
+            "priority": 300,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          }
+        }
+      },
+      {
+        "id": "mgex_continuous",
         "kinds": {
           "rt": {
             "prefix": "MGEX",
