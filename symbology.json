@@ -90,6 +90,11 @@
             "perm": "tvc_cfd"
           },
           {
+            "group": "bond_spreads",
+            "priority": 20,
+            "perm": "tvc_cfd"
+          },
+          {
             "group": "euro_bonds",
             "priority": 20,
             "perm": "tvc_cfd"
@@ -221,11 +226,14 @@
         ]
       },
       {
+        "priority": 11,
         "prefix": "BITFINEX",
         "groups": [
           {
-            "group": "bitfinex",
-            "priority": 11
+            "group": "bitfinex"
+          },
+          {
+            "group": "bitfinex_forex_spreads"
           },
           {
             "group": "btcbtc_spreads",
@@ -334,6 +342,9 @@
           },
           {
             "group": "bittrex_spreads"
+          },
+          {
+            "group": "bittrex_forex_spreads"
           }
         ]
       },
@@ -1524,6 +1535,9 @@
         "groups": [
           {
             "group": "forex"
+          },
+          {
+            "group": "forex_spreads"
           }
         ]
       },
@@ -3890,6 +3904,9 @@
             "group": "eurex_continuous_2"
           },
           {
+            "group": "eurex_continuous"
+          },
+          {
             "group": "eurex"
           }
         ]
@@ -3921,6 +3938,9 @@
             "group": "iceus_continuous_2"
           },
           {
+            "group": "iceus_continuous"
+          },
+          {
             "group": "iceus"
           }
         ]
@@ -3950,6 +3970,9 @@
         "groups": [
           {
             "group": "mgex_continuous_2"
+          },
+          {
+            "group": "mgex_continuous"
           },
           {
             "group": "mgex"
@@ -4049,6 +4072,11 @@
             "perm": "tvc_cfd"
           },
           {
+            "group": "bond_spreads",
+            "priority": 20,
+            "perm": "tvc_cfd"
+          },
+          {
             "group": "euro_bonds",
             "priority": 20,
             "perm": "tvc_cfd"
@@ -4180,11 +4208,14 @@
         ]
       },
       {
+        "priority": 11,
         "prefix": "BITFINEX",
         "groups": [
           {
-            "group": "bitfinex",
-            "priority": 11
+            "group": "bitfinex"
+          },
+          {
+            "group": "bitfinex_forex_spreads"
           },
           {
             "group": "btcbtc_spreads",
@@ -4293,6 +4324,9 @@
           },
           {
             "group": "bittrex_spreads"
+          },
+          {
+            "group": "bittrex_forex_spreads"
           }
         ]
       },
@@ -5483,6 +5517,9 @@
         "groups": [
           {
             "group": "forex"
+          },
+          {
+            "group": "forex_spreads"
           }
         ]
       },
@@ -7849,6 +7886,9 @@
             "group": "eurex_continuous_2"
           },
           {
+            "group": "eurex_continuous"
+          },
+          {
             "group": "eurex"
           }
         ]
@@ -7880,6 +7920,9 @@
             "group": "iceus_continuous_2"
           },
           {
+            "group": "iceus_continuous"
+          },
+          {
             "group": "iceus"
           }
         ]
@@ -7909,6 +7952,9 @@
         "groups": [
           {
             "group": "mgex_continuous_2"
+          },
+          {
+            "group": "mgex_continuous"
           },
           {
             "group": "mgex"
