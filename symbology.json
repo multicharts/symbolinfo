@@ -12,7 +12,7 @@
         ]
       },
       {
-        "prefix": "EDGR",
+        "prefix": "NOEDGR",
         "resolve_mask": "EDGR:*",
         "groups": [
           {
@@ -77,6 +77,10 @@
             "priority": 20
           },
           {
+            "group": "bond_spreads",
+            "priority": 20
+          },
+          {
             "group": "euro_bonds",
             "priority": 20
           },
@@ -87,10 +91,6 @@
           },
           {
             "group": "canadian_bonds",
-            "priority": 20
-          },
-          {
-            "group": "bond_spreads",
             "priority": 20
           }
         ]
@@ -180,10 +180,6 @@
           {
             "group": "nasdaq_indices_delayed",
             "priority": 10,
-            "prefix_no_perm": [
-              "NASDAQ_EOD"
-            ],
-            "exchange_for_display": "NASDAQ Global Indices",
             "skip_in_search": false,
             "prefix_alias": [
               "NASDAQ_DLY",
@@ -253,25 +249,6 @@
         ]
       },
       {
-        "prefix": "FOREXCOM",
-        "exchange_for_display": "FOREX.com",
-        "skip_in_search": false,
-        "groups": [
-          {
-            "group": "gain_discontinued",
-            "priority": 12,
-            "perm": "permission_denied",
-            "prefix_no_perm": [
-              "OANDA"
-            ]
-          },
-          {
-            "group": "gain",
-            "priority": 13
-          }
-        ]
-      },
-      {
         "priority": 12,
         "prefix": "BITSTAMP",
         "groups": [
@@ -321,6 +298,25 @@
         "groups": [
           {
             "group": "frbny"
+          }
+        ]
+      },
+      {
+        "prefix": "FOREXCOM",
+        "exchange_for_display": "FOREX.com",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "gain",
+            "priority": 13
+          },
+          {
+            "group": "gain_discontinued",
+            "priority": 14,
+            "perm": "permission_denied",
+            "prefix_no_perm": [
+              "OANDA"
+            ]
           }
         ]
       },
@@ -463,6 +459,7 @@
             "priority": 100,
             "skip_in_search": false,
             "prefix_alias": [
+              "NYSE_EOD",
               "INDEX"
             ]
           },
@@ -471,8 +468,8 @@
             "priority": 100,
             "skip_in_search": false,
             "prefix_alias": [
-              "INDEX",
-              "NYSE_EOD"
+              "NYSE_EOD",
+              "INDEX"
             ]
           }
         ]
@@ -664,10 +661,7 @@
         "groups": [
           {
             "group": "milan_indices",
-            "priority": 40,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "priority": 40
           },
           {
             "group": "milan_stocks",
@@ -1110,18 +1104,6 @@
         ]
       },
       {
-        "priority": 45,
-        "prefix": "MILSEDEX",
-        "prefix_no_perm": [
-          "MILSEDEX_DLY"
-        ],
-        "groups": [
-          {
-            "group": "milan_sedex"
-          }
-        ]
-      },
-      {
         "prefix": "XETR",
         "prefix_no_perm": [
           "XETR_DLY"
@@ -1216,10 +1198,7 @@
         "groups": [
           {
             "group": "xetra_indices_delayed",
-            "priority": 47,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "priority": 47
           },
           {
             "group": "xetra_stocks_delayed",
@@ -1244,6 +1223,16 @@
         "groups": [
           {
             "group": "dj_indices_eod"
+          }
+        ]
+      },
+      {
+        "priority": 47,
+        "prefix": "NASDAQ_EOD",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "nasdaq_indices_eod"
           }
         ]
       },
@@ -1589,7 +1578,6 @@
         ]
       },
       {
-        "priority": 50,
         "prefix": "BIST",
         "prefix_no_perm": [
           "BIST_DLY"
@@ -1599,10 +1587,8 @@
         ],
         "groups": [
           {
-            "group": "istanbul_indices"
-          },
-          {
-            "group": "istanbul_index_spreads"
+            "group": "istanbul_indices",
+            "priority": 50
           },
           {
             "group": "istanbul_stocks",
@@ -1811,10 +1797,7 @@
           },
           {
             "group": "moex_indices",
-            "priority": 52,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "priority": 52
           },
           {
             "group": "moex_futures",
@@ -2132,6 +2115,10 @@
             "priority": 55
           },
           {
+            "group": "iceland_indices_delayed",
+            "priority": 56
+          },
+          {
             "group": "iceland_stocks",
             "priority": 60
           }
@@ -2240,18 +2227,6 @@
       },
       {
         "priority": 55,
-        "prefix": "MILSEDEX_DLY",
-        "prefix_no_perm": [
-          "MILSEDEX_EOD"
-        ],
-        "groups": [
-          {
-            "group": "milan_sedex_delayed"
-          }
-        ]
-      },
-      {
-        "priority": 55,
         "prefix": "FWB_DLY",
         "prefix_alias": [
           "FRA_DLY"
@@ -2305,10 +2280,6 @@
           {
             "group": "iceland_basic_indices_delayed",
             "priority": 55
-          },
-          {
-            "group": "iceland_indices_delayed",
-            "priority": 56
           },
           {
             "group": "iceland_stocks_delayed",
@@ -2473,6 +2444,7 @@
       {
         "prefix": "OMXRSE_DLY",
         "perm": "nse_free",
+        "skip_in_search": true,
         "groups": [
           {
             "group": "riga_indices_delayed",
@@ -2487,6 +2459,7 @@
       {
         "prefix": "OMXTSE_DLY",
         "perm": "nse_free",
+        "skip_in_search": true,
         "groups": [
           {
             "group": "tallinn_indices_delayed",
@@ -2501,6 +2474,7 @@
       {
         "prefix": "OMXVSE_DLY",
         "perm": "nse_free",
+        "skip_in_search": true,
         "groups": [
           {
             "group": "vilnius_indices_delayed",
@@ -2519,6 +2493,7 @@
         "prefix_no_perm": [
           "OMXBALTIC_DLY"
         ],
+        "skip_in_search": true,
         "groups": [
           {
             "group": "baltic_indices_delayed"
@@ -2706,16 +2681,6 @@
         ]
       },
       {
-        "priority": 65,
-        "prefix": "MILSEDEX_EOD",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "milan_sedex_eod"
-          }
-        ]
-      },
-      {
         "priority": 66,
         "prefix": "SWB_DLY",
         "groups": [
@@ -2757,6 +2722,7 @@
       },
       {
         "prefix": "GPW",
+        "perm": "gpw",
         "prefix_no_perm": [
           "GPW_DLY"
         ],
@@ -2878,11 +2844,44 @@
         ]
       },
       {
+        "prefix": "JSE",
+        "prefix_no_perm": [
+          "JSE_DLY"
+        ],
+        "groups": [
+          {
+            "group": "johannesburg_indices",
+            "priority": 73,
+            "perm": "jse_indices"
+          },
+          {
+            "group": "johannesburg_stocks",
+            "priority": 75,
+            "perm": "jse_stocks"
+          }
+        ]
+      },
+      {
+        "prefix": "JSE_DLY",
+        "perm": "nse_free",
+        "groups": [
+          {
+            "group": "johannesburg_indices_delayed",
+            "priority": 74
+          },
+          {
+            "group": "johannesburg_stocks_delayed",
+            "priority": 76
+          }
+        ]
+      },
+      {
         "priority": 77,
         "prefix": "OSE",
         "prefix_no_perm": [
           "OSE_DLY"
         ],
+        "skip_in_search": false,
         "groups": [
           {
             "group": "osaka_futures"
@@ -3215,33 +3214,6 @@
         ]
       },
       {
-        "priority": 85,
-        "prefix": "HOSE",
-        "prefix_no_perm": [
-          "HOSE_DLY"
-        ],
-        "groups": [
-          {
-            "group": "vietnam_stocks"
-          },
-          {
-            "group": "vietnam_indices"
-          }
-        ]
-      },
-      {
-        "priority": 86,
-        "prefix": "HOSE_DLY",
-        "groups": [
-          {
-            "group": "vietnam_stocks_delayed"
-          },
-          {
-            "group": "vietnam_indices_delayed"
-          }
-        ]
-      },
-      {
         "prefix": "BELEX",
         "prefix_no_perm": [
           "BELEX_DLY"
@@ -3312,33 +3284,6 @@
         ]
       },
       {
-        "priority": 95,
-        "prefix": "JSE",
-        "prefix_no_perm": [
-          "JSE_DLY"
-        ],
-        "groups": [
-          {
-            "group": "johannesburg_stocks"
-          },
-          {
-            "group": "johannesburg_indices"
-          }
-        ]
-      },
-      {
-        "priority": 96,
-        "prefix": "JSE_DLY",
-        "groups": [
-          {
-            "group": "johannesburg_stocks_delayed"
-          },
-          {
-            "group": "johannesburg_indices_delayed"
-          }
-        ]
-      },
-      {
         "prefix": "TSX_EOD",
         "groups": [
           {
@@ -3353,11 +3298,15 @@
       },
       {
         "priority": 100,
-        "prefix": "NASDAQ_EOD",
+        "prefix": "RUSSEL",
         "skip_in_search": true,
+        "prefix_alias": [
+          "RUSSEL_EOD",
+          "INDEX"
+        ],
         "groups": [
           {
-            "group": "nasdaq_indices_eod"
+            "group": "russel_indices_eod"
           }
         ]
       },
@@ -3961,7 +3910,7 @@
         ]
       },
       {
-        "prefix": "EDGR",
+        "prefix": "NOEDGR",
         "resolve_mask": "EDGR:*",
         "groups": [
           {
@@ -4026,6 +3975,10 @@
             "priority": 20
           },
           {
+            "group": "bond_spreads",
+            "priority": 20
+          },
+          {
             "group": "euro_bonds",
             "priority": 20
           },
@@ -4036,10 +3989,6 @@
           },
           {
             "group": "canadian_bonds",
-            "priority": 20
-          },
-          {
-            "group": "bond_spreads",
             "priority": 20
           }
         ]
@@ -4129,10 +4078,6 @@
           {
             "group": "nasdaq_indices_delayed",
             "priority": 10,
-            "prefix_no_perm": [
-              "NASDAQ_EOD"
-            ],
-            "exchange_for_display": "NASDAQ Global Indices",
             "skip_in_search": false,
             "prefix_alias": [
               "NASDAQ_DLY",
@@ -4202,25 +4147,6 @@
         ]
       },
       {
-        "prefix": "FOREXCOM",
-        "exchange_for_display": "FOREX.com",
-        "skip_in_search": false,
-        "groups": [
-          {
-            "group": "gain_discontinued",
-            "priority": 12,
-            "perm": "permission_denied",
-            "prefix_no_perm": [
-              "OANDA"
-            ]
-          },
-          {
-            "group": "gain",
-            "priority": 13
-          }
-        ]
-      },
-      {
         "priority": 12,
         "prefix": "BITSTAMP",
         "groups": [
@@ -4270,6 +4196,25 @@
         "groups": [
           {
             "group": "frbny"
+          }
+        ]
+      },
+      {
+        "prefix": "FOREXCOM",
+        "exchange_for_display": "FOREX.com",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "gain",
+            "priority": 13
+          },
+          {
+            "group": "gain_discontinued",
+            "priority": 14,
+            "perm": "permission_denied",
+            "prefix_no_perm": [
+              "OANDA"
+            ]
           }
         ]
       },
@@ -4412,6 +4357,7 @@
             "priority": 100,
             "skip_in_search": false,
             "prefix_alias": [
+              "NYSE_EOD",
               "INDEX"
             ]
           },
@@ -4420,8 +4366,8 @@
             "priority": 100,
             "skip_in_search": false,
             "prefix_alias": [
-              "INDEX",
-              "NYSE_EOD"
+              "NYSE_EOD",
+              "INDEX"
             ]
           }
         ]
@@ -4613,10 +4559,7 @@
         "groups": [
           {
             "group": "milan_indices",
-            "priority": 40,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "priority": 40
           },
           {
             "group": "milan_stocks",
@@ -5059,18 +5002,6 @@
         ]
       },
       {
-        "priority": 45,
-        "prefix": "MILSEDEX",
-        "prefix_no_perm": [
-          "MILSEDEX_DLY"
-        ],
-        "groups": [
-          {
-            "group": "milan_sedex"
-          }
-        ]
-      },
-      {
         "prefix": "XETR",
         "prefix_no_perm": [
           "XETR_DLY"
@@ -5165,10 +5096,7 @@
         "groups": [
           {
             "group": "xetra_indices_delayed",
-            "priority": 47,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "priority": 47
           },
           {
             "group": "xetra_stocks_delayed",
@@ -5193,6 +5121,16 @@
         "groups": [
           {
             "group": "dj_indices_eod"
+          }
+        ]
+      },
+      {
+        "priority": 47,
+        "prefix": "NASDAQ_EOD",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "nasdaq_indices_eod"
           }
         ]
       },
@@ -5538,7 +5476,6 @@
         ]
       },
       {
-        "priority": 50,
         "prefix": "BIST",
         "prefix_no_perm": [
           "BIST_DLY"
@@ -5548,10 +5485,8 @@
         ],
         "groups": [
           {
-            "group": "istanbul_indices"
-          },
-          {
-            "group": "istanbul_index_spreads"
+            "group": "istanbul_indices",
+            "priority": 50
           },
           {
             "group": "istanbul_stocks",
@@ -5760,10 +5695,7 @@
           },
           {
             "group": "moex_indices",
-            "priority": 52,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "priority": 52
           },
           {
             "group": "moex_futures",
@@ -6081,6 +6013,10 @@
             "priority": 55
           },
           {
+            "group": "iceland_indices_delayed",
+            "priority": 56
+          },
+          {
             "group": "iceland_stocks",
             "priority": 60
           }
@@ -6189,18 +6125,6 @@
       },
       {
         "priority": 55,
-        "prefix": "MILSEDEX_DLY",
-        "prefix_no_perm": [
-          "MILSEDEX_EOD"
-        ],
-        "groups": [
-          {
-            "group": "milan_sedex_delayed"
-          }
-        ]
-      },
-      {
-        "priority": 55,
         "prefix": "FWB_DLY",
         "prefix_alias": [
           "FRA_DLY"
@@ -6254,10 +6178,6 @@
           {
             "group": "iceland_basic_indices_delayed",
             "priority": 55
-          },
-          {
-            "group": "iceland_indices_delayed",
-            "priority": 56
           },
           {
             "group": "iceland_stocks_delayed",
@@ -6422,6 +6342,7 @@
       {
         "prefix": "OMXRSE_DLY",
         "perm": "nse_free",
+        "skip_in_search": true,
         "groups": [
           {
             "group": "riga_indices_delayed",
@@ -6436,6 +6357,7 @@
       {
         "prefix": "OMXTSE_DLY",
         "perm": "nse_free",
+        "skip_in_search": true,
         "groups": [
           {
             "group": "tallinn_indices_delayed",
@@ -6450,6 +6372,7 @@
       {
         "prefix": "OMXVSE_DLY",
         "perm": "nse_free",
+        "skip_in_search": true,
         "groups": [
           {
             "group": "vilnius_indices_delayed",
@@ -6468,6 +6391,7 @@
         "prefix_no_perm": [
           "OMXBALTIC_DLY"
         ],
+        "skip_in_search": true,
         "groups": [
           {
             "group": "baltic_indices_delayed"
@@ -6655,16 +6579,6 @@
         ]
       },
       {
-        "priority": 65,
-        "prefix": "MILSEDEX_EOD",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "milan_sedex_eod"
-          }
-        ]
-      },
-      {
         "priority": 66,
         "prefix": "SWB_DLY",
         "groups": [
@@ -6706,6 +6620,7 @@
       },
       {
         "prefix": "GPW",
+        "perm": "gpw",
         "prefix_no_perm": [
           "GPW_DLY"
         ],
@@ -6827,11 +6742,44 @@
         ]
       },
       {
+        "prefix": "JSE",
+        "prefix_no_perm": [
+          "JSE_DLY"
+        ],
+        "groups": [
+          {
+            "group": "johannesburg_indices",
+            "priority": 73,
+            "perm": "jse_indices"
+          },
+          {
+            "group": "johannesburg_stocks",
+            "priority": 75,
+            "perm": "jse_stocks"
+          }
+        ]
+      },
+      {
+        "prefix": "JSE_DLY",
+        "perm": "nse_free",
+        "groups": [
+          {
+            "group": "johannesburg_indices_delayed",
+            "priority": 74
+          },
+          {
+            "group": "johannesburg_stocks_delayed",
+            "priority": 76
+          }
+        ]
+      },
+      {
         "priority": 77,
         "prefix": "OSE",
         "prefix_no_perm": [
           "OSE_DLY"
         ],
+        "skip_in_search": false,
         "groups": [
           {
             "group": "osaka_futures"
@@ -7164,33 +7112,6 @@
         ]
       },
       {
-        "priority": 85,
-        "prefix": "HOSE",
-        "prefix_no_perm": [
-          "HOSE_DLY"
-        ],
-        "groups": [
-          {
-            "group": "vietnam_stocks"
-          },
-          {
-            "group": "vietnam_indices"
-          }
-        ]
-      },
-      {
-        "priority": 86,
-        "prefix": "HOSE_DLY",
-        "groups": [
-          {
-            "group": "vietnam_stocks_delayed"
-          },
-          {
-            "group": "vietnam_indices_delayed"
-          }
-        ]
-      },
-      {
         "prefix": "BELEX",
         "prefix_no_perm": [
           "BELEX_DLY"
@@ -7261,33 +7182,6 @@
         ]
       },
       {
-        "priority": 95,
-        "prefix": "JSE",
-        "prefix_no_perm": [
-          "JSE_DLY"
-        ],
-        "groups": [
-          {
-            "group": "johannesburg_stocks"
-          },
-          {
-            "group": "johannesburg_indices"
-          }
-        ]
-      },
-      {
-        "priority": 96,
-        "prefix": "JSE_DLY",
-        "groups": [
-          {
-            "group": "johannesburg_stocks_delayed"
-          },
-          {
-            "group": "johannesburg_indices_delayed"
-          }
-        ]
-      },
-      {
         "prefix": "TSX_EOD",
         "groups": [
           {
@@ -7302,11 +7196,15 @@
       },
       {
         "priority": 100,
-        "prefix": "NASDAQ_EOD",
+        "prefix": "RUSSEL",
         "skip_in_search": true,
+        "prefix_alias": [
+          "RUSSEL_EOD",
+          "INDEX"
+        ],
         "groups": [
           {
-            "group": "nasdaq_indices_eod"
+            "group": "russel_indices_eod"
           }
         ]
       },
