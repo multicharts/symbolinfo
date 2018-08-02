@@ -15,7 +15,7 @@
         "id": "edgar_fundamentals",
         "kinds": {
           "rt": {
-            "prefix": "EDGR",
+            "prefix": "NOEDGR",
             "resolve_mask": "EDGR:*"
           }
         }
@@ -105,7 +105,7 @@
               "INDEX"
             ],
             "skip_in_search": false,
-            "perm": "nse_free"
+            "perm": "tsx_dly"
           }
         }
       },
@@ -589,75 +589,12 @@
         }
       },
       {
-        "id": "euronext_primary_europe_indices",
+        "id": "euronext_primary_indices",
         "kinds": {
           "rt": {
             "prefix": "EURONEXT",
             "priority": 38,
-            "perm": "euronext_dly",
-            "prefix_alias": [
-              "EURONEXT_DLY"
-            ]
-          }
-        }
-      },
-      {
-        "id": "euronext_primary_amsterdam_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "EURONEXT",
-            "priority": 38,
-            "perm": "euronext_dly",
-            "prefix_alias": [
-              "EURONEXT_DLY",
-              "EURONEXTAMS",
-              "EURONEXTAMS_DLY"
-            ]
-          }
-        }
-      },
-      {
-        "id": "euronext_primary_brussels_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "EURONEXT",
-            "priority": 38,
-            "perm": "euronext_dly",
-            "prefix_alias": [
-              "EURONEXT_DLY",
-              "EURONEXTBRU",
-              "EURONEXTBRU_DLY"
-            ]
-          }
-        }
-      },
-      {
-        "id": "euronext_primary_lisbon_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "EURONEXT",
-            "priority": 38,
-            "perm": "euronext_dly",
-            "prefix_alias": [
-              "EURONEXT_DLY",
-              "EURONEXTLIS",
-              "EURONEXTLIS_DLY"
-            ]
-          }
-        }
-      },
-      {
-        "id": "euronext_primary_paris_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "EURONEXT",
-            "priority": 38,
-            "perm": "euronext_dly",
-            "prefix_alias": [
-              "EURONEXT_DLY",
-              "EURONEXTPAR",
-              "EURONEXTPAR_DLY"
-            ]
+            "perm": "euronext_dly"
           }
         }
       },
@@ -676,63 +613,14 @@
         }
       },
       {
-        "id": "euronext_non_primary_europe_indices",
-        "kinds": {
-          "rt": {
-            "priority": 39,
-            "prefix": "EURONEXT",
-            "perm": "euronext_indices"
-          }
-        }
-      },
-      {
-        "id": "euronext_non_primary_amsterdam_indices",
+        "id": "euronext_non_primary_indices",
         "kinds": {
           "rt": {
             "priority": 39,
             "prefix": "EURONEXT",
             "perm": "euronext_indices",
-            "prefix_alias": [
-              "EURONEXTAMS"
-            ]
-          }
-        }
-      },
-      {
-        "id": "euronext_non_primary_brussels_indices",
-        "kinds": {
-          "rt": {
-            "priority": 39,
-            "prefix": "EURONEXT",
-            "perm": "euronext_indices",
-            "prefix_alias": [
-              "EURONEXTBRU"
-            ]
-          }
-        }
-      },
-      {
-        "id": "euronext_non_primary_lisbon_indices",
-        "kinds": {
-          "rt": {
-            "priority": 39,
-            "prefix": "EURONEXT",
-            "perm": "euronext_indices",
-            "prefix_alias": [
-              "EURONEXTLIS"
-            ]
-          }
-        }
-      },
-      {
-        "id": "euronext_non_primary_paris_indices",
-        "kinds": {
-          "rt": {
-            "priority": 39,
-            "prefix": "EURONEXT",
-            "perm": "euronext_indices",
-            "prefix_alias": [
-              "EURONEXTPAR"
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
             ]
           }
         }
@@ -807,64 +695,12 @@
         }
       },
       {
-        "id": "euronext_non_primary_europe_indices_delayed",
+        "id": "euronext_non_primary_indices_delayed",
         "kinds": {
           "rt": {
             "priority": 40,
             "prefix": "EURONEXT_DLY",
             "perm": "euronext_dly"
-          }
-        }
-      },
-      {
-        "id": "euronext_non_primary_amsterdam_indices_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 40,
-            "prefix": "EURONEXT_DLY",
-            "perm": "euronext_dly",
-            "prefix_alias": [
-              "EURONEXTAMS_DLY"
-            ]
-          }
-        }
-      },
-      {
-        "id": "euronext_non_primary_brussels_indices_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 40,
-            "prefix": "EURONEXT_DLY",
-            "perm": "euronext_dly",
-            "prefix_alias": [
-              "EURONEXTBRU_DLY"
-            ]
-          }
-        }
-      },
-      {
-        "id": "euronext_non_primary_lisbon_indices_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 40,
-            "prefix": "EURONEXT_DLY",
-            "perm": "euronext_dly",
-            "prefix_alias": [
-              "EURONEXTLIS_DLY"
-            ]
-          }
-        }
-      },
-      {
-        "id": "euronext_non_primary_paris_indices_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 40,
-            "prefix": "EURONEXT_DLY",
-            "perm": "euronext_dly",
-            "prefix_alias": [
-              "EURONEXTPAR_DLY"
-            ]
           }
         }
       },
@@ -1175,7 +1011,7 @@
           "rt": {
             "priority": 41,
             "prefix": "SIX_DLY",
-            "perm": "nse_free"
+            "perm": "tsx_dly"
           }
         }
       },
@@ -1204,22 +1040,6 @@
             ],
             "prefix_alias": [
               "INDEX"
-            ]
-          }
-        }
-      },
-      {
-        "id": "milan_sedex",
-        "kinds": {
-          "rt": {
-            "priority": 45,
-            "prefix": "MILSEDEX",
-            "exchange_aliases": [
-              "MIL"
-            ],
-            "perm": "mil",
-            "prefix_no_perm": [
-              "MILSEDEX_DLY"
             ]
           }
         }
@@ -1423,25 +1243,6 @@
           "rt": {
             "prefix": "INDEX",
             "priority": 47
-          }
-        }
-      },
-      {
-        "id": "crains_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "CRAINS",
-            "priority": 47
-          }
-        }
-      },
-      {
-        "id": "crains_indices_internal",
-        "kinds": {
-          "rt": {
-            "prefix": "CRAINS_INTERNAL",
-            "priority": 47,
-            "skip_in_search": true
           }
         }
       },
@@ -1743,7 +1544,7 @@
           "rt": {
             "priority": 49,
             "prefix": "BME_DLY",
-            "perm": "nse_free"
+            "perm": "tsx_dly"
           }
         }
       },
@@ -2189,7 +1990,7 @@
           "rt": {
             "priority": 50,
             "prefix": "BME_DLY",
-            "perm": "nse_free"
+            "perm": "tsx_dly"
           }
         }
       },
@@ -2318,7 +2119,7 @@
           "rt": {
             "priority": 51,
             "prefix": "HKEX_DLY",
-            "perm": "nse_free"
+            "perm": "tsx_dly"
           }
         }
       },
@@ -2737,7 +2538,8 @@
             "prefix_no_perm": [
               "SET_DLY"
             ],
-            "perm": "set"
+            "perm": "set",
+            "skip_in_search": true
           }
         }
       },
@@ -2750,7 +2552,8 @@
             "prefix_no_perm": [
               "SET_DLY"
             ],
-            "perm": "set"
+            "perm": "set",
+            "skip_in_search": true
           }
         }
       },
@@ -2960,7 +2763,8 @@
         "kinds": {
           "rt": {
             "priority": 54,
-            "prefix": "SET_DLY"
+            "prefix": "SET_DLY",
+            "skip_in_search": true
           }
         }
       },
@@ -2969,67 +2773,17 @@
         "kinds": {
           "rt": {
             "priority": 54,
-            "prefix": "SET_DLY"
+            "prefix": "SET_DLY",
+            "skip_in_search": true
           }
         }
       },
       {
-        "id": "euronext_amsterdam_stocks",
+        "id": "euronext_stocks",
         "kinds": {
           "rt": {
             "priority": 55,
             "prefix": "EURONEXT",
-            "prefix_alias": [
-              "EURONEXTAMS"
-            ],
-            "perm": "euronext_stocks",
-            "prefix_no_perm": [
-              "EURONEXT_DLY"
-            ]
-          }
-        }
-      },
-      {
-        "id": "euronext_brussels_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 55,
-            "prefix": "EURONEXT",
-            "prefix_alias": [
-              "EURONEXTBRU"
-            ],
-            "perm": "euronext_stocks",
-            "prefix_no_perm": [
-              "EURONEXT_DLY"
-            ]
-          }
-        }
-      },
-      {
-        "id": "euronext_lisbon_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 55,
-            "prefix": "EURONEXT",
-            "prefix_alias": [
-              "EURONEXTLIS"
-            ],
-            "perm": "euronext_stocks",
-            "prefix_no_perm": [
-              "EURONEXT_DLY"
-            ]
-          }
-        }
-      },
-      {
-        "id": "euronext_paris_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 55,
-            "prefix": "EURONEXT",
-            "prefix_alias": [
-              "EURONEXTPAR"
-            ],
             "perm": "euronext_stocks",
             "prefix_no_perm": [
               "EURONEXT_DLY"
@@ -3236,7 +2990,7 @@
           "rt": {
             "priority": 55,
             "prefix": "BCBA_DLY",
-            "perm": "nse_free"
+            "perm": "tsx_dly"
           }
         }
       },
@@ -3247,19 +3001,6 @@
             "priority": 55,
             "prefix": "BCS_DLY",
             "perm": "sf_dly"
-          }
-        }
-      },
-      {
-        "id": "milan_sedex_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 55,
-            "prefix": "MILSEDEX_DLY",
-            "perm": "mil_dly",
-            "prefix_no_perm": [
-              "MILSEDEX_EOD"
-            ]
           }
         }
       },
@@ -3281,7 +3022,7 @@
           "rt": {
             "priority": 55,
             "prefix": "OMXCOP_DLY",
-            "perm": "nse_free"
+            "perm": "tsx_dly"
           }
         }
       },
@@ -3291,7 +3032,7 @@
           "rt": {
             "priority": 55,
             "prefix": "OMXHEX_DLY",
-            "perm": "nse_free"
+            "perm": "tsx_dly"
           }
         }
       },
@@ -3301,7 +3042,7 @@
           "rt": {
             "priority": 55,
             "prefix": "OMXICE_DLY",
-            "perm": "nse_free"
+            "perm": "tsx_dly"
           }
         }
       },
@@ -3311,7 +3052,7 @@
           "rt": {
             "priority": 55,
             "prefix": "OMXSTO_DLY",
-            "perm": "nse_free"
+            "perm": "tsx_dly"
           }
         }
       },
@@ -3321,7 +3062,7 @@
           "rt": {
             "priority": 55,
             "prefix": "OMXNORDIC_DLY",
-            "perm": "nse_free"
+            "perm": "tsx_dly"
           }
         }
       },
@@ -3412,58 +3153,16 @@
           "rt": {
             "priority": 56,
             "prefix": "BCBA_DLY",
-            "perm": "nse_free"
+            "perm": "tsx_dly"
           }
         }
       },
       {
-        "id": "euronext_amsterdam_stocks_delayed",
+        "id": "euronext_stocks_delayed",
         "kinds": {
           "rt": {
             "priority": 56,
             "prefix": "EURONEXT_DLY",
-            "prefix_alias": [
-              "EURONEXTAMS_DLY"
-            ],
-            "perm": "euronext_dly"
-          }
-        }
-      },
-      {
-        "id": "euronext_brussels_stocks_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 56,
-            "prefix": "EURONEXT_DLY",
-            "prefix_alias": [
-              "EURONEXTBRU_DLY"
-            ],
-            "perm": "euronext_dly"
-          }
-        }
-      },
-      {
-        "id": "euronext_lisbon_stocks_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 56,
-            "prefix": "EURONEXT_DLY",
-            "prefix_alias": [
-              "EURONEXTLIS_DLY"
-            ],
-            "perm": "euronext_dly"
-          }
-        }
-      },
-      {
-        "id": "euronext_paris_stocks_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 56,
-            "prefix": "EURONEXT_DLY",
-            "prefix_alias": [
-              "EURONEXTPAR_DLY"
-            ],
             "perm": "euronext_dly"
           }
         }
@@ -3474,7 +3173,7 @@
           "rt": {
             "priority": 56,
             "prefix": "OMXCOP_DLY",
-            "perm": "nse_free"
+            "perm": "tsx_dly"
           }
         }
       },
@@ -3484,7 +3183,7 @@
           "rt": {
             "priority": 56,
             "prefix": "OMXHEX_DLY",
-            "perm": "nse_free"
+            "perm": "tsx_dly"
           }
         }
       },
@@ -3510,7 +3209,7 @@
           "rt": {
             "priority": 56,
             "prefix": "OMXSTO_DLY",
-            "perm": "nse_free"
+            "perm": "tsx_dly"
           }
         }
       },
@@ -3520,7 +3219,7 @@
           "rt": {
             "priority": 56,
             "prefix": "OMXNORDIC_DLY",
-            "perm": "nse_free"
+            "perm": "tsx_dly"
           }
         }
       },
@@ -3530,7 +3229,7 @@
           "rt": {
             "priority": 56,
             "prefix": "HKEX_DLY",
-            "perm": "nse_free"
+            "perm": "tsx_dly"
           }
         }
       },
@@ -3540,7 +3239,7 @@
           "rt": {
             "priority": 56,
             "prefix": "HKEX_DLY",
-            "perm": "nse_free"
+            "perm": "tsx_dly"
           }
         }
       },
@@ -3559,7 +3258,7 @@
           "rt": {
             "priority": 56,
             "prefix": "HKEX_DLY",
-            "perm": "nse_free"
+            "perm": "tsx_dly"
           }
         }
       },
@@ -3598,7 +3297,7 @@
           "rt": {
             "priority": 57,
             "prefix": "SIX_DLY",
-            "perm": "nse_free"
+            "perm": "tsx_dly"
           }
         }
       },
@@ -3608,7 +3307,7 @@
           "rt": {
             "prefix": "ASX_DLY",
             "priority": 57,
-            "perm": "nse_free"
+            "perm": "tsx_dly"
           }
         }
       },
@@ -3754,25 +3453,12 @@
         }
       },
       {
-        "id": "euronext_futures",
-        "kinds": {
-          "rt": {
-            "priority": 59,
-            "prefix": "EURONEXT",
-            "prefix_no_perm": [
-              "EURONEXT_DLY"
-            ],
-            "perm": "euronext_futures"
-          }
-        }
-      },
-      {
         "id": "riga_indices_delayed",
         "kinds": {
           "rt": {
             "priority": 59,
             "prefix": "OMXRSE_DLY",
-            "perm": "nse_free",
+            "perm": "tsx_dly",
             "skip_in_search": true
           }
         }
@@ -3783,7 +3469,7 @@
           "rt": {
             "priority": 59,
             "prefix": "OMXTSE_DLY",
-            "perm": "nse_free",
+            "perm": "tsx_dly",
             "skip_in_search": true
           }
         }
@@ -3794,7 +3480,7 @@
           "rt": {
             "priority": 59,
             "prefix": "OMXVSE_DLY",
-            "perm": "nse_free",
+            "perm": "tsx_dly",
             "skip_in_search": true
           }
         }
@@ -3805,7 +3491,7 @@
           "rt": {
             "priority": 59,
             "prefix": "OMXBALTIC_DLY",
-            "perm": "nse_free",
+            "perm": "tsx_dly",
             "skip_in_search": true,
             "prefix_no_perm": [
               "OMXBALTIC_DLY"
@@ -3829,10 +3515,10 @@
           "rt": {
             "priority": 59,
             "prefix": "EURONEXT",
+            "perm": "euronext_futures",
             "prefix_no_perm": [
               "EURONEXT_DLY"
-            ],
-            "perm": "euronext_futures"
+            ]
           }
         }
       },
@@ -3953,22 +3639,12 @@
         }
       },
       {
-        "id": "euronext_futures_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 60,
-            "prefix": "EURONEXT_DLY",
-            "perm": "euronext_dly"
-          }
-        }
-      },
-      {
         "id": "asx_stocks_delayed",
         "kinds": {
           "rt": {
             "prefix": "ASX_DLY",
             "priority": 60,
-            "perm": "nse_free"
+            "perm": "tsx_dly"
           }
         }
       },
@@ -4070,7 +3746,7 @@
           "rt": {
             "priority": 61,
             "prefix": "OMXCOP_DLY",
-            "perm": "nse_free"
+            "perm": "tsx_dly"
           }
         }
       },
@@ -4080,7 +3756,7 @@
           "rt": {
             "priority": 61,
             "prefix": "OMXHEX_DLY",
-            "perm": "nse_free"
+            "perm": "tsx_dly"
           }
         }
       },
@@ -4090,7 +3766,7 @@
           "rt": {
             "priority": 61,
             "prefix": "OMXICE_DLY",
-            "perm": "nse_free"
+            "perm": "tsx_dly"
           }
         }
       },
@@ -4100,7 +3776,7 @@
           "rt": {
             "priority": 61,
             "prefix": "OMXSTO_DLY",
-            "perm": "nse_free"
+            "perm": "tsx_dly"
           }
         }
       },
@@ -4238,7 +3914,7 @@
           "rt": {
             "priority": 63,
             "prefix": "OMXRSE_DLY",
-            "perm": "nse_free",
+            "perm": "tsx_dly",
             "skip_in_search": true
           }
         }
@@ -4249,7 +3925,7 @@
           "rt": {
             "priority": 63,
             "prefix": "OMXTSE_DLY",
-            "perm": "nse_free",
+            "perm": "tsx_dly",
             "skip_in_search": true
           }
         }
@@ -4260,7 +3936,7 @@
           "rt": {
             "priority": 63,
             "prefix": "OMXVSE_DLY",
-            "perm": "nse_free",
+            "perm": "tsx_dly",
             "skip_in_search": true
           }
         }
@@ -4536,6 +4212,19 @@
         }
       },
       {
+        "id": "johannesburg_indices",
+        "kinds": {
+          "rt": {
+            "priority": 73,
+            "prefix": "JSE",
+            "prefix_no_perm": [
+              "JSE_DLY"
+            ],
+            "perm": "jse_indices"
+          }
+        }
+      },
+      {
         "id": "telaviv_stocks_delayed",
         "kinds": {
           "rt": {
@@ -4543,6 +4232,16 @@
             "priority": 74,
             "perm": "sf_dly",
             "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "johannesburg_indices_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 74,
+            "prefix": "JSE_DLY",
+            "perm": "tsx_dly"
           }
         }
       },
@@ -4582,6 +4281,19 @@
             "prefix_no_perm": [
               "TASE_DLY"
             ]
+          }
+        }
+      },
+      {
+        "id": "johannesburg_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 75,
+            "prefix": "JSE",
+            "prefix_no_perm": [
+              "JSE_DLY"
+            ],
+            "perm": "jse_stocks"
           }
         }
       },
@@ -4639,6 +4351,16 @@
             "priority": 76,
             "perm": "sf_dly",
             "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "johannesburg_stocks_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 76,
+            "prefix": "JSE_DLY",
+            "perm": "tsx_dly"
           }
         }
       },
@@ -4771,7 +4493,7 @@
           "rt": {
             "priority": 79,
             "prefix": "FTSEMYX_DLY",
-            "perm": "nse_free"
+            "perm": "tsx_dly"
           }
         }
       },
@@ -4922,7 +4644,7 @@
           "rt": {
             "priority": 80,
             "prefix": "MYX_DLY",
-            "perm": "nse_free"
+            "perm": "tsx_dly"
           }
         }
       },
@@ -5008,7 +4730,7 @@
           "rt": {
             "priority": 81,
             "prefix": "MYX_DLY",
-            "perm": "nse_free"
+            "perm": "tsx_dly"
           }
         }
       },
@@ -5018,7 +4740,7 @@
           "rt": {
             "priority": 81,
             "prefix": "MYX_DLY",
-            "perm": "nse_free"
+            "perm": "tsx_dly"
           }
         }
       },
@@ -5058,7 +4780,7 @@
           "rt": {
             "priority": 81,
             "prefix": "MYX_DLY",
-            "perm": "nse_free"
+            "perm": "tsx_dly"
           }
         }
       },
@@ -5190,30 +4912,6 @@
         }
       },
       {
-        "id": "vietnam_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 85,
-            "prefix": "HOSE",
-            "prefix_no_perm": [
-              "HOSE_DLY"
-            ]
-          }
-        }
-      },
-      {
-        "id": "vietnam_indices",
-        "kinds": {
-          "rt": {
-            "priority": 85,
-            "prefix": "HOSE",
-            "prefix_no_perm": [
-              "HOSE_DLY"
-            ]
-          }
-        }
-      },
-      {
         "id": "saudi_stocks_delayed",
         "kinds": {
           "rt": {
@@ -5252,24 +4950,6 @@
             "priority": 86,
             "prefix": "QSE_DLY",
             "perm": "sf_dly"
-          }
-        }
-      },
-      {
-        "id": "vietnam_stocks_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 86,
-            "prefix": "HOSE_DLY"
-          }
-        }
-      },
-      {
-        "id": "vietnam_indices_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 86,
-            "prefix": "HOSE_DLY"
           }
         }
       },
@@ -5358,48 +5038,6 @@
             "prefix": "BELEX_DLY",
             "perm": "sf_dly",
             "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "johannesburg_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 95,
-            "prefix": "JSE",
-            "prefix_no_perm": [
-              "JSE_DLY"
-            ]
-          }
-        }
-      },
-      {
-        "id": "johannesburg_indices",
-        "kinds": {
-          "rt": {
-            "priority": 95,
-            "prefix": "JSE",
-            "prefix_no_perm": [
-              "JSE_DLY"
-            ]
-          }
-        }
-      },
-      {
-        "id": "johannesburg_stocks_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 96,
-            "prefix": "JSE_DLY"
-          }
-        }
-      },
-      {
-        "id": "johannesburg_indices_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 96,
-            "prefix": "JSE_DLY"
           }
         }
       },
