@@ -15,7 +15,7 @@
         "id": "edgar_fundamentals",
         "kinds": {
           "rt": {
-            "prefix": "EDGR",
+            "prefix": "NOEDGR",
             "resolve_mask": "EDGR:*"
           }
         }
@@ -97,15 +97,11 @@
           "rt": {
             "prefix": "NASDAQ",
             "priority": 10,
-            "exchange_for_display": "NASDAQ Global Indices",
             "prefix_alias": [
               "NASDAQ_DLY",
               "INDEX"
             ],
-            "skip_in_search": false,
-            "prefix_no_perm": [
-              "NASDAQ_EOD"
-            ]
+            "skip_in_search": false
           }
         }
       },
@@ -286,21 +282,6 @@
         }
       },
       {
-        "id": "gain_discontinued",
-        "kinds": {
-          "rt": {
-            "prefix": "FOREXCOM",
-            "priority": 12,
-            "exchange_for_display": "FOREX.com",
-            "skip_in_search": false,
-            "perm": "permission_denied",
-            "prefix_no_perm": [
-              "OANDA"
-            ]
-          }
-        }
-      },
-      {
         "id": "bitstamp",
         "kinds": {
           "rt": {
@@ -375,6 +356,21 @@
             "priority": 13,
             "exchange_for_display": "FOREX.com",
             "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "gain_discontinued",
+        "kinds": {
+          "rt": {
+            "prefix": "FOREXCOM",
+            "priority": 14,
+            "exchange_for_display": "FOREX.com",
+            "skip_in_search": false,
+            "perm": "permission_denied",
+            "prefix_no_perm": [
+              "OANDA"
+            ]
           }
         }
       },
@@ -483,6 +479,16 @@
         }
       },
       {
+        "id": "bond_spreads",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 20,
+            "search_boost": 2.0
+          }
+        }
+      },
+      {
         "id": "euro_bonds",
         "kinds": {
           "rt": {
@@ -505,16 +511,6 @@
       },
       {
         "id": "canadian_bonds",
-        "kinds": {
-          "rt": {
-            "prefix": "TVC",
-            "priority": 20,
-            "search_boost": 2.0
-          }
-        }
-      },
-      {
-        "id": "bond_spreads",
         "kinds": {
           "rt": {
             "prefix": "TVC",
@@ -776,9 +772,6 @@
             "prefix": "MIL",
             "prefix_no_perm": [
               "MIL_DLY"
-            ],
-            "prefix_alias": [
-              "INDEX"
             ]
           }
         }
@@ -1193,18 +1186,6 @@
         }
       },
       {
-        "id": "milan_sedex",
-        "kinds": {
-          "rt": {
-            "priority": 45,
-            "prefix": "MILSEDEX",
-            "prefix_no_perm": [
-              "MILSEDEX_DLY"
-            ]
-          }
-        }
-      },
-      {
         "id": "xetra_indices",
         "kinds": {
           "rt": {
@@ -1334,10 +1315,7 @@
         "kinds": {
           "rt": {
             "prefix": "XETR_DLY",
-            "priority": 47,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "priority": 47
           }
         }
       },
@@ -1356,6 +1334,16 @@
         "kinds": {
           "rt": {
             "prefix": "DJ_EOD",
+            "priority": 47,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "nasdaq_indices_eod",
+        "kinds": {
+          "rt": {
+            "prefix": "NASDAQ_EOD",
             "priority": 47,
             "skip_in_search": true
           }
@@ -1969,21 +1957,6 @@
         }
       },
       {
-        "id": "istanbul_index_spreads",
-        "kinds": {
-          "rt": {
-            "priority": 50,
-            "prefix": "BIST",
-            "prefix_alias": [
-              "IST"
-            ],
-            "prefix_no_perm": [
-              "BIST_DLY"
-            ]
-          }
-        }
-      },
-      {
         "id": "lse_uk_delayed",
         "kinds": {
           "rt": {
@@ -2314,9 +2287,6 @@
             "prefix": "MOEX",
             "prefix_no_perm": [
               "MOEX_DLY"
-            ],
-            "prefix_alias": [
-              "INDEX"
             ]
           }
         }
@@ -3118,18 +3088,6 @@
         }
       },
       {
-        "id": "milan_sedex_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 55,
-            "prefix": "MILSEDEX_DLY",
-            "prefix_no_perm": [
-              "MILSEDEX_EOD"
-            ]
-          }
-        }
-      },
-      {
         "id": "frankfurt_stocks_delayed",
         "kinds": {
           "rt": {
@@ -3348,8 +3306,13 @@
         "kinds": {
           "rt": {
             "priority": 56,
-            "prefix": "OMXICE_DLY",
-            "perm": "nse_free"
+            "prefix": "OMXICE",
+            "prefix_alias": [
+              "OMX"
+            ],
+            "prefix_no_perm": [
+              "OMXICE_DLY"
+            ]
           }
         }
       },
@@ -3608,7 +3571,8 @@
           "rt": {
             "priority": 59,
             "prefix": "OMXRSE_DLY",
-            "perm": "nse_free"
+            "perm": "nse_free",
+            "skip_in_search": true
           }
         }
       },
@@ -3618,7 +3582,8 @@
           "rt": {
             "priority": 59,
             "prefix": "OMXTSE_DLY",
-            "perm": "nse_free"
+            "perm": "nse_free",
+            "skip_in_search": true
           }
         }
       },
@@ -3628,7 +3593,8 @@
           "rt": {
             "priority": 59,
             "prefix": "OMXVSE_DLY",
-            "perm": "nse_free"
+            "perm": "nse_free",
+            "skip_in_search": true
           }
         }
       },
@@ -3639,6 +3605,7 @@
             "priority": 59,
             "prefix": "OMXBALTIC_DLY",
             "perm": "nse_free",
+            "skip_in_search": true,
             "prefix_no_perm": [
               "OMXBALTIC_DLY"
             ]
@@ -4045,7 +4012,8 @@
           "rt": {
             "priority": 63,
             "prefix": "OMXRSE_DLY",
-            "perm": "nse_free"
+            "perm": "nse_free",
+            "skip_in_search": true
           }
         }
       },
@@ -4055,7 +4023,8 @@
           "rt": {
             "priority": 63,
             "prefix": "OMXTSE_DLY",
-            "perm": "nse_free"
+            "perm": "nse_free",
+            "skip_in_search": true
           }
         }
       },
@@ -4065,7 +4034,8 @@
           "rt": {
             "priority": 63,
             "prefix": "OMXVSE_DLY",
-            "perm": "nse_free"
+            "perm": "nse_free",
+            "skip_in_search": true
           }
         }
       },
@@ -4149,16 +4119,6 @@
         }
       },
       {
-        "id": "milan_sedex_eod",
-        "kinds": {
-          "rt": {
-            "priority": 65,
-            "prefix": "MILSEDEX_EOD",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
         "id": "stuttgart_stocks_delayed",
         "kinds": {
           "rt": {
@@ -4212,6 +4172,7 @@
           "rt": {
             "priority": 70,
             "prefix": "GPW",
+            "perm": "gpw",
             "prefix_no_perm": [
               "GPW_DLY"
             ]
@@ -4328,6 +4289,19 @@
         }
       },
       {
+        "id": "johannesburg_indices",
+        "kinds": {
+          "rt": {
+            "priority": 73,
+            "prefix": "JSE",
+            "prefix_no_perm": [
+              "JSE_DLY"
+            ],
+            "perm": "jse_indices"
+          }
+        }
+      },
+      {
         "id": "telaviv_stocks_delayed",
         "kinds": {
           "rt": {
@@ -4338,11 +4312,22 @@
         }
       },
       {
+        "id": "johannesburg_indices_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 74,
+            "prefix": "JSE_DLY",
+            "perm": "nse_free"
+          }
+        }
+      },
+      {
         "id": "warsaw_stocks",
         "kinds": {
           "rt": {
             "priority": 75,
             "prefix": "GPW",
+            "perm": "gpw",
             "prefix_no_perm": [
               "GPW_DLY"
             ]
@@ -4355,6 +4340,7 @@
           "rt": {
             "priority": 75,
             "prefix": "GPW",
+            "perm": "gpw",
             "prefix_no_perm": [
               "GPW_DLY"
             ]
@@ -4374,11 +4360,25 @@
         }
       },
       {
+        "id": "johannesburg_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 75,
+            "prefix": "JSE",
+            "prefix_no_perm": [
+              "JSE_DLY"
+            ],
+            "perm": "jse_stocks"
+          }
+        }
+      },
+      {
         "id": "warsaw_continuous",
         "kinds": {
           "rt": {
             "priority": 75,
             "prefix": "GPW",
+            "perm": "gpw",
             "prefix_no_perm": [
               "GPW_DLY"
             ]
@@ -4426,6 +4426,16 @@
         }
       },
       {
+        "id": "johannesburg_stocks_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 76,
+            "prefix": "JSE_DLY",
+            "perm": "nse_free"
+          }
+        }
+      },
+      {
         "id": "warsaw_continuous_delayed",
         "kinds": {
           "rt": {
@@ -4452,7 +4462,8 @@
             "priority": 77,
             "prefix_no_perm": [
               "OSE_DLY"
-            ]
+            ],
+            "skip_in_search": false
           }
         }
       },
@@ -4464,7 +4475,8 @@
             "priority": 77,
             "prefix_no_perm": [
               "OSE_DLY"
-            ]
+            ],
+            "skip_in_search": false
           }
         }
       },
@@ -4937,30 +4949,6 @@
         }
       },
       {
-        "id": "vietnam_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 85,
-            "prefix": "HOSE",
-            "prefix_no_perm": [
-              "HOSE_DLY"
-            ]
-          }
-        }
-      },
-      {
-        "id": "vietnam_indices",
-        "kinds": {
-          "rt": {
-            "priority": 85,
-            "prefix": "HOSE",
-            "prefix_no_perm": [
-              "HOSE_DLY"
-            ]
-          }
-        }
-      },
-      {
         "id": "saudi_stocks_delayed",
         "kinds": {
           "rt": {
@@ -4995,24 +4983,6 @@
           "rt": {
             "priority": 86,
             "prefix": "QSE_DLY"
-          }
-        }
-      },
-      {
-        "id": "vietnam_stocks_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 86,
-            "prefix": "HOSE_DLY"
-          }
-        }
-      },
-      {
-        "id": "vietnam_indices_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 86,
-            "prefix": "HOSE_DLY"
           }
         }
       },
@@ -5101,63 +5071,11 @@
         }
       },
       {
-        "id": "johannesburg_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 95,
-            "prefix": "JSE",
-            "prefix_no_perm": [
-              "JSE_DLY"
-            ]
-          }
-        }
-      },
-      {
-        "id": "johannesburg_indices",
-        "kinds": {
-          "rt": {
-            "priority": 95,
-            "prefix": "JSE",
-            "prefix_no_perm": [
-              "JSE_DLY"
-            ]
-          }
-        }
-      },
-      {
-        "id": "johannesburg_stocks_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 96,
-            "prefix": "JSE_DLY"
-          }
-        }
-      },
-      {
-        "id": "johannesburg_indices_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 96,
-            "prefix": "JSE_DLY"
-          }
-        }
-      },
-      {
         "id": "toronto_indices_eod",
         "kinds": {
           "rt": {
             "prefix": "TSX_EOD",
             "priority": 100
-          }
-        }
-      },
-      {
-        "id": "nasdaq_indices_eod",
-        "kinds": {
-          "rt": {
-            "prefix": "NASDAQ_EOD",
-            "priority": 100,
-            "skip_in_search": true
           }
         }
       },
@@ -5169,6 +5087,7 @@
             "priority": 100,
             "skip_in_search": false,
             "prefix_alias": [
+              "NYSE_EOD",
               "INDEX"
             ]
           }
@@ -5182,8 +5101,22 @@
             "priority": 100,
             "skip_in_search": false,
             "prefix_alias": [
-              "INDEX",
-              "NYSE_EOD"
+              "NYSE_EOD",
+              "INDEX"
+            ]
+          }
+        }
+      },
+      {
+        "id": "russel_indices_eod",
+        "kinds": {
+          "rt": {
+            "prefix": "RUSSEL",
+            "priority": 100,
+            "skip_in_search": true,
+            "prefix_alias": [
+              "RUSSEL_EOD",
+              "INDEX"
             ]
           }
         }
