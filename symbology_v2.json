@@ -426,7 +426,10 @@
         "kinds": {
           "rt": {
             "prefix": "USI",
-            "priority": 15
+            "priority": 15,
+            "prefix_alias": [
+              "INDEX"
+            ]
           }
         }
       },
@@ -1037,9 +1040,6 @@
             "perm": "tsx",
             "prefix_no_perm": [
               "TSX_DLY"
-            ],
-            "prefix_alias": [
-              "INDEX"
             ]
           }
         }
@@ -2896,9 +2896,6 @@
             "perm": "asx",
             "prefix_no_perm": [
               "ASX_DLY"
-            ],
-            "prefix_alias": [
-              "INDEX"
             ]
           }
         }
