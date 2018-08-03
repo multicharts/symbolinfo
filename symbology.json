@@ -351,6 +351,9 @@
       {
         "priority": 15,
         "prefix": "USI",
+        "prefix_alias": [
+          "INDEX"
+        ],
         "groups": [
           {
             "group": "usi"
@@ -951,10 +954,7 @@
         "groups": [
           {
             "group": "toronto_indices",
-            "priority": 45,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "priority": 45
           },
           {
             "group": "toronto_stocks",
@@ -2104,10 +2104,7 @@
         "groups": [
           {
             "group": "asx_indices",
-            "priority": 55,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "priority": 55
           },
           {
             "group": "asx_stocks",
@@ -4105,6 +4102,9 @@
       {
         "priority": 15,
         "prefix": "USI",
+        "prefix_alias": [
+          "INDEX"
+        ],
         "groups": [
           {
             "group": "usi"
@@ -4705,10 +4705,7 @@
         "groups": [
           {
             "group": "toronto_indices",
-            "priority": 45,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "priority": 45
           },
           {
             "group": "toronto_stocks",
@@ -5858,10 +5855,7 @@
         "groups": [
           {
             "group": "asx_indices",
-            "priority": 55,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "priority": 55
           },
           {
             "group": "asx_stocks",
