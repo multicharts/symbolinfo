@@ -4308,8 +4308,7 @@
         "kinds": {
           "rt": {
             "priority": 74,
-            "prefix": "JSE_DLY",
-            "perm": "nse_free"
+            "prefix": "JSE_DLY"
           }
         }
       },
@@ -4422,8 +4421,7 @@
         "kinds": {
           "rt": {
             "priority": 76,
-            "prefix": "JSE_DLY",
-            "perm": "nse_free"
+            "prefix": "JSE_DLY"
           }
         }
       },
@@ -5121,9 +5119,9 @@
             "priority": 100,
             "skip_in_search": false,
             "prefix_alias": [
-              "INDEX",
               "RUSSEL",
-              "RUSSELL_EOD"
+              "RUSSELL_EOD",
+              "INDEX"
             ]
           }
         }
@@ -5136,9 +5134,19 @@
             "priority": 100,
             "skip_in_search": false,
             "prefix_alias": [
-              "INDEX",
-              "CBOE_EOD"
+              "CBOE_EOD",
+              "INDEX"
             ]
+          }
+        }
+      },
+      {
+        "id": "international_indices_eod",
+        "kinds": {
+          "rt": {
+            "prefix": "INDEX",
+            "priority": 100,
+            "skip_in_search": false
           }
         }
       },
