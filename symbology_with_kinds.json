@@ -342,7 +342,10 @@
         "kinds": {
           "rt": {
             "prefix": "USI",
-            "priority": 15
+            "priority": 15,
+            "prefix_alias": [
+              "INDEX"
+            ]
           }
         }
       },
@@ -1731,9 +1734,6 @@
             "prefix": "SET",
             "prefix_no_perm": [
               "SET_DLY"
-            ],
-            "prefix_alias": [
-              "INDEX"
             ]
           },
           "delay": {
@@ -2184,17 +2184,11 @@
             "priority": 55,
             "prefix_no_perm": [
               "ASX_DLY"
-            ],
-            "prefix_alias": [
-              "INDEX"
             ]
           },
           "delay": {
             "prefix": "ASX_DLY",
-            "priority": 57,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "priority": 57
           }
         }
       },
@@ -2412,10 +2406,7 @@
           },
           "eod": {
             "priority": 60,
-            "prefix": "HSI_EOD",
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "prefix": "HSI_EOD"
           }
         }
       },
@@ -2431,10 +2422,7 @@
           },
           "eod": {
             "priority": 60,
-            "prefix": "SGX_EOD",
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "prefix": "SGX_EOD"
           }
         }
       },
@@ -2450,10 +2438,7 @@
           },
           "eod": {
             "priority": 60,
-            "prefix": "SGX_EOD",
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "prefix": "SGX_EOD"
           }
         }
       },
@@ -2485,10 +2470,7 @@
           },
           "eod": {
             "priority": 60,
-            "prefix": "SGX_EOD",
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "prefix": "SGX_EOD"
           }
         }
       },
@@ -3491,9 +3473,6 @@
             "prefix": "HOSE",
             "prefix_no_perm": [
               "HOSE_DLY"
-            ],
-            "prefix_alias": [
-              "INDEX"
             ]
           },
           "delay": {
@@ -4620,7 +4599,6 @@
             "priority": 38,
             "prefix": "EURONEXT",
             "prefix_alias": [
-              "INDEX",
               "EURONEXT_DLY"
             ],
             "prefix_no_perm": [
@@ -4640,7 +4618,6 @@
             "priority": 38,
             "prefix": "EURONEXT",
             "prefix_alias": [
-              "INDEX",
               "EURONEXTAMS",
               "EURONEXTAMS_DLY"
             ],
@@ -4664,7 +4641,6 @@
             "priority": 38,
             "prefix": "EURONEXT",
             "prefix_alias": [
-              "INDEX",
               "EURONEXTBRU",
               "EURONEXTBRU_DLY"
             ],
@@ -4688,7 +4664,6 @@
             "priority": 38,
             "prefix": "EURONEXT",
             "prefix_alias": [
-              "INDEX",
               "EURONEXTLIS",
               "EURONEXTLIS_DLY"
             ],
@@ -4712,7 +4687,6 @@
             "priority": 38,
             "prefix": "EURONEXT",
             "prefix_alias": [
-              "INDEX",
               "EURONEXTPAR",
               "EURONEXTPAR_DLY"
             ],
