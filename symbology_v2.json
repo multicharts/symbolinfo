@@ -5674,8 +5674,7 @@
             "prefix": "IBROKER",
             "priority": 220,
             "hide_in_search": true,
-            "skip_in_search": false,
-            "perm": "ibroker_forex"
+            "skip_in_search": false
           }
         }
       },
@@ -5686,8 +5685,7 @@
             "prefix": "IBROKER",
             "priority": 220,
             "hide_in_search": true,
-            "skip_in_search": false,
-            "perm": "ibroker_lmax"
+            "skip_in_search": false
           }
         }
       },
@@ -5698,8 +5696,7 @@
             "prefix": "IBROKER",
             "priority": 220,
             "hide_in_search": true,
-            "skip_in_search": false,
-            "perm": "ibroker_cboe"
+            "skip_in_search": false
           }
         }
       },
@@ -5710,8 +5707,7 @@
             "prefix": "IBROKER",
             "priority": 220,
             "hide_in_search": true,
-            "skip_in_search": false,
-            "perm": "ibroker_cfd_us"
+            "skip_in_search": false
           }
         }
       },
@@ -5722,8 +5718,7 @@
             "prefix": "IBROKER",
             "priority": 220,
             "hide_in_search": true,
-            "skip_in_search": false,
-            "perm": "ibroker_cme_cbt_futurossobrebonos"
+            "skip_in_search": false
           }
         }
       },
@@ -5734,8 +5729,7 @@
             "prefix": "IBROKER",
             "priority": 220,
             "hide_in_search": true,
-            "skip_in_search": false,
-            "perm": "ibroker_cme_cbt_futurossobreindices"
+            "skip_in_search": false
           }
         }
       },
@@ -5746,8 +5740,7 @@
             "prefix": "IBROKER",
             "priority": 220,
             "hide_in_search": true,
-            "skip_in_search": false,
-            "perm": "ibroker_cme_cbt_futurossobremateriasprimas"
+            "skip_in_search": false
           }
         }
       },
@@ -5758,8 +5751,7 @@
             "prefix": "IBROKER",
             "priority": 220,
             "hide_in_search": true,
-            "skip_in_search": false,
-            "perm": "ibroker_cme_futurossobredivisas"
+            "skip_in_search": false
           }
         }
       },
@@ -5770,8 +5762,7 @@
             "prefix": "IBROKER",
             "priority": 220,
             "hide_in_search": true,
-            "skip_in_search": false,
-            "perm": "ibroker_cme_futurossobreenergia"
+            "skip_in_search": false
           }
         }
       },
@@ -5782,8 +5773,7 @@
             "prefix": "IBROKER",
             "priority": 220,
             "hide_in_search": true,
-            "skip_in_search": false,
-            "perm": "ibroker_cme_futurossobreindices"
+            "skip_in_search": false
           }
         }
       },
@@ -5794,8 +5784,7 @@
             "prefix": "IBROKER",
             "priority": 220,
             "hide_in_search": true,
-            "skip_in_search": false,
-            "perm": "ibroker_cme_futurossobremetales"
+            "skip_in_search": false
           }
         }
       },
@@ -5806,8 +5795,7 @@
             "prefix": "IBROKER",
             "priority": 220,
             "hide_in_search": true,
-            "skip_in_search": false,
-            "perm": "ibroker_enxt_par"
+            "skip_in_search": false
           }
         }
       },
@@ -5818,8 +5806,7 @@
             "prefix": "IBROKER",
             "priority": 220,
             "hide_in_search": true,
-            "skip_in_search": false,
-            "perm": "ibroker_eq_mtaa"
+            "skip_in_search": false
           }
         }
       },
@@ -5830,8 +5817,7 @@
             "prefix": "IBROKER",
             "priority": 220,
             "hide_in_search": true,
-            "skip_in_search": false,
-            "perm": "ibroker_eq_xams"
+            "skip_in_search": false
           }
         }
       },
@@ -5842,8 +5828,7 @@
             "prefix": "IBROKER",
             "priority": 220,
             "hide_in_search": true,
-            "skip_in_search": false,
-            "perm": "ibroker_eq_xbru"
+            "skip_in_search": false
           }
         }
       },
@@ -5854,8 +5839,7 @@
             "prefix": "IBROKER",
             "priority": 220,
             "hide_in_search": true,
-            "skip_in_search": false,
-            "perm": "ibroker_eq_xetr"
+            "skip_in_search": false
           }
         }
       },
@@ -5866,8 +5850,7 @@
             "prefix": "IBROKER",
             "priority": 220,
             "hide_in_search": true,
-            "skip_in_search": false,
-            "perm": "ibroker_eq_xmce"
+            "skip_in_search": false
           }
         }
       },
@@ -5878,8 +5861,7 @@
             "prefix": "IBROKER",
             "priority": 220,
             "hide_in_search": true,
-            "skip_in_search": false,
-            "perm": "ibroker_eq_xpar"
+            "skip_in_search": false
           }
         }
       },
@@ -5890,8 +5872,7 @@
             "prefix": "IBROKER",
             "priority": 220,
             "hide_in_search": true,
-            "skip_in_search": false,
-            "perm": "ibroker_eurex"
+            "skip_in_search": false
           }
         }
       },
@@ -5902,8 +5883,7 @@
             "prefix": "IBROKER",
             "priority": 220,
             "hide_in_search": true,
-            "skip_in_search": false,
-            "perm": "ibroker_ibrcfd"
+            "skip_in_search": false
           }
         }
       },
@@ -5914,8 +5894,7 @@
             "prefix": "IBROKER",
             "priority": 220,
             "hide_in_search": true,
-            "skip_in_search": false,
-            "perm": "ibroker_ice_us"
+            "skip_in_search": false
           }
         }
       },
@@ -5926,8 +5905,7 @@
             "prefix": "IBROKER",
             "priority": 220,
             "hide_in_search": true,
-            "skip_in_search": false,
-            "perm": "ibroker_idem"
+            "skip_in_search": false
           }
         }
       },
@@ -5938,8 +5916,7 @@
             "prefix": "IBROKER",
             "priority": 220,
             "hide_in_search": true,
-            "skip_in_search": false,
-            "perm": "ibroker_liffe"
+            "skip_in_search": false
           }
         }
       },
@@ -5950,8 +5927,7 @@
             "prefix": "IBROKER",
             "priority": 220,
             "hide_in_search": true,
-            "skip_in_search": false,
-            "perm": "ibroker_meff"
+            "skip_in_search": false
           }
         }
       },
