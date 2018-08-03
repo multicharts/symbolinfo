@@ -339,6 +339,9 @@
       {
         "priority": 15,
         "prefix": "USI",
+        "prefix_alias": [
+          "INDEX"
+        ],
         "groups": [
           {
             "group": "usi"
@@ -484,15 +487,13 @@
           {
             "group": "euronext_primary_europe_indices",
             "prefix_alias": [
-              "EURONEXT_DLY",
-              "INDEX"
+              "EURONEXT_DLY"
             ]
           },
           {
             "group": "euronext_primary_amsterdam_indices",
             "prefix_alias": [
               "EURONEXT_DLY",
-              "INDEX",
               "EURONEXTAMS",
               "EURONEXTAMS_DLY"
             ]
@@ -501,7 +502,6 @@
             "group": "euronext_primary_brussels_indices",
             "prefix_alias": [
               "EURONEXT_DLY",
-              "INDEX",
               "EURONEXTBRU",
               "EURONEXTBRU_DLY"
             ]
@@ -510,7 +510,6 @@
             "group": "euronext_primary_lisbon_indices",
             "prefix_alias": [
               "EURONEXT_DLY",
-              "INDEX",
               "EURONEXTLIS",
               "EURONEXTLIS_DLY"
             ]
@@ -519,7 +518,6 @@
             "group": "euronext_primary_paris_indices",
             "prefix_alias": [
               "EURONEXT_DLY",
-              "INDEX",
               "EURONEXTPAR",
               "EURONEXTPAR_DLY"
             ]
@@ -1092,10 +1090,7 @@
         "groups": [
           {
             "group": "toronto_indices",
-            "priority": 45,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "priority": 45
           },
           {
             "group": "toronto_stocks",
@@ -2201,10 +2196,7 @@
         "groups": [
           {
             "group": "asx_indices",
-            "priority": 55,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "priority": 55
           },
           {
             "group": "asx_stocks",
@@ -4237,6 +4229,9 @@
       {
         "priority": 15,
         "prefix": "USI",
+        "prefix_alias": [
+          "INDEX"
+        ],
         "groups": [
           {
             "group": "usi"
@@ -4382,15 +4377,13 @@
           {
             "group": "euronext_primary_europe_indices",
             "prefix_alias": [
-              "EURONEXT_DLY",
-              "INDEX"
+              "EURONEXT_DLY"
             ]
           },
           {
             "group": "euronext_primary_amsterdam_indices",
             "prefix_alias": [
               "EURONEXT_DLY",
-              "INDEX",
               "EURONEXTAMS",
               "EURONEXTAMS_DLY"
             ]
@@ -4399,7 +4392,6 @@
             "group": "euronext_primary_brussels_indices",
             "prefix_alias": [
               "EURONEXT_DLY",
-              "INDEX",
               "EURONEXTBRU",
               "EURONEXTBRU_DLY"
             ]
@@ -4408,7 +4400,6 @@
             "group": "euronext_primary_lisbon_indices",
             "prefix_alias": [
               "EURONEXT_DLY",
-              "INDEX",
               "EURONEXTLIS",
               "EURONEXTLIS_DLY"
             ]
@@ -4417,7 +4408,6 @@
             "group": "euronext_primary_paris_indices",
             "prefix_alias": [
               "EURONEXT_DLY",
-              "INDEX",
               "EURONEXTPAR",
               "EURONEXTPAR_DLY"
             ]
@@ -4990,10 +4980,7 @@
         "groups": [
           {
             "group": "toronto_indices",
-            "priority": 45,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "priority": 45
           },
           {
             "group": "toronto_stocks",
@@ -6099,10 +6086,7 @@
         "groups": [
           {
             "group": "asx_indices",
-            "priority": 55,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "priority": 55
           },
           {
             "group": "asx_stocks",
