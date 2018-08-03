@@ -589,8 +589,7 @@
             "prefix": "EURONEXT",
             "priority": 38,
             "prefix_alias": [
-              "EURONEXT_DLY",
-              "INDEX"
+              "EURONEXT_DLY"
             ],
             "prefix_no_perm": [
               "EURONEXT_EOD"
@@ -606,7 +605,6 @@
             "priority": 38,
             "prefix_alias": [
               "EURONEXT_DLY",
-              "INDEX",
               "EURONEXTAMS",
               "EURONEXTAMS_DLY"
             ],
@@ -624,7 +622,6 @@
             "priority": 38,
             "prefix_alias": [
               "EURONEXT_DLY",
-              "INDEX",
               "EURONEXTBRU",
               "EURONEXTBRU_DLY"
             ],
@@ -642,7 +639,6 @@
             "priority": 38,
             "prefix_alias": [
               "EURONEXT_DLY",
-              "INDEX",
               "EURONEXTLIS",
               "EURONEXTLIS_DLY"
             ],
@@ -660,7 +656,6 @@
             "priority": 38,
             "prefix_alias": [
               "EURONEXT_DLY",
-              "INDEX",
               "EURONEXTPAR",
               "EURONEXTPAR_DLY"
             ],
@@ -1178,9 +1173,6 @@
             "priority": 45,
             "prefix_no_perm": [
               "TSX_DLY"
-            ],
-            "prefix_alias": [
-              "INDEX"
             ]
           }
         }
@@ -2987,9 +2979,6 @@
             "priority": 55,
             "prefix_no_perm": [
               "ASX_DLY"
-            ],
-            "prefix_alias": [
-              "INDEX"
             ]
           }
         }
