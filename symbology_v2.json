@@ -409,7 +409,10 @@
         "kinds": {
           "rt": {
             "prefix": "USI",
-            "priority": 15
+            "priority": 15,
+            "prefix_alias": [
+              "INDEX"
+            ]
           }
         }
       },
