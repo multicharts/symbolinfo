@@ -355,7 +355,10 @@
         "kinds": {
           "rt": {
             "prefix": "USI",
-            "priority": 15
+            "priority": 15,
+            "prefix_alias": [
+              "INDEX"
+            ]
           }
         }
       },
@@ -1917,10 +1920,7 @@
             "prefix_no_perm": [
               "SET_DLY"
             ],
-            "perm": "set",
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "perm": "set"
           },
           "delay": {
             "priority": 54,
@@ -2415,18 +2415,12 @@
             "perm": "asx",
             "prefix_no_perm": [
               "ASX_DLY"
-            ],
-            "prefix_alias": [
-              "INDEX"
             ]
           },
           "delay": {
             "prefix": "ASX_DLY",
             "priority": 57,
-            "perm": "tsx_dly",
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "perm": "tsx_dly"
           }
         }
       },
@@ -3776,10 +3770,7 @@
             "prefix_no_perm": [
               "HOSE_DLY"
             ],
-            "perm": "hose_indices",
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "perm": "hose_indices"
           },
           "delay": {
             "priority": 86,
