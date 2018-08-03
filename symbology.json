@@ -150,8 +150,8 @@
             "group": "cboe_russell_indices_eod",
             "priority": 100,
             "prefix_alias": [
-              "INDEX",
-              "CBOE_EOD"
+              "CBOE_EOD",
+              "INDEX"
             ]
           },
           {
@@ -1253,6 +1253,11 @@
           },
           {
             "group": "custom_indices"
+          },
+          {
+            "group": "international_indices_eod",
+            "priority": 100,
+            "skip_in_search": false
           },
           {
             "group": "dxy",
@@ -2855,7 +2860,6 @@
       },
       {
         "prefix": "JSE_DLY",
-        "perm": "nse_free",
         "groups": [
           {
             "group": "johannesburg_indices_delayed",
@@ -3307,9 +3311,9 @@
         "prefix": "RUSSELL",
         "skip_in_search": false,
         "prefix_alias": [
-          "INDEX",
           "RUSSEL",
-          "RUSSELL_EOD"
+          "RUSSELL_EOD",
+          "INDEX"
         ],
         "groups": [
           {
@@ -4016,8 +4020,8 @@
             "group": "cboe_russell_indices_eod",
             "priority": 100,
             "prefix_alias": [
-              "INDEX",
-              "CBOE_EOD"
+              "CBOE_EOD",
+              "INDEX"
             ]
           },
           {
@@ -5119,6 +5123,11 @@
           },
           {
             "group": "custom_indices"
+          },
+          {
+            "group": "international_indices_eod",
+            "priority": 100,
+            "skip_in_search": false
           },
           {
             "group": "dxy",
@@ -6721,7 +6730,6 @@
       },
       {
         "prefix": "JSE_DLY",
-        "perm": "nse_free",
         "groups": [
           {
             "group": "johannesburg_indices_delayed",
@@ -7173,9 +7181,9 @@
         "prefix": "RUSSELL",
         "skip_in_search": false,
         "prefix_alias": [
-          "INDEX",
           "RUSSEL",
-          "RUSSELL_EOD"
+          "RUSSELL_EOD",
+          "INDEX"
         ],
         "groups": [
           {
