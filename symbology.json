@@ -181,7 +181,7 @@
           {
             "group": "nasdaq_indices_delayed",
             "priority": 10,
-            "perm": "nse_free",
+            "perm": "tsx_dly",
             "skip_in_search": false,
             "prefix_alias": [
               "NASDAQ_DLY",
@@ -925,7 +925,7 @@
       },
       {
         "prefix": "SIX_DLY",
-        "perm": "nse_free",
+        "perm": "tsx_dly",
         "groups": [
           {
             "group": "swiss_indices_delayed",
@@ -1300,7 +1300,7 @@
       },
       {
         "prefix": "BME_DLY",
-        "perm": "nse_free",
+        "perm": "tsx_dly",
         "groups": [
           {
             "group": "bme_indices_delayed",
@@ -1604,7 +1604,7 @@
       },
       {
         "prefix": "HKEX_DLY",
-        "perm": "nse_free",
+        "perm": "tsx_dly",
         "groups": [
           {
             "group": "hongkong_indices_delayed",
@@ -2078,7 +2078,7 @@
       },
       {
         "prefix": "BCBA_DLY",
-        "perm": "nse_free",
+        "perm": "tsx_dly",
         "groups": [
           {
             "group": "buenosaires_indices_delayed",
@@ -2104,7 +2104,7 @@
       },
       {
         "prefix": "OMXCOP_DLY",
-        "perm": "nse_free",
+        "perm": "tsx_dly",
         "groups": [
           {
             "group": "copenhagen_basic_indices_delayed",
@@ -2122,7 +2122,7 @@
       },
       {
         "prefix": "OMXHEX_DLY",
-        "perm": "nse_free",
+        "perm": "tsx_dly",
         "groups": [
           {
             "group": "helsinki_basic_indices_delayed",
@@ -2140,7 +2140,7 @@
       },
       {
         "prefix": "OMXICE_DLY",
-        "perm": "nse_free",
+        "perm": "tsx_dly",
         "groups": [
           {
             "group": "iceland_basic_indices_delayed",
@@ -2154,7 +2154,7 @@
       },
       {
         "prefix": "OMXSTO_DLY",
-        "perm": "nse_free",
+        "perm": "tsx_dly",
         "groups": [
           {
             "group": "stockholm_basic_indices_delayed",
@@ -2172,7 +2172,7 @@
       },
       {
         "prefix": "OMXNORDIC_DLY",
-        "perm": "nse_free",
+        "perm": "tsx_dly",
         "groups": [
           {
             "group": "nordic_basic_indices_delayed",
@@ -2199,7 +2199,7 @@
       },
       {
         "prefix": "ASX_DLY",
-        "perm": "nse_free",
+        "perm": "tsx_dly",
         "groups": [
           {
             "group": "asx_indices_delayed",
@@ -2312,7 +2312,7 @@
       },
       {
         "prefix": "OMXRSE_DLY",
-        "perm": "nse_free",
+        "perm": "tsx_dly",
         "skip_in_search": true,
         "groups": [
           {
@@ -2327,7 +2327,7 @@
       },
       {
         "prefix": "OMXTSE_DLY",
-        "perm": "nse_free",
+        "perm": "tsx_dly",
         "skip_in_search": true,
         "groups": [
           {
@@ -2342,7 +2342,7 @@
       },
       {
         "prefix": "OMXVSE_DLY",
-        "perm": "nse_free",
+        "perm": "tsx_dly",
         "skip_in_search": true,
         "groups": [
           {
@@ -2358,7 +2358,7 @@
       {
         "priority": 59,
         "prefix": "OMXBALTIC_DLY",
-        "perm": "nse_free",
+        "perm": "tsx_dly",
         "prefix_no_perm": [
           "OMXBALTIC_DLY"
         ],
@@ -2751,7 +2751,7 @@
       },
       {
         "prefix": "JSE_DLY",
-        "perm": "nse_free",
+        "perm": "tsx_dly",
         "groups": [
           {
             "group": "johannesburg_indices_delayed",
@@ -2869,7 +2869,7 @@
       {
         "priority": 79,
         "prefix": "FTSEMYX_DLY",
-        "perm": "nse_free",
+        "perm": "tsx_dly",
         "groups": [
           {
             "group": "malaysia_ftse_indices_delayed"
@@ -2977,7 +2977,7 @@
       },
       {
         "prefix": "MYX_DLY",
-        "perm": "nse_free",
+        "perm": "tsx_dly",
         "groups": [
           {
             "group": "malaysia_indices_delayed",
@@ -3360,6 +3360,7 @@
       {
         "priority": 101,
         "prefix": "NSE_EOD",
+        "perm": "permission_denied",
         "skip_in_search": true,
         "groups": [
           {
@@ -3895,7 +3896,7 @@
           {
             "group": "nasdaq_indices_delayed",
             "priority": 10,
-            "perm": "nse_free",
+            "perm": "tsx_dly",
             "skip_in_search": false,
             "prefix_alias": [
               "NASDAQ_DLY",
@@ -4639,7 +4640,7 @@
       },
       {
         "prefix": "SIX_DLY",
-        "perm": "nse_free",
+        "perm": "tsx_dly",
         "groups": [
           {
             "group": "swiss_indices_delayed",
@@ -5014,7 +5015,7 @@
       },
       {
         "prefix": "BME_DLY",
-        "perm": "nse_free",
+        "perm": "tsx_dly",
         "groups": [
           {
             "group": "bme_indices_delayed",
@@ -5318,7 +5319,7 @@
       },
       {
         "prefix": "HKEX_DLY",
-        "perm": "nse_free",
+        "perm": "tsx_dly",
         "groups": [
           {
             "group": "hongkong_indices_delayed",
@@ -5792,7 +5793,7 @@
       },
       {
         "prefix": "BCBA_DLY",
-        "perm": "nse_free",
+        "perm": "tsx_dly",
         "groups": [
           {
             "group": "buenosaires_indices_delayed",
@@ -5818,7 +5819,7 @@
       },
       {
         "prefix": "OMXCOP_DLY",
-        "perm": "nse_free",
+        "perm": "tsx_dly",
         "groups": [
           {
             "group": "copenhagen_basic_indices_delayed",
@@ -5836,7 +5837,7 @@
       },
       {
         "prefix": "OMXHEX_DLY",
-        "perm": "nse_free",
+        "perm": "tsx_dly",
         "groups": [
           {
             "group": "helsinki_basic_indices_delayed",
@@ -5854,7 +5855,7 @@
       },
       {
         "prefix": "OMXICE_DLY",
-        "perm": "nse_free",
+        "perm": "tsx_dly",
         "groups": [
           {
             "group": "iceland_basic_indices_delayed",
@@ -5868,7 +5869,7 @@
       },
       {
         "prefix": "OMXSTO_DLY",
-        "perm": "nse_free",
+        "perm": "tsx_dly",
         "groups": [
           {
             "group": "stockholm_basic_indices_delayed",
@@ -5886,7 +5887,7 @@
       },
       {
         "prefix": "OMXNORDIC_DLY",
-        "perm": "nse_free",
+        "perm": "tsx_dly",
         "groups": [
           {
             "group": "nordic_basic_indices_delayed",
@@ -5913,7 +5914,7 @@
       },
       {
         "prefix": "ASX_DLY",
-        "perm": "nse_free",
+        "perm": "tsx_dly",
         "groups": [
           {
             "group": "asx_indices_delayed",
@@ -6026,7 +6027,7 @@
       },
       {
         "prefix": "OMXRSE_DLY",
-        "perm": "nse_free",
+        "perm": "tsx_dly",
         "skip_in_search": true,
         "groups": [
           {
@@ -6041,7 +6042,7 @@
       },
       {
         "prefix": "OMXTSE_DLY",
-        "perm": "nse_free",
+        "perm": "tsx_dly",
         "skip_in_search": true,
         "groups": [
           {
@@ -6056,7 +6057,7 @@
       },
       {
         "prefix": "OMXVSE_DLY",
-        "perm": "nse_free",
+        "perm": "tsx_dly",
         "skip_in_search": true,
         "groups": [
           {
@@ -6072,7 +6073,7 @@
       {
         "priority": 59,
         "prefix": "OMXBALTIC_DLY",
-        "perm": "nse_free",
+        "perm": "tsx_dly",
         "prefix_no_perm": [
           "OMXBALTIC_DLY"
         ],
@@ -6465,7 +6466,7 @@
       },
       {
         "prefix": "JSE_DLY",
-        "perm": "nse_free",
+        "perm": "tsx_dly",
         "groups": [
           {
             "group": "johannesburg_indices_delayed",
@@ -6583,7 +6584,7 @@
       {
         "priority": 79,
         "prefix": "FTSEMYX_DLY",
-        "perm": "nse_free",
+        "perm": "tsx_dly",
         "groups": [
           {
             "group": "malaysia_ftse_indices_delayed"
@@ -6691,7 +6692,7 @@
       },
       {
         "prefix": "MYX_DLY",
-        "perm": "nse_free",
+        "perm": "tsx_dly",
         "groups": [
           {
             "group": "malaysia_indices_delayed",
@@ -7074,6 +7075,7 @@
       {
         "priority": 101,
         "prefix": "NSE_EOD",
+        "perm": "permission_denied",
         "skip_in_search": true,
         "groups": [
           {
