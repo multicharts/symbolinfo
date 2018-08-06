@@ -4688,6 +4688,52 @@
         }
       },
       {
+        "id": "eur_ex_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "EUREX",
+            "priority": 141,
+            "prefix_no_perm": [
+              "EUREX_DLY"
+            ]
+          },
+          "delay": {
+            "prefix": "EUREX_DLY",
+            "priority": 151,
+            "prefix_no_perm": [
+              "EUREX_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "EUREX_EOD",
+            "priority": 161
+          }
+        }
+      },
+      {
+        "id": "eur_ex_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "EUREX",
+            "priority": 141,
+            "prefix_no_perm": [
+              "EUREX_DLY"
+            ]
+          },
+          "delay": {
+            "prefix": "EUREX_DLY",
+            "priority": 151,
+            "prefix_no_perm": [
+              "EUREX_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "EUREX_EOD",
+            "priority": 161
+          }
+        }
+      },
+      {
         "id": "warsaw_indices",
         "kinds": {
           "rt": {
@@ -5117,32 +5163,6 @@
             "priority": 221,
             "prefix_alias": [
               "MGEX"
-            ]
-          }
-        }
-      },
-      {
-        "id": "eur_ex_futures",
-        "kinds": {
-          "eod": {
-            "skip_in_search": false,
-            "prefix": "EUREX_EOD",
-            "priority": 241,
-            "prefix_alias": [
-              "EUREX"
-            ]
-          }
-        }
-      },
-      {
-        "id": "eur_ex_continuous",
-        "kinds": {
-          "eod": {
-            "skip_in_search": false,
-            "prefix": "EUREX_EOD",
-            "priority": 241,
-            "prefix_alias": [
-              "EUREX"
             ]
           }
         }
