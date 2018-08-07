@@ -190,6 +190,15 @@
         }
       },
       {
+        "id": "bitfinex_forex_spreads",
+        "kinds": {
+          "rt": {
+            "prefix": "BITFINEX",
+            "priority": 11
+          }
+        }
+      },
+      {
         "id": "fxcm_cfd",
         "kinds": {
           "rt": {
@@ -332,6 +341,16 @@
         }
       },
       {
+        "id": "bittrex_forex_spreads",
+        "kinds": {
+          "rt": {
+            "prefix": "BITTREX",
+            "priority": 14,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "usi",
         "kinds": {
           "rt": {
@@ -395,6 +414,17 @@
       },
       {
         "id": "government_bonds",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 20,
+            "search_boost": 2.0,
+            "perm": "tvc_cfd"
+          }
+        }
+      },
+      {
+        "id": "bond_spreads",
         "kinds": {
           "rt": {
             "prefix": "TVC",
@@ -970,6 +1000,17 @@
         }
       },
       {
+        "id": "forex_spreads",
+        "kinds": {
+          "rt": {
+            "prefix": "FX_IDC",
+            "priority": 50,
+            "search_boost": 2.0,
+            "exchange_for_display": "IDC"
+          }
+        }
+      },
+      {
         "id": "comex_migration",
         "kinds": {
           "rt": {
@@ -1289,6 +1330,22 @@
         }
       },
       {
+        "id": "istanbul_index_spreads",
+        "kinds": {
+          "rt": {
+            "priority": 50,
+            "prefix": "BIST",
+            "prefix_alias": [
+              "IST"
+            ],
+            "prefix_no_perm": [
+              "BIST_DLY"
+            ],
+            "perm": "bist"
+          }
+        }
+      },
+      {
         "id": "singapore_fx_continuous",
         "kinds": {
           "rt": {
@@ -1552,6 +1609,19 @@
             "priority": 52,
             "prefix": "BMFBOVESPA_DLY",
             "perm": "bovespa"
+          }
+        }
+      },
+      {
+        "id": "bovespa_index_spreads",
+        "kinds": {
+          "rt": {
+            "priority": 52,
+            "prefix": "BMFBOVESPA",
+            "prefix_no_perm": [
+              "BMFBOVESPA_DLY"
+            ],
+            "perm": "bovespa_stocks"
           }
         }
       },
