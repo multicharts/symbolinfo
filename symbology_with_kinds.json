@@ -1907,23 +1907,6 @@
         }
       },
       {
-        "id": "thailand_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 53,
-            "prefix": "SET",
-            "prefix_no_perm": [
-              "SET_DLY"
-            ],
-            "perm": "set"
-          },
-          "delay": {
-            "priority": 54,
-            "prefix": "SET_DLY"
-          }
-        }
-      },
-      {
         "id": "thailand_indices",
         "kinds": {
           "rt": {
@@ -1936,7 +1919,8 @@
           },
           "delay": {
             "priority": 54,
-            "prefix": "SET_DLY"
+            "prefix": "SET_DLY",
+            "perm": "tsx_dly"
           }
         }
       },
@@ -2101,6 +2085,24 @@
             "priority": 55,
             "prefix": "BCS_DLY",
             "perm": "sf_dly"
+          }
+        }
+      },
+      {
+        "id": "thailand_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 54,
+            "prefix": "SET",
+            "prefix_no_perm": [
+              "SET_DLY"
+            ],
+            "perm": "set"
+          },
+          "delay": {
+            "priority": 55,
+            "prefix": "SET_DLY",
+            "perm": "tsx_dly"
           }
         }
       },
