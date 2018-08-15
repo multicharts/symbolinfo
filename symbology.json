@@ -3611,7 +3611,76 @@
         "skip_in_search": false,
         "groups": [
           {
-            "group": "ibroker"
+            "group": "ibroker_forex"
+          },
+          {
+            "group": "ibroker_lmax"
+          },
+          {
+            "group": "ibroker_cboe"
+          },
+          {
+            "group": "ibroker_cfd_us"
+          },
+          {
+            "group": "ibroker_cme_cbt_futurossobrebonos"
+          },
+          {
+            "group": "ibroker_cme_cbt_futurossobreindices"
+          },
+          {
+            "group": "ibroker_cme_cbt_futurossobremateriasprimas"
+          },
+          {
+            "group": "ibroker_cme_futurossobredivisas"
+          },
+          {
+            "group": "ibroker_cme_futurossobreenergia"
+          },
+          {
+            "group": "ibroker_cme_futurossobreindices"
+          },
+          {
+            "group": "ibroker_cme_futurossobremetales"
+          },
+          {
+            "group": "ibroker_enxt_par"
+          },
+          {
+            "group": "ibroker_eq_mtaa"
+          },
+          {
+            "group": "ibroker_eq_xams"
+          },
+          {
+            "group": "ibroker_eq_xbru"
+          },
+          {
+            "group": "ibroker_eq_xetr"
+          },
+          {
+            "group": "ibroker_eq_xmce"
+          },
+          {
+            "group": "ibroker_eq_xpar"
+          },
+          {
+            "group": "ibroker_eurex"
+          },
+          {
+            "group": "ibroker_ibrcfd"
+          },
+          {
+            "group": "ibroker_ice_us"
+          },
+          {
+            "group": "ibroker_idem"
+          },
+          {
+            "group": "ibroker_liffe"
+          },
+          {
+            "group": "ibroker_meff"
           }
         ]
       },
@@ -7347,7 +7416,76 @@
         "skip_in_search": false,
         "groups": [
           {
-            "group": "ibroker"
+            "group": "ibroker_forex"
+          },
+          {
+            "group": "ibroker_lmax"
+          },
+          {
+            "group": "ibroker_cboe"
+          },
+          {
+            "group": "ibroker_cfd_us"
+          },
+          {
+            "group": "ibroker_cme_cbt_futurossobrebonos"
+          },
+          {
+            "group": "ibroker_cme_cbt_futurossobreindices"
+          },
+          {
+            "group": "ibroker_cme_cbt_futurossobremateriasprimas"
+          },
+          {
+            "group": "ibroker_cme_futurossobredivisas"
+          },
+          {
+            "group": "ibroker_cme_futurossobreenergia"
+          },
+          {
+            "group": "ibroker_cme_futurossobreindices"
+          },
+          {
+            "group": "ibroker_cme_futurossobremetales"
+          },
+          {
+            "group": "ibroker_enxt_par"
+          },
+          {
+            "group": "ibroker_eq_mtaa"
+          },
+          {
+            "group": "ibroker_eq_xams"
+          },
+          {
+            "group": "ibroker_eq_xbru"
+          },
+          {
+            "group": "ibroker_eq_xetr"
+          },
+          {
+            "group": "ibroker_eq_xmce"
+          },
+          {
+            "group": "ibroker_eq_xpar"
+          },
+          {
+            "group": "ibroker_eurex"
+          },
+          {
+            "group": "ibroker_ibrcfd"
+          },
+          {
+            "group": "ibroker_ice_us"
+          },
+          {
+            "group": "ibroker_idem"
+          },
+          {
+            "group": "ibroker_liffe"
+          },
+          {
+            "group": "ibroker_meff"
           }
         ]
       },
