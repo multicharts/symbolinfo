@@ -594,11 +594,17 @@
             "prefix_no_perm": [
               "CBOT_DL"
             ],
-            "priority": 40
+            "priority": 40,
+            "prefix_alias": [
+              "KCBT"
+            ]
           },
           "delay": {
             "prefix": "CBOT_DL",
-            "priority": 40
+            "priority": 40,
+            "prefix_alias": [
+              "KCBT"
+            ]
           }
         }
       },
@@ -611,11 +617,17 @@
             "prefix_no_perm": [
               "CBOT_DL"
             ],
-            "priority": 40
+            "priority": 40,
+            "prefix_alias": [
+              "KCBT"
+            ]
           },
           "delay": {
             "prefix": "CBOT_DL",
-            "priority": 40
+            "priority": 40,
+            "prefix_alias": [
+              "KCBT"
+            ]
           }
         }
       },
@@ -1056,11 +1068,17 @@
             "prefix_no_perm": [
               "CBOT_DL"
             ],
-            "priority": 50
+            "priority": 50,
+            "prefix_alias": [
+              "KCBT"
+            ]
           },
           "delay": {
             "prefix": "CBOT_DL",
-            "priority": 50
+            "priority": 50,
+            "prefix_alias": [
+              "KCBT"
+            ]
           }
         }
       },
@@ -4774,10 +4792,12 @@
         "kinds": {
           "eod": {
             "skip_in_search": false,
-            "prefix": "ICEUS_EOD",
+            "prefix": "ICEUSA_EOD",
             "priority": 201,
             "prefix_alias": [
-              "ICEUS"
+              "ICEUS_EOD",
+              "ICEUS",
+              "ICEUSA"
             ]
           }
         }
@@ -4787,10 +4807,12 @@
         "kinds": {
           "eod": {
             "skip_in_search": false,
-            "prefix": "ICEUS_EOD",
+            "prefix": "ICEUSA_EOD",
             "priority": 201,
             "prefix_alias": [
-              "ICEUS"
+              "ICEUS_EOD",
+              "ICEUS",
+              "ICEUSA"
             ]
           }
         }
