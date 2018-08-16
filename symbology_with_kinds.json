@@ -1752,6 +1752,29 @@
         }
       },
       {
+        "id": "thailand_indices",
+        "kinds": {
+          "rt": {
+            "priority": 53,
+            "prefix": "SET",
+            "prefix_no_perm": [
+              "SET_DLY"
+            ],
+            "perm": "set",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "INDEX"
+            ]
+          },
+          "delay": {
+            "priority": 54,
+            "prefix": "SET_DLY",
+            "perm": "tsx_dly",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "buenosaires_indices",
         "kinds": {
           "rt": {
@@ -1912,6 +1935,26 @@
             "priority": 55,
             "prefix": "BCS_DLY",
             "perm": "sf_dly"
+          }
+        }
+      },
+      {
+        "id": "thailand_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 54,
+            "prefix": "SET",
+            "prefix_no_perm": [
+              "SET_DLY"
+            ],
+            "perm": "set",
+            "skip_in_search": false
+          },
+          "delay": {
+            "priority": 55,
+            "prefix": "SET_DLY",
+            "perm": "tsx_dly",
+            "skip_in_search": true
           }
         }
       },
