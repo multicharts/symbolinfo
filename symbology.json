@@ -3752,6 +3752,16 @@
         ]
       },
       {
+        "priority": 220,
+        "prefix": "JFDBROKERS",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "jfd_fx"
+          }
+        ]
+      },
+      {
         "prefix": "LUXSE",
         "prefix_no_perm": [
           "LUXSE_DLY"
@@ -7618,6 +7628,16 @@
           },
           {
             "group": "ibroker_meff"
+          }
+        ]
+      },
+      {
+        "priority": 220,
+        "prefix": "JFDBROKERS",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "jfd_fx"
           }
         ]
       },
