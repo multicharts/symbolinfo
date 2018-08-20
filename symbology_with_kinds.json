@@ -1361,30 +1361,6 @@
         }
       },
       {
-        "id": "singapore_indices",
-        "kinds": {
-          "rt": {
-            "priority": 50,
-            "prefix": "SGX",
-            "prefix_alias": [
-              "SGX_DLY"
-            ]
-          }
-        }
-      },
-      {
-        "id": "singapore_fx_futures",
-        "kinds": {
-          "rt": {
-            "priority": 50,
-            "prefix": "SGX",
-            "prefix_alias": [
-              "SGX_DLY"
-            ]
-          }
-        }
-      },
-      {
         "id": "istanbul_index_spreads",
         "kinds": {
           "rt": {
@@ -1395,18 +1371,6 @@
             ],
             "prefix_no_perm": [
               "BIST_DLY"
-            ]
-          }
-        }
-      },
-      {
-        "id": "singapore_fx_continuous",
-        "kinds": {
-          "rt": {
-            "priority": 50,
-            "prefix": "SGX",
-            "prefix_alias": [
-              "SGX_DLY"
             ]
           }
         }
@@ -1482,6 +1446,18 @@
           "delay": {
             "priority": 51,
             "prefix": "SZSE_DLY"
+          }
+        }
+      },
+      {
+        "id": "singapore_indices",
+        "kinds": {
+          "rt": {
+            "priority": 50
+          },
+          "delay": {
+            "priority": 51,
+            "prefix": "SGX_DLY"
           }
         }
       },
@@ -2921,7 +2897,39 @@
         }
       },
       {
+        "id": "singapore_fx_futures",
+        "kinds": {
+          "rt": {
+            "priority": 55,
+            "prefix": "SGX",
+            "prefix_no_perm": [
+              "SGX_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 66,
+            "prefix": "SGX_DLY"
+          }
+        }
+      },
+      {
         "id": "singapore_continuous",
+        "kinds": {
+          "rt": {
+            "priority": 55,
+            "prefix": "SGX",
+            "prefix_no_perm": [
+              "SGX_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 66,
+            "prefix": "SGX_DLY"
+          }
+        }
+      },
+      {
+        "id": "singapore_fx_continuous",
         "kinds": {
           "rt": {
             "priority": 55,
