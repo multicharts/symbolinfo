@@ -5154,6 +5154,17 @@
         }
       },
       {
+        "id": "jfd_fx",
+        "kinds": {
+          "rt": {
+            "prefix": "JFDBROKERS",
+            "priority": 220,
+            "hide_in_search": true,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "minneapolis_grain_futures",
         "kinds": {
           "eod": {
