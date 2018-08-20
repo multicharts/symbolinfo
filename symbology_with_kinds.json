@@ -1453,7 +1453,11 @@
         "id": "singapore_indices",
         "kinds": {
           "rt": {
-            "priority": 50
+            "priority": 50,
+            "prefix": "SGX",
+            "prefix_no_perm": [
+              "SGX_DLY"
+            ]
           },
           "delay": {
             "priority": 51,
