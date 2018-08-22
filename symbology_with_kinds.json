@@ -4472,8 +4472,7 @@
           "eod": {
             "prefix": "NSE_EOD",
             "priority": 101,
-            "skip_in_search": true,
-            "perm": "permission_denied"
+            "skip_in_search": true
           }
         }
       },
@@ -4500,8 +4499,7 @@
           "eod": {
             "prefix": "NSE_EOD",
             "priority": 101,
-            "skip_in_search": true,
-            "perm": "permission_denied"
+            "skip_in_search": true
           }
         }
       },
@@ -4528,8 +4526,7 @@
           "eod": {
             "prefix": "NSE_EOD",
             "priority": 101,
-            "skip_in_search": true,
-            "perm": "permission_denied"
+            "skip_in_search": true
           }
         }
       },
