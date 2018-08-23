@@ -1322,32 +1322,6 @@
         }
       },
       {
-        "id": "singapore_indices",
-        "kinds": {
-          "rt": {
-            "priority": 50,
-            "prefix": "SGX",
-            "prefix_alias": [
-              "SGX_DLY"
-            ],
-            "perm": "sf_rt"
-          }
-        }
-      },
-      {
-        "id": "singapore_fx_futures",
-        "kinds": {
-          "rt": {
-            "priority": 50,
-            "prefix": "SGX",
-            "prefix_alias": [
-              "SGX_DLY"
-            ],
-            "perm": "sf_rt"
-          }
-        }
-      },
-      {
         "id": "istanbul_index_spreads",
         "kinds": {
           "rt": {
@@ -1360,19 +1334,6 @@
               "BIST_DLY"
             ],
             "perm": "bist"
-          }
-        }
-      },
-      {
-        "id": "singapore_fx_continuous",
-        "kinds": {
-          "rt": {
-            "priority": 50,
-            "prefix": "SGX",
-            "prefix_alias": [
-              "SGX_DLY"
-            ],
-            "perm": "sf_rt"
           }
         }
       },
@@ -1451,6 +1412,24 @@
             "priority": 51,
             "prefix": "SZSE_DLY",
             "perm": "sf_dly"
+          }
+        }
+      },
+      {
+        "id": "singapore_indices",
+        "kinds": {
+          "rt": {
+            "priority": 50,
+            "prefix": "SGX",
+            "prefix_no_perm": [
+              "SGX_DLY"
+            ],
+            "perm": "sgx_stocks"
+          },
+          "delay": {
+            "priority": 51,
+            "prefix": "SGX_DLY",
+            "perm": "tsx_dly"
           }
         }
       },
@@ -2943,7 +2922,7 @@
           "delay": {
             "priority": 66,
             "prefix": "SGX_DLY",
-            "perm": "sf_dly"
+            "perm": "tsx_dly"
           }
         }
       },
@@ -2961,7 +2940,25 @@
           "delay": {
             "priority": 66,
             "prefix": "SGX_DLY",
-            "perm": "sf_dly"
+            "perm": "tsx_dly"
+          }
+        }
+      },
+      {
+        "id": "singapore_fx_futures",
+        "kinds": {
+          "rt": {
+            "priority": 55,
+            "prefix": "SGX",
+            "prefix_no_perm": [
+              "SGX_DLY"
+            ],
+            "perm": "sgx_futures"
+          },
+          "delay": {
+            "priority": 66,
+            "prefix": "SGX_DLY",
+            "perm": "tsx_dly"
           }
         }
       },
@@ -2979,7 +2976,25 @@
           "delay": {
             "priority": 66,
             "prefix": "SGX_DLY",
-            "perm": "sf_dly"
+            "perm": "tsx_dly"
+          }
+        }
+      },
+      {
+        "id": "singapore_fx_continuous",
+        "kinds": {
+          "rt": {
+            "priority": 55,
+            "prefix": "SGX",
+            "prefix_no_perm": [
+              "SGX_DLY"
+            ],
+            "perm": "sgx_futures"
+          },
+          "delay": {
+            "priority": 66,
+            "prefix": "SGX_DLY",
+            "perm": "tsx_dly"
           }
         }
       },
@@ -4240,8 +4255,7 @@
           "eod": {
             "prefix": "NSE_EOD",
             "priority": 101,
-            "skip_in_search": true,
-            "perm": "permission_denied"
+            "skip_in_search": true
           }
         }
       },
@@ -4268,8 +4282,7 @@
           "eod": {
             "prefix": "NSE_EOD",
             "priority": 101,
-            "skip_in_search": true,
-            "perm": "permission_denied"
+            "skip_in_search": true
           }
         }
       },
@@ -4296,8 +4309,7 @@
           "eod": {
             "prefix": "NSE_EOD",
             "priority": 101,
-            "skip_in_search": true,
-            "perm": "permission_denied"
+            "skip_in_search": true
           }
         }
       },
