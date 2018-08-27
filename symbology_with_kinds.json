@@ -5771,6 +5771,10 @@
               "BMFBOVESPA_DLY"
             ],
             "perm": "permission_denied"
+          },
+          "delay": {
+            "priority": 52,
+            "prefix": "BMFBOVESPA_DLY"
           }
         }
       },
@@ -5784,6 +5788,10 @@
               "BMFBOVESPA_DLY"
             ],
             "perm": "permission_denied"
+          },
+          "delay": {
+            "priority": 52,
+            "prefix": "BMFBOVESPA_DLY"
           }
         }
       },
@@ -5797,6 +5805,10 @@
               "BMFBOVESPA_DLY"
             ],
             "perm": "permission_denied"
+          },
+          "delay": {
+            "priority": 52,
+            "prefix": "BMFBOVESPA_DLY"
           }
         }
       },
@@ -5806,33 +5818,6 @@
           "rt": {
             "priority": 52,
             "prefix": "BMFBOVESPA"
-          }
-        }
-      },
-      {
-        "id": "bovespa_futures_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 52,
-            "prefix": "BMFBOVESPA_DLY"
-          }
-        }
-      },
-      {
-        "id": "bovespa_stocks_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 52,
-            "prefix": "BMFBOVESPA_DLY"
-          }
-        }
-      },
-      {
-        "id": "bovespa_soma_stocks_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 52,
-            "prefix": "BMFBOVESPA_DLY"
           }
         }
       }
