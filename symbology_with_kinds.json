@@ -5260,6 +5260,216 @@
         }
       },
       {
+        "id": "jfd_lx_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "JFDBROKERS",
+            "priority": 220,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "jfd_indices_a",
+        "kinds": {
+          "rt": {
+            "prefix": "JFDBROKERS",
+            "priority": 220,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "jfd_other_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "JFDBROKERS",
+            "priority": 220,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "jfd_mini_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "JFDBROKERS",
+            "priority": 220,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "jfd_btc_cfd",
+        "kinds": {
+          "rt": {
+            "prefix": "JFDBROKERS",
+            "priority": 220,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "jfd_stocks_de",
+        "kinds": {
+          "rt": {
+            "prefix": "JFDBROKERS",
+            "priority": 220,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "jfd_stocks_de_cfd",
+        "kinds": {
+          "rt": {
+            "prefix": "JFDBROKERS",
+            "priority": 220,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "jfd_stocks_us",
+        "kinds": {
+          "rt": {
+            "prefix": "JFDBROKERS",
+            "priority": 220,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "jfd_stocks_us_cfd",
+        "kinds": {
+          "rt": {
+            "prefix": "JFDBROKERS",
+            "priority": 220,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "jfd_stocks_uk_cfd",
+        "kinds": {
+          "rt": {
+            "prefix": "JFDBROKERS",
+            "priority": 220,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "jfd_stocks_ch_cfd",
+        "kinds": {
+          "rt": {
+            "prefix": "JFDBROKERS",
+            "priority": 220,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "jfd_stocks_eu_cfd",
+        "kinds": {
+          "rt": {
+            "prefix": "JFDBROKERS",
+            "priority": 220,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "jfd_stocks_fr",
+        "kinds": {
+          "rt": {
+            "prefix": "JFDBROKERS",
+            "priority": 220,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "jfd_stocks_es",
+        "kinds": {
+          "rt": {
+            "prefix": "JFDBROKERS",
+            "priority": 220,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "jfd_fx_a",
+        "kinds": {
+          "rt": {
+            "prefix": "JFDBROKERS",
+            "priority": 220,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "jfd_lx_fx",
+        "kinds": {
+          "rt": {
+            "prefix": "JFDBROKERS",
+            "priority": 220,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "jfd_crypto",
+        "kinds": {
+          "rt": {
+            "prefix": "JFDBROKERS",
+            "priority": 220,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "jfd_lx_oils",
+        "kinds": {
+          "rt": {
+            "prefix": "JFDBROKERS",
+            "priority": 220,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "jfd_etf_and_etn",
+        "kinds": {
+          "rt": {
+            "prefix": "JFDBROKERS",
+            "priority": 220,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "jfd_precious_metals",
+        "kinds": {
+          "rt": {
+            "prefix": "JFDBROKERS",
+            "priority": 220,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "jfd_metals_a",
+        "kinds": {
+          "rt": {
+            "prefix": "JFDBROKERS",
+            "priority": 220,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "minneapolis_grain_futures",
         "kinds": {
           "eod": {
