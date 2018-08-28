@@ -3833,6 +3833,72 @@
         "groups": [
           {
             "group": "jfd_fx"
+          },
+          {
+            "group": "jfd_indices_and_futures"
+          },
+          {
+            "group": "jfd_lx_indices"
+          },
+          {
+            "group": "jfd_indices_a"
+          },
+          {
+            "group": "jfd_other_futures"
+          },
+          {
+            "group": "jfd_mini_futures"
+          },
+          {
+            "group": "jfd_btc_cfd"
+          },
+          {
+            "group": "jfd_stocks_de"
+          },
+          {
+            "group": "jfd_stocks_de_cfd"
+          },
+          {
+            "group": "jfd_stocks_us"
+          },
+          {
+            "group": "jfd_stocks_us_cfd"
+          },
+          {
+            "group": "jfd_stocks_uk_cfd"
+          },
+          {
+            "group": "jfd_stocks_ch_cfd"
+          },
+          {
+            "group": "jfd_stocks_eu_cfd"
+          },
+          {
+            "group": "jfd_stocks_fr"
+          },
+          {
+            "group": "jfd_stocks_es"
+          },
+          {
+            "group": "jfd_fx_a"
+          },
+          {
+            "group": "jfd_lx_fx"
+          },
+          {
+            "group": "jfd_crypto"
+          },
+          {
+            "group": "jfd_lx_oils"
+          },
+          {
+            "group": "jfd_etf_and_etn"
+          },
+          {
+            "group": "jfd_precious_metals"
+          },
+          {
+            "group": "jfd_metals_a"
           }
         ]
       },
@@ -7788,6 +7854,72 @@
         "groups": [
           {
             "group": "jfd_fx"
+          },
+          {
+            "group": "jfd_indices_and_futures"
+          },
+          {
+            "group": "jfd_lx_indices"
+          },
+          {
+            "group": "jfd_indices_a"
+          },
+          {
+            "group": "jfd_other_futures"
+          },
+          {
+            "group": "jfd_mini_futures"
+          },
+          {
+            "group": "jfd_btc_cfd"
+          },
+          {
+            "group": "jfd_stocks_de"
+          },
+          {
+            "group": "jfd_stocks_de_cfd"
+          },
+          {
+            "group": "jfd_stocks_us"
+          },
+          {
+            "group": "jfd_stocks_us_cfd"
+          },
+          {
+            "group": "jfd_stocks_uk_cfd"
+          },
+          {
+            "group": "jfd_stocks_ch_cfd"
+          },
+          {
+            "group": "jfd_stocks_eu_cfd"
+          },
+          {
+            "group": "jfd_stocks_fr"
+          },
+          {
+            "group": "jfd_stocks_es"
+          },
+          {
+            "group": "jfd_fx_a"
+          },
+          {
+            "group": "jfd_lx_fx"
+          },
+          {
+            "group": "jfd_crypto"
+          },
+          {
+            "group": "jfd_lx_oils"
+          },
+          {
+            "group": "jfd_etf_and_etn"
+          },
+          {
+            "group": "jfd_precious_metals"
+          },
+          {
+            "group": "jfd_metals_a"
           }
         ]
       },
