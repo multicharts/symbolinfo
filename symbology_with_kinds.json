@@ -5613,9 +5613,9 @@
     "id": "cme",
     "groups": [
       {
-        "id": "cme_globex_delayed",
+        "id": "cme_globex",
         "kinds": {
-          "rt": {
+          "delay": {
             "prefix": "CME_GBX",
             "priority": 50,
             "skip_in_search": false
@@ -5623,9 +5623,9 @@
         }
       },
       {
-        "id": "cme_pit_delayed",
+        "id": "cme_pit",
         "kinds": {
-          "rt": {
+          "delay": {
             "prefix": "CME_PIT",
             "priority": 51,
             "skip_in_search": false
@@ -5633,9 +5633,9 @@
         }
       },
       {
-        "id": "cbot_delayed",
+        "id": "cbot",
         "kinds": {
-          "rt": {
+          "delay": {
             "prefix": "CBOT",
             "priority": 52,
             "prefix_alias": [
@@ -5647,9 +5647,9 @@
         }
       },
       {
-        "id": "cbot_mini_delayed",
+        "id": "cbot_mini",
         "kinds": {
-          "rt": {
+          "delay": {
             "prefix": "CBOT_MINI",
             "priority": 52,
             "prefix_alias": [
@@ -5664,9 +5664,9 @@
         }
       },
       {
-        "id": "cme_delayed",
+        "id": "cme",
         "kinds": {
-          "rt": {
+          "delay": {
             "prefix": "CME",
             "priority": 52,
             "prefix_alias": [
@@ -5678,9 +5678,9 @@
         }
       },
       {
-        "id": "cme_mini_delayed",
+        "id": "cme_mini",
         "kinds": {
-          "rt": {
+          "delay": {
             "prefix": "CME_MINI",
             "priority": 52,
             "prefix_alias": [
@@ -5695,9 +5695,9 @@
         }
       },
       {
-        "id": "comex_delayed",
+        "id": "comex",
         "kinds": {
-          "rt": {
+          "delay": {
             "prefix": "COMEX",
             "priority": 52,
             "prefix_alias": [
@@ -5709,9 +5709,9 @@
         }
       },
       {
-        "id": "comex_mini_delayed",
+        "id": "comex_mini",
         "kinds": {
-          "rt": {
+          "delay": {
             "prefix": "COMEX_MINI",
             "priority": 52,
             "prefix_alias": [
@@ -5726,9 +5726,9 @@
         }
       },
       {
-        "id": "nymex_delayed",
+        "id": "nymex",
         "kinds": {
-          "rt": {
+          "delay": {
             "prefix": "NYMEX",
             "priority": 52,
             "prefix_alias": [
@@ -5740,9 +5740,9 @@
         }
       },
       {
-        "id": "nymex_mini_delayed",
+        "id": "nymex_mini",
         "kinds": {
-          "rt": {
+          "delay": {
             "prefix": "NYMEX_MINI",
             "priority": 52,
             "prefix_alias": [
