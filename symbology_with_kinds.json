@@ -1613,7 +1613,7 @@
         "kinds": {
           "rt": {
             "prefix": "MOEX",
-            "perm": "moex_futures",
+            "perm": "moex",
             "prefix_no_perm": [
               "MOEX_DLY"
             ],
@@ -1631,7 +1631,7 @@
         "kinds": {
           "rt": {
             "prefix": "MOEX",
-            "perm": "moex_stocks",
+            "perm": "moex",
             "prefix_no_perm": [
               "MOEX_DLY"
             ],
@@ -1649,7 +1649,7 @@
         "kinds": {
           "rt": {
             "prefix": "MOEX",
-            "perm": "moex_stocks",
+            "perm": "moex",
             "prefix_no_perm": [
               "MOEX_DLY"
             ],
@@ -1679,7 +1679,7 @@
         "kinds": {
           "rt": {
             "prefix": "MOEX",
-            "perm": "moex_futures",
+            "perm": "moex",
             "prefix_no_perm": [
               "MOEX_DLY"
             ],
@@ -1697,7 +1697,7 @@
         "kinds": {
           "rt": {
             "prefix": "MOEX",
-            "perm": "moex_currency",
+            "perm": "moex",
             "prefix_no_perm": [
               "MOEX_DLY"
             ],
