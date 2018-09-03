@@ -5597,6 +5597,16 @@
         }
       },
       {
+        "id": "hitbtc2",
+        "kinds": {
+          "rt": {
+            "prefix": "HITBTC",
+            "priority": 112,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "COINFLOOR",
         "kinds": {
           "rt": {
@@ -5682,15 +5692,6 @@
         "kinds": {
           "rt": {
             "prefix": "BITVC",
-            "priority": 112
-          }
-        }
-      },
-      {
-        "id": "HITBTC",
-        "kinds": {
-          "rt": {
-            "prefix": "HITBTC",
             "priority": 112
           }
         }
