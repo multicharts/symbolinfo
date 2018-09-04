@@ -201,7 +201,6 @@
       },
       {
         "prefix": "FX",
-        "exchange_for_display": "FXCM",
         "groups": [
           {
             "group": "fxcm",
@@ -209,7 +208,8 @@
           },
           {
             "group": "fxcm_cfd",
-            "priority": 11
+            "priority": 11,
+            "exchange_for_display": "FXCM"
           }
         ]
       },
@@ -4222,7 +4222,6 @@
       },
       {
         "prefix": "FX",
-        "exchange_for_display": "FXCM",
         "groups": [
           {
             "group": "fxcm",
@@ -4230,7 +4229,8 @@
           },
           {
             "group": "fxcm_cfd",
-            "priority": 11
+            "priority": 11,
+            "exchange_for_display": "FXCM"
           }
         ]
       },
