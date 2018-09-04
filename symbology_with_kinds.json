@@ -4917,10 +4917,12 @@
         "kinds": {
           "eod": {
             "skip_in_search": false,
-            "prefix": "ICEUS_EOD",
+            "prefix": "ICEUSA_EOD",
             "priority": 201,
             "prefix_alias": [
-              "ICEUS"
+              "ICEUS",
+              "ICEUS_EOD",
+              "ICEUSA"
             ]
           }
         }
@@ -4930,10 +4932,12 @@
         "kinds": {
           "eod": {
             "skip_in_search": false,
-            "prefix": "ICEUS_EOD",
+            "prefix": "ICEUSA_EOD",
             "priority": 201,
             "prefix_alias": [
-              "ICEUS"
+              "ICEUS",
+              "ICEUS_EOD",
+              "ICEUSA"
             ]
           }
         }
