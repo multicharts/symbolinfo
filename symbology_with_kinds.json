@@ -1727,22 +1727,6 @@
         }
       },
       {
-        "id": "thailand_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 53,
-            "prefix": "SET",
-            "prefix_no_perm": [
-              "SET_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 54,
-            "prefix": "SET_DLY"
-          }
-        }
-      },
-      {
         "id": "thailand_indices",
         "kinds": {
           "rt": {
@@ -1984,6 +1968,22 @@
           "delay": {
             "priority": 55,
             "prefix": "BCS_DLY"
+          }
+        }
+      },
+      {
+        "id": "thailand_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 54,
+            "prefix": "SET",
+            "prefix_no_perm": [
+              "SET_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 55,
+            "prefix": "SET_DLY"
           }
         }
       },
