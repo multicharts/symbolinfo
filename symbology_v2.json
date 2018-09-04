@@ -230,8 +230,7 @@
         "kinds": {
           "rt": {
             "prefix": "FX",
-            "priority": 10,
-            "exchange_for_display": "FXCM"
+            "priority": 10
           }
         }
       },
