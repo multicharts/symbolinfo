@@ -1897,6 +1897,30 @@
         ]
       },
       {
+        "priority": 53,
+        "prefix": "KRX",
+        "prefix_no_perm": [
+          "KRX_DLY"
+        ],
+        "groups": [
+          {
+            "group": "korea_stocks"
+          },
+          {
+            "group": "korea_konex_stocks"
+          },
+          {
+            "group": "korea_kosdaq_stocks"
+          },
+          {
+            "group": "korea_indices"
+          },
+          {
+            "group": "korea_main_indices"
+          }
+        ]
+      },
+      {
         "prefix": "BCS_DLY",
         "perm": "sf_dly",
         "groups": [
@@ -2076,6 +2100,27 @@
           },
           {
             "group": "thailand_indices_delayed"
+          }
+        ]
+      },
+      {
+        "priority": 54,
+        "prefix": "KRX_DLY",
+        "groups": [
+          {
+            "group": "korea_stocks_delayed"
+          },
+          {
+            "group": "korea_konex_stocks_delayed"
+          },
+          {
+            "group": "korea_kosdaq_stocks_delayed"
+          },
+          {
+            "group": "korea_indices_delayed"
+          },
+          {
+            "group": "korea_main_indices_delayed"
           }
         ]
       },
@@ -5648,6 +5693,30 @@
         ]
       },
       {
+        "priority": 53,
+        "prefix": "KRX",
+        "prefix_no_perm": [
+          "KRX_DLY"
+        ],
+        "groups": [
+          {
+            "group": "korea_stocks"
+          },
+          {
+            "group": "korea_konex_stocks"
+          },
+          {
+            "group": "korea_kosdaq_stocks"
+          },
+          {
+            "group": "korea_indices"
+          },
+          {
+            "group": "korea_main_indices"
+          }
+        ]
+      },
+      {
         "prefix": "BCS_DLY",
         "perm": "sf_dly",
         "groups": [
@@ -5827,6 +5896,27 @@
           },
           {
             "group": "thailand_indices_delayed"
+          }
+        ]
+      },
+      {
+        "priority": 54,
+        "prefix": "KRX_DLY",
+        "groups": [
+          {
+            "group": "korea_stocks_delayed"
+          },
+          {
+            "group": "korea_konex_stocks_delayed"
+          },
+          {
+            "group": "korea_kosdaq_stocks_delayed"
+          },
+          {
+            "group": "korea_indices_delayed"
+          },
+          {
+            "group": "korea_main_indices_delayed"
           }
         ]
       },
