@@ -1912,7 +1912,7 @@
             "prefix_no_perm": [
               "KRX_DLY"
             ],
-            "perm": "krx"
+            "perm": "korea_stocks"
           },
           "delay": {
             "priority": 54,
@@ -1930,7 +1930,7 @@
             "prefix_no_perm": [
               "KRX_DLY"
             ],
-            "perm": "krx"
+            "perm": "korea_stocks"
           },
           "delay": {
             "priority": 54,
@@ -1948,7 +1948,7 @@
             "prefix_no_perm": [
               "KRX_DLY"
             ],
-            "perm": "krx"
+            "perm": "korea_stocks"
           },
           "delay": {
             "priority": 54,
@@ -1966,7 +1966,7 @@
             "prefix_no_perm": [
               "KRX_DLY"
             ],
-            "perm": "krx"
+            "perm": "tsx_dly"
           },
           "delay": {
             "priority": 54,
@@ -1984,7 +1984,7 @@
             "prefix_no_perm": [
               "KRX_DLY"
             ],
-            "perm": "krx"
+            "perm": "tsx_dly"
           },
           "delay": {
             "priority": 54,
@@ -5055,7 +5055,7 @@
           "rt": {
             "prefix": "EUREX",
             "priority": 141,
-            "perm": "eurex",
+            "perm": "eurex_futures",
             "prefix_no_perm": [
               "EUREX_DLY"
             ]
@@ -5063,7 +5063,7 @@
           "delay": {
             "prefix": "EUREX_DLY",
             "priority": 151,
-            "perm": "eurex_dly",
+            "perm": "tsx_dly",
             "prefix_no_perm": [
               "EUREX_EOD"
             ]
@@ -5080,7 +5080,7 @@
           "rt": {
             "prefix": "EUREX",
             "priority": 141,
-            "perm": "eurex",
+            "perm": "eurex_futures",
             "prefix_no_perm": [
               "EUREX_DLY"
             ]
@@ -5088,7 +5088,7 @@
           "delay": {
             "prefix": "EUREX_DLY",
             "priority": 151,
-            "perm": "eurex_dly",
+            "perm": "tsx_dly",
             "prefix_no_perm": [
               "EUREX_EOD"
             ]
