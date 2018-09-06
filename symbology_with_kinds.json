@@ -1912,7 +1912,7 @@
             "prefix_no_perm": [
               "KRX_DLY"
             ],
-            "perm": "korea_stocks"
+            "perm": "krx_stocks"
           },
           "delay": {
             "priority": 54,
@@ -1930,7 +1930,7 @@
             "prefix_no_perm": [
               "KRX_DLY"
             ],
-            "perm": "korea_stocks"
+            "perm": "krx_stocks"
           },
           "delay": {
             "priority": 54,
@@ -1948,7 +1948,7 @@
             "prefix_no_perm": [
               "KRX_DLY"
             ],
-            "perm": "korea_stocks"
+            "perm": "krx_stocks"
           },
           "delay": {
             "priority": 54,
