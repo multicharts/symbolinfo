@@ -2565,7 +2565,8 @@
             "prefix": "KRX",
             "prefix_no_perm": [
               "KRX_DLY"
-            ]
+            ],
+            "perm": "krx_stocks"
           }
         }
       },
@@ -2577,7 +2578,8 @@
             "prefix": "KRX",
             "prefix_no_perm": [
               "KRX_DLY"
-            ]
+            ],
+            "perm": "krx_stocks"
           }
         }
       },
@@ -2589,7 +2591,8 @@
             "prefix": "KRX",
             "prefix_no_perm": [
               "KRX_DLY"
-            ]
+            ],
+            "perm": "krx_stocks"
           }
         }
       },
