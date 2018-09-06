@@ -1899,6 +1899,7 @@
       {
         "priority": 53,
         "prefix": "KRX",
+        "perm": "krx_stocks",
         "prefix_no_perm": [
           "KRX_DLY"
         ],
@@ -5695,6 +5696,7 @@
       {
         "priority": 53,
         "prefix": "KRX",
+        "perm": "krx_stocks",
         "prefix_no_perm": [
           "KRX_DLY"
         ],
