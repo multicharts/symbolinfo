@@ -394,6 +394,7 @@
             "prefix": "NASDAQ",
             "priority": 20,
             "search_boost": 1.8,
+            "perm": "nasdaq",
             "prefix_no_perm": [
               "BATS"
             ]
@@ -469,6 +470,7 @@
             "priority": 21,
             "search_boost": 1.8,
             "exchange_for_display": "NYSE ARCA & MKT",
+            "perm": "amex",
             "prefix_no_perm": [
               "BATS"
             ]
@@ -502,6 +504,7 @@
             "prefix": "NYSE",
             "priority": 22,
             "search_boost": 1.8,
+            "perm": "nyse",
             "prefix_no_perm": [
               "BATS"
             ]
@@ -3436,7 +3439,8 @@
             "priority": 82,
             "prefix_no_perm": [
               "OTC_DLY"
-            ]
+            ],
+            "perm": "otc"
           },
           "delay": {
             "prefix": "OTC_DLY",
@@ -3455,7 +3459,8 @@
             "priority": 82,
             "prefix_no_perm": [
               "OTC_DLY"
-            ]
+            ],
+            "perm": "otc"
           },
           "delay": {
             "prefix": "OTC_DLY",
@@ -3474,7 +3479,8 @@
             "priority": 82,
             "prefix_no_perm": [
               "OTC_DLY"
-            ]
+            ],
+            "perm": "otc"
           },
           "delay": {
             "prefix": "OTC_DLY",
@@ -5252,6 +5258,30 @@
             "hide_in_search": true,
             "skip_in_search": false,
             "perm": "ibroker_meff"
+          }
+        }
+      },
+      {
+        "id": "ibroker_eurex_futurossobreindicesmini",
+        "kinds": {
+          "rt": {
+            "prefix": "IBROKER",
+            "priority": 220,
+            "hide_in_search": true,
+            "skip_in_search": false,
+            "perm": "ibroker_eurex_futurossobreindicesmini"
+          }
+        }
+      },
+      {
+        "id": "ibroker_meff_futurossobreindicesmini",
+        "kinds": {
+          "rt": {
+            "prefix": "IBROKER",
+            "priority": 220,
+            "hide_in_search": true,
+            "skip_in_search": false,
+            "perm": "ibroker_meff_futurossobreindicesmini"
           }
         }
       },
