@@ -190,6 +190,7 @@
             "group": "nasdaq_idc",
             "priority": 20,
             "search_boost": 1.8,
+            "perm": "nasdaq",
             "prefix_no_perm": [
               "BATS"
             ],
@@ -410,6 +411,7 @@
         "priority": 21,
         "search_boost": 1.8,
         "prefix": "AMEX",
+        "perm": "amex",
         "prefix_no_perm": [
           "BATS"
         ],
@@ -450,6 +452,7 @@
             "group": "nyse_idc",
             "priority": 22,
             "search_boost": 1.8,
+            "perm": "nyse",
             "prefix_no_perm": [
               "BATS"
             ],
@@ -3224,6 +3227,7 @@
       {
         "priority": 82,
         "prefix": "OTC",
+        "perm": "otc",
         "prefix_no_perm": [
           "OTC_DLY"
         ],
@@ -3823,6 +3827,14 @@
           {
             "group": "ibroker_meff",
             "perm": "ibroker_meff"
+          },
+          {
+            "group": "ibroker_eurex_futurossobreindicesmini",
+            "perm": "ibroker_eurex_futurossobreindicesmini"
+          },
+          {
+            "group": "ibroker_meff_futurossobreindicesmini",
+            "perm": "ibroker_meff_futurossobreindicesmini"
           }
         ]
       },
@@ -4211,6 +4223,7 @@
             "group": "nasdaq_idc",
             "priority": 20,
             "search_boost": 1.8,
+            "perm": "nasdaq",
             "prefix_no_perm": [
               "BATS"
             ],
@@ -4431,6 +4444,7 @@
         "priority": 21,
         "search_boost": 1.8,
         "prefix": "AMEX",
+        "perm": "amex",
         "prefix_no_perm": [
           "BATS"
         ],
@@ -4471,6 +4485,7 @@
             "group": "nyse_idc",
             "priority": 22,
             "search_boost": 1.8,
+            "perm": "nyse",
             "prefix_no_perm": [
               "BATS"
             ],
@@ -7245,6 +7260,7 @@
       {
         "priority": 82,
         "prefix": "OTC",
+        "perm": "otc",
         "prefix_no_perm": [
           "OTC_DLY"
         ],
@@ -7844,6 +7860,14 @@
           {
             "group": "ibroker_meff",
             "perm": "ibroker_meff"
+          },
+          {
+            "group": "ibroker_eurex_futurossobreindicesmini",
+            "perm": "ibroker_eurex_futurossobreindicesmini"
+          },
+          {
+            "group": "ibroker_meff_futurossobreindicesmini",
+            "perm": "ibroker_meff_futurossobreindicesmini"
           }
         ]
       },
