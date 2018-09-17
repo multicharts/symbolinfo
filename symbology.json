@@ -3705,6 +3705,14 @@
           {
             "group": "ibroker_meff",
             "perm": "ibroker_meff"
+          },
+          {
+            "group": "ibroker_eurex_futurossobreindicesmini",
+            "perm": "ibroker_eurex_futurossobreindicesmini"
+          },
+          {
+            "group": "ibroker_meff_futurossobreindicesmini",
+            "perm": "ibroker_meff_futurossobreindicesmini"
           }
         ]
       },
@@ -7534,6 +7542,14 @@
           {
             "group": "ibroker_meff",
             "perm": "ibroker_meff"
+          },
+          {
+            "group": "ibroker_eurex_futurossobreindicesmini",
+            "perm": "ibroker_eurex_futurossobreindicesmini"
+          },
+          {
+            "group": "ibroker_meff_futurossobreindicesmini",
+            "perm": "ibroker_meff_futurossobreindicesmini"
           }
         ]
       },
