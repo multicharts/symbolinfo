@@ -5907,6 +5907,30 @@
         }
       },
       {
+        "id": "ibroker_eurex_futurossobreindicesmini",
+        "kinds": {
+          "rt": {
+            "prefix": "IBROKER",
+            "priority": 220,
+            "hide_in_search": true,
+            "skip_in_search": false,
+            "perm": "ibroker_eurex_futurossobreindicesmini"
+          }
+        }
+      },
+      {
+        "id": "ibroker_meff_futurossobreindicesmini",
+        "kinds": {
+          "rt": {
+            "prefix": "IBROKER",
+            "priority": 220,
+            "hide_in_search": true,
+            "skip_in_search": false,
+            "perm": "ibroker_meff_futurossobreindicesmini"
+          }
+        }
+      },
+      {
         "id": "luxembourg_indices",
         "kinds": {
           "rt": {
