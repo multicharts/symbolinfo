@@ -1722,7 +1722,7 @@
               "KRX_DLY"
             ],
             "perm": "tsx_dly",
-            "skip_in_search": true
+            "skip_in_search": false
           },
           "delay": {
             "priority": 53,
@@ -1742,7 +1742,7 @@
               "KRX_DLY"
             ],
             "perm": "tsx_dly",
-            "skip_in_search": true
+            "skip_in_search": false
           },
           "delay": {
             "priority": 53,
@@ -1803,7 +1803,7 @@
               "KRX_DLY"
             ],
             "perm": "krx_stocks",
-            "skip_in_search": true
+            "skip_in_search": false
           },
           "delay": {
             "priority": 54,
@@ -1823,7 +1823,7 @@
               "KRX_DLY"
             ],
             "perm": "krx_stocks",
-            "skip_in_search": true
+            "skip_in_search": false
           },
           "delay": {
             "priority": 54,
@@ -1843,7 +1843,7 @@
               "KRX_DLY"
             ],
             "perm": "krx_stocks",
-            "skip_in_search": true
+            "skip_in_search": false
           },
           "delay": {
             "priority": 54,
