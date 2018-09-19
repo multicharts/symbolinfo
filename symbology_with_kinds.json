@@ -29,6 +29,15 @@
         }
       },
       {
+        "id": "replay",
+        "kinds": {
+          "rt": {
+            "prefix": "REPLAY",
+            "resolve_mask": "REPLAY:*"
+          }
+        }
+      },
+      {
         "id": "forex_tvc",
         "kinds": {
           "rt": {
