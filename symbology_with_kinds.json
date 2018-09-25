@@ -2028,6 +2028,22 @@
         }
       },
       {
+        "id": "canadian_stocks",
+        "kinds": {
+          "rt": {
+            "prefix": "CSE",
+            "priority": 50,
+            "prefix_no_perm": [
+              "CSE_DLY"
+            ]
+          },
+          "delay": {
+            "prefix": "CSE_DLY",
+            "priority": 55
+          }
+        }
+      },
+      {
         "id": "buenosaires_stocks",
         "kinds": {
           "rt": {
