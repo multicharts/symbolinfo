@@ -383,6 +383,9 @@
         "priority": 15,
         "prefix": "BITHUMB",
         "skip_in_search": false,
+        "prefix_alias": [
+          "XCOIN"
+        ],
         "groups": [
           {
             "group": "bithumb"
@@ -3592,15 +3595,6 @@
         "groups": [
           {
             "group": "FOXBIT"
-          }
-        ]
-      },
-      {
-        "priority": 112,
-        "prefix": "XCOIN",
-        "groups": [
-          {
-            "group": "XCOIN"
           }
         ]
       },
@@ -4189,6 +4183,9 @@
         "priority": 15,
         "prefix": "BITHUMB",
         "skip_in_search": false,
+        "prefix_alias": [
+          "XCOIN"
+        ],
         "groups": [
           {
             "group": "bithumb"
@@ -7398,15 +7395,6 @@
         "groups": [
           {
             "group": "FOXBIT"
-          }
-        ]
-      },
-      {
-        "priority": 112,
-        "prefix": "XCOIN",
-        "groups": [
-          {
-            "group": "XCOIN"
           }
         ]
       },
