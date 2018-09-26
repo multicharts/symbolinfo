@@ -4843,6 +4843,62 @@
         }
       },
       {
+        "id": "eur_ex_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "EUREX",
+            "priority": 55,
+            "perm": "eurex_futures",
+            "prefix_no_perm": [
+              "EUREX_DLY"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "prefix": "EUREX_DLY",
+            "priority": 56,
+            "perm": "tsx_dly",
+            "prefix_no_perm": [
+              "EUREX_EOD"
+            ],
+            "skip_in_search": true
+          },
+          "eod": {
+            "prefix": "EUREX_EOD",
+            "priority": 157,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "eur_ex_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "EUREX",
+            "priority": 55,
+            "perm": "eurex_futures",
+            "prefix_no_perm": [
+              "EUREX_DLY"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "prefix": "EUREX_DLY",
+            "priority": 56,
+            "perm": "tsx_dly",
+            "prefix_no_perm": [
+              "EUREX_EOD"
+            ],
+            "skip_in_search": true
+          },
+          "eod": {
+            "prefix": "EUREX_EOD",
+            "priority": 157,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "warsaw_indices",
         "kinds": {
           "rt": {
@@ -5332,32 +5388,6 @@
             "priority": 221,
             "prefix_alias": [
               "MGEX"
-            ]
-          }
-        }
-      },
-      {
-        "id": "eur_ex_futures",
-        "kinds": {
-          "eod": {
-            "skip_in_search": false,
-            "prefix": "EUREX_EOD",
-            "priority": 241,
-            "prefix_alias": [
-              "EUREX"
-            ]
-          }
-        }
-      },
-      {
-        "id": "eur_ex_continuous",
-        "kinds": {
-          "eod": {
-            "skip_in_search": false,
-            "prefix": "EUREX_EOD",
-            "priority": 241,
-            "prefix_alias": [
-              "EUREX"
             ]
           }
         }
