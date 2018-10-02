@@ -25,6 +25,11 @@
         "groups": [
           {
             "group": "xtv_crypto"
+          },
+          {
+            "group": "crypto_market_caps",
+            "priority": 300,
+            "skip_in_search": true
           }
         ]
       },
@@ -4074,6 +4079,11 @@
         "groups": [
           {
             "group": "xtv_crypto"
+          },
+          {
+            "group": "crypto_market_caps",
+            "priority": 300,
+            "skip_in_search": true
           }
         ]
       },
