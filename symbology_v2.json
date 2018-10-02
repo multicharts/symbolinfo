@@ -6661,6 +6661,16 @@
             "perm": "permission_denied"
           }
         }
+      },
+      {
+        "id": "crypto_market_caps",
+        "kinds": {
+          "rt": {
+            "prefix": "TV_CRYPTO",
+            "priority": 300,
+            "skip_in_search": true
+          }
+        }
       }
     ]
   },
