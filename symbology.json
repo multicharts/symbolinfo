@@ -25,11 +25,6 @@
         "groups": [
           {
             "group": "xtv_crypto"
-          },
-          {
-            "group": "crypto_market_caps",
-            "priority": 300,
-            "skip_in_search": true
           }
         ]
       },
@@ -4048,6 +4043,16 @@
           },
           {
             "group": "mgex"
+          }
+        ]
+      },
+      {
+        "priority": 300,
+        "prefix": "TV_CRYPTO_IND",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "crypto_market_caps"
           }
         ]
       }
@@ -4079,11 +4084,6 @@
         "groups": [
           {
             "group": "xtv_crypto"
-          },
-          {
-            "group": "crypto_market_caps",
-            "priority": 300,
-            "skip_in_search": true
           }
         ]
       },
@@ -8102,6 +8102,16 @@
           },
           {
             "group": "mgex"
+          }
+        ]
+      },
+      {
+        "priority": 300,
+        "prefix": "TV_CRYPTO_IND",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "crypto_market_caps"
           }
         ]
       }
