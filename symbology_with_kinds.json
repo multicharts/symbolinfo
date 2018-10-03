@@ -6021,7 +6021,7 @@
         "id": "crypto_market_caps",
         "kinds": {
           "rt": {
-            "prefix": "TV_CRYPTO",
+            "prefix": "TV_CRYPTO_IND",
             "priority": 300,
             "skip_in_search": true
           }
