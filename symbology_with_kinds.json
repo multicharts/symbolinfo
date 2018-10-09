@@ -2188,6 +2188,24 @@
         }
       },
       {
+        "id": "canadian_stocks",
+        "kinds": {
+          "rt": {
+            "prefix": "CSE",
+            "priority": 50,
+            "perm": "cse_stocks",
+            "prefix_no_perm": [
+              "CSE_DLY"
+            ]
+          },
+          "delay": {
+            "prefix": "CSE_DLY",
+            "priority": 55,
+            "perm": "tsx_dly"
+          }
+        }
+      },
+      {
         "id": "buenosaires_stocks",
         "kinds": {
           "rt": {
