@@ -6022,8 +6022,7 @@
         "kinds": {
           "rt": {
             "prefix": "TV_CRYPTO_IND",
-            "priority": 300,
-            "skip_in_search": true
+            "priority": 300
           }
         }
       }
