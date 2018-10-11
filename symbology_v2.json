@@ -6670,6 +6670,15 @@
             "priority": 300
           }
         }
+      },
+      {
+        "id": "crypto_market_caps_single",
+        "kinds": {
+          "rt": {
+            "prefix": "TV_CRYPTO_IND",
+            "priority": 300
+          }
+        }
       }
     ]
   },
