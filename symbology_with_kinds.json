@@ -6021,7 +6021,7 @@
         "id": "crypto_market_caps",
         "kinds": {
           "rt": {
-            "prefix": "TV_CRYPTO_IND",
+            "prefix": "CRYPTOCAP",
             "priority": 300
           }
         }
@@ -6030,7 +6030,7 @@
         "id": "crypto_market_caps_single",
         "kinds": {
           "rt": {
-            "prefix": "TV_CRYPTO_IND",
+            "prefix": "CRYPTOCAP",
             "priority": 300
           }
         }
