@@ -4048,7 +4048,7 @@
       },
       {
         "priority": 300,
-        "prefix": "TV_CRYPTO_IND",
+        "prefix": "CRYPTOCAP",
         "groups": [
           {
             "group": "crypto_market_caps"
@@ -8109,7 +8109,7 @@
       },
       {
         "priority": 300,
-        "prefix": "TV_CRYPTO_IND",
+        "prefix": "CRYPTOCAP",
         "groups": [
           {
             "group": "crypto_market_caps"
