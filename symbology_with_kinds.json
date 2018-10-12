@@ -6025,15 +6025,6 @@
             "priority": 300
           }
         }
-      },
-      {
-        "id": "crypto_market_caps_single",
-        "kinds": {
-          "rt": {
-            "prefix": "CRYPTOCAP",
-            "priority": 300
-          }
-        }
       }
     ]
   },
