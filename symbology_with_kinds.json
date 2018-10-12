@@ -5705,6 +5705,15 @@
             "skip_in_search": true
           }
         }
+      },
+      {
+        "id": "crypto_market_caps",
+        "kinds": {
+          "rt": {
+            "prefix": "CRYPTOCAP",
+            "priority": 300
+          }
+        }
       }
     ]
   },
