@@ -4052,9 +4052,6 @@
         "groups": [
           {
             "group": "crypto_market_caps"
-          },
-          {
-            "group": "crypto_market_caps_single"
           }
         ]
       }
@@ -8113,9 +8110,6 @@
         "groups": [
           {
             "group": "crypto_market_caps"
-          },
-          {
-            "group": "crypto_market_caps_single"
           }
         ]
       }
