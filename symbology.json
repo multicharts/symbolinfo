@@ -3796,6 +3796,15 @@
             "group": "mgex"
           }
         ]
+      },
+      {
+        "priority": 300,
+        "prefix": "CRYPTOCAP",
+        "groups": [
+          {
+            "group": "crypto_market_caps"
+          }
+        ]
       }
     ]
   },
@@ -7594,6 +7603,15 @@
           },
           {
             "group": "mgex"
+          }
+        ]
+      },
+      {
+        "priority": 300,
+        "prefix": "CRYPTOCAP",
+        "groups": [
+          {
+            "group": "crypto_market_caps"
           }
         ]
       }
