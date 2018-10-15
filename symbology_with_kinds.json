@@ -5590,6 +5590,16 @@
         }
       },
       {
+        "id": "saxobank",
+        "kinds": {
+          "rt": {
+            "prefix": "SAXO",
+            "priority": 220,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "minneapolis_grain_futures",
         "kinds": {
           "eod": {
