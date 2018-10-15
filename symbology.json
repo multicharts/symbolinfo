@@ -3941,6 +3941,16 @@
         ]
       },
       {
+        "priority": 220,
+        "prefix": "BTCTRADER",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "btctrader"
+          }
+        ]
+      },
+      {
         "prefix": "LUXSE",
         "prefix_no_perm": [
           "LUXSE_DLY"
@@ -8005,6 +8015,16 @@
         "groups": [
           {
             "group": "saxobank"
+          }
+        ]
+      },
+      {
+        "priority": 220,
+        "prefix": "BTCTRADER",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "btctrader"
           }
         ]
       },
