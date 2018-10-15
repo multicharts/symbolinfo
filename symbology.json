@@ -3931,6 +3931,16 @@
         ]
       },
       {
+        "priority": 220,
+        "prefix": "SAXO",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "saxobank"
+          }
+        ]
+      },
+      {
         "prefix": "LUXSE",
         "prefix_no_perm": [
           "LUXSE_DLY"
@@ -7985,6 +7995,16 @@
           },
           {
             "group": "jfd_metals_a"
+          }
+        ]
+      },
+      {
+        "priority": 220,
+        "prefix": "SAXO",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "saxobank"
           }
         ]
       },
