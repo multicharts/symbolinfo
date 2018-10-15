@@ -6363,6 +6363,16 @@
         }
       },
       {
+        "id": "btctrader",
+        "kinds": {
+          "rt": {
+            "prefix": "BTCTRADER",
+            "priority": 220,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "luxembourg_indices",
         "kinds": {
           "rt": {
