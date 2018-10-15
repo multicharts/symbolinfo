@@ -6353,6 +6353,16 @@
         }
       },
       {
+        "id": "saxobank",
+        "kinds": {
+          "rt": {
+            "prefix": "SAXO",
+            "priority": 220,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "luxembourg_indices",
         "kinds": {
           "rt": {
