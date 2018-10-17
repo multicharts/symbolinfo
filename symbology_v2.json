@@ -262,15 +262,6 @@
         }
       },
       {
-        "id": "bitfinex_crypto_spreads",
-        "kinds": {
-          "rt": {
-            "prefix": "BITFINEX",
-            "priority": 11
-          }
-        }
-      },
-      {
         "id": "fxcm_cfd",
         "kinds": {
           "rt": {
@@ -347,16 +338,6 @@
         }
       },
       {
-        "id": "poloniex_crypto_spreads",
-        "kinds": {
-          "rt": {
-            "prefix": "POLONIEX",
-            "priority": 12,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
         "id": "bitflyer_spreads",
         "kinds": {
           "rt": {
@@ -423,16 +404,6 @@
       },
       {
         "id": "bittrex_forex_spreads",
-        "kinds": {
-          "rt": {
-            "prefix": "BITTREX",
-            "priority": 14,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "bittrex_crypto_spreads",
         "kinds": {
           "rt": {
             "prefix": "BITTREX",
@@ -5574,16 +5545,6 @@
       },
       {
         "id": "binance_spreads",
-        "kinds": {
-          "rt": {
-            "prefix": "BINANCE",
-            "priority": 112,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "binance_crypto_spreads",
         "kinds": {
           "rt": {
             "prefix": "BINANCE",
