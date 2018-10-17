@@ -234,9 +234,6 @@
             "group": "bitfinex_forex_spreads"
           },
           {
-            "group": "bitfinex_crypto_spreads"
-          },
-          {
             "group": "btcbtc_spreads",
             "priority": 112,
             "skip_in_search": true
@@ -289,9 +286,6 @@
           },
           {
             "group": "poloniex_spreads"
-          },
-          {
-            "group": "poloniex_crypto_spreads"
           }
         ]
       },
@@ -349,9 +343,6 @@
           },
           {
             "group": "bittrex_forex_spreads"
-          },
-          {
-            "group": "bittrex_crypto_spreads"
           }
         ]
       },
@@ -424,10 +415,6 @@
           },
           {
             "group": "binance_spreads",
-            "priority": 112
-          },
-          {
-            "group": "binance_crypto_spreads",
             "priority": 112
           }
         ]
@@ -4312,9 +4299,6 @@
             "group": "bitfinex_forex_spreads"
           },
           {
-            "group": "bitfinex_crypto_spreads"
-          },
-          {
             "group": "btcbtc_spreads",
             "priority": 112,
             "skip_in_search": true
@@ -4367,9 +4351,6 @@
           },
           {
             "group": "poloniex_spreads"
-          },
-          {
-            "group": "poloniex_crypto_spreads"
           }
         ]
       },
@@ -4427,9 +4408,6 @@
           },
           {
             "group": "bittrex_forex_spreads"
-          },
-          {
-            "group": "bittrex_crypto_spreads"
           }
         ]
       },
@@ -4502,10 +4480,6 @@
           },
           {
             "group": "binance_spreads",
-            "priority": 112
-          },
-          {
-            "group": "binance_crypto_spreads",
             "priority": 112
           }
         ]
