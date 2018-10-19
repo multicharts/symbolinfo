@@ -3591,14 +3591,14 @@
       },
       {
         "priority": 112,
-        "prefix": "HITBTC",
+        "prefix": "HITBTC_SPREADS",
         "skip_in_search": false,
+        "prefix_alias": [
+          "HITBTC"
+        ],
         "groups": [
           {
             "group": "hitbtc_spreads"
-          },
-          {
-            "group": "hitbtc2"
           }
         ]
       },
@@ -3612,6 +3612,16 @@
           },
           {
             "group": "THEROCKTRADING"
+          }
+        ]
+      },
+      {
+        "priority": 112,
+        "prefix": "HITBTC",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "hitbtc2"
           }
         ]
       },
@@ -7656,14 +7666,14 @@
       },
       {
         "priority": 112,
-        "prefix": "HITBTC",
+        "prefix": "HITBTC_SPREADS",
         "skip_in_search": false,
+        "prefix_alias": [
+          "HITBTC"
+        ],
         "groups": [
           {
             "group": "hitbtc_spreads"
-          },
-          {
-            "group": "hitbtc2"
           }
         ]
       },
@@ -7677,6 +7687,16 @@
           },
           {
             "group": "THEROCKTRADING"
+          }
+        ]
+      },
+      {
+        "priority": 112,
+        "prefix": "HITBTC",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "hitbtc2"
           }
         ]
       },
