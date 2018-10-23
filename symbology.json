@@ -231,6 +231,9 @@
             "group": "bitfinex"
           },
           {
+            "group": "bitfinex_spreads"
+          },
+          {
             "group": "bitfinex_forex_spreads"
           },
           {
@@ -4307,6 +4310,9 @@
         "groups": [
           {
             "group": "bitfinex"
+          },
+          {
+            "group": "bitfinex_spreads"
           },
           {
             "group": "bitfinex_forex_spreads"
