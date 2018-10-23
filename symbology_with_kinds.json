@@ -186,6 +186,15 @@
         }
       },
       {
+        "id": "bitfinex_spreads",
+        "kinds": {
+          "rt": {
+            "prefix": "BITFINEX",
+            "priority": 11
+          }
+        }
+      },
+      {
         "id": "bitfinex_forex_spreads",
         "kinds": {
           "rt": {
