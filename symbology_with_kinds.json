@@ -375,7 +375,10 @@
           "rt": {
             "prefix": "BITHUMB",
             "priority": 15,
-            "skip_in_search": false
+            "skip_in_search": false,
+            "prefix_alias": [
+              "XCOIN"
+            ]
           }
         }
       },
@@ -4721,15 +4724,6 @@
         "kinds": {
           "rt": {
             "prefix": "FOXBIT",
-            "priority": 112
-          }
-        }
-      },
-      {
-        "id": "XCOIN",
-        "kinds": {
-          "rt": {
-            "prefix": "XCOIN",
             "priority": 112
           }
         }
