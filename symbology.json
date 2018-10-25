@@ -237,9 +237,6 @@
             "group": "bitfinex_forex_spreads"
           },
           {
-            "group": "bitfinex_crypto_spreads"
-          },
-          {
             "group": "btcbtc_spreads",
             "priority": 112,
             "skip_in_search": true
@@ -4075,6 +4072,9 @@
         "groups": [
           {
             "group": "crypto_market_caps"
+          },
+          {
+            "group": "crypto_market_caps_dominance"
           }
         ]
       }
@@ -4318,9 +4318,6 @@
             "group": "bitfinex_forex_spreads"
           },
           {
-            "group": "bitfinex_crypto_spreads"
-          },
-          {
             "group": "btcbtc_spreads",
             "priority": 112,
             "skip_in_search": true
@@ -8156,6 +8153,9 @@
         "groups": [
           {
             "group": "crypto_market_caps"
+          },
+          {
+            "group": "crypto_market_caps_dominance"
           }
         ]
       }
