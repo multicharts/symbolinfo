@@ -204,15 +204,6 @@
         }
       },
       {
-        "id": "bitfinex_crypto_spreads",
-        "kinds": {
-          "rt": {
-            "prefix": "BITFINEX",
-            "priority": 11
-          }
-        }
-      },
-      {
         "id": "fxcm_cfd",
         "kinds": {
           "rt": {
@@ -6021,6 +6012,15 @@
       },
       {
         "id": "crypto_market_caps",
+        "kinds": {
+          "rt": {
+            "prefix": "CRYPTOCAP",
+            "priority": 300
+          }
+        }
+      },
+      {
+        "id": "crypto_market_caps_dominance",
         "kinds": {
           "rt": {
             "prefix": "CRYPTOCAP",
