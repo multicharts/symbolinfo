@@ -1155,11 +1155,6 @@
             "skip_in_search": true
           },
           {
-            "group": "nasdi",
-            "priority": 300,
-            "skip_in_search": true
-          },
-          {
             "group": "nysei",
             "priority": 300,
             "skip_in_search": true
@@ -4982,11 +4977,6 @@
           },
           {
             "group": "russli",
-            "priority": 300,
-            "skip_in_search": true
-          },
-          {
-            "group": "nasdi",
             "priority": 300,
             "skip_in_search": true
           },
