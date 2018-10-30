@@ -3656,11 +3656,59 @@
         }
       },
       {
-        "id": "euronext_futures",
+        "id": "euronext_amsterdam_futures",
         "kinds": {
           "rt": {
             "priority": 59,
             "prefix": "EURONEXT",
+            "prefix_alias": [
+              "EURONEXTAMS"
+            ],
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ]
+          }
+        }
+      },
+      {
+        "id": "euronext_brussels_futures",
+        "kinds": {
+          "rt": {
+            "priority": 59,
+            "prefix": "EURONEXT",
+            "prefix_alias": [
+              "EURONEXTBRU"
+            ],
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ]
+          }
+        }
+      },
+      {
+        "id": "euronext_lisbon_futures",
+        "kinds": {
+          "rt": {
+            "priority": 59,
+            "prefix": "EURONEXT",
+            "prefix_alias": [
+              "EURONEXTLIS"
+            ],
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ]
+          }
+        }
+      },
+      {
+        "id": "euronext_paris_futures",
+        "kinds": {
+          "rt": {
+            "priority": 59,
+            "prefix": "EURONEXT",
+            "prefix_alias": [
+              "EURONEXTPAR"
+            ],
             "prefix_no_perm": [
               "EURONEXT_DLY"
             ]
@@ -3724,11 +3772,59 @@
         }
       },
       {
-        "id": "euronext_continuous",
+        "id": "euronext_amstredam_continuous",
         "kinds": {
           "rt": {
             "priority": 59,
             "prefix": "EURONEXT",
+            "prefix_alias": [
+              "EURONEXTAMS"
+            ],
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ]
+          }
+        }
+      },
+      {
+        "id": "euronext_brussels_continuous",
+        "kinds": {
+          "rt": {
+            "priority": 59,
+            "prefix": "EURONEXT",
+            "prefix_alias": [
+              "EURONEXTBRU"
+            ],
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ]
+          }
+        }
+      },
+      {
+        "id": "euronext_lisbon_continuous",
+        "kinds": {
+          "rt": {
+            "priority": 59,
+            "prefix": "EURONEXT",
+            "prefix_alias": [
+              "EURONEXTLIS"
+            ],
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ]
+          }
+        }
+      },
+      {
+        "id": "euronext_paris_continuous",
+        "kinds": {
+          "rt": {
+            "priority": 59,
+            "prefix": "EURONEXT",
+            "prefix_alias": [
+              "EURONEXTPAR"
+            ],
             "prefix_no_perm": [
               "EURONEXT_DLY"
             ]
@@ -3844,11 +3940,50 @@
         }
       },
       {
-        "id": "euronext_futures_delayed",
+        "id": "euronext_amsterdam_futures_delayed",
         "kinds": {
           "rt": {
             "priority": 60,
-            "prefix": "EURONEXT_DLY"
+            "prefix": "EURONEXT_DLY",
+            "prefix_alias": [
+              "EURONEXTAMS_DLY"
+            ]
+          }
+        }
+      },
+      {
+        "id": "euronext_brussels_futures_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 60,
+            "prefix": "EURONEXT_DLY",
+            "prefix_alias": [
+              "EURONEXTBRU_DLY"
+            ]
+          }
+        }
+      },
+      {
+        "id": "euronext_lisbon_futures_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 60,
+            "prefix": "EURONEXT_DLY",
+            "prefix_alias": [
+              "EURONEXTLIS_DLY"
+            ]
+          }
+        }
+      },
+      {
+        "id": "euronext_paris_futures_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 60,
+            "prefix": "EURONEXT_DLY",
+            "prefix_alias": [
+              "EURONEXTPAR_DLY"
+            ]
           }
         }
       },
@@ -3907,11 +4042,50 @@
         }
       },
       {
-        "id": "euronext_continuous_delayed",
+        "id": "euronext_amstredam_continuous_delayed",
         "kinds": {
           "rt": {
             "priority": 60,
-            "prefix": "EURONEXT_DLY"
+            "prefix": "EURONEXT_DLY",
+            "prefix_alias": [
+              "EURONEXTAMS_DLY"
+            ]
+          }
+        }
+      },
+      {
+        "id": "euronext_brussels_continuous_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 60,
+            "prefix": "EURONEXT_DLY",
+            "prefix_alias": [
+              "EURONEXTBRU_DLY"
+            ]
+          }
+        }
+      },
+      {
+        "id": "euronext_lisbon_continuous_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 60,
+            "prefix": "EURONEXT_DLY",
+            "prefix_alias": [
+              "EURONEXTLIS_DLY"
+            ]
+          }
+        }
+      },
+      {
+        "id": "euronext_paris_continuous_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 60,
+            "prefix": "EURONEXT_DLY",
+            "prefix_alias": [
+              "EURONEXTPAR_DLY"
+            ]
           }
         }
       },
