@@ -3816,6 +3816,16 @@
       },
       {
         "priority": 113,
+        "prefix": "KRYPTONO",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "kryptono"
+          }
+        ]
+      },
+      {
+        "priority": 113,
         "prefix": "MTGOX",
         "groups": [
           {
@@ -3840,7 +3850,7 @@
         "prefix": "HUOBI",
         "groups": [
           {
-            "group": "huobi"
+            "group": "huobi2"
           }
         ]
       },
@@ -8011,6 +8021,16 @@
       },
       {
         "priority": 113,
+        "prefix": "KRYPTONO",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "kryptono"
+          }
+        ]
+      },
+      {
+        "priority": 113,
         "prefix": "MTGOX",
         "groups": [
           {
@@ -8035,7 +8055,7 @@
         "prefix": "HUOBI",
         "groups": [
           {
-            "group": "huobi"
+            "group": "huobi2"
           }
         ]
       },
