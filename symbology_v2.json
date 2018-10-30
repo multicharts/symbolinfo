@@ -5909,6 +5909,16 @@
         }
       },
       {
+        "id": "kryptono",
+        "kinds": {
+          "rt": {
+            "prefix": "KRYPTONO",
+            "priority": 113,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "MTGOX",
         "kinds": {
           "rt": {
@@ -5930,7 +5940,7 @@
         }
       },
       {
-        "id": "huobi",
+        "id": "huobi2",
         "kinds": {
           "rt": {
             "prefix": "HUOBI",
