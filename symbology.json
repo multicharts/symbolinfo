@@ -613,17 +613,83 @@
             ]
           },
           {
-            "group": "euronext_futures",
+            "group": "euronext_amsterdam_futures",
             "priority": 59,
             "prefix_no_perm": [
               "EURONEXT_DLY"
+            ],
+            "prefix_alias": [
+              "EURONEXTAMS"
             ]
           },
           {
-            "group": "euronext_continuous",
+            "group": "euronext_brussels_futures",
             "priority": 59,
             "prefix_no_perm": [
               "EURONEXT_DLY"
+            ],
+            "prefix_alias": [
+              "EURONEXTBRU"
+            ]
+          },
+          {
+            "group": "euronext_lisbon_futures",
+            "priority": 59,
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ],
+            "prefix_alias": [
+              "EURONEXTLIS"
+            ]
+          },
+          {
+            "group": "euronext_paris_futures",
+            "priority": 59,
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ],
+            "prefix_alias": [
+              "EURONEXTPAR"
+            ]
+          },
+          {
+            "group": "euronext_amstredam_continuous",
+            "priority": 59,
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ],
+            "prefix_alias": [
+              "EURONEXTAMS"
+            ]
+          },
+          {
+            "group": "euronext_brussels_continuous",
+            "priority": 59,
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ],
+            "prefix_alias": [
+              "EURONEXTBRU"
+            ]
+          },
+          {
+            "group": "euronext_lisbon_continuous",
+            "priority": 59,
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ],
+            "prefix_alias": [
+              "EURONEXTLIS"
+            ]
+          },
+          {
+            "group": "euronext_paris_continuous",
+            "priority": 59,
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ],
+            "prefix_alias": [
+              "EURONEXTPAR"
             ]
           }
         ]
@@ -764,12 +830,60 @@
             ]
           },
           {
-            "group": "euronext_futures_delayed",
-            "priority": 60
+            "group": "euronext_amsterdam_futures_delayed",
+            "priority": 60,
+            "prefix_alias": [
+              "EURONEXTAMS_DLY"
+            ]
           },
           {
-            "group": "euronext_continuous_delayed",
-            "priority": 60
+            "group": "euronext_brussels_futures_delayed",
+            "priority": 60,
+            "prefix_alias": [
+              "EURONEXTBRU_DLY"
+            ]
+          },
+          {
+            "group": "euronext_lisbon_futures_delayed",
+            "priority": 60,
+            "prefix_alias": [
+              "EURONEXTLIS_DLY"
+            ]
+          },
+          {
+            "group": "euronext_paris_futures_delayed",
+            "priority": 60,
+            "prefix_alias": [
+              "EURONEXTPAR_DLY"
+            ]
+          },
+          {
+            "group": "euronext_amstredam_continuous_delayed",
+            "priority": 60,
+            "prefix_alias": [
+              "EURONEXTAMS_DLY"
+            ]
+          },
+          {
+            "group": "euronext_brussels_continuous_delayed",
+            "priority": 60,
+            "prefix_alias": [
+              "EURONEXTBRU_DLY"
+            ]
+          },
+          {
+            "group": "euronext_lisbon_continuous_delayed",
+            "priority": 60,
+            "prefix_alias": [
+              "EURONEXTLIS_DLY"
+            ]
+          },
+          {
+            "group": "euronext_paris_continuous_delayed",
+            "priority": 60,
+            "prefix_alias": [
+              "EURONEXTPAR_DLY"
+            ]
           }
         ]
       },
@@ -4694,17 +4808,83 @@
             ]
           },
           {
-            "group": "euronext_futures",
+            "group": "euronext_amsterdam_futures",
             "priority": 59,
             "prefix_no_perm": [
               "EURONEXT_DLY"
+            ],
+            "prefix_alias": [
+              "EURONEXTAMS"
             ]
           },
           {
-            "group": "euronext_continuous",
+            "group": "euronext_brussels_futures",
             "priority": 59,
             "prefix_no_perm": [
               "EURONEXT_DLY"
+            ],
+            "prefix_alias": [
+              "EURONEXTBRU"
+            ]
+          },
+          {
+            "group": "euronext_lisbon_futures",
+            "priority": 59,
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ],
+            "prefix_alias": [
+              "EURONEXTLIS"
+            ]
+          },
+          {
+            "group": "euronext_paris_futures",
+            "priority": 59,
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ],
+            "prefix_alias": [
+              "EURONEXTPAR"
+            ]
+          },
+          {
+            "group": "euronext_amstredam_continuous",
+            "priority": 59,
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ],
+            "prefix_alias": [
+              "EURONEXTAMS"
+            ]
+          },
+          {
+            "group": "euronext_brussels_continuous",
+            "priority": 59,
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ],
+            "prefix_alias": [
+              "EURONEXTBRU"
+            ]
+          },
+          {
+            "group": "euronext_lisbon_continuous",
+            "priority": 59,
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ],
+            "prefix_alias": [
+              "EURONEXTLIS"
+            ]
+          },
+          {
+            "group": "euronext_paris_continuous",
+            "priority": 59,
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ],
+            "prefix_alias": [
+              "EURONEXTPAR"
             ]
           }
         ]
@@ -4845,12 +5025,60 @@
             ]
           },
           {
-            "group": "euronext_futures_delayed",
-            "priority": 60
+            "group": "euronext_amsterdam_futures_delayed",
+            "priority": 60,
+            "prefix_alias": [
+              "EURONEXTAMS_DLY"
+            ]
           },
           {
-            "group": "euronext_continuous_delayed",
-            "priority": 60
+            "group": "euronext_brussels_futures_delayed",
+            "priority": 60,
+            "prefix_alias": [
+              "EURONEXTBRU_DLY"
+            ]
+          },
+          {
+            "group": "euronext_lisbon_futures_delayed",
+            "priority": 60,
+            "prefix_alias": [
+              "EURONEXTLIS_DLY"
+            ]
+          },
+          {
+            "group": "euronext_paris_futures_delayed",
+            "priority": 60,
+            "prefix_alias": [
+              "EURONEXTPAR_DLY"
+            ]
+          },
+          {
+            "group": "euronext_amstredam_continuous_delayed",
+            "priority": 60,
+            "prefix_alias": [
+              "EURONEXTAMS_DLY"
+            ]
+          },
+          {
+            "group": "euronext_brussels_continuous_delayed",
+            "priority": 60,
+            "prefix_alias": [
+              "EURONEXTBRU_DLY"
+            ]
+          },
+          {
+            "group": "euronext_lisbon_continuous_delayed",
+            "priority": 60,
+            "prefix_alias": [
+              "EURONEXTLIS_DLY"
+            ]
+          },
+          {
+            "group": "euronext_paris_continuous_delayed",
+            "priority": 60,
+            "prefix_alias": [
+              "EURONEXTPAR_DLY"
+            ]
           }
         ]
       },
