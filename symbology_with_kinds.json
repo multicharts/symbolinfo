@@ -4364,15 +4364,6 @@
         }
       },
       {
-        "id": "ecri",
-        "kinds": {
-          "rt": {
-            "prefix": "ECRI",
-            "priority": 100
-          }
-        }
-      },
-      {
         "id": "nse_stocks",
         "kinds": {
           "rt": {
