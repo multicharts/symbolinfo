@@ -3622,15 +3622,6 @@
         ]
       },
       {
-        "priority": 100,
-        "prefix": "ECRI",
-        "groups": [
-          {
-            "group": "ecri"
-          }
-        ]
-      },
-      {
         "priority": 101,
         "prefix": "NSE_EOD",
         "skip_in_search": true,
@@ -7820,15 +7811,6 @@
         "groups": [
           {
             "group": "frkc"
-          }
-        ]
-      },
-      {
-        "priority": 100,
-        "prefix": "ECRI",
-        "groups": [
-          {
-            "group": "ecri"
           }
         ]
       },
