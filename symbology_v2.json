@@ -6847,15 +6847,6 @@
             "priority": 300
           }
         }
-      },
-      {
-        "id": "crypto_market_caps_dominance",
-        "kinds": {
-          "rt": {
-            "prefix": "CRYPTOCAP",
-            "priority": 300
-          }
-        }
       }
     ]
   },
