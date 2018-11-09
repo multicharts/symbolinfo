@@ -1851,9 +1851,9 @@
       },
       {
         "priority": 51,
-        "prefix": "SSE",
+        "prefix": "SAPSE",
         "prefix_no_perm": [
-          "SSE_DLY"
+          "SAPSE_DLY"
         ],
         "groups": [
           {
@@ -2614,7 +2614,7 @@
       },
       {
         "priority": 58,
-        "prefix": "SSE_DLY",
+        "prefix": "SAPSE_DLY",
         "groups": [
           {
             "group": "sapporo_stocks_delayed"
@@ -6044,9 +6044,9 @@
       },
       {
         "priority": 51,
-        "prefix": "SSE",
+        "prefix": "SAPSE",
         "prefix_no_perm": [
-          "SSE_DLY"
+          "SAPSE_DLY"
         ],
         "groups": [
           {
@@ -6807,7 +6807,7 @@
       },
       {
         "priority": 58,
-        "prefix": "SSE_DLY",
+        "prefix": "SAPSE_DLY",
         "groups": [
           {
             "group": "sapporo_stocks_delayed"
