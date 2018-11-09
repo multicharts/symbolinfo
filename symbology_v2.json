@@ -2199,10 +2199,10 @@
         "id": "sapporo_stocks",
         "kinds": {
           "rt": {
-            "prefix": "SSE",
+            "prefix": "SAPSE",
             "priority": 51,
             "prefix_no_perm": [
-              "SSE_DLY"
+              "SAPSE_DLY"
             ]
           }
         }
@@ -3632,7 +3632,7 @@
         "id": "sapporo_stocks_delayed",
         "kinds": {
           "rt": {
-            "prefix": "SSE_DLY",
+            "prefix": "SAPSE_DLY",
             "priority": 58
           }
         }
