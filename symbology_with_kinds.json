@@ -946,6 +946,7 @@
         "kinds": {
           "rt": {
             "priority": 45,
+            "exchange_for_display": "Cboe BZX",
             "prefix": "BATS",
             "prefix_no_perm": [
               "BATS_DLY"
@@ -955,6 +956,7 @@
           "delay": {
             "priority": 46,
             "prefix": "BATS_DLY",
+            "exchange_for_display": "Cboe BZX",
             "skip_in_search": true
           }
         }
