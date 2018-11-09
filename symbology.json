@@ -3368,15 +3368,6 @@
         ]
       },
       {
-        "priority": 100,
-        "prefix": "ECRI",
-        "groups": [
-          {
-            "group": "ecri"
-          }
-        ]
-      },
-      {
         "priority": 101,
         "prefix": "NSE_EOD",
         "perm": "permission_denied",
@@ -7190,15 +7181,6 @@
         "groups": [
           {
             "group": "frkc"
-          }
-        ]
-      },
-      {
-        "priority": 100,
-        "prefix": "ECRI",
-        "groups": [
-          {
-            "group": "ecri"
           }
         ]
       },
