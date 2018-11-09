@@ -1271,6 +1271,7 @@
         "prefix_no_perm": [
           "BATS_DLY"
         ],
+        "exchange_for_display": "Cboe BZX",
         "skip_in_search": true,
         "groups": [
           {
@@ -1313,6 +1314,7 @@
       {
         "priority": 46,
         "prefix": "BATS_DLY",
+        "exchange_for_display": "Cboe BZX",
         "skip_in_search": true,
         "groups": [
           {
@@ -5464,6 +5466,7 @@
         "prefix_no_perm": [
           "BATS_DLY"
         ],
+        "exchange_for_display": "Cboe BZX",
         "skip_in_search": true,
         "groups": [
           {
@@ -5506,6 +5509,7 @@
       {
         "priority": 46,
         "prefix": "BATS_DLY",
+        "exchange_for_display": "Cboe BZX",
         "skip_in_search": true,
         "groups": [
           {
