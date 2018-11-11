@@ -3839,6 +3839,16 @@
         ]
       },
       {
+        "priority": 114,
+        "prefix": "DERIBIT",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "deribit"
+          }
+        ]
+      },
+      {
         "priority": 115,
         "prefix": "HUOBI",
         "groups": [
@@ -8030,6 +8040,16 @@
         "groups": [
           {
             "group": "btcchina"
+          }
+        ]
+      },
+      {
+        "priority": 114,
+        "prefix": "DERIBIT",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "deribit"
           }
         ]
       },
