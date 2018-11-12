@@ -2045,22 +2045,6 @@
         }
       },
       {
-        "id": "canadian_stocks",
-        "kinds": {
-          "rt": {
-            "prefix": "CSE",
-            "priority": 50,
-            "prefix_no_perm": [
-              "CSE_DLY"
-            ]
-          },
-          "delay": {
-            "prefix": "CSE_DLY",
-            "priority": 55
-          }
-        }
-      },
-      {
         "id": "buenosaires_stocks",
         "kinds": {
           "rt": {
@@ -5012,6 +4996,31 @@
             "prefix_alias": [
               "EURONEXTPAR_EOD"
             ]
+          }
+        }
+      },
+      {
+        "id": "canadian_stocks",
+        "kinds": {
+          "rt": {
+            "prefix": "CSE",
+            "priority": 50,
+            "perm": "tsx_dly",
+            "prefix_no_perm": [
+              "CSE_DLY"
+            ]
+          },
+          "delay": {
+            "prefix": "CSE_DLY",
+            "priority": 55,
+            "perm": "tsx_dly",
+            "prefix_no_perm": [
+              "CSE_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "CSE_EOD",
+            "priority": 155
           }
         }
       },
