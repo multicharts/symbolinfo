@@ -3025,7 +3025,7 @@
           "delay": {
             "priority": 66,
             "prefix": "SGX_DLY",
-            "perm": "tsx_dly"
+            "perm": "sgx_stocks_dly"
           }
         }
       },
