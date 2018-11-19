@@ -233,6 +233,9 @@
             "group": "bitfinex"
           },
           {
+            "group": "bitfinex_spreads"
+          },
+          {
             "group": "bitfinex_forex_spreads"
           },
           {
@@ -3811,6 +3814,15 @@
           },
           {
             "group": "mgex"
+          }
+        ]
+      },
+      {
+        "priority": 300,
+        "prefix": "CRYPTOCAP",
+        "groups": [
+          {
+            "group": "crypto_market_caps"
           }
         ]
       }
@@ -4050,6 +4062,9 @@
             "group": "bitfinex"
           },
           {
+            "group": "bitfinex_spreads"
+          },
+          {
             "group": "bitfinex_forex_spreads"
           },
           {
@@ -7628,6 +7643,15 @@
           },
           {
             "group": "mgex"
+          }
+        ]
+      },
+      {
+        "priority": 300,
+        "prefix": "CRYPTOCAP",
+        "groups": [
+          {
+            "group": "crypto_market_caps"
           }
         ]
       }
