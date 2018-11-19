@@ -962,7 +962,7 @@
         }
       },
       {
-        "id": "bats_mix_idc",
+        "id": "bats_mix",
         "kinds": {
           "rt": {
             "priority": 45,
