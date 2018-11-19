@@ -6208,7 +6208,8 @@
         "kinds": {
           "rt": {
             "prefix": "CRYPTOCAP",
-            "priority": 300
+            "priority": 300,
+            "skip_in_search": true
           }
         }
       }
