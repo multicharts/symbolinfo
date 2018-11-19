@@ -261,6 +261,15 @@
         }
       },
       {
+        "id": "bitfinex_spreads",
+        "kinds": {
+          "rt": {
+            "prefix": "BITFINEX",
+            "priority": 11
+          }
+        }
+      },
+      {
         "id": "bitfinex_forex_spreads",
         "kinds": {
           "rt": {
@@ -6191,6 +6200,15 @@
             "prefix": "INDEX",
             "priority": 300,
             "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "crypto_market_caps",
+        "kinds": {
+          "rt": {
+            "prefix": "CRYPTOCAP",
+            "priority": 300
           }
         }
       }
