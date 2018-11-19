@@ -962,26 +962,6 @@
         }
       },
       {
-        "id": "bats_mix",
-        "kinds": {
-          "rt": {
-            "priority": 45,
-            "exchange_for_display": "Cboe BZX",
-            "prefix": "BATS_MIX",
-            "prefix_no_perm": [
-              "BATS_MIX_DLY"
-            ],
-            "skip_in_search": true
-          },
-          "delay": {
-            "priority": 46,
-            "prefix": "BATS_MIX_DLY",
-            "exchange_for_display": "Cboe BZX",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
         "id": "xetra_indices",
         "kinds": {
           "rt": {
@@ -1047,6 +1027,26 @@
           "rt": {
             "prefix": "INDEX_INTERNAL",
             "priority": 47,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "bats_mix",
+        "kinds": {
+          "rt": {
+            "priority": 47,
+            "exchange_for_display": "Cboe BZX",
+            "prefix": "BATS_MIX",
+            "prefix_no_perm": [
+              "BATS_MIX_DLY"
+            ],
+            "skip_in_search": true
+          },
+          "delay": {
+            "priority": 48,
+            "prefix": "BATS_MIX_DLY",
+            "exchange_for_display": "Cboe BZX",
             "skip_in_search": true
           }
         }
