@@ -1032,6 +1032,26 @@
         }
       },
       {
+        "id": "bats_mix",
+        "kinds": {
+          "rt": {
+            "priority": 47,
+            "exchange_for_display": "Cboe BZX",
+            "prefix": "BATS_MIX",
+            "prefix_no_perm": [
+              "BATS_MIX_DLY"
+            ],
+            "skip_in_search": true
+          },
+          "delay": {
+            "priority": 48,
+            "prefix": "BATS_MIX_DLY",
+            "exchange_for_display": "Cboe BZX",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "bme_indices",
         "kinds": {
           "rt": {
