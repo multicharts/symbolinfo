@@ -3124,14 +3124,12 @@
             "perm": "tocom",
             "prefix_no_perm": [
               "TOCOM_DLY"
-            ],
-            "skip_in_search": true
+            ]
           },
           "delay": {
             "prefix": "TOCOM_DLY",
             "priority": 61,
-            "perm": "sf_dly",
-            "skip_in_search": true
+            "perm": "sf_dly"
           }
         }
       },
