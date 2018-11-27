@@ -1174,8 +1174,7 @@
           },
           "delay": {
             "priority": 49,
-            "prefix": "SZSE_DLY",
-            "perm": "sf_dly"
+            "prefix": "SZSE_DLY"
           }
         }
       },
@@ -1589,8 +1588,7 @@
           },
           "delay": {
             "priority": 51,
-            "prefix": "SZSE_DLY",
-            "perm": "sf_dly"
+            "prefix": "SZSE_DLY"
           }
         }
       },
