@@ -1174,7 +1174,8 @@
           },
           "delay": {
             "priority": 49,
-            "prefix": "SZSE_DLY"
+            "prefix": "SZSE_DLY",
+            "perm": "tsx_dly"
           }
         }
       },
@@ -1588,7 +1589,8 @@
           },
           "delay": {
             "priority": 51,
-            "prefix": "SZSE_DLY"
+            "prefix": "SZSE_DLY",
+            "perm": "tsx_dly"
           }
         }
       },
@@ -1867,7 +1869,7 @@
           "delay": {
             "priority": 53,
             "prefix": "TWSE_DLY",
-            "perm": "sf_dly"
+            "perm": "tsx_dly"
           }
         }
       },
@@ -2569,7 +2571,7 @@
           "delay": {
             "priority": 57,
             "prefix": "TWSE_DLY",
-            "perm": "sf_dly"
+            "perm": "tsx_dly"
           }
         }
       },
