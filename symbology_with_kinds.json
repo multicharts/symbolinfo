@@ -3852,7 +3852,6 @@
           "delay": {
             "prefix": "DJ",
             "priority": 10,
-            "exchange_for_display": "Dow Jones",
             "prefix_alias": [
               "DJ_DLY",
               "INDEX"
@@ -3860,12 +3859,14 @@
             "skip_in_search": false,
             "prefix_no_perm": [
               "DJ_EOD"
-            ]
+            ],
+            "exchange_for_display": "Dow Jones"
           },
           "eod": {
             "prefix": "DJ_EOD",
             "priority": 100,
-            "skip_in_search": true
+            "skip_in_search": true,
+            "exchange_for_display": "Dow Jones"
           }
         }
       },
