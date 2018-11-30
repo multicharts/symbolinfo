@@ -3829,7 +3829,6 @@
           "rt": {
             "prefix": "SP",
             "priority": 10,
-            "exchange_for_display": "S&P",
             "prefix_alias": [
               "SP_DLY",
               "INDEX",
@@ -3837,12 +3836,14 @@
             ],
             "prefix_no_perm": [
               "SP_EOD"
-            ]
+            ],
+            "exchange_for_display": "S&P"
           },
           "eod": {
             "priority": 100,
             "prefix": "SP_EOD",
-            "skip_in_search": true
+            "skip_in_search": true,
+            "exchange_for_display": "S&P"
           }
         }
       },
