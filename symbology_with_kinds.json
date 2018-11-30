@@ -5168,8 +5168,7 @@
             "perm": "tsx_dly",
             "prefix_no_perm": [
               "CSE_DLY"
-            ],
-            "skip_in_search": true
+            ]
           },
           "delay": {
             "prefix": "CSE_DLY",
