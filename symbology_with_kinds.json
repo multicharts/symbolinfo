@@ -2370,13 +2370,19 @@
           "rt": {
             "prefix": "SAPSE",
             "priority": 51,
+            "prefix_alias": [
+              "SSE"
+            ],
             "prefix_no_perm": [
               "SAPSE_DLY"
             ]
           },
           "delay": {
             "prefix": "SAPSE_DLY",
-            "priority": 58
+            "priority": 58,
+            "prefix_alias": [
+              "SSE_DLY"
+            ]
           }
         }
       },
