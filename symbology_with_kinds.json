@@ -1098,6 +1098,24 @@
         }
       },
       {
+        "id": "shanghai_indices",
+        "kinds": {
+          "rt": {
+            "priority": 46,
+            "prefix": "SSE",
+            "perm": "sse",
+            "prefix_no_perm": [
+              "SSE_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 47,
+            "prefix": "SSE_DLY",
+            "perm": "tsx_dly"
+          }
+        }
+      },
+      {
         "id": "ind",
         "kinds": {
           "rt": {
@@ -1506,6 +1524,24 @@
             "priority": 50,
             "prefix": "HSI_DLY",
             "perm": "sf_dly"
+          }
+        }
+      },
+      {
+        "id": "shanghai_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 49,
+            "prefix": "SSE",
+            "perm": "sse",
+            "prefix_no_perm": [
+              "SSE_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 50,
+            "prefix": "SSE_DLY",
+            "perm": "tsx_dly"
           }
         }
       },
@@ -2588,17 +2624,23 @@
         "id": "sapporo_stocks",
         "kinds": {
           "rt": {
-            "prefix": "SSE",
+            "prefix": "SAPSE",
             "priority": 51,
             "perm": "tse",
             "prefix_no_perm": [
-              "SSE_DLY"
+              "SAPSE_DLY"
+            ],
+            "prefix_alias": [
+              "SSE"
             ]
           },
           "delay": {
-            "prefix": "SSE_DLY",
+            "prefix": "SAPSE_DLY",
             "priority": 58,
-            "perm": "sf_dly"
+            "perm": "sf_dly",
+            "prefix_alias": [
+              "SSE"
+            ]
           }
         }
       },
