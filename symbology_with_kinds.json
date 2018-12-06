@@ -5220,6 +5220,15 @@
         }
       },
       {
+        "id": "crypto_market_caps",
+        "kinds": {
+          "rt": {
+            "prefix": "CRYPTOCAP",
+            "priority": 150
+          }
+        }
+      },
+      {
         "id": "canadian_stocks",
         "kinds": {
           "rt": {
@@ -6174,16 +6183,6 @@
         "kinds": {
           "rt": {
             "prefix": "INDEX",
-            "priority": 300,
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "crypto_market_caps",
-        "kinds": {
-          "rt": {
-            "prefix": "CRYPTOCAP",
             "priority": 300,
             "skip_in_search": true
           }
