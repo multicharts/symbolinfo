@@ -3580,6 +3580,15 @@
         ]
       },
       {
+        "priority": 150,
+        "prefix": "CRYPTOCAP",
+        "groups": [
+          {
+            "group": "crypto_market_caps"
+          }
+        ]
+      },
+      {
         "priority": 220,
         "prefix": "IBROKER",
         "skip_in_search": false,
@@ -3805,16 +3814,6 @@
           },
           {
             "group": "mgex"
-          }
-        ]
-      },
-      {
-        "priority": 300,
-        "prefix": "CRYPTOCAP",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "crypto_market_caps"
           }
         ]
       }
@@ -7401,6 +7400,15 @@
         ]
       },
       {
+        "priority": 150,
+        "prefix": "CRYPTOCAP",
+        "groups": [
+          {
+            "group": "crypto_market_caps"
+          }
+        ]
+      },
+      {
         "priority": 220,
         "prefix": "IBROKER",
         "skip_in_search": false,
@@ -7626,16 +7634,6 @@
           },
           {
             "group": "mgex"
-          }
-        ]
-      },
-      {
-        "priority": 300,
-        "prefix": "CRYPTOCAP",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "crypto_market_caps"
           }
         ]
       }
