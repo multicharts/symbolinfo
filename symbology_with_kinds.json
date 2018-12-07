@@ -4963,7 +4963,7 @@
           "rt": {
             "prefix": "BTCE",
             "priority": 112,
-            "skip_in_search": false
+            "skip_in_search": true
           }
         }
       },
@@ -5173,7 +5173,7 @@
           "rt": {
             "prefix": "HUOBI",
             "priority": 115,
-            "skip_in_search": false
+            "skip_in_search": true
           }
         }
       },
