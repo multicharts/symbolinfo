@@ -468,7 +468,7 @@
           "rt": {
             "prefix": "WEX",
             "priority": 16,
-            "skip_in_search": false
+            "skip_in_search": true
           }
         }
       },
@@ -5372,7 +5372,8 @@
         "kinds": {
           "rt": {
             "prefix": "BTCE",
-            "priority": 112
+            "priority": 112,
+            "skip_in_search": true
           }
         }
       },
@@ -5559,7 +5560,8 @@
         "kinds": {
           "rt": {
             "prefix": "MTGOX",
-            "priority": 113
+            "priority": 113,
+            "skip_in_search": true
           }
         }
       },
@@ -5580,7 +5582,8 @@
         "kinds": {
           "rt": {
             "prefix": "HUOBI",
-            "priority": 115
+            "priority": 115,
+            "skip_in_search": true
           }
         }
       },
