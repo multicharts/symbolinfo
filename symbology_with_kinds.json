@@ -1513,7 +1513,7 @@
         }
       },
       {
-        "id": "moex_continuous",
+        "id": "moex_continuous2",
         "kinds": {
           "rt": {
             "prefix": "MOEX",
@@ -1579,7 +1579,7 @@
         }
       },
       {
-        "id": "moex_futures",
+        "id": "moex_futures2",
         "kinds": {
           "rt": {
             "prefix": "MOEX",
@@ -2266,7 +2266,7 @@
         }
       },
       {
-        "id": "hongkong_futures",
+        "id": "hongkong_futures2",
         "kinds": {
           "rt": {
             "priority": 55,
@@ -2301,7 +2301,7 @@
         }
       },
       {
-        "id": "hongkong_continuous",
+        "id": "hongkong_continuous2",
         "kinds": {
           "rt": {
             "priority": 55,
