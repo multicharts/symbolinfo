@@ -1098,24 +1098,6 @@
         }
       },
       {
-        "id": "shanghai_indices",
-        "kinds": {
-          "rt": {
-            "priority": 46,
-            "prefix": "SSE",
-            "perm": "sse",
-            "prefix_no_perm": [
-              "SSE_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 47,
-            "prefix": "SSE_DLY",
-            "perm": "tsx_dly"
-          }
-        }
-      },
-      {
         "id": "ind",
         "kinds": {
           "rt": {
@@ -1149,6 +1131,31 @@
             "prefix": "INDEX_INTERNAL",
             "priority": 47,
             "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "shanghai_indices",
+        "kinds": {
+          "rt": {
+            "priority": 46,
+            "prefix": "SSE",
+            "perm": "sse",
+            "prefix_no_perm": [
+              "SSE_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 47,
+            "prefix": "SSE_DLY",
+            "perm": "tsx_dly",
+            "prefix_no_perm": [
+              "SSE_EOD"
+            ]
+          },
+          "eod": {
+            "priority": 48,
+            "prefix": "SSE_EOD"
           }
         }
       },
@@ -1528,24 +1535,6 @@
         }
       },
       {
-        "id": "shanghai_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 49,
-            "prefix": "SSE",
-            "perm": "sse",
-            "prefix_no_perm": [
-              "SSE_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 50,
-            "prefix": "SSE_DLY",
-            "perm": "tsx_dly"
-          }
-        }
-      },
-      {
         "id": "istanbul_index_spreads",
         "kinds": {
           "rt": {
@@ -1636,6 +1625,31 @@
             "priority": 51,
             "prefix": "SZSE_DLY",
             "perm": "tsx_dly"
+          }
+        }
+      },
+      {
+        "id": "shanghai_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 49,
+            "prefix": "SSE",
+            "perm": "sse",
+            "prefix_no_perm": [
+              "SSE_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 50,
+            "prefix": "SSE_DLY",
+            "perm": "tsx_dly",
+            "prefix_no_perm": [
+              "SSE_EOD"
+            ]
+          },
+          "eod": {
+            "priority": 51,
+            "prefix": "SSE_EOD"
           }
         }
       },
