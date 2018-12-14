@@ -602,6 +602,16 @@
             ]
           },
           {
+            "group": "euronext_dublin_stocks",
+            "priority": 55,
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ],
+            "prefix_alias": [
+              "EURONEXTDUB"
+            ]
+          },
+          {
             "group": "euronext_lisbon_stocks",
             "priority": 55,
             "prefix_no_perm": [
@@ -822,6 +832,13 @@
             "priority": 56,
             "prefix_alias": [
               "EURONEXTBRU_DLY"
+            ]
+          },
+          {
+            "group": "euronext_dublin_stocks_delayed",
+            "priority": 56,
+            "prefix_alias": [
+              "EURONEXTDUB_DLY"
             ]
           },
           {
@@ -4619,6 +4636,16 @@
             ]
           },
           {
+            "group": "euronext_dublin_stocks",
+            "priority": 55,
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ],
+            "prefix_alias": [
+              "EURONEXTDUB"
+            ]
+          },
+          {
             "group": "euronext_lisbon_stocks",
             "priority": 55,
             "prefix_no_perm": [
@@ -4839,6 +4866,13 @@
             "priority": 56,
             "prefix_alias": [
               "EURONEXTBRU_DLY"
+            ]
+          },
+          {
+            "group": "euronext_dublin_stocks_delayed",
+            "priority": 56,
+            "prefix_alias": [
+              "EURONEXTDUB_DLY"
             ]
           },
           {
