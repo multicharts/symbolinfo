@@ -2026,48 +2026,6 @@
         }
       },
       {
-        "id": "dublin",
-        "kinds": {
-          "rt": {
-            "priority": 50,
-            "prefix": "DUB",
-            "perm": "permission_denied",
-            "prefix_no_perm": [
-              "CHXEUR"
-            ],
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "oslo",
-        "kinds": {
-          "rt": {
-            "priority": 50,
-            "prefix": "OSL",
-            "perm": "permission_denied",
-            "prefix_no_perm": [
-              "CHXEUR"
-            ],
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "vienna",
-        "kinds": {
-          "rt": {
-            "priority": 50,
-            "prefix": "VIE",
-            "perm": "permission_denied",
-            "prefix_no_perm": [
-              "CHXEUR"
-            ],
-            "skip_in_search": true
-          }
-        }
-      },
-      {
         "id": "mexico_indices",
         "kinds": {
           "rt": {
@@ -5806,6 +5764,48 @@
             "priority": 271,
             "prefix": "LUXSE_DLY",
             "perm": "luxse",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "dublin",
+        "kinds": {
+          "rt": {
+            "priority": 300,
+            "prefix": "DUB",
+            "perm": "permission_denied",
+            "prefix_no_perm": [
+              "CHXEUR"
+            ],
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "oslo",
+        "kinds": {
+          "rt": {
+            "priority": 300,
+            "prefix": "OSL",
+            "perm": "permission_denied",
+            "prefix_no_perm": [
+              "CHXEUR"
+            ],
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "vienna",
+        "kinds": {
+          "rt": {
+            "priority": 300,
+            "prefix": "VIE",
+            "perm": "permission_denied",
+            "prefix_no_perm": [
+              "CHXEUR"
+            ],
             "skip_in_search": true
           }
         }
