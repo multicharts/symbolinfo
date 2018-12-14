@@ -1551,48 +1551,6 @@
         }
       },
       {
-        "id": "dublin",
-        "kinds": {
-          "rt": {
-            "priority": 50,
-            "prefix": "DUB",
-            "perm": "permission_denied",
-            "prefix_no_perm": [
-              "CHXEUR"
-            ],
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "oslo",
-        "kinds": {
-          "rt": {
-            "priority": 50,
-            "prefix": "OSL",
-            "perm": "permission_denied",
-            "prefix_no_perm": [
-              "CHXEUR"
-            ],
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "vienna",
-        "kinds": {
-          "rt": {
-            "priority": 50,
-            "prefix": "VIE",
-            "perm": "permission_denied",
-            "prefix_no_perm": [
-              "CHXEUR"
-            ],
-            "skip_in_search": true
-          }
-        }
-      },
-      {
         "id": "hongkong_indices",
         "kinds": {
           "rt": {
@@ -2325,6 +2283,33 @@
               "EURONEXTBRU_DLY"
             ],
             "exchange_for_display": "EURONEXT BRUSSELS"
+          }
+        }
+      },
+      {
+        "id": "euronext_dublin_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 55,
+            "prefix": "EURONEXT",
+            "perm": "euronext_stocks",
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ],
+            "prefix_alias": [
+              "EURONEXTDUB",
+              "DUB"
+            ],
+            "exchange_for_display": "EURONEXT DUBLIN"
+          },
+          "delay": {
+            "priority": 56,
+            "prefix": "EURONEXT_DLY",
+            "perm": "euronext_dly",
+            "prefix_alias": [
+              "EURONEXTDUB_DLY"
+            ],
+            "exchange_for_display": "EURONEXT DUBLIN"
           }
         }
       },
@@ -5560,6 +5545,48 @@
             "priority": 286,
             "prefix": "BAHRAIN_DLY",
             "perm": "sf_dly",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "dublin",
+        "kinds": {
+          "rt": {
+            "priority": 300,
+            "prefix": "DUB",
+            "perm": "permission_denied",
+            "prefix_no_perm": [
+              "CHXEUR"
+            ],
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "oslo",
+        "kinds": {
+          "rt": {
+            "priority": 300,
+            "prefix": "OSL",
+            "perm": "permission_denied",
+            "prefix_no_perm": [
+              "CHXEUR"
+            ],
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "vienna",
+        "kinds": {
+          "rt": {
+            "priority": 300,
+            "prefix": "VIE",
+            "perm": "permission_denied",
+            "prefix_no_perm": [
+              "CHXEUR"
+            ],
             "skip_in_search": true
           }
         }
