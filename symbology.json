@@ -1527,48 +1527,6 @@
         ]
       },
       {
-        "priority": 50,
-        "prefix": "DUB",
-        "perm": "permission_denied",
-        "prefix_no_perm": [
-          "CHXEUR"
-        ],
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "dublin"
-          }
-        ]
-      },
-      {
-        "priority": 50,
-        "prefix": "OSL",
-        "perm": "permission_denied",
-        "prefix_no_perm": [
-          "CHXEUR"
-        ],
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "oslo"
-          }
-        ]
-      },
-      {
-        "priority": 50,
-        "prefix": "VIE",
-        "perm": "permission_denied",
-        "prefix_no_perm": [
-          "CHXEUR"
-        ],
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "vienna"
-          }
-        ]
-      },
-      {
         "prefix": "BMV",
         "perm": "bmv",
         "prefix_no_perm": [
@@ -3709,6 +3667,48 @@
           {
             "group": "luxembourg_stocks_delayed",
             "priority": 271
+          }
+        ]
+      },
+      {
+        "priority": 300,
+        "prefix": "DUB",
+        "perm": "permission_denied",
+        "prefix_no_perm": [
+          "CHXEUR"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "dublin"
+          }
+        ]
+      },
+      {
+        "priority": 300,
+        "prefix": "OSL",
+        "perm": "permission_denied",
+        "prefix_no_perm": [
+          "CHXEUR"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "oslo"
+          }
+        ]
+      },
+      {
+        "priority": 300,
+        "prefix": "VIE",
+        "perm": "permission_denied",
+        "prefix_no_perm": [
+          "CHXEUR"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "vienna"
           }
         ]
       },
@@ -5336,48 +5336,6 @@
         ]
       },
       {
-        "priority": 50,
-        "prefix": "DUB",
-        "perm": "permission_denied",
-        "prefix_no_perm": [
-          "CHXEUR"
-        ],
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "dublin"
-          }
-        ]
-      },
-      {
-        "priority": 50,
-        "prefix": "OSL",
-        "perm": "permission_denied",
-        "prefix_no_perm": [
-          "CHXEUR"
-        ],
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "oslo"
-          }
-        ]
-      },
-      {
-        "priority": 50,
-        "prefix": "VIE",
-        "perm": "permission_denied",
-        "prefix_no_perm": [
-          "CHXEUR"
-        ],
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "vienna"
-          }
-        ]
-      },
-      {
         "prefix": "BMV",
         "perm": "bmv",
         "prefix_no_perm": [
@@ -7518,6 +7476,48 @@
           {
             "group": "luxembourg_stocks_delayed",
             "priority": 271
+          }
+        ]
+      },
+      {
+        "priority": 300,
+        "prefix": "DUB",
+        "perm": "permission_denied",
+        "prefix_no_perm": [
+          "CHXEUR"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "dublin"
+          }
+        ]
+      },
+      {
+        "priority": 300,
+        "prefix": "OSL",
+        "perm": "permission_denied",
+        "prefix_no_perm": [
+          "CHXEUR"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "oslo"
+          }
+        ]
+      },
+      {
+        "priority": 300,
+        "prefix": "VIE",
+        "perm": "permission_denied",
+        "prefix_no_perm": [
+          "CHXEUR"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "vienna"
           }
         ]
       },
