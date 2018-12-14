@@ -2125,6 +2125,28 @@
         }
       },
       {
+        "id": "euronext_dublin_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 55,
+            "prefix": "EURONEXT",
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ],
+            "prefix_alias": [
+              "EURONEXTDUB"
+            ]
+          },
+          "delay": {
+            "priority": 56,
+            "prefix": "EURONEXT_DLY",
+            "prefix_alias": [
+              "EURONEXTDUB_DLY"
+            ]
+          }
+        }
+      },
+      {
         "id": "euronext_lisbon_stocks",
         "kinds": {
           "rt": {
