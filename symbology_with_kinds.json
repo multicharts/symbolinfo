@@ -2134,7 +2134,8 @@
               "EURONEXT_DLY"
             ],
             "prefix_alias": [
-              "EURONEXTDUB"
+              "EURONEXTDUB",
+              "DUB"
             ]
           },
           "delay": {
