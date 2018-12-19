@@ -47,16 +47,6 @@
         }
       },
       {
-        "id": "forex_tvc",
-        "kinds": {
-          "rt": {
-            "prefix": "TVC",
-            "priority": 10,
-            "search_boost": 2.0
-          }
-        }
-      },
-      {
         "id": "dxy_idc2",
         "kinds": {
           "rt": {
@@ -236,7 +226,10 @@
         "kinds": {
           "rt": {
             "prefix": "OANDA",
-            "priority": 12
+            "priority": 12,
+            "prefix_alias": [
+              "TVC"
+            ]
           }
         }
       },
@@ -304,6 +297,16 @@
           "rt": {
             "prefix": "FRBNY",
             "priority": 12
+          }
+        }
+      },
+      {
+        "id": "forex_tvc",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 13,
+            "search_boost": 2.0
           }
         }
       },
