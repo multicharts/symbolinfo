@@ -47,6 +47,47 @@
         }
       },
       {
+        "id": "fxcm",
+        "kinds": {
+          "rt": {
+            "prefix": "FX",
+            "priority": 7
+          }
+        }
+      },
+      {
+        "id": "fxcm_cfd",
+        "kinds": {
+          "rt": {
+            "prefix": "FX",
+            "priority": 8,
+            "exchange_for_display": "FXCM"
+          }
+        }
+      },
+      {
+        "id": "oanda",
+        "kinds": {
+          "rt": {
+            "prefix": "OANDA",
+            "priority": 9,
+            "prefix_alias": [
+              "TVC"
+            ]
+          }
+        }
+      },
+      {
+        "id": "forex_tvc",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 10,
+            "search_boost": 2.0
+          }
+        }
+      },
+      {
         "id": "dxy_idc2",
         "kinds": {
           "rt": {
@@ -167,15 +208,6 @@
         }
       },
       {
-        "id": "fxcm",
-        "kinds": {
-          "rt": {
-            "prefix": "FX",
-            "priority": 10
-          }
-        }
-      },
-      {
         "id": "bitfinex",
         "kinds": {
           "rt": {
@@ -203,33 +235,11 @@
         }
       },
       {
-        "id": "fxcm_cfd",
-        "kinds": {
-          "rt": {
-            "prefix": "FX",
-            "priority": 11,
-            "exchange_for_display": "FXCM"
-          }
-        }
-      },
-      {
         "id": "coinbase",
         "kinds": {
           "rt": {
             "prefix": "COINBASE",
             "priority": 12
-          }
-        }
-      },
-      {
-        "id": "oanda",
-        "kinds": {
-          "rt": {
-            "prefix": "OANDA",
-            "priority": 12,
-            "prefix_alias": [
-              "TVC"
-            ]
           }
         }
       },
@@ -297,16 +307,6 @@
           "rt": {
             "prefix": "FRBNY",
             "priority": 12
-          }
-        }
-      },
-      {
-        "id": "forex_tvc",
-        "kinds": {
-          "rt": {
-            "prefix": "TVC",
-            "priority": 13,
-            "search_boost": 2.0
           }
         }
       },
