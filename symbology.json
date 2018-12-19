@@ -29,6 +29,33 @@
         ]
       },
       {
+        "prefix": "FX",
+        "exchange_for_display": "FXCM",
+        "groups": [
+          {
+            "group": "fxcm",
+            "priority": 7
+          },
+          {
+            "group": "fxcm_cfd",
+            "priority": 8,
+            "perm": "fxcm_cfd"
+          }
+        ]
+      },
+      {
+        "priority": 9,
+        "prefix": "OANDA",
+        "prefix_alias": [
+          "TVC"
+        ],
+        "groups": [
+          {
+            "group": "oanda"
+          }
+        ]
+      },
+      {
         "priority": 10,
         "search_boost": 2.0,
         "prefix": "TVC",
@@ -211,21 +238,6 @@
         ]
       },
       {
-        "prefix": "FX",
-        "exchange_for_display": "FXCM",
-        "groups": [
-          {
-            "group": "fxcm",
-            "priority": 10
-          },
-          {
-            "group": "fxcm_cfd",
-            "priority": 11,
-            "perm": "fxcm_cfd"
-          }
-        ]
-      },
-      {
         "priority": 11,
         "prefix": "BITFINEX",
         "groups": [
@@ -251,15 +263,6 @@
         "groups": [
           {
             "group": "coinbase"
-          }
-        ]
-      },
-      {
-        "priority": 12,
-        "prefix": "OANDA",
-        "groups": [
-          {
-            "group": "oanda"
           }
         ]
       },
@@ -3852,6 +3855,33 @@
         ]
       },
       {
+        "prefix": "FX",
+        "exchange_for_display": "FXCM",
+        "groups": [
+          {
+            "group": "fxcm",
+            "priority": 7
+          },
+          {
+            "group": "fxcm_cfd",
+            "priority": 8,
+            "perm": "fxcm_cfd"
+          }
+        ]
+      },
+      {
+        "priority": 9,
+        "prefix": "OANDA",
+        "prefix_alias": [
+          "TVC"
+        ],
+        "groups": [
+          {
+            "group": "oanda"
+          }
+        ]
+      },
+      {
         "priority": 10,
         "search_boost": 2.0,
         "prefix": "TVC",
@@ -4034,21 +4064,6 @@
         ]
       },
       {
-        "prefix": "FX",
-        "exchange_for_display": "FXCM",
-        "groups": [
-          {
-            "group": "fxcm",
-            "priority": 10
-          },
-          {
-            "group": "fxcm_cfd",
-            "priority": 11,
-            "perm": "fxcm_cfd"
-          }
-        ]
-      },
-      {
         "priority": 11,
         "prefix": "BITFINEX",
         "groups": [
@@ -4074,15 +4089,6 @@
         "groups": [
           {
             "group": "coinbase"
-          }
-        ]
-      },
-      {
-        "priority": 12,
-        "prefix": "OANDA",
-        "groups": [
-          {
-            "group": "oanda"
           }
         ]
       },
