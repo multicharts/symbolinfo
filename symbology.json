@@ -48,73 +48,6 @@
       },
       {
         "priority": 10,
-        "search_boost": 2.0,
-        "prefix": "TVC",
-        "groups": [
-          {
-            "group": "forex_tvc"
-          },
-          {
-            "group": "dxy_idc2"
-          },
-          {
-            "group": "us_chicago_indices"
-          },
-          {
-            "group": "us_ny_indices"
-          },
-          {
-            "group": "japan_indices"
-          },
-          {
-            "group": "china_indices"
-          },
-          {
-            "group": "european_indices"
-          },
-          {
-            "group": "british_indices"
-          },
-          {
-            "group": "spanish_indices"
-          },
-          {
-            "group": "korean_tvc_indices"
-          },
-          {
-            "group": "nzx_tvc_indices"
-          },
-          {
-            "group": "singapore_tvc_indices"
-          },
-          {
-            "group": "south_africa_tvc_indices"
-          },
-          {
-            "group": "government_bonds",
-            "priority": 20
-          },
-          {
-            "group": "bond_spreads",
-            "priority": 20
-          },
-          {
-            "group": "euro_bonds",
-            "priority": 20
-          },
-          {
-            "group": "euro_bonds_futures",
-            "priority": 20,
-            "skip_in_search": true
-          },
-          {
-            "group": "canadian_bonds",
-            "priority": 20
-          }
-        ]
-      },
-      {
-        "priority": 10,
         "prefix": "SP",
         "prefix_no_perm": [
           "SP_EOD"
@@ -219,6 +152,74 @@
         ]
       },
       {
+        "priority": 10,
+        "search_boost": 2.0,
+        "prefix": "TVC",
+        "groups": [
+          {
+            "group": "dxy_idc2"
+          },
+          {
+            "group": "us_chicago_indices"
+          },
+          {
+            "group": "us_ny_indices"
+          },
+          {
+            "group": "japan_indices"
+          },
+          {
+            "group": "china_indices"
+          },
+          {
+            "group": "european_indices"
+          },
+          {
+            "group": "british_indices"
+          },
+          {
+            "group": "spanish_indices"
+          },
+          {
+            "group": "korean_tvc_indices"
+          },
+          {
+            "group": "nzx_tvc_indices"
+          },
+          {
+            "group": "singapore_tvc_indices"
+          },
+          {
+            "group": "south_africa_tvc_indices"
+          },
+          {
+            "group": "forex_tvc",
+            "priority": 13
+          },
+          {
+            "group": "government_bonds",
+            "priority": 20
+          },
+          {
+            "group": "bond_spreads",
+            "priority": 20
+          },
+          {
+            "group": "euro_bonds",
+            "priority": 20
+          },
+          {
+            "group": "euro_bonds_futures",
+            "priority": 20,
+            "skip_in_search": true
+          },
+          {
+            "group": "canadian_bonds",
+            "priority": 20
+          }
+        ]
+      },
+      {
         "prefix": "FX",
         "groups": [
           {
@@ -264,6 +265,9 @@
       {
         "priority": 12,
         "prefix": "OANDA",
+        "prefix_alias": [
+          "TVC"
+        ],
         "groups": [
           {
             "group": "oanda"
@@ -4082,73 +4086,6 @@
       },
       {
         "priority": 10,
-        "search_boost": 2.0,
-        "prefix": "TVC",
-        "groups": [
-          {
-            "group": "forex_tvc"
-          },
-          {
-            "group": "dxy_idc2"
-          },
-          {
-            "group": "us_chicago_indices"
-          },
-          {
-            "group": "us_ny_indices"
-          },
-          {
-            "group": "japan_indices"
-          },
-          {
-            "group": "china_indices"
-          },
-          {
-            "group": "european_indices"
-          },
-          {
-            "group": "british_indices"
-          },
-          {
-            "group": "spanish_indices"
-          },
-          {
-            "group": "korean_tvc_indices"
-          },
-          {
-            "group": "nzx_tvc_indices"
-          },
-          {
-            "group": "singapore_tvc_indices"
-          },
-          {
-            "group": "south_africa_tvc_indices"
-          },
-          {
-            "group": "government_bonds",
-            "priority": 20
-          },
-          {
-            "group": "bond_spreads",
-            "priority": 20
-          },
-          {
-            "group": "euro_bonds",
-            "priority": 20
-          },
-          {
-            "group": "euro_bonds_futures",
-            "priority": 20,
-            "skip_in_search": true
-          },
-          {
-            "group": "canadian_bonds",
-            "priority": 20
-          }
-        ]
-      },
-      {
-        "priority": 10,
         "prefix": "SP",
         "prefix_no_perm": [
           "SP_EOD"
@@ -4253,6 +4190,74 @@
         ]
       },
       {
+        "priority": 10,
+        "search_boost": 2.0,
+        "prefix": "TVC",
+        "groups": [
+          {
+            "group": "dxy_idc2"
+          },
+          {
+            "group": "us_chicago_indices"
+          },
+          {
+            "group": "us_ny_indices"
+          },
+          {
+            "group": "japan_indices"
+          },
+          {
+            "group": "china_indices"
+          },
+          {
+            "group": "european_indices"
+          },
+          {
+            "group": "british_indices"
+          },
+          {
+            "group": "spanish_indices"
+          },
+          {
+            "group": "korean_tvc_indices"
+          },
+          {
+            "group": "nzx_tvc_indices"
+          },
+          {
+            "group": "singapore_tvc_indices"
+          },
+          {
+            "group": "south_africa_tvc_indices"
+          },
+          {
+            "group": "forex_tvc",
+            "priority": 13
+          },
+          {
+            "group": "government_bonds",
+            "priority": 20
+          },
+          {
+            "group": "bond_spreads",
+            "priority": 20
+          },
+          {
+            "group": "euro_bonds",
+            "priority": 20
+          },
+          {
+            "group": "euro_bonds_futures",
+            "priority": 20,
+            "skip_in_search": true
+          },
+          {
+            "group": "canadian_bonds",
+            "priority": 20
+          }
+        ]
+      },
+      {
         "prefix": "FX",
         "groups": [
           {
@@ -4298,6 +4303,9 @@
       {
         "priority": 12,
         "prefix": "OANDA",
+        "prefix_alias": [
+          "TVC"
+        ],
         "groups": [
           {
             "group": "oanda"
