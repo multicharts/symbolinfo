@@ -29,6 +29,24 @@
         }
       },
       {
+        "id": "replay",
+        "kinds": {
+          "rt": {
+            "prefix": "REPLAY",
+            "resolve_mask": "REPLAY:*"
+          }
+        }
+      },
+      {
+        "id": "esd",
+        "kinds": {
+          "rt": {
+            "prefix": "ESD",
+            "resolve_mask": "ESD:*"
+          }
+        }
+      },
+      {
         "id": "fxcm",
         "kinds": {
           "rt": {
