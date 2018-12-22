@@ -962,6 +962,7 @@
             "prefix_no_perm": [
               "BATS_DLY"
             ],
+            "perm": "bats",
             "prefix_alias": [
               "BATS_MIX"
             ],
