@@ -2831,6 +2831,7 @@
           "rt": {
             "priority": 40,
             "prefix": "MIL",
+            "perm": "mil",
             "prefix_no_perm": [
               "MIL_DLY"
             ]
@@ -3151,6 +3152,7 @@
           "rt": {
             "priority": 42,
             "prefix": "MIL",
+            "perm": "mil",
             "prefix_no_perm": [
               "MIL_DLY"
             ]
@@ -3261,6 +3263,7 @@
             "exchange_aliases": [
               "MIL"
             ],
+            "perm": "mil",
             "prefix_no_perm": [
               "MILSEDEX_DLY"
             ]
