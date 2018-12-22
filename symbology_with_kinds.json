@@ -954,20 +954,26 @@
         }
       },
       {
-        "id": "bats_idc",
+        "id": "bats_mix",
         "kinds": {
           "rt": {
             "priority": 45,
-            "exchange_for_display": "Cboe BZX",
             "prefix": "BATS",
             "prefix_no_perm": [
               "BATS_DLY"
             ],
+            "prefix_alias": [
+              "BATS_MIX"
+            ],
+            "exchange_for_display": "Cboe BZX",
             "skip_in_search": true
           },
           "delay": {
             "priority": 46,
             "prefix": "BATS_DLY",
+            "prefix_alias": [
+              "BATS_MIX_DLY"
+            ],
             "exchange_for_display": "Cboe BZX",
             "skip_in_search": true
           }
@@ -1051,20 +1057,26 @@
         }
       },
       {
-        "id": "bats_mix",
+        "id": "bats_idc",
         "kinds": {
           "rt": {
             "priority": 47,
-            "exchange_for_display": "Cboe BZX",
-            "prefix": "BATS_MIX",
+            "prefix": "BATS",
             "prefix_no_perm": [
-              "BATS_MIX_DLY"
+              "BATS_DLY"
             ],
+            "prefix_alias": [
+              "BATS_OLD"
+            ],
+            "exchange_for_display": "Cboe BZX",
             "skip_in_search": true
           },
           "delay": {
             "priority": 48,
-            "prefix": "BATS_MIX_DLY",
+            "prefix": "BATS_DLY",
+            "prefix_alias": [
+              "BATS_OLD_DLY"
+            ],
             "exchange_for_display": "Cboe BZX",
             "skip_in_search": true
           }
