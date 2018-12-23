@@ -1031,6 +1031,7 @@
           "rt": {
             "priority": 43,
             "prefix": "BATS",
+            "perm": "bats",
             "prefix_no_perm": [
               "BATS_DLY"
             ],
