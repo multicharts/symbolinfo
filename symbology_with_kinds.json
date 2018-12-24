@@ -1069,6 +1069,31 @@
         }
       },
       {
+        "id": "bats_mix",
+        "kinds": {
+          "rt": {
+            "priority": 43,
+            "prefix": "BATS",
+            "perm": "bats",
+            "prefix_no_perm": [
+              "BATS_DLY"
+            ],
+            "prefix_alias": [
+              "BATS_MIX"
+            ],
+            "skip_in_search": true
+          },
+          "delay": {
+            "priority": 44,
+            "prefix": "BATS_DLY",
+            "prefix_alias": [
+              "BATS_MIX_DLY"
+            ],
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "bats_idc",
         "kinds": {
           "rt": {
@@ -1078,11 +1103,17 @@
             "prefix_no_perm": [
               "BATS_DLY"
             ],
+            "prefix_alias": [
+              "BATS_OLD"
+            ],
             "skip_in_search": true
           },
           "delay": {
             "priority": 46,
             "prefix": "BATS_DLY",
+            "prefix_alias": [
+              "BATS_OLD_DLY"
+            ],
             "skip_in_search": true
           }
         }
