@@ -5358,15 +5358,6 @@
         }
       },
       {
-        "id": "adp",
-        "kinds": {
-          "rt": {
-            "prefix": "ADP",
-            "priority": 100
-          }
-        }
-      },
-      {
         "id": "worldbank",
         "kinds": {
           "rt": {
