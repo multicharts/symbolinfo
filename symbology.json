@@ -3421,15 +3421,6 @@
       },
       {
         "priority": 100,
-        "prefix": "ADP",
-        "groups": [
-          {
-            "group": "adp"
-          }
-        ]
-      },
-      {
-        "priority": 100,
         "prefix": "WORLDBANK",
         "groups": [
           {
@@ -7453,15 +7444,6 @@
         "groups": [
           {
             "group": "ism"
-          }
-        ]
-      },
-      {
-        "priority": 100,
-        "prefix": "ADP",
-        "groups": [
-          {
-            "group": "adp"
           }
         ]
       },
