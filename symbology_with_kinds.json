@@ -1177,6 +1177,7 @@
           "rt": {
             "priority": 46,
             "prefix": "SSE",
+            "search_boost": 1.8,
             "perm": "sse",
             "prefix_no_perm": [
               "SSE_DLY"
@@ -1608,6 +1609,7 @@
           "rt": {
             "priority": 49,
             "prefix": "SSE",
+            "search_boost": 1.8,
             "perm": "sse",
             "prefix_no_perm": [
               "SSE_DLY"
