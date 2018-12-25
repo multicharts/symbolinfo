@@ -2747,6 +2747,7 @@
           "rt": {
             "prefix": "SAPSE",
             "priority": 51,
+            "search_boost": 0.1,
             "perm": "tse",
             "prefix_no_perm": [
               "SAPSE_DLY"
