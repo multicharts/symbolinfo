@@ -4001,14 +4001,22 @@
       {
         "id": "nasdaq_indices",
         "kinds": {
-          "delay": {
+          "rt": {
             "prefix": "NASDAQ",
             "priority": 10,
             "prefix_alias": [
-              "NASDAQ_DLY",
               "INDEX"
             ],
-            "skip_in_search": false
+            "prefix_no_perm": [
+              "NASDAQ_DLY"
+            ],
+            "skip_in_search": false,
+            "perm": "nasdaq_gif"
+          },
+          "delay": {
+            "prefix": "NASDAQ_DLY",
+            "priority": 20,
+            "skip_in_search": true
           },
           "eod": {
             "prefix": "NASDAQ_EOD",
