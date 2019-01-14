@@ -3681,6 +3681,16 @@
         ]
       },
       {
+        "priority": 115,
+        "prefix": "BITBAY",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "bitbay"
+          }
+        ]
+      },
+      {
         "priority": 120,
         "prefix": "GOCIO",
         "groups": [
@@ -7705,6 +7715,16 @@
         "groups": [
           {
             "group": "huobi2"
+          }
+        ]
+      },
+      {
+        "priority": 115,
+        "prefix": "BITBAY",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "bitbay"
           }
         ]
       },
