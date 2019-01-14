@@ -5598,6 +5598,16 @@
         }
       },
       {
+        "id": "bitbay",
+        "kinds": {
+          "rt": {
+            "prefix": "BITBAY",
+            "priority": 115,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "gocio_spreads",
         "kinds": {
           "rt": {
