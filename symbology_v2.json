@@ -1109,6 +1109,7 @@
         "kinds": {
           "rt": {
             "priority": 45,
+            "exchange_for_display": "Cboe BZX",
             "prefix": "BATS",
             "perm": "bats",
             "prefix_no_perm": [
