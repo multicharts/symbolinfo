@@ -797,6 +797,7 @@
             "prefix_alias": [
               "BATS_OLD"
             ],
+            "exchange_for_display": "Cboe BZX",
             "skip_in_search": true
           },
           "delay": {
@@ -805,6 +806,7 @@
             "prefix_alias": [
               "BATS_OLD_DLY"
             ],
+            "exchange_for_display": "Cboe BZX",
             "skip_in_search": true
           }
         }
