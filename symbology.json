@@ -3601,7 +3601,7 @@
         "prefix": "HUOBI",
         "groups": [
           {
-            "group": "huobi"
+            "group": "huobi2"
           }
         ]
       },
@@ -7402,7 +7402,7 @@
         "prefix": "HUOBI",
         "groups": [
           {
-            "group": "huobi"
+            "group": "huobi2"
           }
         ]
       },
