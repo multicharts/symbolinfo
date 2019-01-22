@@ -4620,7 +4620,7 @@
         }
       },
       {
-        "id": "huobi",
+        "id": "huobi2",
         "kinds": {
           "rt": {
             "prefix": "HUOBI",
