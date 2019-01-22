@@ -4310,7 +4310,7 @@
         }
       },
       {
-        "id": "comex_migration",
+        "id": "comex_futures",
         "kinds": {
           "rt": {
             "prefix": "COMEX",
@@ -4335,7 +4335,7 @@
         }
       },
       {
-        "id": "comex_migration_mini",
+        "id": "comex_mini_futures",
         "kinds": {
           "rt": {
             "prefix": "COMEX_MINI",
@@ -4687,7 +4687,7 @@
         }
       },
       {
-        "id": "comex_migration_continuous",
+        "id": "comex_continuous",
         "kinds": {
           "rt": {
             "prefix": "COMEX",
@@ -4712,7 +4712,7 @@
         }
       },
       {
-        "id": "comex_migration_mini_continuous",
+        "id": "comex_mini_continuous",
         "kinds": {
           "rt": {
             "prefix": "COMEX_MINI",
