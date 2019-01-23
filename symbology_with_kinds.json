@@ -437,29 +437,6 @@
         }
       },
       {
-        "id": "nasdaq_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "NASDAQ",
-            "priority": 10,
-            "prefix_alias": [
-              "INDEX"
-            ],
-            "prefix_no_perm": [
-              "NASDAQ_DLY"
-            ],
-            "skip_in_search": false,
-            "perm": "nasdaq_gif"
-          },
-          "delay": {
-            "prefix": "NASDAQ_DLY",
-            "priority": 20,
-            "skip_in_search": true,
-            "perm": "tsx_dly"
-          }
-        }
-      },
-      {
         "id": "government_bonds",
         "kinds": {
           "rt": {
@@ -3696,6 +3673,34 @@
           },
           "eod": {
             "prefix": "CBOE_EOD",
+            "priority": 100,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "nasdaq_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "NASDAQ",
+            "priority": 10,
+            "prefix_alias": [
+              "INDEX"
+            ],
+            "prefix_no_perm": [
+              "NASDAQ_DLY"
+            ],
+            "skip_in_search": false,
+            "perm": "nasdaq_gif"
+          },
+          "delay": {
+            "prefix": "NASDAQ_DLY",
+            "priority": 20,
+            "skip_in_search": true,
+            "perm": "tsx_dly"
+          },
+          "eod": {
+            "prefix": "NASDAQ_EOD",
             "priority": 100,
             "skip_in_search": true
           }
