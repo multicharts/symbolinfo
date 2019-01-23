@@ -3700,9 +3700,10 @@
             "perm": "tsx_dly"
           },
           "eod": {
-            "prefix": "XXXXXX",
+            "prefix": "NASDAQ_EOD",
             "priority": 100,
-            "skip_in_search": true
+            "skip_in_search": true,
+            "perm": "permission_denied"
           }
         }
       },
