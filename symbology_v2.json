@@ -1231,16 +1231,6 @@
         }
       },
       {
-        "id": "nasdaq_indices_eod",
-        "kinds": {
-          "rt": {
-            "prefix": "NASDAQ_EOD",
-            "priority": 47,
-            "skip_in_search": true
-          }
-        }
-      },
-      {
         "id": "sp_indices_eod",
         "kinds": {
           "rt": {
