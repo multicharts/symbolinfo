@@ -1114,16 +1114,6 @@
       },
       {
         "priority": 47,
-        "prefix": "NASDAQ_EOD",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "nasdaq_indices_eod"
-          }
-        ]
-      },
-      {
-        "priority": 47,
         "prefix": "SP_EOD",
         "skip_in_search": true,
         "groups": [
@@ -4910,16 +4900,6 @@
         "groups": [
           {
             "group": "dj_indices_eod"
-          }
-        ]
-      },
-      {
-        "priority": 47,
-        "prefix": "NASDAQ_EOD",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "nasdaq_indices_eod"
           }
         ]
       },
