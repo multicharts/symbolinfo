@@ -6116,6 +6116,7 @@
           "rt": {
             "prefix": "INDEX",
             "priority": 300,
+            "perm": "permission_denied",
             "skip_in_search": true
           }
         }
@@ -6126,6 +6127,7 @@
           "rt": {
             "prefix": "INDEX",
             "priority": 300,
+            "perm": "permission_denied",
             "skip_in_search": true
           }
         }
@@ -6136,6 +6138,7 @@
           "rt": {
             "prefix": "INDEX",
             "priority": 300,
+            "perm": "permission_denied",
             "skip_in_search": true
           }
         }
