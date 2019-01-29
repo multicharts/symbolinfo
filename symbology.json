@@ -251,6 +251,9 @@
             "group": "bitfinex"
           },
           {
+            "group": "bitfinex_spreads"
+          },
+          {
             "group": "bitfinex_forex_spreads"
           },
           {
@@ -369,9 +372,6 @@
       {
         "priority": 15,
         "prefix": "USI",
-        "prefix_alias": [
-          "INDEX"
-        ],
         "groups": [
           {
             "group": "usi"
@@ -521,6 +521,14 @@
             ]
           },
           {
+            "group": "euronext_futures",
+            "priority": 59,
+            "perm": "euronext_futures",
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ]
+          },
+          {
             "group": "euronext_continuous",
             "priority": 59,
             "perm": "euronext_futures",
@@ -622,6 +630,10 @@
           {
             "group": "euronext_stocks_delayed",
             "priority": 56
+          },
+          {
+            "group": "euronext_futures_delayed",
+            "priority": 60
           },
           {
             "group": "euronext_continuous_delayed",
@@ -975,7 +987,10 @@
         "groups": [
           {
             "group": "toronto_indices",
-            "priority": 45
+            "priority": 45,
+            "prefix_alias": [
+              "INDEX"
+            ]
           },
           {
             "group": "toronto_stocks",
@@ -1114,6 +1129,16 @@
       },
       {
         "priority": 47,
+        "prefix": "NASDAQ_EOD",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "nasdaq_indices_eod"
+          }
+        ]
+      },
+      {
+        "priority": 47,
         "prefix": "SP_EOD",
         "skip_in_search": true,
         "groups": [
@@ -1123,17 +1148,11 @@
         ]
       },
       {
-        "priority": 47,
         "prefix": "INDEX",
         "groups": [
           {
-            "group": "ind"
-          },
-          {
-            "group": "spec"
-          },
-          {
-            "group": "custom_indices"
+            "group": "custom_indices",
+            "priority": 47
           },
           {
             "group": "international_indices_eod",
@@ -1142,6 +1161,18 @@
           },
           {
             "group": "dxy",
+            "priority": 300,
+            "perm": "permission_denied",
+            "skip_in_search": true
+          },
+          {
+            "group": "ind",
+            "priority": 300,
+            "perm": "permission_denied",
+            "skip_in_search": true
+          },
+          {
+            "group": "spec",
             "priority": 300,
             "perm": "permission_denied",
             "skip_in_search": true
@@ -1521,6 +1552,48 @@
         ]
       },
       {
+        "priority": 50,
+        "prefix": "DUB",
+        "perm": "permission_denied",
+        "prefix_no_perm": [
+          "CHXEUR"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "dublin"
+          }
+        ]
+      },
+      {
+        "priority": 50,
+        "prefix": "OSL",
+        "perm": "permission_denied",
+        "prefix_no_perm": [
+          "CHXEUR"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "oslo"
+          }
+        ]
+      },
+      {
+        "priority": 50,
+        "prefix": "VIE",
+        "perm": "permission_denied",
+        "prefix_no_perm": [
+          "CHXEUR"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "vienna"
+          }
+        ]
+      },
+      {
         "prefix": "BMV",
         "perm": "bmv",
         "prefix_no_perm": [
@@ -1853,48 +1926,6 @@
         ]
       },
       {
-        "priority": 53,
-        "prefix": "SET",
-        "perm": "set",
-        "prefix_no_perm": [
-          "SET_DLY"
-        ],
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "thailand_stocks"
-          },
-          {
-            "group": "thailand_indices"
-          }
-        ]
-      },
-      {
-        "priority": 53,
-        "prefix": "KRX",
-        "perm": "krx_stocks",
-        "prefix_no_perm": [
-          "KRX_DLY"
-        ],
-        "groups": [
-          {
-            "group": "korea_stocks"
-          },
-          {
-            "group": "korea_konex_stocks"
-          },
-          {
-            "group": "korea_kosdaq_stocks"
-          },
-          {
-            "group": "korea_indices"
-          },
-          {
-            "group": "korea_main_indices"
-          }
-        ]
-      },
-      {
         "prefix": "BCS_DLY",
         "perm": "sf_dly",
         "groups": [
@@ -2065,40 +2096,6 @@
         ]
       },
       {
-        "priority": 54,
-        "prefix": "SET_DLY",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "thailand_stocks_delayed"
-          },
-          {
-            "group": "thailand_indices_delayed"
-          }
-        ]
-      },
-      {
-        "priority": 54,
-        "prefix": "KRX_DLY",
-        "groups": [
-          {
-            "group": "korea_stocks_delayed"
-          },
-          {
-            "group": "korea_konex_stocks_delayed"
-          },
-          {
-            "group": "korea_kosdaq_stocks_delayed"
-          },
-          {
-            "group": "korea_indices_delayed"
-          },
-          {
-            "group": "korea_main_indices_delayed"
-          }
-        ]
-      },
-      {
         "priority": 55,
         "prefix": "FWB",
         "perm": "dbg",
@@ -2123,7 +2120,10 @@
         "groups": [
           {
             "group": "asx_indices",
-            "priority": 55
+            "priority": 55,
+            "prefix_alias": [
+              "INDEX"
+            ]
           },
           {
             "group": "asx_stocks",
@@ -3397,6 +3397,7 @@
       {
         "priority": 101,
         "prefix": "NSE_EOD",
+        "perm": "permission_denied",
         "skip_in_search": true,
         "groups": [
           {
@@ -3612,6 +3613,15 @@
         ]
       },
       {
+        "priority": 150,
+        "prefix": "CRYPTOCAP",
+        "groups": [
+          {
+            "group": "crypto_market_caps"
+          }
+        ]
+      },
+      {
         "priority": 220,
         "prefix": "IBROKER",
         "exchange_for_display": "IBROKER",
@@ -3652,48 +3662,6 @@
           {
             "group": "luxembourg_stocks_delayed",
             "priority": 271
-          }
-        ]
-      },
-      {
-        "priority": 300,
-        "prefix": "DUB",
-        "perm": "permission_denied",
-        "prefix_no_perm": [
-          "CHXEUR"
-        ],
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "dublin"
-          }
-        ]
-      },
-      {
-        "priority": 300,
-        "prefix": "OSL",
-        "perm": "permission_denied",
-        "prefix_no_perm": [
-          "CHXEUR"
-        ],
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "oslo"
-          }
-        ]
-      },
-      {
-        "priority": 300,
-        "prefix": "VIE",
-        "perm": "permission_denied",
-        "prefix_no_perm": [
-          "CHXEUR"
-        ],
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "vienna"
           }
         ]
       },
@@ -3779,15 +3747,6 @@
           },
           {
             "group": "mgex"
-          }
-        ]
-      },
-      {
-        "priority": 300,
-        "prefix": "CRYPTOCAP",
-        "groups": [
-          {
-            "group": "crypto_market_caps"
           }
         ]
       }
@@ -4045,6 +4004,9 @@
             "group": "bitfinex"
           },
           {
+            "group": "bitfinex_spreads"
+          },
+          {
             "group": "bitfinex_forex_spreads"
           },
           {
@@ -4163,9 +4125,6 @@
       {
         "priority": 15,
         "prefix": "USI",
-        "prefix_alias": [
-          "INDEX"
-        ],
         "groups": [
           {
             "group": "usi"
@@ -4315,6 +4274,14 @@
             ]
           },
           {
+            "group": "euronext_futures",
+            "priority": 59,
+            "perm": "euronext_futures",
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ]
+          },
+          {
             "group": "euronext_continuous",
             "priority": 59,
             "perm": "euronext_futures",
@@ -4416,6 +4383,10 @@
           {
             "group": "euronext_stocks_delayed",
             "priority": 56
+          },
+          {
+            "group": "euronext_futures_delayed",
+            "priority": 60
           },
           {
             "group": "euronext_continuous_delayed",
@@ -4769,7 +4740,10 @@
         "groups": [
           {
             "group": "toronto_indices",
-            "priority": 45
+            "priority": 45,
+            "prefix_alias": [
+              "INDEX"
+            ]
           },
           {
             "group": "toronto_stocks",
@@ -4908,6 +4882,16 @@
       },
       {
         "priority": 47,
+        "prefix": "NASDAQ_EOD",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "nasdaq_indices_eod"
+          }
+        ]
+      },
+      {
+        "priority": 47,
         "prefix": "SP_EOD",
         "skip_in_search": true,
         "groups": [
@@ -4917,17 +4901,11 @@
         ]
       },
       {
-        "priority": 47,
         "prefix": "INDEX",
         "groups": [
           {
-            "group": "ind"
-          },
-          {
-            "group": "spec"
-          },
-          {
-            "group": "custom_indices"
+            "group": "custom_indices",
+            "priority": 47
           },
           {
             "group": "international_indices_eod",
@@ -4936,6 +4914,18 @@
           },
           {
             "group": "dxy",
+            "priority": 300,
+            "perm": "permission_denied",
+            "skip_in_search": true
+          },
+          {
+            "group": "ind",
+            "priority": 300,
+            "perm": "permission_denied",
+            "skip_in_search": true
+          },
+          {
+            "group": "spec",
             "priority": 300,
             "perm": "permission_denied",
             "skip_in_search": true
@@ -5315,6 +5305,48 @@
         ]
       },
       {
+        "priority": 50,
+        "prefix": "DUB",
+        "perm": "permission_denied",
+        "prefix_no_perm": [
+          "CHXEUR"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "dublin"
+          }
+        ]
+      },
+      {
+        "priority": 50,
+        "prefix": "OSL",
+        "perm": "permission_denied",
+        "prefix_no_perm": [
+          "CHXEUR"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "oslo"
+          }
+        ]
+      },
+      {
+        "priority": 50,
+        "prefix": "VIE",
+        "perm": "permission_denied",
+        "prefix_no_perm": [
+          "CHXEUR"
+        ],
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "vienna"
+          }
+        ]
+      },
+      {
         "prefix": "BMV",
         "perm": "bmv",
         "prefix_no_perm": [
@@ -5647,48 +5679,6 @@
         ]
       },
       {
-        "priority": 53,
-        "prefix": "SET",
-        "perm": "set",
-        "prefix_no_perm": [
-          "SET_DLY"
-        ],
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "thailand_stocks"
-          },
-          {
-            "group": "thailand_indices"
-          }
-        ]
-      },
-      {
-        "priority": 53,
-        "prefix": "KRX",
-        "perm": "krx_stocks",
-        "prefix_no_perm": [
-          "KRX_DLY"
-        ],
-        "groups": [
-          {
-            "group": "korea_stocks"
-          },
-          {
-            "group": "korea_konex_stocks"
-          },
-          {
-            "group": "korea_kosdaq_stocks"
-          },
-          {
-            "group": "korea_indices"
-          },
-          {
-            "group": "korea_main_indices"
-          }
-        ]
-      },
-      {
         "prefix": "BCS_DLY",
         "perm": "sf_dly",
         "groups": [
@@ -5859,40 +5849,6 @@
         ]
       },
       {
-        "priority": 54,
-        "prefix": "SET_DLY",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "thailand_stocks_delayed"
-          },
-          {
-            "group": "thailand_indices_delayed"
-          }
-        ]
-      },
-      {
-        "priority": 54,
-        "prefix": "KRX_DLY",
-        "groups": [
-          {
-            "group": "korea_stocks_delayed"
-          },
-          {
-            "group": "korea_konex_stocks_delayed"
-          },
-          {
-            "group": "korea_kosdaq_stocks_delayed"
-          },
-          {
-            "group": "korea_indices_delayed"
-          },
-          {
-            "group": "korea_main_indices_delayed"
-          }
-        ]
-      },
-      {
         "priority": 55,
         "prefix": "FWB",
         "perm": "dbg",
@@ -5917,7 +5873,10 @@
         "groups": [
           {
             "group": "asx_indices",
-            "priority": 55
+            "priority": 55,
+            "prefix_alias": [
+              "INDEX"
+            ]
           },
           {
             "group": "asx_stocks",
@@ -7191,6 +7150,7 @@
       {
         "priority": 101,
         "prefix": "NSE_EOD",
+        "perm": "permission_denied",
         "skip_in_search": true,
         "groups": [
           {
@@ -7406,6 +7366,15 @@
         ]
       },
       {
+        "priority": 150,
+        "prefix": "CRYPTOCAP",
+        "groups": [
+          {
+            "group": "crypto_market_caps"
+          }
+        ]
+      },
+      {
         "priority": 220,
         "prefix": "IBROKER",
         "exchange_for_display": "IBROKER",
@@ -7446,48 +7415,6 @@
           {
             "group": "luxembourg_stocks_delayed",
             "priority": 271
-          }
-        ]
-      },
-      {
-        "priority": 300,
-        "prefix": "DUB",
-        "perm": "permission_denied",
-        "prefix_no_perm": [
-          "CHXEUR"
-        ],
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "dublin"
-          }
-        ]
-      },
-      {
-        "priority": 300,
-        "prefix": "OSL",
-        "perm": "permission_denied",
-        "prefix_no_perm": [
-          "CHXEUR"
-        ],
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "oslo"
-          }
-        ]
-      },
-      {
-        "priority": 300,
-        "prefix": "VIE",
-        "perm": "permission_denied",
-        "prefix_no_perm": [
-          "CHXEUR"
-        ],
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "vienna"
           }
         ]
       },
@@ -7573,15 +7500,6 @@
           },
           {
             "group": "mgex"
-          }
-        ]
-      },
-      {
-        "priority": 300,
-        "prefix": "CRYPTOCAP",
-        "groups": [
-          {
-            "group": "crypto_market_caps"
           }
         ]
       }
