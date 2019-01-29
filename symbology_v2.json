@@ -279,6 +279,15 @@
         }
       },
       {
+        "id": "bitfinex_spreads",
+        "kinds": {
+          "rt": {
+            "prefix": "BITFINEX",
+            "priority": 11
+          }
+        }
+      },
+      {
         "id": "bitfinex_forex_spreads",
         "kinds": {
           "rt": {
@@ -444,10 +453,7 @@
         "kinds": {
           "rt": {
             "prefix": "USI",
-            "priority": 15,
-            "prefix_alias": [
-              "INDEX"
-            ]
+            "priority": 15
           }
         }
       },
@@ -1061,6 +1067,9 @@
             "perm": "tsx",
             "prefix_no_perm": [
               "TSX_DLY"
+            ],
+            "prefix_alias": [
+              "INDEX"
             ]
           }
         }
@@ -1231,30 +1240,22 @@
         }
       },
       {
-        "id": "sp_indices_eod",
+        "id": "nasdaq_indices_eod",
         "kinds": {
           "rt": {
-            "prefix": "SP_EOD",
+            "prefix": "NASDAQ_EOD",
             "priority": 47,
             "skip_in_search": true
           }
         }
       },
       {
-        "id": "ind",
+        "id": "sp_indices_eod",
         "kinds": {
           "rt": {
-            "prefix": "INDEX",
-            "priority": 47
-          }
-        }
-      },
-      {
-        "id": "spec",
-        "kinds": {
-          "rt": {
-            "prefix": "INDEX",
-            "priority": 47
+            "prefix": "SP_EOD",
+            "priority": 47,
+            "skip_in_search": true
           }
         }
       },
@@ -2017,6 +2018,48 @@
         }
       },
       {
+        "id": "dublin",
+        "kinds": {
+          "rt": {
+            "priority": 50,
+            "prefix": "DUB",
+            "perm": "permission_denied",
+            "prefix_no_perm": [
+              "CHXEUR"
+            ],
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "oslo",
+        "kinds": {
+          "rt": {
+            "priority": 50,
+            "prefix": "OSL",
+            "perm": "permission_denied",
+            "prefix_no_perm": [
+              "CHXEUR"
+            ],
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "vienna",
+        "kinds": {
+          "rt": {
+            "priority": 50,
+            "prefix": "VIE",
+            "perm": "permission_denied",
+            "prefix_no_perm": [
+              "CHXEUR"
+            ],
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "mexico_indices",
         "kinds": {
           "rt": {
@@ -2500,97 +2543,6 @@
         }
       },
       {
-        "id": "thailand_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 53,
-            "prefix": "SET",
-            "prefix_no_perm": [
-              "SET_DLY"
-            ],
-            "perm": "set",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "thailand_indices",
-        "kinds": {
-          "rt": {
-            "priority": 53,
-            "prefix": "SET",
-            "prefix_no_perm": [
-              "SET_DLY"
-            ],
-            "perm": "set",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "korea_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 53,
-            "prefix": "KRX",
-            "prefix_no_perm": [
-              "KRX_DLY"
-            ],
-            "perm": "krx_stocks"
-          }
-        }
-      },
-      {
-        "id": "korea_konex_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 53,
-            "prefix": "KRX",
-            "prefix_no_perm": [
-              "KRX_DLY"
-            ],
-            "perm": "krx_stocks"
-          }
-        }
-      },
-      {
-        "id": "korea_kosdaq_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 53,
-            "prefix": "KRX",
-            "prefix_no_perm": [
-              "KRX_DLY"
-            ],
-            "perm": "krx_stocks"
-          }
-        }
-      },
-      {
-        "id": "korea_indices",
-        "kinds": {
-          "rt": {
-            "priority": 53,
-            "prefix": "KRX",
-            "prefix_no_perm": [
-              "KRX_DLY"
-            ]
-          }
-        }
-      },
-      {
-        "id": "korea_main_indices",
-        "kinds": {
-          "rt": {
-            "priority": 53,
-            "prefix": "KRX",
-            "prefix_no_perm": [
-              "KRX_DLY"
-            ]
-          }
-        }
-      },
-      {
         "id": "santiago_indices_delayed",
         "kinds": {
           "rt": {
@@ -2792,71 +2744,6 @@
         }
       },
       {
-        "id": "thailand_stocks_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 54,
-            "prefix": "SET_DLY",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "thailand_indices_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 54,
-            "prefix": "SET_DLY",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "korea_stocks_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 54,
-            "prefix": "KRX_DLY"
-          }
-        }
-      },
-      {
-        "id": "korea_konex_stocks_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 54,
-            "prefix": "KRX_DLY"
-          }
-        }
-      },
-      {
-        "id": "korea_kosdaq_stocks_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 54,
-            "prefix": "KRX_DLY"
-          }
-        }
-      },
-      {
-        "id": "korea_indices_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 54,
-            "prefix": "KRX_DLY"
-          }
-        }
-      },
-      {
-        "id": "korea_main_indices_delayed",
-        "kinds": {
-          "rt": {
-            "priority": 54,
-            "prefix": "KRX_DLY"
-          }
-        }
-      },
-      {
         "id": "euronext_stocks",
         "kinds": {
           "rt": {
@@ -2974,6 +2861,9 @@
             "perm": "asx",
             "prefix_no_perm": [
               "ASX_DLY"
+            ],
+            "prefix_alias": [
+              "INDEX"
             ]
           }
         }
@@ -3528,6 +3418,19 @@
         }
       },
       {
+        "id": "euronext_futures",
+        "kinds": {
+          "rt": {
+            "priority": 59,
+            "prefix": "EURONEXT",
+            "perm": "euronext_futures",
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ]
+          }
+        }
+      },
+      {
         "id": "riga_indices_delayed",
         "kinds": {
           "rt": {
@@ -3710,6 +3613,16 @@
               "BVL_DLY"
             ],
             "perm": "bvl"
+          }
+        }
+      },
+      {
+        "id": "euronext_futures_delayed",
+        "kinds": {
+          "rt": {
+            "priority": 60,
+            "prefix": "EURONEXT_DLY",
+            "perm": "euronext_dly"
           }
         }
       },
@@ -5381,7 +5294,8 @@
           "rt": {
             "prefix": "NSE_EOD",
             "priority": 101,
-            "skip_in_search": true
+            "skip_in_search": true,
+            "perm": "permission_denied"
           }
         }
       },
@@ -5391,7 +5305,8 @@
           "rt": {
             "prefix": "NSE_EOD",
             "priority": 101,
-            "skip_in_search": true
+            "skip_in_search": true,
+            "perm": "permission_denied"
           }
         }
       },
@@ -5690,6 +5605,15 @@
         }
       },
       {
+        "id": "crypto_market_caps",
+        "kinds": {
+          "rt": {
+            "prefix": "CRYPTOCAP",
+            "priority": 150
+          }
+        }
+      },
+      {
         "id": "ibroker",
         "kinds": {
           "rt": {
@@ -5746,48 +5670,6 @@
             "priority": 271,
             "prefix": "LUXSE_DLY",
             "perm": "luxse",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "dublin",
-        "kinds": {
-          "rt": {
-            "priority": 300,
-            "prefix": "DUB",
-            "perm": "permission_denied",
-            "prefix_no_perm": [
-              "CHXEUR"
-            ],
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "oslo",
-        "kinds": {
-          "rt": {
-            "priority": 300,
-            "prefix": "OSL",
-            "perm": "permission_denied",
-            "prefix_no_perm": [
-              "CHXEUR"
-            ],
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "vienna",
-        "kinds": {
-          "rt": {
-            "priority": 300,
-            "prefix": "VIE",
-            "perm": "permission_denied",
-            "prefix_no_perm": [
-              "CHXEUR"
-            ],
             "skip_in_search": true
           }
         }
@@ -6002,6 +5884,28 @@
         }
       },
       {
+        "id": "ind",
+        "kinds": {
+          "rt": {
+            "prefix": "INDEX",
+            "priority": 300,
+            "perm": "permission_denied",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "spec",
+        "kinds": {
+          "rt": {
+            "prefix": "INDEX",
+            "priority": 300,
+            "perm": "permission_denied",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "russli",
         "kinds": {
           "rt": {
@@ -6031,15 +5935,6 @@
             "priority": 300,
             "perm": "permission_denied",
             "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "crypto_market_caps",
-        "kinds": {
-          "rt": {
-            "prefix": "CRYPTOCAP",
-            "priority": 300
           }
         }
       }
