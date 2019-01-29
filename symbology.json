@@ -142,6 +142,7 @@
       {
         "priority": 10,
         "prefix": "SP",
+        "perm": "spindices",
         "prefix_no_perm": [
           "SP_EOD"
         ],
@@ -160,6 +161,7 @@
       {
         "priority": 10,
         "prefix": "DJ",
+        "perm": "djindices_dly",
         "prefix_no_perm": [
           "DJ_EOD"
         ],
@@ -177,24 +179,17 @@
       },
       {
         "prefix": "CBOE",
-        "skip_in_search": false,
         "groups": [
           {
             "group": "cboe_indices_delayed",
             "priority": 10,
+            "perm": "cboe_dly",
             "prefix_no_perm": [
               "CBOE_EOD"
             ],
+            "skip_in_search": false,
             "prefix_alias": [
               "CBOE_DLY",
-              "INDEX"
-            ]
-          },
-          {
-            "group": "cboe_russell_indices_eod",
-            "priority": 100,
-            "prefix_alias": [
-              "CBOE_EOD",
               "INDEX"
             ]
           },
@@ -224,6 +219,7 @@
           {
             "group": "nasdaq_indices_delayed",
             "priority": 10,
+            "perm": "tsx_dly",
             "skip_in_search": false,
             "prefix_alias": [
               "NASDAQ_DLY",
@@ -364,9 +360,6 @@
       {
         "priority": 15,
         "prefix": "USI",
-        "prefix_alias": [
-          "INDEX"
-        ],
         "groups": [
           {
             "group": "usi"
@@ -1245,13 +1238,17 @@
       },
       {
         "prefix": "TSX",
+        "perm": "tsx",
         "prefix_no_perm": [
           "TSX_DLY"
         ],
         "groups": [
           {
             "group": "toronto_indices",
-            "priority": 45
+            "priority": 45,
+            "prefix_alias": [
+              "INDEX"
+            ]
           },
           {
             "group": "toronto_stocks",
@@ -1310,6 +1307,7 @@
       },
       {
         "prefix": "TSX_DLY",
+        "perm": "tsx_dly",
         "prefix_no_perm": [
           "TSX_EOD"
         ],
@@ -2255,13 +2253,17 @@
       },
       {
         "prefix": "ASX",
+        "perm": "asx",
         "prefix_no_perm": [
           "ASX_DLY"
         ],
         "groups": [
           {
             "group": "asx_indices",
-            "priority": 55
+            "priority": 55,
+            "prefix_alias": [
+              "INDEX"
+            ]
           },
           {
             "group": "asx_stocks",
@@ -2379,6 +2381,7 @@
       {
         "priority": 57,
         "prefix": "TSXV",
+        "perm": "tsxv",
         "prefix_no_perm": [
           "TSXV_DLY"
         ],
@@ -2390,6 +2393,7 @@
       },
       {
         "prefix": "ASX_DLY",
+        "perm": "tsx_dly",
         "groups": [
           {
             "group": "asx_indices_delayed",
@@ -2480,6 +2484,7 @@
       {
         "priority": 58,
         "prefix": "TSXV_DLY",
+        "perm": "tsxv_dly",
         "prefix_no_perm": [
           "TSXV_EOD"
         ],
@@ -3372,7 +3377,6 @@
         "prefix": "RUSSELL",
         "skip_in_search": false,
         "prefix_alias": [
-          "RUSSEL",
           "RUSSELL_EOD",
           "INDEX"
         ],
@@ -3449,6 +3453,7 @@
       {
         "priority": 101,
         "prefix": "NSE_EOD",
+        "perm": "permission_denied",
         "skip_in_search": true,
         "groups": [
           {
@@ -4180,6 +4185,7 @@
       {
         "priority": 10,
         "prefix": "SP",
+        "perm": "spindices",
         "prefix_no_perm": [
           "SP_EOD"
         ],
@@ -4198,6 +4204,7 @@
       {
         "priority": 10,
         "prefix": "DJ",
+        "perm": "djindices_dly",
         "prefix_no_perm": [
           "DJ_EOD"
         ],
@@ -4215,24 +4222,17 @@
       },
       {
         "prefix": "CBOE",
-        "skip_in_search": false,
         "groups": [
           {
             "group": "cboe_indices_delayed",
             "priority": 10,
+            "perm": "cboe_dly",
             "prefix_no_perm": [
               "CBOE_EOD"
             ],
+            "skip_in_search": false,
             "prefix_alias": [
               "CBOE_DLY",
-              "INDEX"
-            ]
-          },
-          {
-            "group": "cboe_russell_indices_eod",
-            "priority": 100,
-            "prefix_alias": [
-              "CBOE_EOD",
               "INDEX"
             ]
           },
@@ -4262,6 +4262,7 @@
           {
             "group": "nasdaq_indices_delayed",
             "priority": 10,
+            "perm": "tsx_dly",
             "skip_in_search": false,
             "prefix_alias": [
               "NASDAQ_DLY",
@@ -4402,9 +4403,6 @@
       {
         "priority": 15,
         "prefix": "USI",
-        "prefix_alias": [
-          "INDEX"
-        ],
         "groups": [
           {
             "group": "usi"
@@ -5283,13 +5281,17 @@
       },
       {
         "prefix": "TSX",
+        "perm": "tsx",
         "prefix_no_perm": [
           "TSX_DLY"
         ],
         "groups": [
           {
             "group": "toronto_indices",
-            "priority": 45
+            "priority": 45,
+            "prefix_alias": [
+              "INDEX"
+            ]
           },
           {
             "group": "toronto_stocks",
@@ -5348,6 +5350,7 @@
       },
       {
         "prefix": "TSX_DLY",
+        "perm": "tsx_dly",
         "prefix_no_perm": [
           "TSX_EOD"
         ],
@@ -6293,13 +6296,17 @@
       },
       {
         "prefix": "ASX",
+        "perm": "asx",
         "prefix_no_perm": [
           "ASX_DLY"
         ],
         "groups": [
           {
             "group": "asx_indices",
-            "priority": 55
+            "priority": 55,
+            "prefix_alias": [
+              "INDEX"
+            ]
           },
           {
             "group": "asx_stocks",
@@ -6417,6 +6424,7 @@
       {
         "priority": 57,
         "prefix": "TSXV",
+        "perm": "tsxv",
         "prefix_no_perm": [
           "TSXV_DLY"
         ],
@@ -6428,6 +6436,7 @@
       },
       {
         "prefix": "ASX_DLY",
+        "perm": "tsx_dly",
         "groups": [
           {
             "group": "asx_indices_delayed",
@@ -6518,6 +6527,7 @@
       {
         "priority": 58,
         "prefix": "TSXV_DLY",
+        "perm": "tsxv_dly",
         "prefix_no_perm": [
           "TSXV_EOD"
         ],
@@ -7410,7 +7420,6 @@
         "prefix": "RUSSELL",
         "skip_in_search": false,
         "prefix_alias": [
-          "RUSSEL",
           "RUSSELL_EOD",
           "INDEX"
         ],
@@ -7487,6 +7496,7 @@
       {
         "priority": 101,
         "prefix": "NSE_EOD",
+        "perm": "permission_denied",
         "skip_in_search": true,
         "groups": [
           {
