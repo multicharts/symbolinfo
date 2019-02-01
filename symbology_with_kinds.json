@@ -806,6 +806,7 @@
           "rt": {
             "priority": 43,
             "prefix": "BATS",
+            "exchange_for_display": "Cboe BZX",
             "perm": "bats",
             "prefix_no_perm": [
               "BATS_DLY"
@@ -818,6 +819,7 @@
           "delay": {
             "priority": 44,
             "prefix": "BATS_DLY",
+            "exchange_for_display": "Cboe BZX",
             "prefix_alias": [
               "BATS_MIX_DLY"
             ],
@@ -831,6 +833,7 @@
           "rt": {
             "priority": 45,
             "prefix": "BATS",
+            "exchange_for_display": "Cboe BZX",
             "perm": "bats",
             "prefix_no_perm": [
               "BATS_DLY"
@@ -843,6 +846,7 @@
           "delay": {
             "priority": 46,
             "prefix": "BATS_DLY",
+            "exchange_for_display": "Cboe BZX",
             "prefix_alias": [
               "BATS_OLD_DLY"
             ],
