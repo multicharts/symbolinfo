@@ -1037,7 +1037,7 @@
         }
       },
       {
-        "id": "moex_continuous2",
+        "id": "moex_continuous",
         "kinds": {
           "rt": {
             "prefix": "MOEX",
@@ -1103,7 +1103,7 @@
         }
       },
       {
-        "id": "moex_futures2",
+        "id": "moex_futures",
         "kinds": {
           "rt": {
             "prefix": "MOEX",
