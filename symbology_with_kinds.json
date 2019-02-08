@@ -5984,13 +5984,11 @@
             "prefix": "LUXSE",
             "prefix_no_perm": [
               "LUXSE_DLY"
-            ],
-            "skip_in_search": true
+            ]
           },
           "delay": {
             "priority": 270,
-            "prefix": "LUXSE_DLY",
-            "skip_in_search": true
+            "prefix": "LUXSE_DLY"
           }
         }
       },
@@ -6002,13 +6000,59 @@
             "prefix": "LUXSE",
             "prefix_no_perm": [
               "LUXSE_DLY"
-            ],
-            "skip_in_search": true
+            ]
           },
           "delay": {
             "priority": 271,
-            "prefix": "LUXSE_DLY",
-            "skip_in_search": true
+            "prefix": "LUXSE_DLY"
+          }
+        }
+      },
+      {
+        "id": "luxembourg_warrants",
+        "kinds": {
+          "rt": {
+            "priority": 270,
+            "prefix": "LUXSE",
+            "prefix_no_perm": [
+              "LUXSE_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 271,
+            "prefix": "LUXSE_DLY"
+          }
+        }
+      },
+      {
+        "id": "luxembourg_bonds",
+        "kinds": {
+          "rt": {
+            "priority": 270,
+            "prefix": "LUXSE",
+            "prefix_no_perm": [
+              "LUXSE_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 271,
+            "prefix": "LUXSE_DLY"
+          }
+        }
+      },
+      {
+        "id": "luxembourg_structured",
+        "kinds": {
+          "rt": {
+            "priority": 270,
+            "prefix": "LUXSE",
+            "prefix_no_perm": [
+              "LUXSE_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 271,
+            "prefix": "LUXSE_DLY"
           }
         }
       },
