@@ -3474,13 +3474,18 @@
       {
         "priority": 112,
         "prefix": "HITBTC",
+        "skip_in_search": false,
         "groups": [
           {
-            "group": "hitbtc_spreads",
-            "skip_in_search": false
+            "group": "hitbtc_spreads"
           },
           {
-            "group": "HITBTC"
+            "group": "hitbtc2"
+          },
+          {
+            "group": "HITBTC",
+            "priority": 113,
+            "skip_in_search": true
           }
         ]
       },
@@ -7227,13 +7232,18 @@
       {
         "priority": 112,
         "prefix": "HITBTC",
+        "skip_in_search": false,
         "groups": [
           {
-            "group": "hitbtc_spreads",
-            "skip_in_search": false
+            "group": "hitbtc_spreads"
           },
           {
-            "group": "HITBTC"
+            "group": "hitbtc2"
+          },
+          {
+            "group": "HITBTC",
+            "priority": 113,
+            "skip_in_search": true
           }
         ]
       },
