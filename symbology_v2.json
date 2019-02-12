@@ -6510,6 +6510,16 @@
             "priority": 300
           }
         }
+      },
+      {
+        "id": "simulated",
+        "kinds": {
+          "rt": {
+            "prefix": "SIMULATED",
+            "priority": 500,
+            "skip_in_search": false
+          }
+        }
       }
     ]
   },
