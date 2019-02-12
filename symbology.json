@@ -482,6 +482,26 @@
         ]
       },
       {
+        "prefix": "HITBTC",
+        "groups": [
+          {
+            "group": "hitbtc2",
+            "priority": 22,
+            "skip_in_search": true
+          },
+          {
+            "group": "hitbtc_spreads",
+            "priority": 112,
+            "skip_in_search": false
+          },
+          {
+            "group": "HITBTC",
+            "priority": 112,
+            "skip_in_search": false
+          }
+        ]
+      },
+      {
         "prefix": "EURONEXT",
         "groups": [
           {
@@ -3447,19 +3467,6 @@
           },
           {
             "group": "CEXIO"
-          }
-        ]
-      },
-      {
-        "priority": 112,
-        "prefix": "HITBTC",
-        "groups": [
-          {
-            "group": "hitbtc_spreads",
-            "skip_in_search": false
-          },
-          {
-            "group": "HITBTC"
           }
         ]
       },
@@ -4316,6 +4323,26 @@
         ]
       },
       {
+        "prefix": "HITBTC",
+        "groups": [
+          {
+            "group": "hitbtc2",
+            "priority": 22,
+            "skip_in_search": true
+          },
+          {
+            "group": "hitbtc_spreads",
+            "priority": 112,
+            "skip_in_search": false
+          },
+          {
+            "group": "HITBTC",
+            "priority": 112,
+            "skip_in_search": false
+          }
+        ]
+      },
+      {
         "prefix": "EURONEXT",
         "groups": [
           {
@@ -7281,19 +7308,6 @@
           },
           {
             "group": "CEXIO"
-          }
-        ]
-      },
-      {
-        "priority": 112,
-        "prefix": "HITBTC",
-        "groups": [
-          {
-            "group": "hitbtc_spreads",
-            "skip_in_search": false
-          },
-          {
-            "group": "HITBTC"
           }
         ]
       },
