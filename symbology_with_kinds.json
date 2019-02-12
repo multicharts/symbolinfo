@@ -654,13 +654,15 @@
             "prefix_alias": [
               "SWX"
             ],
+            "perm": "six",
             "prefix_no_perm": [
               "SIX_DLY"
             ]
           },
           "delay": {
             "priority": 41,
-            "prefix": "SIX_DLY"
+            "prefix": "SIX_DLY",
+            "perm": "tsx_dly"
           }
         }
       },
@@ -1883,13 +1885,15 @@
             "prefix_alias": [
               "SWX"
             ],
+            "perm": "six",
             "prefix_no_perm": [
               "SIX_DLY"
             ]
           },
           "delay": {
             "priority": 57,
-            "prefix": "SIX_DLY"
+            "prefix": "SIX_DLY",
+            "perm": "tsx_dly"
           }
         }
       },
