@@ -1244,24 +1244,6 @@
         }
       },
       {
-        "id": "ind",
-        "kinds": {
-          "rt": {
-            "prefix": "INDEX",
-            "priority": 47
-          }
-        }
-      },
-      {
-        "id": "spec",
-        "kinds": {
-          "rt": {
-            "prefix": "INDEX",
-            "priority": 47
-          }
-        }
-      },
-      {
         "id": "custom_indices",
         "kinds": {
           "rt": {
@@ -6190,12 +6172,35 @@
         }
       },
       {
+        "id": "ind",
+        "kinds": {
+          "rt": {
+            "prefix": "INDEX",
+            "priority": 300,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          }
+        }
+      },
+      {
+        "id": "spec",
+        "kinds": {
+          "rt": {
+            "prefix": "INDEX",
+            "priority": 300,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          }
+        }
+      },
+      {
         "id": "russli",
         "kinds": {
           "rt": {
             "prefix": "INDEX",
             "priority": 300,
-            "skip_in_search": true
+            "skip_in_search": true,
+            "perm": "permission_denied"
           }
         }
       },
@@ -6205,7 +6210,8 @@
           "rt": {
             "prefix": "INDEX",
             "priority": 300,
-            "skip_in_search": true
+            "skip_in_search": true,
+            "perm": "permission_denied"
           }
         }
       }
