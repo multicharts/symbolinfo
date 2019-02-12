@@ -4039,6 +4039,16 @@
             "group": "crypto_market_caps"
           }
         ]
+      },
+      {
+        "priority": 500,
+        "prefix": "SIMULATED",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "simulated"
+          }
+        ]
       }
     ]
   },
@@ -8080,6 +8090,16 @@
         "groups": [
           {
             "group": "crypto_market_caps"
+          }
+        ]
+      },
+      {
+        "priority": 500,
+        "prefix": "SIMULATED",
+        "skip_in_search": false,
+        "groups": [
+          {
+            "group": "simulated"
           }
         ]
       }
