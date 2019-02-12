@@ -551,6 +551,16 @@
         }
       },
       {
+        "id": "hitbtc2",
+        "kinds": {
+          "rt": {
+            "prefix": "HITBTC",
+            "priority": 22,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "euronext_primary_indices",
         "kinds": {
           "rt": {
@@ -4637,7 +4647,8 @@
         "kinds": {
           "rt": {
             "prefix": "HITBTC",
-            "priority": 112
+            "priority": 112,
+            "skip_in_search": false
           }
         }
       },
