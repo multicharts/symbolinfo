@@ -1132,17 +1132,11 @@
         ]
       },
       {
-        "priority": 47,
         "prefix": "INDEX",
         "groups": [
           {
-            "group": "ind"
-          },
-          {
-            "group": "spec"
-          },
-          {
-            "group": "custom_indices"
+            "group": "custom_indices",
+            "priority": 47
           },
           {
             "group": "international_indices_eod",
@@ -1156,13 +1150,27 @@
             "skip_in_search": true
           },
           {
+            "group": "ind",
+            "priority": 300,
+            "perm": "permission_denied",
+            "skip_in_search": true
+          },
+          {
+            "group": "spec",
+            "priority": 300,
+            "perm": "permission_denied",
+            "skip_in_search": true
+          },
+          {
             "group": "russli",
             "priority": 300,
+            "perm": "permission_denied",
             "skip_in_search": true
           },
           {
             "group": "nysei",
             "priority": 300,
+            "perm": "permission_denied",
             "skip_in_search": true
           }
         ]
@@ -4958,17 +4966,11 @@
         ]
       },
       {
-        "priority": 47,
         "prefix": "INDEX",
         "groups": [
           {
-            "group": "ind"
-          },
-          {
-            "group": "spec"
-          },
-          {
-            "group": "custom_indices"
+            "group": "custom_indices",
+            "priority": 47
           },
           {
             "group": "international_indices_eod",
@@ -4982,13 +4984,27 @@
             "skip_in_search": true
           },
           {
+            "group": "ind",
+            "priority": 300,
+            "perm": "permission_denied",
+            "skip_in_search": true
+          },
+          {
+            "group": "spec",
+            "priority": 300,
+            "perm": "permission_denied",
+            "skip_in_search": true
+          },
+          {
             "group": "russli",
             "priority": 300,
+            "perm": "permission_denied",
             "skip_in_search": true
           },
           {
             "group": "nysei",
             "priority": 300,
+            "perm": "permission_denied",
             "skip_in_search": true
           }
         ]
