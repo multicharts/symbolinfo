@@ -483,21 +483,20 @@
       },
       {
         "prefix": "HITBTC",
+        "skip_in_search": false,
         "groups": [
           {
             "group": "hitbtc2",
-            "priority": 22,
-            "skip_in_search": true
+            "priority": 22
           },
           {
             "group": "hitbtc_spreads",
-            "priority": 112,
-            "skip_in_search": false
+            "priority": 112
           },
           {
             "group": "HITBTC",
             "priority": 112,
-            "skip_in_search": false
+            "skip_in_search": true
           }
         ]
       },
@@ -4324,21 +4323,20 @@
       },
       {
         "prefix": "HITBTC",
+        "skip_in_search": false,
         "groups": [
           {
             "group": "hitbtc2",
-            "priority": 22,
-            "skip_in_search": true
+            "priority": 22
           },
           {
             "group": "hitbtc_spreads",
-            "priority": 112,
-            "skip_in_search": false
+            "priority": 112
           },
           {
             "group": "HITBTC",
             "priority": 112,
-            "skip_in_search": false
+            "skip_in_search": true
           }
         ]
       },
