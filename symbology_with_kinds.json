@@ -825,6 +825,23 @@
         }
       },
       {
+        "id": "tocom_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "TOCOM",
+            "priority": 43,
+            "perm": "tocom",
+            "prefix_no_perm": [
+              "TOCOM_DLY"
+            ]
+          },
+          "delay": {
+            "prefix": "TOCOM_DLY",
+            "priority": 44
+          }
+        }
+      },
+      {
         "id": "bats_idc",
         "kinds": {
           "rt": {
