@@ -4358,6 +4358,34 @@
         }
       },
       {
+        "id": "canadian_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "CSE",
+            "priority": 45,
+            "perm": "tsx_dly",
+            "prefix_no_perm": [
+              "CSE_DLY"
+            ]
+          },
+          "delay": {
+            "prefix": "CSE_DLY",
+            "priority": 46,
+            "perm": "tsx_dly",
+            "prefix_no_perm": [
+              "CSE_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "CSE_EOD",
+            "priority": 146,
+            "prefix_alias": [
+              "INDEX"
+            ]
+          }
+        }
+      },
+      {
         "id": "comex_futures",
         "kinds": {
           "rt": {
