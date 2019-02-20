@@ -99,7 +99,6 @@
               "INDEX",
               "TVC"
             ],
-            "perm": "spindices",
             "prefix_no_perm": [
               "SP_EOD"
             ]
@@ -118,7 +117,6 @@
               "INDEX"
             ],
             "skip_in_search": false,
-            "perm": "djindices_dly",
             "prefix_no_perm": [
               "DJ_EOD"
             ]
@@ -136,7 +134,6 @@
               "INDEX"
             ],
             "skip_in_search": false,
-            "perm": "cboe_dly",
             "prefix_no_perm": [
               "CBOE_EOD"
             ]
@@ -153,8 +150,7 @@
               "NASDAQ_DLY",
               "INDEX"
             ],
-            "skip_in_search": false,
-            "perm": "tsx_dly"
+            "skip_in_search": false
           }
         }
       },
@@ -498,7 +494,6 @@
             "prefix_alias": [
               "US"
             ],
-            "perm": "nasdaq",
             "prefix_no_perm": [
               "BATS"
             ]
@@ -577,7 +572,6 @@
             "prefix_alias": [
               "US"
             ],
-            "perm": "amex",
             "prefix_no_perm": [
               "BATS"
             ]
@@ -614,7 +608,6 @@
             "prefix_alias": [
               "US"
             ],
-            "perm": "nyse",
             "prefix_no_perm": [
               "BATS"
             ]
@@ -1210,7 +1203,6 @@
           "rt": {
             "prefix": "TSX",
             "priority": 45,
-            "perm": "tsx",
             "prefix_no_perm": [
               "TSX_DLY"
             ],
@@ -1276,7 +1268,6 @@
           "rt": {
             "prefix": "TSX_DLY",
             "priority": 46,
-            "perm": "tsx_dly",
             "prefix_no_perm": [
               "TSX_EOD"
             ]
@@ -1318,7 +1309,6 @@
           "rt": {
             "prefix": "TSX",
             "priority": 47,
-            "perm": "tsx",
             "prefix_no_perm": [
               "TSX_DLY"
             ]
@@ -1454,7 +1444,6 @@
           "rt": {
             "prefix": "TSX_DLY",
             "priority": 48,
-            "perm": "tsx_dly",
             "prefix_no_perm": [
               "TSX_EOD"
             ]
@@ -2863,7 +2852,6 @@
           "rt": {
             "prefix": "ASX",
             "priority": 55,
-            "perm": "asx",
             "prefix_no_perm": [
               "ASX_DLY"
             ],
@@ -2983,8 +2971,7 @@
         "kinds": {
           "rt": {
             "priority": 55,
-            "prefix": "OMXCOP_DLY",
-            "perm": "nse_free"
+            "prefix": "OMXCOP_DLY"
           }
         }
       },
@@ -2993,8 +2980,7 @@
         "kinds": {
           "rt": {
             "priority": 55,
-            "prefix": "OMXHEX_DLY",
-            "perm": "nse_free"
+            "prefix": "OMXHEX_DLY"
           }
         }
       },
@@ -3003,8 +2989,7 @@
         "kinds": {
           "rt": {
             "priority": 55,
-            "prefix": "OMXICE_DLY",
-            "perm": "nse_free"
+            "prefix": "OMXICE_DLY"
           }
         }
       },
@@ -3013,8 +2998,7 @@
         "kinds": {
           "rt": {
             "priority": 55,
-            "prefix": "OMXSTO_DLY",
-            "perm": "nse_free"
+            "prefix": "OMXSTO_DLY"
           }
         }
       },
@@ -3023,8 +3007,7 @@
         "kinds": {
           "rt": {
             "priority": 55,
-            "prefix": "OMXNORDIC_DLY",
-            "perm": "nse_free"
+            "prefix": "OMXNORDIC_DLY"
           }
         }
       },
@@ -3085,7 +3068,6 @@
           "rt": {
             "prefix": "ASX",
             "priority": 56,
-            "perm": "asx",
             "prefix_no_perm": [
               "ASX_DLY"
             ]
@@ -3178,8 +3160,7 @@
         "kinds": {
           "rt": {
             "priority": 56,
-            "prefix": "OMXCOP_DLY",
-            "perm": "nse_free"
+            "prefix": "OMXCOP_DLY"
           }
         }
       },
@@ -3188,8 +3169,7 @@
         "kinds": {
           "rt": {
             "priority": 56,
-            "prefix": "OMXHEX_DLY",
-            "perm": "nse_free"
+            "prefix": "OMXHEX_DLY"
           }
         }
       },
@@ -3213,8 +3193,7 @@
         "kinds": {
           "rt": {
             "priority": 56,
-            "prefix": "OMXSTO_DLY",
-            "perm": "nse_free"
+            "prefix": "OMXSTO_DLY"
           }
         }
       },
@@ -3223,8 +3202,7 @@
         "kinds": {
           "rt": {
             "priority": 56,
-            "prefix": "OMXNORDIC_DLY",
-            "perm": "nse_free"
+            "prefix": "OMXNORDIC_DLY"
           }
         }
       },
@@ -3270,7 +3248,6 @@
           "rt": {
             "prefix": "TSXV",
             "priority": 57,
-            "perm": "tsxv",
             "prefix_no_perm": [
               "TSXV_DLY"
             ]
@@ -3306,8 +3283,7 @@
         "kinds": {
           "rt": {
             "prefix": "ASX_DLY",
-            "priority": 57,
-            "perm": "tsx_dly"
+            "priority": 57
           }
         }
       },
@@ -3355,8 +3331,7 @@
             ],
             "prefix_no_perm": [
               "OMXRSE_DLY"
-            ],
-            "perm": "omx"
+            ]
           }
         }
       },
@@ -3371,8 +3346,7 @@
             ],
             "prefix_no_perm": [
               "OMXTSE_DLY"
-            ],
-            "perm": "omx"
+            ]
           }
         }
       },
@@ -3387,8 +3361,7 @@
             ],
             "prefix_no_perm": [
               "OMXVSE_DLY"
-            ],
-            "perm": "omx"
+            ]
           }
         }
       },
@@ -3403,8 +3376,7 @@
             ],
             "prefix_no_perm": [
               "OMXBALTIC_DLY"
-            ],
-            "perm": "omx"
+            ]
           }
         }
       },
@@ -3414,7 +3386,6 @@
           "rt": {
             "prefix": "TSXV_DLY",
             "priority": 58,
-            "perm": "tsxv_dly",
             "prefix_no_perm": [
               "TSXV_EOD"
             ]
@@ -3514,7 +3485,6 @@
           "rt": {
             "priority": 59,
             "prefix": "OMXRSE_DLY",
-            "perm": "nse_free",
             "skip_in_search": true
           }
         }
@@ -3525,7 +3495,6 @@
           "rt": {
             "priority": 59,
             "prefix": "OMXTSE_DLY",
-            "perm": "nse_free",
             "skip_in_search": true
           }
         }
@@ -3536,7 +3505,6 @@
           "rt": {
             "priority": 59,
             "prefix": "OMXVSE_DLY",
-            "perm": "nse_free",
             "skip_in_search": true
           }
         }
@@ -3547,7 +3515,6 @@
           "rt": {
             "priority": 59,
             "prefix": "OMXBALTIC_DLY",
-            "perm": "nse_free",
             "skip_in_search": true,
             "prefix_no_perm": [
               "OMXBALTIC_DLY"
@@ -3785,8 +3752,7 @@
         "kinds": {
           "rt": {
             "prefix": "ASX_DLY",
-            "priority": 60,
-            "perm": "tsx_dly"
+            "priority": 60
           }
         }
       },
@@ -3920,8 +3886,7 @@
         "kinds": {
           "rt": {
             "priority": 61,
-            "prefix": "OMXCOP_DLY",
-            "perm": "nse_free"
+            "prefix": "OMXCOP_DLY"
           }
         }
       },
@@ -3930,8 +3895,7 @@
         "kinds": {
           "rt": {
             "priority": 61,
-            "prefix": "OMXHEX_DLY",
-            "perm": "nse_free"
+            "prefix": "OMXHEX_DLY"
           }
         }
       },
@@ -3940,8 +3904,7 @@
         "kinds": {
           "rt": {
             "priority": 61,
-            "prefix": "OMXICE_DLY",
-            "perm": "nse_free"
+            "prefix": "OMXICE_DLY"
           }
         }
       },
@@ -3950,8 +3913,7 @@
         "kinds": {
           "rt": {
             "priority": 61,
-            "prefix": "OMXSTO_DLY",
-            "perm": "nse_free"
+            "prefix": "OMXSTO_DLY"
           }
         }
       },
@@ -4030,8 +3992,7 @@
             ],
             "prefix_no_perm": [
               "OMXRSE_DLY"
-            ],
-            "perm": "omx"
+            ]
           }
         }
       },
@@ -4046,8 +4007,7 @@
             ],
             "prefix_no_perm": [
               "OMXTSE_DLY"
-            ],
-            "perm": "omx"
+            ]
           }
         }
       },
@@ -4062,8 +4022,7 @@
             ],
             "prefix_no_perm": [
               "OMXVSE_DLY"
-            ],
-            "perm": "omx"
+            ]
           }
         }
       },
@@ -4082,7 +4041,6 @@
           "rt": {
             "priority": 63,
             "prefix": "OMXRSE_DLY",
-            "perm": "nse_free",
             "skip_in_search": true
           }
         }
@@ -4093,7 +4051,6 @@
           "rt": {
             "priority": 63,
             "prefix": "OMXTSE_DLY",
-            "perm": "nse_free",
             "skip_in_search": true
           }
         }
@@ -4104,7 +4061,6 @@
           "rt": {
             "priority": 63,
             "prefix": "OMXVSE_DLY",
-            "perm": "nse_free",
             "skip_in_search": true
           }
         }
@@ -4242,7 +4198,6 @@
           "rt": {
             "priority": 70,
             "prefix": "GPW",
-            "perm": "gpw",
             "prefix_no_perm": [
               "GPW_DLY"
             ]
@@ -4396,7 +4351,6 @@
           "rt": {
             "priority": 75,
             "prefix": "GPW",
-            "perm": "gpw",
             "prefix_no_perm": [
               "GPW_DLY"
             ]
@@ -4409,7 +4363,6 @@
           "rt": {
             "priority": 75,
             "prefix": "GPW",
-            "perm": "gpw",
             "prefix_no_perm": [
               "GPW_DLY"
             ]
@@ -4436,8 +4389,7 @@
             "prefix": "JSE",
             "prefix_no_perm": [
               "JSE_DLY"
-            ],
-            "perm": "jse_stocks"
+            ]
           }
         }
       },
@@ -4447,7 +4399,6 @@
           "rt": {
             "priority": 75,
             "prefix": "GPW",
-            "perm": "gpw",
             "prefix_no_perm": [
               "GPW_DLY"
             ]
@@ -4896,7 +4847,6 @@
             "prefix_alias": [
               "US"
             ],
-            "perm": "otc",
             "prefix_no_perm": [
               "OTC_DLY"
             ]
@@ -4912,7 +4862,6 @@
             "prefix_alias": [
               "US"
             ],
-            "perm": "otc",
             "prefix_no_perm": [
               "OTC_DLY"
             ]
@@ -4928,7 +4877,6 @@
             "prefix_alias": [
               "US"
             ],
-            "perm": "otc",
             "prefix_no_perm": [
               "OTC_DLY"
             ]
