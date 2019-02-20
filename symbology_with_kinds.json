@@ -1635,7 +1635,7 @@
               "OSL_DLY"
             ],
             "perm": "oslo",
-            "skip_in_search": true
+            "skip_in_search": false
           },
           "delay": {
             "priority": 55,
@@ -2433,7 +2433,7 @@
               "OSL_DLY"
             ],
             "perm": "oslo",
-            "skip_in_search": true
+            "skip_in_search": false
           },
           "delay": {
             "priority": 61,
