@@ -567,10 +567,15 @@
           "rt": {
             "priority": 38,
             "prefix": "EURONEXT",
-            "perm": "euronext_dly",
-            "prefix_alias": [
+            "perm": "euronext_indices",
+            "prefix_no_perm": [
               "EURONEXT_DLY"
             ]
+          },
+          "delay": {
+            "priority": 39,
+            "prefix": "EURONEXT_DLY",
+            "perm": "euronext_dly"
           }
         }
       },
@@ -581,11 +586,22 @@
             "priority": 38,
             "prefix": "EURONEXT",
             "exchange_for_display": "EURONEXT AMSTERDAM",
+            "perm": "euronext_indices",
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ],
+            "prefix_alias": [
+              "EURONEXTAMS"
+            ]
+          },
+          "delay": {
+            "priority": 39,
+            "prefix": "EURONEXT_DLY",
             "perm": "euronext_dly",
             "prefix_alias": [
-              "EURONEXTAMS",
               "EURONEXTAMS_DLY"
-            ]
+            ],
+            "exchange_for_display": "EURONEXT AMSTERDAM"
           }
         }
       },
@@ -596,11 +612,22 @@
             "priority": 38,
             "prefix": "EURONEXT",
             "exchange_for_display": "EURONEXT BRUSSELS",
+            "perm": "euronext_indices",
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ],
+            "prefix_alias": [
+              "EURONEXTBRU"
+            ]
+          },
+          "delay": {
+            "priority": 39,
+            "prefix": "EURONEXT_DLY",
             "perm": "euronext_dly",
             "prefix_alias": [
-              "EURONEXTBRU",
               "EURONEXTBRU_DLY"
-            ]
+            ],
+            "exchange_for_display": "EURONEXT BRUSSELS"
           }
         }
       },
@@ -611,11 +638,22 @@
             "priority": 38,
             "prefix": "EURONEXT",
             "exchange_for_display": "EURONEXT LISBON",
+            "perm": "euronext_indices",
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ],
+            "prefix_alias": [
+              "EURONEXTLIS"
+            ]
+          },
+          "delay": {
+            "priority": 39,
+            "prefix": "EURONEXT_DLY",
             "perm": "euronext_dly",
             "prefix_alias": [
-              "EURONEXTLIS",
               "EURONEXTLIS_DLY"
-            ]
+            ],
+            "exchange_for_display": "EURONEXT LISBON"
           }
         }
       },
@@ -626,11 +664,22 @@
             "priority": 38,
             "prefix": "EURONEXT",
             "exchange_for_display": "EURONEXT PARIS",
+            "perm": "euronext_indices",
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ],
+            "prefix_alias": [
+              "EURONEXTPAR"
+            ]
+          },
+          "delay": {
+            "priority": 39,
+            "prefix": "EURONEXT_DLY",
             "perm": "euronext_dly",
             "prefix_alias": [
-              "EURONEXTPAR",
               "EURONEXTPAR_DLY"
-            ]
+            ],
+            "exchange_for_display": "EURONEXT PARIS"
           }
         }
       },
