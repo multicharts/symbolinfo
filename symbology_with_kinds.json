@@ -4206,9 +4206,13 @@
           "rt": {
             "priority": 38,
             "prefix": "EURONEXT",
-            "prefix_alias": [
+            "prefix_no_perm": [
               "EURONEXT_DLY"
-            ],
+            ]
+          },
+          "delay": {
+            "priority": 39,
+            "prefix": "EURONEXT_DLY",
             "prefix_no_perm": [
               "EURONEXT_EOD"
             ]
@@ -4225,12 +4229,21 @@
           "rt": {
             "priority": 38,
             "prefix": "EURONEXT",
-            "prefix_alias": [
-              "EURONEXTAMS",
-              "EURONEXTAMS_DLY"
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
             ],
+            "prefix_alias": [
+              "EURONEXTAMS"
+            ]
+          },
+          "delay": {
+            "priority": 39,
+            "prefix": "EURONEXT_DLY",
             "prefix_no_perm": [
               "EURONEXT_EOD"
+            ],
+            "prefix_alias": [
+              "EURONEXTAMS_DLY"
             ]
           },
           "eod": {
@@ -4248,12 +4261,21 @@
           "rt": {
             "priority": 38,
             "prefix": "EURONEXT",
-            "prefix_alias": [
-              "EURONEXTBRU",
-              "EURONEXTBRU_DLY"
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
             ],
+            "prefix_alias": [
+              "EURONEXTBRU"
+            ]
+          },
+          "delay": {
+            "priority": 39,
+            "prefix": "EURONEXT_DLY",
             "prefix_no_perm": [
               "EURONEXT_EOD"
+            ],
+            "prefix_alias": [
+              "EURONEXTBRU_DLY"
             ]
           },
           "eod": {
@@ -4271,12 +4293,21 @@
           "rt": {
             "priority": 38,
             "prefix": "EURONEXT",
-            "prefix_alias": [
-              "EURONEXTLIS",
-              "EURONEXTLIS_DLY"
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
             ],
+            "prefix_alias": [
+              "EURONEXTLIS"
+            ]
+          },
+          "delay": {
+            "priority": 39,
+            "prefix": "EURONEXT_DLY",
             "prefix_no_perm": [
               "EURONEXT_EOD"
+            ],
+            "prefix_alias": [
+              "EURONEXTLIS_DLY"
             ]
           },
           "eod": {
@@ -4294,12 +4325,21 @@
           "rt": {
             "priority": 38,
             "prefix": "EURONEXT",
-            "prefix_alias": [
-              "EURONEXTPAR",
-              "EURONEXTPAR_DLY"
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
             ],
+            "prefix_alias": [
+              "EURONEXTPAR"
+            ]
+          },
+          "delay": {
+            "priority": 39,
+            "prefix": "EURONEXT_DLY",
             "prefix_no_perm": [
               "EURONEXT_EOD"
+            ],
+            "prefix_alias": [
+              "EURONEXTPAR_DLY"
             ]
           },
           "eod": {
