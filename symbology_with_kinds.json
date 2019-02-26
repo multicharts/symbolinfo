@@ -5623,26 +5623,6 @@
         }
       },
       {
-        "id": "euronext_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 155,
-            "prefix": "EURONEXT",
-            "perm": "euronext_stocks",
-            "prefix_no_perm": [
-              "EURONEXT_DLY"
-            ],
-            "skip_in_search": true
-          },
-          "delay": {
-            "priority": 156,
-            "prefix": "EURONEXT_DLY",
-            "perm": "euronext_dly",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
         "id": "eur_ex_futures",
         "kinds": {
           "rt": {
@@ -5888,6 +5868,60 @@
             "prefix_alias": [
               "MGEX"
             ]
+          }
+        }
+      },
+      {
+        "id": "euronext_primary_indices",
+        "kinds": {
+          "rt": {
+            "priority": 238,
+            "prefix": "EURONEXT",
+            "perm": "permission_denied",
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ],
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "euronext_non_primary_indices",
+        "kinds": {
+          "rt": {
+            "priority": 239,
+            "prefix": "EURONEXT",
+            "perm": "permission_denied",
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ],
+            "skip_in_search": true
+          },
+          "delay": {
+            "priority": 240,
+            "prefix": "EURONEXT_DLY",
+            "perm": "permission_denied",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "euronext_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 255,
+            "prefix": "EURONEXT",
+            "perm": "euronext_stocks",
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ],
+            "skip_in_search": true
+          },
+          "delay": {
+            "priority": 256,
+            "prefix": "EURONEXT_DLY",
+            "perm": "euronext_dly",
+            "skip_in_search": true
           }
         }
       },
