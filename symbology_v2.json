@@ -5578,8 +5578,7 @@
         "kinds": {
           "rt": {
             "prefix": "HUOBI",
-            "priority": 115,
-            "skip_in_search": true
+            "priority": 115
           }
         }
       },
