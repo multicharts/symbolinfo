@@ -3580,7 +3580,6 @@
       {
         "priority": 115,
         "prefix": "HUOBI",
-        "skip_in_search": true,
         "groups": [
           {
             "group": "huobi2"
@@ -7421,7 +7420,6 @@
       {
         "priority": 115,
         "prefix": "HUOBI",
-        "skip_in_search": true,
         "groups": [
           {
             "group": "huobi2"
