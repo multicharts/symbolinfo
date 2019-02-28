@@ -1395,29 +1395,13 @@
       },
       {
         "priority": 47,
-        "prefix": "CRAINS",
-        "groups": [
-          {
-            "group": "crains_indices"
-          }
-        ]
-      },
-      {
-        "priority": 47,
-        "prefix": "CRAINS_INTERNAL",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "crains_indices_internal"
-          }
-        ]
-      },
-      {
         "prefix": "INDEX",
         "groups": [
           {
-            "group": "custom_indices",
-            "priority": 47
+            "group": "ind"
+          },
+          {
+            "group": "custom_indices"
           },
           {
             "group": "international_indices_eod",
@@ -1426,12 +1410,6 @@
           },
           {
             "group": "dxy",
-            "priority": 300,
-            "perm": "permission_denied",
-            "skip_in_search": true
-          },
-          {
-            "group": "ind",
             "priority": 300,
             "perm": "permission_denied",
             "skip_in_search": true
@@ -1459,6 +1437,25 @@
             "priority": 300,
             "perm": "permission_denied",
             "skip_in_search": true
+          }
+        ]
+      },
+      {
+        "priority": 47,
+        "prefix": "CRAINS",
+        "groups": [
+          {
+            "group": "crains_indices"
+          }
+        ]
+      },
+      {
+        "priority": 47,
+        "prefix": "CRAINS_INTERNAL",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "crains_indices_internal"
           }
         ]
       },
@@ -5419,29 +5416,13 @@
       },
       {
         "priority": 47,
-        "prefix": "CRAINS",
-        "groups": [
-          {
-            "group": "crains_indices"
-          }
-        ]
-      },
-      {
-        "priority": 47,
-        "prefix": "CRAINS_INTERNAL",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "crains_indices_internal"
-          }
-        ]
-      },
-      {
         "prefix": "INDEX",
         "groups": [
           {
-            "group": "custom_indices",
-            "priority": 47
+            "group": "ind"
+          },
+          {
+            "group": "custom_indices"
           },
           {
             "group": "international_indices_eod",
@@ -5450,12 +5431,6 @@
           },
           {
             "group": "dxy",
-            "priority": 300,
-            "perm": "permission_denied",
-            "skip_in_search": true
-          },
-          {
-            "group": "ind",
             "priority": 300,
             "perm": "permission_denied",
             "skip_in_search": true
@@ -5483,6 +5458,25 @@
             "priority": 300,
             "perm": "permission_denied",
             "skip_in_search": true
+          }
+        ]
+      },
+      {
+        "priority": 47,
+        "prefix": "CRAINS",
+        "groups": [
+          {
+            "group": "crains_indices"
+          }
+        ]
+      },
+      {
+        "priority": 47,
+        "prefix": "CRAINS_INTERNAL",
+        "skip_in_search": true,
+        "groups": [
+          {
+            "group": "crains_indices_internal"
           }
         ]
       },
