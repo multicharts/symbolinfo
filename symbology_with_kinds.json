@@ -1873,7 +1873,7 @@
         }
       },
       {
-        "id": "hongkong_futures2",
+        "id": "hongkong_futures",
         "kinds": {
           "rt": {
             "priority": 55,
@@ -1908,7 +1908,7 @@
         }
       },
       {
-        "id": "hongkong_continuous2",
+        "id": "hongkong_continuous",
         "kinds": {
           "rt": {
             "priority": 55,
