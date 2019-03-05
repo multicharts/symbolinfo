@@ -1254,6 +1254,16 @@
         }
       },
       {
+        "id": "ind",
+        "kinds": {
+          "rt": {
+            "prefix": "INDEX",
+            "priority": 47,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "custom_indices",
         "kinds": {
           "rt": {
@@ -6175,17 +6185,6 @@
         "kinds": {
           "rt": {
             "prefix": "MGEX",
-            "priority": 300,
-            "skip_in_search": true,
-            "perm": "permission_denied"
-          }
-        }
-      },
-      {
-        "id": "ind",
-        "kinds": {
-          "rt": {
-            "prefix": "INDEX",
             "priority": 300,
             "skip_in_search": true,
             "perm": "permission_denied"
