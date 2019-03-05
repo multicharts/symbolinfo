@@ -1152,11 +1152,15 @@
         ]
       },
       {
+        "priority": 47,
         "prefix": "INDEX",
         "groups": [
           {
-            "group": "custom_indices",
-            "priority": 47
+            "group": "ind",
+            "skip_in_search": false
+          },
+          {
+            "group": "custom_indices"
           },
           {
             "group": "international_indices_eod",
@@ -1165,12 +1169,6 @@
           },
           {
             "group": "dxy",
-            "priority": 300,
-            "perm": "permission_denied",
-            "skip_in_search": true
-          },
-          {
-            "group": "ind",
             "priority": 300,
             "perm": "permission_denied",
             "skip_in_search": true
@@ -4992,11 +4990,15 @@
         ]
       },
       {
+        "priority": 47,
         "prefix": "INDEX",
         "groups": [
           {
-            "group": "custom_indices",
-            "priority": 47
+            "group": "ind",
+            "skip_in_search": false
+          },
+          {
+            "group": "custom_indices"
           },
           {
             "group": "international_indices_eod",
@@ -5005,12 +5007,6 @@
           },
           {
             "group": "dxy",
-            "priority": 300,
-            "perm": "permission_denied",
-            "skip_in_search": true
-          },
-          {
-            "group": "ind",
             "priority": 300,
             "perm": "permission_denied",
             "skip_in_search": true
