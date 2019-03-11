@@ -893,7 +893,7 @@
           "delay": {
             "prefix": "TSE_DLY",
             "priority": 46,
-            "perm": "sf_dly"
+            "perm": "tse_dly"
           }
         }
       },
@@ -911,7 +911,7 @@
           "delay": {
             "prefix": "TSE_DLY",
             "priority": 46,
-            "perm": "sf_dly"
+            "perm": "tse_dly"
           }
         }
       },
@@ -929,6 +929,19 @@
           "delay": {
             "prefix": "XETR_DLY",
             "priority": 47
+          }
+        }
+      },
+      {
+        "id": "tokyo_stocks",
+        "kinds": {
+          "rt": {
+            "prefix": "TSE",
+            "priority": 47,
+            "perm": "tse",
+            "prefix_no_perm": [
+              "TSE_DLY"
+            ]
           }
         }
       },
@@ -1129,6 +1142,19 @@
               "CHXEUR"
             ],
             "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "sapporo_stocks",
+        "kinds": {
+          "rt": {
+            "prefix": "SAPSE",
+            "priority": 51,
+            "perm": "tse",
+            "prefix_no_perm": [
+              "SAPSE_DLY"
+            ]
           }
         }
       },
@@ -1408,6 +1434,19 @@
             "priority": 52,
             "prefix": "BMV_DLY",
             "perm": "bmv_dly"
+          }
+        }
+      },
+      {
+        "id": "fukuoka_stocks",
+        "kinds": {
+          "rt": {
+            "prefix": "FSE",
+            "priority": 52,
+            "perm": "tse",
+            "prefix_no_perm": [
+              "FSE_DLY"
+            ]
           }
         }
       },
@@ -2160,20 +2199,12 @@
         }
       },
       {
-        "id": "tokyo_stocks",
+        "id": "tokyo_lastsale_stocks",
         "kinds": {
-          "rt": {
-            "prefix": "TSE",
-            "priority": 47,
-            "perm": "tse",
-            "prefix_no_perm": [
-              "TSE_DLY"
-            ]
-          },
           "delay": {
             "prefix": "TSE_DLY",
             "priority": 57,
-            "perm": "sf_dly"
+            "perm": "tse_dly"
           }
         }
       },
@@ -2196,20 +2227,12 @@
         }
       },
       {
-        "id": "sapporo_stocks",
+        "id": "sapporo_lastsale_stocks",
         "kinds": {
-          "rt": {
-            "prefix": "SAPSE",
-            "priority": 51,
-            "perm": "tse",
-            "prefix_no_perm": [
-              "SAPSE_DLY"
-            ]
-          },
           "delay": {
             "prefix": "SAPSE_DLY",
             "priority": 58,
-            "perm": "sf_dly"
+            "perm": "tse_dly"
           }
         }
       },
@@ -2254,20 +2277,12 @@
         }
       },
       {
-        "id": "fukuoka_stocks",
+        "id": "fukuoka_lastsale_stocks",
         "kinds": {
-          "rt": {
-            "prefix": "FSE",
-            "priority": 52,
-            "perm": "tse",
-            "prefix_no_perm": [
-              "FSE_DLY"
-            ]
-          },
           "delay": {
             "prefix": "FSE_DLY",
             "priority": 59,
-            "perm": "sf_dly"
+            "perm": "tse_dly"
           }
         }
       },
@@ -6293,7 +6308,7 @@
           "delay": {
             "priority": 281,
             "prefix": "TADAWUL_DLY",
-            "perm": "sf_dly",
+            "perm": "tadawul_dly",
             "skip_in_search": true
           }
         }
@@ -6350,7 +6365,7 @@
           "delay": {
             "priority": 286,
             "prefix": "TADAWUL_DLY",
-            "perm": "sf_dly",
+            "perm": "tadawul_dly",
             "skip_in_search": true
           }
         }
