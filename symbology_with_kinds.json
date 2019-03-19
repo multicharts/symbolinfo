@@ -5605,6 +5605,33 @@
         }
       },
       {
+        "id": "canadian_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "CSE",
+            "priority": 49,
+            "perm": "cse_dly",
+            "prefix_no_perm": [
+              "CSE_DLY"
+            ]
+          },
+          "delay": {
+            "prefix": "CSE_DLY",
+            "priority": 54,
+            "perm": "cse_dly",
+            "prefix_no_perm": [
+              "CSE_EOD"
+            ],
+            "skip_in_search": true
+          },
+          "eod": {
+            "prefix": "CSE_EOD",
+            "priority": 154,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "canadian_stocks",
         "kinds": {
           "rt": {
