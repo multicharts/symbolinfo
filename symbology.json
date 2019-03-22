@@ -12,15 +12,6 @@
         ]
       },
       {
-        "prefix": "NOEDGR",
-        "resolve_mask": "EDGR:*",
-        "groups": [
-          {
-            "group": "edgar_fundamentals"
-          }
-        ]
-      },
-      {
         "prefix": "TV_CRYPTO",
         "groups": [
           {
@@ -1437,25 +1428,6 @@
             "priority": 300,
             "perm": "permission_denied",
             "skip_in_search": true
-          }
-        ]
-      },
-      {
-        "priority": 47,
-        "prefix": "CRAINS",
-        "groups": [
-          {
-            "group": "crains_indices"
-          }
-        ]
-      },
-      {
-        "priority": 47,
-        "prefix": "CRAINS_INTERNAL",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "crains_indices_internal"
           }
         ]
       },
@@ -4033,15 +4005,6 @@
         ]
       },
       {
-        "prefix": "NOEDGR",
-        "resolve_mask": "EDGR:*",
-        "groups": [
-          {
-            "group": "edgar_fundamentals"
-          }
-        ]
-      },
-      {
         "prefix": "TV_CRYPTO",
         "groups": [
           {
@@ -5458,25 +5421,6 @@
             "priority": 300,
             "perm": "permission_denied",
             "skip_in_search": true
-          }
-        ]
-      },
-      {
-        "priority": 47,
-        "prefix": "CRAINS",
-        "groups": [
-          {
-            "group": "crains_indices"
-          }
-        ]
-      },
-      {
-        "priority": 47,
-        "prefix": "CRAINS_INTERNAL",
-        "skip_in_search": true,
-        "groups": [
-          {
-            "group": "crains_indices_internal"
           }
         ]
       },
