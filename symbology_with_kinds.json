@@ -12,15 +12,6 @@
         }
       },
       {
-        "id": "edgar_fundamentals",
-        "kinds": {
-          "rt": {
-            "prefix": "NOEDGR",
-            "resolve_mask": "EDGR:*"
-          }
-        }
-      },
-      {
         "id": "xtv_crypto",
         "kinds": {
           "rt": {
@@ -2457,7 +2448,7 @@
             "prefix": "MIL_EOD",
             "priority": 61,
             "skip_in_search": true,
-            "perm": "mil_dly"
+            "perm": "mil_indices"
           }
         }
       },
