@@ -12,15 +12,6 @@
         ]
       },
       {
-        "prefix": "NOEDGR",
-        "resolve_mask": "EDGR:*",
-        "groups": [
-          {
-            "group": "edgar_fundamentals"
-          }
-        ]
-      },
-      {
         "prefix": "TV_CRYPTO",
         "groups": [
           {
@@ -3766,15 +3757,6 @@
         "groups": [
           {
             "group": "quandl"
-          }
-        ]
-      },
-      {
-        "prefix": "NOEDGR",
-        "resolve_mask": "EDGR:*",
-        "groups": [
-          {
-            "group": "edgar_fundamentals"
           }
         ]
       },
