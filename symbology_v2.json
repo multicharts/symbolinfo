@@ -12,15 +12,6 @@
         }
       },
       {
-        "id": "edgar_fundamentals",
-        "kinds": {
-          "rt": {
-            "prefix": "NOEDGR",
-            "resolve_mask": "EDGR:*"
-          }
-        }
-      },
-      {
         "id": "xtv_crypto",
         "kinds": {
           "rt": {
@@ -1394,25 +1385,6 @@
           "rt": {
             "prefix": "INDEX",
             "priority": 47
-          }
-        }
-      },
-      {
-        "id": "crains_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "CRAINS",
-            "priority": 47
-          }
-        }
-      },
-      {
-        "id": "crains_indices_internal",
-        "kinds": {
-          "rt": {
-            "prefix": "CRAINS_INTERNAL",
-            "priority": 47,
-            "skip_in_search": true
           }
         }
       },
