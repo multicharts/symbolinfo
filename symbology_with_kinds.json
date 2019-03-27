@@ -1642,15 +1642,23 @@
           "rt": {
             "priority": 53,
             "prefix": "BCBA",
+            "prefix_alias": [
+              "BYMA"
+            ],
             "prefix_no_perm": [
               "BCBA_DLY"
             ],
-            "perm": "bcba"
+            "perm": "bcba",
+            "exchange_for_display": "BYMA"
           },
           "delay": {
             "priority": 55,
             "prefix": "BCBA_DLY",
-            "perm": "bcba_dly"
+            "prefix_alias": [
+              "BYMA_DLY"
+            ],
+            "perm": "bcba_dly",
+            "exchange_for_display": "BYMA"
           }
         }
       },
@@ -1849,15 +1857,23 @@
           "rt": {
             "priority": 54,
             "prefix": "BCBA",
+            "prefix_alias": [
+              "BYMA"
+            ],
             "prefix_no_perm": [
               "BCBA_DLY"
             ],
-            "perm": "bcba"
+            "perm": "bcba",
+            "exchange_for_display": "BYMA"
           },
           "delay": {
             "priority": 56,
             "prefix": "BCBA_DLY",
-            "perm": "bcba_dly"
+            "prefix_alias": [
+              "BYMA_DLY"
+            ],
+            "perm": "bcba_dly",
+            "exchange_for_display": "BYMA"
           }
         }
       },
