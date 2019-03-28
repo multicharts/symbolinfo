@@ -2305,14 +2305,16 @@
             "prefix": "MIL",
             "prefix_no_perm": [
               "MIL_DLY"
-            ]
+            ],
+            "skip_in_search": true
           },
           "delay": {
             "priority": 51,
             "prefix": "MIL_DLY",
             "prefix_no_perm": [
               "MIL_EOD"
-            ]
+            ],
+            "skip_in_search": true
           },
           "eod": {
             "priority": 61,
