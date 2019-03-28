@@ -2444,28 +2444,28 @@
         "id": "milan_indices",
         "kinds": {
           "rt": {
-            "prefix": "MIL",
             "priority": 40,
+            "prefix": "MIL",
+            "perm": "permission_denied",
             "prefix_no_perm": [
               "MIL_DLY"
             ],
-            "skip_in_search": true,
-            "perm": "permission_denied"
+            "skip_in_search": true
           },
           "delay": {
-            "prefix": "MIL_DLY",
             "priority": 51,
+            "prefix": "MIL_DLY",
+            "perm": "permission_denied",
             "prefix_no_perm": [
               "MIL_EOD"
             ],
-            "skip_in_search": true,
-            "perm": "permission_denied"
+            "skip_in_search": true
           },
           "eod": {
-            "prefix": "MIL_EOD",
             "priority": 61,
-            "perm": "mil_indices",
-            "skip_in_search": true
+            "prefix": "MIL_EOD",
+            "skip_in_search": true,
+            "perm": "mil_indices"
           }
         }
       },
