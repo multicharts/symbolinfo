@@ -2446,6 +2446,7 @@
           "rt": {
             "prefix": "MIL",
             "priority": 40,
+            "skip_in_search": true,
             "perm": "permission_denied",
             "prefix_no_perm": [
               "MIL_DLY"
@@ -2454,11 +2455,11 @@
           "delay": {
             "prefix": "MIL_DLY",
             "priority": 51,
+            "skip_in_search": true,
             "perm": "permission_denied",
             "prefix_no_perm": [
               "MIL_EOD"
-            ],
-            "skip_in_search": true
+            ]
           },
           "eod": {
             "prefix": "MIL_EOD",
