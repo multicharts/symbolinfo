@@ -2446,23 +2446,26 @@
           "rt": {
             "priority": 40,
             "prefix": "MIL",
-            "perm": "mil",
+            "perm": "permission_denied",
             "prefix_no_perm": [
               "MIL_DLY"
-            ]
+            ],
+            "skip_in_search": true
           },
           "delay": {
             "priority": 51,
             "prefix": "MIL_DLY",
-            "perm": "mil_dly",
+            "perm": "permission_denied",
             "prefix_no_perm": [
               "MIL_EOD"
-            ]
+            ],
+            "skip_in_search": true
           },
           "eod": {
             "priority": 61,
             "prefix": "MIL_EOD",
-            "skip_in_search": true
+            "skip_in_search": true,
+            "perm": "mil_indices"
           }
         }
       },
