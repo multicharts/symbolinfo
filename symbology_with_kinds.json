@@ -4251,7 +4251,7 @@
             "prefix_no_perm": [
               "NSE_DLY"
             ],
-            "perm": "nse"
+            "perm": "nse_free"
           },
           "delay": {
             "priority": 52,
@@ -4279,7 +4279,7 @@
             "prefix_no_perm": [
               "NSE_DLY"
             ],
-            "perm": "nse"
+            "perm": "nse_free"
           },
           "delay": {
             "priority": 52,
@@ -4307,7 +4307,7 @@
             "prefix_no_perm": [
               "NSE_DLY"
             ],
-            "perm": "nse"
+            "perm": "nse_free"
           },
           "delay": {
             "priority": 52,
