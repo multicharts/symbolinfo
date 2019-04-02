@@ -4265,7 +4265,7 @@
             "prefix": "NSE_EOD",
             "priority": 101,
             "skip_in_search": true,
-            "perm": "nse_eod"
+            "perm": "permission_denied"
           }
         }
       },
@@ -4293,7 +4293,7 @@
             "prefix": "NSE_EOD",
             "priority": 101,
             "skip_in_search": true,
-            "perm": "nse_eod"
+            "perm": "permission_denied"
           }
         }
       },
@@ -4321,7 +4321,7 @@
             "prefix": "NSE_EOD",
             "priority": 101,
             "skip_in_search": true,
-            "perm": "nse_eod"
+            "perm": "permission_denied"
           }
         }
       },
