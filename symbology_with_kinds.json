@@ -4253,7 +4253,7 @@
             "prefix_no_perm": [
               "NSE_DLY"
             ],
-            "perm": "nse"
+            "perm": "nse_free"
           },
           "delay": {
             "priority": 52,
@@ -4267,7 +4267,7 @@
             "prefix": "NSE_EOD",
             "priority": 101,
             "skip_in_search": true,
-            "perm": "nse_eod"
+            "perm": "permission_denied"
           }
         }
       },
@@ -4281,7 +4281,7 @@
             "prefix_no_perm": [
               "NSE_DLY"
             ],
-            "perm": "nse"
+            "perm": "nse_free"
           },
           "delay": {
             "priority": 52,
@@ -4295,7 +4295,7 @@
             "prefix": "NSE_EOD",
             "priority": 101,
             "skip_in_search": true,
-            "perm": "nse_eod"
+            "perm": "permission_denied"
           }
         }
       },
@@ -4309,7 +4309,7 @@
             "prefix_no_perm": [
               "NSE_DLY"
             ],
-            "perm": "nse"
+            "perm": "nse_free"
           },
           "delay": {
             "priority": 52,
@@ -4323,7 +4323,7 @@
             "prefix": "NSE_EOD",
             "priority": 101,
             "skip_in_search": true,
-            "perm": "nse_eod"
+            "perm": "permission_denied"
           }
         }
       },
