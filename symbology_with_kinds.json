@@ -3395,8 +3395,7 @@
             "priority": 10,
             "prefix_alias": [
               "SP_DLY",
-              "INDEX",
-              "TVC"
+              "INDEX"
             ],
             "prefix_no_perm": [
               "SP_EOD"
