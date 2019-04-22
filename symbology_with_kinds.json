@@ -3654,8 +3654,7 @@
             "priority": 10,
             "prefix_alias": [
               "SP_DLY",
-              "INDEX",
-              "TVC"
+              "INDEX"
             ],
             "perm": "sp",
             "prefix_no_perm": [
