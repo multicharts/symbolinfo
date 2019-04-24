@@ -6328,6 +6328,128 @@
             "skip_in_search": true
           }
         }
+      },
+      {
+        "id": "comex_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "COMEX",
+            "priority": 150,
+            "prefix_no_perm": [
+              "COMEX_DL"
+            ],
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          },
+          "delay": {
+            "prefix": "COMEX_DL",
+            "priority": 250,
+            "prefix_no_perm": [
+              "COMEX_EOD"
+            ],
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          },
+          "eod": {
+            "prefix": "COMEX_EOD",
+            "priority": 350,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          }
+        }
+      },
+      {
+        "id": "comex_mini_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "COMEX_MINI",
+            "exchange_aliases": [
+              "COMEX"
+            ],
+            "priority": 150,
+            "prefix_no_perm": [
+              "COMEX_MINI_DL"
+            ],
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          },
+          "delay": {
+            "prefix": "COMEX_MINI_DL",
+            "priority": 250,
+            "prefix_no_perm": [
+              "COMEX_MINI_EOD"
+            ],
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          },
+          "eod": {
+            "prefix": "COMEX_MINI_EOD",
+            "priority": 350,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          }
+        }
+      },
+      {
+        "id": "comex_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "COMEX",
+            "priority": 150,
+            "prefix_no_perm": [
+              "COMEX_DL"
+            ],
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          },
+          "delay": {
+            "prefix": "COMEX_DL",
+            "priority": 250,
+            "prefix_no_perm": [
+              "COMEX_EOD"
+            ],
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          },
+          "eod": {
+            "prefix": "COMEX_EOD",
+            "priority": 350,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          }
+        }
+      },
+      {
+        "id": "comex_mini_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "COMEX_MINI",
+            "exchange_aliases": [
+              "COMEX"
+            ],
+            "priority": 150,
+            "prefix_no_perm": [
+              "COMEX_MINI_DL"
+            ],
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          },
+          "delay": {
+            "prefix": "COMEX_MINI_DL",
+            "priority": 250,
+            "prefix_no_perm": [
+              "COMEX_MINI_EOD"
+            ],
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          },
+          "eod": {
+            "prefix": "COMEX_MINI_EOD",
+            "priority": 350,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          }
+        }
       }
     ]
   },
