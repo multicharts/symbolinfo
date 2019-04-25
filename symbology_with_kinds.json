@@ -2303,7 +2303,7 @@
             "prefix_no_perm": [
               "TOCOM_DLY"
             ],
-            "skip_in_search": true
+            "skip_in_search": false
           },
           "delay": {
             "prefix": "TOCOM_DLY",
@@ -3683,10 +3683,9 @@
             "priority": 10,
             "prefix_alias": [
               "SP_DLY",
-              "INDEX",
-              "TVC"
+              "INDEX"
             ],
-            "perm": "spindices",
+            "perm": "sp",
             "prefix_no_perm": [
               "SP_EOD"
             ],
@@ -3696,6 +3695,7 @@
             "priority": 100,
             "prefix": "SP_EOD",
             "skip_in_search": true,
+            "perm": "sp_eod",
             "exchange_for_display": "S&P"
           }
         }
@@ -3711,7 +3711,7 @@
               "INDEX"
             ],
             "skip_in_search": false,
-            "perm": "djindices_dly",
+            "perm": "dj_dly",
             "prefix_no_perm": [
               "DJ_EOD"
             ],
@@ -3721,6 +3721,7 @@
             "prefix": "DJ_EOD",
             "priority": 100,
             "skip_in_search": true,
+            "perm": "dj_eod",
             "exchange_for_display": "Dow Jones"
           }
         }
