@@ -5081,59 +5081,6 @@
         }
       },
       {
-        "id": "comex_futures",
-        "kinds": {
-          "rt": {
-            "prefix": "COMEX",
-            "priority": 50,
-            "perm": "comex",
-            "prefix_no_perm": [
-              "COMEX_DL"
-            ]
-          },
-          "delay": {
-            "prefix": "COMEX_DL",
-            "priority": 50,
-            "perm": "comex_dly",
-            "prefix_no_perm": [
-              "COMEX_EOD"
-            ]
-          },
-          "eod": {
-            "prefix": "COMEX_EOD",
-            "priority": 150
-          }
-        }
-      },
-      {
-        "id": "comex_mini_futures",
-        "kinds": {
-          "rt": {
-            "prefix": "COMEX_MINI",
-            "exchange_aliases": [
-              "COMEX"
-            ],
-            "priority": 50,
-            "perm": "comex_mini",
-            "prefix_no_perm": [
-              "COMEX_MINI_DL"
-            ]
-          },
-          "delay": {
-            "prefix": "COMEX_MINI_DL",
-            "priority": 50,
-            "perm": "comex_mini",
-            "prefix_no_perm": [
-              "COMEX_MINI_EOD"
-            ]
-          },
-          "eod": {
-            "prefix": "COMEX_MINI_EOD",
-            "priority": 150
-          }
-        }
-      },
-      {
         "id": "cbot_migration_continuous",
         "kinds": {
           "rt": {
@@ -5462,59 +5409,6 @@
           },
           "eod": {
             "prefix": "CME_EOD",
-            "priority": 150
-          }
-        }
-      },
-      {
-        "id": "comex_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "COMEX",
-            "priority": 50,
-            "perm": "comex",
-            "prefix_no_perm": [
-              "COMEX_DL"
-            ]
-          },
-          "delay": {
-            "prefix": "COMEX_DL",
-            "priority": 50,
-            "perm": "comex_dly",
-            "prefix_no_perm": [
-              "COMEX_EOD"
-            ]
-          },
-          "eod": {
-            "prefix": "COMEX_EOD",
-            "priority": 150
-          }
-        }
-      },
-      {
-        "id": "comex_mini_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "COMEX_MINI",
-            "exchange_aliases": [
-              "COMEX"
-            ],
-            "priority": 50,
-            "perm": "comex_mini",
-            "prefix_no_perm": [
-              "COMEX_MINI_DL"
-            ]
-          },
-          "delay": {
-            "prefix": "COMEX_MINI_DL",
-            "priority": 50,
-            "perm": "comex_mini",
-            "prefix_no_perm": [
-              "COMEX_MINI_EOD"
-            ]
-          },
-          "eod": {
-            "prefix": "COMEX_MINI_EOD",
             "priority": 150
           }
         }
@@ -6324,6 +6218,67 @@
           "rt": {
             "prefix": "INDEX",
             "priority": 300,
+            "perm": "permission_denied",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "comex_migration",
+        "kinds": {
+          "rt": {
+            "prefix": "COMEX",
+            "priority": 150,
+            "prefix_no_perm": [
+              "COMEX_DL"
+            ],
+            "perm": "permission_denied",
+            "skip_in_search": true
+          },
+          "delay": {
+            "prefix": "COMEX_DL",
+            "priority": 250,
+            "prefix_no_perm": [
+              "COMEX_EOD"
+            ],
+            "perm": "permission_denied",
+            "skip_in_search": true
+          },
+          "eod": {
+            "prefix": "COMEX_EOD",
+            "priority": 350,
+            "perm": "permission_denied",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "comex_migration_mini",
+        "kinds": {
+          "rt": {
+            "prefix": "COMEX_MINI",
+            "exchange_aliases": [
+              "COMEX"
+            ],
+            "priority": 150,
+            "prefix_no_perm": [
+              "COMEX_MINI_DL"
+            ],
+            "perm": "permission_denied",
+            "skip_in_search": true
+          },
+          "delay": {
+            "prefix": "COMEX_MINI_DL",
+            "priority": 250,
+            "prefix_no_perm": [
+              "COMEX_MINI_EOD"
+            ],
+            "perm": "permission_denied",
+            "skip_in_search": true
+          },
+          "eod": {
+            "prefix": "COMEX_MINI_EOD",
+            "priority": 350,
             "perm": "permission_denied",
             "skip_in_search": true
           }
