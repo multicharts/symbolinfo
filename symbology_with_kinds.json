@@ -3397,6 +3397,7 @@
               "SP_DLY",
               "INDEX"
             ],
+            "perm": "sp",
             "prefix_no_perm": [
               "SP_EOD"
             ],
@@ -3406,6 +3407,10 @@
             "priority": 100,
             "prefix": "SP_EOD",
             "skip_in_search": true,
+            "perm": "sp_eod",
+            "prefix_no_perm": [
+              "TVC"
+            ],
             "exchange_for_display": "S&P"
           }
         }
@@ -3421,6 +3426,7 @@
               "INDEX"
             ],
             "skip_in_search": false,
+            "perm": "dj_dly",
             "prefix_no_perm": [
               "DJ_EOD"
             ],
@@ -3430,6 +3436,10 @@
             "prefix": "DJ_EOD",
             "priority": 100,
             "skip_in_search": true,
+            "perm": "dj_eod",
+            "prefix_no_perm": [
+              "TVC"
+            ],
             "exchange_for_display": "Dow Jones"
           }
         }
