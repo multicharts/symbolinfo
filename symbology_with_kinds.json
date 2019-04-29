@@ -4124,6 +4124,16 @@
         }
       },
       {
+        "id": "bybit",
+        "kinds": {
+          "rt": {
+            "prefix": "BYBIT",
+            "priority": 116,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "gocio_spreads",
         "kinds": {
           "rt": {
