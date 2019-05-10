@@ -190,28 +190,10 @@
         }
       },
       {
-        "id": "bitfinex",
+        "id": "bitstamp",
         "kinds": {
           "rt": {
-            "prefix": "BITFINEX",
-            "priority": 11
-          }
-        }
-      },
-      {
-        "id": "bitfinex_spreads",
-        "kinds": {
-          "rt": {
-            "prefix": "BITFINEX",
-            "priority": 11
-          }
-        }
-      },
-      {
-        "id": "bitfinex_forex_spreads",
-        "kinds": {
-          "rt": {
-            "prefix": "BITFINEX",
+            "prefix": "BITSTAMP",
             "priority": 11
           }
         }
@@ -241,15 +223,6 @@
         "kinds": {
           "rt": {
             "prefix": "OANDA",
-            "priority": 12
-          }
-        }
-      },
-      {
-        "id": "bitstamp",
-        "kinds": {
-          "rt": {
-            "prefix": "BITSTAMP",
             "priority": 12
           }
         }
@@ -320,6 +293,33 @@
             "priority": 13,
             "exchange_for_display": "FOREX.com",
             "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "bitfinex",
+        "kinds": {
+          "rt": {
+            "prefix": "BITFINEX",
+            "priority": 13
+          }
+        }
+      },
+      {
+        "id": "bitfinex_spreads",
+        "kinds": {
+          "rt": {
+            "prefix": "BITFINEX",
+            "priority": 13
+          }
+        }
+      },
+      {
+        "id": "bitfinex_forex_spreads",
+        "kinds": {
+          "rt": {
+            "prefix": "BITFINEX",
+            "priority": 13
           }
         }
       },
