@@ -3696,6 +3696,9 @@
             "prefix": "SP_EOD",
             "skip_in_search": true,
             "perm": "sp_eod",
+            "prefix_no_perm": [
+              "TVCSP"
+            ],
             "exchange_for_display": "S&P"
           }
         }
@@ -3722,6 +3725,9 @@
             "priority": 100,
             "skip_in_search": true,
             "perm": "dj_eod",
+            "prefix_no_perm": [
+              "TVCDJ"
+            ],
             "exchange_for_display": "Dow Jones"
           }
         }
@@ -6383,6 +6389,28 @@
             "priority": 286,
             "prefix": "BAHRAIN_DLY",
             "perm": "sf_dly",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "sp_tvc_indices",
+        "kinds": {
+          "rt": {
+            "priority": 300,
+            "prefix": "TVCSP",
+            "exchange_for_display": "TVC",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "dj_tvc_indices",
+        "kinds": {
+          "rt": {
+            "priority": 300,
+            "prefix": "TVCDJ",
+            "exchange_for_display": "TVC",
             "skip_in_search": true
           }
         }
