@@ -5776,11 +5776,11 @@
         "kinds": {
           "eod": {
             "skip_in_search": false,
-            "prefix": "ICEUSA_EOD",
+            "prefix": "ICEUS",
             "priority": 201,
             "prefix_alias": [
               "ICEUS_EOD",
-              "ICEUS",
+              "ICEUSA_EOD",
               "ICEUSA"
             ]
           }
@@ -5791,11 +5791,11 @@
         "kinds": {
           "eod": {
             "skip_in_search": false,
-            "prefix": "ICEUSA_EOD",
+            "prefix": "ICEUS",
             "priority": 201,
             "prefix_alias": [
               "ICEUS_EOD",
-              "ICEUS",
+              "ICEUSA_EOD",
               "ICEUSA"
             ]
           }
@@ -5806,10 +5806,10 @@
         "kinds": {
           "eod": {
             "skip_in_search": false,
-            "prefix": "ICEEUR_EOD",
+            "prefix": "ICEEUR",
             "priority": 211,
             "prefix_alias": [
-              "ICEEUR"
+              "ICEEUR_EOD"
             ]
           }
         }
@@ -5819,10 +5819,10 @@
         "kinds": {
           "eod": {
             "skip_in_search": false,
-            "prefix": "ICEEUR_EOD",
+            "prefix": "ICEEUR",
             "priority": 211,
             "prefix_alias": [
-              "ICEEUR"
+              "ICEEUR_EOD"
             ]
           }
         }
