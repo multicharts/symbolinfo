@@ -3625,15 +3625,6 @@
         }
       },
       {
-        "id": "worldbank",
-        "kinds": {
-          "rt": {
-            "prefix": "WORLDBANK",
-            "priority": 100
-          }
-        }
-      },
-      {
         "id": "frbp",
         "kinds": {
           "rt": {
