@@ -5157,6 +5157,65 @@
         }
       },
       {
+        "id": "comex_migration_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "COMEX",
+            "priority": 50,
+            "perm": "comex",
+            "prefix_no_perm": [
+              "COMEX_DL"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "prefix": "COMEX_DL",
+            "priority": 50,
+            "perm": "comex_dly",
+            "prefix_no_perm": [
+              "COMEX_EOD"
+            ],
+            "skip_in_search": false
+          },
+          "eod": {
+            "prefix": "COMEX_EOD",
+            "priority": 150,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "comex_migration_mini_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "COMEX_MINI",
+            "exchange_aliases": [
+              "COMEX"
+            ],
+            "priority": 50,
+            "perm": "comex_mini",
+            "prefix_no_perm": [
+              "COMEX_MINI_DL"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "prefix": "COMEX_MINI_DL",
+            "priority": 50,
+            "perm": "comex_mini_dly",
+            "prefix_no_perm": [
+              "COMEX_MINI_EOD"
+            ],
+            "skip_in_search": false
+          },
+          "eod": {
+            "prefix": "COMEX_MINI_EOD",
+            "priority": 150,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "cbot_migration_continuous",
         "kinds": {
           "rt": {
