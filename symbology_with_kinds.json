@@ -386,7 +386,7 @@
           "rt": {
             "prefix": "SAXO",
             "priority": 15,
-            "skip_in_search": true
+            "skip_in_search": false
           }
         }
       },
