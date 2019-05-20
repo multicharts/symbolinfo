@@ -381,6 +381,16 @@
         }
       },
       {
+        "id": "saxobank",
+        "kinds": {
+          "rt": {
+            "prefix": "SAXO",
+            "priority": 15,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "bitmex2",
         "kinds": {
           "rt": {
