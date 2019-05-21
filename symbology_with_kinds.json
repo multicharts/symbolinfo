@@ -6658,6 +6658,16 @@
             "perm": "permission_denied"
           }
         }
+      },
+      {
+        "id": "simulated",
+        "kinds": {
+          "rt": {
+            "prefix": "SIMULATED",
+            "priority": 500,
+            "skip_in_search": true
+          }
+        }
       }
     ]
   },
