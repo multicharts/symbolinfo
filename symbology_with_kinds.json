@@ -634,203 +634,6 @@
         }
       },
       {
-        "id": "cme_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "CME",
-            "prefix_no_perm": [
-              "CME_DL"
-            ],
-            "priority": 40,
-            "skip_in_search": false
-          },
-          "delay": {
-            "prefix": "CME_DL",
-            "priority": 40,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "cme_clearport_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "CME",
-            "prefix_no_perm": [
-              "CME_DL"
-            ],
-            "priority": 40,
-            "skip_in_search": false
-          },
-          "delay": {
-            "prefix": "CME_DL",
-            "priority": 40,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "cme_mini_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "CME_MINI",
-            "prefix_no_perm": [
-              "CME_MINI_DL"
-            ],
-            "priority": 40,
-            "skip_in_search": false
-          },
-          "delay": {
-            "prefix": "CME_MINI_DL",
-            "priority": 40,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "cme_mini2_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "CME_MINI",
-            "prefix_no_perm": [
-              "CME_MINI_DL"
-            ],
-            "priority": 40,
-            "skip_in_search": false
-          },
-          "delay": {
-            "prefix": "CME_MINI_DL",
-            "priority": 40,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "comex_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "COMEX",
-            "perm": "comex",
-            "prefix_no_perm": [
-              "COMEX_DL"
-            ],
-            "priority": 40,
-            "skip_in_search": false
-          },
-          "delay": {
-            "prefix": "COMEX_DL",
-            "perm": "tsx_dly",
-            "priority": 40,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "comex_mini_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "COMEX_MINI",
-            "exchange_aliases": [
-              "COMEX"
-            ],
-            "perm": "comex_mini",
-            "prefix_no_perm": [
-              "COMEX_MINI_DL"
-            ],
-            "priority": 40,
-            "skip_in_search": false
-          },
-          "delay": {
-            "prefix": "COMEX_MINI_DL",
-            "perm": "tsx_dly",
-            "priority": 40,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "cbot_globex_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "CBOT",
-            "prefix_no_perm": [
-              "CBOT_DL"
-            ],
-            "priority": 40,
-            "prefix_alias": [
-              "KCBT"
-            ]
-          },
-          "delay": {
-            "prefix": "CBOT_DL",
-            "priority": 40,
-            "prefix_alias": [
-              "KCBT"
-            ]
-          }
-        }
-      },
-      {
-        "id": "cbot_clearport_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "CBOT",
-            "prefix_no_perm": [
-              "CBOT_DL"
-            ],
-            "priority": 40,
-            "prefix_alias": [
-              "KCBT"
-            ]
-          },
-          "delay": {
-            "prefix": "CBOT_DL",
-            "priority": 40,
-            "prefix_alias": [
-              "KCBT"
-            ]
-          }
-        }
-      },
-      {
-        "id": "cbot_mini_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "CBOT_MINI",
-            "exchange_aliases": [
-              "CBOT"
-            ],
-            "prefix_no_perm": [
-              "CBOT_MINI_DL"
-            ],
-            "priority": 40
-          },
-          "delay": {
-            "prefix": "CBOT_MINI_DL",
-            "priority": 40
-          }
-        }
-      },
-      {
-        "id": "cbot_mini2_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "CBOT_MINI",
-            "exchange_aliases": [
-              "CBOT"
-            ],
-            "prefix_no_perm": [
-              "CBOT_MINI_DL"
-            ],
-            "priority": 40
-          },
-          "delay": {
-            "prefix": "CBOT_MINI_DL",
-            "priority": 40
-          }
-        }
-      },
-      {
         "id": "swiss_indices",
         "kinds": {
           "rt": {
@@ -1097,203 +900,6 @@
             "priority": 50,
             "search_boost": 2.0,
             "exchange_for_display": "IDC"
-          }
-        }
-      },
-      {
-        "id": "cbot_globex_futures",
-        "kinds": {
-          "rt": {
-            "prefix": "CBOT",
-            "prefix_no_perm": [
-              "CBOT_DL"
-            ],
-            "priority": 50,
-            "prefix_alias": [
-              "KCBT"
-            ]
-          },
-          "delay": {
-            "prefix": "CBOT_DL",
-            "priority": 50,
-            "prefix_alias": [
-              "KCBT"
-            ]
-          }
-        }
-      },
-      {
-        "id": "cbot_clearport_futures",
-        "kinds": {
-          "rt": {
-            "prefix": "CBOT",
-            "prefix_no_perm": [
-              "CBOT_DL"
-            ],
-            "priority": 50,
-            "prefix_alias": [
-              "KCBT"
-            ]
-          },
-          "delay": {
-            "prefix": "CBOT_DL",
-            "priority": 50,
-            "prefix_alias": [
-              "KCBT"
-            ]
-          }
-        }
-      },
-      {
-        "id": "cbot_mini_futures",
-        "kinds": {
-          "rt": {
-            "prefix": "CBOT_MINI",
-            "exchange_aliases": [
-              "CBOT"
-            ],
-            "prefix_no_perm": [
-              "CBOT_MINI_DL"
-            ],
-            "priority": 50
-          },
-          "delay": {
-            "prefix": "CBOT_MINI_DL",
-            "priority": 50
-          }
-        }
-      },
-      {
-        "id": "cbot_mini2_futures",
-        "kinds": {
-          "rt": {
-            "prefix": "CBOT_MINI",
-            "exchange_aliases": [
-              "CBOT"
-            ],
-            "prefix_no_perm": [
-              "CBOT_MINI_DL"
-            ],
-            "priority": 50
-          },
-          "delay": {
-            "prefix": "CBOT_MINI_DL",
-            "priority": 50
-          }
-        }
-      },
-      {
-        "id": "comex_futures",
-        "kinds": {
-          "rt": {
-            "prefix": "COMEX",
-            "perm": "comex",
-            "prefix_no_perm": [
-              "COMEX_DL"
-            ],
-            "priority": 50,
-            "skip_in_search": false
-          },
-          "delay": {
-            "prefix": "COMEX_DL",
-            "perm": "tsx_dly",
-            "priority": 50,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "comex_mini_futures",
-        "kinds": {
-          "rt": {
-            "prefix": "COMEX_MINI",
-            "exchange_aliases": [
-              "COMEX"
-            ],
-            "perm": "comex_mini",
-            "prefix_no_perm": [
-              "COMEX_MINI_DL"
-            ],
-            "priority": 50,
-            "skip_in_search": false
-          },
-          "delay": {
-            "prefix": "COMEX_MINI_DL",
-            "perm": "tsx_dly",
-            "priority": 50,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "cme_futures",
-        "kinds": {
-          "rt": {
-            "prefix": "CME",
-            "prefix_no_perm": [
-              "CME_DL"
-            ],
-            "priority": 50,
-            "skip_in_search": false
-          },
-          "delay": {
-            "prefix": "CME_DL",
-            "priority": 50,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "cme_clearport_futures",
-        "kinds": {
-          "rt": {
-            "prefix": "CME",
-            "prefix_no_perm": [
-              "CME_DL"
-            ],
-            "priority": 50,
-            "skip_in_search": false
-          },
-          "delay": {
-            "prefix": "CME_DL",
-            "priority": 50,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "cme_mini_futures",
-        "kinds": {
-          "rt": {
-            "prefix": "CME_MINI",
-            "prefix_no_perm": [
-              "CME_MINI_DL"
-            ],
-            "priority": 50,
-            "skip_in_search": false
-          },
-          "delay": {
-            "prefix": "CME_MINI_DL",
-            "priority": 50,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "cme_mini2_futures",
-        "kinds": {
-          "rt": {
-            "prefix": "CME_MINI",
-            "prefix_no_perm": [
-              "CME_MINI_DL"
-            ],
-            "priority": 50,
-            "skip_in_search": false
-          },
-          "delay": {
-            "prefix": "CME_MINI_DL",
-            "priority": 50,
-            "skip_in_search": false
           }
         }
       },
@@ -4751,6 +4357,259 @@
         }
       },
       {
+        "id": "cbot_globex_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "CBOT",
+            "priority": 50,
+            "prefix_no_perm": [
+              "CBOT_DL"
+            ],
+            "prefix_alias": [
+              "KCBT"
+            ]
+          },
+          "delay": {
+            "prefix": "CBOT_DL",
+            "priority": 51,
+            "prefix_no_perm": [
+              "CBOT_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "CBOT_EOD",
+            "priority": 150
+          }
+        }
+      },
+      {
+        "id": "cbot_clearport_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "CBOT",
+            "priority": 50,
+            "prefix_no_perm": [
+              "CBOT_DL"
+            ],
+            "prefix_alias": [
+              "KCBT"
+            ]
+          },
+          "delay": {
+            "prefix": "CBOT_DL",
+            "priority": 51,
+            "prefix_no_perm": [
+              "CBOT_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "CBOT_EOD",
+            "priority": 150
+          }
+        }
+      },
+      {
+        "id": "cbot_mini_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "CBOT_MINI",
+            "exchange_aliases": [
+              "CBOT"
+            ],
+            "priority": 50,
+            "prefix_no_perm": [
+              "CBOT_MINI_DL"
+            ]
+          },
+          "delay": {
+            "prefix": "CBOT_MINI_DL",
+            "priority": 51,
+            "prefix_no_perm": [
+              "CBOT_MINI_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "CBOT_MINI_EOD",
+            "priority": 150
+          }
+        }
+      },
+      {
+        "id": "cbot_mini2_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "CBOT_MINI",
+            "exchange_aliases": [
+              "CBOT"
+            ],
+            "priority": 50,
+            "prefix_no_perm": [
+              "CBOT_MINI_DL"
+            ]
+          },
+          "delay": {
+            "prefix": "CBOT_MINI_DL",
+            "priority": 51,
+            "prefix_no_perm": [
+              "CBOT_MINI_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "CBOT_MINI_EOD",
+            "priority": 150
+          }
+        }
+      },
+      {
+        "id": "comex_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "COMEX",
+            "priority": 50,
+            "prefix_no_perm": [
+              "COMEX_DL"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "prefix": "COMEX_EOD",
+            "priority": 150,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "comex_mini_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "COMEX_MINI",
+            "exchange_aliases": [
+              "COMEX"
+            ],
+            "priority": 50,
+            "prefix_no_perm": [
+              "COMEX_MINI_DL"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "prefix": "COMEX_MINI_EOD",
+            "priority": 150,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "cme_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "CME",
+            "priority": 50,
+            "prefix_no_perm": [
+              "CME_DL"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "prefix": "CME_DL",
+            "priority": 51,
+            "prefix_no_perm": [
+              "CME_EOD"
+            ],
+            "skip_in_search": false
+          },
+          "eod": {
+            "prefix": "CME_EOD",
+            "priority": 150,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "cme_clearport_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "CME",
+            "priority": 50,
+            "prefix_no_perm": [
+              "CME_DL"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "prefix": "CME_DL",
+            "priority": 51,
+            "prefix_no_perm": [
+              "CME_EOD"
+            ],
+            "skip_in_search": false
+          },
+          "eod": {
+            "prefix": "CME_EOD",
+            "priority": 150,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "cme_mini_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "CME_MINI",
+            "exchange_aliases": [
+              "CME"
+            ],
+            "priority": 50,
+            "prefix_no_perm": [
+              "CME_MINI_DL"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "prefix": "CME_MINI_DL",
+            "priority": 51,
+            "prefix_no_perm": [
+              "CME_MINI_EOD"
+            ],
+            "skip_in_search": false
+          },
+          "eod": {
+            "prefix": "CME_MINI_EOD",
+            "priority": 150,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "cme_mini2_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "CME_MINI",
+            "exchange_aliases": [
+              "CME"
+            ],
+            "priority": 50,
+            "prefix_no_perm": [
+              "CME_MINI_DL"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "prefix": "CME_MINI_DL",
+            "priority": 51,
+            "prefix_no_perm": [
+              "CME_MINI_EOD"
+            ],
+            "skip_in_search": false
+          },
+          "eod": {
+            "prefix": "CME_MINI_EOD",
+            "priority": 150,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "nymex_migration",
         "kinds": {
           "rt": {
@@ -4867,6 +4726,259 @@
           },
           "eod": {
             "prefix": "NYMEX_EOD",
+            "priority": 150
+          }
+        }
+      },
+      {
+        "id": "cme_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "CME",
+            "priority": 50,
+            "prefix_no_perm": [
+              "CME_DL"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "prefix": "CME_DL",
+            "priority": 51,
+            "prefix_no_perm": [
+              "CME_EOD"
+            ],
+            "skip_in_search": false
+          },
+          "eod": {
+            "prefix": "CME_EOD",
+            "priority": 150,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "cme_clearport_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "CME",
+            "priority": 50,
+            "prefix_no_perm": [
+              "CME_DL"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "prefix": "CME_DL",
+            "priority": 51,
+            "prefix_no_perm": [
+              "CME_EOD"
+            ],
+            "skip_in_search": false
+          },
+          "eod": {
+            "prefix": "CME_EOD",
+            "priority": 150,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "cme_mini_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "CME_MINI",
+            "exchange_aliases": [
+              "CME"
+            ],
+            "priority": 50,
+            "prefix_no_perm": [
+              "CME_MINI_DL"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "prefix": "CME_MINI_DL",
+            "priority": 51,
+            "prefix_no_perm": [
+              "CME_MINI_EOD"
+            ],
+            "skip_in_search": false
+          },
+          "eod": {
+            "prefix": "CME_MINI_EOD",
+            "priority": 150,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "cme_mini2_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "CME_MINI",
+            "exchange_aliases": [
+              "CME"
+            ],
+            "priority": 50,
+            "prefix_no_perm": [
+              "CME_MINI_DL"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "prefix": "CME_MINI_DL",
+            "priority": 51,
+            "prefix_no_perm": [
+              "CME_MINI_EOD"
+            ],
+            "skip_in_search": false
+          },
+          "eod": {
+            "prefix": "CME_MINI_EOD",
+            "priority": 150,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "comex_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "COMEX",
+            "priority": 50,
+            "prefix_no_perm": [
+              "COMEX_DL"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "prefix": "COMEX_EOD",
+            "priority": 150,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "comex_mini_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "COMEX_MINI",
+            "exchange_aliases": [
+              "COMEX"
+            ],
+            "priority": 50,
+            "prefix_no_perm": [
+              "COMEX_MINI_DL"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "prefix": "COMEX_MINI_EOD",
+            "priority": 150,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "cbot_globex_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "CBOT",
+            "priority": 50,
+            "prefix_no_perm": [
+              "CBOT_DL"
+            ],
+            "prefix_alias": [
+              "KCBT"
+            ]
+          },
+          "delay": {
+            "prefix": "CBOT_DL",
+            "priority": 51,
+            "prefix_no_perm": [
+              "CBOT_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "CBOT_EOD",
+            "priority": 150
+          }
+        }
+      },
+      {
+        "id": "cbot_clearport_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "CBOT",
+            "priority": 50,
+            "prefix_no_perm": [
+              "CBOT_DL"
+            ],
+            "prefix_alias": [
+              "KCBT"
+            ]
+          },
+          "delay": {
+            "prefix": "CBOT_DL",
+            "priority": 51,
+            "prefix_no_perm": [
+              "CBOT_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "CBOT_EOD",
+            "priority": 150
+          }
+        }
+      },
+      {
+        "id": "cbot_mini_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "CBOT_MINI",
+            "exchange_aliases": [
+              "CBOT"
+            ],
+            "priority": 50,
+            "prefix_no_perm": [
+              "CBOT_MINI_DL"
+            ]
+          },
+          "delay": {
+            "prefix": "CBOT_MINI_DL",
+            "priority": 51,
+            "prefix_no_perm": [
+              "CBOT_MINI_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "CBOT_MINI_EOD",
+            "priority": 150
+          }
+        }
+      },
+      {
+        "id": "cbot_mini2_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "CBOT_MINI",
+            "exchange_aliases": [
+              "CBOT"
+            ],
+            "priority": 50,
+            "prefix_no_perm": [
+              "CBOT_MINI_DL"
+            ]
+          },
+          "delay": {
+            "prefix": "CBOT_MINI_DL",
+            "priority": 51,
+            "prefix_no_perm": [
+              "CBOT_MINI_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "CBOT_MINI_EOD",
             "priority": 150
           }
         }
