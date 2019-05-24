@@ -247,16 +247,6 @@
         }
       },
       {
-        "id": "bitflyer",
-        "kinds": {
-          "rt": {
-            "prefix": "BITFLYER",
-            "priority": 12,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
         "id": "poloniex_spreads",
         "kinds": {
           "rt": {
