@@ -3,6 +3,17 @@
     "id": "tv",
     "groups": [
       {
+        "id": "dj_cfd_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "DJCFD",
+            "prefix_alias": [
+              "DJ"
+            ]
+          }
+        }
+      },
+      {
         "id": "quandl",
         "kinds": {
           "rt": {
@@ -75,6 +86,18 @@
             "prefix": "TVC",
             "priority": 10,
             "search_boost": 2.0
+          }
+        }
+      },
+      {
+        "id": "sp_cfd_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "SPCFD",
+            "prefix_alias": [
+              "SP"
+            ],
+            "priority": 10
           }
         }
       },
@@ -3384,57 +3407,6 @@
             "priority": 91,
             "prefix": "BELEX_DLY",
             "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "sp_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "SP",
-            "priority": 10,
-            "prefix_alias": [
-              "SP_DLY",
-              "INDEX"
-            ],
-            "perm": "sp",
-            "prefix_no_perm": [
-              "SP_EOD"
-            ],
-            "exchange_for_display": "S&P"
-          },
-          "eod": {
-            "priority": 100,
-            "prefix": "SP_EOD",
-            "skip_in_search": true,
-            "perm": "sp_eod",
-            "exchange_for_display": "S&P"
-          }
-        }
-      },
-      {
-        "id": "dj_indices",
-        "kinds": {
-          "delay": {
-            "prefix": "DJ",
-            "priority": 10,
-            "prefix_alias": [
-              "DJ_DLY",
-              "INDEX"
-            ],
-            "skip_in_search": false,
-            "perm": "dj_dly",
-            "prefix_no_perm": [
-              "DJ_EOD"
-            ],
-            "exchange_for_display": "Dow Jones"
-          },
-          "eod": {
-            "prefix": "DJ_EOD",
-            "priority": 100,
-            "skip_in_search": true,
-            "perm": "dj_eod",
-            "exchange_for_display": "Dow Jones"
           }
         }
       },
