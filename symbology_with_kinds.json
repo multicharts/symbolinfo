@@ -3408,9 +3408,6 @@
             "prefix": "SP_EOD",
             "skip_in_search": true,
             "perm": "sp_eod",
-            "prefix_no_perm": [
-              "SPCFD"
-            ],
             "exchange_for_display": "S&P"
           }
         }
@@ -3437,9 +3434,6 @@
             "priority": 100,
             "skip_in_search": true,
             "perm": "dj_eod",
-            "prefix_no_perm": [
-              "DJCFD"
-            ],
             "exchange_for_display": "Dow Jones"
           }
         }
@@ -6019,26 +6013,6 @@
           "delay": {
             "priority": 286,
             "prefix": "BAHRAIN_DLY",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "sp_cfd_indices",
-        "kinds": {
-          "rt": {
-            "priority": 300,
-            "prefix": "SPCFD",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "dj_cfd_indices",
-        "kinds": {
-          "rt": {
-            "priority": 300,
-            "prefix": "DJCFD",
             "skip_in_search": true
           }
         }
