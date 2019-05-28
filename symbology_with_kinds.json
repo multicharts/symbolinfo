@@ -4308,16 +4308,7 @@
         }
       },
       {
-        "id": "huobi_crypto",
-        "kinds": {
-          "rt": {
-            "prefix": "HUOBI",
-            "priority": 115
-          }
-        }
-      },
-      {
-        "id": "huobi_futures",
+        "id": "huobi2",
         "kinds": {
           "rt": {
             "prefix": "HUOBI",
