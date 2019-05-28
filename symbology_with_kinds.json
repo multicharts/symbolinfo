@@ -4241,15 +4241,6 @@
         }
       },
       {
-        "id": "G796",
-        "kinds": {
-          "rt": {
-            "prefix": "796",
-            "priority": 112
-          }
-        }
-      },
-      {
         "id": "ITBIT",
         "kinds": {
           "rt": {
@@ -4292,16 +4283,6 @@
           "rt": {
             "prefix": "BXTH",
             "priority": 112
-          }
-        }
-      },
-      {
-        "id": "HITBTC",
-        "kinds": {
-          "rt": {
-            "prefix": "HITBTC",
-            "priority": 113,
-            "skip_in_search": true
           }
         }
       },
