@@ -6333,46 +6333,6 @@
         }
       },
       {
-        "id": "luxembourg_indices",
-        "kinds": {
-          "rt": {
-            "priority": 269,
-            "prefix": "LUXSE",
-            "prefix_no_perm": [
-              "LUXSE_DLY"
-            ],
-            "perm": "luxse",
-            "skip_in_search": true
-          },
-          "delay": {
-            "priority": 270,
-            "prefix": "LUXSE_DLY",
-            "perm": "luxse",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "luxembourg_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 270,
-            "prefix": "LUXSE",
-            "prefix_no_perm": [
-              "LUXSE_DLY"
-            ],
-            "perm": "luxse",
-            "skip_in_search": true
-          },
-          "delay": {
-            "priority": 271,
-            "prefix": "LUXSE_DLY",
-            "perm": "luxse",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
         "id": "egyptian_indices",
         "kinds": {
           "rt": {
