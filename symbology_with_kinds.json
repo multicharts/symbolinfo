@@ -3122,6 +3122,15 @@
         }
       },
       {
+        "id": "cryptoindex_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "CRYPTOINDEX",
+            "priority": 80
+          }
+        }
+      },
+      {
         "id": "dubai_indices",
         "kinds": {
           "rt": {
