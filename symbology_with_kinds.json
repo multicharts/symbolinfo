@@ -5241,6 +5241,26 @@
         }
       },
       {
+        "id": "sp_cfd_indices_internal",
+        "kinds": {
+          "rt": {
+            "priority": 200,
+            "prefix": "SPCFDINTERNAL",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "dj_cfd_indices_internal",
+        "kinds": {
+          "rt": {
+            "priority": 200,
+            "prefix": "DJCFDINTERNAL",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "iceusa_futures",
         "kinds": {
           "eod": {
