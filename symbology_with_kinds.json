@@ -4378,93 +4378,6 @@
         }
       },
       {
-        "id": "cbot_migration",
-        "kinds": {
-          "rt": {
-            "prefix": "CBOT",
-            "perm": "cbot",
-            "prefix_no_perm": [
-              "CBOT_DL"
-            ],
-            "priority": 50,
-            "prefix_alias": [
-              "KCBT"
-            ]
-          },
-          "delay": {
-            "prefix": "CBOT_DL",
-            "perm": "cbot_dly",
-            "prefix_no_perm": [
-              "CBOT_EOD"
-            ],
-            "priority": 50,
-            "prefix_alias": [
-              "KCBT"
-            ]
-          },
-          "eod": {
-            "prefix": "CBOT_EOD",
-            "priority": 150,
-            "prefix_alias": [
-              "KCBT"
-            ]
-          }
-        }
-      },
-      {
-        "id": "cbot_migration_by_mini",
-        "kinds": {
-          "rt": {
-            "prefix": "CBOT",
-            "perm": "cbot",
-            "prefix_no_perm": [
-              "CBOT_DL"
-            ],
-            "priority": 50
-          },
-          "delay": {
-            "prefix": "CBOT_DL",
-            "perm": "cbot_dly",
-            "prefix_no_perm": [
-              "CBOT_EOD"
-            ],
-            "priority": 50
-          },
-          "eod": {
-            "prefix": "CBOT_EOD",
-            "priority": 150
-          }
-        }
-      },
-      {
-        "id": "cbot_migration_mini",
-        "kinds": {
-          "rt": {
-            "prefix": "CBOT_MINI",
-            "exchange_aliases": [
-              "CBOT"
-            ],
-            "perm": "cbot_mini",
-            "prefix_no_perm": [
-              "CBOT_MINI_DL"
-            ],
-            "priority": 50
-          },
-          "delay": {
-            "prefix": "CBOT_MINI_DL",
-            "perm": "cbot_mini_dly",
-            "prefix_no_perm": [
-              "CBOT_MINI_EOD"
-            ],
-            "priority": 50
-          },
-          "eod": {
-            "prefix": "CBOT_MINI_EOD",
-            "priority": 150
-          }
-        }
-      },
-      {
         "id": "nymex_migration",
         "kinds": {
           "rt": {
@@ -4755,94 +4668,110 @@
         }
       },
       {
-        "id": "cbot_migration_continuous",
+        "id": "cbot_globex_futures",
         "kinds": {
           "rt": {
             "prefix": "CBOT",
+            "priority": 50,
             "perm": "cbot",
             "prefix_no_perm": [
               "CBOT_DL"
             ],
-            "priority": 40,
             "prefix_alias": [
               "KCBT"
             ]
           },
           "delay": {
             "prefix": "CBOT_DL",
+            "priority": 51,
             "perm": "cbot_dly",
             "prefix_no_perm": [
               "CBOT_EOD"
-            ],
-            "priority": 40,
-            "prefix_alias": [
-              "KCBT"
             ]
           },
           "eod": {
             "prefix": "CBOT_EOD",
-            "priority": 150,
-            "prefix_alias": [
-              "KCBT"
-            ]
+            "priority": 150
           }
         }
       },
       {
-        "id": "cbot_migration_by_mini_continuous",
+        "id": "cbot_clearport_futures",
         "kinds": {
           "rt": {
             "prefix": "CBOT",
+            "priority": 50,
             "perm": "cbot",
             "prefix_no_perm": [
               "CBOT_DL"
             ],
-            "priority": 40,
             "prefix_alias": [
               "KCBT"
             ]
           },
           "delay": {
             "prefix": "CBOT_DL",
+            "priority": 51,
             "perm": "cbot_dly",
             "prefix_no_perm": [
               "CBOT_EOD"
-            ],
-            "priority": 40,
-            "prefix_alias": [
-              "KCBT"
             ]
           },
           "eod": {
             "prefix": "CBOT_EOD",
-            "priority": 150,
-            "prefix_alias": [
-              "KCBT"
-            ]
+            "priority": 150
           }
         }
       },
       {
-        "id": "cbot_migration_mini_continuous",
+        "id": "cbot_mini_futures",
         "kinds": {
           "rt": {
             "prefix": "CBOT_MINI",
             "exchange_aliases": [
               "CBOT"
             ],
+            "priority": 50,
             "perm": "cbot_mini",
             "prefix_no_perm": [
               "CBOT_MINI_DL"
-            ],
-            "priority": 40
+            ]
           },
           "delay": {
             "prefix": "CBOT_MINI_DL",
+            "priority": 51,
             "perm": "cbot_mini_dly",
             "prefix_no_perm": [
               "CBOT_MINI_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "CBOT_MINI_EOD",
+            "priority": 150
+          }
+        }
+      },
+      {
+        "id": "cbot_mini2_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "CBOT_MINI",
+            "exchange_aliases": [
+              "CBOT"
             ],
-            "priority": 40
+            "priority": 50,
+            "perm": "cbot_mini",
+            "prefix_no_perm": [
+              "CBOT_MINI_DL"
+            ]
+          },
+          "delay": {
+            "prefix": "CBOT_MINI_DL",
+            "priority": 51,
+            "perm": "cbot_mini_dly",
+            "prefix_no_perm": [
+              "CBOT_MINI_EOD"
+            ]
           },
           "eod": {
             "prefix": "CBOT_MINI_EOD",
@@ -5136,6 +5065,118 @@
           },
           "eod": {
             "prefix": "COMEX_MINI_EOD",
+            "priority": 150
+          }
+        }
+      },
+      {
+        "id": "cbot_globex_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "CBOT",
+            "priority": 50,
+            "perm": "cbot",
+            "prefix_no_perm": [
+              "CBOT_DL"
+            ],
+            "prefix_alias": [
+              "KCBT"
+            ]
+          },
+          "delay": {
+            "prefix": "CBOT_DL",
+            "priority": 51,
+            "perm": "cbot_dly",
+            "prefix_no_perm": [
+              "CBOT_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "CBOT_EOD",
+            "priority": 150
+          }
+        }
+      },
+      {
+        "id": "cbot_clearport_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "CBOT",
+            "priority": 50,
+            "perm": "cbot",
+            "prefix_no_perm": [
+              "CBOT_DL"
+            ],
+            "prefix_alias": [
+              "KCBT"
+            ]
+          },
+          "delay": {
+            "prefix": "CBOT_DL",
+            "priority": 51,
+            "perm": "cbot_dly",
+            "prefix_no_perm": [
+              "CBOT_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "CBOT_EOD",
+            "priority": 150
+          }
+        }
+      },
+      {
+        "id": "cbot_mini_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "CBOT_MINI",
+            "exchange_aliases": [
+              "CBOT"
+            ],
+            "priority": 50,
+            "perm": "cbot_mini",
+            "prefix_no_perm": [
+              "CBOT_MINI_DL"
+            ]
+          },
+          "delay": {
+            "prefix": "CBOT_MINI_DL",
+            "priority": 51,
+            "perm": "cbot_mini_dly",
+            "prefix_no_perm": [
+              "CBOT_MINI_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "CBOT_MINI_EOD",
+            "priority": 150
+          }
+        }
+      },
+      {
+        "id": "cbot_mini2_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "CBOT_MINI",
+            "exchange_aliases": [
+              "CBOT"
+            ],
+            "priority": 50,
+            "perm": "cbot_mini",
+            "prefix_no_perm": [
+              "CBOT_MINI_DL"
+            ]
+          },
+          "delay": {
+            "prefix": "CBOT_MINI_DL",
+            "priority": 51,
+            "perm": "cbot_mini_dly",
+            "prefix_no_perm": [
+              "CBOT_MINI_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "CBOT_MINI_EOD",
             "priority": 150
           }
         }
