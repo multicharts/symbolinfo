@@ -190,7 +190,7 @@
         }
       },
       {
-        "id": "bitstamp",
+        "id": "bitstamp2",
         "kinds": {
           "rt": {
             "prefix": "BITSTAMP",
