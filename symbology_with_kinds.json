@@ -250,7 +250,7 @@
         }
       },
       {
-        "id": "bitflyer",
+        "id": "bitflyer2",
         "kinds": {
           "rt": {
             "prefix": "BITFLYER",
