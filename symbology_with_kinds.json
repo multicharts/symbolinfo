@@ -3456,26 +3456,6 @@
         }
       },
       {
-        "id": "sp_cfd_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "SPCFD",
-            "priority": 100,
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "dj_cfd_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "DJCFD",
-            "priority": 100,
-            "skip_in_search": true
-          }
-        }
-      },
-      {
         "id": "toronto_indices",
         "kinds": {
           "rt": {
@@ -3566,6 +3546,26 @@
             "priority": 100,
             "prefix": "INDEX",
             "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "sp_cfd_indices",
+        "kinds": {
+          "rt": {
+            "priority": 100,
+            "prefix": "SPCFD",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "dj_cfd_indices",
+        "kinds": {
+          "rt": {
+            "priority": 100,
+            "prefix": "DJCFD",
+            "skip_in_search": true
           }
         }
       },
