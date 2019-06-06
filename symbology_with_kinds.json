@@ -4562,34 +4562,6 @@
         }
       },
       {
-        "id": "cme_migration_mini_by_migration",
-        "kinds": {
-          "rt": {
-            "prefix": "CME_MINI",
-            "exchange_aliases": [
-              "CME"
-            ],
-            "perm": "cme_mini",
-            "prefix_no_perm": [
-              "CME_MINI_DL"
-            ],
-            "priority": 50
-          },
-          "delay": {
-            "prefix": "CME_MINI_DL",
-            "perm": "cme_mini_dly",
-            "prefix_no_perm": [
-              "CME_MINI_EOD"
-            ],
-            "priority": 50
-          },
-          "eod": {
-            "prefix": "CME_MINI_EOD",
-            "priority": 150
-          }
-        }
-      },
-      {
         "id": "cme_migration_by_mini",
         "kinds": {
           "rt": {
@@ -4937,34 +4909,6 @@
       },
       {
         "id": "cme_migration_mini_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "CME_MINI",
-            "exchange_aliases": [
-              "CME"
-            ],
-            "perm": "cme_mini",
-            "prefix_no_perm": [
-              "CME_MINI_DL"
-            ],
-            "priority": 40
-          },
-          "delay": {
-            "prefix": "CME_MINI_DL",
-            "perm": "cme_mini_dly",
-            "prefix_no_perm": [
-              "CME_MINI_EOD"
-            ],
-            "priority": 40
-          },
-          "eod": {
-            "prefix": "CME_MINI_EOD",
-            "priority": 150
-          }
-        }
-      },
-      {
-        "id": "cme_migration_mini_by_migration_continuous",
         "kinds": {
           "rt": {
             "prefix": "CME_MINI",
