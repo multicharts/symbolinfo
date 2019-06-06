@@ -5648,6 +5648,18 @@
         }
       },
       {
+        "id": "ibroker_cme_cbt_futurossobreindicesmicro",
+        "kinds": {
+          "rt": {
+            "prefix": "IBROKER",
+            "priority": 220,
+            "hide_in_search": true,
+            "skip_in_search": false,
+            "perm": "ibroker_cme_cbt_futurossobreindicesmicro"
+          }
+        }
+      },
+      {
         "id": "jfd_fx",
         "kinds": {
           "rt": {
