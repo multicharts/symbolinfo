@@ -3,17 +3,6 @@
     "id": "tv",
     "groups": [
       {
-        "id": "dj_cfd_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "DJCFD",
-            "prefix_alias": [
-              "DJ"
-            ]
-          }
-        }
-      },
-      {
         "id": "quandl",
         "kinds": {
           "rt": {
@@ -90,14 +79,38 @@
         }
       },
       {
-        "id": "sp_cfd_indices",
+        "id": "sp_indices",
         "kinds": {
           "rt": {
-            "prefix": "SPCFD",
+            "prefix": "SP",
+            "priority": 10,
             "prefix_alias": [
-              "SP"
+              "SP_DLY",
+              "INDEX"
             ],
-            "priority": 10
+            "perm": "sp",
+            "prefix_no_perm": [
+              "SPCFD"
+            ],
+            "exchange_for_display": "S&P"
+          }
+        }
+      },
+      {
+        "id": "dj_indices",
+        "kinds": {
+          "delay": {
+            "prefix": "DJ",
+            "priority": 10,
+            "prefix_alias": [
+              "DJ_DLY",
+              "INDEX"
+            ],
+            "perm": "dj_dly",
+            "prefix_no_perm": [
+              "DJCFD"
+            ],
+            "exchange_for_display": "Dow Jones"
           }
         }
       },
@@ -3439,6 +3452,26 @@
             "priority": 100,
             "skip_in_search": true,
             "perm": "permission_denied"
+          }
+        }
+      },
+      {
+        "id": "sp_cfd_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "SPCFD",
+            "priority": 100,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "dj_cfd_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "DJCFD",
+            "priority": 100,
+            "skip_in_search": true
           }
         }
       },
