@@ -102,6 +102,7 @@
           "delay": {
             "prefix": "DJ",
             "priority": 10,
+            "skip_in_search": false,
             "prefix_alias": [
               "DJ_DLY",
               "INDEX"
