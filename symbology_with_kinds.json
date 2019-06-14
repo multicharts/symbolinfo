@@ -4379,15 +4379,6 @@
         }
       },
       {
-        "id": "FOXBIT",
-        "kinds": {
-          "rt": {
-            "prefix": "FOXBIT",
-            "priority": 112
-          }
-        }
-      },
-      {
         "id": "BITVC",
         "kinds": {
           "rt": {
@@ -4442,25 +4433,6 @@
           "rt": {
             "prefix": "HUOBI",
             "priority": 115
-          }
-        }
-      },
-      {
-        "id": "gocio_spreads",
-        "kinds": {
-          "rt": {
-            "prefix": "GOCIO",
-            "priority": 120,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "GOCIO",
-        "kinds": {
-          "rt": {
-            "prefix": "GOCIO",
-            "priority": 120
           }
         }
       },
