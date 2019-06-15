@@ -806,124 +806,6 @@
         }
       },
       {
-        "id": "comex_migration_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "COMEX",
-            "priority": 40,
-            "skip_in_search": true,
-            "perm": "permission_denied"
-          },
-          "delay": {
-            "prefix": "COMEX_DL",
-            "priority": 40,
-            "skip_in_search": true,
-            "perm": "permission_denied"
-          },
-          "eod": {
-            "prefix": "COMEX_EOD",
-            "priority": 40,
-            "skip_in_search": true,
-            "perm": "permission_denied"
-          }
-        }
-      },
-      {
-        "id": "comex_migration_mini_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "COMEX_MINI",
-            "exchange_aliases": [
-              "COMEX"
-            ],
-            "priority": 40,
-            "skip_in_search": true,
-            "perm": "permission_denied"
-          },
-          "delay": {
-            "prefix": "COMEX_MINI_DL",
-            "priority": 40,
-            "skip_in_search": true,
-            "perm": "permission_denied"
-          },
-          "eod": {
-            "prefix": "COMEX_MINI_EOD",
-            "priority": 40,
-            "skip_in_search": true,
-            "perm": "permission_denied"
-          }
-        }
-      },
-      {
-        "id": "cbot_migration_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "CBOT",
-            "priority": 40,
-            "skip_in_search": true,
-            "perm": "permission_denied"
-          },
-          "delay": {
-            "prefix": "CBOT_DL",
-            "priority": 40,
-            "skip_in_search": true,
-            "perm": "permission_denied"
-          },
-          "eod": {
-            "prefix": "CBOT_EOD",
-            "priority": 40,
-            "skip_in_search": true,
-            "perm": "permission_denied"
-          }
-        }
-      },
-      {
-        "id": "cbot_migration_by_mini_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "CBOT",
-            "priority": 40,
-            "skip_in_search": true,
-            "perm": "permission_denied"
-          },
-          "delay": {
-            "prefix": "CBOT_DL",
-            "priority": 40,
-            "skip_in_search": true,
-            "perm": "permission_denied"
-          },
-          "eod": {
-            "prefix": "CBOT_EOD",
-            "priority": 40,
-            "skip_in_search": true,
-            "perm": "permission_denied"
-          }
-        }
-      },
-      {
-        "id": "cbot_migration_mini_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "CBOT_MINI",
-            "priority": 40,
-            "skip_in_search": true,
-            "perm": "permission_denied"
-          },
-          "delay": {
-            "prefix": "CBOT_MINI_DL",
-            "priority": 40,
-            "skip_in_search": true,
-            "perm": "permission_denied"
-          },
-          "eod": {
-            "prefix": "CBOT_MINI_EOD",
-            "priority": 40,
-            "skip_in_search": true,
-            "perm": "permission_denied"
-          }
-        }
-      },
-      {
         "id": "swiss_indices",
         "kinds": {
           "rt": {
@@ -4620,84 +4502,6 @@
         }
       },
       {
-        "id": "cme_migration",
-        "kinds": {
-          "rt": {
-            "prefix": "CME",
-            "perm": "cme",
-            "prefix_no_perm": [
-              "CME_DL"
-            ],
-            "priority": 50
-          },
-          "delay": {
-            "prefix": "CME_DL",
-            "perm": "cme_dly",
-            "prefix_no_perm": [
-              "CME_EOD"
-            ],
-            "priority": 50
-          },
-          "eod": {
-            "prefix": "CME_EOD",
-            "priority": 150
-          }
-        }
-      },
-      {
-        "id": "cme_migration_mini",
-        "kinds": {
-          "rt": {
-            "prefix": "CME_MINI",
-            "exchange_aliases": [
-              "CME"
-            ],
-            "perm": "cme_mini",
-            "prefix_no_perm": [
-              "CME_MINI_DL"
-            ],
-            "priority": 50
-          },
-          "delay": {
-            "prefix": "CME_MINI_DL",
-            "perm": "cme_mini_dly",
-            "prefix_no_perm": [
-              "CME_MINI_EOD"
-            ],
-            "priority": 50
-          },
-          "eod": {
-            "prefix": "CME_MINI_EOD",
-            "priority": 150
-          }
-        }
-      },
-      {
-        "id": "cme_migration_by_mini",
-        "kinds": {
-          "rt": {
-            "prefix": "CME",
-            "perm": "cme",
-            "prefix_no_perm": [
-              "CME_DL"
-            ],
-            "priority": 50
-          },
-          "delay": {
-            "prefix": "CME_DL",
-            "perm": "cme_dly",
-            "prefix_no_perm": [
-              "CME_EOD"
-            ],
-            "priority": 50
-          },
-          "eod": {
-            "prefix": "CME_EOD",
-            "priority": 150
-          }
-        }
-      },
-      {
         "id": "comex_futures",
         "kinds": {
           "rt": {
@@ -4863,6 +4667,112 @@
         }
       },
       {
+        "id": "cme_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "CME",
+            "priority": 50,
+            "perm": "cme",
+            "prefix_no_perm": [
+              "CME_DL"
+            ]
+          },
+          "delay": {
+            "prefix": "CME_DL",
+            "priority": 51,
+            "perm": "cme_dly",
+            "prefix_no_perm": [
+              "CME_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "CME_EOD",
+            "priority": 150
+          }
+        }
+      },
+      {
+        "id": "cme_clearport_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "CME",
+            "priority": 50,
+            "perm": "cme",
+            "prefix_no_perm": [
+              "CME_DL"
+            ]
+          },
+          "delay": {
+            "prefix": "CME_DL",
+            "priority": 51,
+            "perm": "cme_dly",
+            "prefix_no_perm": [
+              "CME_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "CME_EOD",
+            "priority": 150
+          }
+        }
+      },
+      {
+        "id": "cme_mini_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "CME_MINI",
+            "exchange_aliases": [
+              "CME"
+            ],
+            "priority": 50,
+            "perm": "cme_mini",
+            "prefix_no_perm": [
+              "CME_MINI_DL"
+            ]
+          },
+          "delay": {
+            "prefix": "CME_MINI_DL",
+            "priority": 51,
+            "perm": "cme_mini_dly",
+            "prefix_no_perm": [
+              "CME_MINI_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "CME_MINI_EOD",
+            "priority": 150
+          }
+        }
+      },
+      {
+        "id": "cme_mini2_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "CME_MINI",
+            "exchange_aliases": [
+              "CME"
+            ],
+            "priority": 50,
+            "perm": "cme_mini",
+            "prefix_no_perm": [
+              "CME_MINI_DL"
+            ]
+          },
+          "delay": {
+            "prefix": "CME_MINI_DL",
+            "priority": 51,
+            "perm": "cme_mini_dly",
+            "prefix_no_perm": [
+              "CME_MINI_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "CME_MINI_EOD",
+            "priority": 150
+          }
+        }
+      },
+      {
         "id": "nymex_migration_continuous",
         "kinds": {
           "rt": {
@@ -4989,84 +4899,6 @@
           },
           "eod": {
             "prefix": "NYMEX_EOD",
-            "priority": 150
-          }
-        }
-      },
-      {
-        "id": "cme_migration_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "CME",
-            "perm": "cme",
-            "prefix_no_perm": [
-              "CME_DL"
-            ],
-            "priority": 40
-          },
-          "delay": {
-            "prefix": "CME_DL",
-            "perm": "cme_dly",
-            "prefix_no_perm": [
-              "CME_EOD"
-            ],
-            "priority": 40
-          },
-          "eod": {
-            "prefix": "CME_EOD",
-            "priority": 150
-          }
-        }
-      },
-      {
-        "id": "cme_migration_mini_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "CME_MINI",
-            "exchange_aliases": [
-              "CME"
-            ],
-            "perm": "cme_mini",
-            "prefix_no_perm": [
-              "CME_MINI_DL"
-            ],
-            "priority": 40
-          },
-          "delay": {
-            "prefix": "CME_MINI_DL",
-            "perm": "cme_mini_dly",
-            "prefix_no_perm": [
-              "CME_MINI_EOD"
-            ],
-            "priority": 40
-          },
-          "eod": {
-            "prefix": "CME_MINI_EOD",
-            "priority": 150
-          }
-        }
-      },
-      {
-        "id": "cme_migration_by_mini_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "CME",
-            "perm": "cme",
-            "prefix_no_perm": [
-              "CME_DL"
-            ],
-            "priority": 40
-          },
-          "delay": {
-            "prefix": "CME_DL",
-            "perm": "cme_dly",
-            "prefix_no_perm": [
-              "CME_EOD"
-            ],
-            "priority": 40
-          },
-          "eod": {
-            "prefix": "CME_EOD",
             "priority": 150
           }
         }
@@ -5232,6 +5064,112 @@
           },
           "eod": {
             "prefix": "CBOT_MINI_EOD",
+            "priority": 150
+          }
+        }
+      },
+      {
+        "id": "cme_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "CME",
+            "priority": 50,
+            "perm": "cme",
+            "prefix_no_perm": [
+              "CME_DL"
+            ]
+          },
+          "delay": {
+            "prefix": "CME_DL",
+            "priority": 51,
+            "perm": "cme_dly",
+            "prefix_no_perm": [
+              "CME_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "CME_EOD",
+            "priority": 150
+          }
+        }
+      },
+      {
+        "id": "cme_clearport_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "CME",
+            "priority": 50,
+            "perm": "cme",
+            "prefix_no_perm": [
+              "CME_DL"
+            ]
+          },
+          "delay": {
+            "prefix": "CME_DL",
+            "priority": 51,
+            "perm": "cme_dly",
+            "prefix_no_perm": [
+              "CME_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "CME_EOD",
+            "priority": 150
+          }
+        }
+      },
+      {
+        "id": "cme_mini_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "CME_MINI",
+            "exchange_aliases": [
+              "CME"
+            ],
+            "priority": 50,
+            "perm": "cme_mini",
+            "prefix_no_perm": [
+              "CME_MINI_DL"
+            ]
+          },
+          "delay": {
+            "prefix": "CME_MINI_DL",
+            "priority": 51,
+            "perm": "cme_mini_dly",
+            "prefix_no_perm": [
+              "CME_MINI_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "CME_MINI_EOD",
+            "priority": 150
+          }
+        }
+      },
+      {
+        "id": "cme_mini2_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "CME_MINI",
+            "exchange_aliases": [
+              "CME"
+            ],
+            "priority": 50,
+            "perm": "cme_mini",
+            "prefix_no_perm": [
+              "CME_MINI_DL"
+            ]
+          },
+          "delay": {
+            "prefix": "CME_MINI_DL",
+            "priority": 51,
+            "perm": "cme_mini_dly",
+            "prefix_no_perm": [
+              "CME_MINI_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "CME_MINI_EOD",
             "priority": 150
           }
         }
@@ -6033,6 +5971,262 @@
           },
           "eod": {
             "prefix": "CBOT_MINI_EOD",
+            "priority": 250,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          }
+        }
+      },
+      {
+        "id": "cme_migration",
+        "kinds": {
+          "rt": {
+            "prefix": "CME",
+            "priority": 250,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          },
+          "delay": {
+            "prefix": "CME_DL",
+            "priority": 250,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          },
+          "eod": {
+            "prefix": "CME_EOD",
+            "priority": 250,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          }
+        }
+      },
+      {
+        "id": "cme_migration_mini",
+        "kinds": {
+          "rt": {
+            "prefix": "CME_MINI",
+            "priority": 250,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          },
+          "delay": {
+            "prefix": "CME_MINI_DL",
+            "priority": 250,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          },
+          "eod": {
+            "prefix": "CME_MINI_EOD",
+            "priority": 250,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          }
+        }
+      },
+      {
+        "id": "cme_migration_by_mini",
+        "kinds": {
+          "rt": {
+            "prefix": "CME",
+            "priority": 250,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          },
+          "delay": {
+            "prefix": "CME_DL",
+            "priority": 250,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          },
+          "eod": {
+            "prefix": "CME_EOD",
+            "priority": 250,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          }
+        }
+      },
+      {
+        "id": "comex_migration_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "COMEX",
+            "priority": 250,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          },
+          "delay": {
+            "prefix": "COMEX_DL",
+            "priority": 250,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          },
+          "eod": {
+            "prefix": "COMEX_EOD",
+            "priority": 250,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          }
+        }
+      },
+      {
+        "id": "comex_migration_mini_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "COMEX_MINI",
+            "exchange_aliases": [
+              "COMEX"
+            ],
+            "priority": 250,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          },
+          "delay": {
+            "prefix": "COMEX_MINI_DL",
+            "priority": 250,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          },
+          "eod": {
+            "prefix": "COMEX_MINI_EOD",
+            "priority": 250,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          }
+        }
+      },
+      {
+        "id": "cbot_migration_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "CBOT",
+            "priority": 250,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          },
+          "delay": {
+            "prefix": "CBOT_DL",
+            "priority": 250,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          },
+          "eod": {
+            "prefix": "CBOT_EOD",
+            "priority": 250,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          }
+        }
+      },
+      {
+        "id": "cbot_migration_by_mini_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "CBOT",
+            "priority": 250,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          },
+          "delay": {
+            "prefix": "CBOT_DL",
+            "priority": 250,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          },
+          "eod": {
+            "prefix": "CBOT_EOD",
+            "priority": 250,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          }
+        }
+      },
+      {
+        "id": "cbot_migration_mini_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "CBOT_MINI",
+            "priority": 250,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          },
+          "delay": {
+            "prefix": "CBOT_MINI_DL",
+            "priority": 250,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          },
+          "eod": {
+            "prefix": "CBOT_MINI_EOD",
+            "priority": 250,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          }
+        }
+      },
+      {
+        "id": "cme_migration_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "CME",
+            "priority": 250,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          },
+          "delay": {
+            "prefix": "CME_DL",
+            "priority": 250,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          },
+          "eod": {
+            "prefix": "CME_EOD",
+            "priority": 250,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          }
+        }
+      },
+      {
+        "id": "cme_migration_mini_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "CME_MINI",
+            "priority": 250,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          },
+          "delay": {
+            "prefix": "CME_MINI_DL",
+            "priority": 250,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          },
+          "eod": {
+            "prefix": "CME_MINI_EOD",
+            "priority": 250,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          }
+        }
+      },
+      {
+        "id": "cme_migration_by_mini_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "CME",
+            "priority": 250,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          },
+          "delay": {
+            "prefix": "CME_DL",
+            "priority": 250,
+            "skip_in_search": true,
+            "perm": "permission_denied"
+          },
+          "eod": {
+            "prefix": "CME_EOD",
             "priority": 250,
             "skip_in_search": true,
             "perm": "permission_denied"
