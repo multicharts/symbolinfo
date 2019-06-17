@@ -213,7 +213,7 @@
         }
       },
       {
-        "id": "bitstamp",
+        "id": "bitstamp2",
         "kinds": {
           "rt": {
             "prefix": "BITSTAMP",
@@ -6202,6 +6202,17 @@
             "prefix": "SIMULATED",
             "priority": 500,
             "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "bitstamp",
+        "kinds": {
+          "rt": {
+            "prefix": "BITSTAMP",
+            "priority": 1000,
+            "skip_in_search": true,
+            "perm": "permission_denied"
           }
         }
       }
