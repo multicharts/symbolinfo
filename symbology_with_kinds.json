@@ -3378,7 +3378,8 @@
             "priority": 10,
             "prefix_alias": [
               "SP_DLY",
-              "INDEX"
+              "INDEX",
+              "TVCSP"
             ],
             "perm": "sp",
             "prefix_no_perm": [
@@ -3404,7 +3405,8 @@
             "skip_in_search": false,
             "prefix_alias": [
               "DJ_DLY",
-              "INDEX"
+              "INDEX",
+              "TVCDJ"
             ],
             "perm": "dj_dly",
             "prefix_no_perm": [
