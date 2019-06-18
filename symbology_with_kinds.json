@@ -4120,6 +4120,46 @@
         }
       },
       {
+        "id": "upbit_krw",
+        "kinds": {
+          "rt": {
+            "prefix": "UPBIT",
+            "priority": 117,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "upbit_btc",
+        "kinds": {
+          "rt": {
+            "prefix": "UPBIT",
+            "priority": 117,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "upbit_eth",
+        "kinds": {
+          "rt": {
+            "prefix": "UPBIT",
+            "priority": 117,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "upbit_usdt",
+        "kinds": {
+          "rt": {
+            "prefix": "UPBIT",
+            "priority": 117,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "gocio_spreads",
         "kinds": {
           "rt": {
