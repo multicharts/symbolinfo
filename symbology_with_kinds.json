@@ -3829,6 +3829,26 @@
         }
       },
       {
+        "id": "sp_cfd_indices",
+        "kinds": {
+          "rt": {
+            "priority": 100,
+            "prefix": "SPCFD",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "dj_cfd_indices",
+        "kinds": {
+          "rt": {
+            "priority": 100,
+            "prefix": "DJCFD",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "okcoin2",
         "kinds": {
           "rt": {
@@ -5360,6 +5380,26 @@
           "eod": {
             "priority": 176,
             "prefix": "GPW_EOD"
+          }
+        }
+      },
+      {
+        "id": "sp_cfd_indices_internal",
+        "kinds": {
+          "rt": {
+            "priority": 200,
+            "prefix": "SPCFDINTERNAL",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "dj_cfd_indices_internal",
+        "kinds": {
+          "rt": {
+            "priority": 200,
+            "prefix": "DJCFDINTERNAL",
+            "skip_in_search": true
           }
         }
       },
