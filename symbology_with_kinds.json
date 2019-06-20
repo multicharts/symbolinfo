@@ -3631,11 +3631,12 @@
             "priority": 10,
             "prefix_alias": [
               "SP_DLY",
-              "INDEX"
+              "INDEX",
+              "TVCSP"
             ],
             "perm": "sp",
             "prefix_no_perm": [
-              "SP_EOD"
+              "SPCFD"
             ],
             "exchange_for_display": "S&P"
           },
@@ -3644,9 +3645,6 @@
             "prefix": "SP_EOD",
             "skip_in_search": true,
             "perm": "sp_eod",
-            "prefix_no_perm": [
-              "TVCSP"
-            ],
             "exchange_for_display": "S&P"
           }
         }
@@ -3659,12 +3657,13 @@
             "priority": 10,
             "prefix_alias": [
               "DJ_DLY",
-              "INDEX"
+              "INDEX",
+              "TVCDJ"
             ],
             "skip_in_search": false,
             "perm": "dj_dly",
             "prefix_no_perm": [
-              "DJ_EOD"
+              "DJCFD"
             ],
             "exchange_for_display": "Dow Jones"
           },
@@ -3673,9 +3672,6 @@
             "priority": 100,
             "skip_in_search": true,
             "perm": "dj_eod",
-            "prefix_no_perm": [
-              "TVCDJ"
-            ],
             "exchange_for_display": "Dow Jones"
           }
         }
@@ -6221,28 +6217,6 @@
             "priority": 286,
             "prefix": "BAHRAIN_DLY",
             "perm": "sf_dly",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "sp_tvc_indices",
-        "kinds": {
-          "rt": {
-            "priority": 300,
-            "prefix": "TVCSP",
-            "exchange_for_display": "TVC",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "dj_tvc_indices",
-        "kinds": {
-          "rt": {
-            "priority": 300,
-            "prefix": "TVCDJ",
-            "exchange_for_display": "TVC",
             "skip_in_search": true
           }
         }
