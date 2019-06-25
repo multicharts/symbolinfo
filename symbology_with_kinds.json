@@ -477,18 +477,6 @@
         }
       },
       {
-        "id": "euro_bonds_futures",
-        "kinds": {
-          "rt": {
-            "prefix": "TVC",
-            "priority": 20,
-            "search_boost": 2.0,
-            "perm": "tvc_cfd",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
         "id": "canadian_bonds",
         "kinds": {
           "rt": {
@@ -5392,6 +5380,18 @@
           "eod": {
             "priority": 176,
             "prefix": "GPW_EOD"
+          }
+        }
+      },
+      {
+        "id": "euro_bonds_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 200,
+            "search_boost": 2.0,
+            "perm": "tvc_cfd",
+            "skip_in_search": true
           }
         }
       },
