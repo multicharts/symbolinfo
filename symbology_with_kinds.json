@@ -4664,7 +4664,7 @@
         }
       },
       {
-        "id": "nymex_futures2",
+        "id": "nymex2_futures",
         "kinds": {
           "rt": {
             "prefix": "NYMEX",
@@ -4998,7 +4998,7 @@
         }
       },
       {
-        "id": "nymex_continuous2",
+        "id": "nymex2_continuous",
         "kinds": {
           "rt": {
             "prefix": "NYMEX",
