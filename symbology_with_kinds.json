@@ -6286,17 +6286,6 @@
             "skip_in_search": true
           }
         }
-      },
-      {
-        "id": "bitstamp",
-        "kinds": {
-          "rt": {
-            "prefix": "BITSTAMP",
-            "priority": 1000,
-            "skip_in_search": true,
-            "perm": "permission_denied"
-          }
-        }
       }
     ]
   },
