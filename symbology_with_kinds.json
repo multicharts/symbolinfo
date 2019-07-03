@@ -5254,6 +5254,52 @@
         }
       },
       {
+        "id": "comex_migration_mini",
+        "kinds": {
+          "rt": {
+            "prefix": "OLD_COMEX_MINI",
+            "priority": 150,
+            "prefix_no_perm": [
+              "OLD_COMEX_MINI_DL"
+            ]
+          },
+          "delay": {
+            "prefix": "OLD_COMEX_MINI_DL",
+            "priority": 151,
+            "prefix_no_perm": [
+              "OLD_COMEX_MINI_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "OLD_COMEX_MINI_EOD",
+            "priority": 152
+          }
+        }
+      },
+      {
+        "id": "comex_migration_mini_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "OLD_COMEX_MINI",
+            "priority": 150,
+            "prefix_no_perm": [
+              "OLD_COMEX_MINI_DL"
+            ]
+          },
+          "delay": {
+            "prefix": "OLD_COMEX_MINI_DL",
+            "priority": 151,
+            "prefix_no_perm": [
+              "OLD_COMEX_MINI_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "OLD_COMEX_MINI_EOD",
+            "priority": 152
+          }
+        }
+      },
+      {
         "id": "canadian_indices",
         "kinds": {
           "rt": {
