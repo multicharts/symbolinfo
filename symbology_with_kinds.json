@@ -6024,6 +6024,15 @@
         }
       },
       {
+        "id": "crypto_market_caps2",
+        "kinds": {
+          "rt": {
+            "prefix": "CRYPTOCAP2",
+            "priority": 300
+          }
+        }
+      },
+      {
         "id": "simulated",
         "kinds": {
           "rt": {
