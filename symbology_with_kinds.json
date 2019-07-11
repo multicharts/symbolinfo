@@ -4573,7 +4573,7 @@
           "delay": {
             "prefix": "COMEX_MINI_DL",
             "priority": 50,
-            "perm": "comex_mini",
+            "perm": "comex_mini_dly",
             "prefix_no_perm": [
               "COMEX_MINI_EOD"
             ]
@@ -4987,7 +4987,7 @@
           "delay": {
             "prefix": "COMEX_MINI_DL",
             "priority": 50,
-            "perm": "comex_mini",
+            "perm": "comex_mini_dly",
             "prefix_no_perm": [
               "COMEX_MINI_EOD"
             ]
