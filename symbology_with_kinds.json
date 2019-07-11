@@ -3,6 +3,13 @@
     "id": "tv",
     "groups": [
       {
+        "id": "thailand_futures",
+        "kinds": {
+          "rt": {
+          }
+        }
+      },
+      {
         "id": "quandl",
         "kinds": {
           "rt": {
