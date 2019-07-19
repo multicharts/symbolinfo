@@ -2156,6 +2156,28 @@
         }
       },
       {
+        "id": "euronext_futures",
+        "kinds": {
+          "rt": {
+            "priority": 59,
+            "prefix": "EURONEXT",
+            "prefix_alias": [
+
+            ],
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 60,
+            "prefix": "EURONEXT_DLY",
+            "prefix_alias": [
+
+            ]
+          }
+        }
+      },
+      {
         "id": "asx_stocks",
         "kinds": {
           "rt": {
@@ -2273,6 +2295,28 @@
             "prefix": "EURONEXT_DLY",
             "prefix_alias": [
               "EURONEXTPAR_DLY"
+            ]
+          }
+        }
+      },
+      {
+        "id": "euronext_continuous",
+        "kinds": {
+          "rt": {
+            "priority": 59,
+            "prefix": "EURONEXT",
+            "prefix_alias": [
+
+            ],
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 60,
+            "prefix": "EURONEXT_DLY",
+            "prefix_alias": [
+
             ]
           }
         }
