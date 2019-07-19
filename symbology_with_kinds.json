@@ -222,7 +222,7 @@
         }
       },
       {
-        "id": "coinbase2",
+        "id": "coinbase",
         "kinds": {
           "rt": {
             "prefix": "COINBASE",
