@@ -2779,7 +2779,23 @@
         }
       },
       {
-        "id": "singapore_futures",
+        "id": "singapore_commodity_futures",
+        "kinds": {
+          "rt": {
+            "priority": 55,
+            "prefix": "SGX",
+            "prefix_no_perm": [
+              "SGX_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 66,
+            "prefix": "SGX_DLY"
+          }
+        }
+      },
+      {
+        "id": "singapore_derivative_futures",
         "kinds": {
           "rt": {
             "priority": 55,
@@ -2811,7 +2827,23 @@
         }
       },
       {
-        "id": "singapore_continuous",
+        "id": "singapore_commodity_continuous",
+        "kinds": {
+          "rt": {
+            "priority": 55,
+            "prefix": "SGX",
+            "prefix_no_perm": [
+              "SGX_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 66,
+            "prefix": "SGX_DLY"
+          }
+        }
+      },
+      {
+        "id": "singapore_derivative_continuous",
         "kinds": {
           "rt": {
             "priority": 55,
