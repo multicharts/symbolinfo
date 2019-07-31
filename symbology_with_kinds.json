@@ -5143,6 +5143,15 @@
         }
       },
       {
+        "id": "kraken_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "KRAKEN",
+            "priority": 150
+          }
+        }
+      },
+      {
         "id": "canadian_stocks",
         "kinds": {
           "rt": {
