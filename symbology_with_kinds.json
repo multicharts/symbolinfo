@@ -372,15 +372,6 @@
         }
       },
       {
-        "id": "usi",
-        "kinds": {
-          "rt": {
-            "prefix": "USI",
-            "priority": 15
-          }
-        }
-      },
-      {
         "id": "saxobank",
         "kinds": {
           "rt": {
@@ -3494,6 +3485,15 @@
             "prefix_alias": [
               "OTC_EOD"
             ]
+          }
+        }
+      },
+      {
+        "id": "usi",
+        "kinds": {
+          "rt": {
+            "prefix": "USI",
+            "priority": 85
           }
         }
       },
