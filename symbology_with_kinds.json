@@ -2155,7 +2155,6 @@
           "delay": {
             "prefix": "ASX_DLY",
             "priority": 57,
-            "perm": "asx_dly",
             "prefix_alias": [
               "INDEX"
             ]
@@ -2335,8 +2334,7 @@
           },
           "delay": {
             "prefix": "ASX_DLY",
-            "priority": 60,
-            "perm": "asx_dly"
+            "priority": 60
           }
         }
       },
