@@ -4367,6 +4367,16 @@
         }
       },
       {
+        "id": "ftx",
+        "kinds": {
+          "rt": {
+            "prefix": "FTX",
+            "priority": 120,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "cboe_futures",
         "kinds": {
           "eod": {
