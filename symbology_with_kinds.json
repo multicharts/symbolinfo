@@ -47,7 +47,10 @@
         "kinds": {
           "rt": {
             "prefix": "ESD_FACTSET",
-            "skip_in_search": true
+            "skip_in_search": true,
+            "prefix_alias": [
+              "ESD"
+            ]
           }
         }
       },
