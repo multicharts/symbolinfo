@@ -52,6 +52,15 @@
         }
       },
       {
+        "id": "esd",
+        "kinds": {
+          "rt": {
+            "prefix": "ESD",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "fxcm",
         "kinds": {
           "rt": {
