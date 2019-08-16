@@ -43,10 +43,10 @@
         }
       },
       {
-        "id": "esd",
+        "id": "esd_factset",
         "kinds": {
           "rt": {
-            "prefix": "ESD",
+            "prefix": "ESD_FACTSET",
             "skip_in_search": true
           }
         }
