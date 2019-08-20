@@ -213,6 +213,32 @@
         }
       },
       {
+        "id": "sp_cfd_indices",
+        "kinds": {
+          "rt": {
+            "priority": 10,
+            "prefix": "SPCFD",
+            "prefix_alias": [
+              "SP",
+              "SP_DLY"
+            ]
+          }
+        }
+      },
+      {
+        "id": "dj_cfd_indices",
+        "kinds": {
+          "rt": {
+            "priority": 10,
+            "prefix": "DJCFD",
+            "prefix_alias": [
+              "DJ",
+              "DJ_DLY"
+            ]
+          }
+        }
+      },
+      {
         "id": "bitstamp2",
         "kinds": {
           "rt": {
@@ -3646,59 +3672,6 @@
         }
       },
       {
-        "id": "sp_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "SP",
-            "priority": 10,
-            "prefix_alias": [
-              "SP_DLY",
-              "INDEX",
-              "TVCSP"
-            ],
-            "perm": "sp",
-            "prefix_no_perm": [
-              "SPCFD"
-            ],
-            "exchange_for_display": "S&P"
-          },
-          "eod": {
-            "priority": 100,
-            "prefix": "SP_EOD",
-            "skip_in_search": true,
-            "perm": "sp_eod",
-            "exchange_for_display": "S&P"
-          }
-        }
-      },
-      {
-        "id": "dj_indices",
-        "kinds": {
-          "delay": {
-            "prefix": "DJ",
-            "priority": 10,
-            "prefix_alias": [
-              "DJ_DLY",
-              "INDEX",
-              "TVCDJ"
-            ],
-            "skip_in_search": false,
-            "perm": "dj_dly",
-            "prefix_no_perm": [
-              "DJCFD"
-            ],
-            "exchange_for_display": "Dow Jones"
-          },
-          "eod": {
-            "prefix": "DJ_EOD",
-            "priority": 100,
-            "skip_in_search": true,
-            "perm": "dj_eod",
-            "exchange_for_display": "Dow Jones"
-          }
-        }
-      },
-      {
         "id": "cboe_indices",
         "kinds": {
           "delay": {
@@ -3843,26 +3816,6 @@
             "priority": 100,
             "prefix": "INDEX",
             "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "sp_cfd_indices",
-        "kinds": {
-          "rt": {
-            "priority": 100,
-            "prefix": "SPCFD",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "dj_cfd_indices",
-        "kinds": {
-          "rt": {
-            "priority": 100,
-            "prefix": "DJCFD",
-            "skip_in_search": true
           }
         }
       },
