@@ -3,20 +3,6 @@
     "id": "tv",
     "groups": [
       {
-        "id": "thailand_futures",
-        "kinds": {
-          "rt": {
-          }
-        }
-      },
-      {
-        "id": "thailand_continuous",
-        "kinds": {
-          "rt": {
-          }
-        }
-      },
-      {
         "id": "quandl",
         "kinds": {
           "rt": {
@@ -1640,6 +1626,40 @@
             "priority": 55,
             "prefix": "SET_DLY",
             "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "thailand_futures",
+        "kinds": {
+          "rt": {
+            "priority": 54,
+            "prefix": "TFEX",
+            "prefix_no_perm": [
+              "TFEX_DLY"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "priority": 55,
+            "prefix": "TFEX_DLY"
+          }
+        }
+      },
+      {
+        "id": "thailand_continuous",
+        "kinds": {
+          "rt": {
+            "priority": 54,
+            "prefix": "TFEX",
+            "prefix_no_perm": [
+              "TFEX_DLY"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "priority": 55,
+            "prefix": "TFEX_DLY"
           }
         }
       },
