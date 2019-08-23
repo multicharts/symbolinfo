@@ -1055,6 +1055,23 @@
         }
       },
       {
+        "id": "singapore_main_indices",
+        "kinds": {
+          "rt": {
+            "priority": 50,
+            "prefix": "SGX",
+            "prefix_no_perm": [
+              "SGX_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 51,
+            "prefix": "SGX_DLY",
+            "perm": "tsx_dly"
+          }
+        }
+      },
+      {
         "id": "istanbul_indices",
         "kinds": {
           "rt": {
