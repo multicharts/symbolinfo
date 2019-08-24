@@ -38,6 +38,15 @@
         }
       },
       {
+        "id": "esd_factset",
+        "kinds": {
+          "rt": {
+            "prefix": "ESD_FACTSET",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "forex_tvc",
         "kinds": {
           "rt": {
