@@ -3,20 +3,6 @@
     "id": "tv",
     "groups": [
       {
-        "id": "thailand_futures",
-        "kinds": {
-          "rt": {
-          }
-        }
-      },
-      {
-        "id": "thailand_continuous",
-        "kinds": {
-          "rt": {
-          }
-        }
-      },
-      {
         "id": "quandl",
         "kinds": {
           "rt": {
@@ -43,16 +29,16 @@
         }
       },
       {
-        "id": "esd_factset",
+        "id": "esd",
         "kinds": {
           "rt": {
-            "prefix": "ESD_FACTSET",
+            "prefix": "ESD",
             "skip_in_search": true
           }
         }
       },
       {
-        "id": "esd",
+        "id": "esd_factset",
         "kinds": {
           "rt": {
             "prefix": "ESD",
@@ -990,6 +976,48 @@
         }
       },
       {
+        "id": "nse_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 51,
+            "search_boost": 0.6,
+            "prefix": "NSE",
+            "prefix_alias": [
+              "NSE_DLY",
+              "NSE_EOD"
+            ]
+          }
+        }
+      },
+      {
+        "id": "nse_emerge_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 51,
+            "search_boost": 0.6,
+            "prefix": "NSE",
+            "prefix_alias": [
+              "NSE_DLY",
+              "NSE_EOD"
+            ]
+          }
+        }
+      },
+      {
+        "id": "nse_indices",
+        "kinds": {
+          "rt": {
+            "priority": 51,
+            "search_boost": 0.6,
+            "prefix": "NSE",
+            "prefix_alias": [
+              "NSE_DLY",
+              "NSE_EOD"
+            ]
+          }
+        }
+      },
+      {
         "id": "sapporo_stocks",
         "kinds": {
           "rt": {
@@ -1062,6 +1090,23 @@
       },
       {
         "id": "singapore_indices",
+        "kinds": {
+          "rt": {
+            "priority": 50,
+            "prefix": "SGX",
+            "prefix_no_perm": [
+              "SGX_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 51,
+            "prefix": "SGX_DLY",
+            "perm": "tsx_dly"
+          }
+        }
+      },
+      {
+        "id": "singapore_main_indices",
         "kinds": {
           "rt": {
             "priority": 50,
@@ -1649,6 +1694,40 @@
             "priority": 55,
             "prefix": "SET_DLY",
             "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "thailand_futures",
+        "kinds": {
+          "rt": {
+            "priority": 54,
+            "prefix": "TFEX",
+            "prefix_no_perm": [
+              "TFEX_DLY"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "priority": 55,
+            "prefix": "TFEX_DLY"
+          }
+        }
+      },
+      {
+        "id": "thailand_continuous",
+        "kinds": {
+          "rt": {
+            "priority": 54,
+            "prefix": "TFEX",
+            "prefix_no_perm": [
+              "TFEX_DLY"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "priority": 55,
+            "prefix": "TFEX_DLY"
           }
         }
       },
@@ -3683,81 +3762,6 @@
         }
       },
       {
-        "id": "nse_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 51,
-            "search_boost": 0.6,
-            "prefix": "NSE",
-            "prefix_no_perm": [
-              "NSE_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 52,
-            "prefix": "NSE_DLY",
-            "prefix_no_perm": [
-              "NSE_EOD"
-            ]
-          },
-          "eod": {
-            "prefix": "NSE_EOD",
-            "priority": 101,
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "nse_emerge_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 51,
-            "search_boost": 0.6,
-            "prefix": "NSE",
-            "prefix_no_perm": [
-              "NSE_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 52,
-            "prefix": "NSE_DLY",
-            "prefix_no_perm": [
-              "NSE_EOD"
-            ]
-          },
-          "eod": {
-            "prefix": "NSE_EOD",
-            "priority": 101,
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "nse_indices",
-        "kinds": {
-          "rt": {
-            "priority": 51,
-            "search_boost": 0.6,
-            "prefix": "NSE",
-            "prefix_no_perm": [
-              "NSE_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 52,
-            "prefix": "NSE_DLY",
-            "prefix_no_perm": [
-              "NSE_EOD"
-            ]
-          },
-          "eod": {
-            "prefix": "NSE_EOD",
-            "priority": 101,
-            "skip_in_search": true
-          }
-        }
-      },
-      {
         "id": "bse_stocks",
         "kinds": {
           "rt": {
@@ -5120,6 +5124,16 @@
           "rt": {
             "prefix": "KRAKEN",
             "priority": 150
+          }
+        }
+      },
+      {
+        "id": "cmc",
+        "kinds": {
+          "rt": {
+            "prefix": "CMC",
+            "priority": 150,
+            "skip_in_search": false
           }
         }
       },
