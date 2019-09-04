@@ -6124,27 +6124,7 @@
     "id": "cme",
     "groups": [
       {
-        "id": "cme_globex",
-        "kinds": {
-          "delay": {
-            "prefix": "CME_GBX",
-            "priority": 50,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "cme_pit",
-        "kinds": {
-          "delay": {
-            "prefix": "CME_PIT",
-            "priority": 51,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "cbot",
+        "id": "cbot_globex_futures",
         "kinds": {
           "delay": {
             "prefix": "CBOT",
@@ -6158,7 +6138,21 @@
         }
       },
       {
-        "id": "cbot_mini",
+        "id": "cbot_clearport_futures",
+        "kinds": {
+          "delay": {
+            "prefix": "CBOT",
+            "priority": 52,
+            "prefix_alias": [
+              "CBOT_GBX",
+              "CBOT_PIT"
+            ],
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "cbot_mini_futures",
         "kinds": {
           "delay": {
             "prefix": "CBOT_MINI",
@@ -6175,7 +6169,24 @@
         }
       },
       {
-        "id": "cme",
+        "id": "cbot_mini2_futures",
+        "kinds": {
+          "delay": {
+            "prefix": "CBOT_MINI",
+            "priority": 52,
+            "prefix_alias": [
+              "CBOT_MINI_GBX",
+              "CBOT_MINI_PIT",
+              "CBOT",
+              "CBOT_GBX",
+              "CBOT_PIT"
+            ],
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "cme_futures",
         "kinds": {
           "delay": {
             "prefix": "CME",
@@ -6189,7 +6200,21 @@
         }
       },
       {
-        "id": "cme_mini",
+        "id": "cme_clearport_futures",
+        "kinds": {
+          "delay": {
+            "prefix": "CME",
+            "priority": 52,
+            "prefix_alias": [
+              "CME_GBX",
+              "CME_PIT"
+            ],
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "cme_mini_futures",
         "kinds": {
           "delay": {
             "prefix": "CME_MINI",
@@ -6206,7 +6231,24 @@
         }
       },
       {
-        "id": "comex",
+        "id": "cme_mini2_futures",
+        "kinds": {
+          "delay": {
+            "prefix": "CME_MINI",
+            "priority": 52,
+            "prefix_alias": [
+              "CME_MINI_GBX",
+              "CME_MINI_PIT",
+              "CME",
+              "CME_GBX",
+              "CME_PIT"
+            ],
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "comex_futures",
         "kinds": {
           "delay": {
             "prefix": "COMEX",
@@ -6220,7 +6262,7 @@
         }
       },
       {
-        "id": "comex_mini",
+        "id": "comex_mini_futures",
         "kinds": {
           "delay": {
             "prefix": "COMEX_MINI",
@@ -6237,7 +6279,7 @@
         }
       },
       {
-        "id": "nymex",
+        "id": "nymex_futures",
         "kinds": {
           "delay": {
             "prefix": "NYMEX",
@@ -6251,7 +6293,21 @@
         }
       },
       {
-        "id": "nymex_mini",
+        "id": "nymex_2_futures",
+        "kinds": {
+          "delay": {
+            "prefix": "NYMEX",
+            "priority": 52,
+            "prefix_alias": [
+              "NYMEX_GBX",
+              "NYMEX_PIT"
+            ],
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "nymex_mini_futures",
         "kinds": {
           "delay": {
             "prefix": "NYMEX_MINI",
