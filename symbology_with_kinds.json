@@ -57,18 +57,6 @@
         }
       },
       {
-        "id": "oanda",
-        "kinds": {
-          "rt": {
-            "prefix": "OANDA",
-            "priority": 9,
-            "prefix_alias": [
-              "TVC"
-            ]
-          }
-        }
-      },
-      {
         "id": "forex_tvc",
         "kinds": {
           "rt": {
@@ -239,6 +227,18 @@
           "rt": {
             "prefix": "COINBASE",
             "priority": 12
+          }
+        }
+      },
+      {
+        "id": "oanda",
+        "kinds": {
+          "rt": {
+            "prefix": "OANDA",
+            "priority": 12,
+            "prefix_alias": [
+              "TVC"
+            ]
           }
         }
       },
