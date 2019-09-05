@@ -1834,6 +1834,46 @@
         }
       },
       {
+        "id": "thailand_futures",
+        "kinds": {
+          "rt": {
+            "priority": 54,
+            "prefix": "TFEX",
+            "prefix_no_perm": [
+              "TFEX_DLY"
+            ],
+            "perm": "tfex",
+            "skip_in_search": false
+          },
+          "delay": {
+            "priority": 55,
+            "prefix": "TFEX_DLY",
+            "perm": "tfex_dly",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "thailand_continuous",
+        "kinds": {
+          "rt": {
+            "priority": 54,
+            "prefix": "TFEX",
+            "prefix_no_perm": [
+              "TFEX_DLY"
+            ],
+            "perm": "tfex",
+            "skip_in_search": false
+          },
+          "delay": {
+            "priority": 55,
+            "prefix": "TFEX_DLY",
+            "perm": "tfex_dly",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "buenosaires_stocks",
         "kinds": {
           "rt": {
