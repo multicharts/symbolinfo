@@ -1119,6 +1119,51 @@
         }
       },
       {
+        "id": "nse_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 51,
+            "search_boost": 0.6,
+            "prefix": "NSE",
+            "prefix_alias": [
+              "NSE_DLY",
+              "NSE_EOD"
+            ],
+            "perm": "nse_free"
+          }
+        }
+      },
+      {
+        "id": "nse_emerge_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 51,
+            "search_boost": 0.6,
+            "prefix": "NSE",
+            "prefix_alias": [
+              "NSE_DLY",
+              "NSE_EOD"
+            ],
+            "perm": "nse_free"
+          }
+        }
+      },
+      {
+        "id": "nse_indices",
+        "kinds": {
+          "rt": {
+            "priority": 51,
+            "search_boost": 0.6,
+            "prefix": "NSE",
+            "prefix_alias": [
+              "NSE_DLY",
+              "NSE_EOD"
+            ],
+            "perm": "nse_free"
+          }
+        }
+      },
+      {
         "id": "sapporo_stocks",
         "kinds": {
           "rt": {
@@ -3920,90 +3965,6 @@
           "rt": {
             "prefix": "FRKC",
             "priority": 100
-          }
-        }
-      },
-      {
-        "id": "nse_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 51,
-            "search_boost": 0.6,
-            "prefix": "NSE",
-            "prefix_no_perm": [
-              "NSE_DLY"
-            ],
-            "perm": "nse_free"
-          },
-          "delay": {
-            "priority": 52,
-            "prefix": "NSE_DLY",
-            "prefix_no_perm": [
-              "NSE_EOD"
-            ],
-            "perm": "nse_free"
-          },
-          "eod": {
-            "prefix": "NSE_EOD",
-            "priority": 101,
-            "skip_in_search": true,
-            "perm": "permission_denied"
-          }
-        }
-      },
-      {
-        "id": "nse_emerge_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 51,
-            "search_boost": 0.6,
-            "prefix": "NSE",
-            "prefix_no_perm": [
-              "NSE_DLY"
-            ],
-            "perm": "nse_free"
-          },
-          "delay": {
-            "priority": 52,
-            "prefix": "NSE_DLY",
-            "prefix_no_perm": [
-              "NSE_EOD"
-            ],
-            "perm": "nse_free"
-          },
-          "eod": {
-            "prefix": "NSE_EOD",
-            "priority": 101,
-            "skip_in_search": true,
-            "perm": "permission_denied"
-          }
-        }
-      },
-      {
-        "id": "nse_indices",
-        "kinds": {
-          "rt": {
-            "priority": 51,
-            "search_boost": 0.6,
-            "prefix": "NSE",
-            "prefix_no_perm": [
-              "NSE_DLY"
-            ],
-            "perm": "nse_free"
-          },
-          "delay": {
-            "priority": 52,
-            "prefix": "NSE_DLY",
-            "prefix_no_perm": [
-              "NSE_EOD"
-            ],
-            "perm": "nse_free"
-          },
-          "eod": {
-            "prefix": "NSE_EOD",
-            "priority": 101,
-            "skip_in_search": true,
-            "perm": "permission_denied"
           }
         }
       },
