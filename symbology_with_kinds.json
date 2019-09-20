@@ -931,23 +931,6 @@
         }
       },
       {
-        "id": "xetra_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "XETR",
-            "priority": 45,
-            "perm": "dbg",
-            "prefix_no_perm": [
-              "XETR_DLY"
-            ]
-          },
-          "delay": {
-            "prefix": "XETR_DLY",
-            "priority": 47
-          }
-        }
-      },
-      {
         "id": "tokyo_stocks",
         "kinds": {
           "rt": {
@@ -1005,23 +988,6 @@
             "priority": 49,
             "prefix": "BME_DLY",
             "perm": "bme_dly"
-          }
-        }
-      },
-      {
-        "id": "xetra_stocks",
-        "kinds": {
-          "rt": {
-            "prefix": "XETR",
-            "priority": 47,
-            "perm": "dbg",
-            "prefix_no_perm": [
-              "XETR_DLY"
-            ]
-          },
-          "delay": {
-            "prefix": "XETR_DLY",
-            "priority": 49
           }
         }
       },
@@ -1686,29 +1652,6 @@
             ],
             "perm": "bcba_dly",
             "exchange_for_display": "BYMA"
-          }
-        }
-      },
-      {
-        "id": "frankfurt_stocks",
-        "kinds": {
-          "rt": {
-            "prefix": "FWB",
-            "priority": 55,
-            "prefix_alias": [
-              "FRA"
-            ],
-            "perm": "dbg",
-            "prefix_no_perm": [
-              "FWB_DLY"
-            ]
-          },
-          "delay": {
-            "prefix": "FWB_DLY",
-            "priority": 55,
-            "prefix_alias": [
-              "FRA_DLY"
-            ]
           }
         }
       },
@@ -4392,6 +4335,31 @@
         }
       },
       {
+        "id": "xetra_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "XETR",
+            "priority": 45,
+            "perm": "dbg",
+            "prefix_no_perm": [
+              "XETR_DLY"
+            ]
+          },
+          "delay": {
+            "prefix": "XETR_DLY",
+            "priority": 47,
+            "perm": "dbg_dly",
+            "prefix_no_perm": [
+              "XETR_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "XETR_EOD",
+            "priority": 149
+          }
+        }
+      },
+      {
         "id": "comex_futures",
         "kinds": {
           "rt": {
@@ -4746,6 +4714,31 @@
             "prefix": "NYMEX_MINI_EOD",
             "priority": 150,
             "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "xetra_stocks",
+        "kinds": {
+          "rt": {
+            "prefix": "XETR",
+            "priority": 47,
+            "perm": "dbg",
+            "prefix_no_perm": [
+              "XETR_DLY"
+            ]
+          },
+          "delay": {
+            "prefix": "XETR_DLY",
+            "priority": 49,
+            "perm": "dbg_dly",
+            "prefix_no_perm": [
+              "XETR_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "XETR_EOD",
+            "priority": 150
           }
         }
       },
@@ -5193,6 +5186,40 @@
             "prefix": "CSE_EOD",
             "priority": 155,
             "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "frankfurt_stocks",
+        "kinds": {
+          "rt": {
+            "prefix": "FWB",
+            "priority": 55,
+            "prefix_alias": [
+              "FRA"
+            ],
+            "perm": "dbg",
+            "prefix_no_perm": [
+              "FWB_DLY"
+            ]
+          },
+          "delay": {
+            "prefix": "FWB_DLY",
+            "priority": 55,
+            "prefix_alias": [
+              "FRA_DLY"
+            ],
+            "perm": "dbg_dly",
+            "prefix_no_perm": [
+              "FWB_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "FWB_EOD",
+            "priority": 155,
+            "prefix_alias": [
+              "FRA_EOD"
+            ]
           }
         }
       },
