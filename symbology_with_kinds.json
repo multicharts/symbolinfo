@@ -6220,14 +6220,16 @@
             "prefix_no_perm": [
               "OTC_DLY"
             ],
-            "perm": "permission_denied"
+            "perm": "permission_denied",
+            "skip_in_search": true
           },
           "delay": {
             "prefix": "OTC_DLY",
             "priority": 584,
             "prefix_alias": [
               "OTC_EOD"
-            ]
+            ],
+            "skip_in_search": true
           }
         }
       },
@@ -6240,14 +6242,16 @@
             "prefix_no_perm": [
               "OTC_DLY"
             ],
-            "perm": "permission_denied"
+            "perm": "permission_denied",
+            "skip_in_search": true
           },
           "delay": {
             "prefix": "OTC_DLY",
             "priority": 584,
             "prefix_alias": [
               "OTC_EOD"
-            ]
+            ],
+            "skip_in_search": true
           }
         }
       },
@@ -6260,14 +6264,16 @@
             "prefix_no_perm": [
               "OTC_DLY"
             ],
-            "perm": "permission_denied"
+            "perm": "permission_denied",
+            "skip_in_search": true
           },
           "delay": {
             "prefix": "OTC_DLY",
             "priority": 584,
             "prefix_alias": [
               "OTC_EOD"
-            ]
+            ],
+            "skip_in_search": true
           }
         }
       }
