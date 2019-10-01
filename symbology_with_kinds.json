@@ -782,6 +782,15 @@
         }
       },
       {
+        "id": "custom_indices_2",
+        "kinds": {
+          "rt": {
+            "prefix": "INDEX",
+            "priority": 47
+          }
+        }
+      },
+      {
         "id": "custom_indices_internal",
         "kinds": {
           "rt": {
