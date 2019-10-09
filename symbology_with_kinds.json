@@ -1373,6 +1373,24 @@
         }
       },
       {
+        "id": "bovespa_spots",
+        "kinds": {
+          "rt": {
+            "priority": 52,
+            "prefix": "BMFBOVESPA",
+            "prefix_no_perm": [
+              "BMFBOVESPA_DLY"
+            ],
+            "perm": "bovespa_stocks"
+          },
+          "delay": {
+            "priority": 52,
+            "prefix": "BMFBOVESPA_DLY",
+            "perm": "bovespa"
+          }
+        }
+      },
+      {
         "id": "bovespa_index_spreads",
         "kinds": {
           "rt": {
