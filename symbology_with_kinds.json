@@ -3414,26 +3414,7 @@
         }
       },
       {
-        "id": "nasdaq_otc_bb_qxqb",
-        "kinds": {
-          "rt": {
-            "prefix": "OTC",
-            "priority": 82,
-            "prefix_no_perm": [
-              "OTC_DLY"
-            ]
-          },
-          "delay": {
-            "prefix": "OTC_DLY",
-            "priority": 84,
-            "prefix_alias": [
-              "OTC_EOD"
-            ]
-          }
-        }
-      },
-      {
-        "id": "nasdaq_otc_bb_pink",
+        "id": "nasdaq_otc_bb",
         "kinds": {
           "rt": {
             "prefix": "OTC",
