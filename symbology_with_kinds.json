@@ -3246,6 +3246,16 @@
         }
       },
       {
+        "id": "johannesburg_cfd_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 80,
+            "prefix": "JSECFD",
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "dubai_indices",
         "kinds": {
           "rt": {
