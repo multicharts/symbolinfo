@@ -4816,6 +4816,31 @@
         }
       },
       {
+        "id": "xetra_funds",
+        "kinds": {
+          "rt": {
+            "prefix": "XETR",
+            "priority": 47,
+            "perm": "dbg",
+            "prefix_no_perm": [
+              "XETR_DLY"
+            ]
+          },
+          "delay": {
+            "prefix": "XETR_DLY",
+            "priority": 49,
+            "perm": "dbg_dly",
+            "prefix_no_perm": [
+              "XETR_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "XETR_EOD",
+            "priority": 150
+          }
+        }
+      },
+      {
         "id": "cme_continuous",
         "kinds": {
           "rt": {
