@@ -47,6 +47,15 @@
         }
       },
       {
+        "id": "fund_factset",
+        "kinds": {
+          "rt": {
+            "prefix": "FUND",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "forex_tvc",
         "kinds": {
           "rt": {
