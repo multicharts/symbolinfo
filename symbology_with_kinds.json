@@ -3524,7 +3524,7 @@
         }
       },
       {
-        "id": "otc_qb",
+        "id": "nasdaq_otc_qbqx",
         "kinds": {
           "rt": {
             "prefix": "OTC",
@@ -3544,7 +3544,7 @@
         }
       },
       {
-        "id": "otc_qx",
+        "id": "nasdaq_otc_pink",
         "kinds": {
           "rt": {
             "prefix": "OTC",
@@ -3564,7 +3564,7 @@
         }
       },
       {
-        "id": "otc_pink",
+        "id": "nasdaq_otc_bb",
         "kinds": {
           "rt": {
             "prefix": "OTC",
@@ -6080,6 +6080,72 @@
           "rt": {
             "prefix": "SIMULATED",
             "priority": 500,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "otc_qb",
+        "kinds": {
+          "rt": {
+            "prefix": "OTC",
+            "priority": 582,
+            "prefix_no_perm": [
+              "OTC_DLY"
+            ],
+            "perm": "permission_denied",
+            "skip_in_search": true
+          },
+          "delay": {
+            "prefix": "OTC_DLY",
+            "priority": 584,
+            "prefix_alias": [
+              "OTC_EOD"
+            ],
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "otc_qx",
+        "kinds": {
+          "rt": {
+            "prefix": "OTC",
+            "priority": 582,
+            "prefix_no_perm": [
+              "OTC_DLY"
+            ],
+            "perm": "permission_denied",
+            "skip_in_search": true
+          },
+          "delay": {
+            "prefix": "OTC_DLY",
+            "priority": 584,
+            "prefix_alias": [
+              "OTC_EOD"
+            ],
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "otc_pink",
+        "kinds": {
+          "rt": {
+            "prefix": "OTC",
+            "priority": 582,
+            "prefix_no_perm": [
+              "OTC_DLY"
+            ],
+            "perm": "permission_denied",
+            "skip_in_search": true
+          },
+          "delay": {
+            "prefix": "OTC_DLY",
+            "priority": 584,
+            "prefix_alias": [
+              "OTC_EOD"
+            ],
             "skip_in_search": true
           }
         }
