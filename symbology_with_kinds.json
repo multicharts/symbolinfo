@@ -6075,6 +6075,34 @@
         }
       },
       {
+        "id": "crypto_market_caps2",
+        "kinds": {
+          "rt": {
+            "prefix": "CRYPTOCAP2",
+            "priority": 300
+          }
+        }
+      },
+      {
+        "id": "crypto_market_caps_3",
+        "kinds": {
+          "rt": {
+            "prefix": "CRYPTOCAP3",
+            "priority": 300
+          }
+        }
+      },
+      {
+        "id": "crypto_market_caps_internal",
+        "kinds": {
+          "rt": {
+            "prefix": "CRYPTOCAP_INTERNAL",
+            "priority": 500,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "simulated",
         "kinds": {
           "rt": {
