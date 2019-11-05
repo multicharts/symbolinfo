@@ -457,6 +457,19 @@
         }
       },
       {
+        "id": "lme_cfd",
+        "kinds": {
+          "rt": {
+            "priority": 20,
+            "prefix": "TVC",
+            "prefix_alias": [
+              "LMECFD"
+            ],
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "government_bonds",
         "kinds": {
           "rt": {
@@ -5447,6 +5460,16 @@
           "rt": {
             "priority": 200,
             "prefix": "DJCFDINTERNAL",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "lme_cfd_internal",
+        "kinds": {
+          "rt": {
+            "priority": 200,
+            "prefix": "LMECFDINTERNAL",
             "skip_in_search": true
           }
         }
