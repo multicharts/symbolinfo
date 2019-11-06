@@ -4308,6 +4308,16 @@
         }
       },
       {
+        "id": "deribit",
+        "kinds": {
+          "rt": {
+            "prefix": "DERIBIT",
+            "priority": 130,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "cboe_futures",
         "kinds": {
           "eod": {
