@@ -4344,6 +4344,15 @@
         }
       },
       {
+        "id": "kraken_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "KRAKEN",
+            "priority": 140
+          }
+        }
+      },
+      {
         "id": "shanghai_indices",
         "kinds": {
           "rt": {
