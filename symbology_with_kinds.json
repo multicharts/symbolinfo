@@ -5501,16 +5501,6 @@
         }
       },
       {
-        "id": "iceusa_cfd_futures_internal",
-        "kinds": {
-          "rt": {
-            "priority": 200,
-            "prefix": "ICEUSACFDINTERNAL",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
         "id": "iceusa_futures",
         "kinds": {
           "eod": {
