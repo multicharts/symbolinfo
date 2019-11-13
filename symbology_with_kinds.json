@@ -6169,6 +6169,66 @@
         }
       },
       {
+        "id": "currencycom_index",
+        "kinds": {
+          "rt": {
+            "prefix": "CURRENCYCOM",
+            "priority": 222,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "currencycom_commodity",
+        "kinds": {
+          "rt": {
+            "prefix": "CURRENCYCOM",
+            "priority": 222,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "currencycom_bond",
+        "kinds": {
+          "rt": {
+            "prefix": "CURRENCYCOM",
+            "priority": 222,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "currencycom_equity",
+        "kinds": {
+          "rt": {
+            "prefix": "CURRENCYCOM",
+            "priority": 222,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "currencycom_currency",
+        "kinds": {
+          "rt": {
+            "prefix": "CURRENCYCOM",
+            "priority": 222,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "currencycom_cryptocurrency",
+        "kinds": {
+          "rt": {
+            "prefix": "CURRENCYCOM",
+            "priority": 222,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "egyptian_indices",
         "kinds": {
           "rt": {
