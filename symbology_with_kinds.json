@@ -232,6 +232,16 @@
         }
       },
       {
+        "id": "lgbtq_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 10,
+            "search_boost": 2.0
+          }
+        }
+      },
+      {
         "id": "bitstamp2",
         "kinds": {
           "rt": {
