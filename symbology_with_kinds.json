@@ -468,6 +468,15 @@
         }
       },
       {
+        "id": "kraken_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "KRAKEN",
+            "priority": 19
+          }
+        }
+      },
+      {
         "id": "nasdaq_idc",
         "kinds": {
           "rt": {
