@@ -5903,6 +5903,18 @@
         }
       },
       {
+        "id": "ibroker_mefffx",
+        "kinds": {
+          "rt": {
+            "prefix": "IBROKER",
+            "priority": 220,
+            "hide_in_search": true,
+            "skip_in_search": false,
+            "perm": "ibroker_mefffx"
+          }
+        }
+      },
+      {
         "id": "jfd_fx",
         "kinds": {
           "rt": {
