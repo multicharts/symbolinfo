@@ -3301,6 +3301,19 @@
         }
       },
       {
+        "id": "nymex_2_cfd",
+        "kinds": {
+          "rt": {
+            "priority": 80,
+            "prefix": "TVC",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "NYMEXCFD"
+            ]
+          }
+        }
+      },
+      {
         "id": "johannesburg_cfd_stocks",
         "kinds": {
           "rt": {
@@ -5507,6 +5520,19 @@
             "priority": 200,
             "prefix": "DJCFDINTERNAL",
             "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "nymex_2_cfd_futures",
+        "kinds": {
+          "rt": {
+            "priority": 200,
+            "prefix": "TVC",
+            "skip_in_search": true,
+            "prefix_alias": [
+              "NYMEXCFD"
+            ]
           }
         }
       },
