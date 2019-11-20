@@ -3301,19 +3301,6 @@
         }
       },
       {
-        "id": "nymex_2_cfd",
-        "kinds": {
-          "rt": {
-            "priority": 80,
-            "prefix": "TVC",
-            "skip_in_search": false,
-            "prefix_alias": [
-              "NYMEXCFD"
-            ]
-          }
-        }
-      },
-      {
         "id": "johannesburg_cfd_stocks",
         "kinds": {
           "rt": {
@@ -3332,6 +3319,45 @@
             "skip_in_search": false,
             "prefix_alias": [
               "ICEUSACFD"
+            ]
+          }
+        }
+      },
+      {
+        "id": "nymex_2_cfd",
+        "kinds": {
+          "rt": {
+            "priority": 80,
+            "prefix": "TVC",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "NYMEXCFD"
+            ]
+          }
+        }
+      },
+      {
+        "id": "cbot_cfd",
+        "kinds": {
+          "rt": {
+            "priority": 80,
+            "prefix": "TVC",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "CBOTCFD"
+            ]
+          }
+        }
+      },
+      {
+        "id": "cme_cfd",
+        "kinds": {
+          "rt": {
+            "priority": 80,
+            "prefix": "TVC",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "CMECFD"
             ]
           }
         }
@@ -5485,10 +5511,49 @@
           "rt": {
             "priority": 200,
             "prefix": "TVC",
+            "skip_in_search": true,
             "prefix_alias": [
               "ICEUSACFD"
-            ],
-            "skip_in_search": true
+            ]
+          }
+        }
+      },
+      {
+        "id": "nymex_2_cfd_futures",
+        "kinds": {
+          "rt": {
+            "priority": 200,
+            "prefix": "TVC",
+            "skip_in_search": true,
+            "prefix_alias": [
+              "NYMEXCFD"
+            ]
+          }
+        }
+      },
+      {
+        "id": "cbot_cfd_futures",
+        "kinds": {
+          "rt": {
+            "priority": 200,
+            "prefix": "TVC",
+            "skip_in_search": true,
+            "prefix_alias": [
+              "CBOTCFD"
+            ]
+          }
+        }
+      },
+      {
+        "id": "cme_cfd_futures",
+        "kinds": {
+          "rt": {
+            "priority": 200,
+            "prefix": "TVC",
+            "skip_in_search": true,
+            "prefix_alias": [
+              "CMECFD"
+            ]
           }
         }
       },
@@ -5520,19 +5585,6 @@
             "priority": 200,
             "prefix": "DJCFDINTERNAL",
             "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "nymex_2_cfd_futures",
-        "kinds": {
-          "rt": {
-            "priority": 200,
-            "prefix": "TVC",
-            "skip_in_search": true,
-            "prefix_alias": [
-              "NYMEXCFD"
-            ]
           }
         }
       },
