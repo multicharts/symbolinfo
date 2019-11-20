@@ -76,6 +76,17 @@
         }
       },
       {
+        "id": "lgbtq_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "INDEX",
+            "priority": 10,
+            "search_boost": 2.0,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "sp_cfd_2_indices",
         "kinds": {
           "rt": {
@@ -223,16 +234,6 @@
       },
       {
         "id": "msci_tvc_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "TVC",
-            "priority": 10,
-            "search_boost": 2.0
-          }
-        }
-      },
-      {
-        "id": "lgbtq_indices",
         "kinds": {
           "rt": {
             "prefix": "TVC",
