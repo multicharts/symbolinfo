@@ -99,6 +99,16 @@
         }
       },
       {
+        "id": "lgbtq_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "INDEX",
+            "priority": 10,
+            "search_boost": 2.0
+          }
+        }
+      },
+      {
         "id": "dxy_idc2",
         "kinds": {
           "rt": {
