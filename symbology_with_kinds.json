@@ -249,7 +249,8 @@
             "prefix_alias": [
               "SP",
               "SP_DLY"
-            ]
+            ],
+            "perm": "sp_cfd"
           }
         }
       },
@@ -262,7 +263,8 @@
             "prefix_alias": [
               "DJ",
               "DJ_DLY"
-            ]
+            ],
+            "perm": "dj_cfd"
           }
         }
       },
