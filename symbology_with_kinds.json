@@ -2379,17 +2379,17 @@
         "id": "euronext_futures",
         "kinds": {
           "rt": {
-            "priority": 59,
             "prefix": "EURONEXT",
-            "perm": "euronext_futures",
+            "priority": 59,
             "prefix_no_perm": [
               "EURONEXT_DLY"
             ],
+            "perm": "euronext_futures",
             "skip_in_search": false
           },
           "delay": {
-            "priority": 60,
             "prefix": "EURONEXT_DLY",
+            "priority": 60,
             "perm": "euronext_dly",
             "skip_in_search": true
           }
@@ -2434,17 +2434,17 @@
         "id": "euronext_continuous",
         "kinds": {
           "rt": {
-            "priority": 59,
             "prefix": "EURONEXT",
-            "perm": "euronext_futures",
+            "priority": 59,
             "prefix_no_perm": [
               "EURONEXT_DLY"
             ],
+            "perm": "euronext_futures",
             "skip_in_search": false
           },
           "delay": {
-            "priority": 60,
             "prefix": "EURONEXT_DLY",
+            "priority": 60,
             "perm": "euronext_dly",
             "skip_in_search": true
           }
@@ -5924,60 +5924,6 @@
             "prefix_alias": [
               "MGEX"
             ]
-          }
-        }
-      },
-      {
-        "id": "euronext_primary_indices",
-        "kinds": {
-          "rt": {
-            "priority": 238,
-            "prefix": "EURONEXT",
-            "perm": "permission_denied",
-            "prefix_no_perm": [
-              "EURONEXT_DLY"
-            ],
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "euronext_non_primary_indices",
-        "kinds": {
-          "rt": {
-            "priority": 239,
-            "prefix": "EURONEXT",
-            "perm": "permission_denied",
-            "prefix_no_perm": [
-              "EURONEXT_DLY"
-            ],
-            "skip_in_search": true
-          },
-          "delay": {
-            "priority": 240,
-            "prefix": "EURONEXT_DLY",
-            "perm": "permission_denied",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "euronext_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 255,
-            "prefix": "EURONEXT",
-            "perm": "euronext_stocks",
-            "prefix_no_perm": [
-              "EURONEXT_DLY"
-            ],
-            "skip_in_search": true
-          },
-          "delay": {
-            "priority": 256,
-            "prefix": "EURONEXT_DLY",
-            "perm": "euronext_dly",
-            "skip_in_search": true
           }
         }
       },
