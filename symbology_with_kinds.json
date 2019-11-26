@@ -278,7 +278,7 @@
         }
       },
       {
-        "id": "coinbase2",
+        "id": "coinbase",
         "kinds": {
           "rt": {
             "prefix": "COINBASE",
@@ -6025,16 +6025,6 @@
           "rt": {
             "prefix": "SIMULATED",
             "priority": 500,
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "coinbase",
-        "kinds": {
-          "rt": {
-            "prefix": "COINBASE",
-            "priority": 999,
             "skip_in_search": true
           }
         }
