@@ -3592,7 +3592,7 @@
         }
       },
       {
-        "id": "otc_qb",
+        "id": "nasdaq_otc_qbqx",
         "kinds": {
           "rt": {
             "prefix": "OTC",
@@ -3612,7 +3612,7 @@
         }
       },
       {
-        "id": "otc_qx",
+        "id": "nasdaq_otc_pink",
         "kinds": {
           "rt": {
             "prefix": "OTC",
@@ -3632,7 +3632,7 @@
         }
       },
       {
-        "id": "otc_pink",
+        "id": "nasdaq_otc_bb",
         "kinds": {
           "rt": {
             "prefix": "OTC",
