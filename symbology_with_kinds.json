@@ -2281,29 +2281,6 @@
         }
       },
       {
-        "id": "asx_2_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "ASX",
-            "priority": 55,
-            "perm": "asx",
-            "prefix_no_perm": [
-              "ASX_DLY"
-            ],
-            "prefix_alias": [
-              "INDEX"
-            ]
-          },
-          "delay": {
-            "prefix": "ASX_DLY",
-            "priority": 57,
-            "prefix_alias": [
-              "INDEX"
-            ]
-          }
-        }
-      },
-      {
         "id": "tokyo_lastsale_stocks",
         "kinds": {
           "delay": {
