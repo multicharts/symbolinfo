@@ -5919,7 +5919,6 @@
           "delay": {
             "priority": 280,
             "prefix": "EGX_DLY",
-            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
@@ -5976,7 +5975,6 @@
           "delay": {
             "priority": 281,
             "prefix": "EGX_DLY",
-            "perm": "sf_dly",
             "skip_in_search": true
           }
         }
