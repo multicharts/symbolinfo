@@ -5294,6 +5294,16 @@
         }
       },
       {
+        "id": "bitpanda",
+        "kinds": {
+          "rt": {
+            "prefix": "BITPANDA",
+            "priority": 155,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "eur_ex_futures",
         "kinds": {
           "rt": {
