@@ -837,7 +837,7 @@
         "id": "custom_indices_internal",
         "kinds": {
           "rt": {
-            "prefix": "INDEX_INTERNAL",
+            "prefix": "INDEX",
             "priority": 47,
             "skip_in_search": true
           }
