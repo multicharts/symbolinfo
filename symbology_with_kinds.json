@@ -5895,9 +5895,7 @@
           "rt": {
             "prefix": "IBROKER",
             "priority": 220,
-            "hide_in_search": true,
-            "skip_in_search": false,
-            "perm": "ibroker_mefffx"
+            "skip_in_search": false
           }
         }
       },
