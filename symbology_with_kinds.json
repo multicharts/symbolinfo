@@ -5297,7 +5297,7 @@
         "id": "bitpanda",
         "kinds": {
           "rt": {
-            "prefix": "BITPANDA",
+            "prefix": "BITPANDAGE",
             "priority": 155,
             "skip_in_search": false
           }
