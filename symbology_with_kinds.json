@@ -6336,6 +6336,56 @@
         }
       },
       {
+        "id": "capitalcom_index",
+        "kinds": {
+          "rt": {
+            "prefix": "CAPITALCOM",
+            "priority": 223,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "capitalcom_commodity",
+        "kinds": {
+          "rt": {
+            "prefix": "CAPITALCOM",
+            "priority": 223,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "capitalcom_equity",
+        "kinds": {
+          "rt": {
+            "prefix": "CAPITALCOM",
+            "priority": 223,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "capitalcom_currency",
+        "kinds": {
+          "rt": {
+            "prefix": "CAPITALCOM",
+            "priority": 223,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "capitalcom_cryptocurrency",
+        "kinds": {
+          "rt": {
+            "prefix": "CAPITALCOM",
+            "priority": 223,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "egyptian_indices",
         "kinds": {
           "rt": {
