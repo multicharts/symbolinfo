@@ -29,19 +29,13 @@
         }
       },
       {
-        "id": "esd",
-        "kinds": {
-          "rt": {
-            "prefix": "ESD",
-            "resolve_mask": "ESD:*"
-          }
-        }
-      },
-      {
         "id": "esd_factset",
         "kinds": {
           "rt": {
             "prefix": "ESD_FACTSET",
+            "prefix_alias": [
+              "ESD"
+            ],
             "skip_in_search": true
           }
         }
