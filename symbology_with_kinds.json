@@ -3167,8 +3167,7 @@
           },
           "delay": {
             "prefix": "TASE_DLY",
-            "priority": 71,
-            "perm": "sf_dly"
+            "priority": 71
           }
         }
       },
@@ -3204,8 +3203,7 @@
           },
           "delay": {
             "prefix": "TASE_DLY",
-            "priority": 74,
-            "perm": "sf_dly"
+            "priority": 74
           }
         }
       },
@@ -3240,8 +3238,7 @@
           },
           "delay": {
             "prefix": "TASE_DLY",
-            "priority": 76,
-            "perm": "sf_dly"
+            "priority": 76
           }
         }
       },
@@ -3276,8 +3273,7 @@
           },
           "delay": {
             "prefix": "TASE_DLY",
-            "priority": 76,
-            "perm": "sf_dly"
+            "priority": 76
           }
         }
       },
