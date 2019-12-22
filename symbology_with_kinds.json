@@ -4236,6 +4236,15 @@
         }
       },
       {
+        "id": "huobi2",
+        "kinds": {
+          "rt": {
+            "prefix": "HUOBI",
+            "priority": 115
+          }
+        }
+      },
+      {
         "id": "huobi_crypto",
         "kinds": {
           "rt": {
@@ -4260,6 +4269,15 @@
             "prefix": "BITBAY",
             "priority": 115,
             "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "huobi",
+        "kinds": {
+          "rt": {
+            "prefix": "HUOBI",
+            "priority": 116
           }
         }
       },
