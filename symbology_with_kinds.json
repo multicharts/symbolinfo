@@ -60,6 +60,34 @@
         }
       },
       {
+        "id": "sp_cfd_2_indices",
+        "kinds": {
+          "rt": {
+            "priority": 10,
+            "prefix": "SPCFD",
+            "prefix_alias": [
+              "SP",
+              "SP_DLY"
+            ],
+            "perm": "sp_cfd"
+          }
+        }
+      },
+      {
+        "id": "dj_cfd_2_indices",
+        "kinds": {
+          "rt": {
+            "priority": 10,
+            "prefix": "DJCFD",
+            "prefix_alias": [
+              "DJ",
+              "DJ_DLY"
+            ],
+            "perm": "dj_cfd"
+          }
+        }
+      },
+      {
         "id": "dxy_idc2",
         "kinds": {
           "rt": {
@@ -196,11 +224,7 @@
         "kinds": {
           "rt": {
             "priority": 10,
-            "prefix": "SPCFD",
-            "prefix_alias": [
-              "SP",
-              "SP_DLY"
-            ],
+            "prefix": "SPCFD_OLD",
             "perm": "sp_cfd"
           }
         }
@@ -210,11 +234,7 @@
         "kinds": {
           "rt": {
             "priority": 10,
-            "prefix": "DJCFD",
-            "prefix_alias": [
-              "DJ",
-              "DJ_DLY"
-            ],
+            "prefix": "DJCFD_OLD",
             "perm": "dj_cfd"
           }
         }
