@@ -1140,25 +1140,6 @@
         }
       },
       {
-        "id": "istanbul_indices",
-        "kinds": {
-          "rt": {
-            "priority": 50,
-            "prefix": "BIST",
-            "prefix_alias": [
-              "IST"
-            ],
-            "prefix_no_perm": [
-              "BIST_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 51,
-            "prefix": "BIST_DLY"
-          }
-        }
-      },
-      {
         "id": "moex_continuous",
         "kinds": {
           "rt": {
@@ -1982,25 +1963,6 @@
         }
       },
       {
-        "id": "istanbul_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 55,
-            "prefix": "BIST",
-            "prefix_alias": [
-              "IST"
-            ],
-            "prefix_no_perm": [
-              "BIST_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 56,
-            "prefix": "BIST_DLY"
-          }
-        }
-      },
-      {
         "id": "hongkong_continuous",
         "kinds": {
           "rt": {
@@ -2115,44 +2077,6 @@
             "prefix_alias": [
               "SSE"
             ]
-          }
-        }
-      },
-      {
-        "id": "istanbul_futures",
-        "kinds": {
-          "rt": {
-            "priority": 57,
-            "prefix": "BIST",
-            "prefix_alias": [
-              "IST"
-            ],
-            "prefix_no_perm": [
-              "BIST_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 58,
-            "prefix": "BIST_DLY"
-          }
-        }
-      },
-      {
-        "id": "istanbul_continuous",
-        "kinds": {
-          "rt": {
-            "priority": 57,
-            "prefix": "BIST",
-            "prefix_alias": [
-              "IST"
-            ],
-            "prefix_no_perm": [
-              "BIST_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 58,
-            "prefix": "BIST_DLY"
           }
         }
       },
@@ -5389,6 +5313,110 @@
             "prefix": "BITPANDAGE",
             "priority": 155,
             "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "istanbul_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 55,
+            "prefix": "BIST",
+            "prefix_alias": [
+              "IST"
+            ],
+            "prefix_no_perm": [
+              "BIST_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 56,
+            "prefix": "BIST_DLY",
+            "prefix_no_perm": [
+              "BIST_DLY"
+            ]
+          },
+          "eod": {
+            "priority": 156,
+            "prefix": "BIST_EOD"
+          }
+        }
+      },
+      {
+        "id": "istanbul_indices",
+        "kinds": {
+          "rt": {
+            "priority": 50,
+            "prefix": "BIST",
+            "prefix_alias": [
+              "IST"
+            ],
+            "prefix_no_perm": [
+              "BIST_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 51,
+            "prefix": "BIST_DLY",
+            "prefix_no_perm": [
+              "BIST_DLY"
+            ]
+          },
+          "eod": {
+            "priority": 156,
+            "prefix": "BIST_EOD"
+          }
+        }
+      },
+      {
+        "id": "istanbul_futures",
+        "kinds": {
+          "rt": {
+            "priority": 57,
+            "prefix": "BIST",
+            "prefix_alias": [
+              "IST"
+            ],
+            "prefix_no_perm": [
+              "BIST_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 58,
+            "prefix": "BIST_DLY",
+            "prefix_no_perm": [
+              "BIST_DLY"
+            ]
+          },
+          "eod": {
+            "priority": 156,
+            "prefix": "BIST_EOD"
+          }
+        }
+      },
+      {
+        "id": "istanbul_continuous",
+        "kinds": {
+          "rt": {
+            "priority": 57,
+            "prefix": "BIST",
+            "prefix_alias": [
+              "IST"
+            ],
+            "prefix_no_perm": [
+              "BIST_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 58,
+            "prefix": "BIST_DLY",
+            "prefix_no_perm": [
+              "BIST_DLY"
+            ]
+          },
+          "eod": {
+            "priority": 156,
+            "prefix": "BIST_EOD"
           }
         }
       },
