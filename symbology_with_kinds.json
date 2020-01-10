@@ -50,6 +50,25 @@
         }
       },
       {
+        "id": "fxcm",
+        "kinds": {
+          "rt": {
+            "prefix": "FX",
+            "priority": 7,
+            "exchange_for_display": "FXCM"
+          }
+        }
+      },
+      {
+        "id": "oanda",
+        "kinds": {
+          "rt": {
+            "prefix": "OANDA",
+            "priority": 9
+          }
+        }
+      },
+      {
         "id": "forex_tvc",
         "kinds": {
           "rt": {
@@ -240,16 +259,6 @@
         }
       },
       {
-        "id": "fxcm",
-        "kinds": {
-          "rt": {
-            "prefix": "FX",
-            "priority": 10,
-            "exchange_for_display": "FXCM"
-          }
-        }
-      },
-      {
         "id": "bitstamp2",
         "kinds": {
           "rt": {
@@ -274,15 +283,6 @@
         "kinds": {
           "rt": {
             "prefix": "COINBASE",
-            "priority": 12
-          }
-        }
-      },
-      {
-        "id": "oanda",
-        "kinds": {
-          "rt": {
-            "prefix": "OANDA",
             "priority": 12
           }
         }
