@@ -60,17 +60,6 @@
         }
       },
       {
-        "id": "fxcm_cfd",
-        "kinds": {
-          "rt": {
-            "prefix": "FX",
-            "priority": 8,
-            "exchange_for_display": "FXCM",
-            "perm": "fxcm_cfd"
-          }
-        }
-      },
-      {
         "id": "oanda",
         "kinds": {
           "rt": {
@@ -268,6 +257,17 @@
           "rt": {
             "prefix": "BITSTAMP",
             "priority": 11
+          }
+        }
+      },
+      {
+        "id": "fxcm_cfd",
+        "kinds": {
+          "rt": {
+            "prefix": "FX",
+            "priority": 11,
+            "exchange_for_display": "FXCM",
+            "perm": "fxcm_cfd"
           }
         }
       },
