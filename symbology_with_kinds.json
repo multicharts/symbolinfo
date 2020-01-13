@@ -92,6 +92,20 @@
         }
       },
       {
+        "id": "sp_cfd_2_indices",
+        "kinds": {
+          "rt": {
+            "priority": 10,
+            "prefix": "SPCFD",
+            "prefix_alias": [
+              "SP",
+              "SP_DLY"
+            ],
+            "perm": "sp_cfd"
+          }
+        }
+      },
+      {
         "id": "dxy_idc2",
         "kinds": {
           "rt": {
@@ -220,20 +234,6 @@
             "priority": 10,
             "search_boost": 2.0,
             "perm": "tvc_cfd"
-          }
-        }
-      },
-      {
-        "id": "sp_cfd_indices",
-        "kinds": {
-          "rt": {
-            "priority": 10,
-            "prefix": "SPCFD",
-            "prefix_alias": [
-              "SP",
-              "SP_DLY"
-            ],
-            "perm": "sp_cfd"
           }
         }
       },
