@@ -4013,6 +4013,16 @@
         }
       },
       {
+        "id": "binance_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "BINANCE",
+            "priority": 112,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "binance_spreads",
         "kinds": {
           "rt": {
@@ -5401,6 +5411,16 @@
             "prefix": "EUREX_EOD",
             "priority": 157,
             "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "bitbay",
+        "kinds": {
+          "rt": {
+            "prefix": "BITBAY",
+            "priority": 160,
+            "skip_in_search": false
           }
         }
       },
