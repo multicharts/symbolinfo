@@ -5405,7 +5405,59 @@
         }
       },
       {
+        "id": "istanbul_evening_futures",
+        "kinds": {
+          "rt": {
+            "priority": 57,
+            "prefix": "BIST",
+            "prefix_alias": [
+              "IST"
+            ],
+            "prefix_no_perm": [
+              "BIST_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 58,
+            "prefix": "BIST_DLY",
+            "prefix_no_perm": [
+              "BIST_DLY"
+            ]
+          },
+          "eod": {
+            "priority": 156,
+            "prefix": "BIST_EOD"
+          }
+        }
+      },
+      {
         "id": "istanbul_continuous",
+        "kinds": {
+          "rt": {
+            "priority": 57,
+            "prefix": "BIST",
+            "prefix_alias": [
+              "IST"
+            ],
+            "prefix_no_perm": [
+              "BIST_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 58,
+            "prefix": "BIST_DLY",
+            "prefix_no_perm": [
+              "BIST_DLY"
+            ]
+          },
+          "eod": {
+            "priority": 156,
+            "prefix": "BIST_EOD"
+          }
+        }
+      },
+      {
+        "id": "istanbul_evening_continuous",
         "kinds": {
           "rt": {
             "priority": 57,
