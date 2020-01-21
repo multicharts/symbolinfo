@@ -5431,6 +5431,16 @@
         }
       },
       {
+        "id": "wh_selfinvest",
+        "kinds": {
+          "rt": {
+            "prefix": "WHSELFINVEST",
+            "priority": 160,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "eur_ex_futures",
         "kinds": {
           "rt": {
