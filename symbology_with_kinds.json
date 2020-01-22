@@ -79,6 +79,23 @@
         }
       },
       {
+        "id": "cboe_indices",
+        "kinds": {
+          "delay": {
+            "prefix": "CBOE",
+            "priority": 10,
+            "prefix_alias": [
+              "CBOE_DLY",
+              "INDEX"
+            ],
+            "skip_in_search": false,
+            "prefix_no_perm": [
+              "CBOE_EOD"
+            ]
+          }
+        }
+      },
+      {
         "id": "lgbtq_indices",
         "kinds": {
           "rt": {
@@ -3578,28 +3595,6 @@
           "delay": {
             "priority": 91,
             "prefix": "BELEX_DLY",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "cboe_indices",
-        "kinds": {
-          "delay": {
-            "prefix": "CBOE",
-            "priority": 10,
-            "prefix_alias": [
-              "CBOE_DLY",
-              "INDEX"
-            ],
-            "skip_in_search": false,
-            "prefix_no_perm": [
-              "CBOE_EOD"
-            ]
-          },
-          "eod": {
-            "prefix": "CBOE_EOD",
-            "priority": 100,
             "skip_in_search": true
           }
         }
