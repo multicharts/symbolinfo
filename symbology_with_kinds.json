@@ -4089,6 +4089,15 @@
         }
       },
       {
+        "id": "binance_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "BINANCE",
+            "priority": 112
+          }
+        }
+      },
+      {
         "id": "bitso_spreads",
         "kinds": {
           "rt": {
