@@ -79,22 +79,6 @@
         }
       },
       {
-        "id": "cboe_indices",
-        "kinds": {
-          "delay": {
-            "prefix": "CBOE",
-            "priority": 10,
-            "prefix_alias": [
-              "CBOE_DLY",
-              "CBOE_EOD",
-              "INDEX"
-            ],
-            "skip_in_search": false,
-            "perm": "cboe_dly"
-          }
-        }
-      },
-      {
         "id": "lgbtq_indices",
         "kinds": {
           "rt": {
@@ -3724,6 +3708,29 @@
         }
       },
       {
+        "id": "cboe_indices",
+        "kinds": {
+          "delay": {
+            "prefix": "CBOE",
+            "priority": 10,
+            "prefix_alias": [
+              "CBOE_DLY",
+              "INDEX"
+            ],
+            "skip_in_search": false,
+            "perm": "cboe_dly",
+            "prefix_no_perm": [
+              "CBOE_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "CBOE_EOD",
+            "priority": 100,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "nasdaq_indices",
         "kinds": {
           "rt": {
@@ -3819,7 +3826,6 @@
               "RUSSEL",
               "RUSSEL_EOD"
             ],
-            "perm": "cboe_eod",
             "prefix": "RUSSELL",
             "skip_in_search": false
           }
@@ -4379,7 +4385,6 @@
         "kinds": {
           "eod": {
             "skip_in_search": false,
-            "perm": "cboe_eod",
             "prefix": "CBOE_EOD",
             "priority": 131,
             "prefix_alias": [
@@ -4393,7 +4398,6 @@
         "kinds": {
           "eod": {
             "skip_in_search": false,
-            "perm": "cboe_eod",
             "prefix": "CBOE_EOD",
             "priority": 131,
             "prefix_alias": [
@@ -5678,7 +5682,6 @@
         "kinds": {
           "eod": {
             "skip_in_search": false,
-            "perm": "cboe_eod",
             "prefix": "ICEUS",
             "priority": 201,
             "prefix_alias": [
@@ -5694,7 +5697,6 @@
         "kinds": {
           "eod": {
             "skip_in_search": false,
-            "perm": "cboe_eod",
             "prefix": "ICEUS",
             "priority": 201,
             "prefix_alias": [
@@ -5710,7 +5712,6 @@
         "kinds": {
           "eod": {
             "skip_in_search": false,
-            "perm": "cboe_eod",
             "prefix": "ICEEUR",
             "priority": 211,
             "prefix_alias": [
@@ -5724,7 +5725,6 @@
         "kinds": {
           "eod": {
             "skip_in_search": false,
-            "perm": "cboe_eod",
             "prefix": "ICEEUR",
             "priority": 211,
             "prefix_alias": [
@@ -6084,7 +6084,6 @@
         "kinds": {
           "eod": {
             "skip_in_search": false,
-            "perm": "cboe_eod",
             "prefix": "MGEX_EOD",
             "priority": 221,
             "prefix_alias": [
@@ -6098,7 +6097,6 @@
         "kinds": {
           "eod": {
             "skip_in_search": false,
-            "perm": "cboe_eod",
             "prefix": "MGEX_EOD",
             "priority": 221,
             "prefix_alias": [
