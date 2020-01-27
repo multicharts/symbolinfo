@@ -86,13 +86,11 @@
             "priority": 10,
             "prefix_alias": [
               "CBOE_DLY",
+              "CBOE_EOD",
               "INDEX"
             ],
             "skip_in_search": false,
-            "perm": "cboe_dly",
-            "prefix_no_perm": [
-              "CBOE_EOD"
-            ]
+            "perm": "cboe_dly"
           }
         }
       },
