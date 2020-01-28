@@ -1036,6 +1036,16 @@
         }
       },
       {
+        "id": "custom_indices_2",
+        "kinds": {
+          "rt": {
+            "prefix": "INDEX2",
+            "priority": 47,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "bme_indices",
         "kinds": {
           "rt": {
@@ -5327,7 +5337,63 @@
         }
       },
       {
+        "id": "istanbul_evening_futures",
+        "kinds": {
+          "rt": {
+            "priority": 57,
+            "prefix": "BIST",
+            "prefix_alias": [
+              "IST"
+            ],
+            "prefix_no_perm": [
+              "BIST_DLY"
+            ],
+            "perm": "bist_futures"
+          },
+          "delay": {
+            "priority": 58,
+            "prefix": "BIST_DLY",
+            "prefix_no_perm": [
+              "BIST_EOD"
+            ],
+            "perm": "bist_dly"
+          },
+          "eod": {
+            "priority": 156,
+            "prefix": "BIST_EOD"
+          }
+        }
+      },
+      {
         "id": "istanbul_continuous",
+        "kinds": {
+          "rt": {
+            "priority": 57,
+            "prefix": "BIST",
+            "prefix_alias": [
+              "IST"
+            ],
+            "prefix_no_perm": [
+              "BIST_DLY"
+            ],
+            "perm": "bist_futures"
+          },
+          "delay": {
+            "priority": 58,
+            "prefix": "BIST_DLY",
+            "prefix_no_perm": [
+              "BIST_EOD"
+            ],
+            "perm": "bist_dly"
+          },
+          "eod": {
+            "priority": 156,
+            "prefix": "BIST_EOD"
+          }
+        }
+      },
+      {
+        "id": "istanbul_evening_continuous",
         "kinds": {
           "rt": {
             "priority": 57,
