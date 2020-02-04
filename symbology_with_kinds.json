@@ -270,6 +270,7 @@
           "rt": {
             "prefix": "GEMINI",
             "priority": 10,
+            "search_boost": 2.0,
             "skip_in_search": false
           }
         }
