@@ -3507,8 +3507,7 @@
             "priority": 84,
             "prefix_alias": [
               "OTC_EOD"
-            ],
-            "perm": "otc_dly"
+            ]
           }
         }
       },
@@ -3528,8 +3527,7 @@
             "priority": 84,
             "prefix_alias": [
               "OTC_EOD"
-            ],
-            "perm": "otc_dly"
+            ]
           }
         }
       },
@@ -3549,8 +3547,7 @@
             "priority": 84,
             "prefix_alias": [
               "OTC_EOD"
-            ],
-            "perm": "otc_dly"
+            ]
           }
         }
       },
