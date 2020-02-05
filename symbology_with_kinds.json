@@ -6267,6 +6267,18 @@
         }
       },
       {
+        "id": "msci_saudi_indices",
+        "kinds": {
+          "rt": {
+            "priority": 280,
+            "prefix": "TADAWUL",
+            "prefix_no_perm": [
+              "TADAWUL_DLY"
+            ]
+          }
+        }
+      },
+      {
         "id": "egyptian_indices",
         "kinds": {
           "rt": {
