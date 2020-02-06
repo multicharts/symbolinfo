@@ -324,30 +324,10 @@
         }
       },
       {
-        "id": "poloniex",
-        "kinds": {
-          "rt": {
-            "prefix": "POLONIEX",
-            "priority": 12,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
         "id": "bitflyer2",
         "kinds": {
           "rt": {
             "prefix": "BITFLYER",
-            "priority": 12,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "poloniex_spreads",
-        "kinds": {
-          "rt": {
-            "prefix": "POLONIEX",
             "priority": 12,
             "skip_in_search": false
           }
@@ -596,6 +576,26 @@
             "prefix_no_perm": [
               "BATS"
             ]
+          }
+        }
+      },
+      {
+        "id": "poloniex",
+        "kinds": {
+          "rt": {
+            "prefix": "POLONIEX",
+            "priority": 21,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "poloniex_spreads",
+        "kinds": {
+          "rt": {
+            "prefix": "POLONIEX",
+            "priority": 21,
+            "skip_in_search": false
           }
         }
       },
