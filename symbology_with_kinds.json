@@ -5320,6 +5320,16 @@
         }
       },
       {
+        "id": "kucoin",
+        "kinds": {
+          "rt": {
+            "prefix": "KUCOIN",
+            "priority": 155,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "istanbul_stocks",
         "kinds": {
           "rt": {
