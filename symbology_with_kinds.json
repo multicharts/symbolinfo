@@ -3222,6 +3222,22 @@
         }
       },
       {
+        "id": "malaysia_additional_indices",
+        "kinds": {
+          "rt": {
+            "priority": 79,
+            "prefix": "MYX",
+            "prefix_no_perm": [
+              "MYX_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 80,
+            "prefix": "MYX_DLY"
+          }
+        }
+      },
+      {
         "id": "malaysia_ftse_indices",
         "kinds": {
           "rt": {
