@@ -5143,15 +5143,6 @@
         }
       },
       {
-        "id": "crypto_market_caps",
-        "kinds": {
-          "rt": {
-            "prefix": "CRYPTOCAP",
-            "priority": 150
-          }
-        }
-      },
-      {
         "id": "shanghai_stocks",
         "kinds": {
           "rt": {
@@ -6276,7 +6267,7 @@
         "id": "crypto_market_caps2",
         "kinds": {
           "rt": {
-            "prefix": "CRYPTOCAP2",
+            "prefix": "CRYPTOCAP",
             "priority": 300
           }
         }
