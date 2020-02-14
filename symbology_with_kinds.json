@@ -5193,7 +5193,7 @@
         }
       },
       {
-        "id": "crypto_market_caps",
+        "id": "crypto_market_caps2",
         "kinds": {
           "rt": {
             "prefix": "CRYPTOCAP",
@@ -6207,6 +6207,16 @@
             "priority": 286,
             "prefix": "BAHRAIN_DLY",
             "perm": "sf_dly",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "crypto_market_caps_internal",
+        "kinds": {
+          "rt": {
+            "prefix": "CRYPTOCAP_INTERNAL",
+            "priority": 500,
             "skip_in_search": true
           }
         }
