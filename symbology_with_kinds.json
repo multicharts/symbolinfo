@@ -180,16 +180,6 @@
         }
       },
       {
-        "id": "china_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "TVC",
-            "priority": 10,
-            "search_boost": 2.0
-          }
-        }
-      },
-      {
         "id": "european_indices",
         "kinds": {
           "rt": {
@@ -210,36 +200,6 @@
         }
       },
       {
-        "id": "spanish_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "TVC",
-            "priority": 10,
-            "search_boost": 2.0
-          }
-        }
-      },
-      {
-        "id": "korean_tvc_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "TVC",
-            "priority": 10,
-            "search_boost": 2.0
-          }
-        }
-      },
-      {
-        "id": "nzx_tvc_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "TVC",
-            "priority": 10,
-            "search_boost": 2.0
-          }
-        }
-      },
-      {
         "id": "singapore_tvc_indices",
         "kinds": {
           "rt": {
@@ -250,7 +210,7 @@
         }
       },
       {
-        "id": "south_africa_tvc_indices",
+        "id": "msci_tvc_indices",
         "kinds": {
           "rt": {
             "prefix": "TVC",
@@ -260,7 +220,57 @@
         }
       },
       {
-        "id": "msci_tvc_indices",
+        "id": "johannesburg_cfd_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 10,
+            "search_boost": 2.0
+          }
+        }
+      },
+      {
+        "id": "nzx_cfd_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 10,
+            "search_boost": 2.0
+          }
+        }
+      },
+      {
+        "id": "korea_main_cfd_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 10,
+            "search_boost": 2.0
+          }
+        }
+      },
+      {
+        "id": "hangseng_cfd_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 10,
+            "search_boost": 2.0
+          }
+        }
+      },
+      {
+        "id": "shanghai_cfd_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 10,
+            "search_boost": 2.0
+          }
+        }
+      },
+      {
+        "id": "bme_cfd_indices",
         "kinds": {
           "rt": {
             "prefix": "TVC",
