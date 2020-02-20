@@ -279,7 +279,6 @@
         "kinds": {
           "rt": {
             "prefix": "GEMINI",
-            "search_boost": 8.0,
             "priority": 10,
             "skip_in_search": false
           }
