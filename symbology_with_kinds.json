@@ -170,16 +170,6 @@
         }
       },
       {
-        "id": "japan_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "TVC",
-            "priority": 10,
-            "search_boost": 2.0
-          }
-        }
-      },
-      {
         "id": "european_indices",
         "kinds": {
           "rt": {
@@ -271,6 +261,16 @@
       },
       {
         "id": "bme_cfd_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 10,
+            "search_boost": 2.0
+          }
+        }
+      },
+      {
+        "id": "japan_cfd_indices",
         "kinds": {
           "rt": {
             "prefix": "TVC",
