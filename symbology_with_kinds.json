@@ -54,7 +54,8 @@
         "kinds": {
           "rt": {
             "prefix": "FX",
-            "priority": 7
+            "priority": 7,
+            "exchange_for_display": "FXCM"
           }
         }
       },
