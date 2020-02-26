@@ -133,6 +133,17 @@
         }
       },
       {
+        "id": "japan_cfd_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 10,
+            "search_boost": 2.0,
+            "perm": "tvc_cfd"
+          }
+        }
+      },
+      {
         "id": "dxy_idc2",
         "kinds": {
           "rt": {
@@ -156,17 +167,6 @@
       },
       {
         "id": "us_ny_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "TVC",
-            "priority": 10,
-            "search_boost": 2.0,
-            "perm": "tvc_cfd"
-          }
-        }
-      },
-      {
-        "id": "japan_indices",
         "kinds": {
           "rt": {
             "prefix": "TVC",
