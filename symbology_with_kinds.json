@@ -211,6 +211,16 @@
         }
       },
       {
+        "id": "japan_cfd_indices_internal",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC_INTERNAL",
+            "priority": 10,
+            "search_boost": 2.0
+          }
+        }
+      },
+      {
         "id": "johannesburg_cfd_indices",
         "kinds": {
           "rt": {
