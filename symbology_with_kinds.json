@@ -2318,6 +2318,42 @@
         }
       },
       {
+        "id": "aequitas_neo_l",
+        "kinds": {
+          "rt": {
+            "prefix": "NEOL",
+            "priority": 60
+          }
+        }
+      },
+      {
+        "id": "aequitas_neo_others_l",
+        "kinds": {
+          "rt": {
+            "prefix": "NEOL",
+            "priority": 60
+          }
+        }
+      },
+      {
+        "id": "aequitas_neo_n",
+        "kinds": {
+          "rt": {
+            "prefix": "NEON",
+            "priority": 60
+          }
+        }
+      },
+      {
+        "id": "aequitas_neo_others_n",
+        "kinds": {
+          "rt": {
+            "prefix": "NEON",
+            "priority": 60
+          }
+        }
+      },
+      {
         "id": "euronext_amstredam_continuous",
         "kinds": {
           "rt": {
