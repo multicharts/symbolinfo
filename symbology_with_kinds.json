@@ -134,6 +134,17 @@
         }
       },
       {
+        "id": "japan_cfd_indices_internal",
+        "kinds": {
+          "rt": {
+            "prefix": "TVCINTERNAL",
+            "priority": 10,
+            "search_boost": 2.0,
+            "perm": "tvc_cfd"
+          }
+        }
+      },
+      {
         "id": "dxy_idc2",
         "kinds": {
           "rt": {
