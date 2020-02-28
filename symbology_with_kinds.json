@@ -5696,7 +5696,7 @@
         }
       },
       {
-        "id": "wh_selfinvest",
+        "id": "whselfinvest",
         "kinds": {
           "rt": {
             "prefix": "WHSELFINVEST",
