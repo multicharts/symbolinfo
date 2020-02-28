@@ -5522,6 +5522,9 @@
           "rt": {
             "prefix": "BITPANDAGE",
             "priority": 155,
+            "prefix_alias": [
+              "BITPANDAPRO"
+            ],
             "skip_in_search": false
           }
         }
