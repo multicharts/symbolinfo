@@ -6597,6 +6597,16 @@
         }
       },
       {
+        "id": "fxcm_crypto",
+        "kinds": {
+          "rt": {
+            "prefix": "FX",
+            "priority": 260,
+            "exchange_for_display": "FXCM"
+          }
+        }
+      },
+      {
         "id": "msci_saudi_indices",
         "kinds": {
           "rt": {
