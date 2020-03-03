@@ -4307,6 +4307,9 @@
           "rt": {
             "prefix": "BITPANDAGE",
             "priority": 122,
+            "prefix_alias": [
+              "BITPANDAPRO"
+            ],
             "skip_in_search": false
           }
         }
