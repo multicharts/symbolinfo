@@ -5520,10 +5520,10 @@
         "id": "bitpanda",
         "kinds": {
           "rt": {
-            "prefix": "BITPANDAGE",
+            "prefix": "BITPANDAPRO",
             "priority": 155,
             "prefix_alias": [
-              "BITPANDAPRO"
+              "BITPANDAGE"
             ],
             "skip_in_search": false
           }
