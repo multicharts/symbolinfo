@@ -211,16 +211,6 @@
         }
       },
       {
-        "id": "msci_tvc_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "TVC",
-            "priority": 10,
-            "search_boost": 2.0
-          }
-        }
-      },
-      {
         "id": "johannesburg_cfd_indices",
         "kinds": {
           "rt": {
@@ -6607,18 +6597,6 @@
         }
       },
       {
-        "id": "msci_saudi_indices",
-        "kinds": {
-          "rt": {
-            "priority": 280,
-            "prefix": "TADAWUL",
-            "prefix_no_perm": [
-              "TADAWUL_DLY"
-            ]
-          }
-        }
-      },
-      {
         "id": "egyptian_indices",
         "kinds": {
           "rt": {
@@ -6683,6 +6661,18 @@
             "priority": 281,
             "prefix": "EGX_DLY",
             "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "msci_saudi_cfd_indices",
+        "kinds": {
+          "rt": {
+            "priority": 281,
+            "prefix": "TADAWUL",
+            "prefix_alias": [
+              "TADAWUL_DLY"
+            ]
           }
         }
       },
