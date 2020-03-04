@@ -6667,7 +6667,7 @@
       {
         "id": "msci_saudi_cfd_indices",
         "kinds": {
-          "rt": {
+          "delay": {
             "priority": 281,
             "prefix": "TADAWUL",
             "prefix_alias": [
