@@ -5539,6 +5539,7 @@
           "rt": {
             "prefix": "BITPANDAPRO",
             "priority": 155,
+            "exchange_for_display": "Bitpanda Pro",
             "prefix_alias": [
               "BITPANDAGE"
             ],
@@ -6609,6 +6610,16 @@
           "rt": {
             "prefix": "GLOBALPRIME",
             "priority": 224,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "okex",
+        "kinds": {
+          "rt": {
+            "prefix": "OKEX",
+            "priority": 250,
             "skip_in_search": false
           }
         }
