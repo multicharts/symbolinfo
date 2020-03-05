@@ -4307,6 +4307,7 @@
           "rt": {
             "prefix": "BITPANDAPRO",
             "priority": 122,
+            "exchange_for_display": "Bitpanda Pro",
             "prefix_alias": [
               "BITPANDAGE"
             ],
