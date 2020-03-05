@@ -3953,6 +3953,16 @@
         }
       },
       {
+        "id": "okcoin",
+        "kinds": {
+          "rt": {
+            "prefix": "OKCOINNEW",
+            "priority": 100,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "bnc",
         "kinds": {
           "rt": {
