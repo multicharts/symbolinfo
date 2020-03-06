@@ -2412,6 +2412,24 @@
         }
       },
       {
+        "id": "aequitas_neo_l",
+        "kinds": {
+          "rt": {
+            "prefix": "NEOL",
+            "priority": 60
+          }
+        }
+      },
+      {
+        "id": "aequitas_neo_others_l",
+        "kinds": {
+          "rt": {
+            "prefix": "NEOL",
+            "priority": 60
+          }
+        }
+      },
+      {
         "id": "euronext_continuous",
         "kinds": {
           "rt": {
