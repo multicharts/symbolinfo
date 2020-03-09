@@ -311,35 +311,6 @@
         }
       },
       {
-        "id": "mercado",
-        "kinds": {
-          "rt": {
-            "prefix": "MERCADO",
-            "priority": 12
-          }
-        }
-      },
-      {
-        "id": "bitflyer2",
-        "kinds": {
-          "rt": {
-            "prefix": "BITFLYER",
-            "priority": 12,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "bitflyer_spreads",
-        "kinds": {
-          "rt": {
-            "prefix": "BITFLYER",
-            "priority": 12,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
         "id": "frbny",
         "kinds": {
           "rt": {
@@ -402,30 +373,30 @@
         }
       },
       {
-        "id": "bittrex",
+        "id": "binance",
         "kinds": {
           "rt": {
-            "prefix": "BITTREX",
+            "prefix": "BINANCE",
             "priority": 14,
             "skip_in_search": false
           }
         }
       },
       {
-        "id": "bittrex_spreads",
+        "id": "binance_spreads",
         "kinds": {
           "rt": {
-            "prefix": "BITTREX",
+            "prefix": "BINANCE",
             "priority": 14,
             "skip_in_search": false
           }
         }
       },
       {
-        "id": "bittrex_forex_spreads",
+        "id": "binance_futures",
         "kinds": {
           "rt": {
-            "prefix": "BITTREX",
+            "prefix": "BINANCE",
             "priority": 14,
             "skip_in_search": false
           }
@@ -475,6 +446,15 @@
       },
       {
         "id": "kraken",
+        "kinds": {
+          "rt": {
+            "prefix": "KRAKEN",
+            "priority": 19
+          }
+        }
+      },
+      {
+        "id": "kraken_futures",
         "kinds": {
           "rt": {
             "prefix": "KRAKEN",
@@ -549,16 +529,6 @@
         }
       },
       {
-        "id": "binance",
-        "kinds": {
-          "rt": {
-            "prefix": "BINANCE",
-            "priority": 20,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
         "id": "amex_idc",
         "kinds": {
           "rt": {
@@ -573,20 +543,20 @@
         }
       },
       {
-        "id": "poloniex",
+        "id": "bitflyer2",
         "kinds": {
           "rt": {
-            "prefix": "POLONIEX",
+            "prefix": "BITFLYER",
             "priority": 21,
             "skip_in_search": false
           }
         }
       },
       {
-        "id": "poloniex_spreads",
+        "id": "bitflyer_spreads",
         "kinds": {
           "rt": {
-            "prefix": "POLONIEX",
+            "prefix": "BITFLYER",
             "priority": 21,
             "skip_in_search": false
           }
@@ -612,6 +582,135 @@
             "prefix_no_perm": [
               "BATS"
             ]
+          }
+        }
+      },
+      {
+        "id": "bybit",
+        "kinds": {
+          "rt": {
+            "prefix": "BYBIT",
+            "priority": 22,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "huobi",
+        "kinds": {
+          "rt": {
+            "prefix": "HUOBI",
+            "priority": 23
+          }
+        }
+      },
+      {
+        "id": "huobi2",
+        "kinds": {
+          "rt": {
+            "prefix": "HUOBI",
+            "priority": 23
+          }
+        }
+      },
+      {
+        "id": "huobi_crypto",
+        "kinds": {
+          "rt": {
+            "prefix": "HUOBI",
+            "priority": 23
+          }
+        }
+      },
+      {
+        "id": "huobi_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "HUOBI",
+            "priority": 23
+          }
+        }
+      },
+      {
+        "id": "bittrex",
+        "kinds": {
+          "rt": {
+            "prefix": "BITTREX",
+            "priority": 24,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "bittrex_spreads",
+        "kinds": {
+          "rt": {
+            "prefix": "BITTREX",
+            "priority": 24,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "bittrex_forex_spreads",
+        "kinds": {
+          "rt": {
+            "prefix": "BITTREX",
+            "priority": 24,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "poloniex",
+        "kinds": {
+          "rt": {
+            "prefix": "POLONIEX",
+            "priority": 25,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "poloniex_spreads",
+        "kinds": {
+          "rt": {
+            "prefix": "POLONIEX",
+            "priority": 25,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "hitbtc_spreads",
+        "kinds": {
+          "rt": {
+            "prefix": "HITBTC_SPREADS",
+            "priority": 26,
+            "skip_in_search": false,
+            "prefix_alias": [
+              "HITBTC"
+            ]
+          }
+        }
+      },
+      {
+        "id": "hitbtc2",
+        "kinds": {
+          "rt": {
+            "prefix": "HITBTC",
+            "priority": 26,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "deribit",
+        "kinds": {
+          "rt": {
+            "prefix": "DERIBIT",
+            "priority": 27,
+            "skip_in_search": false
           }
         }
       },
@@ -3687,6 +3786,15 @@
         }
       },
       {
+        "id": "mercado",
+        "kinds": {
+          "rt": {
+            "prefix": "MERCADO",
+            "priority": 99
+          }
+        }
+      },
+      {
         "id": "nasdaq_america_indices",
         "kinds": {
           "rt": {
@@ -4163,26 +4271,6 @@
         }
       },
       {
-        "id": "binance_spreads",
-        "kinds": {
-          "rt": {
-            "prefix": "BINANCE",
-            "priority": 112,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "binance_futures",
-        "kinds": {
-          "rt": {
-            "prefix": "BINANCE",
-            "priority": 112,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
         "id": "bitso_spreads",
         "kinds": {
           "rt": {
@@ -4199,19 +4287,6 @@
             "prefix": "CEXIO",
             "priority": 112,
             "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "hitbtc_spreads",
-        "kinds": {
-          "rt": {
-            "prefix": "HITBTC_SPREADS",
-            "priority": 112,
-            "skip_in_search": false,
-            "prefix_alias": [
-              "HITBTC"
-            ]
           }
         }
       },
@@ -4242,16 +4317,6 @@
             "prefix": "BITFINEX",
             "priority": 112,
             "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "hitbtc2",
-        "kinds": {
-          "rt": {
-            "prefix": "HITBTC",
-            "priority": 112,
-            "skip_in_search": false
           }
         }
       },
@@ -4387,67 +4452,11 @@
         }
       },
       {
-        "id": "deribit",
-        "kinds": {
-          "rt": {
-            "prefix": "DERIBIT",
-            "priority": 114,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "huobi2",
-        "kinds": {
-          "rt": {
-            "prefix": "HUOBI",
-            "priority": 115
-          }
-        }
-      },
-      {
-        "id": "huobi_crypto",
-        "kinds": {
-          "rt": {
-            "prefix": "HUOBI",
-            "priority": 115
-          }
-        }
-      },
-      {
-        "id": "huobi_futures",
-        "kinds": {
-          "rt": {
-            "prefix": "HUOBI",
-            "priority": 115
-          }
-        }
-      },
-      {
         "id": "bitbay",
         "kinds": {
           "rt": {
             "prefix": "BITBAY",
             "priority": 115,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "huobi",
-        "kinds": {
-          "rt": {
-            "prefix": "HUOBI",
-            "priority": 116
-          }
-        }
-      },
-      {
-        "id": "bybit",
-        "kinds": {
-          "rt": {
-            "prefix": "BYBIT",
-            "priority": 116,
             "skip_in_search": false
           }
         }
@@ -4518,6 +4527,20 @@
           "rt": {
             "prefix": "GOCIO",
             "priority": 120
+          }
+        }
+      },
+      {
+        "id": "bitpanda",
+        "kinds": {
+          "rt": {
+            "prefix": "BITPANDAPRO",
+            "priority": 122,
+            "exchange_for_display": "Bitpanda Pro",
+            "prefix_alias": [
+              "BITPANDAGE"
+            ],
+            "skip_in_search": false
           }
         }
       },
@@ -5468,15 +5491,6 @@
         }
       },
       {
-        "id": "kraken_futures",
-        "kinds": {
-          "rt": {
-            "prefix": "KRAKEN",
-            "priority": 150
-          }
-        }
-      },
-      {
         "id": "cmc",
         "kinds": {
           "rt": {
@@ -5540,20 +5554,6 @@
           "eod": {
             "prefix": "CSE_EOD",
             "priority": 155
-          }
-        }
-      },
-      {
-        "id": "bitpanda",
-        "kinds": {
-          "rt": {
-            "prefix": "BITPANDAPRO",
-            "priority": 155,
-            "exchange_for_display": "Bitpanda Pro",
-            "prefix_alias": [
-              "BITPANDAGE"
-            ],
-            "skip_in_search": false
           }
         }
       },
