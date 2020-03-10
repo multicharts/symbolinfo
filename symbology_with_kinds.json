@@ -74,10 +74,7 @@
         "kinds": {
           "rt": {
             "prefix": "OANDA",
-            "priority": 9,
-            "prefix_alias": [
-              "TVC"
-            ]
+            "priority": 9
           }
         }
       },
