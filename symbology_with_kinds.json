@@ -3905,7 +3905,7 @@
         }
       },
       {
-        "id": "nasdaq_others_indices",
+        "id": "nasdaq_other_indices",
         "kinds": {
           "rt": {
             "prefix": "NASDAQ",
