@@ -2416,7 +2416,7 @@
         "id": "aequitas_neo_l",
         "kinds": {
           "rt": {
-            "prefix": "NEOL",
+            "prefix": "NEO",
             "priority": 60
           }
         }
@@ -2425,7 +2425,7 @@
         "id": "aequitas_neo_others_l",
         "kinds": {
           "rt": {
-            "prefix": "NEOL",
+            "prefix": "NEO",
             "priority": 60
           }
         }
