@@ -266,26 +266,6 @@
         }
       },
       {
-        "id": "sp_cfd_indices",
-        "kinds": {
-          "rt": {
-            "priority": 10,
-            "prefix": "SPCFD_OLD",
-            "perm": "sp_cfd"
-          }
-        }
-      },
-      {
-        "id": "dj_cfd_indices",
-        "kinds": {
-          "rt": {
-            "priority": 10,
-            "prefix": "DJCFD_OLD",
-            "perm": "dj_cfd"
-          }
-        }
-      },
-      {
         "id": "gemini",
         "kinds": {
           "rt": {
