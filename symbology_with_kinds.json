@@ -664,12 +664,9 @@
         "id": "hitbtc_spreads",
         "kinds": {
           "rt": {
-            "prefix": "HITBTC_SPREADS",
+            "prefix": "HITBTC",
             "priority": 26,
-            "skip_in_search": false,
-            "prefix_alias": [
-              "HITBTC"
-            ]
+            "skip_in_search": false
           }
         }
       },
