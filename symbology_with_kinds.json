@@ -6312,6 +6312,26 @@
         }
       },
       {
+        "id": "aequitas_neo_l",
+        "kinds": {
+          "rt": {
+            "prefix": "NEO",
+            "priority": 260,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "aequitas_neo_others_l",
+        "kinds": {
+          "rt": {
+            "prefix": "NEO",
+            "priority": 260,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "egyptian_indices",
         "kinds": {
           "rt": {
