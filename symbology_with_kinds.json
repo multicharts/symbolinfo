@@ -5499,6 +5499,16 @@
         }
       },
       {
+        "id": "whselfinvest",
+        "kinds": {
+          "rt": {
+            "prefix": "WHSELFINVEST",
+            "priority": 160,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "bitbay",
         "kinds": {
           "rt": {
