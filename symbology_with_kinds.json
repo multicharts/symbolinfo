@@ -3966,7 +3966,8 @@
         "kinds": {
           "eod": {
             "prefix": "COVID19",
-            "priority": 100
+            "priority": 100,
+            "skip_in_search": false
           }
         }
       },
