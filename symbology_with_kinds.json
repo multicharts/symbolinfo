@@ -4041,6 +4041,16 @@
         }
       },
       {
+        "id": "okex",
+        "kinds": {
+          "rt": {
+            "prefix": "OKEX",
+            "priority": 100,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "bnc",
         "kinds": {
           "rt": {
