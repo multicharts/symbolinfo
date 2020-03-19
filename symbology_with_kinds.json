@@ -106,6 +106,15 @@
         }
       },
       {
+        "id": "covid_statistics",
+        "kinds": {
+          "eod": {
+            "prefix": "COVID",
+            "priority": 10
+          }
+        }
+      },
+      {
         "id": "sp_cfd_2_indices",
         "kinds": {
           "rt": {
