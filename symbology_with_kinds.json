@@ -126,7 +126,7 @@
       {
         "id": "covid_statistics",
         "kinds": {
-          "rt": {
+          "eod": {
             "prefix": "COVID",
             "priority": 10
           }
