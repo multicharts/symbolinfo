@@ -124,6 +124,15 @@
         }
       },
       {
+        "id": "covid_statistics",
+        "kinds": {
+          "rt": {
+            "prefix": "COVID",
+            "priority": 10
+          }
+        }
+      },
+      {
         "id": "sp_cfd_2_indices",
         "kinds": {
           "rt": {
