@@ -109,7 +109,7 @@
         "id": "covid_statistics",
         "kinds": {
           "eod": {
-            "prefix": "COVID",
+            "prefix": "COVID19",
             "priority": 10
           }
         }
