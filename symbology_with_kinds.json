@@ -482,6 +482,132 @@
         }
       },
       {
+        "id": "nasdaq_america_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "NASDAQ",
+            "priority": 10,
+            "prefix_alias": [
+              "INDEX"
+            ],
+            "prefix_no_perm": [
+              "NASDAQ_DLY"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "prefix": "NASDAQ_DLY",
+            "priority": 20,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "nasdaq_asia_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "NASDAQ",
+            "priority": 10,
+            "prefix_alias": [
+              "INDEX"
+            ],
+            "prefix_no_perm": [
+              "NASDAQ_DLY"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "prefix": "NASDAQ_DLY",
+            "priority": 20,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "nasdaq_europe_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "NASDAQ",
+            "priority": 10,
+            "prefix_alias": [
+              "INDEX"
+            ],
+            "prefix_no_perm": [
+              "NASDAQ_DLY"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "prefix": "NASDAQ_DLY",
+            "priority": 20,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "nasdaq_omx_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "NASDAQ",
+            "priority": 10,
+            "prefix_alias": [
+              "INDEX"
+            ],
+            "prefix_no_perm": [
+              "NASDAQ_DLY"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "prefix": "NASDAQ_DLY",
+            "priority": 20,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "nasdaq_other_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "NASDAQ",
+            "priority": 10,
+            "prefix_alias": [
+              "INDEX"
+            ],
+            "prefix_no_perm": [
+              "NASDAQ_DLY"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "prefix": "NASDAQ_DLY",
+            "priority": 20,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "nasdaq_us_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "NASDAQ",
+            "priority": 10,
+            "prefix_alias": [
+              "INDEX"
+            ],
+            "prefix_no_perm": [
+              "NASDAQ_DLY"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "prefix": "NASDAQ_DLY",
+            "priority": 20,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "lme_cfd",
         "kinds": {
           "rt": {
@@ -3776,168 +3902,6 @@
           "rt": {
             "prefix": "MERCADO",
             "priority": 99
-          }
-        }
-      },
-      {
-        "id": "nasdaq_america_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "NASDAQ",
-            "priority": 10,
-            "prefix_alias": [
-              "INDEX"
-            ],
-            "prefix_no_perm": [
-              "NASDAQ_DLY"
-            ],
-            "skip_in_search": false
-          },
-          "delay": {
-            "prefix": "NASDAQ_DLY",
-            "priority": 20,
-            "skip_in_search": true
-          },
-          "eod": {
-            "prefix": "NASDAQ_EOD",
-            "priority": 100,
-            "skip_in_search": true,
-            "perm": "permission_denied"
-          }
-        }
-      },
-      {
-        "id": "nasdaq_asia_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "NASDAQ",
-            "priority": 10,
-            "prefix_alias": [
-              "INDEX"
-            ],
-            "prefix_no_perm": [
-              "NASDAQ_DLY"
-            ],
-            "skip_in_search": false
-          },
-          "delay": {
-            "prefix": "NASDAQ_DLY",
-            "priority": 20,
-            "skip_in_search": true
-          },
-          "eod": {
-            "prefix": "NASDAQ_EOD",
-            "priority": 100,
-            "skip_in_search": true,
-            "perm": "permission_denied"
-          }
-        }
-      },
-      {
-        "id": "nasdaq_europe_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "NASDAQ",
-            "priority": 10,
-            "prefix_alias": [
-              "INDEX"
-            ],
-            "prefix_no_perm": [
-              "NASDAQ_DLY"
-            ],
-            "skip_in_search": false
-          },
-          "delay": {
-            "prefix": "NASDAQ_DLY",
-            "priority": 20,
-            "skip_in_search": true
-          },
-          "eod": {
-            "prefix": "NASDAQ_EOD",
-            "priority": 100,
-            "skip_in_search": true,
-            "perm": "permission_denied"
-          }
-        }
-      },
-      {
-        "id": "nasdaq_omx_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "NASDAQ",
-            "priority": 10,
-            "prefix_alias": [
-              "INDEX"
-            ],
-            "prefix_no_perm": [
-              "NASDAQ_DLY"
-            ],
-            "skip_in_search": false
-          },
-          "delay": {
-            "prefix": "NASDAQ_DLY",
-            "priority": 20,
-            "skip_in_search": true
-          },
-          "eod": {
-            "prefix": "NASDAQ_EOD",
-            "priority": 100,
-            "skip_in_search": true,
-            "perm": "permission_denied"
-          }
-        }
-      },
-      {
-        "id": "nasdaq_other_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "NASDAQ",
-            "priority": 10,
-            "prefix_alias": [
-              "INDEX"
-            ],
-            "prefix_no_perm": [
-              "NASDAQ_DLY"
-            ],
-            "skip_in_search": false
-          },
-          "delay": {
-            "prefix": "NASDAQ_DLY",
-            "priority": 20,
-            "skip_in_search": true
-          },
-          "eod": {
-            "prefix": "NASDAQ_EOD",
-            "priority": 100,
-            "skip_in_search": true,
-            "perm": "permission_denied"
-          }
-        }
-      },
-      {
-        "id": "nasdaq_us_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "NASDAQ",
-            "priority": 10,
-            "prefix_alias": [
-              "INDEX"
-            ],
-            "prefix_no_perm": [
-              "NASDAQ_DLY"
-            ],
-            "skip_in_search": false
-          },
-          "delay": {
-            "prefix": "NASDAQ_DLY",
-            "priority": 20,
-            "skip_in_search": true
-          },
-          "eod": {
-            "prefix": "NASDAQ_EOD",
-            "priority": 100,
-            "skip_in_search": true,
-            "perm": "permission_denied"
           }
         }
       },
