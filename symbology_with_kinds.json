@@ -3962,6 +3962,15 @@
         }
       },
       {
+        "id": "covid_statistics",
+        "kinds": {
+          "eod": {
+            "prefix": "COVID19",
+            "priority": 100
+          }
+        }
+      },
+      {
         "id": "nyse_gif_indices",
         "kinds": {
           "eod": {
