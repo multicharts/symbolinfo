@@ -4455,6 +4455,16 @@
         }
       },
       {
+        "id": "kucoin",
+        "kinds": {
+          "rt": {
+            "prefix": "KUCOIN",
+            "priority": 123,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "cboe_futures",
         "kinds": {
           "eod": {
