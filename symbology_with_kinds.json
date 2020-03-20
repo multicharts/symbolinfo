@@ -2455,6 +2455,26 @@
         }
       },
       {
+        "id": "aequitas_neo_l",
+        "kinds": {
+          "rt": {
+            "prefix": "NEO",
+            "priority": 60,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "aequitas_neo_others_l",
+        "kinds": {
+          "rt": {
+            "prefix": "NEO",
+            "priority": 60,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "euronext_continuous",
         "kinds": {
           "rt": {
@@ -6327,26 +6347,6 @@
             "prefix_alias": [
               "MGEX"
             ]
-          }
-        }
-      },
-      {
-        "id": "aequitas_neo_l",
-        "kinds": {
-          "rt": {
-            "prefix": "NEO",
-            "priority": 260,
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "aequitas_neo_others_l",
-        "kinds": {
-          "rt": {
-            "prefix": "NEO",
-            "priority": 260,
-            "skip_in_search": true
           }
         }
       },
