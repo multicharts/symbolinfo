@@ -776,7 +776,16 @@
         }
       },
       {
-        "id": "huobi2",
+        "id": "huobi_crypto",
+        "kinds": {
+          "rt": {
+            "prefix": "HUOBI",
+            "priority": 23
+          }
+        }
+      },
+      {
+        "id": "huobi_futures",
         "kinds": {
           "rt": {
             "prefix": "HUOBI",
@@ -6510,6 +6519,16 @@
           "rt": {
             "prefix": "CRYPTOCAP",
             "priority": 300
+          }
+        }
+      },
+      {
+        "id": "huobi2",
+        "kinds": {
+          "rt": {
+            "prefix": "HUOBI",
+            "priority": 323,
+            "skip_in_search": true
           }
         }
       },
