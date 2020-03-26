@@ -5749,6 +5749,16 @@
         }
       },
       {
+        "id": "whselfinvest",
+        "kinds": {
+          "rt": {
+            "prefix": "WHSELFINVEST",
+            "priority": 160,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "warsaw_indices",
         "kinds": {
           "rt": {
