@@ -6322,7 +6322,7 @@
         "id": "jfd_fx",
         "kinds": {
           "rt": {
-            "prefix": "JFDBROKERS",
+            "prefix": "JFD",
             "priority": 220,
             "skip_in_search": false
           }
@@ -6332,7 +6332,7 @@
         "id": "jfd_indices_and_oil",
         "kinds": {
           "rt": {
-            "prefix": "JFDBROKERS",
+            "prefix": "JFD",
             "priority": 220,
             "skip_in_search": false
           }
@@ -6342,7 +6342,7 @@
         "id": "jfd_stocks_us_cfd",
         "kinds": {
           "rt": {
-            "prefix": "JFDBROKERS",
+            "prefix": "JFD",
             "priority": 220,
             "skip_in_search": false
           }
@@ -6352,7 +6352,7 @@
         "id": "jfd_stocks_eu_cfd",
         "kinds": {
           "rt": {
-            "prefix": "JFDBROKERS",
+            "prefix": "JFD",
             "priority": 220,
             "skip_in_search": false
           }
@@ -6362,7 +6362,7 @@
         "id": "jfd_stocks_de_cfd",
         "kinds": {
           "rt": {
-            "prefix": "JFDBROKERS",
+            "prefix": "JFD",
             "priority": 220,
             "skip_in_search": false
           }
@@ -6372,7 +6372,7 @@
         "id": "jfd_etf_and_etn",
         "kinds": {
           "rt": {
-            "prefix": "JFDBROKERS",
+            "prefix": "JFD",
             "priority": 220,
             "skip_in_search": false
           }
@@ -6382,7 +6382,7 @@
         "id": "jfd_precious_metals",
         "kinds": {
           "rt": {
-            "prefix": "JFDBROKERS",
+            "prefix": "JFD",
             "priority": 220,
             "skip_in_search": false
           }
@@ -6392,7 +6392,7 @@
         "id": "jfd_crypto",
         "kinds": {
           "rt": {
-            "prefix": "JFDBROKERS",
+            "prefix": "JFD",
             "priority": 220,
             "skip_in_search": false
           }
@@ -6402,7 +6402,7 @@
         "id": "jfd_stocks_us",
         "kinds": {
           "rt": {
-            "prefix": "JFDBROKERS",
+            "prefix": "JFD",
             "priority": 220,
             "skip_in_search": false
           }
@@ -6412,7 +6412,7 @@
         "id": "jfd_stocks_de",
         "kinds": {
           "rt": {
-            "prefix": "JFDBROKERS",
+            "prefix": "JFD",
             "priority": 220,
             "skip_in_search": false
           }
@@ -6422,7 +6422,7 @@
         "id": "jfd_stocks_es",
         "kinds": {
           "rt": {
-            "prefix": "JFDBROKERS",
+            "prefix": "JFD",
             "priority": 220,
             "skip_in_search": false
           }
@@ -6432,7 +6432,7 @@
         "id": "jfd_index_rsp",
         "kinds": {
           "rt": {
-            "prefix": "JFDBROKERS",
+            "prefix": "JFD",
             "priority": 220,
             "skip_in_search": false
           }
@@ -6442,7 +6442,7 @@
         "id": "jfd_stocks_ne_cfd",
         "kinds": {
           "rt": {
-            "prefix": "JFDBROKERS",
+            "prefix": "JFD",
             "priority": 220,
             "skip_in_search": false
           }
@@ -6452,7 +6452,7 @@
         "id": "jfd_stocks_fr",
         "kinds": {
           "rt": {
-            "prefix": "JFDBROKERS",
+            "prefix": "JFD",
             "priority": 220,
             "skip_in_search": false
           }
@@ -6462,7 +6462,7 @@
         "id": "jfd_fx_p",
         "kinds": {
           "rt": {
-            "prefix": "JFDBROKERS",
+            "prefix": "JFD",
             "priority": 220,
             "skip_in_search": false
           }
@@ -6472,7 +6472,7 @@
         "id": "jfd_metals_p",
         "kinds": {
           "rt": {
-            "prefix": "JFDBROKERS",
+            "prefix": "JFD",
             "priority": 220,
             "skip_in_search": false
           }
@@ -6482,7 +6482,7 @@
         "id": "jfd_stocks_ne",
         "kinds": {
           "rt": {
-            "prefix": "JFDBROKERS",
+            "prefix": "JFD",
             "priority": 220,
             "skip_in_search": false
           }
@@ -6492,7 +6492,7 @@
         "id": "jfd_crypto_p",
         "kinds": {
           "rt": {
-            "prefix": "JFDBROKERS",
+            "prefix": "JFD",
             "priority": 220,
             "skip_in_search": false
           }
@@ -6502,7 +6502,7 @@
         "id": "jfd_fx_rsz",
         "kinds": {
           "rt": {
-            "prefix": "JFDBROKERS",
+            "prefix": "JFD",
             "priority": 220,
             "skip_in_search": false
           }
@@ -6512,7 +6512,7 @@
         "id": "jfd_fx_rsp",
         "kinds": {
           "rt": {
-            "prefix": "JFDBROKERS",
+            "prefix": "JFD",
             "priority": 220,
             "skip_in_search": false
           }
@@ -6522,7 +6522,7 @@
         "id": "jfd_index_rsz",
         "kinds": {
           "rt": {
-            "prefix": "JFDBROKERS",
+            "prefix": "JFD",
             "priority": 220,
             "skip_in_search": false
           }
@@ -6532,7 +6532,7 @@
         "id": "jfd_indices_and_futures",
         "kinds": {
           "rt": {
-            "prefix": "JFDBROKERS",
+            "prefix": "JFD",
             "priority": 220,
             "skip_in_search": false
           }
