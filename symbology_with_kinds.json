@@ -4443,6 +4443,15 @@
         }
       },
       {
+        "id": "huobi_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "HUOBI",
+            "priority": 115
+          }
+        }
+      },
+      {
         "id": "bybit",
         "kinds": {
           "rt": {
