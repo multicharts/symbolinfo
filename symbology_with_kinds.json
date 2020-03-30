@@ -4064,7 +4064,7 @@
         "id": "okcoin",
         "kinds": {
           "rt": {
-            "prefix": "OKCOINNEW",
+            "prefix": "OKCOIN",
             "priority": 100,
             "skip_in_search": false
           }
