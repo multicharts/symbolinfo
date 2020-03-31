@@ -3944,6 +3944,16 @@
         }
       },
       {
+        "id": "okcoin",
+        "kinds": {
+          "rt": {
+            "prefix": "OKCOIN",
+            "priority": 99,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "toronto_indices",
         "kinds": {
           "rt": {
@@ -4055,16 +4065,6 @@
         "kinds": {
           "rt": {
             "prefix": "OKEX",
-            "priority": 100,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "okcoin",
-        "kinds": {
-          "rt": {
-            "prefix": "OKCOIN",
             "priority": 100,
             "skip_in_search": false
           }
