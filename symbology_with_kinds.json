@@ -6795,6 +6795,56 @@
         }
       },
       {
+        "id": "currencycomleverage_index",
+        "kinds": {
+          "rt": {
+            "prefix": "CURRENCYCOMLEV",
+            "priority": 225,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "currencycomleverage_commodity",
+        "kinds": {
+          "rt": {
+            "prefix": "CURRENCYCOMLEV",
+            "priority": 225,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "currencycomleverage_equity",
+        "kinds": {
+          "rt": {
+            "prefix": "CURRENCYCOMLEV",
+            "priority": 225,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "currencycomleverage_currency",
+        "kinds": {
+          "rt": {
+            "prefix": "CURRENCYCOMLEV",
+            "priority": 225,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "currencycomleverage_cryptocurrency",
+        "kinds": {
+          "rt": {
+            "prefix": "CURRENCYCOMLEV",
+            "priority": 225,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "okex",
         "kinds": {
           "rt": {
