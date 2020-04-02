@@ -6605,16 +6605,6 @@
         }
       },
       {
-        "id": "currencycom_bond",
-        "kinds": {
-          "rt": {
-            "prefix": "CURRENCYCOM",
-            "priority": 222,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
         "id": "currencycom_equity",
         "kinds": {
           "rt": {
