@@ -134,16 +134,6 @@
         }
       },
       {
-        "id": "oanda_tvc",
-        "kinds": {
-          "rt": {
-            "prefix": "TVC",
-            "priority": 10,
-            "search_boost": 2.0
-          }
-        }
-      },
-      {
         "id": "sp_cfd_2_indices",
         "kinds": {
           "rt": {
