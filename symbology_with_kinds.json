@@ -79,6 +79,20 @@
         }
       },
       {
+        "id": "oanda_cme",
+        "kinds": {
+          "rt": {
+            "prefix": "OANDA",
+            "priority": 9,
+            "perm": "oanda_cme",
+            "prefix_alias": [
+              "COMEX",
+              "CBOT"
+            ]
+          }
+        }
+      },
+      {
         "id": "forex_tvc",
         "kinds": {
           "rt": {
