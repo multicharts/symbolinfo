@@ -4735,6 +4735,7 @@
           "rt": {
             "prefix": "CBOT",
             "priority": 50,
+            "perm": "cbot",
             "prefix_no_perm": [
               "CBOT_DL"
             ],
@@ -4745,6 +4746,7 @@
           "delay": {
             "prefix": "CBOT_DL",
             "priority": 51,
+            "perm": "cbot_dly",
             "prefix_no_perm": [
               "CBOT_EOD"
             ]
@@ -4761,6 +4763,7 @@
           "rt": {
             "prefix": "CBOT",
             "priority": 50,
+            "perm": "cbot",
             "prefix_no_perm": [
               "CBOT_DL"
             ],
@@ -4771,6 +4774,7 @@
           "delay": {
             "prefix": "CBOT_DL",
             "priority": 51,
+            "perm": "cbot_dly",
             "prefix_no_perm": [
               "CBOT_EOD"
             ]
@@ -4790,6 +4794,7 @@
               "CBOT"
             ],
             "priority": 50,
+            "perm": "cbot_mini",
             "prefix_no_perm": [
               "CBOT_MINI_DL"
             ]
@@ -4797,6 +4802,7 @@
           "delay": {
             "prefix": "CBOT_MINI_DL",
             "priority": 51,
+            "perm": "cbot_mini_dly",
             "prefix_no_perm": [
               "CBOT_MINI_EOD"
             ]
@@ -4816,6 +4822,7 @@
               "CBOT"
             ],
             "priority": 50,
+            "perm": "cbot_mini",
             "prefix_no_perm": [
               "CBOT_MINI_DL"
             ]
@@ -4823,6 +4830,7 @@
           "delay": {
             "prefix": "CBOT_MINI_DL",
             "priority": 51,
+            "perm": "cbot_mini_dly",
             "prefix_no_perm": [
               "CBOT_MINI_EOD"
             ]
@@ -4839,12 +4847,22 @@
           "rt": {
             "prefix": "COMEX",
             "priority": 50,
+            "perm": "comex",
             "prefix_no_perm": [
               "COMEX_DL"
             ],
             "skip_in_search": false
           },
           "delay": {
+            "prefix": "COMEX_DL",
+            "priority": 51,
+            "perm": "comex_dly",
+            "prefix_no_perm": [
+              "COMEX_EOD"
+            ],
+            "skip_in_search": false
+          },
+          "eod": {
             "prefix": "COMEX_EOD",
             "priority": 150,
             "skip_in_search": false
@@ -4860,12 +4878,22 @@
               "COMEX"
             ],
             "priority": 50,
+            "perm": "comex_mini",
             "prefix_no_perm": [
               "COMEX_MINI_DL"
             ],
             "skip_in_search": false
           },
           "delay": {
+            "prefix": "COMEX_MINI_DL",
+            "priority": 51,
+            "perm": "comex_mini_dly",
+            "prefix_no_perm": [
+              "COMEX_MINI_EOD"
+            ],
+            "skip_in_search": false
+          },
+          "eod": {
             "prefix": "COMEX_MINI_EOD",
             "priority": 150,
             "skip_in_search": false
@@ -4878,6 +4906,7 @@
           "rt": {
             "prefix": "CME",
             "priority": 50,
+            "perm": "cme",
             "prefix_no_perm": [
               "CME_DL"
             ],
@@ -4886,6 +4915,7 @@
           "delay": {
             "prefix": "CME_DL",
             "priority": 51,
+            "perm": "cme_dly",
             "prefix_no_perm": [
               "CME_EOD"
             ],
@@ -4904,6 +4934,7 @@
           "rt": {
             "prefix": "CME",
             "priority": 50,
+            "perm": "cme",
             "prefix_no_perm": [
               "CME_DL"
             ],
@@ -4912,6 +4943,7 @@
           "delay": {
             "prefix": "CME_DL",
             "priority": 51,
+            "perm": "cme_dly",
             "prefix_no_perm": [
               "CME_EOD"
             ],
@@ -4933,6 +4965,7 @@
               "CME"
             ],
             "priority": 50,
+            "perm": "cme_mini",
             "prefix_no_perm": [
               "CME_MINI_DL"
             ],
@@ -4941,6 +4974,7 @@
           "delay": {
             "prefix": "CME_MINI_DL",
             "priority": 51,
+            "perm": "cme_mini_dly",
             "prefix_no_perm": [
               "CME_MINI_EOD"
             ],
@@ -4962,6 +4996,7 @@
               "CME"
             ],
             "priority": 50,
+            "perm": "cme_mini",
             "prefix_no_perm": [
               "CME_MINI_DL"
             ],
@@ -4970,6 +5005,7 @@
           "delay": {
             "prefix": "CME_MINI_DL",
             "priority": 51,
+            "perm": "cme_mini_dly",
             "prefix_no_perm": [
               "CME_MINI_EOD"
             ],
@@ -4988,6 +5024,7 @@
           "rt": {
             "prefix": "NYMEX",
             "priority": 50,
+            "perm": "nymex",
             "prefix_no_perm": [
               "NYMEX_DL"
             ],
@@ -4996,6 +5033,7 @@
           "delay": {
             "prefix": "NYMEX_DL",
             "priority": 51,
+            "perm": "nymex_dly",
             "prefix_no_perm": [
               "NYMEX_EOD"
             ],
@@ -5014,6 +5052,7 @@
           "rt": {
             "prefix": "NYMEX",
             "priority": 50,
+            "perm": "nymex",
             "prefix_no_perm": [
               "NYMEX_DL"
             ],
@@ -5022,6 +5061,7 @@
           "delay": {
             "prefix": "NYMEX_DL",
             "priority": 51,
+            "perm": "nymex_dly",
             "prefix_no_perm": [
               "NYMEX_EOD"
             ],
@@ -5043,6 +5083,7 @@
               "NYMEX"
             ],
             "priority": 50,
+            "perm": "nymex_mini",
             "prefix_no_perm": [
               "NYMEX_MINI_DL"
             ],
@@ -5051,6 +5092,7 @@
           "delay": {
             "prefix": "NYMEX_MINI_DL",
             "priority": 51,
+            "perm": "nymex_mini_dly",
             "prefix_no_perm": [
               "NYMEX_MINI_EOD"
             ],
@@ -5119,6 +5161,7 @@
           "rt": {
             "prefix": "CME",
             "priority": 50,
+            "perm": "cme",
             "prefix_no_perm": [
               "CME_DL"
             ],
@@ -5127,6 +5170,7 @@
           "delay": {
             "prefix": "CME_DL",
             "priority": 51,
+            "perm": "cme_dly",
             "prefix_no_perm": [
               "CME_EOD"
             ],
@@ -5145,6 +5189,7 @@
           "rt": {
             "prefix": "CME",
             "priority": 50,
+            "perm": "cme",
             "prefix_no_perm": [
               "CME_DL"
             ],
@@ -5153,6 +5198,7 @@
           "delay": {
             "prefix": "CME_DL",
             "priority": 51,
+            "perm": "cme_dly",
             "prefix_no_perm": [
               "CME_EOD"
             ],
@@ -5174,6 +5220,7 @@
               "CME"
             ],
             "priority": 50,
+            "perm": "cme_mini",
             "prefix_no_perm": [
               "CME_MINI_DL"
             ],
@@ -5182,6 +5229,7 @@
           "delay": {
             "prefix": "CME_MINI_DL",
             "priority": 51,
+            "perm": "cme_mini_dly",
             "prefix_no_perm": [
               "CME_MINI_EOD"
             ],
@@ -5203,6 +5251,7 @@
               "CME"
             ],
             "priority": 50,
+            "perm": "cme_mini",
             "prefix_no_perm": [
               "CME_MINI_DL"
             ],
@@ -5211,6 +5260,7 @@
           "delay": {
             "prefix": "CME_MINI_DL",
             "priority": 51,
+            "perm": "cme_mini_dly",
             "prefix_no_perm": [
               "CME_MINI_EOD"
             ],
@@ -5229,12 +5279,22 @@
           "rt": {
             "prefix": "COMEX",
             "priority": 50,
+            "perm": "comex",
             "prefix_no_perm": [
               "COMEX_DL"
             ],
             "skip_in_search": false
           },
           "delay": {
+            "prefix": "COMEX_DL",
+            "priority": 51,
+            "perm": "comex_dly",
+            "prefix_no_perm": [
+              "COMEX_EOD"
+            ],
+            "skip_in_search": false
+          },
+          "eod": {
             "prefix": "COMEX_EOD",
             "priority": 150,
             "skip_in_search": false
@@ -5250,12 +5310,22 @@
               "COMEX"
             ],
             "priority": 50,
+            "perm": "comex_mini",
             "prefix_no_perm": [
               "COMEX_MINI_DL"
             ],
             "skip_in_search": false
           },
           "delay": {
+            "prefix": "COMEX_MINI_DL",
+            "priority": 51,
+            "perm": "comex_mini_dly",
+            "prefix_no_perm": [
+              "COMEX_MINI_EOD"
+            ],
+            "skip_in_search": false
+          },
+          "eod": {
             "prefix": "COMEX_MINI_EOD",
             "priority": 150,
             "skip_in_search": false
@@ -5268,6 +5338,7 @@
           "rt": {
             "prefix": "CBOT",
             "priority": 50,
+            "perm": "cbot",
             "prefix_no_perm": [
               "CBOT_DL"
             ],
@@ -5278,6 +5349,7 @@
           "delay": {
             "prefix": "CBOT_DL",
             "priority": 51,
+            "perm": "cbot_dly",
             "prefix_no_perm": [
               "CBOT_EOD"
             ]
@@ -5294,6 +5366,7 @@
           "rt": {
             "prefix": "CBOT",
             "priority": 50,
+            "perm": "cbot",
             "prefix_no_perm": [
               "CBOT_DL"
             ],
@@ -5304,6 +5377,7 @@
           "delay": {
             "prefix": "CBOT_DL",
             "priority": 51,
+            "perm": "cbot_dly",
             "prefix_no_perm": [
               "CBOT_EOD"
             ]
@@ -5323,6 +5397,7 @@
               "CBOT"
             ],
             "priority": 50,
+            "perm": "cbot_mini",
             "prefix_no_perm": [
               "CBOT_MINI_DL"
             ]
@@ -5330,6 +5405,7 @@
           "delay": {
             "prefix": "CBOT_MINI_DL",
             "priority": 51,
+            "perm": "cbot_mini_dly",
             "prefix_no_perm": [
               "CBOT_MINI_EOD"
             ]
@@ -5349,6 +5425,7 @@
               "CBOT"
             ],
             "priority": 50,
+            "perm": "cbot_mini",
             "prefix_no_perm": [
               "CBOT_MINI_DL"
             ]
@@ -5356,6 +5433,7 @@
           "delay": {
             "prefix": "CBOT_MINI_DL",
             "priority": 51,
+            "perm": "cbot_mini_dly",
             "prefix_no_perm": [
               "CBOT_MINI_EOD"
             ]
@@ -5372,6 +5450,7 @@
           "rt": {
             "prefix": "NYMEX",
             "priority": 50,
+            "perm": "nymex",
             "prefix_no_perm": [
               "NYMEX_DL"
             ],
@@ -5380,6 +5459,7 @@
           "delay": {
             "prefix": "NYMEX_DL",
             "priority": 51,
+            "perm": "nymex_dly",
             "prefix_no_perm": [
               "NYMEX_EOD"
             ],
@@ -5398,6 +5478,7 @@
           "rt": {
             "prefix": "NYMEX",
             "priority": 50,
+            "perm": "nymex",
             "prefix_no_perm": [
               "NYMEX_DL"
             ],
@@ -5406,6 +5487,7 @@
           "delay": {
             "prefix": "NYMEX_DL",
             "priority": 51,
+            "perm": "nymex_dly",
             "prefix_no_perm": [
               "NYMEX_EOD"
             ],
@@ -5427,6 +5509,7 @@
               "NYMEX"
             ],
             "priority": 50,
+            "perm": "nymex_mini",
             "prefix_no_perm": [
               "NYMEX_MINI_DL"
             ],
@@ -5435,6 +5518,7 @@
           "delay": {
             "prefix": "NYMEX_MINI_DL",
             "priority": 51,
+            "perm": "nymex_mini_dly",
             "prefix_no_perm": [
               "NYMEX_MINI_EOD"
             ],
