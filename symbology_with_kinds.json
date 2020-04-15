@@ -6792,6 +6792,16 @@
         }
       },
       {
+        "id": "capitalcom_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "CAPITALCOM",
+            "priority": 223,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "globalprime_cfd_cryptocurrencies",
         "kinds": {
           "rt": {
