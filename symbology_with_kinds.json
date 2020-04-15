@@ -106,6 +106,19 @@
         }
       },
       {
+        "id": "oanda_gain",
+        "kinds": {
+          "rt": {
+            "prefix": "OANDA",
+            "priority": 9,
+            "perm": "oanda_cme",
+            "prefix_no_perm": [
+              "FOREXCOM"
+            ]
+          }
+        }
+      },
+      {
         "id": "forex_tvc",
         "kinds": {
           "rt": {
