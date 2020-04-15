@@ -85,9 +85,9 @@
             "prefix": "OANDA",
             "priority": 9,
             "perm": "oanda_cme",
-            "prefix_alias": [
-              "COMEX",
-              "CBOT"
+            "prefix_no_perm": [
+              "COMEX_EOD",
+              "CBOT_EOD"
             ]
           }
         }
