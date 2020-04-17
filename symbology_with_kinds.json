@@ -74,7 +74,8 @@
         "kinds": {
           "rt": {
             "prefix": "OANDA",
-            "priority": 9
+            "priority": 9,
+            "hide_in_search": true
           }
         }
       },
@@ -84,6 +85,7 @@
           "rt": {
             "prefix": "OANDA",
             "priority": 9,
+            "hide_in_search": true,
             "perm": "oanda_cme",
             "prefix_no_perm": [
               "COMEX_EOD",
@@ -98,6 +100,7 @@
           "rt": {
             "prefix": "OANDA",
             "priority": 9,
+            "hide_in_search": true,
             "perm": "oanda_cme",
             "prefix_no_perm": [
               "FX_IDC"
@@ -111,6 +114,7 @@
           "rt": {
             "prefix": "OANDA",
             "priority": 9,
+            "hide_in_search": true,
             "perm": "oanda_cme",
             "prefix_no_perm": [
               "FOREXCOM"
