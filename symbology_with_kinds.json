@@ -1441,22 +1441,6 @@
         }
       },
       {
-        "id": "moex_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "MOEX",
-            "prefix_no_perm": [
-              "MOEX_DLY"
-            ],
-            "priority": 51
-          },
-          "delay": {
-            "prefix": "MOEX_DLY",
-            "priority": 51
-          }
-        }
-      },
-      {
         "id": "moex",
         "kinds": {
           "rt": {
@@ -1650,6 +1634,22 @@
             "prefix_no_perm": [
               "FSE_DLY"
             ]
+          }
+        }
+      },
+      {
+        "id": "moex_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "MOEX",
+            "prefix_no_perm": [
+              "MOEX_DLY"
+            ],
+            "priority": 52
+          },
+          "delay": {
+            "prefix": "MOEX_DLY",
+            "priority": 52
           }
         }
       },
