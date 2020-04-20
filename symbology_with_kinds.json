@@ -81,7 +81,8 @@
             "prefix_no_perm": [
               "COMEX_EOD",
               "CBOT_EOD",
-              "FOREXCOM"
+              "FOREXCOM",
+              "FX_IDC"
             ]
           }
         }
