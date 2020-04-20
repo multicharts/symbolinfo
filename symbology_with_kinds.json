@@ -70,54 +70,33 @@
         }
       },
       {
-        "id": "oanda",
-        "kinds": {
-          "rt": {
-            "prefix": "OANDA",
-            "priority": 9,
-            "hide_in_search": true
-          }
-        }
-      },
-      {
-        "id": "oanda_cme",
+        "id": "oanda_cfd",
         "kinds": {
           "rt": {
             "prefix": "OANDA",
             "priority": 9,
             "hide_in_search": true,
-            "perm": "oanda_cme",
+            "skip_in_search": false,
+            "perm": "oanda",
             "prefix_no_perm": [
               "COMEX_EOD",
-              "CBOT_EOD"
+              "CBOT_EOD",
+              "FOREXCOM"
             ]
           }
         }
       },
       {
-        "id": "oanda_fx_idc",
+        "id": "oanda_forex",
         "kinds": {
           "rt": {
             "prefix": "OANDA",
             "priority": 9,
             "hide_in_search": true,
-            "perm": "oanda_cme",
+            "skip_in_search": false,
+            "perm": "oanda",
             "prefix_no_perm": [
               "FX_IDC"
-            ]
-          }
-        }
-      },
-      {
-        "id": "oanda_gain",
-        "kinds": {
-          "rt": {
-            "prefix": "OANDA",
-            "priority": 9,
-            "hide_in_search": true,
-            "perm": "oanda_cme",
-            "prefix_no_perm": [
-              "FOREXCOM"
             ]
           }
         }
