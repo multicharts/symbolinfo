@@ -79,10 +79,13 @@
             "skip_in_search": false,
             "perm": "oanda",
             "prefix_no_perm": [
-              "COMEX_EOD",
-              "CBOT_EOD",
               "FOREXCOM",
-              "FX_IDC"
+              "FX_IDC",
+              "COMEX",
+              "CBOT",
+              "EUREX",
+              "ICEUS",
+              "ICEEUR"
             ]
           }
         }
