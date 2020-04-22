@@ -1359,10 +1359,9 @@
         "id": "forex_crypto_spreads",
         "kinds": {
           "rt": {
-            "prefix": "FX_IDC",
+            "prefix": "TVC",
             "priority": 50,
-            "search_boost": 2.0,
-            "exchange_for_display": "IDC"
+            "search_boost": 2.0
           }
         }
       },
