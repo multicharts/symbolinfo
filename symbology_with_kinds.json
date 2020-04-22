@@ -70,38 +70,12 @@
         }
       },
       {
-        "id": "oanda_cfd",
+        "id": "oanda",
         "kinds": {
           "rt": {
             "prefix": "OANDA",
             "priority": 9,
-            "hide_in_search": true,
-            "skip_in_search": false,
-            "perm": "oanda",
-            "prefix_no_perm": [
-              "FOREXCOM",
-              "FX_IDC",
-              "COMEX",
-              "CBOT",
-              "EUREX",
-              "ICEUS",
-              "ICEEUR"
-            ]
-          }
-        }
-      },
-      {
-        "id": "oanda_forex",
-        "kinds": {
-          "rt": {
-            "prefix": "OANDA",
-            "priority": 9,
-            "hide_in_search": true,
-            "skip_in_search": false,
-            "perm": "oanda",
-            "prefix_no_perm": [
-              "FX_IDC"
-            ]
+            "skip_in_search": false
           }
         }
       },
@@ -6034,6 +6008,42 @@
               "ICEUS_EOD",
               "ICEUSA_EOD",
               "ICEUSA"
+            ]
+          }
+        }
+      },
+      {
+        "id": "oanda_cfd",
+        "kinds": {
+          "rt": {
+            "prefix": "OANDA",
+            "priority": 209,
+            "hide_in_search": true,
+            "skip_in_search": true,
+            "perm": "oanda",
+            "prefix_no_perm": [
+              "FOREXCOM",
+              "FX_IDC",
+              "COMEX",
+              "CBOT",
+              "EUREX",
+              "ICEUS",
+              "ICEEUR"
+            ]
+          }
+        }
+      },
+      {
+        "id": "oanda_forex",
+        "kinds": {
+          "rt": {
+            "prefix": "OANDA",
+            "priority": 209,
+            "hide_in_search": true,
+            "skip_in_search": true,
+            "perm": "oanda",
+            "prefix_no_perm": [
+              "FX_IDC"
             ]
           }
         }
