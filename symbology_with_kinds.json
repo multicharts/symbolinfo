@@ -1356,6 +1356,17 @@
         }
       },
       {
+        "id": "forex_crypto_spreads",
+        "kinds": {
+          "rt": {
+            "prefix": "FX_IDC",
+            "priority": 50,
+            "search_boost": 2.0,
+            "exchange_for_display": "IDC"
+          }
+        }
+      },
+      {
         "id": "bme_stocks",
         "kinds": {
           "rt": {
