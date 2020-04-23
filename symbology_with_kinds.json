@@ -1230,6 +1230,16 @@
         }
       },
       {
+        "id": "forex_crypto_spreads",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 50,
+            "search_boost": 2.0
+          }
+        }
+      },
+      {
         "id": "bme_stocks",
         "kinds": {
           "rt": {
