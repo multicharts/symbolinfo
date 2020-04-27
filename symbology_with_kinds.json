@@ -265,21 +265,21 @@
         }
       },
       {
-        "id": "gemini",
-        "kinds": {
-          "rt": {
-            "prefix": "GEMINI",
-            "priority": 10,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
         "id": "bitstamp2",
         "kinds": {
           "rt": {
             "prefix": "BITSTAMP",
-            "priority": 11
+            "priority": 10
+          }
+        }
+      },
+      {
+        "id": "gemini",
+        "kinds": {
+          "rt": {
+            "prefix": "GEMINI",
+            "priority": 11,
+            "skip_in_search": false
           }
         }
       },
