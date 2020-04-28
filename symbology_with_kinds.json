@@ -6422,6 +6422,19 @@
         }
       },
       {
+        "id": "msci_saudi_cfd_indices",
+        "kinds": {
+          "delay": {
+            "priority": 281,
+            "prefix": "TADAWUL",
+            "skip_in_search": true,
+            "prefix_alias": [
+              "TADAWUL_DLY"
+            ]
+          }
+        }
+      },
+      {
         "id": "saudi_stocks",
         "kinds": {
           "rt": {
