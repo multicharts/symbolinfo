@@ -1245,7 +1245,6 @@
           "rt": {
             "priority": 50,
             "prefix": "MCX",
-            "skip_in_search": true,
             "perm": "mcx_free"
           }
         }
@@ -1256,7 +1255,6 @@
           "rt": {
             "priority": 50,
             "prefix": "MCX",
-            "skip_in_search": true,
             "perm": "mcx_free"
           }
         }
@@ -1320,7 +1318,6 @@
           "rt": {
             "priority": 50,
             "prefix": "MCX",
-            "skip_in_search": true,
             "perm": "mcx_free"
           }
         }
