@@ -1240,6 +1240,28 @@
         }
       },
       {
+        "id": "multicommodity_indices",
+        "kinds": {
+          "rt": {
+            "priority": 50,
+            "prefix": "MCX",
+            "skip_in_search": true,
+            "perm": "mcx_free"
+          }
+        }
+      },
+      {
+        "id": "multicommodity_futures",
+        "kinds": {
+          "rt": {
+            "priority": 50,
+            "prefix": "MCX",
+            "skip_in_search": true,
+            "perm": "mcx_free"
+          }
+        }
+      },
+      {
         "id": "bme_stocks",
         "kinds": {
           "rt": {
@@ -1289,6 +1311,17 @@
               "BIST_DLY"
             ],
             "perm": "bist"
+          }
+        }
+      },
+      {
+        "id": "multicommodity_continuous",
+        "kinds": {
+          "rt": {
+            "priority": 50,
+            "prefix": "MCX",
+            "skip_in_search": true,
+            "perm": "mcx_free"
           }
         }
       },
