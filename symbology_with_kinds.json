@@ -6969,6 +6969,16 @@
         }
       },
       {
+        "id": "okexfutures",
+        "kinds": {
+          "rt": {
+            "prefix": "OKEX",
+            "priority": 250,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "bitkub",
         "kinds": {
           "rt": {
