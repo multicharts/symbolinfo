@@ -2414,112 +2414,20 @@
         }
       },
       {
-        "id": "euronext_amsterdam_futures",
-        "kinds": {
-          "rt": {
-            "priority": 59,
-            "prefix": "EURONEXT",
-            "prefix_alias": [
-              "EURONEXTAMS"
-            ],
-            "prefix_no_perm": [
-              "EURONEXT_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 60,
-            "prefix": "EURONEXT_DLY",
-            "prefix_alias": [
-              "EURONEXTAMS_DLY"
-            ]
-          }
-        }
-      },
-      {
-        "id": "euronext_brussels_futures",
-        "kinds": {
-          "rt": {
-            "priority": 59,
-            "prefix": "EURONEXT",
-            "prefix_alias": [
-              "EURONEXTBRU"
-            ],
-            "prefix_no_perm": [
-              "EURONEXT_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 60,
-            "prefix": "EURONEXT_DLY",
-            "prefix_alias": [
-              "EURONEXTBRU_DLY"
-            ]
-          }
-        }
-      },
-      {
-        "id": "euronext_lisbon_futures",
-        "kinds": {
-          "rt": {
-            "priority": 59,
-            "prefix": "EURONEXT",
-            "prefix_alias": [
-              "EURONEXTLIS"
-            ],
-            "prefix_no_perm": [
-              "EURONEXT_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 60,
-            "prefix": "EURONEXT_DLY",
-            "prefix_alias": [
-              "EURONEXTLIS_DLY"
-            ]
-          }
-        }
-      },
-      {
-        "id": "euronext_paris_futures",
-        "kinds": {
-          "rt": {
-            "priority": 59,
-            "prefix": "EURONEXT",
-            "prefix_alias": [
-              "EURONEXTPAR"
-            ],
-            "prefix_no_perm": [
-              "EURONEXT_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 60,
-            "prefix": "EURONEXT_DLY",
-            "prefix_alias": [
-              "EURONEXTPAR_DLY"
-            ]
-          }
-        }
-      },
-      {
         "id": "euronext_futures",
         "kinds": {
           "rt": {
-            "priority": 59,
             "prefix": "EURONEXT",
-            "prefix_alias": [
-
-            ],
+            "priority": 59,
             "prefix_no_perm": [
               "EURONEXT_DLY"
-            ]
+            ],
+            "skip_in_search": false
           },
           "delay": {
-            "priority": 60,
             "prefix": "EURONEXT_DLY",
-            "prefix_alias": [
-
-            ]
+            "priority": 60,
+            "skip_in_search": true
           }
         }
       },
@@ -2576,112 +2484,20 @@
         }
       },
       {
-        "id": "euronext_amstredam_continuous",
-        "kinds": {
-          "rt": {
-            "priority": 59,
-            "prefix": "EURONEXT",
-            "prefix_alias": [
-              "EURONEXTAMS"
-            ],
-            "prefix_no_perm": [
-              "EURONEXT_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 60,
-            "prefix": "EURONEXT_DLY",
-            "prefix_alias": [
-              "EURONEXTAMS_DLY"
-            ]
-          }
-        }
-      },
-      {
-        "id": "euronext_brussels_continuous",
-        "kinds": {
-          "rt": {
-            "priority": 59,
-            "prefix": "EURONEXT",
-            "prefix_alias": [
-              "EURONEXTBRU"
-            ],
-            "prefix_no_perm": [
-              "EURONEXT_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 60,
-            "prefix": "EURONEXT_DLY",
-            "prefix_alias": [
-              "EURONEXTBRU_DLY"
-            ]
-          }
-        }
-      },
-      {
-        "id": "euronext_lisbon_continuous",
-        "kinds": {
-          "rt": {
-            "priority": 59,
-            "prefix": "EURONEXT",
-            "prefix_alias": [
-              "EURONEXTLIS"
-            ],
-            "prefix_no_perm": [
-              "EURONEXT_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 60,
-            "prefix": "EURONEXT_DLY",
-            "prefix_alias": [
-              "EURONEXTLIS_DLY"
-            ]
-          }
-        }
-      },
-      {
-        "id": "euronext_paris_continuous",
-        "kinds": {
-          "rt": {
-            "priority": 59,
-            "prefix": "EURONEXT",
-            "prefix_alias": [
-              "EURONEXTPAR"
-            ],
-            "prefix_no_perm": [
-              "EURONEXT_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 60,
-            "prefix": "EURONEXT_DLY",
-            "prefix_alias": [
-              "EURONEXTPAR_DLY"
-            ]
-          }
-        }
-      },
-      {
         "id": "euronext_continuous",
         "kinds": {
           "rt": {
-            "priority": 59,
             "prefix": "EURONEXT",
-            "prefix_alias": [
-
-            ],
+            "priority": 59,
             "prefix_no_perm": [
               "EURONEXT_DLY"
-            ]
+            ],
+            "skip_in_search": false
           },
           "delay": {
-            "priority": 60,
             "prefix": "EURONEXT_DLY",
-            "prefix_alias": [
-
-            ]
+            "priority": 60,
+            "skip_in_search": true
           }
         }
       },
