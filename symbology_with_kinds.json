@@ -6457,7 +6457,7 @@
           "delay": {
             "priority": 281,
             "prefix": "TADAWUL",
-            "skip_in_search": true,
+            "skip_in_search": false,
             "prefix_alias": [
               "TADAWUL_DLY"
             ]
