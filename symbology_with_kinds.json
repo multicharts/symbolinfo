@@ -5829,42 +5829,6 @@
         }
       },
       {
-        "id": "oanda_cfd",
-        "kinds": {
-          "rt": {
-            "prefix": "OANDA",
-            "priority": 209,
-            "hide_in_search": true,
-            "skip_in_search": true,
-            "perm": "oanda",
-            "prefix_no_perm": [
-              "FOREXCOM",
-              "FX_IDC",
-              "COMEX",
-              "CBOT",
-              "EUREX",
-              "ICEUS",
-              "ICEEUR"
-            ]
-          }
-        }
-      },
-      {
-        "id": "oanda_forex",
-        "kinds": {
-          "rt": {
-            "prefix": "OANDA",
-            "priority": 209,
-            "hide_in_search": true,
-            "skip_in_search": true,
-            "perm": "oanda",
-            "prefix_no_perm": [
-              "FX_IDC"
-            ]
-          }
-        }
-      },
-      {
         "id": "iceeur_futures",
         "kinds": {
           "eod": {
