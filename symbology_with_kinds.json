@@ -317,6 +317,16 @@
         }
       },
       {
+        "id": "btcbtc_spreads",
+        "kinds": {
+          "rt": {
+            "prefix": "BITFINEX",
+            "priority": 10,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "gemini",
         "kinds": {
           "rt": {
@@ -4094,16 +4104,6 @@
             "prefix": "KRAKEN",
             "priority": 112,
             "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "btcbtc_spreads",
-        "kinds": {
-          "rt": {
-            "prefix": "BITFINEX",
-            "priority": 112,
-            "skip_in_search": true
           }
         }
       },
