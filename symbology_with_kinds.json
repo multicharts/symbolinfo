@@ -70,12 +70,29 @@
         }
       },
       {
-        "id": "oanda",
+        "id": "oanda_2",
         "kinds": {
           "rt": {
             "prefix": "OANDA",
             "priority": 9,
             "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "oanda_cme",
+        "kinds": {
+          "rt": {
+            "prefix": "OANDA",
+            "priority": 9,
+            "hide_in_search": true,
+            "skip_in_search": false,
+            "perm": "oanda_cme",
+            "prefix_no_perm": [
+              "COMEX",
+              "CBOT",
+              "FX"
+            ]
           }
         }
       },
@@ -416,6 +433,16 @@
           "rt": {
             "prefix": "USI",
             "priority": 15
+          }
+        }
+      },
+      {
+        "id": "oanda_crypto",
+        "kinds": {
+          "rt": {
+            "prefix": "OANDA",
+            "priority": 15,
+            "skip_in_search": false
           }
         }
       },
