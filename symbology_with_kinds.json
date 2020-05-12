@@ -700,6 +700,16 @@
         }
       },
       {
+        "id": "government_bonds_nodaily",
+        "kinds": {
+          "rt": {
+            "prefix": "TVCNODAILY",
+            "priority": 20,
+            "search_boost": 2.0
+          }
+        }
+      },
+      {
         "id": "amex_idc",
         "kinds": {
           "rt": {
