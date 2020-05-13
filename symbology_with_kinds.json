@@ -91,7 +91,7 @@
             "prefix_no_perm": [
               "COMEX",
               "CBOT",
-              "FX"
+              "FX_IDC"
             ]
           }
         }
