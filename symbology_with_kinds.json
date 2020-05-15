@@ -6470,6 +6470,16 @@
         }
       },
       {
+        "id": "capitalcom_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "CAPITALCOM",
+            "priority": 223,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "egyptian_indices",
         "kinds": {
           "rt": {
