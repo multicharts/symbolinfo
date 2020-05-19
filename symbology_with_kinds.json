@@ -6420,6 +6420,46 @@
         }
       },
       {
+        "id": "currencycom_leverage_commodity",
+        "kinds": {
+          "rt": {
+            "prefix": "CURRENCYCOM",
+            "priority": 222,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "currencycom_leverage_equity",
+        "kinds": {
+          "rt": {
+            "prefix": "CURRENCYCOM",
+            "priority": 222,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "currencycom_leverage_currency",
+        "kinds": {
+          "rt": {
+            "prefix": "CURRENCYCOM",
+            "priority": 222,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "currencycom_leverage_cryptocurrency",
+        "kinds": {
+          "rt": {
+            "prefix": "CURRENCYCOM",
+            "priority": 222,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "capitalcom_index",
         "kinds": {
           "rt": {
@@ -6475,6 +6515,16 @@
           "rt": {
             "prefix": "CAPITALCOM",
             "priority": 223,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "currencycom_leverage_index",
+        "kinds": {
+          "rt": {
+            "prefix": "CURRENCYCOMLEV",
+            "priority": 225,
             "skip_in_search": false
           }
         }
