@@ -6510,7 +6510,7 @@
         }
       },
       {
-        "id": "currencycom_leverageleverage_currency",
+        "id": "currencycom_leverage_currency",
         "kinds": {
           "rt": {
             "prefix": "CURRENCYCOMLEV",
