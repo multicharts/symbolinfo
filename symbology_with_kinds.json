@@ -3773,6 +3773,29 @@
         }
       },
       {
+        "id": "okex",
+        "kinds": {
+          "rt": {
+            "prefix": "OKEX",
+            "priority": 99,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "okexfutures",
+        "kinds": {
+          "rt": {
+            "prefix": "OKEX",
+            "priority": 99,
+            "prefix_alias": [
+              "OKCOIN"
+            ],
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "toronto_indices",
         "kinds": {
           "rt": {
@@ -6768,29 +6791,6 @@
           "rt": {
             "prefix": "CURRENCYCOMLEV",
             "priority": 225,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "okex",
-        "kinds": {
-          "rt": {
-            "prefix": "OKEX",
-            "priority": 250,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "okexfutures",
-        "kinds": {
-          "rt": {
-            "prefix": "OKEX",
-            "priority": 250,
-            "prefix_alias": [
-              "OKCOIN"
-            ],
             "skip_in_search": false
           }
         }
