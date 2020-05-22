@@ -4629,7 +4629,7 @@
           "rt": {
             "prefix": "CAPITALCOM",
             "priority": 123,
-            "skip_in_search": false
+            "skip_in_search": true
           }
         }
       },
@@ -4639,7 +4639,7 @@
           "rt": {
             "prefix": "CAPITALCOM",
             "priority": 123,
-            "skip_in_search": false
+            "skip_in_search": true
           }
         }
       },
@@ -4649,7 +4649,7 @@
           "rt": {
             "prefix": "CAPITALCOM",
             "priority": 123,
-            "skip_in_search": false
+            "skip_in_search": true
           }
         }
       },
@@ -4659,7 +4659,7 @@
           "rt": {
             "prefix": "CAPITALCOM",
             "priority": 123,
-            "skip_in_search": false
+            "skip_in_search": true
           }
         }
       },
@@ -4669,7 +4669,7 @@
           "rt": {
             "prefix": "CAPITALCOM",
             "priority": 123,
-            "skip_in_search": false
+            "skip_in_search": true
           }
         }
       },
@@ -4679,7 +4679,7 @@
           "rt": {
             "prefix": "CAPITALCOM",
             "priority": 123,
-            "skip_in_search": false
+            "skip_in_search": true
           }
         }
       },
