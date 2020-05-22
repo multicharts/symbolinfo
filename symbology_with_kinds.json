@@ -4012,6 +4012,29 @@
         }
       },
       {
+        "id": "okex",
+        "kinds": {
+          "rt": {
+            "prefix": "OKEX",
+            "priority": 99,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "okexfutures",
+        "kinds": {
+          "rt": {
+            "prefix": "OKEX",
+            "priority": 99,
+            "prefix_alias": [
+              "OKCOIN"
+            ],
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "okcoin",
         "kinds": {
           "rt": {
@@ -4123,16 +4146,6 @@
         "kinds": {
           "rt": {
             "prefix": "OKCOIN",
-            "priority": 100,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "okex",
-        "kinds": {
-          "rt": {
-            "prefix": "OKEX",
             "priority": 100,
             "skip_in_search": false
           }
@@ -6525,19 +6538,6 @@
           "rt": {
             "prefix": "CURRENCYCOMLEV",
             "priority": 225,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "okexfutures",
-        "kinds": {
-          "rt": {
-            "prefix": "OKEX",
-            "priority": 250,
-            "prefix_alias": [
-              "OKCOIN"
-            ],
             "skip_in_search": false
           }
         }
