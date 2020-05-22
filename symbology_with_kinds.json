@@ -6530,6 +6530,19 @@
         }
       },
       {
+        "id": "okexfutures",
+        "kinds": {
+          "rt": {
+            "prefix": "OKEX",
+            "priority": 250,
+            "prefix_alias": [
+              "OKCOIN"
+            ],
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "egyptian_indices",
         "kinds": {
           "rt": {
