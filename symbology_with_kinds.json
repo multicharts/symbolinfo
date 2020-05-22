@@ -4161,6 +4161,19 @@
         }
       },
       {
+        "id": "okexfutures",
+        "kinds": {
+          "rt": {
+            "prefix": "OKEX",
+            "priority": 101,
+            "prefix_alias": [
+              "OKCOIN"
+            ],
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "bse_stocks",
         "kinds": {
           "rt": {
