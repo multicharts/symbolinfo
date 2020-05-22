@@ -4512,7 +4512,7 @@
         }
       },
       {
-        "id": "huobi2",
+        "id": "huobi_crypto",
         "kinds": {
           "rt": {
             "prefix": "HUOBI",
@@ -6033,6 +6033,16 @@
           "rt": {
             "priority": 200,
             "prefix": "DJCFDINTERNAL",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "huobi2",
+        "kinds": {
+          "rt": {
+            "prefix": "HUOBI",
+            "priority": 200,
             "skip_in_search": true
           }
         }
