@@ -488,16 +488,6 @@
         }
       },
       {
-        "id": "wex",
-        "kinds": {
-          "rt": {
-            "prefix": "WEX",
-            "priority": 16,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
         "id": "kraken",
         "kinds": {
           "rt": {
@@ -4355,15 +4345,6 @@
         }
       },
       {
-        "id": "btce",
-        "kinds": {
-          "rt": {
-            "prefix": "BTCE",
-            "priority": 112
-          }
-        }
-      },
-      {
         "id": "bitso_spreads",
         "kinds": {
           "rt": {
@@ -4449,29 +4430,10 @@
         }
       },
       {
-        "id": "ITBIT",
-        "kinds": {
-          "rt": {
-            "prefix": "ITBIT",
-            "priority": 112,
-            "skip_in_search": true
-          }
-        }
-      },
-      {
         "id": "FOXBIT",
         "kinds": {
           "rt": {
             "prefix": "FOXBIT",
-            "priority": 112
-          }
-        }
-      },
-      {
-        "id": "BITVC",
-        "kinds": {
-          "rt": {
-            "prefix": "BITVC",
             "priority": 112
           }
         }
@@ -4486,32 +4448,11 @@
         }
       },
       {
-        "id": "BXTH",
-        "kinds": {
-          "rt": {
-            "prefix": "BXTH",
-            "priority": 112
-          }
-        }
-      },
-      {
         "id": "MTGOX",
         "kinds": {
           "rt": {
             "prefix": "MTGOX",
             "priority": 113
-          }
-        }
-      },
-      {
-        "id": "btcchina",
-        "kinds": {
-          "rt": {
-            "prefix": "BTCCHINA",
-            "priority": 114,
-            "prefix_alias": [
-              "BTCC"
-            ]
           }
         }
       },
