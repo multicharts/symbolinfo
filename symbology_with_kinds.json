@@ -3786,6 +3786,16 @@
         }
       },
       {
+        "id": "okexswaps",
+        "kinds": {
+          "rt": {
+            "prefix": "OKEX",
+            "priority": 99,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "toronto_indices",
         "kinds": {
           "rt": {
