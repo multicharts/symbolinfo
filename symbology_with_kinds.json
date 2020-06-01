@@ -488,6 +488,17 @@
         }
       },
       {
+        "id": "government_bonds_nodaily",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 18,
+            "search_boost": 2.0,
+            "perm": "tvc_cfd"
+          }
+        }
+      },
+      {
         "id": "kraken",
         "kinds": {
           "rt": {
