@@ -6951,6 +6951,26 @@
             "skip_in_search": false
           }
         }
+      },
+      {
+        "id": "simulated_eod",
+        "kinds": {
+          "rt": {
+            "prefix": "SIMULATED",
+            "priority": 500,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "simulated_delay",
+        "kinds": {
+          "rt": {
+            "prefix": "SIMULATED",
+            "priority": 500,
+            "skip_in_search": false
+          }
+        }
       }
     ]
   },
