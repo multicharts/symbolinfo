@@ -6450,6 +6450,7 @@
           "rt": {
             "prefix": "CURRENCYCOMLEV",
             "priority": 225,
+            "hide_in_search": true,
             "skip_in_search": false
           }
         }
@@ -6460,6 +6461,7 @@
           "rt": {
             "prefix": "CURRENCYCOMLEV",
             "priority": 225,
+            "hide_in_search": true,
             "skip_in_search": false
           }
         }
@@ -6470,6 +6472,7 @@
           "rt": {
             "prefix": "CURRENCYCOMLEV",
             "priority": 225,
+            "hide_in_search": true,
             "skip_in_search": false
           }
         }
@@ -6480,6 +6483,7 @@
           "rt": {
             "prefix": "CURRENCYCOMLEV",
             "priority": 225,
+            "hide_in_search": true,
             "skip_in_search": false
           }
         }
@@ -6490,6 +6494,7 @@
           "rt": {
             "prefix": "CURRENCYCOMLEV",
             "priority": 225,
+            "hide_in_search": true,
             "skip_in_search": false
           }
         }
