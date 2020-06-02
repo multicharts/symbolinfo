@@ -6955,7 +6955,7 @@
       {
         "id": "simulated_eod",
         "kinds": {
-          "rt": {
+          "eod": {
             "prefix": "SIMULATED",
             "priority": 500,
             "skip_in_search": false
@@ -6965,7 +6965,7 @@
       {
         "id": "simulated_delay",
         "kinds": {
-          "rt": {
+          "delay": {
             "prefix": "SIMULATED",
             "priority": 500,
             "skip_in_search": false
