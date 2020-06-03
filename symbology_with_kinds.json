@@ -1084,6 +1084,15 @@
         }
       },
       {
+        "id": "custom_crypto_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "INDEX",
+            "priority": 47
+          }
+        }
+      },
+      {
         "id": "custom_indices",
         "kinds": {
           "rt": {
@@ -1094,15 +1103,6 @@
       },
       {
         "id": "custom_indices_2",
-        "kinds": {
-          "rt": {
-            "prefix": "INDEX",
-            "priority": 47
-          }
-        }
-      },
-      {
-        "id": "custom_crypto_indices",
         "kinds": {
           "rt": {
             "prefix": "INDEX",
