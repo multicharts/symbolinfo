@@ -805,38 +805,6 @@
         }
       },
       {
-        "id": "forex",
-        "kinds": {
-          "rt": {
-            "prefix": "FX_IDC",
-            "priority": 23,
-            "search_boost": 2.0,
-            "exchange_for_display": "IDC"
-          }
-        }
-      },
-      {
-        "id": "forex_spreads",
-        "kinds": {
-          "rt": {
-            "prefix": "FX_IDC",
-            "priority": 23,
-            "search_boost": 2.0,
-            "exchange_for_display": "IDC"
-          }
-        }
-      },
-      {
-        "id": "forex_crypto_spreads",
-        "kinds": {
-          "rt": {
-            "prefix": "TVC",
-            "priority": 23,
-            "search_boost": 2.0
-          }
-        }
-      },
-      {
         "id": "huobi_crypto",
         "kinds": {
           "rt": {
@@ -851,36 +819,6 @@
           "rt": {
             "prefix": "HUOBI",
             "priority": 23
-          }
-        }
-      },
-      {
-        "id": "bittrex",
-        "kinds": {
-          "rt": {
-            "prefix": "BITTREX",
-            "priority": 24,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "bittrex_spreads",
-        "kinds": {
-          "rt": {
-            "prefix": "BITTREX",
-            "priority": 24,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "bittrex_forex_spreads",
-        "kinds": {
-          "rt": {
-            "prefix": "BITTREX",
-            "priority": 24,
-            "skip_in_search": false
           }
         }
       },
@@ -1395,6 +1333,38 @@
         }
       },
       {
+        "id": "forex",
+        "kinds": {
+          "rt": {
+            "prefix": "FX_IDC",
+            "priority": 50,
+            "search_boost": 2.0,
+            "exchange_for_display": "IDC"
+          }
+        }
+      },
+      {
+        "id": "forex_spreads",
+        "kinds": {
+          "rt": {
+            "prefix": "FX_IDC",
+            "priority": 50,
+            "search_boost": 2.0,
+            "exchange_for_display": "IDC"
+          }
+        }
+      },
+      {
+        "id": "forex_crypto_spreads",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 50,
+            "search_boost": 2.0
+          }
+        }
+      },
+      {
         "id": "multicommodity_indices",
         "kinds": {
           "rt": {
@@ -1586,6 +1556,36 @@
             "priority": 51,
             "prefix": "SGX_DLY",
             "perm": "sgx_dly"
+          }
+        }
+      },
+      {
+        "id": "bittrex",
+        "kinds": {
+          "rt": {
+            "prefix": "BITTREX",
+            "priority": 51,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "bittrex_spreads",
+        "kinds": {
+          "rt": {
+            "prefix": "BITTREX",
+            "priority": 51,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "bittrex_forex_spreads",
+        "kinds": {
+          "rt": {
+            "prefix": "BITTREX",
+            "priority": 51,
+            "skip_in_search": false
           }
         }
       },
@@ -4031,6 +4031,16 @@
             "prefix_alias": [
               "OKCOIN"
             ],
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "okexswaps",
+        "kinds": {
+          "rt": {
+            "prefix": "OKEX",
+            "priority": 99,
             "skip_in_search": false
           }
         }
