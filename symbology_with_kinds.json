@@ -6510,6 +6510,36 @@
         }
       },
       {
+        "id": "fxcm_crypto",
+        "kinds": {
+          "rt": {
+            "prefix": "FX",
+            "priority": 226,
+            "exchange_for_display": "FXCM"
+          }
+        }
+      },
+      {
+        "id": "fxcm_stock_baskets",
+        "kinds": {
+          "rt": {
+            "prefix": "FX",
+            "priority": 226,
+            "exchange_for_display": "FXCM"
+          }
+        }
+      },
+      {
+        "id": "fxcm_share_cfd",
+        "kinds": {
+          "rt": {
+            "prefix": "FX",
+            "priority": 226,
+            "exchange_for_display": "FXCM"
+          }
+        }
+      },
+      {
         "id": "egyptian_indices",
         "kinds": {
           "rt": {
