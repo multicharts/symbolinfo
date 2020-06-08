@@ -6527,12 +6527,42 @@
         }
       },
       {
+        "id": "fxcm_stock_baskets",
+        "kinds": {
+          "rt": {
+            "prefix": "FX",
+            "priority": 226,
+            "exchange_for_display": "FXCM"
+          }
+        }
+      },
+      {
+        "id": "fxcm_share_cfd",
+        "kinds": {
+          "rt": {
+            "prefix": "FX",
+            "priority": 226,
+            "exchange_for_display": "FXCM"
+          }
+        }
+      },
+      {
         "id": "okexswaps",
         "kinds": {
           "rt": {
             "prefix": "OKEX",
             "priority": 227,
             "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "fxcm_crypto",
+        "kinds": {
+          "rt": {
+            "prefix": "FX",
+            "priority": 260,
+            "exchange_for_display": "FXCM"
           }
         }
       },
