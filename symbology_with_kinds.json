@@ -1286,16 +1286,6 @@
         }
       },
       {
-        "id": "custom_indices_2",
-        "kinds": {
-          "rt": {
-            "prefix": "INDEX2",
-            "priority": 47,
-            "skip_in_search": true
-          }
-        }
-      },
-      {
         "id": "bme_indices",
         "kinds": {
           "rt": {
@@ -1444,6 +1434,16 @@
             "priority": 50,
             "prefix": "MCX",
             "perm": "mcx_free"
+          }
+        }
+      },
+      {
+        "id": "custom_indices_2",
+        "kinds": {
+          "rt": {
+            "prefix": "INDEX2",
+            "priority": 50,
+            "skip_in_search": true
           }
         }
       },
