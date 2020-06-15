@@ -6535,7 +6535,8 @@
           "rt": {
             "prefix": "FX",
             "priority": 226,
-            "exchange_for_display": "FXCM"
+            "exchange_for_display": "FXCM",
+            "hide_in_search": true
           }
         }
       },
