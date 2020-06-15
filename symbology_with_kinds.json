@@ -60,16 +60,6 @@
         }
       },
       {
-        "id": "fxcm_cfd",
-        "kinds": {
-          "rt": {
-            "prefix": "FX",
-            "priority": 8,
-            "exchange_for_display": "FXCM"
-          }
-        }
-      },
-      {
         "id": "oanda_2",
         "kinds": {
           "rt": {
@@ -333,6 +323,16 @@
             "prefix": "GEMINI",
             "priority": 11,
             "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "fxcm_cfd",
+        "kinds": {
+          "rt": {
+            "prefix": "FX",
+            "priority": 11,
+            "exchange_for_display": "FXCM"
           }
         }
       },
@@ -6856,7 +6856,8 @@
           "rt": {
             "prefix": "FX",
             "priority": 260,
-            "exchange_for_display": "FXCM"
+            "exchange_for_display": "FXCM",
+            "hide_in_search": true
           }
         }
       },
