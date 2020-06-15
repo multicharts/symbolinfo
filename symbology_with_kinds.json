@@ -6559,7 +6559,7 @@
             "prefix": "FX",
             "priority": 226,
             "exchange_for_display": "FXCM",
-            "skip_in_search": true
+            "hide_in_search": true
           }
         }
       },
