@@ -6674,6 +6674,15 @@
         }
       },
       {
+        "id": "custom_crypto_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "INDEX",
+            "priority": 300
+          }
+        }
+      },
+      {
         "id": "huobi2",
         "kinds": {
           "rt": {
