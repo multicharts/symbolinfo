@@ -3379,7 +3379,7 @@
           "delay": {
             "prefix": "NZX_DLY",
             "priority": 70,
-            "perm": "sf_dly"
+            "perm": "nzx_dly"
           }
         }
       },
@@ -3397,7 +3397,7 @@
           "delay": {
             "prefix": "NZX_DLY",
             "priority": 70,
-            "perm": "sf_dly"
+            "perm": "nzx_dly"
           }
         }
       },
@@ -3415,7 +3415,7 @@
           "delay": {
             "prefix": "NZX_DLY",
             "priority": 70,
-            "perm": "sf_dly"
+            "perm": "nzx_dly"
           }
         }
       },
@@ -3452,7 +3452,7 @@
           "delay": {
             "prefix": "NZX_DLY",
             "priority": 70,
-            "perm": "sf_dly"
+            "perm": "nzx_dly"
           }
         }
       },
