@@ -3080,7 +3080,7 @@
           "delay": {
             "priority": 62,
             "prefix": "BVL_DLY",
-            "perm": "sf_dly",
+            "perm": "bvl_dly",
             "skip_in_search": true
           }
         }
@@ -3188,7 +3188,7 @@
           "delay": {
             "priority": 63,
             "prefix": "BVL_DLY",
-            "perm": "sf_dly",
+            "perm": "bvl_dly",
             "skip_in_search": true
           }
         }
