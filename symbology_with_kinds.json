@@ -3787,7 +3787,7 @@
           "delay": {
             "priority": 81,
             "prefix": "IDX_DLY",
-            "perm": "sf_dly"
+            "perm": "idx_dly"
           }
         }
       },
@@ -3805,7 +3805,7 @@
           "delay": {
             "priority": 81,
             "prefix": "IDX_DLY",
-            "perm": "sf_dly"
+            "perm": "idx_dly"
           }
         }
       },
