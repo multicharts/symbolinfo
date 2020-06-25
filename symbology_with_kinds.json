@@ -1260,22 +1260,6 @@
         }
       },
       {
-        "id": "hangseng_indices",
-        "kinds": {
-          "rt": {
-            "priority": 49,
-            "prefix": "HSI",
-            "prefix_no_perm": [
-              "HSI_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 50,
-            "prefix": "HSI_DLY"
-          }
-        }
-      },
-      {
         "id": "istanbul_index_spreads",
         "kinds": {
           "rt": {
@@ -3554,38 +3538,6 @@
         }
       },
       {
-        "id": "indonesia_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 80,
-            "prefix": "IDX",
-            "prefix_no_perm": [
-              "IDX_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 81,
-            "prefix": "IDX_DLY"
-          }
-        }
-      },
-      {
-        "id": "indonesia_indices",
-        "kinds": {
-          "rt": {
-            "priority": 80,
-            "prefix": "IDX",
-            "prefix_no_perm": [
-              "IDX_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 81,
-            "prefix": "IDX_DLY"
-          }
-        }
-      },
-      {
         "id": "malaysia_continuous",
         "kinds": {
           "rt": {
@@ -4635,6 +4587,22 @@
           "eod": {
             "prefix": "XETR_EOD",
             "priority": 149
+          }
+        }
+      },
+      {
+        "id": "hangseng_indices",
+        "kinds": {
+          "rt": {
+            "priority": 49,
+            "prefix": "HSI",
+            "prefix_no_perm": [
+              "HSI_EOD"
+            ]
+          },
+          "eod": {
+            "priority": 149,
+            "prefix": "HSI_EOD"
           }
         }
       },
@@ -5818,6 +5786,52 @@
           "eod": {
             "priority": 176,
             "prefix": "GPW_EOD"
+          }
+        }
+      },
+      {
+        "id": "indonesia_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 80,
+            "prefix": "IDX",
+            "prefix_no_perm": [
+              "IDX_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 81,
+            "prefix": "IDX_DLY",
+            "prefix_no_perm": [
+              "IDX_EOD"
+            ]
+          },
+          "eod": {
+            "priority": 181,
+            "prefix": "IDX_EOD"
+          }
+        }
+      },
+      {
+        "id": "indonesia_indices",
+        "kinds": {
+          "rt": {
+            "priority": 80,
+            "prefix": "IDX",
+            "prefix_no_perm": [
+              "IDX_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 81,
+            "prefix": "IDX_DLY",
+            "prefix_no_perm": [
+              "IDX_EOD"
+            ]
+          },
+          "eod": {
+            "priority": 181,
+            "prefix": "IDX_EOD"
           }
         }
       },
