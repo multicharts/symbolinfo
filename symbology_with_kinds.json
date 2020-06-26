@@ -1284,6 +1284,19 @@
         }
       },
       {
+        "id": "custom_indices2",
+        "kinds": {
+          "rt": {
+            "prefix": "INDEX",
+            "priority": 50,
+            "prefix_alias": [
+              "INDEX2"
+            ],
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "nse_stocks",
         "kinds": {
           "rt": {
