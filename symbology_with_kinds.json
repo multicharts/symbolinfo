@@ -1284,15 +1284,6 @@
         }
       },
       {
-        "id": "custom_indices_2",
-        "kinds": {
-          "rt": {
-            "prefix": "INDEX2",
-            "priority": 50
-          }
-        }
-      },
-      {
         "id": "nse_stocks",
         "kinds": {
           "rt": {
