@@ -7040,7 +7040,7 @@
           "rt": {
             "prefix": "BINANCE2",
             "priority": 500,
-            "skip_in_search": true
+            "skip_in_search": false
           }
         }
       },
