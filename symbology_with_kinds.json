@@ -7038,7 +7038,7 @@
         "id": "binance_spreads_runner",
         "kinds": {
           "rt": {
-            "prefix": "BINANCE",
+            "prefix": "BINANCE2",
             "priority": 500,
             "skip_in_search": true
           }
