@@ -1308,24 +1308,6 @@
         }
       },
       {
-        "id": "hangseng_indices",
-        "kinds": {
-          "rt": {
-            "priority": 49,
-            "prefix": "HSI",
-            "prefix_no_perm": [
-              "HSI_DLY"
-            ],
-            "perm": "hsi"
-          },
-          "delay": {
-            "priority": 50,
-            "prefix": "HSI_DLY",
-            "perm": "sf_dly"
-          }
-        }
-      },
-      {
         "id": "istanbul_index_spreads",
         "kinds": {
           "rt": {
@@ -3050,7 +3032,7 @@
           "delay": {
             "priority": 62,
             "prefix": "BVL_DLY",
-            "perm": "sf_dly",
+            "perm": "bvl_dly",
             "skip_in_search": true
           }
         }
@@ -3158,7 +3140,7 @@
           "delay": {
             "priority": 63,
             "prefix": "BVL_DLY",
-            "perm": "sf_dly",
+            "perm": "bvl_dly",
             "skip_in_search": true
           }
         }
@@ -3349,7 +3331,7 @@
           "delay": {
             "prefix": "NZX_DLY",
             "priority": 70,
-            "perm": "sf_dly"
+            "perm": "nzx_dly"
           }
         }
       },
@@ -3367,7 +3349,7 @@
           "delay": {
             "prefix": "NZX_DLY",
             "priority": 70,
-            "perm": "sf_dly"
+            "perm": "nzx_dly"
           }
         }
       },
@@ -3385,7 +3367,7 @@
           "delay": {
             "prefix": "NZX_DLY",
             "priority": 70,
-            "perm": "sf_dly"
+            "perm": "nzx_dly"
           }
         }
       },
@@ -3422,7 +3404,7 @@
           "delay": {
             "prefix": "NZX_DLY",
             "priority": 70,
-            "perm": "sf_dly"
+            "perm": "nzx_dly"
           }
         }
       },
@@ -3740,42 +3722,6 @@
             "priority": 81,
             "prefix": "MYX_DLY",
             "perm": "myx_dly"
-          }
-        }
-      },
-      {
-        "id": "indonesia_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 80,
-            "prefix": "IDX",
-            "prefix_no_perm": [
-              "IDX_DLY"
-            ],
-            "perm": "idx"
-          },
-          "delay": {
-            "priority": 81,
-            "prefix": "IDX_DLY",
-            "perm": "sf_dly"
-          }
-        }
-      },
-      {
-        "id": "indonesia_indices",
-        "kinds": {
-          "rt": {
-            "priority": 80,
-            "prefix": "IDX",
-            "prefix_no_perm": [
-              "IDX_DLY"
-            ],
-            "perm": "idx"
-          },
-          "delay": {
-            "priority": 81,
-            "prefix": "IDX_DLY",
-            "perm": "sf_dly"
           }
         }
       },
@@ -5155,6 +5101,23 @@
         }
       },
       {
+        "id": "hangseng_indices",
+        "kinds": {
+          "rt": {
+            "priority": 49,
+            "prefix": "HSI",
+            "prefix_no_perm": [
+              "HSI_EOD"
+            ],
+            "perm": "hsi"
+          },
+          "eod": {
+            "priority": 150,
+            "prefix": "HSI_EOD"
+          }
+        }
+      },
+      {
         "id": "comex_continuous",
         "kinds": {
           "rt": {
@@ -5966,6 +5929,56 @@
           "eod": {
             "priority": 176,
             "prefix": "GPW_EOD"
+          }
+        }
+      },
+      {
+        "id": "indonesia_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 80,
+            "prefix": "IDX",
+            "prefix_no_perm": [
+              "IDX_DLY"
+            ],
+            "perm": "idx"
+          },
+          "delay": {
+            "priority": 81,
+            "prefix": "IDX_DLY",
+            "prefix_no_perm": [
+              "IDX_EOD"
+            ],
+            "perm": "idx_dly"
+          },
+          "eod": {
+            "priority": 181,
+            "prefix": "IDX_EOD"
+          }
+        }
+      },
+      {
+        "id": "indonesia_indices",
+        "kinds": {
+          "rt": {
+            "priority": 80,
+            "prefix": "IDX",
+            "prefix_no_perm": [
+              "IDX_DLY"
+            ],
+            "perm": "idx"
+          },
+          "delay": {
+            "priority": 81,
+            "prefix": "IDX_DLY",
+            "prefix_no_perm": [
+              "IDX_EOD"
+            ],
+            "perm": "idx_dly"
+          },
+          "eod": {
+            "priority": 181,
+            "prefix": "IDX_EOD"
           }
         }
       },
