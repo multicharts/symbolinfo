@@ -3,20 +3,6 @@
     "id": "tv",
     "groups": [
       {
-        "id": "toronto_stocks",
-        "kinds": {
-          "rt": {
-          }
-        }
-      },
-      {
-        "id": "toronto_venture_stocks",
-        "kinds": {
-          "rt": {
-          }
-        }
-      },
-      {
         "id": "quandl",
         "kinds": {
           "rt": {
@@ -4241,6 +4227,38 @@
             "prefix": "BSE_EOD",
             "priority": 102,
             "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "toronto_stocks",
+        "kinds": {
+          "delay": {
+            "prefix": "TSX_DLY",
+            "priority": 48,
+            "prefix_no_perm": [
+              "TSX_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "TSX_EOD",
+            "priority": 105
+          }
+        }
+      },
+      {
+        "id": "toronto_venture_stocks",
+        "kinds": {
+          "delay": {
+            "prefix": "TSXV_DLY",
+            "priority": 58,
+            "prefix_no_perm": [
+              "TSXV_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "TSXV_EOD",
+            "priority": 107
           }
         }
       },
