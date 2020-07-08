@@ -3,6 +3,20 @@
     "id": "tv",
     "groups": [
       {
+        "id": "toronto_stocks",
+        "kinds": {
+          "rt": {
+          }
+        }
+      },
+      {
+        "id": "toronto_venture_stocks",
+        "kinds": {
+          "rt": {
+          }
+        }
+      },
+      {
         "id": "quandl",
         "kinds": {
           "rt": {
@@ -1053,6 +1067,18 @@
             ],
             "exchange_for_display": "Cboe BZX",
             "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "toronto_bbo_stocks",
+        "kinds": {
+          "rt": {
+            "prefix": "TSX",
+            "priority": 47,
+            "prefix_no_perm": [
+              "TSX_DLY"
+            ]
           }
         }
       },
@@ -2407,6 +2433,18 @@
             "prefix": "ICEUSA_DLY",
             "priority": 56,
             "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "toronto_venture_bbo_stocks",
+        "kinds": {
+          "rt": {
+            "prefix": "TSXV",
+            "priority": 57,
+            "prefix_no_perm": [
+              "TSXV_DLY"
+            ]
           }
         }
       },
@@ -4203,52 +4241,6 @@
             "prefix": "BSE_EOD",
             "priority": 102,
             "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "toronto_stocks",
-        "kinds": {
-          "rt": {
-            "prefix": "TSX",
-            "priority": 47,
-            "prefix_no_perm": [
-              "TSX_DLY"
-            ]
-          },
-          "delay": {
-            "prefix": "TSX_DLY",
-            "priority": 48,
-            "prefix_no_perm": [
-              "TSX_EOD"
-            ]
-          },
-          "eod": {
-            "prefix": "TSX_EOD",
-            "priority": 105
-          }
-        }
-      },
-      {
-        "id": "toronto_venture_stocks",
-        "kinds": {
-          "rt": {
-            "prefix": "TSXV",
-            "priority": 57,
-            "prefix_no_perm": [
-              "TSXV_DLY"
-            ]
-          },
-          "delay": {
-            "prefix": "TSXV_DLY",
-            "priority": 58,
-            "prefix_no_perm": [
-              "TSXV_EOD"
-            ]
-          },
-          "eod": {
-            "prefix": "TSXV_EOD",
-            "priority": 107
           }
         }
       },
