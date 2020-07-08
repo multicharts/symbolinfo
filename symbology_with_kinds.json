@@ -5927,12 +5927,12 @@
         "kinds": {
           "eod": {
             "skip_in_search": false,
-            "prefix": "ICEUS",
+            "prefix": "ICEUSOLD",
             "priority": 201,
             "prefix_alias": [
               "ICEUS_EOD",
-              "ICEUSA_EOD",
-              "ICEUSA"
+              "ICEUSAOLD_EOD",
+              "ICEUSAOLD"
             ]
           }
         }
@@ -5942,12 +5942,12 @@
         "kinds": {
           "eod": {
             "skip_in_search": false,
-            "prefix": "ICEUS",
+            "prefix": "ICEUSOLD",
             "priority": 201,
             "prefix_alias": [
               "ICEUS_EOD",
-              "ICEUSA_EOD",
-              "ICEUSA"
+              "ICEUSAOLD_EOD",
+              "ICEUSAOLD"
             ]
           }
         }
