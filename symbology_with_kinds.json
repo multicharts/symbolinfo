@@ -1334,11 +1334,14 @@
         }
       },
       {
-        "id": "custom_indices_2",
+        "id": "custom_indices2",
         "kinds": {
           "rt": {
-            "prefix": "INDEX2",
+            "prefix": "INDEX",
             "priority": 50,
+            "prefix_alias": [
+              "INDEX2"
+            ],
             "skip_in_search": true
           }
         }
@@ -1470,6 +1473,16 @@
             "priority": 51,
             "prefix": "SGX_DLY",
             "perm": "sgx_dly"
+          }
+        }
+      },
+      {
+        "id": "custom_indices_2",
+        "kinds": {
+          "rt": {
+            "prefix": "INDEX2",
+            "priority": 51,
+            "skip_in_search": true
           }
         }
       },
