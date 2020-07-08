@@ -1062,6 +1062,7 @@
           "rt": {
             "prefix": "TSX",
             "priority": 47,
+            "perm": "tsx",
             "prefix_no_perm": [
               "TSX_DLY"
             ]
@@ -2428,6 +2429,7 @@
           "rt": {
             "prefix": "TSXV",
             "priority": 57,
+            "perm": "tsxv",
             "prefix_no_perm": [
               "TSXV_DLY"
             ]
