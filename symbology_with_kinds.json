@@ -1230,6 +1230,19 @@
         }
       },
       {
+        "id": "toronto_bbo_stocks",
+        "kinds": {
+          "rt": {
+            "prefix": "TSX",
+            "priority": 47,
+            "perm": "tsx",
+            "prefix_no_perm": [
+              "TSX_DLY"
+            ]
+          }
+        }
+      },
+      {
         "id": "tokyo_stocks",
         "kinds": {
           "rt": {
@@ -2505,6 +2518,19 @@
             "priority": 56,
             "prefix": "HKEX_DLY",
             "perm": "hkex_dly"
+          }
+        }
+      },
+      {
+        "id": "toronto_venture_bbo_stocks",
+        "kinds": {
+          "rt": {
+            "prefix": "TSXV",
+            "priority": 57,
+            "perm": "tsxv",
+            "prefix_no_perm": [
+              "TSXV_DLY"
+            ]
           }
         }
       },
@@ -4287,14 +4313,6 @@
       {
         "id": "toronto_stocks",
         "kinds": {
-          "rt": {
-            "prefix": "TSX",
-            "priority": 47,
-            "perm": "tsx",
-            "prefix_no_perm": [
-              "TSX_DLY"
-            ]
-          },
           "delay": {
             "prefix": "TSX_DLY",
             "priority": 48,
@@ -4312,14 +4330,6 @@
       {
         "id": "toronto_venture_stocks",
         "kinds": {
-          "rt": {
-            "prefix": "TSXV",
-            "priority": 57,
-            "perm": "tsxv",
-            "prefix_no_perm": [
-              "TSXV_DLY"
-            ]
-          },
           "delay": {
             "prefix": "TSXV_DLY",
             "priority": 58,
