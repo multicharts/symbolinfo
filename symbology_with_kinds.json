@@ -4357,15 +4357,6 @@
         }
       },
       {
-        "id": "FOXBIT",
-        "kinds": {
-          "rt": {
-            "prefix": "FOXBIT",
-            "priority": 112
-          }
-        }
-      },
-      {
         "id": "BTCYOU",
         "kinds": {
           "rt": {
