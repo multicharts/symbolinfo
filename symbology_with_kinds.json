@@ -1477,16 +1477,6 @@
         }
       },
       {
-        "id": "custom_indices_2",
-        "kinds": {
-          "rt": {
-            "prefix": "INDEX2",
-            "priority": 51,
-            "skip_in_search": true
-          }
-        }
-      },
-      {
         "id": "moex",
         "kinds": {
           "rt": {
