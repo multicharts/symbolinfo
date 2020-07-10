@@ -1181,11 +1181,14 @@
         }
       },
       {
-        "id": "custom_indices",
+        "id": "custom_indices2",
         "kinds": {
           "rt": {
             "prefix": "INDEX",
-            "priority": 47
+            "priority": 47,
+            "prefix_alias": [
+              "INDEX2"
+            ]
           }
         }
       },
@@ -1334,14 +1337,11 @@
         }
       },
       {
-        "id": "custom_indices2",
+        "id": "custom_indices",
         "kinds": {
           "rt": {
             "prefix": "INDEX",
             "priority": 50,
-            "prefix_alias": [
-              "INDEX2"
-            ],
             "skip_in_search": true
           }
         }
