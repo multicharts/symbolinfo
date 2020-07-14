@@ -7019,6 +7019,15 @@
         }
       },
       {
+        "id": "huobi_swap",
+        "kinds": {
+          "rt": {
+            "prefix": "HUOBI",
+            "priority": 261
+          }
+        }
+      },
+      {
         "id": "egyptian_indices",
         "kinds": {
           "rt": {
