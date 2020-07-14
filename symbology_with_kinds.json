@@ -6390,6 +6390,7 @@
           "rt": {
             "prefix": "CURRENCYCOM",
             "priority": 222,
+            "hide_in_search": true,
             "skip_in_search": false
           }
         }
