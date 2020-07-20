@@ -6049,7 +6049,7 @@
         "kinds": {
           "eod": {
             "skip_in_search": false,
-            "prefix": "ICEUSOLD",
+            "prefix": "ICEUS",
             "priority": 201,
             "prefix_alias": [
               "ICEUS_EOD",
@@ -6064,7 +6064,7 @@
         "kinds": {
           "eod": {
             "skip_in_search": false,
-            "prefix": "ICEUSOLD",
+            "prefix": "ICEUS",
             "priority": 201,
             "prefix_alias": [
               "ICEUS_EOD",
