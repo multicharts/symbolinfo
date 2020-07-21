@@ -1295,6 +1295,21 @@
         }
       },
       {
+        "id": "iceusa_indices",
+        "kinds": {
+          "rt": {
+            "priority": 50,
+            "prefix": "ICEUSA",
+            "skip_in_search": false
+          },
+          "delay": {
+            "priority": 50,
+            "prefix": "ICEUSA_DLY",
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "multicommodity_continuous",
         "kinds": {
           "rt": {
