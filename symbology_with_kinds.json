@@ -1118,7 +1118,14 @@
           "delay": {
             "priority": 41,
             "prefix": "SIX_DLY",
-            "perm": "six_dly"
+            "perm": "six_dly",
+            "prefix_no_perm": [
+              "SIX_EOD"
+            ]
+          },
+          "eod": {
+            "priority": 42,
+            "prefix": "SIX_EOD"
           }
         }
       },
@@ -2535,27 +2542,6 @@
         }
       },
       {
-        "id": "swiss_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 56,
-            "prefix": "SIX",
-            "prefix_alias": [
-              "SWX"
-            ],
-            "perm": "six",
-            "prefix_no_perm": [
-              "SIX_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 57,
-            "prefix": "SIX_DLY",
-            "perm": "six_dly"
-          }
-        }
-      },
-      {
         "id": "asx_indices",
         "kinds": {
           "rt": {
@@ -2603,6 +2589,34 @@
             "priority": 57,
             "prefix": "TWSE_DLY",
             "perm": "sf_dly"
+          }
+        }
+      },
+      {
+        "id": "swiss_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 56,
+            "prefix": "SIX",
+            "prefix_alias": [
+              "SWX"
+            ],
+            "perm": "six",
+            "prefix_no_perm": [
+              "SIX_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 57,
+            "prefix": "SIX_DLY",
+            "perm": "six_dly",
+            "prefix_no_perm": [
+              "SIX_EOD"
+            ]
+          },
+          "eod": {
+            "priority": 58,
+            "prefix": "SIX_EOD"
           }
         }
       },
