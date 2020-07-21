@@ -1189,22 +1189,6 @@
         }
       },
       {
-        "id": "shenzhen_indices",
-        "kinds": {
-          "rt": {
-            "priority": 48,
-            "prefix": "SZSE",
-            "prefix_no_perm": [
-              "SZSE_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 49,
-            "prefix": "SZSE_DLY"
-          }
-        }
-      },
-      {
         "id": "forex",
         "kinds": {
           "rt": {
@@ -1269,6 +1253,29 @@
           "delay": {
             "priority": 50,
             "prefix": "BME_DLY"
+          }
+        }
+      },
+      {
+        "id": "shenzhen_indices",
+        "kinds": {
+          "rt": {
+            "priority": 48,
+            "prefix": "SZSE",
+            "prefix_no_perm": [
+              "SZSE_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 49,
+            "prefix": "SZSE_DLY",
+            "prefix_no_perm": [
+              "SZSE_EOD"
+            ]
+          },
+          "eod": {
+            "priority": 50,
+            "prefix": "SZSE_EOD"
           }
         }
       },
@@ -1387,22 +1394,6 @@
           "delay": {
             "priority": 51,
             "prefix": "HKEX_DLY"
-          }
-        }
-      },
-      {
-        "id": "shenzhen_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 50,
-            "prefix": "SZSE",
-            "prefix_no_perm": [
-              "SZSE_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 51,
-            "prefix": "SZSE_DLY"
           }
         }
       },
@@ -1657,6 +1648,29 @@
             "prefix_no_perm": [
               "FSE_DLY"
             ]
+          }
+        }
+      },
+      {
+        "id": "shenzhen_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 50,
+            "prefix": "SZSE",
+            "prefix_no_perm": [
+              "SZSE_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 51,
+            "prefix": "SZSE_DLY",
+            "prefix_no_perm": [
+              "SZSE_EOD"
+            ]
+          },
+          "eod": {
+            "priority": 52,
+            "prefix": "SZSE_EOD"
           }
         }
       },
