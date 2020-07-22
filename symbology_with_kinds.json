@@ -4479,31 +4479,12 @@
         }
       },
       {
-        "id": "gocio_spreads",
-        "kinds": {
-          "rt": {
-            "prefix": "GOCIO",
-            "priority": 120,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
         "id": "ftx",
         "kinds": {
           "rt": {
             "prefix": "FTX",
             "priority": 120,
             "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "GOCIO",
-        "kinds": {
-          "rt": {
-            "prefix": "GOCIO",
-            "priority": 120
           }
         }
       },
@@ -6847,16 +6828,6 @@
         }
       },
       {
-        "id": "capitalcom_futures",
-        "kinds": {
-          "rt": {
-            "prefix": "CAPITALCOM",
-            "priority": 223,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
         "id": "globalprime_cfd_cryptocurrencies",
         "kinds": {
           "rt": {
@@ -7200,15 +7171,6 @@
         "kinds": {
           "rt": {
             "prefix": "CRYPTOCAP",
-            "priority": 300
-          }
-        }
-      },
-      {
-        "id": "crypto_market_caps2",
-        "kinds": {
-          "rt": {
-            "prefix": "CRYPTOCAP2",
             "priority": 300
           }
         }
