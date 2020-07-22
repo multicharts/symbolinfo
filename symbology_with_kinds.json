@@ -3636,7 +3636,7 @@
           "delay": {
             "prefix": "OSE_DLY",
             "priority": 78,
-            "perm": "sf_dly",
+            "perm": "ose_dly",
             "skip_in_search": true
           }
         }
@@ -3655,7 +3655,7 @@
           "delay": {
             "prefix": "OSE_DLY",
             "priority": 78,
-            "perm": "sf_dly",
+            "perm": "ose_dly",
             "skip_in_search": true
           }
         }
