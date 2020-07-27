@@ -1444,6 +1444,26 @@
         }
       },
       {
+        "id": "iceusa_indices",
+        "kinds": {
+          "rt": {
+            "priority": 50,
+            "prefix": "ICEUSA",
+            "perm": "iceusa_rt",
+            "prefix_no_perm": [
+              "ICEUSA_DLY"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "priority": 50,
+            "prefix": "ICEUSA_DLY",
+            "perm": "iceusa_dly",
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "multicommodity_continuous",
         "kinds": {
           "rt": {
@@ -2526,6 +2546,86 @@
         }
       },
       {
+        "id": "iceusa_commodity_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "ICEUSA",
+            "priority": 55,
+            "perm": "iceusa_rt",
+            "prefix_no_perm": [
+              "ICEUSA_DLY"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "prefix": "ICEUSA_DLY",
+            "priority": 56,
+            "perm": "iceusa_dly",
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "iceusa_financial_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "ICEUSA",
+            "priority": 55,
+            "perm": "iceusa_rt",
+            "prefix_no_perm": [
+              "ICEUSA_DLY"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "prefix": "ICEUSA_DLY",
+            "priority": 56,
+            "perm": "iceusa_dly",
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "iceusa_financial_lng_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "ICEUSA",
+            "priority": 55,
+            "perm": "iceusa_rt",
+            "prefix_no_perm": [
+              "ICEUSA_DLY"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "prefix": "ICEUSA_DLY",
+            "priority": 56,
+            "perm": "iceusa_dly",
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "iceusa_digital_assets_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "ICEUSA",
+            "priority": 55,
+            "perm": "iceusa_rt",
+            "prefix_no_perm": [
+              "ICEUSA_DLY"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "prefix": "ICEUSA_DLY",
+            "priority": 56,
+            "perm": "iceusa_dly",
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "hongkong_continuous",
         "kinds": {
           "rt": {
@@ -2540,6 +2640,86 @@
             "priority": 56,
             "prefix": "HKEX_DLY",
             "perm": "hkex_dly"
+          }
+        }
+      },
+      {
+        "id": "iceusa_commodity_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "ICEUSA",
+            "priority": 55,
+            "perm": "iceusa_rt",
+            "prefix_no_perm": [
+              "ICEUSA_DLY"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "prefix": "ICEUSA_DLY",
+            "priority": 56,
+            "perm": "iceusa_dly",
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "iceusa_financial_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "ICEUSA",
+            "priority": 55,
+            "perm": "iceusa_rt",
+            "prefix_no_perm": [
+              "ICEUSA_DLY"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "prefix": "ICEUSA_DLY",
+            "priority": 56,
+            "perm": "iceusa_dly",
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "iceusa_financial_lng_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "ICEUSA",
+            "priority": 55,
+            "perm": "iceusa_rt",
+            "prefix_no_perm": [
+              "ICEUSA_DLY"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "prefix": "ICEUSA_DLY",
+            "priority": 56,
+            "perm": "iceusa_dly",
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "iceusa_digital_assets_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "ICEUSA",
+            "priority": 55,
+            "perm": "iceusa_rt",
+            "prefix_no_perm": [
+              "ICEUSA_DLY"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "prefix": "ICEUSA_DLY",
+            "priority": 56,
+            "perm": "iceusa_dly",
+            "skip_in_search": false
           }
         }
       },
@@ -6592,6 +6772,16 @@
             "priority": 226,
             "exchange_for_display": "FXCM",
             "hide_in_search": true
+          }
+        }
+      },
+      {
+        "id": "bitkub",
+        "kinds": {
+          "rt": {
+            "prefix": "BITKUB",
+            "priority": 260,
+            "skip_in_search": false
           }
         }
       },
