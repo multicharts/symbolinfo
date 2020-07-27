@@ -7053,6 +7053,16 @@
         }
       },
       {
+        "id": "btse",
+        "kinds": {
+          "rt": {
+            "prefix": "BTSE",
+            "priority": 263,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "egyptian_indices",
         "kinds": {
           "rt": {
