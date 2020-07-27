@@ -1444,26 +1444,6 @@
         }
       },
       {
-        "id": "iceusa_indices",
-        "kinds": {
-          "rt": {
-            "priority": 50,
-            "prefix": "ICEUSA",
-            "perm": "iceusa_rt",
-            "prefix_no_perm": [
-              "ICEUSA_DLY"
-            ],
-            "skip_in_search": false
-          },
-          "delay": {
-            "priority": 50,
-            "prefix": "ICEUSA_DLY",
-            "perm": "iceusa_dly",
-            "skip_in_search": false
-          }
-        }
-      },
-      {
         "id": "multicommodity_continuous",
         "kinds": {
           "rt": {
@@ -1573,6 +1553,26 @@
             "priority": 51,
             "prefix": "SGX_DLY",
             "perm": "sgx_dly"
+          }
+        }
+      },
+      {
+        "id": "iceusa_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "ICEUSA",
+            "priority": 50,
+            "perm": "iceusa",
+            "prefix_no_perm": [
+              "ICEUSA_DLY"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "prefix": "ICEUSA_DLY",
+            "priority": 51,
+            "perm": "iceusa_free",
+            "skip_in_search": false
           }
         }
       },
@@ -2551,7 +2551,7 @@
           "rt": {
             "prefix": "ICEUSA",
             "priority": 55,
-            "perm": "iceusa_rt",
+            "perm": "iceusa",
             "prefix_no_perm": [
               "ICEUSA_DLY"
             ],
@@ -2560,7 +2560,7 @@
           "delay": {
             "prefix": "ICEUSA_DLY",
             "priority": 56,
-            "perm": "iceusa_dly",
+            "perm": "iceusa_free",
             "skip_in_search": false
           }
         }
@@ -2571,7 +2571,7 @@
           "rt": {
             "prefix": "ICEUSA",
             "priority": 55,
-            "perm": "iceusa_rt",
+            "perm": "iceusa",
             "prefix_no_perm": [
               "ICEUSA_DLY"
             ],
@@ -2580,7 +2580,7 @@
           "delay": {
             "prefix": "ICEUSA_DLY",
             "priority": 56,
-            "perm": "iceusa_dly",
+            "perm": "iceusa_free",
             "skip_in_search": false
           }
         }
@@ -2591,7 +2591,7 @@
           "rt": {
             "prefix": "ICEUSA",
             "priority": 55,
-            "perm": "iceusa_rt",
+            "perm": "iceusa",
             "prefix_no_perm": [
               "ICEUSA_DLY"
             ],
@@ -2600,7 +2600,7 @@
           "delay": {
             "prefix": "ICEUSA_DLY",
             "priority": 56,
-            "perm": "iceusa_dly",
+            "perm": "iceusa_free",
             "skip_in_search": false
           }
         }
@@ -2611,7 +2611,7 @@
           "rt": {
             "prefix": "ICEUSA",
             "priority": 55,
-            "perm": "iceusa_rt",
+            "perm": "iceusa",
             "prefix_no_perm": [
               "ICEUSA_DLY"
             ],
@@ -2620,7 +2620,7 @@
           "delay": {
             "prefix": "ICEUSA_DLY",
             "priority": 56,
-            "perm": "iceusa_dly",
+            "perm": "iceusa_free",
             "skip_in_search": false
           }
         }
@@ -2649,7 +2649,7 @@
           "rt": {
             "prefix": "ICEUSA",
             "priority": 55,
-            "perm": "iceusa_rt",
+            "perm": "iceusa",
             "prefix_no_perm": [
               "ICEUSA_DLY"
             ],
@@ -2658,7 +2658,7 @@
           "delay": {
             "prefix": "ICEUSA_DLY",
             "priority": 56,
-            "perm": "iceusa_dly",
+            "perm": "iceusa_free",
             "skip_in_search": false
           }
         }
@@ -2669,7 +2669,7 @@
           "rt": {
             "prefix": "ICEUSA",
             "priority": 55,
-            "perm": "iceusa_rt",
+            "perm": "iceusa",
             "prefix_no_perm": [
               "ICEUSA_DLY"
             ],
@@ -2678,7 +2678,7 @@
           "delay": {
             "prefix": "ICEUSA_DLY",
             "priority": 56,
-            "perm": "iceusa_dly",
+            "perm": "iceusa_free",
             "skip_in_search": false
           }
         }
@@ -2689,7 +2689,7 @@
           "rt": {
             "prefix": "ICEUSA",
             "priority": 55,
-            "perm": "iceusa_rt",
+            "perm": "iceusa",
             "prefix_no_perm": [
               "ICEUSA_DLY"
             ],
@@ -2698,7 +2698,7 @@
           "delay": {
             "prefix": "ICEUSA_DLY",
             "priority": 56,
-            "perm": "iceusa_dly",
+            "perm": "iceusa_free",
             "skip_in_search": false
           }
         }
@@ -2709,7 +2709,7 @@
           "rt": {
             "prefix": "ICEUSA",
             "priority": 55,
-            "perm": "iceusa_rt",
+            "perm": "iceusa",
             "prefix_no_perm": [
               "ICEUSA_DLY"
             ],
@@ -2718,7 +2718,7 @@
           "delay": {
             "prefix": "ICEUSA_DLY",
             "priority": 56,
-            "perm": "iceusa_dly",
+            "perm": "iceusa_free",
             "skip_in_search": false
           }
         }
