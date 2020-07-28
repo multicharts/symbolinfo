@@ -3,6 +3,34 @@
     "id": "tv",
     "groups": [
       {
+        "id": "newconnect_stocks",
+        "kinds": {
+          "rt": {
+          }
+        }
+      },
+      {
+        "id": "newconnect_indices",
+        "kinds": {
+          "rt": {
+          }
+        }
+      },
+      {
+        "id": "warsaw_futures",
+        "kinds": {
+          "rt": {
+          }
+        }
+      },
+      {
+        "id": "warsaw_continuous",
+        "kinds": {
+          "rt": {
+          }
+        }
+      },
+      {
         "id": "quandl",
         "kinds": {
           "rt": {
@@ -5900,52 +5928,6 @@
       },
       {
         "id": "warsaw_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 75,
-            "prefix": "GPW",
-            "prefix_no_perm": [
-              "GPW_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 76,
-            "prefix": "GPW_DLY",
-            "prefix_no_perm": [
-              "GPW_EOD"
-            ]
-          },
-          "eod": {
-            "priority": 176,
-            "prefix": "GPW_EOD"
-          }
-        }
-      },
-      {
-        "id": "warsaw_futures",
-        "kinds": {
-          "rt": {
-            "priority": 75,
-            "prefix": "GPW",
-            "prefix_no_perm": [
-              "GPW_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 76,
-            "prefix": "GPW_DLY",
-            "prefix_no_perm": [
-              "GPW_EOD"
-            ]
-          },
-          "eod": {
-            "priority": 176,
-            "prefix": "GPW_EOD"
-          }
-        }
-      },
-      {
-        "id": "warsaw_continuous",
         "kinds": {
           "rt": {
             "priority": 75,
