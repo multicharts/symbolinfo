@@ -6120,36 +6120,6 @@
         }
       },
       {
-        "id": "iceusa_futures",
-        "kinds": {
-          "eod": {
-            "skip_in_search": false,
-            "priority": 201,
-            "prefix": "ICEUS",
-            "prefix_alias": [
-              "ICEUS_EOD",
-              "ICEUSA_EOD",
-              "ICEUSA"
-            ]
-          }
-        }
-      },
-      {
-        "id": "iceusa_continuous",
-        "kinds": {
-          "eod": {
-            "skip_in_search": false,
-            "priority": 201,
-            "prefix": "ICEUS",
-            "prefix_alias": [
-              "ICEUS_EOD",
-              "ICEUSA_EOD",
-              "ICEUSA"
-            ]
-          }
-        }
-      },
-      {
         "id": "iceeur_futures",
         "kinds": {
           "eod": {
