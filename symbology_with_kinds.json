@@ -5899,6 +5899,29 @@
         }
       },
       {
+        "id": "newconnect_indices",
+        "kinds": {
+          "rt": {
+            "priority": 70,
+            "prefix": "NEWCONNECT",
+            "prefix_no_perm": [
+              "NEWCONNECT_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 71,
+            "prefix": "NEWCONNECT_DLY",
+            "prefix_no_perm": [
+              "NEWCONNECT_EOD"
+            ]
+          },
+          "eod": {
+            "priority": 171,
+            "prefix": "NEWCONNECT_EOD"
+          }
+        }
+      },
+      {
         "id": "warsaw_stocks",
         "kinds": {
           "rt": {
@@ -5926,44 +5949,21 @@
         "kinds": {
           "rt": {
             "priority": 75,
-            "prefix": "GPW",
+            "prefix": "NEWCONNECT",
             "prefix_no_perm": [
-              "GPW_DLY"
+              "NEWCONNECT_DLY"
             ]
           },
           "delay": {
             "priority": 76,
-            "prefix": "GPW_DLY",
+            "prefix": "NEWCONNECT_DLY",
             "prefix_no_perm": [
-              "GPW_EOD"
+              "NEWCONNECT_EOD"
             ]
           },
           "eod": {
             "priority": 176,
-            "prefix": "GPW_EOD"
-          }
-        }
-      },
-      {
-        "id": "newconnect_indices",
-        "kinds": {
-          "rt": {
-            "priority": 75,
-            "prefix": "GPW",
-            "prefix_no_perm": [
-              "GPW_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 76,
-            "prefix": "GPW_DLY",
-            "prefix_no_perm": [
-              "GPW_EOD"
-            ]
-          },
-          "eod": {
-            "priority": 176,
-            "prefix": "GPW_EOD"
+            "prefix": "NEWCONNECT_EOD"
           }
         }
       },
