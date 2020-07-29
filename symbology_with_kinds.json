@@ -2260,6 +2260,7 @@
           "rt": {
             "prefix": "ICEUSA",
             "priority": 55,
+            "perm": "iceusa_free",
             "skip_in_search": false
           }
         }
@@ -2290,6 +2291,7 @@
           "rt": {
             "prefix": "ICEUSA",
             "priority": 55,
+            "perm": "iceusa_free",
             "skip_in_search": false
           }
         }
