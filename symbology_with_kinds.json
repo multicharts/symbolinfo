@@ -1295,21 +1295,6 @@
         }
       },
       {
-        "id": "iceusa_indices",
-        "kinds": {
-          "rt": {
-            "priority": 50,
-            "prefix": "ICEUSA",
-            "skip_in_search": false
-          },
-          "delay": {
-            "priority": 50,
-            "prefix": "ICEUSA_DLY",
-            "skip_in_search": false
-          }
-        }
-      },
-      {
         "id": "multicommodity_continuous",
         "kinds": {
           "rt": {
@@ -1480,6 +1465,24 @@
             "priority": 51,
             "prefix": "SGX_DLY",
             "perm": "tsx_dly"
+          }
+        }
+      },
+      {
+        "id": "iceusa_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "ICEUSA",
+            "priority": 50,
+            "prefix_no_perm": [
+              "ICEUSA_DLY"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "prefix": "ICEUSA_DLY",
+            "priority": 51,
+            "skip_in_search": false
           }
         }
       },
@@ -2088,6 +2091,16 @@
         }
       },
       {
+        "id": "iceusa_digital_assets_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "ICEUSA",
+            "priority": 55,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "thailand_continuous",
         "kinds": {
           "rt": {
@@ -2101,6 +2114,16 @@
           "delay": {
             "priority": 55,
             "prefix": "TFEX_DLY"
+          }
+        }
+      },
+      {
+        "id": "iceusa_digital_assets_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "ICEUSA",
+            "priority": 55,
+            "skip_in_search": false
           }
         }
       },
@@ -2357,6 +2380,9 @@
           "rt": {
             "prefix": "ICEUSA",
             "priority": 55,
+            "prefix_no_perm": [
+              "ICEUSA_DLY"
+            ],
             "skip_in_search": false
           },
           "delay": {
@@ -2372,36 +2398,9 @@
           "rt": {
             "prefix": "ICEUSA",
             "priority": 55,
-            "skip_in_search": false
-          },
-          "delay": {
-            "prefix": "ICEUSA_DLY",
-            "priority": 56,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "iceusa_financial_lng_futures",
-        "kinds": {
-          "rt": {
-            "prefix": "ICEUSA",
-            "priority": 55,
-            "skip_in_search": false
-          },
-          "delay": {
-            "prefix": "ICEUSA_DLY",
-            "priority": 56,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "iceusa_digital_assets_futures",
-        "kinds": {
-          "rt": {
-            "prefix": "ICEUSA",
-            "priority": 55,
+            "prefix_no_perm": [
+              "ICEUSA_DLY"
+            ],
             "skip_in_search": false
           },
           "delay": {
@@ -2433,6 +2432,9 @@
           "rt": {
             "prefix": "ICEUSA",
             "priority": 55,
+            "prefix_no_perm": [
+              "ICEUSA_DLY"
+            ],
             "skip_in_search": false
           },
           "delay": {
@@ -2448,36 +2450,9 @@
           "rt": {
             "prefix": "ICEUSA",
             "priority": 55,
-            "skip_in_search": false
-          },
-          "delay": {
-            "prefix": "ICEUSA_DLY",
-            "priority": 56,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "iceusa_financial_lng_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "ICEUSA",
-            "priority": 55,
-            "skip_in_search": false
-          },
-          "delay": {
-            "prefix": "ICEUSA_DLY",
-            "priority": 56,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "iceusa_digital_assets_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "ICEUSA",
-            "priority": 55,
+            "prefix_no_perm": [
+              "ICEUSA_DLY"
+            ],
             "skip_in_search": false
           },
           "delay": {
@@ -6139,36 +6114,6 @@
             "priority": 200,
             "prefix": "DJCFDINTERNAL",
             "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "iceusa_futures",
-        "kinds": {
-          "eod": {
-            "skip_in_search": false,
-            "prefix": "ICEUS",
-            "priority": 201,
-            "prefix_alias": [
-              "ICEUS_EOD",
-              "ICEUSAOLD_EOD",
-              "ICEUSAOLD"
-            ]
-          }
-        }
-      },
-      {
-        "id": "iceusa_continuous",
-        "kinds": {
-          "eod": {
-            "skip_in_search": false,
-            "prefix": "ICEUS",
-            "priority": 201,
-            "prefix_alias": [
-              "ICEUS_EOD",
-              "ICEUSAOLD_EOD",
-              "ICEUSAOLD"
-            ]
           }
         }
       },
