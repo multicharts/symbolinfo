@@ -2255,6 +2255,16 @@
         }
       },
       {
+        "id": "iceusa_digital_assets_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "ICEUSA",
+            "priority": 55,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "thailand_continuous",
         "kinds": {
           "rt": {
@@ -2271,6 +2281,16 @@
             "prefix": "TFEX_DLY",
             "perm": "tfex_dly",
             "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "iceusa_digital_assets_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "ICEUSA",
+            "priority": 55,
+            "skip_in_search": false
           }
         }
       },
@@ -2586,46 +2606,6 @@
         }
       },
       {
-        "id": "iceusa_financial_lng_futures",
-        "kinds": {
-          "rt": {
-            "prefix": "ICEUSA",
-            "priority": 55,
-            "perm": "iceusa",
-            "prefix_no_perm": [
-              "ICEUSA_DLY"
-            ],
-            "skip_in_search": false
-          },
-          "delay": {
-            "prefix": "ICEUSA_DLY",
-            "priority": 56,
-            "perm": "iceusa_free",
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "iceusa_digital_assets_futures",
-        "kinds": {
-          "rt": {
-            "prefix": "ICEUSA",
-            "priority": 55,
-            "perm": "iceusa",
-            "prefix_no_perm": [
-              "ICEUSA_DLY"
-            ],
-            "skip_in_search": false
-          },
-          "delay": {
-            "prefix": "ICEUSA_DLY",
-            "priority": 56,
-            "perm": "iceusa_free",
-            "skip_in_search": false
-          }
-        }
-      },
-      {
         "id": "hongkong_continuous",
         "kinds": {
           "rt": {
@@ -2665,46 +2645,6 @@
       },
       {
         "id": "iceusa_financial_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "ICEUSA",
-            "priority": 55,
-            "perm": "iceusa",
-            "prefix_no_perm": [
-              "ICEUSA_DLY"
-            ],
-            "skip_in_search": false
-          },
-          "delay": {
-            "prefix": "ICEUSA_DLY",
-            "priority": 56,
-            "perm": "iceusa_free",
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "iceusa_financial_lng_continuous",
-        "kinds": {
-          "rt": {
-            "prefix": "ICEUSA",
-            "priority": 55,
-            "perm": "iceusa",
-            "prefix_no_perm": [
-              "ICEUSA_DLY"
-            ],
-            "skip_in_search": false
-          },
-          "delay": {
-            "prefix": "ICEUSA_DLY",
-            "priority": 56,
-            "perm": "iceusa_free",
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "iceusa_digital_assets_continuous",
         "kinds": {
           "rt": {
             "prefix": "ICEUSA",
