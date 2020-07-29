@@ -1560,16 +1560,16 @@
         "id": "iceusa_indices",
         "kinds": {
           "rt": {
-            "prefix": "ICEUSA",
+            "prefix": "ICEUS",
             "priority": 50,
             "perm": "iceusa",
             "prefix_no_perm": [
-              "ICEUSA_DLY"
+              "ICEUS_DLY"
             ],
             "skip_in_search": false
           },
           "delay": {
-            "prefix": "ICEUSA_DLY",
+            "prefix": "ICEUS_DLY",
             "priority": 51,
             "perm": "iceusa_free",
             "skip_in_search": false
@@ -2258,7 +2258,7 @@
         "id": "iceusa_digital_assets_futures",
         "kinds": {
           "rt": {
-            "prefix": "ICEUSA",
+            "prefix": "ICEUS",
             "priority": 55,
             "perm": "iceusa_free",
             "skip_in_search": false
@@ -2289,7 +2289,7 @@
         "id": "iceusa_digital_assets_continuous",
         "kinds": {
           "rt": {
-            "prefix": "ICEUSA",
+            "prefix": "ICEUS",
             "priority": 55,
             "perm": "iceusa_free",
             "skip_in_search": false
@@ -2571,16 +2571,16 @@
         "id": "iceusa_commodity_futures",
         "kinds": {
           "rt": {
-            "prefix": "ICEUSA",
+            "prefix": "ICEUS",
             "priority": 55,
             "perm": "iceusa",
             "prefix_no_perm": [
-              "ICEUSA_DLY"
+              "ICEUS_DLY"
             ],
             "skip_in_search": false
           },
           "delay": {
-            "prefix": "ICEUSA_DLY",
+            "prefix": "ICEUS_DLY",
             "priority": 56,
             "perm": "iceusa_free",
             "skip_in_search": false
@@ -2591,16 +2591,16 @@
         "id": "iceusa_financial_futures",
         "kinds": {
           "rt": {
-            "prefix": "ICEUSA",
+            "prefix": "ICEUS",
             "priority": 55,
             "perm": "iceusa",
             "prefix_no_perm": [
-              "ICEUSA_DLY"
+              "ICEUS_DLY"
             ],
             "skip_in_search": false
           },
           "delay": {
-            "prefix": "ICEUSA_DLY",
+            "prefix": "ICEUS_DLY",
             "priority": 56,
             "perm": "iceusa_free",
             "skip_in_search": false
@@ -2629,16 +2629,16 @@
         "id": "iceusa_commodity_continuous",
         "kinds": {
           "rt": {
-            "prefix": "ICEUSA",
+            "prefix": "ICEUS",
             "priority": 55,
             "perm": "iceusa",
             "prefix_no_perm": [
-              "ICEUSA_DLY"
+              "ICEUS_DLY"
             ],
             "skip_in_search": false
           },
           "delay": {
-            "prefix": "ICEUSA_DLY",
+            "prefix": "ICEUS_DLY",
             "priority": 56,
             "perm": "iceusa_free",
             "skip_in_search": false
@@ -2649,16 +2649,16 @@
         "id": "iceusa_financial_continuous",
         "kinds": {
           "rt": {
-            "prefix": "ICEUSA",
+            "prefix": "ICEUS",
             "priority": 55,
             "perm": "iceusa",
             "prefix_no_perm": [
-              "ICEUSA_DLY"
+              "ICEUS_DLY"
             ],
             "skip_in_search": false
           },
           "delay": {
-            "prefix": "ICEUSA_DLY",
+            "prefix": "ICEUS_DLY",
             "priority": 56,
             "perm": "iceusa_free",
             "skip_in_search": false
