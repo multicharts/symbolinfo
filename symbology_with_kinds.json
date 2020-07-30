@@ -1366,6 +1366,26 @@
         }
       },
       {
+        "id": "iceusa_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "ICEUS",
+            "priority": 50,
+            "perm": "iceusa",
+            "prefix_no_perm": [
+              "ICEUS_DLY"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "prefix": "ICEUS_DLY",
+            "priority": 51,
+            "perm": "iceusa_free",
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "sapporo_stocks",
         "kinds": {
           "rt": {
@@ -1890,6 +1910,17 @@
         }
       },
       {
+        "id": "iceusa_digital_assets_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "ICEUS",
+            "priority": 55,
+            "perm": "iceusa_free",
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "oslo_indices",
         "kinds": {
           "rt": {
@@ -2233,6 +2264,46 @@
               "EURONEXTPAR_DLY"
             ],
             "exchange_for_display": "EURONEXT PARIS"
+          }
+        }
+      },
+      {
+        "id": "iceusa_commodity_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "ICEUS",
+            "priority": 55,
+            "perm": "iceusa",
+            "prefix_no_perm": [
+              "ICEUS_DLY"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "prefix": "ICEUS_DLY",
+            "priority": 56,
+            "perm": "iceusa_free",
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "iceusa_financial_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "ICEUS",
+            "priority": 55,
+            "perm": "iceusa",
+            "prefix_no_perm": [
+              "ICEUS_DLY"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "prefix": "ICEUS_DLY",
+            "priority": 56,
+            "perm": "iceusa_free",
+            "skip_in_search": false
           }
         }
       },
