@@ -4666,16 +4666,6 @@
         }
       },
       {
-        "id": "capitalcom_futures",
-        "kinds": {
-          "rt": {
-            "prefix": "CAPITALCOM",
-            "priority": 123,
-            "skip_in_search": true
-          }
-        }
-      },
-      {
         "id": "bitbay",
         "kinds": {
           "rt": {
