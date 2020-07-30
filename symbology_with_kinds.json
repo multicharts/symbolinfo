@@ -2076,6 +2076,17 @@
         }
       },
       {
+        "id": "iceusa_digital_assets_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "ICEUS",
+            "priority": 55,
+            "perm": "iceusa_free",
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "thailand_continuous",
         "kinds": {
           "rt": {
@@ -2381,6 +2392,46 @@
             "priority": 56,
             "prefix": "HKEX_DLY",
             "perm": "hkex_dly"
+          }
+        }
+      },
+      {
+        "id": "iceusa_commodity_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "ICEUS",
+            "priority": 55,
+            "perm": "iceusa",
+            "prefix_no_perm": [
+              "ICEUS_DLY"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "prefix": "ICEUS_DLY",
+            "priority": 56,
+            "perm": "iceusa_free",
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "iceusa_financial_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "ICEUS",
+            "priority": 55,
+            "perm": "iceusa",
+            "prefix_no_perm": [
+              "ICEUS_DLY"
+            ],
+            "skip_in_search": false
+          },
+          "delay": {
+            "prefix": "ICEUS_DLY",
+            "priority": 56,
+            "perm": "iceusa_free",
+            "skip_in_search": false
           }
         }
       },
@@ -6087,36 +6138,6 @@
             "prefix": "HUOBI",
             "priority": 200,
             "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "iceusa_futures",
-        "kinds": {
-          "eod": {
-            "skip_in_search": false,
-            "priority": 201,
-            "prefix": "ICEUS",
-            "prefix_alias": [
-              "ICEUS_EOD",
-              "ICEUSA_EOD",
-              "ICEUSA"
-            ]
-          }
-        }
-      },
-      {
-        "id": "iceusa_continuous",
-        "kinds": {
-          "eod": {
-            "skip_in_search": false,
-            "priority": 201,
-            "prefix": "ICEUS",
-            "prefix_alias": [
-              "ICEUS_EOD",
-              "ICEUSA_EOD",
-              "ICEUSA"
-            ]
           }
         }
       },
