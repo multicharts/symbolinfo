@@ -168,10 +168,21 @@
         }
       },
       {
+        "id": "iceusa_cfd_indices",
+        "kinds": {
+          "rt": {
+            "priority": 10,
+            "search_boost": 2.0,
+            "prefix": "TVC",
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "dxy_idc2",
         "kinds": {
           "rt": {
-            "prefix": "TVC",
+            "prefix": "TVC_OLD",
             "priority": 10,
             "search_boost": 2.0
           }
