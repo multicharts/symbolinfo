@@ -7093,6 +7093,16 @@
         }
       },
       {
+        "id": "tradestation",
+        "kinds": {
+          "rt": {
+            "prefix": "TRADESTATION",
+            "priority": 264,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "egyptian_indices",
         "kinds": {
           "rt": {
