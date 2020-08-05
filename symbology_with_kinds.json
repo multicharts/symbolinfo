@@ -1169,8 +1169,7 @@
           },
           "delay": {
             "prefix": "TOCOM_DLY",
-            "priority": 44,
-            "perm": "tocom_dly"
+            "priority": 44
           }
         }
       },
@@ -3142,8 +3141,7 @@
           },
           "delay": {
             "prefix": "TOCOM_DLY",
-            "priority": 61,
-            "perm": "tocom_dly"
+            "priority": 61
           }
         }
       },
@@ -3160,8 +3158,7 @@
           },
           "delay": {
             "prefix": "TOCOM_DLY",
-            "priority": 61,
-            "perm": "tocom_dly"
+            "priority": 61
           }
         }
       },
@@ -3178,8 +3175,7 @@
           },
           "delay": {
             "prefix": "TOCOM_DLY",
-            "priority": 61,
-            "perm": "tocom_dly"
+            "priority": 61
           }
         }
       },
@@ -3214,8 +3210,7 @@
           },
           "delay": {
             "prefix": "TOCOM_DLY",
-            "priority": 61,
-            "perm": "tocom_dly"
+            "priority": 61
           }
         }
       },
@@ -3232,8 +3227,7 @@
           },
           "delay": {
             "prefix": "TOCOM_DLY",
-            "priority": 61,
-            "perm": "tocom_dly"
+            "priority": 61
           }
         }
       },
@@ -3764,7 +3758,6 @@
           "delay": {
             "prefix": "OSE_DLY",
             "priority": 78,
-            "perm": "ose_dly",
             "skip_in_search": true
           }
         }
@@ -3783,7 +3776,6 @@
           "delay": {
             "prefix": "OSE_DLY",
             "priority": 78,
-            "perm": "ose_dly",
             "skip_in_search": true
           }
         }
