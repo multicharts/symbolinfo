@@ -831,7 +831,7 @@
         }
       },
       {
-        "id": "hitbtc_spreads",
+        "id": "hitbtc2",
         "kinds": {
           "rt": {
             "prefix": "HITBTC",
@@ -841,7 +841,7 @@
         }
       },
       {
-        "id": "hitbtc2",
+        "id": "hitbtc_spreads",
         "kinds": {
           "rt": {
             "prefix": "HITBTC",
@@ -7254,6 +7254,32 @@
               "RUNNER_BINANCE"
             ],
             "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "bittrex_spreads_runner",
+        "kinds": {
+          "rt": {
+            "prefix": "BITTREX",
+            "priority": 500,
+            "skip_in_search": true,
+            "prefix_alias": [
+              "RUNNER_BITTREX"
+            ]
+          }
+        }
+      },
+      {
+        "id": "hitbtc_spreads_runner",
+        "kinds": {
+          "rt": {
+            "prefix": "HITBTC",
+            "priority": 500,
+            "skip_in_search": true,
+            "prefix_alias": [
+              "RUNNER_HITBTC"
+            ]
           }
         }
       },
