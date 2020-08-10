@@ -6366,19 +6366,6 @@
         }
       },
       {
-        "id": "ibroker_liffe",
-        "kinds": {
-          "rt": {
-            "prefix": "IBROKER",
-            "priority": 220,
-            "exchange_for_display": "IBROKER",
-            "hide_in_search": true,
-            "skip_in_search": false,
-            "perm": "ibroker_liffe"
-          }
-        }
-      },
-      {
         "id": "ibroker_meff",
         "kinds": {
           "rt": {
@@ -6575,16 +6562,6 @@
       },
       {
         "id": "capitalcom_cryptocurrency",
-        "kinds": {
-          "rt": {
-            "prefix": "CAPITALCOM",
-            "priority": 223,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "capitalcom_futures",
         "kinds": {
           "rt": {
             "prefix": "CAPITALCOM",
