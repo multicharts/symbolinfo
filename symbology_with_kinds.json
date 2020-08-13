@@ -5927,6 +5927,31 @@
         }
       },
       {
+        "id": "newconnect_indices",
+        "kinds": {
+          "rt": {
+            "priority": 70,
+            "prefix": "NEWCONNECT",
+            "perm": "gpw",
+            "prefix_no_perm": [
+              "NEWCONNECT_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 71,
+            "prefix": "NEWCONNECT_DLY",
+            "perm": "gpw_dly",
+            "prefix_no_perm": [
+              "NEWCONNECT_EOD"
+            ]
+          },
+          "eod": {
+            "priority": 171,
+            "prefix": "NEWCONNECT_EOD"
+          }
+        }
+      },
+      {
         "id": "warsaw_stocks",
         "kinds": {
           "rt": {
@@ -5948,6 +5973,31 @@
           "eod": {
             "priority": 176,
             "prefix": "GPW_EOD"
+          }
+        }
+      },
+      {
+        "id": "newconnect_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 75,
+            "prefix": "NEWCONNECT",
+            "perm": "gpw",
+            "prefix_no_perm": [
+              "NEWCONNECT_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 76,
+            "prefix": "NEWCONNECT_DLY",
+            "perm": "gpw_dly",
+            "prefix_no_perm": [
+              "NEWCONNECT_EOD"
+            ]
+          },
+          "eod": {
+            "priority": 176,
+            "prefix": "NEWCONNECT_EOD"
           }
         }
       },
