@@ -1507,6 +1507,21 @@
         }
       },
       {
+        "id": "nse_futures",
+        "kinds": {
+          "rt": {
+            "priority": 51,
+            "search_boost": 0.6,
+            "prefix": "NSE",
+            "prefix_alias": [
+              "NSE_DLY",
+              "NSE_EOD"
+            ],
+            "perm": "nse_free"
+          }
+        }
+      },
+      {
         "id": "sapporo_stocks",
         "kinds": {
           "rt": {
@@ -1572,6 +1587,21 @@
             "priority": 51,
             "perm": "iceusa_free",
             "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "nse_continuous",
+        "kinds": {
+          "rt": {
+            "priority": 51,
+            "search_boost": 0.6,
+            "prefix": "NSE",
+            "prefix_alias": [
+              "NSE_DLY",
+              "NSE_EOD"
+            ],
+            "perm": "nse_free"
           }
         }
       },
