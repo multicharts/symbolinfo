@@ -6908,16 +6908,6 @@
         }
       },
       {
-        "id": "globalprime_cfd_energies",
-        "kinds": {
-          "rt": {
-            "prefix": "GLOBALPRIME",
-            "priority": 224,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
         "id": "globalprime_cfd_us_indices",
         "kinds": {
           "rt": {
