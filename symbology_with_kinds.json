@@ -6889,7 +6889,7 @@
         }
       },
       {
-        "id": "custom_crypto_indices",
+        "id": "crypto_indices",
         "kinds": {
           "rt": {
             "prefix": "INDEX",
