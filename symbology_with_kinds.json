@@ -1086,6 +1086,26 @@
         }
       },
       {
+        "id": "toronto_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "TSX",
+            "priority": 45,
+            "prefix_alias": [
+              "INDEX"
+            ],
+            "perm": "tsx",
+            "prefix_no_perm": [
+              "TSX_DLY"
+            ]
+          },
+          "delay": {
+            "prefix": "TSX_DLY",
+            "priority": 46
+          }
+        }
+      },
+      {
         "id": "tokyo_indices",
         "kinds": {
           "rt": {
@@ -1176,6 +1196,15 @@
             "prefix": "INDEX_INTERNAL",
             "priority": 47,
             "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "toronto_stocks",
+        "kinds": {
+          "delay": {
+            "prefix": "TSX_DLY",
+            "priority": 48
           }
         }
       },
@@ -2575,6 +2604,15 @@
             "priority": 57,
             "prefix": "TWSE_DLY",
             "perm": "sf_dly"
+          }
+        }
+      },
+      {
+        "id": "toronto_venture_stocks",
+        "kinds": {
+          "delay": {
+            "prefix": "TSXV_DLY",
+            "priority": 58
           }
         }
       },
@@ -4011,34 +4049,6 @@
         }
       },
       {
-        "id": "toronto_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "TSX",
-            "priority": 45,
-            "prefix_alias": [
-              "INDEX"
-            ],
-            "perm": "tsx",
-            "prefix_no_perm": [
-              "TSX_DLY"
-            ]
-          },
-          "delay": {
-            "prefix": "TSX_DLY",
-            "priority": 46,
-            "perm": "tsx_dly",
-            "prefix_no_perm": [
-              "TSX_EOD"
-            ]
-          },
-          "eod": {
-            "prefix": "TSX_EOD",
-            "priority": 100
-          }
-        }
-      },
-      {
         "id": "covid_statistics",
         "kinds": {
           "eod": {
@@ -4299,40 +4309,6 @@
             "prefix": "BSE_EOD",
             "priority": 102,
             "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "toronto_stocks",
-        "kinds": {
-          "delay": {
-            "prefix": "TSX_DLY",
-            "priority": 48,
-            "perm": "tsx_dly",
-            "prefix_no_perm": [
-              "TSX_EOD"
-            ]
-          },
-          "eod": {
-            "prefix": "TSX_EOD",
-            "priority": 105
-          }
-        }
-      },
-      {
-        "id": "toronto_venture_stocks",
-        "kinds": {
-          "delay": {
-            "prefix": "TSXV_DLY",
-            "priority": 58,
-            "perm": "tsxv_dly",
-            "prefix_no_perm": [
-              "TSXV_EOD"
-            ]
-          },
-          "eod": {
-            "prefix": "TSXV_EOD",
-            "priority": 107
           }
         }
       },
