@@ -4602,31 +4602,12 @@
         }
       },
       {
-        "id": "gocio_spreads",
-        "kinds": {
-          "rt": {
-            "prefix": "GOCIO",
-            "priority": 120,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
         "id": "ftx",
         "kinds": {
           "rt": {
             "prefix": "FTX",
             "priority": 120,
             "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "GOCIO",
-        "kinds": {
-          "rt": {
-            "prefix": "GOCIO",
-            "priority": 120
           }
         }
       },
