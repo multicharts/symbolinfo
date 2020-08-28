@@ -5552,16 +5552,6 @@
         }
       },
       {
-        "id": "cmc",
-        "kinds": {
-          "rt": {
-            "prefix": "CMC",
-            "priority": 150,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
         "id": "frankfurt_stocks",
         "kinds": {
           "rt": {
