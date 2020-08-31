@@ -7227,6 +7227,19 @@
         }
       },
       {
+        "id": "bitfinex_spreads_runner",
+        "kinds": {
+          "rt": {
+            "prefix": "BITFINEX",
+            "priority": 500,
+            "prefix_alias": [
+              "RUNNER_BITFINEX"
+            ],
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "bittrex_spreads_runner",
         "kinds": {
           "rt": {
