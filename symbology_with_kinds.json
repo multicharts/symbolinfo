@@ -7292,6 +7292,19 @@
         }
       },
       {
+        "id": "bittrex_forex_spreads_runner",
+        "kinds": {
+          "rt": {
+            "prefix": "BITTREX",
+            "priority": 500,
+            "skip_in_search": true,
+            "prefix_alias": [
+              "RUNNER_BITTREX"
+            ]
+          }
+        }
+      },
+      {
         "id": "bitso_spreads_runner",
         "kinds": {
           "rt": {
