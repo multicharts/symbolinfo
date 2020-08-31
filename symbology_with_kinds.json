@@ -3807,8 +3807,7 @@
           },
           "delay": {
             "priority": 81,
-            "prefix": "QSE_DLY",
-            "perm": "sf_dly"
+            "prefix": "QSE_DLY"
           }
         }
       },
@@ -3986,8 +3985,7 @@
           },
           "delay": {
             "priority": 86,
-            "prefix": "QSE_DLY",
-            "perm": "sf_dly"
+            "prefix": "QSE_DLY"
           }
         }
       },
