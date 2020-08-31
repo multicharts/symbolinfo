@@ -1250,6 +1250,17 @@
         }
       },
       {
+        "id": "forex_crypto_spreads",
+        "kinds": {
+          "rt": {
+            "prefix": "FX_IDC",
+            "priority": 50,
+            "search_boost": 2.0,
+            "exchange_for_display": "IDC"
+          }
+        }
+      },
+      {
         "id": "multicommodity_indices",
         "kinds": {
           "rt": {
@@ -7193,7 +7204,7 @@
         }
       },
       {
-        "id": "forex_crypto_spreads",
+        "id": "forex_crypto_spreads_runner",
         "kinds": {
           "rt": {
             "prefix": "FX_IDC",
