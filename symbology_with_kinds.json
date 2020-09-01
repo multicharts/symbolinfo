@@ -6835,15 +6835,6 @@
         }
       },
       {
-        "id": "crypto_market_caps2",
-        "kinds": {
-          "rt": {
-            "prefix": "CRYPTOCAP",
-            "priority": 300
-          }
-        }
-      },
-      {
         "id": "crypto_indices",
         "kinds": {
           "rt": {
