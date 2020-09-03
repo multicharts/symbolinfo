@@ -6646,6 +6646,16 @@
         }
       },
       {
+        "id": "bitkub",
+        "kinds": {
+          "rt": {
+            "prefix": "BITKUB",
+            "priority": 260,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "fxcm_crypto",
         "kinds": {
           "rt": {
