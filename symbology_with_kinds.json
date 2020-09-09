@@ -162,18 +162,6 @@
         }
       },
       {
-        "id": "iceusa_cfd_indices",
-        "kinds": {
-          "rt": {
-            "priority": 10,
-            "search_boost": 2.0,
-            "prefix": "TVC",
-            "skip_in_search": false,
-            "perm": "dxy"
-          }
-        }
-      },
-      {
         "id": "japan_cfd_indices",
         "kinds": {
           "rt": {
@@ -185,12 +173,34 @@
         }
       },
       {
+        "id": "japan_cfd_indices_internal",
+        "kinds": {
+          "rt": {
+            "prefix": "TVCINTERNAL",
+            "priority": 10,
+            "search_boost": 2.0,
+            "perm": "tvc_cfd"
+          }
+        }
+      },
+      {
+        "id": "dxy_idc2",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 10,
+            "search_boost": 2.0,
+            "perm": "dxy"
+          }
+        }
+      },
+      {
         "id": "us_chicago_indices",
         "kinds": {
           "rt": {
+            "prefix": "TVC",
             "priority": 10,
             "search_boost": 2.0,
-            "prefix": "TVC",
             "perm": "tvc_cfd"
           }
         }
@@ -199,9 +209,9 @@
         "id": "us_ny_indices",
         "kinds": {
           "rt": {
+            "prefix": "TVC",
             "priority": 10,
             "search_boost": 2.0,
-            "prefix": "TVC",
             "perm": "tvc_cfd"
           }
         }
@@ -210,9 +220,9 @@
         "id": "china_indices",
         "kinds": {
           "rt": {
+            "prefix": "TVC",
             "priority": 10,
             "search_boost": 2.0,
-            "prefix": "TVC",
             "perm": "tvc_cfd"
           }
         }
@@ -221,9 +231,9 @@
         "id": "european_indices",
         "kinds": {
           "rt": {
+            "prefix": "TVC",
             "priority": 10,
             "search_boost": 2.0,
-            "prefix": "TVC",
             "perm": "tvc_cfd"
           }
         }
@@ -232,9 +242,9 @@
         "id": "british_indices",
         "kinds": {
           "rt": {
+            "prefix": "TVC",
             "priority": 10,
             "search_boost": 2.0,
-            "prefix": "TVC",
             "perm": "tvc_cfd"
           }
         }
@@ -243,9 +253,9 @@
         "id": "spanish_indices",
         "kinds": {
           "rt": {
+            "prefix": "TVC",
             "priority": 10,
             "search_boost": 2.0,
-            "prefix": "TVC",
             "perm": "tvc_cfd"
           }
         }
@@ -254,9 +264,9 @@
         "id": "korean_tvc_indices",
         "kinds": {
           "rt": {
+            "prefix": "TVC",
             "priority": 10,
             "search_boost": 2.0,
-            "prefix": "TVC",
             "perm": "tvc_cfd"
           }
         }
@@ -265,9 +275,9 @@
         "id": "nzx_tvc_indices",
         "kinds": {
           "rt": {
+            "prefix": "TVC",
             "priority": 10,
             "search_boost": 2.0,
-            "prefix": "TVC",
             "perm": "tvc_cfd"
           }
         }
@@ -276,9 +286,9 @@
         "id": "singapore_tvc_indices",
         "kinds": {
           "rt": {
+            "prefix": "TVC",
             "priority": 10,
             "search_boost": 2.0,
-            "prefix": "TVC",
             "perm": "tvc_cfd"
           }
         }
@@ -287,9 +297,9 @@
         "id": "south_africa_tvc_indices",
         "kinds": {
           "rt": {
+            "prefix": "TVC",
             "priority": 10,
             "search_boost": 2.0,
-            "prefix": "TVC",
             "perm": "tvc_cfd"
           }
         }
