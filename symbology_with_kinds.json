@@ -7072,6 +7072,16 @@
         }
       },
       {
+        "id": "bitcoke",
+        "kinds": {
+          "rt": {
+            "prefix": "BITCOKE",
+            "priority": 266,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "egyptian_indices",
         "kinds": {
           "rt": {
