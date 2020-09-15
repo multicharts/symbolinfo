@@ -6776,6 +6776,16 @@
         }
       },
       {
+        "id": "phemex",
+        "kinds": {
+          "rt": {
+            "prefix": "PHEMEX",
+            "priority": 265,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "egyptian_indices",
         "kinds": {
           "rt": {
