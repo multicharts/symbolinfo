@@ -1929,7 +1929,7 @@
           "delay": {
             "priority": 53,
             "prefix": "TWSE_DLY",
-            "perm": "sf_dly"
+            "perm": "twse_dly"
           }
         }
       },
@@ -2773,7 +2773,7 @@
           "delay": {
             "priority": 57,
             "prefix": "TWSE_DLY",
-            "perm": "sf_dly"
+            "perm": "twse_dly"
           }
         }
       },
