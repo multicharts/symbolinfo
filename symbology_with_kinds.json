@@ -4029,6 +4029,90 @@
         }
       },
       {
+        "id": "hanoi_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 85,
+            "prefix": "HNX",
+            "prefix_no_perm": [
+              "HNX_DLY"
+            ],
+            "perm": "hnx",
+            "skip_in_search": true
+          },
+          "delay": {
+            "priority": 86,
+            "prefix": "HNX_DLY",
+            "prefix_no_perm": [
+              "HNX_EOD"
+            ],
+            "perm": "hnx_dly",
+            "skip_in_search": true
+          },
+          "eod": {
+            "priority": 87,
+            "prefix": "HNX_EOD",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "hanoi_indices",
+        "kinds": {
+          "rt": {
+            "priority": 85,
+            "prefix": "HNX",
+            "prefix_no_perm": [
+              "HNX_DLY"
+            ],
+            "perm": "hnx",
+            "skip_in_search": true
+          },
+          "delay": {
+            "priority": 86,
+            "prefix": "HNX_DLY",
+            "prefix_no_perm": [
+              "HNX_EOD"
+            ],
+            "perm": "hnx_dly",
+            "skip_in_search": true
+          },
+          "eod": {
+            "priority": 87,
+            "prefix": "HNX_EOD",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "upcom_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 85,
+            "prefix": "UPCOM",
+            "prefix_no_perm": [
+              "UPCOM_DLY"
+            ],
+            "perm": "upcom",
+            "skip_in_search": true
+          },
+          "delay": {
+            "priority": 86,
+            "prefix": "UPCOM_DLY",
+            "prefix_no_perm": [
+              "UPCOM_EOD"
+            ],
+            "perm": "upcom_dly",
+            "skip_in_search": true
+          },
+          "eod": {
+            "priority": 87,
+            "prefix": "UPCOM_EOD",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "belgrade_indices",
         "kinds": {
           "rt": {
@@ -6017,6 +6101,34 @@
         }
       },
       {
+        "id": "newconnect_indices",
+        "kinds": {
+          "rt": {
+            "priority": 70,
+            "prefix": "NEWCONNECT",
+            "perm": "gpw",
+            "prefix_no_perm": [
+              "NEWCONNECT_DLY"
+            ],
+            "skip_in_search": true
+          },
+          "delay": {
+            "priority": 71,
+            "prefix": "NEWCONNECT_DLY",
+            "perm": "gpw_dly",
+            "prefix_no_perm": [
+              "NEWCONNECT_EOD"
+            ],
+            "skip_in_search": true
+          },
+          "eod": {
+            "priority": 171,
+            "prefix": "NEWCONNECT_EOD",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "warsaw_stocks",
         "kinds": {
           "rt": {
@@ -6063,6 +6175,34 @@
           "eod": {
             "priority": 176,
             "prefix": "GPW_EOD"
+          }
+        }
+      },
+      {
+        "id": "newconnect_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 75,
+            "prefix": "NEWCONNECT",
+            "perm": "gpw",
+            "prefix_no_perm": [
+              "NEWCONNECT_DLY"
+            ],
+            "skip_in_search": true
+          },
+          "delay": {
+            "priority": 76,
+            "prefix": "NEWCONNECT_DLY",
+            "perm": "gpw_dly",
+            "prefix_no_perm": [
+              "NEWCONNECT_EOD"
+            ],
+            "skip_in_search": true
+          },
+          "eod": {
+            "priority": 176,
+            "prefix": "NEWCONNECT_EOD",
+            "skip_in_search": true
           }
         }
       },
