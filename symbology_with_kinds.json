@@ -334,6 +334,35 @@
         }
       },
       {
+        "id": "mercado",
+        "kinds": {
+          "rt": {
+            "prefix": "MERCADO",
+            "priority": 12
+          }
+        }
+      },
+      {
+        "id": "bitflyer2",
+        "kinds": {
+          "rt": {
+            "prefix": "BITFLYER",
+            "priority": 12,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "bitflyer_spreads",
+        "kinds": {
+          "rt": {
+            "prefix": "BITFLYER",
+            "priority": 12,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "frbny",
         "kinds": {
           "rt": {
@@ -381,30 +410,30 @@
         }
       },
       {
-        "id": "binance",
+        "id": "bittrex",
         "kinds": {
           "rt": {
-            "prefix": "BINANCE",
+            "prefix": "BITTREX",
             "priority": 14,
             "skip_in_search": false
           }
         }
       },
       {
-        "id": "binance_futures",
+        "id": "bittrex_spreads",
         "kinds": {
           "rt": {
-            "prefix": "BINANCE",
+            "prefix": "BITTREX",
             "priority": 14,
             "skip_in_search": false
           }
         }
       },
       {
-        "id": "binance_spreads",
+        "id": "bittrex_forex_spreads",
         "kinds": {
           "rt": {
-            "prefix": "BINANCE",
+            "prefix": "BITTREX",
             "priority": 14,
             "skip_in_search": false
           }
@@ -479,16 +508,6 @@
           "rt": {
             "prefix": "KRAKEN",
             "priority": 19
-          }
-        }
-      },
-      {
-        "id": "kraken_spreads",
-        "kinds": {
-          "rt": {
-            "prefix": "KRAKEN",
-            "priority": 19,
-            "skip_in_search": false
           }
         }
       },
@@ -721,6 +740,16 @@
         }
       },
       {
+        "id": "binance",
+        "kinds": {
+          "rt": {
+            "prefix": "BINANCE",
+            "priority": 20,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "amex_idc",
         "kinds": {
           "rt": {
@@ -736,20 +765,20 @@
         }
       },
       {
-        "id": "bitflyer2",
+        "id": "poloniex",
         "kinds": {
           "rt": {
-            "prefix": "BITFLYER",
+            "prefix": "POLONIEX",
             "priority": 21,
             "skip_in_search": false
           }
         }
       },
       {
-        "id": "bitflyer_spreads",
+        "id": "poloniex_spreads",
         "kinds": {
           "rt": {
-            "prefix": "BITFLYER",
+            "prefix": "POLONIEX",
             "priority": 21,
             "skip_in_search": false
           }
@@ -770,79 +799,11 @@
         }
       },
       {
-        "id": "bybit",
-        "kinds": {
-          "rt": {
-            "prefix": "BYBIT",
-            "priority": 22,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "huobi_crypto",
-        "kinds": {
-          "rt": {
-            "prefix": "HUOBI",
-            "priority": 23
-          }
-        }
-      },
-      {
-        "id": "huobi_futures",
-        "kinds": {
-          "rt": {
-            "prefix": "HUOBI",
-            "priority": 23
-          }
-        }
-      },
-      {
-        "id": "poloniex",
-        "kinds": {
-          "rt": {
-            "prefix": "POLONIEX",
-            "priority": 25,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "poloniex_spreads",
-        "kinds": {
-          "rt": {
-            "prefix": "POLONIEX",
-            "priority": 25,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "hitbtc_spreads",
-        "kinds": {
-          "rt": {
-            "prefix": "HITBTC",
-            "priority": 26,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
         "id": "hitbtc2",
         "kinds": {
           "rt": {
             "prefix": "HITBTC",
-            "priority": 26,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "deribit",
-        "kinds": {
-          "rt": {
-            "prefix": "DERIBIT",
-            "priority": 27,
+            "priority": 22,
             "skip_in_search": false
           }
         }
@@ -1621,36 +1582,6 @@
               "NSE_EOD"
             ],
             "perm": "nse_free"
-          }
-        }
-      },
-      {
-        "id": "bittrex",
-        "kinds": {
-          "rt": {
-            "prefix": "BITTREX",
-            "priority": 51,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "bittrex_spreads",
-        "kinds": {
-          "rt": {
-            "prefix": "BITTREX",
-            "priority": 51,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "bittrex_forex_spreads",
-        "kinds": {
-          "rt": {
-            "prefix": "BITTREX",
-            "priority": 51,
-            "skip_in_search": false
           }
         }
       },
@@ -4276,48 +4207,6 @@
         }
       },
       {
-        "id": "mercado",
-        "kinds": {
-          "rt": {
-            "prefix": "MERCADO",
-            "priority": 99
-          }
-        }
-      },
-      {
-        "id": "okex",
-        "kinds": {
-          "rt": {
-            "prefix": "OKEX",
-            "priority": 99,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "okexfutures",
-        "kinds": {
-          "rt": {
-            "prefix": "OKEX",
-            "priority": 99,
-            "prefix_alias": [
-              "OKCOIN"
-            ],
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "okexswaps",
-        "kinds": {
-          "rt": {
-            "prefix": "OKEX",
-            "priority": 99,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
         "id": "okcoin",
         "kinds": {
           "rt": {
@@ -4407,6 +4296,16 @@
         }
       },
       {
+        "id": "okex",
+        "kinds": {
+          "rt": {
+            "prefix": "OKEX",
+            "priority": 100,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "bnc",
         "kinds": {
           "rt": {
@@ -4448,6 +4347,19 @@
           "rt": {
             "prefix": "FRKC",
             "priority": 100
+          }
+        }
+      },
+      {
+        "id": "okexfutures",
+        "kinds": {
+          "rt": {
+            "prefix": "OKEX",
+            "priority": 101,
+            "prefix_alias": [
+              "OKCOIN"
+            ],
+            "skip_in_search": false
           }
         }
       },
@@ -4560,6 +4472,26 @@
         }
       },
       {
+        "id": "binance_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "BINANCE",
+            "priority": 112,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "binance_spreads",
+        "kinds": {
+          "rt": {
+            "prefix": "BINANCE",
+            "priority": 112,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "bitso_spreads",
         "kinds": {
           "rt": {
@@ -4580,10 +4512,30 @@
         }
       },
       {
+        "id": "hitbtc_spreads",
+        "kinds": {
+          "rt": {
+            "prefix": "HITBTC",
+            "priority": 112,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "therocktrading_spreads",
         "kinds": {
           "rt": {
             "prefix": "THEROCKTRADING",
+            "priority": 112,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "kraken_spreads",
+        "kinds": {
+          "rt": {
+            "prefix": "KRAKEN",
             "priority": 112,
             "skip_in_search": false
           }
@@ -4663,11 +4615,49 @@
         }
       },
       {
+        "id": "huobi_crypto",
+        "kinds": {
+          "rt": {
+            "prefix": "HUOBI",
+            "priority": 115
+          }
+        }
+      },
+      {
+        "id": "huobi_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "HUOBI",
+            "priority": 115
+          }
+        }
+      },
+      {
+        "id": "bybit",
+        "kinds": {
+          "rt": {
+            "prefix": "BYBIT",
+            "priority": 116,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "ftx",
         "kinds": {
           "rt": {
             "prefix": "FTX",
             "priority": 120,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "deribit",
+        "kinds": {
+          "rt": {
+            "prefix": "DERIBIT",
+            "priority": 121,
             "skip_in_search": false
           }
         }
@@ -4683,11 +4673,122 @@
         }
       },
       {
+        "id": "currencycom_index",
+        "kinds": {
+          "rt": {
+            "prefix": "CURRENCYCOM",
+            "priority": 123,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "currencycom_commodity",
+        "kinds": {
+          "rt": {
+            "prefix": "CURRENCYCOM",
+            "priority": 123,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "currencycom_equity",
+        "kinds": {
+          "rt": {
+            "prefix": "CURRENCYCOM",
+            "priority": 123,
+            "hide_in_search": true,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "currencycom_currency",
+        "kinds": {
+          "rt": {
+            "prefix": "CURRENCYCOM",
+            "priority": 123,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "currencycom_cryptocurrency",
+        "kinds": {
+          "rt": {
+            "prefix": "CURRENCYCOM",
+            "priority": 123,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "capitalcom_index",
+        "kinds": {
+          "rt": {
+            "prefix": "CAPITALCOM",
+            "priority": 123,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "capitalcom_commodity",
+        "kinds": {
+          "rt": {
+            "prefix": "CAPITALCOM",
+            "priority": 123,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "capitalcom_equity",
+        "kinds": {
+          "rt": {
+            "prefix": "CAPITALCOM",
+            "priority": 123,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "capitalcom_currency",
+        "kinds": {
+          "rt": {
+            "prefix": "CAPITALCOM",
+            "priority": 123,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "capitalcom_cryptocurrency",
+        "kinds": {
+          "rt": {
+            "prefix": "CAPITALCOM",
+            "priority": 123,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "bitbay",
+        "kinds": {
+          "rt": {
+            "prefix": "BITBAY",
+            "priority": 123,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "kucoin",
         "kinds": {
           "rt": {
             "prefix": "KUCOIN",
-            "priority": 123,
+            "priority": 124,
             "skip_in_search": false
           }
         }
@@ -5562,6 +5663,15 @@
         }
       },
       {
+        "id": "crypto_market_caps2",
+        "kinds": {
+          "rt": {
+            "prefix": "CRYPTOCAP",
+            "priority": 150
+          }
+        }
+      },
+      {
         "id": "shanghai_stocks",
         "kinds": {
           "rt": {
@@ -5848,16 +5958,6 @@
         "kinds": {
           "rt": {
             "prefix": "WHSELFINVEST",
-            "priority": 160,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "bitbay",
-        "kinds": {
-          "rt": {
-            "prefix": "BITBAY",
             "priority": 160,
             "skip_in_search": false
           }
@@ -6512,107 +6612,6 @@
         }
       },
       {
-        "id": "currencycom_index",
-        "kinds": {
-          "rt": {
-            "prefix": "CURRENCYCOM",
-            "priority": 222,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "currencycom_commodity",
-        "kinds": {
-          "rt": {
-            "prefix": "CURRENCYCOM",
-            "priority": 222,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "currencycom_equity",
-        "kinds": {
-          "rt": {
-            "prefix": "CURRENCYCOM",
-            "priority": 222,
-            "hide_in_search": true,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "currencycom_currency",
-        "kinds": {
-          "rt": {
-            "prefix": "CURRENCYCOM",
-            "priority": 222,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "currencycom_cryptocurrency",
-        "kinds": {
-          "rt": {
-            "prefix": "CURRENCYCOM",
-            "priority": 222,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "capitalcom_index",
-        "kinds": {
-          "rt": {
-            "prefix": "CAPITALCOM",
-            "priority": 223,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "capitalcom_commodity",
-        "kinds": {
-          "rt": {
-            "prefix": "CAPITALCOM",
-            "priority": 223,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "capitalcom_equity",
-        "kinds": {
-          "rt": {
-            "prefix": "CAPITALCOM",
-            "priority": 223,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "capitalcom_currency",
-        "kinds": {
-          "rt": {
-            "prefix": "CAPITALCOM",
-            "priority": 223,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "capitalcom_cryptocurrency",
-        "kinds": {
-          "rt": {
-            "prefix": "CAPITALCOM",
-            "priority": 223,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
         "id": "currencycom_leverage_index",
         "kinds": {
           "rt": {
@@ -6668,33 +6667,12 @@
         }
       },
       {
-        "id": "fxcm_crypto",
+        "id": "okexswaps",
         "kinds": {
           "rt": {
-            "prefix": "FX",
-            "priority": 226,
-            "exchange_for_display": "FXCM"
-          }
-        }
-      },
-      {
-        "id": "fxcm_stock_baskets",
-        "kinds": {
-          "rt": {
-            "prefix": "FX",
-            "priority": 226,
-            "exchange_for_display": "FXCM"
-          }
-        }
-      },
-      {
-        "id": "fxcm_share_cfd",
-        "kinds": {
-          "rt": {
-            "prefix": "FX",
-            "priority": 226,
-            "exchange_for_display": "FXCM",
-            "hide_in_search": true
+            "prefix": "OKEX",
+            "priority": 227,
+            "skip_in_search": false
           }
         }
       },
@@ -6705,6 +6683,37 @@
             "prefix": "BITKUB",
             "priority": 260,
             "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "fxcm_crypto",
+        "kinds": {
+          "rt": {
+            "prefix": "FX",
+            "priority": 260,
+            "exchange_for_display": "FXCM"
+          }
+        }
+      },
+      {
+        "id": "fxcm_stock_baskets",
+        "kinds": {
+          "rt": {
+            "prefix": "FX",
+            "priority": 260,
+            "exchange_for_display": "FXCM"
+          }
+        }
+      },
+      {
+        "id": "fxcm_share_cfd",
+        "kinds": {
+          "rt": {
+            "prefix": "FX",
+            "priority": 260,
+            "exchange_for_display": "FXCM",
+            "hide_in_search": true
           }
         }
       },
@@ -6848,15 +6857,6 @@
             "prefix": "BAHRAIN_DLY",
             "perm": "sf_dly",
             "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "crypto_market_caps2",
-        "kinds": {
-          "rt": {
-            "prefix": "CRYPTOCAP",
-            "priority": 300
           }
         }
       },
