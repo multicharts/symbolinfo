@@ -1184,7 +1184,8 @@
             "prefix": "INDEX",
             "priority": 47,
             "prefix_alias": [
-              "INDEX2"
+              "INDEX2",
+              "_FR_INDEX"
             ]
           }
         }
@@ -6889,6 +6890,19 @@
             "priority": 286,
             "prefix": "BAHRAIN_DLY",
             "perm": "sf_dly",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "crypto_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "INDEX_TMP",
+            "priority": 300,
+            "prefix_alias": [
+              "_FR_INDEX"
+            ],
             "skip_in_search": true
           }
         }
