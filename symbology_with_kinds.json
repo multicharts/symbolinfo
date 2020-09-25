@@ -4038,8 +4038,7 @@
             "prefix_no_perm": [
               "HNX_DLY"
             ],
-            "perm": "hnx",
-            "skip_in_search": true
+            "perm": "hnx"
           },
           "delay": {
             "priority": 86,
@@ -4047,13 +4046,11 @@
             "prefix_no_perm": [
               "HNX_EOD"
             ],
-            "perm": "hnx_dly",
-            "skip_in_search": true
+            "perm": "hnx_dly"
           },
           "eod": {
             "priority": 87,
-            "prefix": "HNX_EOD",
-            "skip_in_search": true
+            "prefix": "HNX_EOD"
           }
         }
       },
@@ -4066,8 +4063,7 @@
             "prefix_no_perm": [
               "HNX_DLY"
             ],
-            "perm": "hnx",
-            "skip_in_search": true
+            "perm": "hnx"
           },
           "delay": {
             "priority": 86,
@@ -4075,13 +4071,11 @@
             "prefix_no_perm": [
               "HNX_EOD"
             ],
-            "perm": "hnx_dly",
-            "skip_in_search": true
+            "perm": "hnx_dly"
           },
           "eod": {
             "priority": 87,
-            "prefix": "HNX_EOD",
-            "skip_in_search": true
+            "prefix": "HNX_EOD"
           }
         }
       },
@@ -4094,8 +4088,7 @@
             "prefix_no_perm": [
               "UPCOM_DLY"
             ],
-            "perm": "upcom",
-            "skip_in_search": true
+            "perm": "upcom"
           },
           "delay": {
             "priority": 86,
@@ -4103,13 +4096,11 @@
             "prefix_no_perm": [
               "UPCOM_EOD"
             ],
-            "perm": "upcom_dly",
-            "skip_in_search": true
+            "perm": "upcom_dly"
           },
           "eod": {
             "priority": 87,
-            "prefix": "UPCOM_EOD",
-            "skip_in_search": true
+            "prefix": "UPCOM_EOD"
           }
         }
       },
