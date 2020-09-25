@@ -6045,8 +6045,7 @@
             "perm": "gpw",
             "prefix_no_perm": [
               "NEWCONNECT_DLY"
-            ],
-            "skip_in_search": true
+            ]
           },
           "delay": {
             "priority": 71,
@@ -6054,13 +6053,11 @@
             "perm": "gpw_dly",
             "prefix_no_perm": [
               "NEWCONNECT_EOD"
-            ],
-            "skip_in_search": true
+            ]
           },
           "eod": {
             "priority": 171,
-            "prefix": "NEWCONNECT_EOD",
-            "skip_in_search": true
+            "prefix": "NEWCONNECT_EOD"
           }
         }
       },
@@ -6123,8 +6120,7 @@
             "perm": "gpw",
             "prefix_no_perm": [
               "NEWCONNECT_DLY"
-            ],
-            "skip_in_search": true
+            ]
           },
           "delay": {
             "priority": 76,
@@ -6132,13 +6128,11 @@
             "perm": "gpw_dly",
             "prefix_no_perm": [
               "NEWCONNECT_EOD"
-            ],
-            "skip_in_search": true
+            ]
           },
           "eod": {
             "priority": 176,
-            "prefix": "NEWCONNECT_EOD",
-            "skip_in_search": true
+            "prefix": "NEWCONNECT_EOD"
           }
         }
       },
