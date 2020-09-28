@@ -6866,6 +6866,16 @@
         }
       },
       {
+        "id": "globalprime_cfd_cash_energies",
+        "kinds": {
+          "rt": {
+            "prefix": "GLOBALPRIME",
+            "priority": 224,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "currencycom_leverage_index",
         "kinds": {
           "rt": {
