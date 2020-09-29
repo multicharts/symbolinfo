@@ -398,36 +398,6 @@
         }
       },
       {
-        "id": "bittrex",
-        "kinds": {
-          "rt": {
-            "prefix": "BITTREX",
-            "priority": 14,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "bittrex_spreads",
-        "kinds": {
-          "rt": {
-            "prefix": "BITTREX",
-            "priority": 14,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "bittrex_forex_spreads",
-        "kinds": {
-          "rt": {
-            "prefix": "BITTREX",
-            "priority": 14,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
         "id": "oanda_crypto",
         "kinds": {
           "rt": {
@@ -748,6 +718,36 @@
         "kinds": {
           "rt": {
             "prefix": "POLONIEX",
+            "priority": 21,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "bittrex2",
+        "kinds": {
+          "rt": {
+            "prefix": "BITTREX",
+            "priority": 21,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "bittrex_spreads",
+        "kinds": {
+          "rt": {
+            "prefix": "BITTREX",
+            "priority": 21,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "bittrex_forex_spreads",
+        "kinds": {
+          "rt": {
+            "prefix": "BITTREX",
             "priority": 21,
             "skip_in_search": false
           }
@@ -6938,6 +6938,16 @@
           "delay": {
             "prefix": "SIMULATED",
             "priority": 500,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "bittrex",
+        "kinds": {
+          "rt": {
+            "prefix": "BITTREX",
+            "priority": 1000,
             "skip_in_search": true
           }
         }
