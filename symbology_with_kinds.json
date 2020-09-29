@@ -1803,86 +1803,6 @@
         }
       },
       {
-        "id": "korea_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 53,
-            "prefix": "KRX",
-            "prefix_no_perm": [
-              "KRX_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 54,
-            "prefix": "KRX_DLY"
-          }
-        }
-      },
-      {
-        "id": "korea_konex_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 53,
-            "prefix": "KRX",
-            "prefix_no_perm": [
-              "KRX_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 54,
-            "prefix": "KRX_DLY"
-          }
-        }
-      },
-      {
-        "id": "korea_kosdaq_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 53,
-            "prefix": "KRX",
-            "prefix_no_perm": [
-              "KRX_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 54,
-            "prefix": "KRX_DLY"
-          }
-        }
-      },
-      {
-        "id": "korea_indices",
-        "kinds": {
-          "rt": {
-            "priority": 53,
-            "prefix": "KRX",
-            "prefix_no_perm": [
-              "KRX_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 54,
-            "prefix": "KRX_DLY"
-          }
-        }
-      },
-      {
-        "id": "korea_main_indices",
-        "kinds": {
-          "rt": {
-            "priority": 53,
-            "prefix": "KRX",
-            "prefix_no_perm": [
-              "KRX_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 54,
-            "prefix": "KRX_DLY"
-          }
-        }
-      },
-      {
         "id": "buenosaires_indices",
         "kinds": {
           "rt": {
@@ -5650,6 +5570,121 @@
             "prefix": "NYMEX_MINI_EOD",
             "priority": 150,
             "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "korea_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 53,
+            "prefix": "KRX",
+            "prefix_no_perm": [
+              "KRX_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 54,
+            "prefix": "KRX_DLY",
+            "prefix_no_perm": [
+              "KRX_EOD"
+            ]
+          },
+          "eod": {
+            "priority": 154,
+            "prefix": "KRX_EOD"
+          }
+        }
+      },
+      {
+        "id": "korea_konex_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 53,
+            "prefix": "KRX",
+            "prefix_no_perm": [
+              "KRX_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 54,
+            "prefix": "KRX_DLY",
+            "prefix_no_perm": [
+              "KRX_EOD"
+            ]
+          },
+          "eod": {
+            "priority": 154,
+            "prefix": "KRX_EOD"
+          }
+        }
+      },
+      {
+        "id": "korea_kosdaq_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 53,
+            "prefix": "KRX",
+            "prefix_no_perm": [
+              "KRX_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 54,
+            "prefix": "KRX_DLY",
+            "prefix_no_perm": [
+              "KRX_EOD"
+            ]
+          },
+          "eod": {
+            "priority": 154,
+            "prefix": "KRX_EOD"
+          }
+        }
+      },
+      {
+        "id": "korea_indices",
+        "kinds": {
+          "rt": {
+            "priority": 53,
+            "prefix": "KRX",
+            "prefix_no_perm": [
+              "KRX_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 54,
+            "prefix": "KRX_DLY",
+            "prefix_no_perm": [
+              "KRX_EOD"
+            ]
+          },
+          "eod": {
+            "priority": 154,
+            "prefix": "KRX_EOD"
+          }
+        }
+      },
+      {
+        "id": "korea_main_indices",
+        "kinds": {
+          "rt": {
+            "priority": 53,
+            "prefix": "KRX",
+            "prefix_no_perm": [
+              "KRX_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 54,
+            "prefix": "KRX_DLY",
+            "prefix_no_perm": [
+              "KRX_EOD"
+            ]
+          },
+          "eod": {
+            "priority": 154,
+            "prefix": "KRX_EOD"
           }
         }
       },
