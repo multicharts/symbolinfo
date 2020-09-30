@@ -1782,8 +1782,7 @@
           },
           "delay": {
             "priority": 53,
-            "prefix": "BCS_DLY",
-            "perm": "sf_dly"
+            "prefix": "BCS_DLY"
           }
         }
       },
@@ -2106,8 +2105,7 @@
           },
           "delay": {
             "priority": 55,
-            "prefix": "BCS_DLY",
-            "perm": "sf_dly"
+            "prefix": "BCS_DLY"
           }
         }
       },
