@@ -6891,7 +6891,7 @@
         "id": "crypto_indices",
         "kinds": {
           "rt": {
-            "prefix": "INDEX_TMP",
+            "prefix": "INDEX",
             "priority": 300,
             "prefix_alias": [
               "_FR_INDEX"
