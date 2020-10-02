@@ -6743,6 +6743,26 @@
         }
       },
       {
+        "id": "bingbon",
+        "kinds": {
+          "rt": {
+            "prefix": "BINGBON",
+            "priority": 262,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "btse",
+        "kinds": {
+          "rt": {
+            "prefix": "BTSE",
+            "priority": 263,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "tradestation",
         "kinds": {
           "rt": {
@@ -6759,6 +6779,15 @@
             "prefix": "PHEMEX",
             "priority": 265,
             "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "bitcoke",
+        "kinds": {
+          "rt": {
+            "prefix": "BITCOKE",
+            "priority": 266
           }
         }
       },
