@@ -174,17 +174,6 @@
         }
       },
       {
-        "id": "dxy_idc2",
-        "kinds": {
-          "rt": {
-            "prefix": "TVC",
-            "priority": 10,
-            "search_boost": 2.0,
-            "perm": "dxy"
-          }
-        }
-      },
-      {
         "id": "us_chicago_indices",
         "kinds": {
           "rt": {
