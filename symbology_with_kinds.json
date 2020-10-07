@@ -423,20 +423,10 @@
         }
       },
       {
-        "id": "bittrex",
-        "kinds": {
-          "rt": {
-            "prefix": "BITTREX",
-            "priority": 14,
-            "skip_in_search": false
-          }
-        }
-      },
-      {
         "id": "bittrex2",
         "kinds": {
           "rt": {
-            "prefix": "BITTREX2",
+            "prefix": "BITTREX",
             "priority": 14,
             "skip_in_search": false
           }
