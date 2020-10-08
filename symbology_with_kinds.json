@@ -1082,19 +1082,6 @@
         }
       },
       {
-        "id": "custom_indices_internal",
-        "kinds": {
-          "rt": {
-            "prefix": "INDEX_INTERNAL",
-            "priority": 47,
-            "prefix_alias": [
-              "INDEX"
-            ],
-            "skip_in_search": true
-          }
-        }
-      },
-      {
         "id": "toronto_stocks",
         "kinds": {
           "delay": {
@@ -7206,7 +7193,7 @@
         }
       },
       {
-        "id": "crypto_market_caps_3",
+        "id": "crypto_market_caps2",
         "kinds": {
           "rt": {
             "prefix": "CRYPTOCAP3",
