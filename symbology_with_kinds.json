@@ -168,6 +168,9 @@
             "prefix": "TVC",
             "priority": 10,
             "search_boost": 2.0,
+            "prefix_alias": [
+              "TVC_OLD"
+            ],
             "perm": "dxy"
           }
         }
