@@ -6809,6 +6809,16 @@
         }
       },
       {
+        "id": "uniswap",
+        "kinds": {
+          "rt": {
+            "prefix": "UNISWAP",
+            "priority": 267,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "egyptian_indices",
         "kinds": {
           "rt": {
