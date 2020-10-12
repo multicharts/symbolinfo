@@ -4164,6 +4164,16 @@
         }
       },
       {
+        "id": "us_election",
+        "kinds": {
+          "eod": {
+            "prefix": "US",
+            "priority": 100,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "nyse_gif_indices",
         "kinds": {
           "eod": {
