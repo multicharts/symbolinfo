@@ -6971,16 +6971,6 @@
             "skip_in_search": true
           }
         }
-      },
-      {
-        "id": "bittrex",
-        "kinds": {
-          "rt": {
-            "prefix": "BITTREX",
-            "priority": 1000,
-            "skip_in_search": true
-          }
-        }
       }
     ]
   },
