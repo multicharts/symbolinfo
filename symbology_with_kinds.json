@@ -1062,33 +1062,6 @@
         }
       },
       {
-        "id": "bats_idc",
-        "kinds": {
-          "rt": {
-            "priority": 45,
-            "prefix": "BATS",
-            "exchange_for_display": "Cboe BZX",
-            "perm": "bats",
-            "prefix_no_perm": [
-              "BATS_DLY"
-            ],
-            "prefix_alias": [
-              "BATS_OLD"
-            ],
-            "skip_in_search": true
-          },
-          "delay": {
-            "priority": 46,
-            "prefix": "BATS_DLY",
-            "exchange_for_display": "Cboe BZX",
-            "prefix_alias": [
-              "BATS_OLD_DLY"
-            ],
-            "skip_in_search": true
-          }
-        }
-      },
-      {
         "id": "toronto_indices",
         "kinds": {
           "rt": {
