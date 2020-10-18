@@ -3641,7 +3641,10 @@
             "prefix_no_perm": [
               "FTSEMYX_DLY"
             ],
-            "perm": "ftsemyx"
+            "perm": "ftsemyx",
+            "prefix_alias": [
+              "MYX"
+            ]
           },
           "delay": {
             "priority": 80,
