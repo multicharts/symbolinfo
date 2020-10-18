@@ -3432,6 +3432,9 @@
             "prefix": "FTSEMYX",
             "prefix_no_perm": [
               "FTSEMYX_DLY"
+            ],
+            "prefix_alias": [
+              "MYX"
             ]
           },
           "delay": {
