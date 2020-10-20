@@ -5852,7 +5852,53 @@
         }
       },
       {
+        "id": "eur_ex_2_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "EUREX",
+            "priority": 141,
+            "prefix_no_perm": [
+              "EUREX_DLY"
+            ]
+          },
+          "delay": {
+            "prefix": "EUREX_DLY",
+            "priority": 151,
+            "prefix_no_perm": [
+              "EUREX_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "EUREX_EOD",
+            "priority": 161
+          }
+        }
+      },
+      {
         "id": "eur_ex_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "EUREX",
+            "priority": 141,
+            "prefix_no_perm": [
+              "EUREX_DLY"
+            ]
+          },
+          "delay": {
+            "prefix": "EUREX_DLY",
+            "priority": 151,
+            "prefix_no_perm": [
+              "EUREX_EOD"
+            ]
+          },
+          "eod": {
+            "prefix": "EUREX_EOD",
+            "priority": 161
+          }
+        }
+      },
+      {
+        "id": "eur_ex_2_continuous",
         "kinds": {
           "rt": {
             "prefix": "EUREX",
