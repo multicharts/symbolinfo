@@ -1399,6 +1399,20 @@
         }
       },
       {
+        "id": "istanbul_cfd_indices",
+        "kinds": {
+          "rt": {
+            "priority": 51,
+            "prefix": "BISTCFD",
+            "prefix_no_perm": [
+              "BIST_DLY"
+            ],
+            "perm": "bist_lite",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "iceusa_indices",
         "kinds": {
           "rt": {
@@ -2221,6 +2235,20 @@
           "delay": {
             "priority": 56,
             "prefix": "HKEX_DLY"
+          }
+        }
+      },
+      {
+        "id": "istanbul_cfd_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 56,
+            "prefix": "BISTCFD",
+            "prefix_no_perm": [
+              "BIST_DLY"
+            ],
+            "perm": "bist_lite",
+            "skip_in_search": true
           }
         }
       },
