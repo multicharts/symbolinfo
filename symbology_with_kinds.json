@@ -1407,6 +1407,7 @@
             "prefix_no_perm": [
               "BIST_DLY"
             ],
+            "perm": "bist_lite",
             "skip_in_search": true
           }
         }
@@ -2246,6 +2247,7 @@
             "prefix_no_perm": [
               "BIST_DLY"
             ],
+            "perm": "bist_lite",
             "skip_in_search": true
           }
         }
@@ -2477,6 +2479,7 @@
             "prefix_no_perm": [
               "BIST_DLY"
             ],
+            "perm": "bist_lite",
             "skip_in_search": true
           }
         }
@@ -2490,6 +2493,7 @@
             "prefix_no_perm": [
               "BIST_DLY"
             ],
+            "perm": "bist_lite",
             "skip_in_search": true
           }
         }
