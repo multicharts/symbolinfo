@@ -1407,7 +1407,6 @@
             "prefix_no_perm": [
               "BIST_DLY"
             ],
-            "perm": "bist_lite",
             "skip_in_search": true
           }
         }
@@ -2247,7 +2246,6 @@
             "prefix_no_perm": [
               "BIST_DLY"
             ],
-            "perm": "bist_lite",
             "skip_in_search": true
           }
         }
@@ -2467,6 +2465,32 @@
             "prefix_alias": [
               "SSE"
             ]
+          }
+        }
+      },
+      {
+        "id": "istanbul_cfd_futures",
+        "kinds": {
+          "rt": {
+            "priority": 58,
+            "prefix": "BISTCFD",
+            "prefix_no_perm": [
+              "BIST_DLY"
+            ],
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "istanbul_cfd_continuous",
+        "kinds": {
+          "rt": {
+            "priority": 58,
+            "prefix": "BISTCFD",
+            "prefix_no_perm": [
+              "BIST_DLY"
+            ],
+            "skip_in_search": true
           }
         }
       },
@@ -5726,7 +5750,7 @@
               "IST"
             ],
             "prefix_no_perm": [
-              "BIST_DLY"
+              "BISTCFD"
             ],
             "perm": "bist_futures"
           },
@@ -5754,7 +5778,7 @@
               "IST"
             ],
             "prefix_no_perm": [
-              "BIST_DLY"
+              "BISTCFD"
             ],
             "perm": "bist_futures"
           },
