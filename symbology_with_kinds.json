@@ -1054,7 +1054,7 @@
             "priority": 47,
             "perm": "tse",
             "prefix_no_perm": [
-              "TSE_DLY"
+              "TSECFD"
             ]
           }
         }
@@ -1199,6 +1199,19 @@
         }
       },
       {
+        "id": "tokyo_cfd_stocks",
+        "kinds": {
+          "rt": {
+            "prefix": "TSECFD",
+            "priority": 50,
+            "perm": "tse_dly",
+            "prefix_no_perm": [
+              "TSE_DLY"
+            ]
+          }
+        }
+      },
+      {
         "id": "shenzhen_indices",
         "kinds": {
           "rt": {
@@ -1317,7 +1330,7 @@
             "priority": 51,
             "perm": "tse",
             "prefix_no_perm": [
-              "SAPSE_DLY"
+              "SAPSECFD"
             ],
             "prefix_alias": [
               "SSE"
@@ -1636,7 +1649,7 @@
             "priority": 52,
             "perm": "tse",
             "prefix_no_perm": [
-              "FSE_DLY"
+              "FSECFD"
             ]
           }
         }
@@ -1741,6 +1754,19 @@
           "delay": {
             "priority": 54,
             "prefix": "BMV_DLY"
+          }
+        }
+      },
+      {
+        "id": "sapporo_cfd_stocks",
+        "kinds": {
+          "rt": {
+            "prefix": "SAPSECFD",
+            "priority": 54,
+            "perm": "tse_dly",
+            "prefix_no_perm": [
+              "SAPSE_DLY"
+            ]
           }
         }
       },
@@ -1900,6 +1926,19 @@
           "delay": {
             "priority": 55,
             "prefix": "OMXNORDIC_DLY"
+          }
+        }
+      },
+      {
+        "id": "fukuoka_cfd_stocks",
+        "kinds": {
+          "rt": {
+            "prefix": "FSECFD",
+            "priority": 55,
+            "perm": "tse_dly",
+            "prefix_no_perm": [
+              "FSE_DLY"
+            ]
           }
         }
       },
