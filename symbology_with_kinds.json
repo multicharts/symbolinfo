@@ -4451,7 +4451,7 @@
           "rt": {
             "prefix": "MTGOX",
             "priority": 113,
-            "skip_in_search": false
+            "skip_in_search": true
           }
         }
       },
