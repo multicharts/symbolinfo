@@ -4317,7 +4317,8 @@
         "kinds": {
           "rt": {
             "prefix": "MTGOX",
-            "priority": 113
+            "priority": 113,
+            "skip_in_search": true
           }
         }
       },
