@@ -4430,7 +4430,6 @@
           "rt": {
             "prefix": "CURRENCYCOM",
             "priority": 123,
-            "exchange_for_display": "Currency.com",
             "skip_in_search": false
           }
         }
@@ -4441,7 +4440,6 @@
           "rt": {
             "prefix": "CURRENCYCOM",
             "priority": 123,
-            "exchange_for_display": "Currency.com",
             "skip_in_search": false
           }
         }
@@ -4452,7 +4450,6 @@
           "rt": {
             "prefix": "CURRENCYCOM",
             "priority": 123,
-            "exchange_for_display": "Currency.com",
             "hide_in_search": true,
             "skip_in_search": false
           }
@@ -4464,7 +4461,6 @@
           "rt": {
             "prefix": "CURRENCYCOM",
             "priority": 123,
-            "exchange_for_display": "Currency.com",
             "skip_in_search": false
           }
         }
@@ -4475,7 +4471,6 @@
           "rt": {
             "prefix": "CURRENCYCOM",
             "priority": 123,
-            "exchange_for_display": "Currency.com",
             "skip_in_search": false
           }
         }
@@ -7088,7 +7083,6 @@
           "rt": {
             "prefix": "TRADESTATION",
             "priority": 264,
-            "exchange_for_display": "TradeStation",
             "skip_in_search": false
           }
         }
@@ -7109,7 +7103,6 @@
           "rt": {
             "prefix": "BITCOKE",
             "priority": 266,
-            "exchange_for_display": "BitCoke",
             "skip_in_search": false
           }
         }
