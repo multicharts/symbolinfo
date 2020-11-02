@@ -1054,7 +1054,7 @@
             "priority": 47,
             "perm": "tse",
             "prefix_no_perm": [
-              "TSECFD"
+              "TSE_DLY"
             ]
           }
         }
@@ -1199,20 +1199,6 @@
         }
       },
       {
-        "id": "tokyo_cfd_stocks",
-        "kinds": {
-          "rt": {
-            "prefix": "TSECFD",
-            "exchange_for_display": "TSECFD",
-            "priority": 50,
-            "perm": "tse_dly",
-            "prefix_no_perm": [
-              "TSE_DLY"
-            ]
-          }
-        }
-      },
-      {
         "id": "shenzhen_indices",
         "kinds": {
           "rt": {
@@ -1254,6 +1240,17 @@
           "rt": {
             "priority": 50,
             "prefix": "MCX"
+          }
+        }
+      },
+      {
+        "id": "tokyo_cfd_stocks",
+        "kinds": {
+          "rt": {
+            "prefix": "TSECFD",
+            "exchange_for_display": "TSECFD",
+            "priority": 50,
+            "perm": "tse_cfd"
           }
         }
       },
