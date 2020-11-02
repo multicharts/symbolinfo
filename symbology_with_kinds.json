@@ -1203,6 +1203,7 @@
         "kinds": {
           "rt": {
             "prefix": "TSECFD",
+            "exchange_for_display": "TSECFD",
             "priority": 50,
             "perm": "tse_dly",
             "prefix_no_perm": [
