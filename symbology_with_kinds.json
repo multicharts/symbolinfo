@@ -1328,7 +1328,7 @@
             "priority": 51,
             "perm": "tse",
             "prefix_no_perm": [
-              "SAPSECFD"
+              "SAPSE_DLY"
             ],
             "prefix_alias": [
               "SSE"
@@ -1647,7 +1647,7 @@
             "priority": 52,
             "perm": "tse",
             "prefix_no_perm": [
-              "FSECFD"
+              "FSE_DLY"
             ]
           }
         }
@@ -1756,19 +1756,6 @@
         }
       },
       {
-        "id": "sapporo_cfd_stocks",
-        "kinds": {
-          "rt": {
-            "prefix": "SAPSECFD",
-            "priority": 54,
-            "perm": "tse_dly",
-            "prefix_no_perm": [
-              "SAPSE_DLY"
-            ]
-          }
-        }
-      },
-      {
         "id": "thailand_indices",
         "kinds": {
           "rt": {
@@ -1786,6 +1773,17 @@
             "priority": 54,
             "prefix": "SET_DLY",
             "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "sapporo_cfd_stocks",
+        "kinds": {
+          "rt": {
+            "prefix": "SAPSECFD",
+            "exchange_for_display": "SAPSECFD",
+            "priority": 54,
+            "perm": "tse_cfd"
           }
         }
       },
@@ -1928,19 +1926,6 @@
         }
       },
       {
-        "id": "fukuoka_cfd_stocks",
-        "kinds": {
-          "rt": {
-            "prefix": "FSECFD",
-            "priority": 55,
-            "perm": "tse_dly",
-            "prefix_no_perm": [
-              "FSE_DLY"
-            ]
-          }
-        }
-      },
-      {
         "id": "santiago_stocks",
         "kinds": {
           "rt": {
@@ -2025,6 +2010,17 @@
             "prefix": "ICEUS",
             "priority": 55,
             "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "fukuoka_cfd_stocks",
+        "kinds": {
+          "rt": {
+            "prefix": "FSECFD",
+            "exchange_for_display": "FSECFD",
+            "priority": 55,
+            "perm": "tse_cfd"
           }
         }
       },
