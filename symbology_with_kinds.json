@@ -7344,7 +7344,7 @@
         "id": "binance_spreads_runner",
         "kinds": {
           "rt": {
-            "prefix": "BINANCE",
+            "prefix": "NEW_BINANCE",
             "priority": 500,
             "prefix_alias": [
               "RUNNER_BINANCE"
