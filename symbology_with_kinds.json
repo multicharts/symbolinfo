@@ -1054,7 +1054,7 @@
             "priority": 47,
             "perm": "tse",
             "prefix_no_perm": [
-              "TSE_DLY"
+              "TSECFD"
             ]
           }
         }
@@ -1248,9 +1248,12 @@
         "kinds": {
           "rt": {
             "prefix": "TSECFD",
-            "exchange_for_display": "TSECFD",
             "priority": 50,
-            "perm": "tse_cfd"
+            "perm": "tse_cfd",
+            "skip_in_search": true,
+            "prefix_no_perm": [
+              "TSE_DLY"
+            ]
           }
         }
       },
@@ -1328,7 +1331,7 @@
             "priority": 51,
             "perm": "tse",
             "prefix_no_perm": [
-              "SAPSE_DLY"
+              "SAPSECFD"
             ],
             "prefix_alias": [
               "SSE"
@@ -1647,7 +1650,7 @@
             "priority": 52,
             "perm": "tse",
             "prefix_no_perm": [
-              "FSE_DLY"
+              "FSECFD"
             ]
           }
         }
@@ -1781,9 +1784,12 @@
         "kinds": {
           "rt": {
             "prefix": "SAPSECFD",
-            "exchange_for_display": "SAPSECFD",
             "priority": 54,
-            "perm": "tse_cfd"
+            "skip_in_search": true,
+            "perm": "tse_cfd",
+            "prefix_no_perm": [
+              "SAPSE_DLY"
+            ]
           }
         }
       },
@@ -2018,9 +2024,12 @@
         "kinds": {
           "rt": {
             "prefix": "FSECFD",
-            "exchange_for_display": "FSECFD",
             "priority": 55,
-            "perm": "tse_cfd"
+            "skip_in_search": true,
+            "perm": "tse_cfd",
+            "prefix_no_perm": [
+              "FSE_DLY"
+            ]
           }
         }
       },
