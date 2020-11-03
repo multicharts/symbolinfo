@@ -7357,7 +7357,7 @@
         "id": "bitfinex_spreads_runner",
         "kinds": {
           "rt": {
-            "prefix": "BITFINEX",
+            "prefix": "NEW_BITFINEX",
             "priority": 500,
             "prefix_alias": [
               "RUNNER_BITFINEX"
@@ -7370,7 +7370,7 @@
         "id": "bitfinex_forex_spreads_runner",
         "kinds": {
           "rt": {
-            "prefix": "BITFINEX",
+            "prefix": "NEW_BITFINEX",
             "priority": 500,
             "prefix_alias": [
               "RUNNER_BITFINEX"
@@ -7383,7 +7383,7 @@
         "id": "poloniex_spreads_runner",
         "kinds": {
           "rt": {
-            "prefix": "POLONIEX",
+            "prefix": "NEW_POLONIEX",
             "priority": 500,
             "skip_in_search": true,
             "prefix_alias": [
@@ -7396,7 +7396,7 @@
         "id": "bitflyer_spreads_runner",
         "kinds": {
           "rt": {
-            "prefix": "BITFLYER",
+            "prefix": "NEW_BITFLYER",
             "priority": 500,
             "skip_in_search": true,
             "prefix_alias": [
@@ -7409,7 +7409,7 @@
         "id": "bittrex_spreads_runner",
         "kinds": {
           "rt": {
-            "prefix": "BITTREX",
+            "prefix": "NEW_BITTREX",
             "priority": 500,
             "skip_in_search": true,
             "prefix_alias": [
@@ -7422,7 +7422,7 @@
         "id": "bittrex_forex_spreads_runner",
         "kinds": {
           "rt": {
-            "prefix": "BITTREX",
+            "prefix": "NEW_BITTREX",
             "priority": 500,
             "skip_in_search": true,
             "prefix_alias": [
@@ -7435,7 +7435,7 @@
         "id": "bitso_spreads_runner",
         "kinds": {
           "rt": {
-            "prefix": "BITSO",
+            "prefix": "NEW_BITSO",
             "priority": 500,
             "skip_in_search": true,
             "prefix_alias": [
@@ -7448,7 +7448,7 @@
         "id": "hitbtc_spreads_runner",
         "kinds": {
           "rt": {
-            "prefix": "HITBTC",
+            "prefix": "NEW_HITBTC",
             "priority": 500,
             "skip_in_search": true,
             "prefix_alias": [
