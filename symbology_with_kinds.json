@@ -6606,6 +6606,116 @@
         }
       },
       {
+        "id": "globalprime_cfd_cryptocurrencies",
+        "kinds": {
+          "rt": {
+            "prefix": "GLOBALPRIME",
+            "priority": 224,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "globalprime_fx_majors",
+        "kinds": {
+          "rt": {
+            "prefix": "GLOBALPRIME",
+            "priority": 224,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "globalprime_fx_minors",
+        "kinds": {
+          "rt": {
+            "prefix": "GLOBALPRIME",
+            "priority": 224,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "globalprime_fx_exotics",
+        "kinds": {
+          "rt": {
+            "prefix": "GLOBALPRIME",
+            "priority": 224,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "globalprime_cfd_au_index",
+        "kinds": {
+          "rt": {
+            "prefix": "GLOBALPRIME",
+            "priority": 224,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "globalprime_cfd_us_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "GLOBALPRIME",
+            "priority": 224,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "globalprime_metal",
+        "kinds": {
+          "rt": {
+            "prefix": "GLOBALPRIME",
+            "priority": 224,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "globalprime_cfd_eu_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "GLOBALPRIME",
+            "priority": 224,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "globalprime_cfd_uk_index",
+        "kinds": {
+          "rt": {
+            "prefix": "GLOBALPRIME",
+            "priority": 224,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "globalprime_cfd_hk_index",
+        "kinds": {
+          "rt": {
+            "prefix": "GLOBALPRIME",
+            "priority": 224,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "globalprime_cfd_cash_energies",
+        "kinds": {
+          "rt": {
+            "prefix": "GLOBALPRIME",
+            "priority": 224,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "currencycom_leverage_index",
         "kinds": {
           "rt": {
