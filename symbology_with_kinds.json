@@ -1293,9 +1293,6 @@
             "prefix_alias": [
               "IST"
             ],
-            "prefix_no_perm": [
-              "BIST_DLY"
-            ],
             "perm": "bist"
           }
         }
@@ -1464,6 +1461,20 @@
             "priority": 51,
             "prefix": "SGX_DLY",
             "perm": "sgx_dly"
+          }
+        }
+      },
+      {
+        "id": "istanbul_cfd_indices",
+        "kinds": {
+          "rt": {
+            "priority": 51,
+            "prefix": "BISTCFD",
+            "prefix_no_perm": [
+              "BIST_DLY"
+            ],
+            "perm": "bist_lite",
+            "skip_in_search": true
           }
         }
       },
@@ -2377,6 +2388,20 @@
         }
       },
       {
+        "id": "istanbul_cfd_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 56,
+            "prefix": "BISTCFD",
+            "prefix_no_perm": [
+              "BIST_DLY"
+            ],
+            "perm": "bist_lite",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "hongkong_continuous",
         "kinds": {
           "rt": {
@@ -2537,6 +2562,34 @@
             "prefix": "SAPSE_DLY",
             "priority": 58,
             "perm": "tse_dly"
+          }
+        }
+      },
+      {
+        "id": "istanbul_cfd_futures",
+        "kinds": {
+          "rt": {
+            "priority": 58,
+            "prefix": "BISTCFD",
+            "prefix_no_perm": [
+              "BIST_DLY"
+            ],
+            "perm": "bist_lite",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "istanbul_cfd_continuous",
+        "kinds": {
+          "rt": {
+            "priority": 58,
+            "prefix": "BISTCFD",
+            "prefix_no_perm": [
+              "BIST_DLY"
+            ],
+            "perm": "bist_lite",
+            "skip_in_search": true
           }
         }
       },
@@ -5807,7 +5860,7 @@
               "IST"
             ],
             "prefix_no_perm": [
-              "BIST_DLY"
+              "BISTCFD"
             ],
             "perm": "bist"
           },
@@ -5835,7 +5888,7 @@
               "IST"
             ],
             "prefix_no_perm": [
-              "BIST_DLY"
+              "BISTCFD"
             ],
             "perm": "bist"
           },
@@ -5863,7 +5916,7 @@
               "IST"
             ],
             "prefix_no_perm": [
-              "BIST_DLY"
+              "BISTCFD"
             ],
             "perm": "bist_futures"
           },
@@ -5891,7 +5944,7 @@
               "IST"
             ],
             "prefix_no_perm": [
-              "BIST_DLY"
+              "BISTCFD"
             ],
             "perm": "bist_futures"
           },
