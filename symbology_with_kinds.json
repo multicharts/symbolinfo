@@ -2614,6 +2614,16 @@
         }
       },
       {
+        "id": "fukuoka_lastsale_stocks",
+        "kinds": {
+          "delay": {
+            "prefix": "FSE_DLY",
+            "priority": 59,
+            "perm": "tse_dly"
+          }
+        }
+      },
+      {
         "id": "tocom_indices",
         "kinds": {
           "rt": {
@@ -2740,7 +2750,7 @@
         }
       },
       {
-        "id": "fukuoka_lastsale_stocks",
+        "id": "fukuoka_cfd_stocks",
         "kinds": {
           "delay": {
             "prefix": "FSECFD",
