@@ -2556,6 +2556,16 @@
         }
       },
       {
+        "id": "tokyo_cfd_stocks",
+        "kinds": {
+          "delay": {
+            "prefix": "TSECFD",
+            "priority": 58,
+            "perm": "tse_dly"
+          }
+        }
+      },
+      {
         "id": "sapporo_lastsale_stocks",
         "kinds": {
           "delay": {
@@ -2594,10 +2604,10 @@
         }
       },
       {
-        "id": "fukuoka_lastsale_stocks",
+        "id": "sapporo_cfd_stocks",
         "kinds": {
           "delay": {
-            "prefix": "FSE_DLY",
+            "prefix": "SAPSECFD",
             "priority": 59,
             "perm": "tse_dly"
           }
@@ -2726,6 +2736,16 @@
             "prefix": "NAG_DLY",
             "priority": 60,
             "perm": "sf_dly"
+          }
+        }
+      },
+      {
+        "id": "fukuoka_lastsale_stocks",
+        "kinds": {
+          "delay": {
+            "prefix": "FSECFD",
+            "priority": 60,
+            "perm": "tse_dly"
           }
         }
       },
