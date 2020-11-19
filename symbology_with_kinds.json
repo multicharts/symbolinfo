@@ -2560,9 +2560,9 @@
         "kinds": {
           "delay": {
             "prefix": "TSECFD",
-            "exchange_for_display": "TSECFD",
             "priority": 58,
-            "perm": "tse_dly"
+            "perm": "tse_dly",
+            "skip_in_search": false
           }
         }
       },
@@ -2609,9 +2609,9 @@
         "kinds": {
           "delay": {
             "prefix": "SAPSECFD",
-            "exchange_for_display": "SAPSECFD",
             "priority": 59,
-            "perm": "tse_dly"
+            "perm": "tse_dly",
+            "skip_in_search": false
           }
         }
       },
@@ -2756,9 +2756,9 @@
         "kinds": {
           "delay": {
             "prefix": "FSECFD",
-            "exchange_for_display": "FSECFD",
             "priority": 60,
-            "perm": "tse_dly"
+            "perm": "tse_dly",
+            "skip_in_search": false
           }
         }
       },
