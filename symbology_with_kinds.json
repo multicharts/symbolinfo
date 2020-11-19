@@ -3365,6 +3365,7 @@
           "rt": {
             "prefix": "INDEX",
             "priority": 65,
+            "perm": "swb_ind",
             "prefix_no_perm": [
               "INDEX_DLY"
             ]
