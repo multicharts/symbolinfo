@@ -1219,8 +1219,7 @@
             "prefix": "BIST",
             "prefix_alias": [
               "IST"
-            ],
-            "perm": "bist"
+            ]
           }
         }
       },
@@ -1411,7 +1410,6 @@
             "prefix_no_perm": [
               "BIST_DLY"
             ],
-            "perm": "bist_lite",
             "skip_in_search": true
           }
         }
@@ -2279,7 +2277,6 @@
             "prefix_no_perm": [
               "BIST_DLY"
             ],
-            "perm": "bist_lite",
             "skip_in_search": true
           }
         }
@@ -2511,7 +2508,6 @@
             "prefix_no_perm": [
               "BIST_DLY"
             ],
-            "perm": "bist_lite",
             "skip_in_search": true
           }
         }
@@ -2525,7 +2521,6 @@
             "prefix_no_perm": [
               "BIST_DLY"
             ],
-            "perm": "bist_lite",
             "skip_in_search": true
           }
         }
@@ -5727,16 +5722,14 @@
             ],
             "prefix_no_perm": [
               "BISTCFD"
-            ],
-            "perm": "bist"
+            ]
           },
           "delay": {
             "priority": 58,
             "prefix": "BIST_DLY",
             "prefix_no_perm": [
               "BIST_EOD"
-            ],
-            "perm": "bist_dly"
+            ]
           },
           "eod": {
             "priority": 156,
@@ -5755,16 +5748,14 @@
             ],
             "prefix_no_perm": [
               "BISTCFD"
-            ],
-            "perm": "bist"
+            ]
           },
           "delay": {
             "priority": 51,
             "prefix": "BIST_DLY",
             "prefix_no_perm": [
               "BIST_EOD"
-            ],
-            "perm": "bist_dly"
+            ]
           },
           "eod": {
             "priority": 156,
@@ -5783,16 +5774,14 @@
             ],
             "prefix_no_perm": [
               "BISTCFD"
-            ],
-            "perm": "bist_futures"
+            ]
           },
           "delay": {
             "priority": 58,
             "prefix": "BIST_DLY",
             "prefix_no_perm": [
               "BIST_EOD"
-            ],
-            "perm": "bist_dly"
+            ]
           },
           "eod": {
             "priority": 156,
@@ -5811,16 +5800,14 @@
             ],
             "prefix_no_perm": [
               "BISTCFD"
-            ],
-            "perm": "bist_futures"
+            ]
           },
           "delay": {
             "priority": 58,
             "prefix": "BIST_DLY",
             "prefix_no_perm": [
               "BIST_EOD"
-            ],
-            "perm": "bist_dly"
+            ]
           },
           "eod": {
             "priority": 156,
