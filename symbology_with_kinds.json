@@ -3694,7 +3694,7 @@
           "delay": {
             "priority": 80,
             "prefix": "NSENG_DLY",
-            "perm": "sf_dly",
+            "perm": "nseng_dly",
             "skip_in_search": true
           }
         }
@@ -3797,7 +3797,7 @@
           "delay": {
             "priority": 81,
             "prefix": "NSENG_DLY",
-            "perm": "sf_dly",
+            "perm": "nseng_dly",
             "skip_in_search": true
           }
         }
