@@ -3738,7 +3738,7 @@
           "delay": {
             "priority": 81,
             "prefix": "DFM_DLY",
-            "perm": "sf_dly",
+            "perm": "dfm_dly",
             "skip_in_search": true
           }
         }
@@ -3916,7 +3916,7 @@
           "delay": {
             "priority": 86,
             "prefix": "DFM_DLY",
-            "perm": "sf_dly",
+            "perm": "dfm_dly",
             "skip_in_search": true
           }
         }
