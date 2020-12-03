@@ -1423,11 +1423,11 @@
         "kinds": {
           "rt": {
             "priority": 51,
-            "prefix": "BISTCFD",
+            "prefix": "BISTMIXED",
             "prefix_no_perm": [
               "BIST_DLY"
             ],
-            "perm": "bist_lite",
+            "perm": "bist_mixed",
             "skip_in_search": true
           }
         }
@@ -2329,11 +2329,11 @@
         "kinds": {
           "rt": {
             "priority": 56,
-            "prefix": "BISTCFD",
+            "prefix": "BISTMIXED",
             "prefix_no_perm": [
               "BIST_DLY"
             ],
-            "perm": "bist_lite",
+            "perm": "bist_mixed",
             "skip_in_search": true
           }
         }
@@ -2593,11 +2593,11 @@
         "kinds": {
           "rt": {
             "priority": 58,
-            "prefix": "BISTCFD",
+            "prefix": "BISTMIXED",
             "prefix_no_perm": [
               "BIST_DLY"
             ],
-            "perm": "bist_lite",
+            "perm": "bist_mixed",
             "skip_in_search": true
           }
         }
@@ -2607,11 +2607,11 @@
         "kinds": {
           "rt": {
             "priority": 58,
-            "prefix": "BISTCFD",
+            "prefix": "BISTMIXED",
             "prefix_no_perm": [
               "BIST_DLY"
             ],
-            "perm": "bist_lite",
+            "perm": "bist_mixed",
             "skip_in_search": true
           }
         }
@@ -5669,6 +5669,20 @@
         }
       },
       {
+        "id": "istanbul_cfd_unavailable_indices",
+        "kinds": {
+          "eod": {
+            "priority": 151,
+            "prefix": "BISTMIXED",
+            "prefix_no_perm": [
+              "BIST_DLY"
+            ],
+            "perm": "permission_denied",
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "korea_stocks",
         "kinds": {
           "rt": {
@@ -5850,7 +5864,7 @@
               "IST"
             ],
             "prefix_no_perm": [
-              "BISTCFD"
+              "BISTMIXED"
             ],
             "perm": "bist"
           },
@@ -5878,7 +5892,7 @@
               "IST"
             ],
             "prefix_no_perm": [
-              "BISTCFD"
+              "BISTMIXED"
             ],
             "perm": "bist"
           },
@@ -5900,13 +5914,13 @@
         "id": "istanbul_futures",
         "kinds": {
           "rt": {
-            "priority": 57,
+            "priority": 55,
             "prefix": "BIST",
             "prefix_alias": [
               "IST"
             ],
             "prefix_no_perm": [
-              "BISTCFD"
+              "BISTMIXED"
             ],
             "perm": "bist_futures"
           },
@@ -5928,13 +5942,13 @@
         "id": "istanbul_continuous",
         "kinds": {
           "rt": {
-            "priority": 57,
+            "priority": 55,
             "prefix": "BIST",
             "prefix_alias": [
               "IST"
             ],
             "prefix_no_perm": [
-              "BISTCFD"
+              "BISTMIXED"
             ],
             "perm": "bist_futures"
           },
