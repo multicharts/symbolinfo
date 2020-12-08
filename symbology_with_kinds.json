@@ -3354,6 +3354,23 @@
         }
       },
       {
+        "id": "stuttgart_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "INDEX",
+            "priority": 65,
+            "perm": "swb_ind",
+            "prefix_no_perm": [
+              "INDEX_DLY"
+            ]
+          },
+          "delay": {
+            "prefix": "INDEX_DLY",
+            "priority": 66
+          }
+        }
+      },
+      {
         "id": "singapore_commodity_continuous",
         "kinds": {
           "rt": {
