@@ -1235,8 +1235,7 @@
             "prefix": "BIST",
             "prefix_alias": [
               "IST"
-            ],
-            "perm": "bist"
+            ]
           }
         }
       },
@@ -1427,7 +1426,6 @@
             "prefix_no_perm": [
               "BIST_DLY"
             ],
-            "perm": "bist_mixed",
             "skip_in_search": true
           }
         }
@@ -2333,7 +2331,6 @@
             "prefix_no_perm": [
               "BIST_DLY"
             ],
-            "perm": "bist_mixed",
             "skip_in_search": true
           }
         }
@@ -2597,7 +2594,6 @@
             "prefix_no_perm": [
               "BIST_DLY"
             ],
-            "perm": "bist_mixed",
             "skip_in_search": true
           }
         }
@@ -2611,7 +2607,6 @@
             "prefix_no_perm": [
               "BIST_DLY"
             ],
-            "perm": "bist_mixed",
             "skip_in_search": true
           }
         }
@@ -5669,20 +5664,6 @@
         }
       },
       {
-        "id": "istanbul_cfd_unavailable_indices",
-        "kinds": {
-          "eod": {
-            "priority": 151,
-            "prefix": "BISTMIXED",
-            "prefix_no_perm": [
-              "BIST_DLY"
-            ],
-            "perm": "permission_denied",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
         "id": "korea_stocks",
         "kinds": {
           "rt": {
@@ -5865,16 +5846,14 @@
             ],
             "prefix_no_perm": [
               "BISTMIXED"
-            ],
-            "perm": "bist"
+            ]
           },
           "delay": {
             "priority": 58,
             "prefix": "BIST_DLY",
             "prefix_no_perm": [
               "BIST_EOD"
-            ],
-            "perm": "bist_dly"
+            ]
           },
           "eod": {
             "priority": 156,
@@ -5892,17 +5871,16 @@
               "IST"
             ],
             "prefix_no_perm": [
-              "BISTMIXED"
-            ],
-            "perm": "bist"
+              "BISTMIXED",
+              "BIST_DLY"
+            ]
           },
           "delay": {
             "priority": 51,
             "prefix": "BIST_DLY",
             "prefix_no_perm": [
               "BIST_EOD"
-            ],
-            "perm": "bist_dly"
+            ]
           },
           "eod": {
             "priority": 156,
@@ -5921,16 +5899,14 @@
             ],
             "prefix_no_perm": [
               "BISTMIXED"
-            ],
-            "perm": "bist_futures"
+            ]
           },
           "delay": {
             "priority": 58,
             "prefix": "BIST_DLY",
             "prefix_no_perm": [
               "BIST_EOD"
-            ],
-            "perm": "bist_dly"
+            ]
           },
           "eod": {
             "priority": 156,
@@ -5949,16 +5925,14 @@
             ],
             "prefix_no_perm": [
               "BISTMIXED"
-            ],
-            "perm": "bist_futures"
+            ]
           },
           "delay": {
             "priority": 58,
             "prefix": "BIST_DLY",
             "prefix_no_perm": [
               "BIST_EOD"
-            ],
-            "perm": "bist_dly"
+            ]
           },
           "eod": {
             "priority": 156,
