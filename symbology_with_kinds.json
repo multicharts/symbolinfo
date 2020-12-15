@@ -1822,25 +1822,6 @@
         }
       },
       {
-        "id": "oslo_indices",
-        "kinds": {
-          "rt": {
-            "priority": 54,
-            "prefix": "OSL",
-            "prefix_alias": [
-              "OSLO"
-            ],
-            "prefix_no_perm": [
-              "OSL_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 55,
-            "prefix": "OSL_DLY"
-          }
-        }
-      },
-      {
         "id": "euronext_primary_oslo_indices",
         "kinds": {
           "rt": {
@@ -2758,25 +2739,6 @@
             "priority": 60,
             "perm": "euronext_dly",
             "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "oslo_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 60,
-            "prefix": "OSL",
-            "prefix_alias": [
-              "OSLO"
-            ],
-            "prefix_no_perm": [
-              "OSL_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 61,
-            "prefix": "OSL_DLY"
           }
         }
       },
@@ -5937,6 +5899,46 @@
           "eod": {
             "priority": 156,
             "prefix": "BIST_EOD"
+          }
+        }
+      },
+      {
+        "id": "oslo_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 160,
+            "prefix": "OSL",
+            "prefix_alias": [
+              "OSLO"
+            ],
+            "prefix_no_perm": [
+              "OSL_DLY"
+            ],
+            "skip_in_search": true
+          },
+          "delay": {
+            "priority": 160,
+            "prefix": "OSL_DLY"
+          }
+        }
+      },
+      {
+        "id": "oslo_indices",
+        "kinds": {
+          "rt": {
+            "priority": 160,
+            "prefix": "OSL",
+            "prefix_alias": [
+              "OSLO"
+            ],
+            "prefix_no_perm": [
+              "OSL_DLY"
+            ],
+            "skip_in_search": true
+          },
+          "delay": {
+            "priority": 160,
+            "prefix": "OSL_DLY"
           }
         }
       },
