@@ -1861,27 +1861,6 @@
         }
       },
       {
-        "id": "oslo_indices",
-        "kinds": {
-          "rt": {
-            "priority": 54,
-            "prefix": "OSL",
-            "prefix_alias": [
-              "OSLO"
-            ],
-            "prefix_no_perm": [
-              "OSL_DLY"
-            ],
-            "perm": "oslo"
-          },
-          "delay": {
-            "priority": 55,
-            "prefix": "OSL_DLY",
-            "perm": "oslo_dly"
-          }
-        }
-      },
-      {
         "id": "euronext_primary_oslo_indices",
         "kinds": {
           "rt": {
@@ -2806,27 +2785,6 @@
             "priority": 60,
             "perm": "euronext_dly",
             "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "oslo_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 60,
-            "prefix": "OSL",
-            "prefix_alias": [
-              "OSLO"
-            ],
-            "prefix_no_perm": [
-              "OSL_DLY"
-            ],
-            "perm": "oslo"
-          },
-          "delay": {
-            "priority": 61,
-            "prefix": "OSL_DLY",
-            "perm": "oslo_dly"
           }
         }
       },
@@ -6158,6 +6116,50 @@
             "prefix": "EUREX_EOD",
             "priority": 157,
             "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "oslo_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 160,
+            "prefix": "OSL",
+            "prefix_alias": [
+              "OSLO"
+            ],
+            "prefix_no_perm": [
+              "OSL_DLY"
+            ],
+            "perm": "oslo",
+            "skip_in_search": true
+          },
+          "delay": {
+            "priority": 160,
+            "prefix": "OSL_DLY",
+            "perm": "oslo_dly"
+          }
+        }
+      },
+      {
+        "id": "oslo_indices",
+        "kinds": {
+          "rt": {
+            "priority": 160,
+            "prefix": "OSL",
+            "prefix_alias": [
+              "OSLO"
+            ],
+            "prefix_no_perm": [
+              "OSL_DLY"
+            ],
+            "perm": "oslo",
+            "skip_in_search": true
+          },
+          "delay": {
+            "priority": 160,
+            "prefix": "OSL_DLY",
+            "perm": "oslo_dly"
           }
         }
       },
