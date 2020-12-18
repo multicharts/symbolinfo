@@ -168,17 +168,6 @@
         }
       },
       {
-        "id": "iceusa_cfd_indices",
-        "kinds": {
-          "rt": {
-            "priority": 10,
-            "search_boost": 2.0,
-            "prefix": "TVC",
-            "skip_in_search": false
-          }
-        }
-      },
-      {
         "id": "us_chicago_indices",
         "kinds": {
           "rt": {
@@ -608,19 +597,6 @@
             "prefix": "NASDAQ_DLY",
             "priority": 20,
             "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "lme_cfd",
-        "kinds": {
-          "rt": {
-            "priority": 20,
-            "prefix": "TVC",
-            "prefix_alias": [
-              "LMECFD"
-            ],
-            "skip_in_search": false
           }
         }
       },
@@ -3630,58 +3606,6 @@
         }
       },
       {
-        "id": "iceusa_cfd",
-        "kinds": {
-          "rt": {
-            "priority": 80,
-            "prefix": "TVC",
-            "skip_in_search": false,
-            "prefix_alias": [
-              "ICEUSACFD"
-            ]
-          }
-        }
-      },
-      {
-        "id": "nymex_2_cfd",
-        "kinds": {
-          "rt": {
-            "priority": 80,
-            "prefix": "TVC",
-            "skip_in_search": false,
-            "prefix_alias": [
-              "NYMEXCFD"
-            ]
-          }
-        }
-      },
-      {
-        "id": "cbot_cfd",
-        "kinds": {
-          "rt": {
-            "priority": 80,
-            "prefix": "TVC",
-            "skip_in_search": false,
-            "prefix_alias": [
-              "CBOTCFD"
-            ]
-          }
-        }
-      },
-      {
-        "id": "cme_cfd",
-        "kinds": {
-          "rt": {
-            "priority": 80,
-            "prefix": "TVC",
-            "skip_in_search": false,
-            "prefix_alias": [
-              "CMECFD"
-            ]
-          }
-        }
-      },
-      {
         "id": "dubai_indices",
         "kinds": {
           "rt": {
@@ -6225,58 +6149,6 @@
           "eod": {
             "priority": 181,
             "prefix": "IDX_EOD"
-          }
-        }
-      },
-      {
-        "id": "iceusa_cfd_futures",
-        "kinds": {
-          "rt": {
-            "priority": 200,
-            "prefix": "TVC",
-            "skip_in_search": true,
-            "prefix_alias": [
-              "ICEUSACFD"
-            ]
-          }
-        }
-      },
-      {
-        "id": "nymex_2_cfd_futures",
-        "kinds": {
-          "rt": {
-            "priority": 200,
-            "prefix": "TVC",
-            "skip_in_search": true,
-            "prefix_alias": [
-              "NYMEXCFD"
-            ]
-          }
-        }
-      },
-      {
-        "id": "cbot_cfd_futures",
-        "kinds": {
-          "rt": {
-            "priority": 200,
-            "prefix": "TVC",
-            "skip_in_search": true,
-            "prefix_alias": [
-              "CBOTCFD"
-            ]
-          }
-        }
-      },
-      {
-        "id": "cme_cfd_futures",
-        "kinds": {
-          "rt": {
-            "priority": 200,
-            "prefix": "TVC",
-            "skip_in_search": true,
-            "prefix_alias": [
-              "CMECFD"
-            ]
           }
         }
       },
