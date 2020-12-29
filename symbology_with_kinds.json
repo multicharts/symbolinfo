@@ -2656,6 +2656,27 @@
         }
       },
       {
+        "id": "euronext_oslo_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "OSL",
+            "priority": 59,
+            "prefix_alias": [
+              "OSLO",
+              "EURONEXT",
+              "EURONEXTOSL"
+            ],
+            "prefix_no_perm": [
+              "OSL_DLY"
+            ]
+          },
+          "delay": {
+            "prefix": "OSL_DLY",
+            "priority": 60
+          }
+        }
+      },
+      {
         "id": "asx_stocks",
         "kinds": {
           "rt": {
@@ -2724,6 +2745,27 @@
             "priority": 60,
             "perm": "euronext_dly",
             "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "euronext_oslo_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "OSL",
+            "priority": 59,
+            "prefix_alias": [
+              "OSLO",
+              "EURONEXT",
+              "EURONEXTOSL"
+            ],
+            "prefix_no_perm": [
+              "OSL_DLY"
+            ]
+          },
+          "delay": {
+            "prefix": "OSL_DLY",
+            "priority": 60
           }
         }
       },
