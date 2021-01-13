@@ -7137,6 +7137,16 @@
         }
       },
       {
+        "id": "bitmax",
+        "kinds": {
+          "rt": {
+            "prefix": "BITMAX",
+            "priority": 270,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "egyptian_indices",
         "kinds": {
           "rt": {
