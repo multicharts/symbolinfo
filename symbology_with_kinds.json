@@ -823,6 +823,156 @@
         }
       },
       {
+        "id": "euronext_primary_europe_indices",
+        "kinds": {
+          "rt": {
+            "priority": 38,
+            "prefix": "EURONEXT",
+            "perm": "euronext_indices",
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 39,
+            "prefix": "EURONEXT_DLY",
+            "perm": "euronext_dly"
+          }
+        }
+      },
+      {
+        "id": "euronext_primary_amsterdam_indices",
+        "kinds": {
+          "rt": {
+            "priority": 38,
+            "prefix": "EURONEXT",
+            "perm": "euronext_indices",
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ],
+            "prefix_alias": [
+              "EURONEXTAMS"
+            ],
+            "exchange_for_display": "EURONEXT AMSTERDAM"
+          },
+          "delay": {
+            "priority": 39,
+            "prefix": "EURONEXT_DLY",
+            "perm": "euronext_dly",
+            "prefix_alias": [
+              "EURONEXTAMS_DLY"
+            ],
+            "exchange_for_display": "EURONEXT AMSTERDAM"
+          }
+        }
+      },
+      {
+        "id": "euronext_primary_brussels_indices",
+        "kinds": {
+          "rt": {
+            "priority": 38,
+            "prefix": "EURONEXT",
+            "perm": "euronext_indices",
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ],
+            "prefix_alias": [
+              "EURONEXTBRU"
+            ],
+            "exchange_for_display": "EURONEXT BRUSSELS"
+          },
+          "delay": {
+            "priority": 39,
+            "prefix": "EURONEXT_DLY",
+            "perm": "euronext_dly",
+            "prefix_alias": [
+              "EURONEXTBRU_DLY"
+            ],
+            "exchange_for_display": "EURONEXT BRUSSELS"
+          }
+        }
+      },
+      {
+        "id": "euronext_primary_lisbon_indices",
+        "kinds": {
+          "rt": {
+            "priority": 38,
+            "prefix": "EURONEXT",
+            "perm": "euronext_indices",
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ],
+            "prefix_alias": [
+              "EURONEXTLIS"
+            ],
+            "exchange_for_display": "EURONEXT LISBON"
+          },
+          "delay": {
+            "priority": 39,
+            "prefix": "EURONEXT_DLY",
+            "perm": "euronext_dly",
+            "prefix_alias": [
+              "EURONEXTLIS_DLY"
+            ],
+            "exchange_for_display": "EURONEXT LISBON"
+          }
+        }
+      },
+      {
+        "id": "euronext_primary_paris_indices",
+        "kinds": {
+          "rt": {
+            "priority": 38,
+            "prefix": "EURONEXT",
+            "perm": "euronext_indices",
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ],
+            "prefix_alias": [
+              "EURONEXTPAR"
+            ],
+            "exchange_for_display": "EURONEXT PARIS"
+          },
+          "delay": {
+            "priority": 39,
+            "prefix": "EURONEXT_DLY",
+            "perm": "euronext_dly",
+            "prefix_alias": [
+              "EURONEXTPAR_DLY"
+            ],
+            "exchange_for_display": "EURONEXT PARIS"
+          }
+        }
+      },
+      {
+        "id": "euronext_primary_oslo_indices",
+        "kinds": {
+          "rt": {
+            "priority": 38,
+            "prefix": "OSL",
+            "prefix_alias": [
+              "OSLO",
+              "EURONEXT",
+              "EURONEXTOSL"
+            ],
+            "prefix_no_perm": [
+              "OSL_DLY"
+            ],
+            "exchange_for_display": "EURONEXT OSLO"
+          },
+          "delay": {
+            "priority": 39,
+            "prefix": "OSL_DLY",
+            "prefix_alias": [
+              "OSLO_DLY",
+              "EURONEXT_DLY",
+              "EURONEXTOSL_DLY"
+            ],
+            "exchange_for_display": "EURONEXT OSLO"
+          }
+        }
+      },
+      {
         "id": "euronext_non_primary_europe_indices",
         "kinds": {
           "rt": {
@@ -852,7 +1002,8 @@
             ],
             "prefix_alias": [
               "EURONEXTAMS"
-            ]
+            ],
+            "exchange_for_display": "EURONEXT AMSTERDAM"
           },
           "delay": {
             "priority": 40,
@@ -860,7 +1011,8 @@
             "perm": "euronext_dly",
             "prefix_alias": [
               "EURONEXTAMS_DLY"
-            ]
+            ],
+            "exchange_for_display": "EURONEXT AMSTERDAM"
           }
         }
       },
@@ -876,7 +1028,8 @@
             ],
             "prefix_alias": [
               "EURONEXTBRU"
-            ]
+            ],
+            "exchange_for_display": "EURONEXT BRUSSELS"
           },
           "delay": {
             "priority": 40,
@@ -884,7 +1037,8 @@
             "perm": "euronext_dly",
             "prefix_alias": [
               "EURONEXTBRU_DLY"
-            ]
+            ],
+            "exchange_for_display": "EURONEXT BRUSSELS"
           }
         }
       },
@@ -900,7 +1054,8 @@
             ],
             "prefix_alias": [
               "EURONEXTLIS"
-            ]
+            ],
+            "exchange_for_display": "EURONEXT LISBON"
           },
           "delay": {
             "priority": 40,
@@ -908,7 +1063,8 @@
             "perm": "euronext_dly",
             "prefix_alias": [
               "EURONEXTLIS_DLY"
-            ]
+            ],
+            "exchange_for_display": "EURONEXT LISBON"
           }
         }
       },
@@ -924,7 +1080,8 @@
             ],
             "prefix_alias": [
               "EURONEXTPAR"
-            ]
+            ],
+            "exchange_for_display": "EURONEXT PARIS"
           },
           "delay": {
             "priority": 40,
@@ -932,7 +1089,36 @@
             "perm": "euronext_dly",
             "prefix_alias": [
               "EURONEXTPAR_DLY"
-            ]
+            ],
+            "exchange_for_display": "EURONEXT PARIS"
+          }
+        }
+      },
+      {
+        "id": "euronext_non_primary_oslo_indices",
+        "kinds": {
+          "rt": {
+            "priority": 39,
+            "prefix": "OSL",
+            "prefix_alias": [
+              "OSLO",
+              "EURONEXT",
+              "EURONEXTOSL"
+            ],
+            "prefix_no_perm": [
+              "OSL_DLY"
+            ],
+            "exchange_for_display": "EURONEXT OSLO"
+          },
+          "delay": {
+            "priority": 40,
+            "prefix": "OSL_DLY",
+            "prefix_alias": [
+              "OSLO_DLY",
+              "EURONEXT_DLY",
+              "EURONEXTOSL_DLY"
+            ],
+            "exchange_for_display": "EURONEXT OSLO"
           }
         }
       },
@@ -1827,44 +2013,6 @@
         }
       },
       {
-        "id": "euronext_primary_oslo_indices",
-        "kinds": {
-          "rt": {
-            "priority": 54,
-            "prefix": "OSL",
-            "prefix_alias": [
-              "OSLO"
-            ],
-            "prefix_no_perm": [
-              "OSL_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 55,
-            "prefix": "OSL_DLY"
-          }
-        }
-      },
-      {
-        "id": "euronext_non_primary_oslo_indices",
-        "kinds": {
-          "rt": {
-            "priority": 54,
-            "prefix": "OSL",
-            "prefix_alias": [
-              "OSLO"
-            ],
-            "prefix_no_perm": [
-              "OSL_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 55,
-            "prefix": "OSL_DLY"
-          }
-        }
-      },
-      {
         "id": "copenhagen_basic_indices",
         "kinds": {
           "rt": {
@@ -2097,7 +2245,8 @@
             ],
             "prefix_alias": [
               "EURONEXTAMS"
-            ]
+            ],
+            "exchange_for_display": "EURONEXT AMSTERDAM"
           },
           "delay": {
             "priority": 56,
@@ -2105,7 +2254,8 @@
             "perm": "euronext_dly",
             "prefix_alias": [
               "EURONEXTAMS_DLY"
-            ]
+            ],
+            "exchange_for_display": "EURONEXT AMSTERDAM"
           }
         }
       },
@@ -2121,7 +2271,8 @@
             ],
             "prefix_alias": [
               "EURONEXTBRU"
-            ]
+            ],
+            "exchange_for_display": "EURONEXT BRUSSELS"
           },
           "delay": {
             "priority": 56,
@@ -2129,7 +2280,8 @@
             "perm": "euronext_dly",
             "prefix_alias": [
               "EURONEXTBRU_DLY"
-            ]
+            ],
+            "exchange_for_display": "EURONEXT BRUSSELS"
           }
         }
       },
@@ -2145,7 +2297,8 @@
             ],
             "prefix_alias": [
               "EURONEXTLIS"
-            ]
+            ],
+            "exchange_for_display": "EURONEXT LISBON"
           },
           "delay": {
             "priority": 56,
@@ -2153,7 +2306,8 @@
             "perm": "euronext_dly",
             "prefix_alias": [
               "EURONEXTLIS_DLY"
-            ]
+            ],
+            "exchange_for_display": "EURONEXT LISBON"
           }
         }
       },
@@ -2169,7 +2323,8 @@
             ],
             "prefix_alias": [
               "EURONEXTPAR"
-            ]
+            ],
+            "exchange_for_display": "EURONEXT PARIS"
           },
           "delay": {
             "priority": 56,
@@ -2177,7 +2332,64 @@
             "perm": "euronext_dly",
             "prefix_alias": [
               "EURONEXTPAR_DLY"
-            ]
+            ],
+            "exchange_for_display": "EURONEXT PARIS"
+          }
+        }
+      },
+      {
+        "id": "euronext_oslo_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 55,
+            "prefix": "OSL",
+            "prefix_alias": [
+              "OSLO",
+              "EURONEXT",
+              "EURONEXTOSL"
+            ],
+            "prefix_no_perm": [
+              "OSL_DLY"
+            ],
+            "exchange_for_display": "EURONEXT OSLO"
+          },
+          "delay": {
+            "priority": 56,
+            "prefix": "OSL_DLY",
+            "prefix_alias": [
+              "OSLO_DLY",
+              "EURONEXT_DLY",
+              "EURONEXTOSL_DLY"
+            ],
+            "exchange_for_display": "EURONEXT OSLO"
+          }
+        }
+      },
+      {
+        "id": "euronext_oslo_funds",
+        "kinds": {
+          "rt": {
+            "priority": 55,
+            "prefix": "OSL",
+            "prefix_alias": [
+              "OSLO",
+              "EURONEXT",
+              "EURONEXTOSL"
+            ],
+            "prefix_no_perm": [
+              "OSL_DLY"
+            ],
+            "exchange_for_display": "EURONEXT OSLO"
+          },
+          "delay": {
+            "priority": 56,
+            "prefix": "OSL_DLY",
+            "prefix_alias": [
+              "OSLO_DLY",
+              "EURONEXT_DLY",
+              "EURONEXTOSL_DLY"
+            ],
+            "exchange_for_display": "EURONEXT OSLO"
           }
         }
       },
@@ -2786,44 +2998,6 @@
           "delay": {
             "prefix": "OSL_DLY",
             "priority": 60
-          }
-        }
-      },
-      {
-        "id": "euronext_oslo_stocks",
-        "kinds": {
-          "rt": {
-            "priority": 60,
-            "prefix": "OSL",
-            "prefix_alias": [
-              "OSLO"
-            ],
-            "prefix_no_perm": [
-              "OSL_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 61,
-            "prefix": "OSL_DLY"
-          }
-        }
-      },
-      {
-        "id": "euronext_oslo_funds",
-        "kinds": {
-          "rt": {
-            "priority": 60,
-            "prefix": "OSL",
-            "prefix_alias": [
-              "OSLO"
-            ],
-            "prefix_no_perm": [
-              "OSL_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 61,
-            "prefix": "OSL_DLY"
           }
         }
       },
@@ -4623,167 +4797,6 @@
         }
       },
       {
-        "id": "euronext_primary_europe_indices",
-        "kinds": {
-          "rt": {
-            "priority": 38,
-            "prefix": "EURONEXT",
-            "perm": "euronext_dly",
-            "prefix_no_perm": [
-              "EURONEXT_DLY"
-            ]
-          },
-          "delay": {
-            "priority": 39,
-            "prefix": "EURONEXT_DLY",
-            "perm": "euronext_dly",
-            "prefix_no_perm": [
-              "EURONEXT_EOD"
-            ]
-          },
-          "eod": {
-            "priority": 138,
-            "prefix": "EURONEXT_EOD"
-          }
-        }
-      },
-      {
-        "id": "euronext_primary_amsterdam_indices",
-        "kinds": {
-          "rt": {
-            "priority": 38,
-            "prefix": "EURONEXT",
-            "perm": "euronext_dly",
-            "prefix_no_perm": [
-              "EURONEXT_DLY"
-            ],
-            "prefix_alias": [
-              "EURONEXTAMS"
-            ]
-          },
-          "delay": {
-            "priority": 39,
-            "prefix": "EURONEXT_DLY",
-            "perm": "euronext_dly",
-            "prefix_no_perm": [
-              "EURONEXT_EOD"
-            ],
-            "prefix_alias": [
-              "EURONEXTAMS_DLY"
-            ]
-          },
-          "eod": {
-            "priority": 138,
-            "prefix": "EURONEXT_EOD",
-            "prefix_alias": [
-              "EURONEXTAMS_EOD"
-            ]
-          }
-        }
-      },
-      {
-        "id": "euronext_primary_brussels_indices",
-        "kinds": {
-          "rt": {
-            "priority": 38,
-            "prefix": "EURONEXT",
-            "perm": "euronext_dly",
-            "prefix_no_perm": [
-              "EURONEXT_DLY"
-            ],
-            "prefix_alias": [
-              "EURONEXTBRU"
-            ]
-          },
-          "delay": {
-            "priority": 39,
-            "prefix": "EURONEXT_DLY",
-            "perm": "euronext_dly",
-            "prefix_no_perm": [
-              "EURONEXT_EOD"
-            ],
-            "prefix_alias": [
-              "EURONEXTBRU_DLY"
-            ]
-          },
-          "eod": {
-            "priority": 138,
-            "prefix": "EURONEXT_EOD",
-            "prefix_alias": [
-              "EURONEXTBRU_EOD"
-            ]
-          }
-        }
-      },
-      {
-        "id": "euronext_primary_lisbon_indices",
-        "kinds": {
-          "rt": {
-            "priority": 38,
-            "prefix": "EURONEXT",
-            "perm": "euronext_dly",
-            "prefix_no_perm": [
-              "EURONEXT_DLY"
-            ],
-            "prefix_alias": [
-              "EURONEXTLIS"
-            ]
-          },
-          "delay": {
-            "priority": 39,
-            "prefix": "EURONEXT_DLY",
-            "perm": "euronext_dly",
-            "prefix_no_perm": [
-              "EURONEXT_EOD"
-            ],
-            "prefix_alias": [
-              "EURONEXTLIS_DLY"
-            ]
-          },
-          "eod": {
-            "priority": 138,
-            "prefix": "EURONEXT_EOD",
-            "prefix_alias": [
-              "EURONEXTLIS_EOD"
-            ]
-          }
-        }
-      },
-      {
-        "id": "euronext_primary_paris_indices",
-        "kinds": {
-          "rt": {
-            "priority": 38,
-            "prefix": "EURONEXT",
-            "perm": "euronext_dly",
-            "prefix_no_perm": [
-              "EURONEXT_DLY"
-            ],
-            "prefix_alias": [
-              "EURONEXTPAR"
-            ]
-          },
-          "delay": {
-            "priority": 39,
-            "prefix": "EURONEXT_DLY",
-            "perm": "euronext_dly",
-            "prefix_no_perm": [
-              "EURONEXT_EOD"
-            ],
-            "prefix_alias": [
-              "EURONEXTPAR_DLY"
-            ]
-          },
-          "eod": {
-            "priority": 138,
-            "prefix": "EURONEXT_EOD",
-            "prefix_alias": [
-              "EURONEXTPAR_EOD"
-            ]
-          }
-        }
-      },
-      {
         "id": "canadian_indices",
         "kinds": {
           "rt": {
@@ -5933,8 +5946,8 @@
         "id": "oslo_stocks",
         "kinds": {
           "rt": {
-            "priority": 160,
             "prefix": "OSL",
+            "priority": 160,
             "prefix_alias": [
               "OSLO"
             ],
@@ -5944,8 +5957,8 @@
             "skip_in_search": true
           },
           "delay": {
-            "priority": 160,
-            "prefix": "OSL_DLY"
+            "prefix": "OSL_DLY",
+            "priority": 160
           }
         }
       },
@@ -5953,8 +5966,8 @@
         "id": "oslo_indices",
         "kinds": {
           "rt": {
-            "priority": 160,
             "prefix": "OSL",
+            "priority": 160,
             "prefix_alias": [
               "OSLO"
             ],
@@ -5964,8 +5977,8 @@
             "skip_in_search": true
           },
           "delay": {
-            "priority": 160,
-            "prefix": "OSL_DLY"
+            "prefix": "OSL_DLY",
+            "priority": 160
           }
         }
       },
