@@ -151,18 +151,6 @@
         }
       },
       {
-        "id": "iceusa_cfd_indices",
-        "kinds": {
-          "rt": {
-            "priority": 10,
-            "search_boost": 2.0,
-            "prefix": "TVC",
-            "skip_in_search": false,
-            "perm": "dxy"
-          }
-        }
-      },
-      {
         "id": "japan_cfd_indices",
         "kinds": {
           "rt": {
@@ -203,6 +191,18 @@
             "priority": 10,
             "search_boost": 2.0,
             "perm": "tvc_cfd"
+          }
+        }
+      },
+      {
+        "id": "iceusa_cfd_indices",
+        "kinds": {
+          "rt": {
+            "priority": 10,
+            "search_boost": 2.0,
+            "prefix": "TVC",
+            "skip_in_search": false,
+            "perm": "dxy"
           }
         }
       },
