@@ -115,7 +115,7 @@
         "id": "cboe_europe_indices",
         "kinds": {
           "rt": {
-            "prefix": "CBOE",
+            "prefix": "CBOEEU",
             "priority": 10
           }
         }
@@ -124,7 +124,7 @@
         "id": "cboe_uk_indices",
         "kinds": {
           "rt": {
-            "prefix": "CBOE",
+            "prefix": "CBOEEU",
             "priority": 10
           }
         }
