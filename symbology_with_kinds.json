@@ -2876,13 +2876,11 @@
             "prefix_no_perm": [
               "EURONEXT_DLY"
             ],
-            "perm": "euronext_futures",
             "skip_in_search": false
           },
           "delay": {
             "prefix": "EURONEXT_DLY",
             "priority": 60,
-            "perm": "euronext_dly",
             "skip_in_search": true
           }
         }
@@ -2891,20 +2889,21 @@
         "id": "euronext_oslo_futures",
         "kinds": {
           "rt": {
-            "prefix": "OSL",
+            "prefix": "EURONEXT",
             "priority": 59,
             "prefix_alias": [
               "OSLO",
-              "EURONEXT",
+              "OSL",
               "EURONEXTOSL"
             ],
             "prefix_no_perm": [
-              "OSL_DLY"
+              "EURONEXT_DLY"
             ]
           },
           "delay": {
-            "prefix": "OSL_DLY",
-            "priority": 60
+            "prefix": "EURONEXT_DLY",
+            "priority": 60,
+            "perm": "euronext_dly"
           }
         }
       },
@@ -2969,13 +2968,11 @@
             "prefix_no_perm": [
               "EURONEXT_DLY"
             ],
-            "perm": "euronext_futures",
             "skip_in_search": false
           },
           "delay": {
             "prefix": "EURONEXT_DLY",
             "priority": 60,
-            "perm": "euronext_dly",
             "skip_in_search": true
           }
         }
@@ -2984,20 +2981,21 @@
         "id": "euronext_oslo_continuous",
         "kinds": {
           "rt": {
-            "prefix": "OSL",
+            "prefix": "EURONEXT",
             "priority": 59,
             "prefix_alias": [
               "OSLO",
-              "EURONEXT",
+              "OSL",
               "EURONEXTOSL"
             ],
             "prefix_no_perm": [
-              "OSL_DLY"
+              "EURONEXT_DLY"
             ]
           },
           "delay": {
-            "prefix": "OSL_DLY",
-            "priority": 60
+            "prefix": "EURONEXT_DLY",
+            "priority": 60,
+            "perm": "euronext_dly"
           }
         }
       },
