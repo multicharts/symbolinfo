@@ -2903,7 +2903,11 @@
           "delay": {
             "prefix": "EURONEXT_DLY",
             "priority": 60,
-            "perm": "euronext_dly"
+            "prefix_alias": [
+              "OSLO_DLY",
+              "OSL_DLY",
+              "EURONEXTOSL_DLY"
+            ]
           }
         }
       },
@@ -2995,7 +2999,11 @@
           "delay": {
             "prefix": "EURONEXT_DLY",
             "priority": 60,
-            "perm": "euronext_dly"
+            "prefix_alias": [
+              "OSLO_DLY",
+              "OSL_DLY",
+              "EURONEXTOSL_DLY"
+            ]
           }
         }
       },
