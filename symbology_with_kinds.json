@@ -7319,6 +7319,16 @@
         }
       },
       {
+        "id": "binance_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "BINANCE",
+            "priority": 270,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "egyptian_indices",
         "kinds": {
           "rt": {
