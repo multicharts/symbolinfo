@@ -7443,6 +7443,18 @@
         }
       },
       {
+        "id": "crypto_indices2",
+        "kinds": {
+          "rt": {
+            "prefix": "INDEX2",
+            "priority": 290,
+            "prefix_alias": [
+              "_FR_INDEX"
+            ]
+          }
+        }
+      },
+      {
         "id": "crypto_market_caps2",
         "kinds": {
           "rt": {
