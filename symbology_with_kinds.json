@@ -3523,6 +3523,40 @@
         }
       },
       {
+        "id": "chixau_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "CHIXAU",
+            "priority": 65,
+            "perm": "chixau",
+            "prefix_no_perm": [
+              "CHIXAU_DLY"
+            ]
+          },
+          "delay": {
+            "prefix": "CHIXAU_DLY",
+            "priority": 67
+          }
+        }
+      },
+      {
+        "id": "chixau_stocks",
+        "kinds": {
+          "rt": {
+            "prefix": "CHIXAU",
+            "priority": 66,
+            "perm": "chixau",
+            "prefix_no_perm": [
+              "CHIXAU_DLY"
+            ]
+          },
+          "delay": {
+            "prefix": "CHIXAU_DLY",
+            "priority": 70
+          }
+        }
+      },
+      {
         "id": "nzx_stocks",
         "kinds": {
           "rt": {
