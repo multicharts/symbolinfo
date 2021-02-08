@@ -7347,6 +7347,16 @@
         }
       },
       {
+        "id": "easymarkets",
+        "kinds": {
+          "rt": {
+            "prefix": "EASYMARKETS",
+            "priority": 271,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "egyptian_indices",
         "kinds": {
           "rt": {
