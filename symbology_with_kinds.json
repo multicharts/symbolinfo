@@ -1714,6 +1714,42 @@
         }
       },
       {
+        "id": "moex_futures_rs",
+        "kinds": {
+          "rt": {
+            "prefix": "MOEX",
+            "prefix_no_perm": [
+              "MOEX_DLY"
+            ],
+            "priority": 52,
+            "skip_in_search": true
+          },
+          "delay": {
+            "prefix": "MOEX_DLY",
+            "priority": 52,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "moex_futures_oi",
+        "kinds": {
+          "rt": {
+            "prefix": "MOEX",
+            "prefix_no_perm": [
+              "MOEX_DLY"
+            ],
+            "priority": 52,
+            "skip_in_search": true
+          },
+          "delay": {
+            "prefix": "MOEX_DLY",
+            "priority": 52,
+            "skip_in_search": true
+          }
+        }
+      },
+      {
         "id": "moex_currency",
         "kinds": {
           "rt": {
