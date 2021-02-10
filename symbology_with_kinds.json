@@ -7460,7 +7460,7 @@
         }
       },
       {
-        "id": "crypto_indices2",
+        "id": "crypto_indices",
         "kinds": {
           "rt": {
             "prefix": "INDEX",
