@@ -680,6 +680,26 @@
         }
       },
       {
+        "id": "refinitiv_bonds_rrps",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC_REF",
+            "priority": 20,
+            "search_boost": 2.0
+          }
+        }
+      },
+      {
+        "id": "refinitiv_bonds_rrps_yield",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC_REF",
+            "priority": 20,
+            "search_boost": 2.0
+          }
+        }
+      },
+      {
         "id": "binance",
         "kinds": {
           "rt": {
