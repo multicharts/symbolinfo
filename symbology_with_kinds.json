@@ -2810,6 +2810,36 @@
         }
       },
       {
+        "id": "euronext_oslo_futures",
+        "kinds": {
+          "rt": {
+            "prefix": "EURONEXT",
+            "priority": 59,
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ],
+            "perm": "euronext_futures",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "OSLO",
+              "OSL",
+              "EURONEXTOSL"
+            ]
+          },
+          "delay": {
+            "prefix": "EURONEXT_DLY",
+            "priority": 60,
+            "perm": "euronext_dly",
+            "skip_in_search": true,
+            "prefix_alias": [
+              "OSLO_DLY",
+              "OSL_DLY",
+              "EURONEXTOSL_DLY"
+            ]
+          }
+        }
+      },
+      {
         "id": "asx_stocks",
         "kinds": {
           "rt": {
@@ -2881,6 +2911,36 @@
             "priority": 60,
             "perm": "euronext_dly",
             "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "euronext_oslo_continuous",
+        "kinds": {
+          "rt": {
+            "prefix": "EURONEXT",
+            "priority": 59,
+            "prefix_no_perm": [
+              "EURONEXT_DLY"
+            ],
+            "perm": "euronext_futures",
+            "skip_in_search": false,
+            "prefix_alias": [
+              "OSLO",
+              "OSL",
+              "EURONEXTOSL"
+            ]
+          },
+          "delay": {
+            "prefix": "EURONEXT_DLY",
+            "priority": 60,
+            "perm": "euronext_dly",
+            "skip_in_search": true,
+            "prefix_alias": [
+              "OSLO_DLY",
+              "OSL_DLY",
+              "EURONEXTOSL_DLY"
+            ]
           }
         }
       },
@@ -3486,6 +3546,40 @@
             "priority": 66,
             "prefix": "SGX_DLY",
             "perm": "sgx_dly"
+          }
+        }
+      },
+      {
+        "id": "chixau_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "CHIXAU",
+            "priority": 65,
+            "perm": "chixau",
+            "prefix_no_perm": [
+              "CHIXAU_DLY"
+            ]
+          },
+          "delay": {
+            "prefix": "CHIXAU_DLY",
+            "priority": 67
+          }
+        }
+      },
+      {
+        "id": "chixau_stocks",
+        "kinds": {
+          "rt": {
+            "prefix": "CHIXAU",
+            "priority": 66,
+            "perm": "chixau",
+            "prefix_no_perm": [
+              "CHIXAU_DLY"
+            ]
+          },
+          "delay": {
+            "prefix": "CHIXAU_DLY",
+            "priority": 70
           }
         }
       },
