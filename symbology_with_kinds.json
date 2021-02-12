@@ -2720,6 +2720,24 @@
         }
       },
       {
+        "id": "cboe_europe_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "CBOEEU",
+            "priority": 60
+          }
+        }
+      },
+      {
+        "id": "cboe_uk_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "CBOEEU",
+            "priority": 60
+          }
+        }
+      },
+      {
         "id": "lse_uk",
         "kinds": {
           "rt": {
