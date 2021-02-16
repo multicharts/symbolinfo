@@ -1149,6 +1149,24 @@
         }
       },
       {
+        "id": "luxembourg_indices",
+        "kinds": {
+          "rt": {
+            "priority": 40,
+            "prefix": "LUXSE",
+            "perm": "luxse",
+            "prefix_no_perm": [
+              "LUXSE_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 41,
+            "prefix": "LUXSE_DLY",
+            "perm": "sf_dly"
+          }
+        }
+      },
+      {
         "id": "toronto_indices",
         "kinds": {
           "rt": {
@@ -2584,6 +2602,42 @@
             "prefix_no_perm": [
               "TSXV_DLY"
             ]
+          }
+        }
+      },
+      {
+        "id": "luxembourg_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 56,
+            "prefix": "LUXSE",
+            "perm": "luxse",
+            "prefix_no_perm": [
+              "LUXSE_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 57,
+            "prefix": "LUXSE_DLY",
+            "perm": "sf_dly"
+          }
+        }
+      },
+      {
+        "id": "luxembourg_bonds",
+        "kinds": {
+          "rt": {
+            "priority": 56,
+            "prefix": "LUXSE",
+            "perm": "luxse",
+            "prefix_no_perm": [
+              "LUXSE_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 57,
+            "prefix": "LUXSE_DLY",
+            "perm": "sf_dly"
           }
         }
       },
