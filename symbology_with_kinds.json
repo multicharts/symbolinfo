@@ -4095,6 +4095,38 @@
         }
       },
       {
+        "id": "ngm_spotlight_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 80,
+            "prefix": "NGM",
+            "prefix_no_perm": [
+              "NGM_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 81,
+            "prefix": "NGM_DLY"
+          }
+        }
+      },
+      {
+        "id": "ngm_stocks",
+        "kinds": {
+          "rt": {
+            "priority": 80,
+            "prefix": "NGM",
+            "prefix_no_perm": [
+              "NGM_DLY"
+            ]
+          },
+          "delay": {
+            "priority": 81,
+            "prefix": "NGM_DLY"
+          }
+        }
+      },
+      {
         "id": "dubai_indices",
         "kinds": {
           "rt": {
