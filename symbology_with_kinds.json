@@ -1866,18 +1866,34 @@
         }
       },
       {
+        "id": "moex_futures_base",
+        "kinds": {
+          "rt": {
+            "prefix": "MOEXF",
+            "prefix_no_perm": [
+              "MOEXF_DLY"
+            ],
+            "priority": 52
+          },
+          "delay": {
+            "prefix": "MOEXF_DLY",
+            "priority": 52
+          }
+        }
+      },
+      {
         "id": "moex_futures_rs",
         "kinds": {
           "rt": {
-            "prefix": "MOEX",
+            "prefix": "MOEXF",
             "prefix_no_perm": [
-              "MOEX_DLY"
+              "MOEXF_DLY"
             ],
             "priority": 52,
             "skip_in_search": true
           },
           "delay": {
-            "prefix": "MOEX_DLY",
+            "prefix": "MOEXF_DLY",
             "priority": 52,
             "skip_in_search": true
           }
@@ -1887,15 +1903,15 @@
         "id": "moex_futures_oi",
         "kinds": {
           "rt": {
-            "prefix": "MOEX",
+            "prefix": "MOEXF",
             "prefix_no_perm": [
-              "MOEX_DLY"
+              "MOEXF_DLY"
             ],
             "priority": 52,
             "skip_in_search": true
           },
           "delay": {
-            "prefix": "MOEX_DLY",
+            "prefix": "MOEXF_DLY",
             "priority": 52,
             "skip_in_search": true
           }
