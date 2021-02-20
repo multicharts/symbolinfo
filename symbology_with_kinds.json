@@ -6268,50 +6268,6 @@
         }
       },
       {
-        "id": "oslo_stocks",
-        "kinds": {
-          "rt": {
-            "prefix": "OSL",
-            "priority": 160,
-            "prefix_alias": [
-              "OSLO"
-            ],
-            "prefix_no_perm": [
-              "OSL_DLY"
-            ],
-            "perm": "oslo",
-            "skip_in_search": true
-          },
-          "delay": {
-            "prefix": "OSL_DLY",
-            "priority": 160,
-            "perm": "oslo_dly"
-          }
-        }
-      },
-      {
-        "id": "oslo_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "OSL",
-            "priority": 160,
-            "prefix_alias": [
-              "OSLO"
-            ],
-            "prefix_no_perm": [
-              "OSL_DLY"
-            ],
-            "perm": "oslo",
-            "skip_in_search": true
-          },
-          "delay": {
-            "prefix": "OSL_DLY",
-            "priority": 160,
-            "perm": "oslo_dly"
-          }
-        }
-      },
-      {
         "id": "whselfinvest",
         "kinds": {
           "rt": {
