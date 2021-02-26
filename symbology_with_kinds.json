@@ -7526,7 +7526,7 @@
         "id": "binance_us",
         "kinds": {
           "rt": {
-            "prefix": "BINANCE",
+            "prefix": "BINANCEUS",
             "priority": 273,
             "skip_in_search": false
           }
