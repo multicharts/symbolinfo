@@ -1879,6 +1879,15 @@
         }
       },
       {
+        "id": "matbarofex_futures",
+        "kinds": {
+          "rt": {
+            "priority": 54,
+            "prefix": "MATBAROFEX"
+          }
+        }
+      },
+      {
         "id": "mexico_stocks",
         "kinds": {
           "rt": {
@@ -1916,6 +1925,15 @@
             "prefix": "SET_DLY",
             "perm": "set_dly",
             "skip_in_search": true
+          }
+        }
+      },
+      {
+        "id": "matbarofex_continuous",
+        "kinds": {
+          "rt": {
+            "priority": 54,
+            "prefix": "MATBAROFEX"
           }
         }
       },
