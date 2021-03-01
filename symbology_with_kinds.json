@@ -207,6 +207,16 @@
         }
       },
       {
+        "id": "china_indices",
+        "kinds": {
+          "rt": {
+            "priority": 10,
+            "search_boost": 2.0,
+            "prefix": "TVCOLD"
+          }
+        }
+      },
+      {
         "id": "european_indices",
         "kinds": {
           "rt": {
@@ -223,6 +233,26 @@
             "priority": 10,
             "search_boost": 2.0,
             "prefix": "TVC"
+          }
+        }
+      },
+      {
+        "id": "spanish_indices",
+        "kinds": {
+          "rt": {
+            "priority": 10,
+            "search_boost": 2.0,
+            "prefix": "TVCOLD"
+          }
+        }
+      },
+      {
+        "id": "korean_tvc_indices",
+        "kinds": {
+          "rt": {
+            "priority": 10,
+            "search_boost": 2.0,
+            "prefix": "TVCOLD"
           }
         }
       },
