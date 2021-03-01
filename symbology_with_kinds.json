@@ -7504,6 +7504,18 @@
             "prefix": "INDEX",
             "priority": 300,
             "prefix_alias": [
+              "NEW_INDEX"
+            ]
+          }
+        }
+      },
+      {
+        "id": "crypto_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "INDEX",
+            "priority": 301,
+            "prefix_alias": [
               "_FR_INDEX"
             ]
           }
