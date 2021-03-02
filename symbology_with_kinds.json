@@ -7692,7 +7692,7 @@
             "prefix": "INDEX",
             "priority": 300,
             "prefix_alias": [
-              "NEW_INDEX"
+              "_FR_INDEX"
             ]
           }
         }
