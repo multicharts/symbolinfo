@@ -7705,7 +7705,8 @@
             "priority": 301,
             "prefix_alias": [
               "_FR_INDEX"
-            ]
+            ],
+            "skip_in_search": true
           }
         }
       },
