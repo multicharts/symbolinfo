@@ -1847,8 +1847,7 @@
         "kinds": {
           "rt": {
             "priority": 54,
-            "prefix": "MATBAROFEX",
-            "skip_in_search": true
+            "prefix": "MATBAROFEX"
           }
         }
       },
@@ -1898,8 +1897,7 @@
         "kinds": {
           "rt": {
             "priority": 54,
-            "prefix": "MATBAROFEX",
-            "skip_in_search": true
+            "prefix": "MATBAROFEX"
           }
         }
       },
