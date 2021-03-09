@@ -501,33 +501,7 @@
         }
       },
       {
-        "id": "nasdaq_idc_1",
-        "kinds": {
-          "rt": {
-            "prefix": "NASDAQ",
-            "priority": 20,
-            "search_boost": 1.8,
-            "prefix_no_perm": [
-              "BATS"
-            ]
-          }
-        }
-      },
-      {
-        "id": "nasdaq_idc_2",
-        "kinds": {
-          "rt": {
-            "prefix": "NASDAQ",
-            "priority": 20,
-            "search_boost": 1.8,
-            "prefix_no_perm": [
-              "BATS"
-            ]
-          }
-        }
-      },
-      {
-        "id": "nasdaq_idc_3",
+        "id": "nasdaq_idc",
         "kinds": {
           "rt": {
             "prefix": "NASDAQ",
@@ -766,35 +740,7 @@
         }
       },
       {
-        "id": "amex_idc_1",
-        "kinds": {
-          "rt": {
-            "prefix": "AMEX",
-            "priority": 21,
-            "search_boost": 1.8,
-            "exchange_for_display": "NYSE ARCA & MKT",
-            "prefix_no_perm": [
-              "BATS"
-            ]
-          }
-        }
-      },
-      {
-        "id": "amex_idc_2",
-        "kinds": {
-          "rt": {
-            "prefix": "AMEX",
-            "priority": 21,
-            "search_boost": 1.8,
-            "exchange_for_display": "NYSE ARCA & MKT",
-            "prefix_no_perm": [
-              "BATS"
-            ]
-          }
-        }
-      },
-      {
-        "id": "amex_idc_3",
+        "id": "amex_idc",
         "kinds": {
           "rt": {
             "prefix": "AMEX",
@@ -868,33 +814,7 @@
         }
       },
       {
-        "id": "nyse_idc_1",
-        "kinds": {
-          "rt": {
-            "prefix": "NYSE",
-            "priority": 22,
-            "search_boost": 1.8,
-            "prefix_no_perm": [
-              "BATS"
-            ]
-          }
-        }
-      },
-      {
-        "id": "nyse_idc_2",
-        "kinds": {
-          "rt": {
-            "prefix": "NYSE",
-            "priority": 22,
-            "search_boost": 1.8,
-            "prefix_no_perm": [
-              "BATS"
-            ]
-          }
-        }
-      },
-      {
-        "id": "nyse_idc_3",
+        "id": "nyse_idc",
         "kinds": {
           "rt": {
             "prefix": "NYSE",
@@ -927,59 +847,7 @@
         }
       },
       {
-        "id": "bats_mix_1",
-        "kinds": {
-          "rt": {
-            "priority": 23,
-            "prefix": "BATS",
-            "prefix_no_perm": [
-              "BATS_DLY"
-            ],
-            "prefix_alias": [
-              "BATS_MIX"
-            ],
-            "exchange_for_display": "Cboe BZX",
-            "skip_in_search": true
-          },
-          "delay": {
-            "priority": 24,
-            "prefix": "BATS_DLY",
-            "prefix_alias": [
-              "BATS_MIX_DLY"
-            ],
-            "exchange_for_display": "Cboe BZX",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "bats_mix_2",
-        "kinds": {
-          "rt": {
-            "priority": 23,
-            "prefix": "BATS",
-            "prefix_no_perm": [
-              "BATS_DLY"
-            ],
-            "prefix_alias": [
-              "BATS_MIX"
-            ],
-            "exchange_for_display": "Cboe BZX",
-            "skip_in_search": true
-          },
-          "delay": {
-            "priority": 24,
-            "prefix": "BATS_DLY",
-            "prefix_alias": [
-              "BATS_MIX_DLY"
-            ],
-            "exchange_for_display": "Cboe BZX",
-            "skip_in_search": true
-          }
-        }
-      },
-      {
-        "id": "bats_mix_3",
+        "id": "bats_mix",
         "kinds": {
           "rt": {
             "priority": 23,
