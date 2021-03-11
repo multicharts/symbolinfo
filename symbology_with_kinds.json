@@ -177,6 +177,77 @@
         }
       },
       {
+        "id": "johannesburg_cfd_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 10,
+            "search_boost": 2.0
+          }
+        }
+      },
+      {
+        "id": "nzx_cfd_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 10,
+            "search_boost": 2.0
+          }
+        }
+      },
+      {
+        "id": "korea_main_cfd_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 10,
+            "search_boost": 2.0
+          }
+        }
+      },
+      {
+        "id": "hangseng_cfd_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 10,
+            "search_boost": 2.0
+          }
+        }
+      },
+      {
+        "id": "shanghai_cfd_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 10,
+            "search_boost": 2.0
+          }
+        }
+      },
+      {
+        "id": "bme_cfd_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 10,
+            "search_boost": 2.0
+          }
+        }
+      },
+      {
+        "id": "iceusa_cfd_indices",
+        "kinds": {
+          "rt": {
+            "priority": 10,
+            "search_boost": 2.0,
+            "prefix": "TVC",
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "us_chicago_indices",
         "kinds": {
           "rt": {
@@ -263,66 +334,6 @@
             "priority": 10,
             "search_boost": 2.0,
             "prefix": "TVC"
-          }
-        }
-      },
-      {
-        "id": "johannesburg_cfd_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "TVC",
-            "priority": 10,
-            "search_boost": 2.0
-          }
-        }
-      },
-      {
-        "id": "nzx_cfd_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "TVC",
-            "priority": 10,
-            "search_boost": 2.0
-          }
-        }
-      },
-      {
-        "id": "korea_main_cfd_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "TVC",
-            "priority": 10,
-            "search_boost": 2.0
-          }
-        }
-      },
-      {
-        "id": "hangseng_cfd_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "TVC",
-            "priority": 10,
-            "search_boost": 2.0
-          }
-        }
-      },
-      {
-        "id": "shanghai_cfd_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "TVC",
-            "priority": 10,
-            "search_boost": 2.0
-          }
-        }
-      },
-      {
-        "id": "bme_cfd_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "TVC",
-            "priority": 10,
-            "search_boost": 2.0
           }
         }
       },
@@ -7504,6 +7515,7 @@
           "delay": {
             "priority": 281,
             "prefix": "TADAWUL",
+            "skip_in_search": false,
             "prefix_alias": [
               "TADAWUL_DLY"
             ]
