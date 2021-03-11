@@ -202,7 +202,40 @@
         }
       },
       {
+        "id": "korea_main_cfd_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 10,
+            "search_boost": 2.0,
+            "perm": "tvc_cfd"
+          }
+        }
+      },
+      {
         "id": "hangseng_cfd_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 10,
+            "search_boost": 2.0,
+            "perm": "tvc_cfd"
+          }
+        }
+      },
+      {
+        "id": "shanghai_cfd_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "TVC",
+            "priority": 10,
+            "search_boost": 2.0,
+            "perm": "tvc_cfd"
+          }
+        }
+      },
+      {
+        "id": "bme_cfd_indices",
         "kinds": {
           "rt": {
             "prefix": "TVC",
