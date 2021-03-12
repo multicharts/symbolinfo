@@ -7315,7 +7315,7 @@
         }
       },
       {
-        "id": "uniswap",
+        "id": "uniswap2",
         "kinds": {
           "rt": {
             "prefix": "UNISWAP",
@@ -7431,6 +7431,16 @@
             "prefix": "BINANCEUS",
             "priority": 273,
             "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "uniswap",
+        "kinds": {
+          "rt": {
+            "prefix": "UNISWAP",
+            "priority": 274,
+            "skip_in_search": true
           }
         }
       },
