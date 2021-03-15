@@ -1343,7 +1343,6 @@
             "prefix": "INDEX",
             "priority": 47,
             "prefix_alias": [
-              "INDEX2",
               "_FR_INDEX"
             ]
           }
@@ -1521,16 +1520,6 @@
             "prefix_no_perm": [
               "TSE_DLY"
             ]
-          }
-        }
-      },
-      {
-        "id": "custom_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "INDEX",
-            "priority": 50,
-            "skip_in_search": true
           }
         }
       },
