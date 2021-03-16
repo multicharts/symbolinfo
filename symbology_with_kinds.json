@@ -1368,16 +1368,6 @@
         }
       },
       {
-        "id": "custom_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "INDEX",
-            "priority": 50,
-            "skip_in_search": true
-          }
-        }
-      },
-      {
         "id": "nse_stocks",
         "kinds": {
           "rt": {
@@ -7462,19 +7452,6 @@
               "_FR_INDEX"
             ],
             "skip_in_search": false
-          }
-        }
-      },
-      {
-        "id": "crypto_indices",
-        "kinds": {
-          "rt": {
-            "prefix": "INDEX",
-            "priority": 301,
-            "prefix_alias": [
-              "_FR_INDEX"
-            ],
-            "skip_in_search": true
           }
         }
       },
