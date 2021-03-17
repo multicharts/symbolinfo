@@ -7434,6 +7434,56 @@
         }
       },
       {
+        "id": "fxopen_crypto",
+        "kinds": {
+          "rt": {
+            "prefix": "FXOPEN",
+            "priority": 275,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "fxopen_stocks",
+        "kinds": {
+          "rt": {
+            "prefix": "FXOPEN",
+            "priority": 275,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "fxopen_indices",
+        "kinds": {
+          "rt": {
+            "prefix": "FXOPEN",
+            "priority": 275,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "fxopen_forex",
+        "kinds": {
+          "rt": {
+            "prefix": "FXOPEN",
+            "priority": 275,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
+        "id": "fxopen_commodity",
+        "kinds": {
+          "rt": {
+            "prefix": "FXOPEN",
+            "priority": 275,
+            "skip_in_search": false
+          }
+        }
+      },
+      {
         "id": "egyptian_indices",
         "kinds": {
           "rt": {
